@@ -88,18 +88,15 @@ Criteria, RCR iRefer). **Schițe — de validat clinic de editori** înainte de 
 
 ---
 
-## 4. Pediatrie — întrebări editoriale de stil (nu s-au atins datele)
+## 4. Pediatrie — chestiuni editoriale de stil
 
-Identificate la analiza capitolului; sunt decizii de stil, nu corecturi obiective →
-lăsate pentru editori.
-
-1. **Comentarii identice pe rânduri ale aceleiași situații** — perechile NR 12/13
-   (Constipație), NR 16/17 (Invaginație), NR 89/90 (Cefalee). Se păstrează (fiecare rând
-   rămâne autonom la consultare) sau se rezumă pe rândul principal? *Recomandare: păstrare
-   — ghidul e conceput cu rânduri auto-suficiente.*
-2. **Ordinea modalităților în cadrul unei situații** nu e uniformă (uneori E,G,M,T,N;
-   alteori G,E,...). Standardizarea ar cere renumerotarea `NR.CRT` (invaziv, beneficiu
-   doar cosmetic). *Recomandare: nu se schimbă acum.*
-3. **Grad indicație neuniform** pentru aceeași modalitate în situații similare (ex.
-   Ecografie „Masă abdominală" NR 22 = grad B vs. grad A în alte situații). Poate fi
-   intențional (context clinic diferit) → decizie clinică, nu se aliniază automat.
+1. **Comentarii identice pe rânduri ale aceleiași situații** (ex. NR 12/13, 16/17,
+   89/90) — **DECIS: se păstrează.** Fiecare comentariu aparține unei situații; e normal
+   ca rânduri diferite să fie identice. Rândurile rămân auto-suficiente. (Vezi CLAUDE.md.)
+2. **Ordinea indicațiilor în cadrul unei situații** — **DECIS: intențională, nu se
+   reordonează.** Reflectă prioritatea clinică. (Vezi CLAUDE.md.)
+3. **Gradele nu se modifică** (vezi CLAUDE.md). Cazuri care par evident greșite, de
+   verificat de editori (listă deschisă):
+   - _(niciunul confirmat încă)_ — ex. semnalat la analiză: Ecografie „Masă abdominală
+     sau pelvină palpabilă" NR 22 = grad B, în timp ce ecografia e grad A în situații
+     similare. Probabil intențional (context clinic diferit); de reconfirmat.

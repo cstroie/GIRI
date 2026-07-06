@@ -57,6 +57,13 @@ Rulează `python3 tools/validate.py` și verifică:
 - **Perechi duplicate păstrate intențional** (de studiat de editori — NU comasa):
   Ecografie „Suspiciune de masă pelvină" (grad C vs A) și Infiltrație „Rahialgie /
   Radiculalgie" (coduri PC5 vs PC7).
+- **Ordinea indicațiilor (examenelor) în cadrul unei situații este intențională** —
+  NU o reordona (nici „standardizat după iradiere"). Reflectă prioritatea clinică.
+- **Comentariile identice pe rânduri diferite se păstrează.** Fiecare comentariu
+  aparține unei situații; e normal ca rânduri (examene) diferite din aceeași situație
+  să aibă comentariu identic. NU dedublica / rezuma — fiecare rând rămâne auto-suficient.
+- **Gradele de indicație NU se modifică.** Dacă un grad pare evident greșit, NU-l
+  schimba singur — notează-l în `EDITORIAL-decisions.md` pentru decizia editorilor.
 
 ## Decizii încă deschise (în `EDITORIAL-decisions.md`)
 
