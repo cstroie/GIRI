@@ -65,8 +65,8 @@ Rulează `python3 tools/validate.py` și verifică:
 
 ## Maparea capitol origine → subcapitol RI (pentru mutări viitoare de intervențional)
 
-Traumatisme→Traumatisme · Cancer→Oncologie · Ap. cardiovascular→Ap. cardiovascular ·
-Torace→Ap. respirator · Ap. digestiv→Ap. digestiv · Ap. uro-genital→Ap. urogenital ·
-Obstetrică-ginecologie→Ap. urogenital · Sân→Oncologie · Cap→Sistem nervos ·
-Gât→Ap. endocrin (dar „Masă cervicală"→Oncologie) · Coloană→Ap. locomotor (dar
-embolizări spinale→Sistem nervos) · Ap. locomotor→Ap. locomotor.
+Traumatisme→Traumatisme · Cancer→Oncologie · Aparat cardiovascular→Aparat cardiovascular ·
+Torace→Aparat respirator · Aparat digestiv→Aparat digestiv · Aparat uro-genital→Aparat urogenital ·
+Obstetrică-ginecologie→Aparat urogenital · Sân→Oncologie · Cap→Sistem nervos ·
+Gât→Aparat endocrin (dar „Masă cervicală"→Oncologie) · Coloană→Aparat locomotor (dar
+embolizări spinale→Sistem nervos) · Aparat locomotor→Aparat locomotor.
