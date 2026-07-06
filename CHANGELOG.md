@@ -165,7 +165,16 @@ rânduri — doar textul situației. Exemple:
 ## 1. Pediatrie
 _NR 1–155_
 
-- _(fără modificări de conținut; renumerotare globală)_
+- **MODIFICAT (date) —** corecturi ortografice și de tipar pe ~25 de rânduri
+  (ex. „Examentul"→„Examenul", „Apatrat"→„Aparat" în titlurile NR 109–112,
+  „paraverterale"→„paravertebrale", „documnetată"→„documentată", „hipetricoza"→
+  „hipertricoza") și diacritice-ț lipsă („mictional"→„micțional", „infectie"→„infecție",
+  „functie"→„funcție", „in"→„în"). Fără schimbare de sens clinic.
+- **MODIFICAT (date) —** normalizat câmpul „Examen" multi-linie la scintigrafii
+  (NR 47, 55, 61, 71 — osoasă; NR 130, 137, 140 — renală): eliminat newline-urile și
+  liniile goale reziduale, „WB si"→„WB și".
+- _Analiza editorială și omisiunile de patologie → `EDITORIAL-decisions.md` §3–4
+  (propuneri de adăugat + întrebări de stil; nicio inserare de rânduri noi în date)._
 
 ## 2. Traumatisme
 _NR 156–280_
