@@ -22,7 +22,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | 5 | `Tip` | Codul modalității imagistice (vezi legenda). |
 | 6 | `Examen` | Denumirea investigației / procedurii. |
 | 7 | `Indicație` | Gradul de recomandare (vezi legenda). |
-| 8 | `Grad Indicație` | Nivel de evidență (A / B / C / ? etc.). |
+| 8 | `Grad Indicație` | Nivel de evidență: A = dovezi solide, B = dovezi moderate, C = consens / dovezi limitate (vezi legenda). |
 | 9 | `Comentarii` | Note clinice. |
 | 10 | `Alte informații` | Coduri interne (ex. „RI - PCx"), referințe. |
 | 11 | `Doza Min` | Doză minimă (mSv sau scală relativă). |
@@ -49,6 +49,15 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 `Indicat` · `Doar în cazuri particulare` · `Doar cu aviz specializat` ·
 `Este necesară justificare detaliată` · `Neindicat` · `Neindicat în primă intenție` ·
 `Vezi Detalii Ghid!`
+
+### Legenda `Grad Indicație` (nivel de evidență)
+
+| Grad | Semnificație |
+|---|---|
+| `A` | Dovezi solide |
+| `B` | Dovezi moderate |
+| `C` | Consens / dovezi limitate |
+| `?` | Neprecizat |
 
 ## Structura pe capitole (1488 rânduri)
 
