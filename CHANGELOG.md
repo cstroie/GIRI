@@ -34,7 +34,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1515 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1526 rânduri, 13 coloane)
 
 > **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
 > inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
@@ -43,7 +43,7 @@ indicații radioimagistice.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | [Pediatrie](#1-pediatrie) | 1–155 (fără 113) · 1488–1516 | 183 |
+| 1 | [Pediatrie](#1-pediatrie) | 1–155 (fără 113) · 1488–1527 | 194 |
 | 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 | 125 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
@@ -209,6 +209,21 @@ _NR 1–155 · 1488–1505_
   conținut) — înlocuit de situația reală „Tumori cerebrale și medulare la copil". Ștergere
   fără renumerotare → NR.CRT are o gaură la 113 (tolerată; `validate.py` o semnalează ca
   avertisment).
+- **ADĂUGAT — încă 3 situații de oncologie pediatrică** în `Pediatrie › Oncologie` (11 rânduri
+  noi, NR 1517–1527):
+  - **Retinoblastom (leucocorie / strabism)** (3): IRM orbite și cerebral cu contrast
+    (*Indicat, A* — referință), Ecografie oculară (*Indicat, B*), **CT orbite (*Neindicat, B*)** —
+    de evitat la copil (iradiere oculară + risc de a doua neoplazie la purtătorii RB1).
+  - **Rabdomiosarcom / sarcom de părți moi** (4): IRM regiune primară (*Indicat, A*), CT toracic
+    (*Indicat, B* — metastaze pulmonare), PET-CT (*Doar cu aviz specializat, B*), Ecografie
+    (*Doar în cazuri particulare, B*).
+  - **Histiocitoză cu celule Langerhans (LCH)** (4): Radiografie os/craniu (*Indicat, B*),
+    IRM regiune + SNC (*Indicat, B* — axă hipotalamo-hipofizară / diabet insipid), PET-CT
+    (*Doar cu aviz specializat, B*), Radiografie toracică (*Doar în cazuri particulare, C*).
+- **MODIFICAT — enriched „Masă abdominală sau pelvină palpabilă"** (NR 22–25): completat câmpul
+  „Alte informații" cu diagnosticul diferențial (nefroblastom/Wilms, neuroblastom, hepatoblastom,
+  limfom Burkitt, tumori germinale/teratom, nefrom mezoblastic) — astfel o **căutare** după numele
+  tumorii întoarce situația de masă abdominală. (4 rânduri modificate, doar coloana 10.)
 
 - **ADĂUGAT — 5 situații de traumă pediatrică lipsă** în `Pediatrie › Traumatisme`
   (16 rânduri noi, NR 1489–1504; indicații/grade aliniate la ACR Appropriateness

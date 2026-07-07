@@ -132,9 +132,11 @@ Consecințe de decis:
   Împreună cu alte 4 situații de traumă pediatrică lipsă (coloană cervicală, torace, membru,
   politraumatism) — vezi CHANGELOG §1.
 - ✅ **Oncologia pediatrică — REZOLVAT.** Creat `Pediatrie › Oncologie`; mutată „Masă
-  abdominală palpabilă"; adăugate 4 situații (tumori cerebrale/medulare, limfom, tumori
-  osoase, neuroblastom-stadializare) și eliminat breadcrumb-ul stub NR 113 — vezi CHANGELOG §1.
-  „Adenopatii cervicale" (NR 66) rămâne în „Gât și coloană" (încadrare inflamatorie la copil).
+  abdominală palpabilă" (îmbogățită cu diagnosticul diferențial pentru căutare); adăugate
+  **7 situații** (tumori cerebrale/medulare, retinoblastom, neuroblastom-stadializare, limfom,
+  tumori osoase, rabdomiosarcom/sarcom de părți moi, histiocitoză Langerhans) și eliminat
+  breadcrumb-ul stub NR 113 — vezi CHANGELOG §1. „Adenopatii cervicale" (NR 66) rămâne în
+  „Gât și coloană" (încadrare inflamatorie la copil).
 
 > Cu aceasta, capitolul **Pediatrie** are ambele bucket-uri de context (Traumatisme,
 > Oncologie) complete; nu mai sunt breadcrumb-uri interne sau de trimitere la capitolul adult.
