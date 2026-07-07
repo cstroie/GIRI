@@ -111,6 +111,10 @@ Rulează `python3 tools/validate.py` și verifică:
 - **Comentariile identice pe rânduri diferite se păstrează.** Fiecare comentariu
   aparține unei situații; e normal ca rânduri (examene) diferite din aceeași situație
   să aibă comentariu identic. NU dedublica / rezuma — fiecare rând rămâne auto-suficient.
+- **Diagnosticul diferențial (și orice notă clinică) merge în coloana `Comentarii`
+  (col. 9), NU în `Alte informații` (col. 10).** Per schemă: `Comentarii` = note clinice;
+  `Alte informații` = coduri interne (ex. „RI - PCx") și referințe. O listă de diferențial
+  e conținut clinic → `Comentarii` (căutarea o găsește oricum, indiferent de coloană).
 - **Gradele de indicație NU se modifică.** Dacă un grad pare evident greșit, NU-l
   schimba singur — notează-l în `EDITORIAL-decisions.md` pentru decizia editorilor.
 
