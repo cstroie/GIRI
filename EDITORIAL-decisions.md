@@ -191,3 +191,17 @@ organ-sistem în Traumatisme.
   = doar corpul străin penetrant de părți moi? De discutat în echipă.
 
 > Status: **neatins**. Nicio mutare acum.
+
+---
+
+## 9. Coloană cervicală — „CT-întâi" (modernizare, separat de consolidare)
+
+Consolidarea celor 9 situații în 5 (CHANGELOG §2) a **păstrat filozofia ghidului:
+radiografie-întâi la pacientul cu risc scăzut / benign** („Traumatism cervical benign"
+spunea explicit „nu există argumente pentru a înlocui radiografia cu CT", grad A).
+
+**De decis separat:** practica modernă (ACR Appropriateness Criteria, EAST, NICE NG41)
+recomandă **CT-întâi** pentru orice pacient care necesită imagistică (CT a înlocuit
+radiografia ca test de screening primar; radiografia rămâne pentru cazuri selectate).
+Trecerea la „CT-întâi" ar schimba indicațiile/gradele pe situația de evaluare inițială —
+o decizie clinică de sine stătătoare, nu de amestecat în consolidare. De discutat în echipă.

@@ -34,7 +34,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1531 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1524 rânduri, 13 coloane)
 
 > **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
 > inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
@@ -44,7 +44,7 @@ indicații radioimagistice.
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–155 (fără 64, 113) · 1488–1530 | 196 |
-| 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 · 1531–1533 | 128 |
+| 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 · 1531–1533 | 121 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
 | 5 | [Torace](#5-torace) | 602–676 | 75 |
@@ -303,6 +303,27 @@ _NR 156–278 · 1486–1487 · 1531–1533_
   _Angiografia convențională (DSA) — reper istoric, invazivă — nu se include aici (Tip A → RI)._
 - _Granița **Abdomen vs Bazin** (suprapunerea „Traumatism abdominal major și/sau de bazin"
   cu „Traumatism izolat de bazin") → decizie editorială deschisă, `EDITORIAL-decisions.md` §7._
+- **RESTRUCTURAT — consolidarea subcapitolului „Coloană cervicală"** (9 situații suprapuse
+  → **5 rungi clinice clare**; 21 → 14 rânduri, −7). Comentariile bogate au fost **contopite,
+  nu pierdute**; recomandările de modalitate ale ghidului au fost **păstrate** (radiografie-întâi
+  la risc scăzut — modernizarea „CT-întâi" e o decizie editorială separată).
+  - **„Traumatism cervical — evaluare inițială (reguli NEXUS / Canadian C-Spine Rule)"** —
+    contopește „Cervicalgii posttraumatice" + „Pacient conștient cu leziune cap/față" +
+    „Traumatism cervical benign".
+  - **„…durere persistentă cu bilanț radiografic normal (suspiciune de leziune ligamentară)"** —
+    contopește cele două situații identice (bilanț normal + simptome algice/ligamentar).
+  - **„Pacient inconștient / obnubilat cu traumatism cranian"** — păstrată; radiografia
+    coborâtă Indicat → *Doar în cazuri particulare* (CT preferat, cf. propriilor comentarii).
+  - **„Traumatism cervical sever cu deficit neurologic"** — contopește sinonimele „cu afectare
+    neurologică" și „cu deficit neurologic" (aveau recomandări **contradictorii**); rezolvat:
+    CT **și** IRM = Indicat, Radiografie = Neindicat (A).
+  - **„Traumatism cervical sever, fără deficit neurologic"** — păstrată (redenumită din
+    „fără afectare neurologică").
+  - **Referințe** (NEXUS — Hoffman, NEJM 2000; Canadian C-Spine Rule — Stiell, JAMA 2001;
+    ACR Appropriateness Criteria – Suspected Spine Trauma) adăugate în **„Alte informații"**.
+  - Bonus: două rânduri (fostele IRM/dinamice) aveau **note clinice greșit plasate în „Alte
+    informații"** → mutate în „Comentarii" (per regula din CLAUDE.md).
+  - Șterse 7 rânduri (fără renumerotare; găuri la NR 187, 190, 191, 192, 194, 197, 198).
 - **MODIFICAT — completate 6 grade „?" (neprecizat)** pe rânduri „Neindicat" (nivelul de
   evidență lipsea; recomandarea era deja corectă). Aliniere la ACR Appropriateness Criteria /
   RCR iRefer / NICE: Radiografie de craniu (traumatism cranian) = **A**; Radiografie nazală,
