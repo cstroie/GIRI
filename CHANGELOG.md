@@ -29,34 +29,37 @@ indicații radioimagistice.
 - **RESTRUCTURAT** — reorganizare (subcapitole, ordine).
 - **⛔ BREAKING** — schimbare incompatibilă cu versiunea aprobată.
 
-> ⚠️ **NR.CRT au fost renumerotate integral 1..1488.** Numerotarea veche (din versiunea
-> aprobată) nu se mai păstrează — referințele se fac prin capitol + situație clinică.
+> ⚠️ **NR.CRT au fost renumerotate integral 1..1524** (renumerotare la cerere, 2026-07, după
+> finalizarea lucrului pe capitolele Pediatrie și Traumatisme). Numerotarea veche nu se
+> păstrează — referințele se fac prin capitol + situație clinică. **Referințele NR.CRT din
+> intrările istorice de mai jos reflectă starea de la momentul modificării** (înainte de această
+> renumerotare) și nu mai corespund ID-urilor curente.
 
 ---
 
 ## Structura ghidului (după modificări — 14 capitole, 1524 rânduri, 13 coloane)
 
-> **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
-> inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
-> **indicativă** și unele capitole au și ID-uri neconsecutive. Referă rândurile prin
+> **NR.CRT contigue 1..1524** după renumerotarea la cerere. Pe viitor **nu se renumerotează
+> automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc ID-uri la finalul
+> secvenței, până la o nouă renumerotare cerută explicit. Referă rândurile prin
 > **Capitol + Situație clinică**, nu prin NR.CRT.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | [Pediatrie](#1-pediatrie) | 1–155 (fără 64, 113) · 1488–1530 | 196 |
-| 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 · 1531–1533 | 121 |
-| 3 | [Cancer](#3-cancer) | 279–514 | 236 |
-| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
-| 5 | [Torace](#5-torace) | 602–676 | 75 |
-| 6 | [Aparat digestiv](#6-aparat-digestiv) | 677–803 | 127 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 804–872 | 69 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 873–899 | 27 |
-| 9 | [Sân](#9-sân) | 900–955 | 56 |
-| 10 | [Cap](#10-cap) | 956–1075 | 120 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1076–1093 | 18 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1094–1148 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1149–1235 | 87 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1236–1485 | 250 |
+| 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
+| 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
+| 3 | [Cancer](#3-cancer) | 318–553 | 236 |
+| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 554–640 | 87 |
+| 5 | [Torace](#5-torace) | 641–715 | 75 |
+| 6 | [Aparat digestiv](#6-aparat-digestiv) | 716–842 | 127 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 843–911 | 69 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 912–938 | 27 |
+| 9 | [Sân](#9-sân) | 939–994 | 56 |
+| 10 | [Cap](#10-cap) | 995–1114 | 120 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1115–1132 | 18 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1133–1187 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1188–1274 | 87 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1275–1524 | 250 |
 
 ---
 
@@ -184,7 +187,7 @@ rânduri — doar textul situației. Exemple:
 ---
 
 ## 1. Pediatrie
-_NR 1–155 (fără 64, 113) · 1488–1530_
+_NR 1–196_
 
 ### Rafinări `Pediatrie › Traumatisme`
 - **ADĂUGAT — „Traumatism de coloană toraco-lombară la copil"** (3 rânduri, NR 1528–1530):
@@ -289,7 +292,7 @@ _NR 1–155 (fără 64, 113) · 1488–1530_
   (propuneri de adăugat + întrebări de stil; nicio inserare de rânduri noi în date)._
 
 ## 2. Traumatisme
-_NR 156–278 · 1486–1487 · 1531–1533_
+_NR 197–317_
 
 - **ELIMINAT — breadcrumb adult → Pediatrie.** Situația „Traumatism cranio-cerebral
   (pentru copii – vezi capitolul Pediatrie)" → „Traumatism cranio-cerebral" (subcapitol
@@ -374,25 +377,25 @@ _NR 156–278 · 1486–1487 · 1531–1533_
   gambă — acoperite implicit de radiografia regională).
 
 ## 3. Cancer
-_NR 279–514_
+_NR 318–553_
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** subcapitol „Ficat, colecist şi pancreas" normalizat (vezi Modificări globale).
 
 ## 4. Aparat cardiovascular
-_NR 515–601_
+_NR 554–640_
 
 - **MUTAT —** 54 rânduri intervenționale (embolizări, angioplastii, protezări,
   angiografie invazivă) relocate la RI › Aparat cardiovascular. Capitolul se reduce
   substanțial (rămân investigațiile diagnostice).
 
 ## 5. Torace
-_NR 602–676_
+_NR 641–715_
 
 - **MUTAT —** 11 rânduri intervenționale relocate la RI › Aparat respirator.
 
 ## 6. Aparat digestiv
-_NR 677–803_
+_NR 716–842_
 
 - **ELIMINAT — subcapitol-husk „Traumatisme abdominale"** (conținea doar rândul-placeholder
   Tip Z). Anti-pattern context-în-anatomie: trauma abdominală stă în capitolul Traumatisme,
@@ -403,46 +406,46 @@ _NR 677–803_
 - **MODIFICAT (date) —** eticheta „Aparat digestiv " (spațiu în plus, 5 rânduri) unificată sub „Aparat digestiv".
 
 ## 7. Aparat uro-genital și glande suprarenale
-_NR 804–872_
+_NR 843–911_
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Aparat urogenital.
 
 ## 8. Obstetrică și ginecologie
-_NR 873–899_
+_NR 912–938_
 
 - **MUTAT —** 3 rânduri intervenționale relocate la RI › Aparat urogenital.
 - **MODIFICAT (date) —** subcapitol „Sarcina"/„Sarcină" unificat la „Sarcină" (majoritar).
 
 ## 9. Sân
-_NR 900–955_
+_NR 939–994_
 
 - **MUTAT —** 4 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** spații finale parazite pe „…cancer  " eliminate (12 rânduri).
 
 ## 10. Cap
-_NR 956–1075_
+_NR 995–1114_
 
 - **MUTAT —** 25 rânduri intervenționale (neurovasculare) relocate la RI › Sistem nervos.
 
 ## 11. Gât (părți moi)
-_NR 1076–1093_
+_NR 1115–1132_
 
 - **MUTAT —** 8 rânduri intervenționale (PCAFGE) relocate la RI: tiroidă/paratiroidă
   → Aparat endocrin; „Masă cervicală" → Oncologie.
 
 ## 12. Coloană vertebrală
-_NR 1094–1148_
+_NR 1133–1187_
 
 - **MUTAT —** 7 rânduri intervenționale relocate la RI: vertebroplastie / biopsie /
   infiltrație → Aparat locomotor; embolizări spinale → Sistem nervos.
 
 ## 13. Aparat locomotor
-_NR 1149–1235_
+_NR 1188–1274_
 
 - **MUTAT —** 13 rânduri intervenționale relocate la RI › Aparat locomotor.
 
 ## 14. Radiologie intervențională
-_NR 1236–1485 (250 rânduri)_
+_NR 1275–1524 (250 rânduri)_
 
 - **RESTRUCTURAT —** capitolul primește cele 243 rânduri mutate din restul ghidului,
   grupate pe cele 9 subcapitole de organ. După comasarea a 160 duplicate exacte (mutare)
