@@ -117,9 +117,9 @@ Din analiza capitolului Traumatisme (NR 156–280, 125 rânduri). Corecturile or
   primește)? Recomandare: eliminare / contopire în „Abdomen". **Lăsat neatins** până la
   decizie.
 
-### 5.2 Cvasi-duplicat NR 178 / 179 (Cap, PET-CT/SPECT)
-- Cele două rânduri sunt identice cu excepția unei diferențe triviale în Comentarii
-  („PET-CT" vs „PET"). Pare duplicat accidental. Detalii și decizie → `DUPLICATE-review.md` §C.
+### 5.2 Cvasi-duplicat NR 178 / 179 (Cap, PET-CT/SPECT) — REZOLVAT
+- Rândurile difereau doar prin „PET-CT" vs „PET" în Comentarii. **Comasate** (decizie
+  editor): păstrată varianta „PET-CT". Detalii → `DUPLICATE-review.md` §C.
 
 ### 5.3 Omisiuni de patologie (propuneri — de validat clinic)
 Situații traumatice frecvente aparent neacoperite. **Schițe orientative** (ACR

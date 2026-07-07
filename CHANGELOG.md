@@ -34,24 +34,24 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1488 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1487 rânduri, 13 coloane)
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–155 | 155 |
-| 2 | [Traumatisme](#2-traumatisme) | 156–280 | 125 |
-| 3 | [Cancer](#3-cancer) | 281–516 | 236 |
-| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 517–603 | 87 |
-| 5 | [Torace](#5-torace) | 604–678 | 75 |
-| 6 | [Aparat digestiv](#6-aparat-digestiv) | 679–806 | 128 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 807–875 | 69 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 876–902 | 27 |
-| 9 | [Sân](#9-sân) | 903–958 | 56 |
-| 10 | [Cap](#10-cap) | 959–1078 | 120 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1079–1096 | 18 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1097–1151 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1152–1238 | 87 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1239–1488 | 250 |
+| 2 | [Traumatisme](#2-traumatisme) | 156–279 | 124 |
+| 3 | [Cancer](#3-cancer) | 280–515 | 236 |
+| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 516–602 | 87 |
+| 5 | [Torace](#5-torace) | 603–677 | 75 |
+| 6 | [Aparat digestiv](#6-aparat-digestiv) | 678–805 | 128 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 806–874 | 69 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 875–901 | 27 |
+| 9 | [Sân](#9-sân) | 902–957 | 56 |
+| 10 | [Cap](#10-cap) | 958–1077 | 120 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1078–1095 | 18 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1096–1150 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1151–1237 | 87 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1238–1487 | 250 |
 
 ---
 
@@ -192,9 +192,12 @@ _NR 156–280_
   eliminate spații finale la „…esofagian înalt" (NR 218–220), „Traumatism de pumn"
   (NR 258–261) și „Ecografie" (NR 266). Nu afectează gruparea (spațiul era pe toate
   rândurile din grup).
+- **ELIMINAT / COMASAT —** cvasi-duplicatul **NR 178/179** (Cap, „Traumatism cranio-encefalic",
+  PET-CT/SPECT) comasat: rândurile difereau doar prin „PET-CT" vs „PET" în Comentarii; s-a
+  păstrat varianta „PET-CT" (aliniată la eticheta Examen). Renumerotare 1..1487. (−1 rând)
 - _Chestiuni lăsate pentru editori → `EDITORIAL-decisions.md` §5: subcapitolul-shell
-  „Aparat digestiv" (doar placeholder), cvasi-duplicatul NR 178/179 (→ `DUPLICATE-review.md` §C),
-  omisiuni de patologie (traumatism vascular de membru etc.), „lemn pictat" (NR 221)._
+  „Aparat digestiv" (doar placeholder), omisiuni de patologie (traumatism vascular de
+  membru etc.), „lemn pictat" (NR 221)._
 
 ## 3. Cancer
 _NR 281–516_
