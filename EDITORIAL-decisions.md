@@ -100,3 +100,144 @@ Criteria, RCR iRefer). **Schițe — de validat clinic de editori** înainte de 
    - _(niciunul confirmat încă)_ — ex. semnalat la analiză: Ecografie „Masă abdominală
      sau pelvină palpabilă" NR 22 = grad B, în timp ce ecografia e grad A în situații
      similare. Probabil intențional (context clinic diferit); de reconfirmat.
+
+---
+
+## 5. Subcapitole-husk rămase de confirmat (audit global)
+
+Găsite la auditul global (vezi și `CLAUDE.md` › „Ierarhia capitolelor"). **Husk** =
+subcapitol cu **doar** rândul-placeholder Tip Z, fără situație reală. Cele din capitolele
+**Traumatisme** și **Aparat digestiv** au fost deja eliminate (vezi CHANGELOG). Rămân
+**2 husk-uri, în capitole încă nerevizuite** — de eliminat când se ajunge la ele:
+
+- ⏳ **„Aparat digestiv › Abdomen"** — bucket generic gol; capitolul e organizat pe organ
+  („Ficat, colecist și pancreas", „Tub digestiv"). Recomandare: eliminare. (cap. 6)
+- ⏳ **„Aparat uro-genital › Uter și anexe"** — conținutul de uter/anexe trăiește în
+  Obstetrică-ginecologie (Ginecologie / Sarcină) și Cancer (col/corp uterin).
+  Recomandare: eliminare. (cap. 7)
+
+> Chestiunile din capitolul **Traumatisme** (omisiuni, „lemn pictat", cvasi-duplicat
+> NR 178/179) au fost rezolvate — vezi CHANGELOG §2 și `DUPLICATE-review.md` §C.
+
+---
+
+## 6. Pediatrie — bucket-uri de context (după crearea „Pediatrie › Traumatisme")
+
+S-a creat subcapitolul de context **`Pediatrie › Traumatisme`** (relocare pură, CHANGELOG §1).
+Consecințe de decis:
+
+- ✅ **Trauma abdominală majoră pediatrică — REZOLVAT.** Adăugat rândul „Traumatism
+  abdominal major la copil" (eco FAST, CT cu contrast, CEUS, radiografie) și retras
+  breadcrumb-ul de pe forma minoră; perechea e acum simetrică („minor / major la copil").
+  Împreună cu alte 4 situații de traumă pediatrică lipsă (coloană cervicală, torace, membru,
+  politraumatism) — vezi CHANGELOG §1.
+- ✅ **Oncologia pediatrică — REZOLVAT.** Creat `Pediatrie › Oncologie`; mutată „Masă
+  abdominală palpabilă" (îmbogățită cu diagnosticul diferențial pentru căutare); adăugate
+  **7 situații** (tumori cerebrale/medulare, retinoblastom, neuroblastom-stadializare, limfom,
+  tumori osoase, rabdomiosarcom/sarcom de părți moi, histiocitoză Langerhans) și eliminat
+  breadcrumb-ul stub NR 113 — vezi CHANGELOG §1. „Adenopatii cervicale" (NR 66) rămâne în
+  „Gât și coloană" (încadrare inflamatorie la copil).
+
+> Cu aceasta, capitolul **Pediatrie** are ambele bucket-uri de context (Traumatisme,
+> Oncologie) complete; nu mai sunt breadcrumb-uri interne sau de trimitere la capitolul adult.
+
+---
+
+## 7. Traumatisme (adult) — granița Abdomen vs Bazin
+
+**Situația:** capitolul Traumatisme are două subcapitole care ating bazinul:
+
+- **`Abdomen`** → o singură situație: **„Traumatism abdominal major și/sau de bazin"**
+  (Ecografie, Radiografie abdominală și/sau de bazin, CT abdomino-pelvin).
+- **`Bazin și sacru`** → **„Traumatism izolat de bazin"** (CT de bazin, Radiografie de
+  bazin, IRM de bazin).
+
+Prin urmare, trauma de bazin apare în **două locuri**: forma combinată (abdomino-pelvină,
+politraumatism de mare energie) în „Abdomen", forma izolată (inel pelvin) în „Bazin și sacru".
+
+**Opțiuni:**
+1. **Păstrare (recomandarea mea).** Cele două reflectă scenarii clinice distincte: trauma
+   abdominală majoră cu interesare pelvină se explorează printr-un **CT abdomino-pelvin
+   unic** (o situație), pe când fractura izolată de bazin e un workup separat. Suprapunerea
+   e intențională, nu o eroare. Eventual s-ar clarifica doar formularea („și/sau de bazin"
+   = «când coexistă cu trauma abdominală»).
+2. **Separare strictă.** „Abdomen" devine pur abdominal („Traumatism abdominal major"),
+   iar tot ce ține de bazin (izolat + combinat) merge la „Bazin și sacru". Dezavantaj:
+   trauma combinată abdomino-pelvină nu are un home natural (se explorează împreună).
+3. **Comasare** într-un subcapitol „Abdomen și bazin". Dezavantaj: pierde distincția
+   regiune-anatomică curată.
+
+> Status: ✅ **REZOLVAT — opțiunea 1** (păstrare + clarificare). Cele două situații sunt
+> clinic distincte (viscere abdominale ± bazin pe același CT, vs inel pelvin osos izolat);
+> nu s-au comasat. Situația din „Abdomen" a fost redenumită „Traumatism abdominal major"
+> (fără „și/sau de bazin"), iar comentariul CT precizează că achiziția trebuie să includă
+> bazinul. Vezi CHANGELOG §2.
+
+---
+
+## 8. Traumatisme (adult) — sub-axa regiune + fațete; „Corp străin › Ingestie"
+
+**Decis (documentat în `CLAUDE.md`):** sub-axa Traumatisme = **regiune anatomică + un set
+închis de 4 fațete cross-region** (Sistem vascular, Politraumatism, Corp străin, Aparat
+urogenital). Fiecare fațetă traversează regiuni și are un workup coerent; dizolvarea lor în
+regiuni ar fragmenta topicuri clinice unitare. Setul e închis — fără alte subcapitole
+organ-sistem în Traumatisme.
+
+**De discutat mai departe — „Corp străin" conține două lucruri diferite:**
+- **„Traumatism de părți moi cu suspiciune de corp străin"** (metal, sticlă, lemn) —
+  penetrant, **clar traumă**. ✓ rămâne.
+- **„Ingestie de corp străin, situat la nivel faringian sau esofagian înalt"** — corp
+  străin **ingerat**, care e mai degrabă patologie **digestivă / ORL**, nu traumă. Paralel
+  cu decizia pediatrică (corpul străin la copil → capitolul Torace/respirator, nu Traumatisme).
+  **Decizie (utilizator): rămâne deocamdată în Traumatisme › Corp străin**, dar de reevaluat:
+  se mută la Aparat digestiv (sau un capitol ORL / căi aero-digestive), lăsând „Corp străin"
+  = doar corpul străin penetrant de părți moi? De discutat în echipă.
+
+> Status: **neatins**. Nicio mutare acum.
+
+---
+
+## 9. Coloană cervicală — „CT-întâi" (modernizare, separat de consolidare)
+
+Consolidarea celor 9 situații în 5 (CHANGELOG §2) a **păstrat filozofia ghidului:
+radiografie-întâi la pacientul cu risc scăzut / benign** („Traumatism cervical benign"
+spunea explicit „nu există argumente pentru a înlocui radiografia cu CT", grad A).
+
+**De decis separat:** practica modernă (ACR Appropriateness Criteria, EAST, NICE NG41)
+recomandă **CT-întâi** pentru orice pacient care necesită imagistică (CT a înlocuit
+radiografia ca test de screening primar; radiografia rămâne pentru cazuri selectate).
+Trecerea la „CT-întâi" ar schimba indicațiile/gradele pe situația de evaluare inițială —
+o decizie clinică de sine stătătoare, nu de amestecat în consolidare. De discutat în echipă.
+
+---
+
+## 10. Situații de traumă rămase în capitole diagnostice (de reconciliat la parsarea lor)
+
+Căutare (2026-07) în capitolele diagnostice (exclus Pediatrie, RI, Traumatisme) după
+situații de **leziune traumatică acută** care, per ierarhie (regula 4), ar trebui să stea în
+**Traumatisme**. Rezultat: un singur cluster real, tot în capitolul **Cap** — și **paralel
+(nu identic)** cu situații deja existente în Traumatisme, deci necesită **reconciliere**
+(nu mutare oarbă): se compară cele două versiuni, se păstrează conținutul mai bun/complet,
+se elimină duplicatul. **De făcut la parsarea capitolului Cap**, nu acum.
+
+**De mutat/reconciliat (Cap → Traumatisme):**
+- `Cap › Neuro` → **Traumatisme cranio-encefalice** ↔ `Traumatisme › Cap: Traumatism cranio-cerebral`
+  (cvasi-identice; versiunea din Cap are încă gradul „?" la radiografia de craniu).
+- `Cap › ORL` → **Traumatism orbită – prin obiecte neascuțite** ↔ `Față și orbite: Traumatism orbitar contondent`
+- `Cap › ORL` → **Traumatism orbită – prin perforare** ↔ `Față și orbite: Traumatism orbitar penetrant`
+- `Cap › ORL` → **Traumatisme ale stâncii temporalului** ↔ `Față și orbite: Traumatism stâncă temporală`
+- `Cap › ORL` → **Traumatismul în 1/3 centrală a feței** ↔ `Față și orbite: Leziune facială centrală`
+- `Cap › ORL` → **Traumatismul mandibulei** ↔ `Față și orbite: Traumatism mandibular`
+  (versiunea din Cap e mai bogată — include ATM, CBCT; de reconciliat cu atenție).
+- `Cap › ORL` → **Traumatismul nazal** ↔ `Față și orbite: Traumatism nazal`
+- _Legat de §8:_ `Cap › ORL → Corp străin faringian sau esofagian înalt` — corp străin ingerat
+  (aceeași chestiune ca `Traumatisme › Corp străin: Ingestie…`). De decis împreună (ORL/digestiv vs traumă).
+
+**Fals-pozitive (NU sunt traumă acută — rămân unde sunt):**
+- `Coloană › Bilanț fractură vertebrală spontană` (fractură spontană/patologică).
+- `Coloană › Sindrom medular (în afara traumatismelor coloanei vertebrale)` (explicit ne-traumatic).
+- `Coloană cervicală › Posibilitate de subluxație atlanto-axoidiană` (de regulă reumatoidă/congenitală).
+- `Aparat locomotor › Gonalgie (meniscală/condropatie)` (patologie cronică internă a genunchiului).
+
+> Status: **inventariat, neatins.** Reconcilierea se face la parsarea capitolelor de origine
+> (în principal Cap). Nu s-a mutat nimic acum.

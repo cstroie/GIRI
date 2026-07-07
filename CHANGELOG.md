@@ -29,33 +29,57 @@ indicații radioimagistice.
 - **RESTRUCTURAT** — reorganizare (subcapitole, ordine).
 - **⛔ BREAKING** — schimbare incompatibilă cu versiunea aprobată.
 
-> ⚠️ **NR.CRT au fost renumerotate integral 1..1488.** Numerotarea veche (din versiunea
-> aprobată) nu se mai păstrează — referințele se fac prin capitol + situație clinică.
+> ⚠️ **NR.CRT au fost renumerotate integral 1..1524** (renumerotare la cerere, 2026-07, după
+> finalizarea lucrului pe capitolele Pediatrie și Traumatisme). Numerotarea veche nu se
+> păstrează — referințele se fac prin capitol + situație clinică. **Referințele NR.CRT din
+> intrările istorice de mai jos reflectă starea de la momentul modificării** (înainte de această
+> renumerotare) și nu mai corespund ID-urilor curente.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1488 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1524 rânduri, 13 coloane)
+
+> **NR.CRT contigue 1..1524** după renumerotarea la cerere. Pe viitor **nu se renumerotează
+> automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc ID-uri la finalul
+> secvenței, până la o nouă renumerotare cerută explicit. Referă rândurile prin
+> **Capitol + Situație clinică**, nu prin NR.CRT.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | [Pediatrie](#1-pediatrie) | 1–155 | 155 |
-| 2 | [Traumatisme](#2-traumatisme) | 156–280 | 125 |
-| 3 | [Cancer](#3-cancer) | 281–516 | 236 |
-| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 517–603 | 87 |
-| 5 | [Torace](#5-torace) | 604–678 | 75 |
-| 6 | [Aparat digestiv](#6-aparat-digestiv) | 679–806 | 128 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 807–875 | 69 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 876–902 | 27 |
-| 9 | [Sân](#9-sân) | 903–958 | 56 |
-| 10 | [Cap](#10-cap) | 959–1078 | 120 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1079–1096 | 18 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1097–1151 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1152–1238 | 87 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1239–1488 | 250 |
+| 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
+| 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
+| 3 | [Cancer](#3-cancer) | 318–553 | 236 |
+| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 554–640 | 87 |
+| 5 | [Torace](#5-torace) | 641–715 | 75 |
+| 6 | [Aparat digestiv](#6-aparat-digestiv) | 716–842 | 127 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 843–911 | 69 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 912–938 | 27 |
+| 9 | [Sân](#9-sân) | 939–994 | 56 |
+| 10 | [Cap](#10-cap) | 995–1114 | 120 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1115–1132 | 18 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1133–1187 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1188–1274 | 87 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1275–1524 | 250 |
 
 ---
 
 ## Modificări globale (cross-capitol)
+
+### RESTRUCTURAT — Ierarhia capitolelor (regula de încadrare) + eliminare husk-uri
+
+- **Consemnată explicit ierarhia de încadrare** (unde „trăiește" un rând) în `CLAUDE.md`:
+  capitole-context (Pediatrie, Traumatisme, Cancer, RI) au prioritate față de anatomie,
+  în cascada Pediatrie → RI (Tip I/A) → Cancer → Traumatisme → anatomic. Un rând stă
+  într-**un singur** loc; fără breadcrumb-uri în date; fără subcapitole-husk; fără fațeta
+  greșită ca subcapitol (ex. „Traumatisme" într-un capitol anatomic).
+- **ELIMINAT — subcapitole-husk** (conțineau doar rândul-placeholder Tip `Z`, fără nicio
+  situație clinică reală — rămășițe după mutarea conținutului):
+  - „Traumatisme › **Aparat digestiv**" (conținutul de traumă abdominală e în „Abdomen").
+  - „Aparat digestiv › **Traumatisme abdominale**" (trauma abdominală stă în capitolul
+    Traumatisme — anti-pattern context-în-anatomie). (−2 rânduri; renumerotare 1..1485)
+- **Semnalate, de confirmat** (alte 2 husk-uri, în capitole încă nerevizuite): „Aparat
+  digestiv › Abdomen" și „Aparat uro-genital › Uter și anexe" (conținut uter în
+  Obstetrică-ginecologie / Cancer). Vezi `EDITORIAL-decisions.md` §5.1.
 
 ### ADĂUGAT — Coloană nouă „Terapeutic" (Da/Nu)
 
@@ -163,8 +187,99 @@ rânduri — doar textul situației. Exemple:
 ---
 
 ## 1. Pediatrie
-_NR 1–155_
+_NR 1–196_
 
+### Rafinări `Pediatrie › Traumatisme`
+- **ADĂUGAT — „Traumatism de coloană toraco-lombară la copil"** (3 rânduri, NR 1528–1530):
+  Radiografie (*Indicat, B* — atenție la fracturile Chance / centură de siguranță), CT
+  (*Doar în cazuri particulare, B*), IRM (*Doar cu aviz specializat, B* — deficit / SCIWORA).
+  Completează axa spinală (exista doar coloana cervicală).
+- **REFACTOR — eliminată situația-orfan „Traumatism unilateral de membru – comparativ"**
+  (NR 64); nota (radiografia comparativă doar la indicația radiologului) a fost **contopită**
+  în comentariul situației generale „Traumatism de membru – suspiciune de fractură" (NR 1499).
+  (−1 rând; gaură la NR 64.)
+- **MODIFICAT — PECARN la traumatismul cranian.** La CT (NR 111): adăugată referința explicită
+  la regula **PECARN** + explicație; criteriile detaliate de indicație CT **mutate din
+  „Alte informații" în „Comentarii"** (conținut clinic, per regula din CLAUDE.md).
+- **MODIFICAT — NAI / skeletal survey.** La „Traumatism nonaccidental" (NR 59): eticheta Examen
+  „Radiografie standard" → „**Radiografie – schelet complet (skeletal survey)**"; comentariul
+  precizează protocolul standardizat (serie definită) și repetarea la 11–14 zile.
+
+### Oncologie
+- **RESTRUCTURAT — subcapitol nou „Oncologie"** (al doilea bucket de context, ca la
+  Traumatisme). Relocate cele **4 rânduri** „Masă abdominală sau pelvină palpabilă"
+  (workup de neuroblastom / nefroblastom) din „Aparat digestiv" → `Pediatrie › Oncologie`.
+  Adăugat placeholder structural (NR 1505). NR.CRT păstrate (fără renumerotare).
+  - **Rămâne în „Gât și coloană"**: „Adenopatii cervicale" (NR 66) — la copil e încadrată
+    ca patologie **inflamatorie/infecțioasă** (vezi comentariul), nu oncologică; nu se mută.
+- **ADĂUGAT — 4 situații de oncologie pediatrică** în `Pediatrie › Oncologie` (11 rânduri
+  noi, NR 1506–1516; indicații/grade aliniate la ACR AC pediatric, RCR iRefer — accent pe
+  IRM și limitarea iradierii):
+  - **Tumori cerebrale și medulare** (2): IRM cerebral ± medular cu contrast (*Indicat, A* —
+    referință, cranio-spinal la risc de diseminare), CT cerebral (*Doar în cazuri
+    particulare, B* — urgență / IRM indisponibil).
+  - **Limfom (Hodgkin / non-Hodgkin) – bilanț și stadializare** (4): CT cervico-toraco-abdomino-pelvin
+    (*Indicat, B*), PET-CT F18-FDG (*Indicat, B*), Ecografie (*Doar în cazuri particulare, B*),
+    IRM (*Doar în cazuri particulare, B*).
+  - **Tumori osoase (osteosarcom, sarcom Ewing)** (4): Radiografie (*Indicat, A*), IRM segment +
+    os întreg (*Indicat, A*), CT toracic (*Indicat, B* — metastaze pulmonare), Scintigrafie
+    osoasă / PET-CT (*Doar cu aviz specializat, B*).
+  - **Neuroblastom – stadializare** (1): Scintigrafie MIBG I-123 (*Indicat, A* — trasor specific).
+- **ELIMINAT — breadcrumb-ul NR 113** („Tumori – vezi Capitolul Cancer", rând-stub Tip Z fără
+  conținut) — înlocuit de situația reală „Tumori cerebrale și medulare la copil". Ștergere
+  fără renumerotare → NR.CRT are o gaură la 113 (tolerată; `validate.py` o semnalează ca
+  avertisment).
+- **ADĂUGAT — încă 3 situații de oncologie pediatrică** în `Pediatrie › Oncologie` (11 rânduri
+  noi, NR 1517–1527):
+  - **Retinoblastom (leucocorie / strabism)** (3): IRM orbite și cerebral cu contrast
+    (*Indicat, A* — referință), Ecografie oculară (*Indicat, B*), **CT orbite (*Neindicat, B*)** —
+    de evitat la copil (iradiere oculară + risc de a doua neoplazie la purtătorii RB1).
+  - **Rabdomiosarcom / sarcom de părți moi** (4): IRM regiune primară (*Indicat, A*), CT toracic
+    (*Indicat, B* — metastaze pulmonare), PET-CT (*Doar cu aviz specializat, B*), Ecografie
+    (*Doar în cazuri particulare, B*).
+  - **Histiocitoză cu celule Langerhans (LCH)** (4): Radiografie os/craniu (*Indicat, B*),
+    IRM regiune + SNC (*Indicat, B* — axă hipotalamo-hipofizară / diabet insipid), PET-CT
+    (*Doar cu aviz specializat, B*), Radiografie toracică (*Doar în cazuri particulare, C*).
+- **MODIFICAT — enriched „Masă abdominală sau pelvină palpabilă"** (NR 22–25): adăugat în
+  „Comentarii" diagnosticul diferențial (nefroblastom/Wilms, neuroblastom, hepatoblastom,
+  limfom Burkitt, tumori germinale/teratom, nefrom mezoblastic) — astfel o **căutare** după numele
+  tumorii întoarce situația de masă abdominală. Plasat în „Comentarii" (note clinice, per schemă),
+  nu în „Alte informații" (rezervat codurilor interne / referințelor). (4 rânduri modificate.)
+
+- **ADĂUGAT — 5 situații de traumă pediatrică lipsă** în `Pediatrie › Traumatisme`
+  (16 rânduri noi, NR 1489–1504; indicații/grade aliniate la ACR Appropriateness
+  Criteria pediatric, RCR iRefer, PECARN, Image Gently — accent pe eco/IRM și limitarea
+  iradierii la copil):
+  - **Traumatism abdominal major** (4): Ecografie FAST (*Indicat, B*), CT abdomino-pelvin
+    cu contrast (*Indicat, B*), CEUS (*Doar cu aviz specializat, B*), Radiografie
+    abdominală (*Neindicat, C*). _O eco FAST negativă nu exclude leziunea de organ solid._
+  - **Traumatism de coloană cervicală** (3): Radiografie (*Indicat, B*), CT (*Doar în
+    cazuri particulare, B*), IRM (*Doar cu aviz specializat, B* — deficit / ligamentar /
+    SCIWORA).
+  - **Traumatism toracic** (3): Radiografie (*Indicat, B*), Ecografie eFAST (*Doar în
+    cazuri particulare, B*), CT (*Doar cu aviz specializat, B*).
+  - **Traumatism de membru – suspiciune de fractură** (3): Radiografie (*Indicat, A* —
+    Salter-Harris), Ecografie (*Doar în cazuri particulare, B*), IRM (*Doar cu aviz
+    specializat, B*).
+  - **Politraumatism pediatric** (3): Ecografie eFAST (*Indicat, B*), Radiografie torace+bazin
+    (*Indicat, B*), CT țintit pe regiuni (*Indicat, B* — mai selectiv decât whole-body CT).
+- **MODIFICAT — retras breadcrumb-ul** de pe „Traumatism abdominal minor" (trimitea la
+  capitolul adult pentru forma majoră); acum forma majoră e subcapitol-soră pediatric.
+  Perechea redenumită simetric: „Traumatism abdominal minor / major la copil".
+- **RESTRUCTURAT** — subcapitolul reordonat cranio-caudal (cap → coloană → torace →
+  abdomen → membre → politraumatism → maltratare).
+
+- **RESTRUCTURAT — subcapitol nou „Traumatisme"** (context bucket, ca la capitolele-meta):
+  trauma pediatrică era împrăștiată pe aparate; s-au **relocat 12 rânduri** (fără schimbare
+  de conținut clinic) în noul subcapitol `Pediatrie › Traumatisme`:
+  - `Traumatism cranio-cerebral la copil` (4 rânduri, din „Sistem nervos central");
+  - `Traumatism nonaccidental – Maltratare` (5 rânduri, din „Aparat locomotor");
+  - `Traumatism abdominal minor` (2 rânduri, din „Aparat digestiv");
+  - `Traumatism unilateral de membru – comparativ` (1 rând, din „Aparat locomotor").
+  Eliminat **breadcrumb-ul intern** (Sistem nervos → Aparat locomotor pentru NAI) — situația
+  „Traumatism cranio-cerebral la copil" e curățată de paranteza de trimitere, NAI fiind acum
+  subcapitol-soră. Adăugat placeholder-ul structural (NR 1488). NR.CRT păstrate (fără
+  renumerotare). Motivație și ierarhie → `CLAUDE.md` › „Ierarhia capitolelor".
 - **MODIFICAT (date) —** corecturi ortografice și de tipar pe ~25 de rânduri
   (ex. „Examentul"→„Examenul", „Apatrat"→„Aparat" în titlurile NR 109–112,
   „paraverterale"→„paravertebrale", „documnetată"→„documentată", „hipetricoza"→
@@ -177,76 +292,160 @@ _NR 1–155_
   (propuneri de adăugat + întrebări de stil; nicio inserare de rânduri noi în date)._
 
 ## 2. Traumatisme
-_NR 156–280_
+_NR 197–317_
+
+- **ELIMINAT — breadcrumb adult → Pediatrie.** Situația „Traumatism cranio-cerebral
+  (pentru copii – vezi capitolul Pediatrie)" → „Traumatism cranio-cerebral" (subcapitol
+  Cap, 4 rânduri). Trauma cranio-cerebrală pediatrică are propriul subcapitol în Pediatrie;
+  navigarea încrucișată e treaba aplicației, nu a datelor (per CLAUDE.md).
+- **ADĂUGAT — „Leziune cerebrovasculară posttraumatică (disecție carotidiană / vertebrală)"**
+  în subcapitolul „Sistem vascular" (3 rânduri, NR 1531–1533): Angio-CT cervico-cerebral
+  (*Indicat, B* — screening după criteriile Denver/Memphis), Angio-RM (*Doar în cazuri
+  particulare, B*), Ecografie Doppler cervicală (*Doar în cazuri particulare, C* — rol
+  limitat). Acoperă o lacună (subcapitolul avea doar aorta toracică și membrele).
+  _Angiografia convențională (DSA) — reper istoric, invazivă — nu se include aici (Tip A → RI)._
+- _Granița **Abdomen vs Bazin** (suprapunerea „Traumatism abdominal major și/sau de bazin"
+  cu „Traumatism izolat de bazin") → decizie editorială deschisă, `EDITORIAL-decisions.md` §7._
+- **MODIFICAT — clarificată granița Abdomen vs Bazin** (fosta chestiune editorială §7,
+  acum rezolvată). Situația „Traumatism abdominal **major și/sau de bazin**" → „Traumatism
+  abdominal **major**" (NR 156–158). Cele două rămân **distincte** (viscere abdominale ±
+  bazin pe același CT vs inel pelvin osos izolat — „Bazin și sacru"); nu s-au comasat.
+  Comentariul CT (NR 158) precizează că achiziția trebuie să includă bazinul, pentru a
+  surprinde o eventuală leziune pelvină asociată.
+- **RESTRUCTURAT — consolidarea subcapitolului „Coloană cervicală"** (9 situații suprapuse
+  → **5 rungi clinice clare**; 21 → 14 rânduri, −7). Comentariile bogate au fost **contopite,
+  nu pierdute**; recomandările de modalitate ale ghidului au fost **păstrate** (radiografie-întâi
+  la risc scăzut — modernizarea „CT-întâi" e o decizie editorială separată).
+  - **„Traumatism cervical — evaluare inițială (reguli NEXUS / Canadian C-Spine Rule)"** —
+    contopește „Cervicalgii posttraumatice" + „Pacient conștient cu leziune cap/față" +
+    „Traumatism cervical benign".
+  - **„…durere persistentă cu bilanț radiografic normal (suspiciune de leziune ligamentară)"** —
+    contopește cele două situații identice (bilanț normal + simptome algice/ligamentar).
+  - **„Pacient inconștient / obnubilat cu traumatism cranian"** — păstrată; radiografia
+    coborâtă Indicat → *Doar în cazuri particulare* (CT preferat, cf. propriilor comentarii).
+  - **„Traumatism cervical sever cu deficit neurologic"** — contopește sinonimele „cu afectare
+    neurologică" și „cu deficit neurologic" (aveau recomandări **contradictorii**); rezolvat:
+    CT **și** IRM = Indicat, Radiografie = Neindicat (A).
+  - **„Traumatism cervical sever, fără deficit neurologic"** — păstrată (redenumită din
+    „fără afectare neurologică").
+  - **Referințe** (NEXUS — Hoffman, NEJM 2000; Canadian C-Spine Rule — Stiell, JAMA 2001;
+    ACR Appropriateness Criteria – Suspected Spine Trauma) adăugate în **„Alte informații"**.
+  - Bonus: două rânduri (fostele IRM/dinamice) aveau **note clinice greșit plasate în „Alte
+    informații"** → mutate în „Comentarii" (per regula din CLAUDE.md).
+  - Șterse 7 rânduri (fără renumerotare; găuri la NR 187, 190, 191, 192, 194, 197, 198).
+- **MODIFICAT — completate 6 grade „?" (neprecizat)** pe rânduri „Neindicat" (nivelul de
+  evidență lipsea; recomandarea era deja corectă). Aliniere la ACR Appropriateness Criteria /
+  RCR iRefer / NICE: Radiografie de craniu (traumatism cranian) = **A**; Radiografie nazală,
+  radiografia oaselor faciale, radiografia orbitelor (penetrant + contondent) = **B**; IRM
+  toracic (traumatism aortă, în urgență) = **C** (limitare practică, nu dovezi de risc).
+  (NR 180, 232, 223, 236, 240, 271.)
 
 - **MUTAT —** 18 rânduri intervenționale (Tip I/A) relocate la RI › Traumatisme.
+- **MODIFICAT (terminologie) —** „Traumatism cranio-**encefalic**" → „Traumatism
+  cranio-**cerebral**" (subcapitol Cap, 4 rânduri), pentru consecvență cu capitolul
+  Pediatrie (preferință editor: „cranio-cerebral").
 - **MODIFICAT (date) —** subcapitol „Bazin și/şi sacru" unificat la forma majoritară cu cedilă „şi".
+- **MODIFICAT (date) — corecturi ortografice și de tipar (10 rânduri).** Diacritice
+  lipsă: „si"→„și" (NR 178, 179 — Examen; NR 206 — Comentarii), „Daca"→„Dacă"
+  (NR 205 Comentarii, NR 222 Alte informații), „electie"→„elecție" (NR 206);
+  proper noun „Otawa"→„Ottawa" (criteriile Ottawa; NR 249, 250, aliniat la NR 251);
+  spațiere: „prealabilă ,timpi"→„prealabilă, timpi" (NR 167 Examen),
+  „toraco - lombară"→„toraco-lombară" (NR 212 Examen, aliniat la rândurile-soră).
+  Fără schimbare de sens clinic.
+- **MODIFICAT (date) — normalizare whitespace pe câmpuri-cheie** (Situație / Examen):
+  eliminate spații finale la „…esofagian înalt" (NR 218–220), „Traumatism de pumn"
+  (NR 258–261) și „Ecografie" (NR 266). Nu afectează gruparea (spațiul era pe toate
+  rândurile din grup).
+- **ELIMINAT / COMASAT —** cvasi-duplicatul **NR 178/179** (Cap, „Traumatism cranio-encefalic",
+  PET-CT/SPECT) comasat: rândurile difereau doar prin „PET-CT" vs „PET" în Comentarii; s-a
+  păstrat varianta „PET-CT" (aliniată la eticheta Examen). (−1 rând)
+- **ELIMINAT — subcapitol-husk „Aparat digestiv"** (conținea doar rândul-placeholder
+  Tip Z, fără situație reală). Trauma abdominală stă în subcapitolul „Abdomen".
+  (Vezi Modificări globale › Ierarhia capitolelor.) (−1 rând)
+- **ADĂUGAT — „Traumatism vascular al membrelor"** (subcapitol „Sistem vascular", care
+  acoperea doar aorta toracică): Angio-CT de membru = *Indicat, grad B* (doza 2/3);
+  Ecografie Doppler de membru = *Doar în cazuri particulare, grad B* (doza 0/0). Ambele
+  diagnostice (Terapeutic = Nu). Rânduri noi **NR 1486/1487** (ID-uri la finalul secvenței —
+  fără renumerotare, vezi CLAUDE.md). (+2 rânduri)
+- **VERIFICAT (nemodificat) — „lemn pictat"** (Corp străin, NR 219/220). Sursa canonică
+  originală conține **deliberat** „lemn pictat" (nu e typo — lemnul vopsit are altă
+  radioopacitate decât cel simplu); formularea se **păstrează**.
+- **REVIZUIT — fără rânduri noi** pentru: stratificarea traumatismului cranian (Canadian
+  CT Head Rule — opțiunile imagistice sunt aceleași, stratificarea e clinică, nu un rând
+  nou); fractura de bazin instabilă (deja acoperită — stabil în „Traumatism izolat de
+  bazin", instabil → embolizare la RI); granularitate membre (claviculă / mână / femur /
+  gambă — acoperite implicit de radiografia regională).
 
 ## 3. Cancer
-_NR 281–516_
+_NR 318–553_
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** subcapitol „Ficat, colecist şi pancreas" normalizat (vezi Modificări globale).
 
 ## 4. Aparat cardiovascular
-_NR 517–603_
+_NR 554–640_
 
 - **MUTAT —** 54 rânduri intervenționale (embolizări, angioplastii, protezări,
   angiografie invazivă) relocate la RI › Aparat cardiovascular. Capitolul se reduce
   substanțial (rămân investigațiile diagnostice).
 
 ## 5. Torace
-_NR 604–678_
+_NR 641–715_
 
 - **MUTAT —** 11 rânduri intervenționale relocate la RI › Aparat respirator.
 
 ## 6. Aparat digestiv
-_NR 679–806_
+_NR 716–842_
+
+- **ELIMINAT — subcapitol-husk „Traumatisme abdominale"** (conținea doar rândul-placeholder
+  Tip Z). Anti-pattern context-în-anatomie: trauma abdominală stă în capitolul Traumatisme,
+  nu în Aparat digestiv. (Vezi Modificări globale › Ierarhia capitolelor.) (−1 rând)
+- _Semnalat, de confirmat: subcapitol-husk „Abdomen" (doar placeholder) → `EDITORIAL-decisions.md` §5.1._
 
 - **MUTAT —** 62 rânduri intervenționale relocate la RI › Aparat digestiv.
 - **MODIFICAT (date) —** eticheta „Aparat digestiv " (spațiu în plus, 5 rânduri) unificată sub „Aparat digestiv".
 
 ## 7. Aparat uro-genital și glande suprarenale
-_NR 807–875_
+_NR 843–911_
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Aparat urogenital.
 
 ## 8. Obstetrică și ginecologie
-_NR 876–902_
+_NR 912–938_
 
 - **MUTAT —** 3 rânduri intervenționale relocate la RI › Aparat urogenital.
 - **MODIFICAT (date) —** subcapitol „Sarcina"/„Sarcină" unificat la „Sarcină" (majoritar).
 
 ## 9. Sân
-_NR 903–958_
+_NR 939–994_
 
 - **MUTAT —** 4 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** spații finale parazite pe „…cancer  " eliminate (12 rânduri).
 
 ## 10. Cap
-_NR 959–1078_
+_NR 995–1114_
 
 - **MUTAT —** 25 rânduri intervenționale (neurovasculare) relocate la RI › Sistem nervos.
 
 ## 11. Gât (părți moi)
-_NR 1079–1096_
+_NR 1115–1132_
 
 - **MUTAT —** 8 rânduri intervenționale (PCAFGE) relocate la RI: tiroidă/paratiroidă
   → Aparat endocrin; „Masă cervicală" → Oncologie.
 
 ## 12. Coloană vertebrală
-_NR 1097–1151_
+_NR 1133–1187_
 
 - **MUTAT —** 7 rânduri intervenționale relocate la RI: vertebroplastie / biopsie /
   infiltrație → Aparat locomotor; embolizări spinale → Sistem nervos.
 
 ## 13. Aparat locomotor
-_NR 1152–1238_
+_NR 1188–1274_
 
 - **MUTAT —** 13 rânduri intervenționale relocate la RI › Aparat locomotor.
 
 ## 14. Radiologie intervențională
-_NR 1239–1488 (250 rânduri)_
+_NR 1275–1524 (250 rânduri)_
 
 - **RESTRUCTURAT —** capitolul primește cele 243 rânduri mutate din restul ghidului,
   grupate pe cele 9 subcapitole de organ. După comasarea a 160 duplicate exacte (mutare)

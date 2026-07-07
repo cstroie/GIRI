@@ -44,10 +44,29 @@ def main():
         if len(r) != 13:
             errors.append(f"Linia {i}: {len(r)} coloane (așteptat 13)")
 
-    # 3) NR.CRT contigue 1..N
-    for idx, r in enumerate(data, start=1):
-        if len(r) and r[0] != str(idx):
-            errors.append(f"NR.CRT necontiguu la poziția {idx}: „{r[0]}”")
+    # 3) NR.CRT: întreg pozitiv + UNIC (erori). Contiguitatea 1..N NU e obligatorie —
+    #    renumerotarea nu se face automat (vezi CLAUDE.md), deci găurile sunt tolerate
+    #    și raportate ca un singur avertisment (nu o eroare per rând).
+    seen_nr = {}
+    nums = []
+    for pos, r in enumerate(data, start=1):
+        if not len(r):
+            continue
+        nr = r[0]
+        if not nr.isdigit():
+            errors.append(f"NR.CRT invalid la poziția {pos}: „{nr}” (trebuie întreg pozitiv)")
+            continue
+        if nr in seen_nr:
+            errors.append(f"NR.CRT duplicat „{nr}” (pozițiile {seen_nr[nr]} și {pos})")
+        else:
+            seen_nr[nr] = pos
+        nums.append(int(nr))
+    if nums and sorted(nums) != list(range(1, len(nums) + 1)):
+        gaps = sorted(set(range(1, len(nums) + 1)) - set(nums))
+        warnings.append(
+            f"NR.CRT necontiguu ({len(gaps)} găuri, ex. {gaps[:5]}) — "
+            f"renumerotare amânată; rulează renumerotarea doar la cerere explicită."
+        )
 
     # 4) intervențional (Tip I/A) doar în RI
     for r in data:
