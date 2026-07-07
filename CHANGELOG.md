@@ -34,7 +34,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1488 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1504 rânduri, 13 coloane)
 
 > **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
 > inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
@@ -43,7 +43,7 @@ indicații radioimagistice.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | [Pediatrie](#1-pediatrie) | 1–155 · 1488 | 156 |
+| 1 | [Pediatrie](#1-pediatrie) | 1–155 · 1488–1504 | 172 |
 | 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 | 125 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
@@ -184,7 +184,30 @@ rânduri — doar textul situației. Exemple:
 ---
 
 ## 1. Pediatrie
-_NR 1–155 · 1488_
+_NR 1–155 · 1488–1504_
+
+- **ADĂUGAT — 5 situații de traumă pediatrică lipsă** în `Pediatrie › Traumatisme`
+  (16 rânduri noi, NR 1489–1504; indicații/grade aliniate la ACR Appropriateness
+  Criteria pediatric, RCR iRefer, PECARN, Image Gently — accent pe eco/IRM și limitarea
+  iradierii la copil):
+  - **Traumatism abdominal major** (4): Ecografie FAST (*Indicat, B*), CT abdomino-pelvin
+    cu contrast (*Indicat, B*), CEUS (*Doar cu aviz specializat, B*), Radiografie
+    abdominală (*Neindicat, C*). _O eco FAST negativă nu exclude leziunea de organ solid._
+  - **Traumatism de coloană cervicală** (3): Radiografie (*Indicat, B*), CT (*Doar în
+    cazuri particulare, B*), IRM (*Doar cu aviz specializat, B* — deficit / ligamentar /
+    SCIWORA).
+  - **Traumatism toracic** (3): Radiografie (*Indicat, B*), Ecografie eFAST (*Doar în
+    cazuri particulare, B*), CT (*Doar cu aviz specializat, B*).
+  - **Traumatism de membru – suspiciune de fractură** (3): Radiografie (*Indicat, A* —
+    Salter-Harris), Ecografie (*Doar în cazuri particulare, B*), IRM (*Doar cu aviz
+    specializat, B*).
+  - **Politraumatism pediatric** (3): Ecografie eFAST (*Indicat, B*), Radiografie torace+bazin
+    (*Indicat, B*), CT țintit pe regiuni (*Indicat, B* — mai selectiv decât whole-body CT).
+- **MODIFICAT — retras breadcrumb-ul** de pe „Traumatism abdominal minor" (trimitea la
+  capitolul adult pentru forma majoră); acum forma majoră e subcapitol-soră pediatric.
+  Perechea redenumită simetric: „Traumatism abdominal minor / major la copil".
+- **RESTRUCTURAT** — subcapitolul reordonat cranio-caudal (cap → coloană → torace →
+  abdomen → membre → politraumatism → maltratare).
 
 - **RESTRUCTURAT — subcapitol nou „Traumatisme"** (context bucket, ca la capitolele-meta):
   trauma pediatrică era împrăștiată pe aparate; s-au **relocat 12 rânduri** (fără schimbare
@@ -197,9 +220,6 @@ _NR 1–155 · 1488_
   „Traumatism cranio-cerebral la copil" e curățată de paranteza de trimitere, NAI fiind acum
   subcapitol-soră. Adăugat placeholder-ul structural (NR 1488). NR.CRT păstrate (fără
   renumerotare). Motivație și ierarhie → `CLAUDE.md` › „Ierarhia capitolelor".
-  _De decis (rămâne breadcrumb extern): «Traumatism abdominal minor» trimite la capitolul
-  Traumatisme pentru forma majoră — trauma abdominală majoră pediatrică nu are rând propriu
-  în Pediatrie. Vezi `EDITORIAL-decisions.md`._
 - **MODIFICAT (date) —** corecturi ortografice și de tipar pe ~25 de rânduri
   (ex. „Examentul"→„Examenul", „Apatrat"→„Aparat" în titlurile NR 109–112,
   „paraverterale"→„paravertebrale", „documnetată"→„documentată", „hipetricoza"→

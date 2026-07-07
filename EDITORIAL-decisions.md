@@ -126,13 +126,11 @@ subcapitol cu **doar** rândul-placeholder Tip Z, fără situație reală. Cele 
 S-a creat subcapitolul de context **`Pediatrie › Traumatisme`** (relocare pură, CHANGELOG §1).
 Consecințe de decis:
 
-- **Trauma abdominală majoră pediatrică — fără rând propriu.** Situația „Traumatism
-  abdominal minor" păstrează breadcrumb-ul „(a se vedea și Traumatism major – capitolul
-  Traumatisme)", care trimite la capitolul adult. Per ierarhie (Pediatrie > Traumatisme),
-  forma majoră ar trebui să aibă un rând pediatric propriu în `Pediatrie › Traumatisme`
-  (indicațiile diferă: eco/CEUS, CT cu contrast doar la nevoie — mai conservator ca la
-  adult). **De decis:** se adaugă rândul „Traumatism abdominal major" la copil (și se scoate
-  breadcrumb-ul), sau se lasă trimiterea la capitolul adult?
+- ✅ **Trauma abdominală majoră pediatrică — REZOLVAT.** Adăugat rândul „Traumatism
+  abdominal major la copil" (eco FAST, CT cu contrast, CEUS, radiografie) și retras
+  breadcrumb-ul de pe forma minoră; perechea e acum simetrică („minor / major la copil").
+  Împreună cu alte 4 situații de traumă pediatrică lipsă (coloană cervicală, torace, membru,
+  politraumatism) — vezi CHANGELOG §1.
 - **Oncologia pediatrică — același tipar, încă nerezolvat.** Masa abdominală palpabilă
   (neuroblastom/Wilms) stă în `Pediatrie › Aparat digestiv`, iar tumorile cerebrale trimit
   prin breadcrumb (NR 113) la `Cancer`. Analog cu trauma, s-ar putea crea un bucket
