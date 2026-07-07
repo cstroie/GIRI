@@ -303,6 +303,12 @@ _NR 156–278 · 1486–1487 · 1531–1533_
   _Angiografia convențională (DSA) — reper istoric, invazivă — nu se include aici (Tip A → RI)._
 - _Granița **Abdomen vs Bazin** (suprapunerea „Traumatism abdominal major și/sau de bazin"
   cu „Traumatism izolat de bazin") → decizie editorială deschisă, `EDITORIAL-decisions.md` §7._
+- **MODIFICAT — clarificată granița Abdomen vs Bazin** (fosta chestiune editorială §7,
+  acum rezolvată). Situația „Traumatism abdominal **major și/sau de bazin**" → „Traumatism
+  abdominal **major**" (NR 156–158). Cele două rămân **distincte** (viscere abdominale ±
+  bazin pe același CT vs inel pelvin osos izolat — „Bazin și sacru"); nu s-au comasat.
+  Comentariul CT (NR 158) precizează că achiziția trebuie să includă bazinul, pentru a
+  surprinde o eventuală leziune pelvină asociată.
 - **RESTRUCTURAT — consolidarea subcapitolului „Coloană cervicală"** (9 situații suprapuse
   → **5 rungi clinice clare**; 21 → 14 rânduri, −7). Comentariile bogate au fost **contopite,
   nu pierdute**; recomandările de modalitate ale ghidului au fost **păstrate** (radiografie-întâi

@@ -167,8 +167,11 @@ politraumatism de mare energie) în „Abdomen", forma izolată (inel pelvin) î
 3. **Comasare** într-un subcapitol „Abdomen și bazin". Dezavantaj: pierde distincția
    regiune-anatomică curată.
 
-> Status: **neatins**, decizie editorială. Recomandare: opțiunea 1 (păstrare), eventual cu
-> clarificarea formulării situației din „Abdomen".
+> Status: ✅ **REZOLVAT — opțiunea 1** (păstrare + clarificare). Cele două situații sunt
+> clinic distincte (viscere abdominale ± bazin pe același CT, vs inel pelvin osos izolat);
+> nu s-au comasat. Situația din „Abdomen" a fost redenumită „Traumatism abdominal major"
+> (fără „și/sau de bazin"), iar comentariul CT precizează că achiziția trebuie să includă
+> bazinul. Vezi CHANGELOG §2.
 
 ---
 
