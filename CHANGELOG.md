@@ -303,6 +303,12 @@ _NR 156–278 · 1486–1487 · 1531–1533_
   _Angiografia convențională (DSA) — reper istoric, invazivă — nu se include aici (Tip A → RI)._
 - _Granița **Abdomen vs Bazin** (suprapunerea „Traumatism abdominal major și/sau de bazin"
   cu „Traumatism izolat de bazin") → decizie editorială deschisă, `EDITORIAL-decisions.md` §7._
+- **MODIFICAT — completate 6 grade „?" (neprecizat)** pe rânduri „Neindicat" (nivelul de
+  evidență lipsea; recomandarea era deja corectă). Aliniere la ACR Appropriateness Criteria /
+  RCR iRefer / NICE: Radiografie de craniu (traumatism cranian) = **A**; Radiografie nazală,
+  radiografia oaselor faciale, radiografia orbitelor (penetrant + contondent) = **B**; IRM
+  toracic (traumatism aortă, în urgență) = **C** (limitare practică, nu dovezi de risc).
+  (NR 180, 232, 223, 236, 240, 271.)
 
 - **MUTAT —** 18 rânduri intervenționale (Tip I/A) relocate la RI › Traumatisme.
 - **MODIFICAT (terminologie) —** „Traumatism cranio-**encefalic**" → „Traumatism
