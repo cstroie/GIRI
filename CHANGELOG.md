@@ -34,7 +34,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1487 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1488 rânduri, 13 coloane)
 
 > **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
 > inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
@@ -43,7 +43,7 @@ indicații radioimagistice.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | [Pediatrie](#1-pediatrie) | 1–155 | 155 |
+| 1 | [Pediatrie](#1-pediatrie) | 1–155 · 1488 | 156 |
 | 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 | 125 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
@@ -184,8 +184,22 @@ rânduri — doar textul situației. Exemple:
 ---
 
 ## 1. Pediatrie
-_NR 1–155_
+_NR 1–155 · 1488_
 
+- **RESTRUCTURAT — subcapitol nou „Traumatisme"** (context bucket, ca la capitolele-meta):
+  trauma pediatrică era împrăștiată pe aparate; s-au **relocat 12 rânduri** (fără schimbare
+  de conținut clinic) în noul subcapitol `Pediatrie › Traumatisme`:
+  - `Traumatism cranio-cerebral la copil` (4 rânduri, din „Sistem nervos central");
+  - `Traumatism nonaccidental – Maltratare` (5 rânduri, din „Aparat locomotor");
+  - `Traumatism abdominal minor` (2 rânduri, din „Aparat digestiv");
+  - `Traumatism unilateral de membru – comparativ` (1 rând, din „Aparat locomotor").
+  Eliminat **breadcrumb-ul intern** (Sistem nervos → Aparat locomotor pentru NAI) — situația
+  „Traumatism cranio-cerebral la copil" e curățată de paranteza de trimitere, NAI fiind acum
+  subcapitol-soră. Adăugat placeholder-ul structural (NR 1488). NR.CRT păstrate (fără
+  renumerotare). Motivație și ierarhie → `CLAUDE.md` › „Ierarhia capitolelor".
+  _De decis (rămâne breadcrumb extern): «Traumatism abdominal minor» trimite la capitolul
+  Traumatisme pentru forma majoră — trauma abdominală majoră pediatrică nu are rând propriu
+  în Pediatrie. Vezi `EDITORIAL-decisions.md`._
 - **MODIFICAT (date) —** corecturi ortografice și de tipar pe ~25 de rânduri
   (ex. „Examentul"→„Examenul", „Apatrat"→„Aparat" în titlurile NR 109–112,
   „paraverterale"→„paravertebrale", „documnetată"→„documentată", „hipetricoza"→

@@ -52,8 +52,12 @@ care se potrivește câștigă**:
 
 **Axa de nivel 2 (subcapitole) diferă pe fiecare capitol-context și e intențional așa:**
 Traumatisme = **regiune anatomică** (cap, față, gât, torace, abdomen, bazin, coloană,
-membre, sistem vascular, politraumatism); Cancer = **organ / sediu primar**; Pediatrie și
-RI = **aparat / sistem**.
+membre, sistem vascular, politraumatism); Cancer = **organ / sediu primar**; RI =
+**aparat / sistem**. **Pediatrie = aparat / sistem + sub-bucket de context** pentru
+fațetele cross-cutting care nu se împrăștie pe aparate — momentan **„Traumatisme"** (trauma
+pediatrică: cranio-cerebral, maltratare/NAI, abdominal, membre). Pediatrie e practic
+„ghidul în miniatură": aparate pentru diagnostic + bucket(uri) de context. _De decis analog
+pentru **oncologia pediatrică** (azi parțial în „Aparat digestiv" + breadcrumb la Cancer)._
 
 **Consecințe de întreținere (de respectat la orice restructurare):**
 - **Un singur home per rând.** Fără breadcrumb-uri („vezi capitolul X") împrăștiate în
