@@ -140,3 +140,32 @@ Consecințe de decis:
 
 > Cu aceasta, capitolul **Pediatrie** are ambele bucket-uri de context (Traumatisme,
 > Oncologie) complete; nu mai sunt breadcrumb-uri interne sau de trimitere la capitolul adult.
+
+---
+
+## 7. Traumatisme (adult) — granița Abdomen vs Bazin
+
+**Situația:** capitolul Traumatisme are două subcapitole care ating bazinul:
+
+- **`Abdomen`** → o singură situație: **„Traumatism abdominal major și/sau de bazin"**
+  (Ecografie, Radiografie abdominală și/sau de bazin, CT abdomino-pelvin).
+- **`Bazin și sacru`** → **„Traumatism izolat de bazin"** (CT de bazin, Radiografie de
+  bazin, IRM de bazin).
+
+Prin urmare, trauma de bazin apare în **două locuri**: forma combinată (abdomino-pelvină,
+politraumatism de mare energie) în „Abdomen", forma izolată (inel pelvin) în „Bazin și sacru".
+
+**Opțiuni:**
+1. **Păstrare (recomandarea mea).** Cele două reflectă scenarii clinice distincte: trauma
+   abdominală majoră cu interesare pelvină se explorează printr-un **CT abdomino-pelvin
+   unic** (o situație), pe când fractura izolată de bazin e un workup separat. Suprapunerea
+   e intențională, nu o eroare. Eventual s-ar clarifica doar formularea („și/sau de bazin"
+   = «când coexistă cu trauma abdominală»).
+2. **Separare strictă.** „Abdomen" devine pur abdominal („Traumatism abdominal major"),
+   iar tot ce ține de bazin (izolat + combinat) merge la „Bazin și sacru". Dezavantaj:
+   trauma combinată abdomino-pelvină nu are un home natural (se explorează împreună).
+3. **Comasare** într-un subcapitol „Abdomen și bazin". Dezavantaj: pierde distincția
+   regiune-anatomică curată.
+
+> Status: **neatins**, decizie editorială. Recomandare: opțiunea 1 (păstrare), eventual cu
+> clarificarea formulării situației din „Abdomen".

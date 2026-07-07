@@ -34,7 +34,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1528 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1531 rânduri, 13 coloane)
 
 > **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
 > inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
@@ -44,7 +44,7 @@ indicații radioimagistice.
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–155 (fără 64, 113) · 1488–1530 | 196 |
-| 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 | 125 |
+| 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 · 1531–1533 | 128 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
 | 5 | [Torace](#5-torace) | 602–676 | 75 |
@@ -289,7 +289,20 @@ _NR 1–155 (fără 64, 113) · 1488–1530_
   (propuneri de adăugat + întrebări de stil; nicio inserare de rânduri noi în date)._
 
 ## 2. Traumatisme
-_NR 156–278 · 1486–1487_
+_NR 156–278 · 1486–1487 · 1531–1533_
+
+- **ELIMINAT — breadcrumb adult → Pediatrie.** Situația „Traumatism cranio-cerebral
+  (pentru copii – vezi capitolul Pediatrie)" → „Traumatism cranio-cerebral" (subcapitol
+  Cap, 4 rânduri). Trauma cranio-cerebrală pediatrică are propriul subcapitol în Pediatrie;
+  navigarea încrucișată e treaba aplicației, nu a datelor (per CLAUDE.md).
+- **ADĂUGAT — „Leziune cerebrovasculară posttraumatică (disecție carotidiană / vertebrală)"**
+  în subcapitolul „Sistem vascular" (3 rânduri, NR 1531–1533): Angio-CT cervico-cerebral
+  (*Indicat, B* — screening după criteriile Denver/Memphis), Angio-RM (*Doar în cazuri
+  particulare, B*), Ecografie Doppler cervicală (*Doar în cazuri particulare, C* — rol
+  limitat). Acoperă o lacună (subcapitolul avea doar aorta toracică și membrele).
+  _Angiografia convențională (DSA) — reper istoric, invazivă — nu se include aici (Tip A → RI)._
+- _Granița **Abdomen vs Bazin** (suprapunerea „Traumatism abdominal major și/sau de bazin"
+  cu „Traumatism izolat de bazin") → decizie editorială deschisă, `EDITORIAL-decisions.md` §7._
 
 - **MUTAT —** 18 rânduri intervenționale (Tip I/A) relocate la RI › Traumatisme.
 - **MODIFICAT (terminologie) —** „Traumatism cranio-**encefalic**" → „Traumatism
