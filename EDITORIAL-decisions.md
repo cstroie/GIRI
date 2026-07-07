@@ -105,17 +105,28 @@ Criteria, RCR iRefer). **Schițe — de validat clinic de editori** înainte de 
 
 ## 5. Traumatisme — chestiuni structurale și omisiuni
 
-Din analiza capitolului Traumatisme (NR 156–280, 125 rânduri). Corecturile ortografice
+Din analiza capitolului Traumatisme (NR 156–278, 123 rânduri). Corecturile ortografice
 și de whitespace s-au aplicat deja (vezi CHANGELOG §2). Rămân de decis:
 
-### 5.1 Subcapitolul „Aparat digestiv" — shell gol (structural)
-- Subcapitolul **„Aparat digestiv" (NR 160)** conține **doar** rândul-placeholder
-  „ALTĂ SITUAȚIE CLINICĂ" (Tip Z), **fără nicio situație clinică reală**. Traumatismele
-  abdominale efective stau în subcapitolul separat **„Abdomen" (NR 156–159)**.
-- **De decis:** se **elimină** subcapitolul-shell „Aparat digestiv" (redundant cu
-  „Abdomen"), sau se dorește păstrarea lui ca rubrică distinctă (și atunci ce situații
-  primește)? Recomandare: eliminare / contopire în „Abdomen". **Lăsat neatins** până la
-  decizie.
+### 5.1 Subcapitole-husk (audit global) — parțial REZOLVAT
+Un **husk** = subcapitol care conține **doar** rândul-placeholder „ALTĂ SITUAȚIE CLINICĂ"
+(Tip Z), fără nicio situație reală — rămășiță după mutarea conținutului. Audit pe tot
+ghidul → 4 husk-uri:
+
+- ✅ **ELIMINAT — „Traumatisme › Aparat digestiv"** (decizie editor). Fațeta greșită ca
+  subcapitol: trauma abdominală stă în „Traumatisme › Abdomen".
+- ✅ **ELIMINAT — „Aparat digestiv › Traumatisme abdominale"** (decizie editor). Anti-pattern
+  context-în-anatomie (exact „mă duc la digestiv și găsesc traumă"): trauma abdominală
+  stă în capitolul Traumatisme.
+- ⏳ **DE CONFIRMAT — „Aparat digestiv › Abdomen"** (husk). Capitolul Aparat digestiv e
+  organizat pe organ („Ficat, colecist și pancreas", „Tub digestiv"); un bucket generic
+  „Abdomen" gol pare redundant. Recomandare: eliminare. **Neatins** (capitolul 6 încă
+  nerevizuit).
+- ⏳ **DE CONFIRMAT — „Aparat uro-genital › Uter și anexe"** (husk). Conținutul de uter/anexe
+  trăiește în **Obstetrică-ginecologie** (Ginecologie / Sarcină) și **Cancer** (col/corp
+  uterin). Husk redundant. Recomandare: eliminare. **Neatins** (capitolul 7 încă nerevizuit).
+
+> Regula generală anti-husk e consemnată în `CLAUDE.md` › „Ierarhia capitolelor".
 
 ### 5.2 Cvasi-duplicat NR 178 / 179 (Cap, PET-CT/SPECT) — REZOLVAT
 - Rândurile difereau doar prin „PET-CT" vs „PET" în Comentarii. **Comasate** (decizie

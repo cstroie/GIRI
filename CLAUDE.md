@@ -20,11 +20,50 @@ consultare („IRIS") e separată și **nu** se regenerează din acest ghid acum
 4. **Tot ce e intervențional (Tip `I` și `A`) stă în capitolul „Radiologie
    intervențională".** Nu trebuie să reapară intervențional împrăștiat în capitolele
    diagnostice — procedurile terapeutice nu sunt opțiuni de diagnostic.
+   (Caz particular al **ierarhiei de încadrare** — vezi secțiunea dedicată mai jos.)
 5. **Documentează fiecare modificare în `CHANGELOG.md`**, la capitolul corespunzător.
    Marchează ⛔ BREAKING ce e incompatibil cu versiunea aprobată.
 6. **Nu decide singur chestiunile clinice ambigue.** Încadrări de capitol discutabile,
    duplicate cu conținut diferit, cazuri pe muchie → `EDITORIAL-decisions.md` și
    întreabă. (Vezi „Decizii deja luate" mai jos.)
+
+## Ierarhia capitolelor — unde „trăiește" un rând
+
+Ghidul are **capitole anatomice** (organ/regiune) și **capitole-context / meta**:
+**Pediatrie, Traumatisme, Cancer, Radiologie intervențională**. Navigarea pornește de la
+context când contextul e special („pacientul e copil", „e un traumatism", „are cancer",
+„e o procedură"), altfel de la anatomie. Un rând are mai multe fațete (context × anatomie),
+dar **stă într-un singur loc**. Home-ul se decide aplicând regulile în ordine — **prima
+care se potrivește câștigă**:
+
+1. **Pacient pediatric** (indicațiile diferă pentru că e copil) → **Pediatrie**
+   (inclusiv procedurile intervenționale pediatrice — ex. reducerea invaginației prin clismă).
+2. **Procedură intervențională / terapeutică** (Tip `I` sau `A`), non-pediatrică →
+   **Radiologie intervențională** (subcapitol de organ). Excepție: **ERCP** (Tip `D`)
+   rămâne în capitolul de origine.
+3. **Determinată de malignitate** cunoscută/suspectată (stadializare, urmărire oncologică)
+   → **Cancer**.
+4. **Leziune traumatică acută** → **Traumatisme** (subcapitol **pe regiune anatomică**).
+5. **Altfel** → **capitolul anatomic** (organ/aparat).
+
+**Axa de nivel 2 (subcapitole) diferă pe fiecare capitol-context și e intențional așa:**
+Traumatisme = **regiune anatomică** (cap, față, gât, torace, abdomen, bazin, coloană,
+membre, sistem vascular, politraumatism); Cancer = **organ / sediu primar**; Pediatrie și
+RI = **aparat / sistem**.
+
+**Consecințe de întreținere (de respectat la orice restructurare):**
+- **Un singur home per rând.** Fără breadcrumb-uri („vezi capitolul X") împrăștiate în
+  date — navigarea încrucișată după organ (peste capitole) e treaba aplicației de
+  consultare (un index), nu a datelor. Consecvent cu eliminarea breadcrumb-urilor la
+  consolidarea RI.
+- **Fără subcapitole-husk.** Un subcapitol care conține **doar** rândul-placeholder
+  Tip `Z` (nicio situație clinică reală) e o rămășiță după mutarea conținutului → se elimină.
+- **Fără fațeta greșită ca subcapitol.** Nu crea subcapitole-context într-un capitol
+  anatomic (ex. „Traumatisme abdominale" în „Aparat digestiv") — trauma stă în Traumatisme.
+
+> **De reconfirmat de editori** (impact practic aproape nul): ordinea **Cancer vs
+> Traumatisme** (pasul 3 înaintea pasului 4). Dacă un rând ar fi simultan oncologic și
+> traumatic, câștigă contextul oncologic. Vezi `EDITORIAL-decisions.md`.
 
 ## Invarianți — trebuie să rămână adevărați după orice modificare
 
