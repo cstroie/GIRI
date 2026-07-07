@@ -131,11 +131,10 @@ Consecințe de decis:
   breadcrumb-ul de pe forma minoră; perechea e acum simetrică („minor / major la copil").
   Împreună cu alte 4 situații de traumă pediatrică lipsă (coloană cervicală, torace, membru,
   politraumatism) — vezi CHANGELOG §1.
-- **Oncologia pediatrică — bucket creat (relocare făcută).** S-a creat `Pediatrie ›
-  Oncologie`; mutate cele 4 rânduri „Masă abdominală sau pelvină palpabilă". „Adenopatii
-  cervicale" (NR 66) **rămâne** în „Gât și coloană" (încadrare inflamatorie la copil).
-  **Rămâne de completat** (propus, în așteptarea confirmării grade/indicații):
-  - **Tumori cerebrale și medulare la copil** — înlocuiește breadcrumb-ul stub NR 113
-    („Tumori – vezi Cancer"), care se **elimină** la inserare.
-  - **Limfom (Hodgkin / non-Hodgkin) la copil** — bilanț/stadializare.
-  - **Tumori osoase la copil** (osteosarcom, sarcom Ewing).
+- ✅ **Oncologia pediatrică — REZOLVAT.** Creat `Pediatrie › Oncologie`; mutată „Masă
+  abdominală palpabilă"; adăugate 4 situații (tumori cerebrale/medulare, limfom, tumori
+  osoase, neuroblastom-stadializare) și eliminat breadcrumb-ul stub NR 113 — vezi CHANGELOG §1.
+  „Adenopatii cervicale" (NR 66) rămâne în „Gât și coloană" (încadrare inflamatorie la copil).
+
+> Cu aceasta, capitolul **Pediatrie** are ambele bucket-uri de context (Traumatisme,
+> Oncologie) complete; nu mai sunt breadcrumb-uri interne sau de trimitere la capitolul adult.

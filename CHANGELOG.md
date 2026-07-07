@@ -34,7 +34,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1505 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1515 rânduri, 13 coloane)
 
 > **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
 > inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
@@ -43,7 +43,7 @@ indicații radioimagistice.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | [Pediatrie](#1-pediatrie) | 1–155 · 1488–1505 | 173 |
+| 1 | [Pediatrie](#1-pediatrie) | 1–155 (fără 113) · 1488–1516 | 183 |
 | 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 | 125 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
@@ -192,8 +192,23 @@ _NR 1–155 · 1488–1505_
   Adăugat placeholder structural (NR 1505). NR.CRT păstrate (fără renumerotare).
   - **Rămâne în „Gât și coloană"**: „Adenopatii cervicale" (NR 66) — la copil e încadrată
     ca patologie **inflamatorie/infecțioasă** (vezi comentariul), nu oncologică; nu se mută.
-  - _De completat (propus, în așteptarea confirmării): tumori cerebrale/medulare la copil
-    (înlocuiește breadcrumb-ul NR 113 „Tumori – vezi Cancer"), limfom, tumori osoase._
+- **ADĂUGAT — 4 situații de oncologie pediatrică** în `Pediatrie › Oncologie` (11 rânduri
+  noi, NR 1506–1516; indicații/grade aliniate la ACR AC pediatric, RCR iRefer — accent pe
+  IRM și limitarea iradierii):
+  - **Tumori cerebrale și medulare** (2): IRM cerebral ± medular cu contrast (*Indicat, A* —
+    referință, cranio-spinal la risc de diseminare), CT cerebral (*Doar în cazuri
+    particulare, B* — urgență / IRM indisponibil).
+  - **Limfom (Hodgkin / non-Hodgkin) – bilanț și stadializare** (4): CT cervico-toraco-abdomino-pelvin
+    (*Indicat, B*), PET-CT F18-FDG (*Indicat, B*), Ecografie (*Doar în cazuri particulare, B*),
+    IRM (*Doar în cazuri particulare, B*).
+  - **Tumori osoase (osteosarcom, sarcom Ewing)** (4): Radiografie (*Indicat, A*), IRM segment +
+    os întreg (*Indicat, A*), CT toracic (*Indicat, B* — metastaze pulmonare), Scintigrafie
+    osoasă / PET-CT (*Doar cu aviz specializat, B*).
+  - **Neuroblastom – stadializare** (1): Scintigrafie MIBG I-123 (*Indicat, A* — trasor specific).
+- **ELIMINAT — breadcrumb-ul NR 113** („Tumori – vezi Capitolul Cancer", rând-stub Tip Z fără
+  conținut) — înlocuit de situația reală „Tumori cerebrale și medulare la copil". Ștergere
+  fără renumerotare → NR.CRT are o gaură la 113 (tolerată; `validate.py` o semnalează ca
+  avertisment).
 
 - **ADĂUGAT — 5 situații de traumă pediatrică lipsă** în `Pediatrie › Traumatisme`
   (16 rânduri noi, NR 1489–1504; indicații/grade aliniate la ACR Appropriateness
