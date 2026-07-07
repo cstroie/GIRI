@@ -208,3 +208,36 @@ recomandă **CT-întâi** pentru orice pacient care necesită imagistică (CT a 
 radiografia ca test de screening primar; radiografia rămâne pentru cazuri selectate).
 Trecerea la „CT-întâi" ar schimba indicațiile/gradele pe situația de evaluare inițială —
 o decizie clinică de sine stătătoare, nu de amestecat în consolidare. De discutat în echipă.
+
+---
+
+## 10. Situații de traumă rămase în capitole diagnostice (de reconciliat la parsarea lor)
+
+Căutare (2026-07) în capitolele diagnostice (exclus Pediatrie, RI, Traumatisme) după
+situații de **leziune traumatică acută** care, per ierarhie (regula 4), ar trebui să stea în
+**Traumatisme**. Rezultat: un singur cluster real, tot în capitolul **Cap** — și **paralel
+(nu identic)** cu situații deja existente în Traumatisme, deci necesită **reconciliere**
+(nu mutare oarbă): se compară cele două versiuni, se păstrează conținutul mai bun/complet,
+se elimină duplicatul. **De făcut la parsarea capitolului Cap**, nu acum.
+
+**De mutat/reconciliat (Cap → Traumatisme):**
+- `Cap › Neuro` → **Traumatisme cranio-encefalice** ↔ `Traumatisme › Cap: Traumatism cranio-cerebral`
+  (cvasi-identice; versiunea din Cap are încă gradul „?" la radiografia de craniu).
+- `Cap › ORL` → **Traumatism orbită – prin obiecte neascuțite** ↔ `Față și orbite: Traumatism orbitar contondent`
+- `Cap › ORL` → **Traumatism orbită – prin perforare** ↔ `Față și orbite: Traumatism orbitar penetrant`
+- `Cap › ORL` → **Traumatisme ale stâncii temporalului** ↔ `Față și orbite: Traumatism stâncă temporală`
+- `Cap › ORL` → **Traumatismul în 1/3 centrală a feței** ↔ `Față și orbite: Leziune facială centrală`
+- `Cap › ORL` → **Traumatismul mandibulei** ↔ `Față și orbite: Traumatism mandibular`
+  (versiunea din Cap e mai bogată — include ATM, CBCT; de reconciliat cu atenție).
+- `Cap › ORL` → **Traumatismul nazal** ↔ `Față și orbite: Traumatism nazal`
+- _Legat de §8:_ `Cap › ORL → Corp străin faringian sau esofagian înalt` — corp străin ingerat
+  (aceeași chestiune ca `Traumatisme › Corp străin: Ingestie…`). De decis împreună (ORL/digestiv vs traumă).
+
+**Fals-pozitive (NU sunt traumă acută — rămân unde sunt):**
+- `Coloană › Bilanț fractură vertebrală spontană` (fractură spontană/patologică).
+- `Coloană › Sindrom medular (în afara traumatismelor coloanei vertebrale)` (explicit ne-traumatic).
+- `Coloană cervicală › Posibilitate de subluxație atlanto-axoidiană` (de regulă reumatoidă/congenitală).
+- `Aparat locomotor › Gonalgie (meniscală/condropatie)` (patologie cronică internă a genunchiului).
+
+> Status: **inventariat, neatins.** Reconcilierea se face la parsarea capitolelor de origine
+> (în principal Cap). Nu s-a mutat nimic acum.
