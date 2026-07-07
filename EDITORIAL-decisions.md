@@ -131,8 +131,11 @@ Consecințe de decis:
   breadcrumb-ul de pe forma minoră; perechea e acum simetrică („minor / major la copil").
   Împreună cu alte 4 situații de traumă pediatrică lipsă (coloană cervicală, torace, membru,
   politraumatism) — vezi CHANGELOG §1.
-- **Oncologia pediatrică — același tipar, încă nerezolvat.** Masa abdominală palpabilă
-  (neuroblastom/Wilms) stă în `Pediatrie › Aparat digestiv`, iar tumorile cerebrale trimit
-  prin breadcrumb (NR 113) la `Cancer`. Analog cu trauma, s-ar putea crea un bucket
-  **`Pediatrie › Oncologie`**. **Amânat** (utilizatorul a ales „trauma only"); de reluat
-  separat.
+- **Oncologia pediatrică — bucket creat (relocare făcută).** S-a creat `Pediatrie ›
+  Oncologie`; mutate cele 4 rânduri „Masă abdominală sau pelvină palpabilă". „Adenopatii
+  cervicale" (NR 66) **rămâne** în „Gât și coloană" (încadrare inflamatorie la copil).
+  **Rămâne de completat** (propus, în așteptarea confirmării grade/indicații):
+  - **Tumori cerebrale și medulare la copil** — înlocuiește breadcrumb-ul stub NR 113
+    („Tumori – vezi Cancer"), care se **elimină** la inserare.
+  - **Limfom (Hodgkin / non-Hodgkin) la copil** — bilanț/stadializare.
+  - **Tumori osoase la copil** (osteosarcom, sarcom Ewing).

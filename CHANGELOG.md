@@ -34,7 +34,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1504 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1505 rânduri, 13 coloane)
 
 > **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
 > inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
@@ -43,7 +43,7 @@ indicații radioimagistice.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | [Pediatrie](#1-pediatrie) | 1–155 · 1488–1504 | 172 |
+| 1 | [Pediatrie](#1-pediatrie) | 1–155 · 1488–1505 | 173 |
 | 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 | 125 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
@@ -184,7 +184,16 @@ rânduri — doar textul situației. Exemple:
 ---
 
 ## 1. Pediatrie
-_NR 1–155 · 1488–1504_
+_NR 1–155 · 1488–1505_
+
+- **RESTRUCTURAT — subcapitol nou „Oncologie"** (al doilea bucket de context, ca la
+  Traumatisme). Relocate cele **4 rânduri** „Masă abdominală sau pelvină palpabilă"
+  (workup de neuroblastom / nefroblastom) din „Aparat digestiv" → `Pediatrie › Oncologie`.
+  Adăugat placeholder structural (NR 1505). NR.CRT păstrate (fără renumerotare).
+  - **Rămâne în „Gât și coloană"**: „Adenopatii cervicale" (NR 66) — la copil e încadrată
+    ca patologie **inflamatorie/infecțioasă** (vezi comentariul), nu oncologică; nu se mută.
+  - _De completat (propus, în așteptarea confirmării): tumori cerebrale/medulare la copil
+    (înlocuiește breadcrumb-ul NR 113 „Tumori – vezi Cancer"), limfom, tumori osoase._
 
 - **ADĂUGAT — 5 situații de traumă pediatrică lipsă** în `Pediatrie › Traumatisme`
   (16 rânduri noi, NR 1489–1504; indicații/grade aliniate la ACR Appropriateness
