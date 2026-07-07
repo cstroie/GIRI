@@ -34,12 +34,17 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1485 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1487 rânduri, 13 coloane)
+
+> **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
+> inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
+> **indicativă** și unele capitole au și ID-uri neconsecutive. Referă rândurile prin
+> **Capitol + Situație clinică**, nu prin NR.CRT.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–155 | 155 |
-| 2 | [Traumatisme](#2-traumatisme) | 156–278 | 123 |
+| 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 | 125 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
 | 5 | [Torace](#5-torace) | 602–676 | 75 |
@@ -193,7 +198,7 @@ _NR 1–155_
   (propuneri de adăugat + întrebări de stil; nicio inserare de rânduri noi în date)._
 
 ## 2. Traumatisme
-_NR 156–278_
+_NR 156–278 · 1486–1487_
 
 - **MUTAT —** 18 rânduri intervenționale (Tip I/A) relocate la RI › Traumatisme.
 - **MODIFICAT (date) —** subcapitol „Bazin și/şi sacru" unificat la forma majoritară cu cedilă „şi".
@@ -214,8 +219,19 @@ _NR 156–278_
 - **ELIMINAT — subcapitol-husk „Aparat digestiv"** (conținea doar rândul-placeholder
   Tip Z, fără situație reală). Trauma abdominală stă în subcapitolul „Abdomen".
   (Vezi Modificări globale › Ierarhia capitolelor.) (−1 rând)
-- _Chestiuni lăsate pentru editori → `EDITORIAL-decisions.md` §5: omisiuni de patologie
-  (traumatism vascular de membru etc.), „lemn pictat" (NR 221)._
+- **ADĂUGAT — „Traumatism vascular al membrelor"** (subcapitol „Sistem vascular", care
+  acoperea doar aorta toracică): Angio-CT de membru = *Indicat, grad B* (doza 2/3);
+  Ecografie Doppler de membru = *Doar în cazuri particulare, grad B* (doza 0/0). Ambele
+  diagnostice (Terapeutic = Nu). Rânduri noi **NR 1486/1487** (ID-uri la finalul secvenței —
+  fără renumerotare, vezi CLAUDE.md). (+2 rânduri)
+- **VERIFICAT (nemodificat) — „lemn pictat"** (Corp străin, NR 219/220). Sursa canonică
+  originală conține **deliberat** „lemn pictat" (nu e typo — lemnul vopsit are altă
+  radioopacitate decât cel simplu); formularea se **păstrează**.
+- **REVIZUIT — fără rânduri noi** pentru: stratificarea traumatismului cranian (Canadian
+  CT Head Rule — opțiunile imagistice sunt aceleași, stratificarea e clinică, nu un rând
+  nou); fractura de bazin instabilă (deja acoperită — stabil în „Traumatism izolat de
+  bazin", instabil → embolizare la RI); granularitate membre (claviculă / mână / femur /
+  gambă — acoperite implicit de radiografia regională).
 
 ## 3. Cancer
 _NR 279–514_

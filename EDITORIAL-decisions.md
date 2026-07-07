@@ -103,56 +103,18 @@ Criteria, RCR iRefer). **Schițe — de validat clinic de editori** înainte de 
 
 ---
 
-## 5. Traumatisme — chestiuni structurale și omisiuni
+## 5. Subcapitole-husk rămase de confirmat (audit global)
 
-Din analiza capitolului Traumatisme (NR 156–278, 123 rânduri). Corecturile ortografice
-și de whitespace s-au aplicat deja (vezi CHANGELOG §2). Rămân de decis:
+Găsite la auditul global (vezi și `CLAUDE.md` › „Ierarhia capitolelor"). **Husk** =
+subcapitol cu **doar** rândul-placeholder Tip Z, fără situație reală. Cele din capitolele
+**Traumatisme** și **Aparat digestiv** au fost deja eliminate (vezi CHANGELOG). Rămân
+**2 husk-uri, în capitole încă nerevizuite** — de eliminat când se ajunge la ele:
 
-### 5.1 Subcapitole-husk (audit global) — parțial REZOLVAT
-Un **husk** = subcapitol care conține **doar** rândul-placeholder „ALTĂ SITUAȚIE CLINICĂ"
-(Tip Z), fără nicio situație reală — rămășiță după mutarea conținutului. Audit pe tot
-ghidul → 4 husk-uri:
+- ⏳ **„Aparat digestiv › Abdomen"** — bucket generic gol; capitolul e organizat pe organ
+  („Ficat, colecist și pancreas", „Tub digestiv"). Recomandare: eliminare. (cap. 6)
+- ⏳ **„Aparat uro-genital › Uter și anexe"** — conținutul de uter/anexe trăiește în
+  Obstetrică-ginecologie (Ginecologie / Sarcină) și Cancer (col/corp uterin).
+  Recomandare: eliminare. (cap. 7)
 
-- ✅ **ELIMINAT — „Traumatisme › Aparat digestiv"** (decizie editor). Fațeta greșită ca
-  subcapitol: trauma abdominală stă în „Traumatisme › Abdomen".
-- ✅ **ELIMINAT — „Aparat digestiv › Traumatisme abdominale"** (decizie editor). Anti-pattern
-  context-în-anatomie (exact „mă duc la digestiv și găsesc traumă"): trauma abdominală
-  stă în capitolul Traumatisme.
-- ⏳ **DE CONFIRMAT — „Aparat digestiv › Abdomen"** (husk). Capitolul Aparat digestiv e
-  organizat pe organ („Ficat, colecist și pancreas", „Tub digestiv"); un bucket generic
-  „Abdomen" gol pare redundant. Recomandare: eliminare. **Neatins** (capitolul 6 încă
-  nerevizuit).
-- ⏳ **DE CONFIRMAT — „Aparat uro-genital › Uter și anexe"** (husk). Conținutul de uter/anexe
-  trăiește în **Obstetrică-ginecologie** (Ginecologie / Sarcină) și **Cancer** (col/corp
-  uterin). Husk redundant. Recomandare: eliminare. **Neatins** (capitolul 7 încă nerevizuit).
-
-> Regula generală anti-husk e consemnată în `CLAUDE.md` › „Ierarhia capitolelor".
-
-### 5.2 Cvasi-duplicat NR 178 / 179 (Cap, PET-CT/SPECT) — REZOLVAT
-- Rândurile difereau doar prin „PET-CT" vs „PET" în Comentarii. **Comasate** (decizie
-  editor): păstrată varianta „PET-CT". Detalii → `DUPLICATE-review.md` §C.
-
-### 5.3 Omisiuni de patologie (propuneri — de validat clinic)
-Situații traumatice frecvente aparent neacoperite. **Schițe orientative** (ACR
-Appropriateness Criteria, RCR iRefer); niciun rând inserat în `GHID.csv`.
-
-- **Traumatism vascular al membrelor** (plagă penetrantă / fractură cu suspiciune de
-  leziune arterială). Subcapitolul „Sistem vascular" acoperă **doar** aorta toracică.
-  Propunere: Angio-CT membru = *Indicat, grad B*; ecografie Doppler = *Doar în cazuri
-  particulare*.
-- **Traumatism cranian — stratificare pe reguli clinice** (ex. Canadian CT Head Rule).
-  Există un singur rând generic „Traumatism cranio-encefalic"; de decis dacă se dorește
-  separarea „minor cu factori de risc" vs „sever", ca la coloana cervicală.
-- **Fractură de bazin — stratificare hemodinamică.** „Traumatism izolat de bazin"
-  (NR 174–176) nu distinge pacientul instabil (unde intră angio-CT + embolizare, deja
-  la RI). De confirmat dacă e suficient acoperit.
-- **Membru superior — claviculă / mână-degete** și **membru inferior — femur diafizar /
-  gambă**: probabil acoperite implicit de radiografia regională; de decis dacă merită
-  rânduri proprii.
-
-> Status: **niciun rând nou inserat**. Se așteaptă decizia editorilor.
-
-### 5.4 „lemn pictat" (NR 221) — formulare de verificat
-- Situația „corp străin (metal, sticlă, **lemn pictat**, ghimpe)" — sintagma „lemn
-  pictat" este neobișnuită (probabil „lemn" simplu). De confirmat formularea originală.
-  **Neatins** (nu e o corectură ortografică clară).
+> Chestiunile din capitolul **Traumatisme** (omisiuni, „lemn pictat", cvasi-duplicat
+> NR 178/179) au fost rezolvate — vezi CHANGELOG §2 și `DUPLICATE-review.md` §C.
