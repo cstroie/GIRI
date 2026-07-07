@@ -220,10 +220,11 @@ _NR 1–155 · 1488–1505_
   - **Histiocitoză cu celule Langerhans (LCH)** (4): Radiografie os/craniu (*Indicat, B*),
     IRM regiune + SNC (*Indicat, B* — axă hipotalamo-hipofizară / diabet insipid), PET-CT
     (*Doar cu aviz specializat, B*), Radiografie toracică (*Doar în cazuri particulare, C*).
-- **MODIFICAT — enriched „Masă abdominală sau pelvină palpabilă"** (NR 22–25): completat câmpul
-  „Alte informații" cu diagnosticul diferențial (nefroblastom/Wilms, neuroblastom, hepatoblastom,
+- **MODIFICAT — enriched „Masă abdominală sau pelvină palpabilă"** (NR 22–25): adăugat în
+  „Comentarii" diagnosticul diferențial (nefroblastom/Wilms, neuroblastom, hepatoblastom,
   limfom Burkitt, tumori germinale/teratom, nefrom mezoblastic) — astfel o **căutare** după numele
-  tumorii întoarce situația de masă abdominală. (4 rânduri modificate, doar coloana 10.)
+  tumorii întoarce situația de masă abdominală. Plasat în „Comentarii" (note clinice, per schemă),
+  nu în „Alte informații" (rezervat codurilor interne / referințelor). (4 rânduri modificate.)
 
 - **ADĂUGAT — 5 situații de traumă pediatrică lipsă** în `Pediatrie › Traumatisme`
   (16 rânduri noi, NR 1489–1504; indicații/grade aliniate la ACR Appropriateness
