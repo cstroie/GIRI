@@ -34,7 +34,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1526 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1528 rânduri, 13 coloane)
 
 > **NR.CRT nu se renumerotează automat** (vezi `CLAUDE.md`). Ștergerile lasă găuri, iar
 > inserțiile primesc ID-uri la finalul secvenței — deci coloana NR.CRT de mai jos e
@@ -43,7 +43,7 @@ indicații radioimagistice.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | [Pediatrie](#1-pediatrie) | 1–155 (fără 113) · 1488–1527 | 194 |
+| 1 | [Pediatrie](#1-pediatrie) | 1–155 (fără 64, 113) · 1488–1530 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 156–278 · 1486–1487 | 125 |
 | 3 | [Cancer](#3-cancer) | 279–514 | 236 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 515–601 | 87 |
@@ -184,8 +184,25 @@ rânduri — doar textul situației. Exemple:
 ---
 
 ## 1. Pediatrie
-_NR 1–155 · 1488–1505_
+_NR 1–155 (fără 64, 113) · 1488–1530_
 
+### Rafinări `Pediatrie › Traumatisme`
+- **ADĂUGAT — „Traumatism de coloană toraco-lombară la copil"** (3 rânduri, NR 1528–1530):
+  Radiografie (*Indicat, B* — atenție la fracturile Chance / centură de siguranță), CT
+  (*Doar în cazuri particulare, B*), IRM (*Doar cu aviz specializat, B* — deficit / SCIWORA).
+  Completează axa spinală (exista doar coloana cervicală).
+- **REFACTOR — eliminată situația-orfan „Traumatism unilateral de membru – comparativ"**
+  (NR 64); nota (radiografia comparativă doar la indicația radiologului) a fost **contopită**
+  în comentariul situației generale „Traumatism de membru – suspiciune de fractură" (NR 1499).
+  (−1 rând; gaură la NR 64.)
+- **MODIFICAT — PECARN la traumatismul cranian.** La CT (NR 111): adăugată referința explicită
+  la regula **PECARN** + explicație; criteriile detaliate de indicație CT **mutate din
+  „Alte informații" în „Comentarii"** (conținut clinic, per regula din CLAUDE.md).
+- **MODIFICAT — NAI / skeletal survey.** La „Traumatism nonaccidental" (NR 59): eticheta Examen
+  „Radiografie standard" → „**Radiografie – schelet complet (skeletal survey)**"; comentariul
+  precizează protocolul standardizat (serie definită) și repetarea la 11–14 zile.
+
+### Oncologie
 - **RESTRUCTURAT — subcapitol nou „Oncologie"** (al doilea bucket de context, ca la
   Traumatisme). Relocate cele **4 rânduri** „Masă abdominală sau pelvină palpabilă"
   (workup de neuroblastom / nefroblastom) din „Aparat digestiv" → `Pediatrie › Oncologie`.
@@ -275,6 +292,9 @@ _NR 1–155 · 1488–1505_
 _NR 156–278 · 1486–1487_
 
 - **MUTAT —** 18 rânduri intervenționale (Tip I/A) relocate la RI › Traumatisme.
+- **MODIFICAT (terminologie) —** „Traumatism cranio-**encefalic**" → „Traumatism
+  cranio-**cerebral**" (subcapitol Cap, 4 rânduri), pentru consecvență cu capitolul
+  Pediatrie (preferință editor: „cranio-cerebral").
 - **MODIFICAT (date) —** subcapitol „Bazin și/şi sacru" unificat la forma majoritară cu cedilă „şi".
 - **MODIFICAT (date) — corecturi ortografice și de tipar (10 rânduri).** Diacritice
   lipsă: „si"→„și" (NR 178, 179 — Examen; NR 206 — Comentarii), „Daca"→„Dacă"
