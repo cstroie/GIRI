@@ -15,8 +15,12 @@ consultare („IRIS") e separată și **nu** se regenerează din acest ghid acum
 2. **Diacritice românești corecte: ș/Ș, ț/Ț cu virgulă** — niciodată cedilă (ş/ţ).
    Verifică după orice editare masivă.
 3. **`NR.CRT` e doar un ID de rând** (secvențial 1..N). Nu are semnificație clinică.
-   Poate fi renumerotat; nu construi referințe externe pe el. Referă rândurile prin
-   **Capitol + Situație clinică**.
+   Nu construi referințe externe pe el. Referă rândurile prin **Capitol + Situație clinică**.
+   **NU renumerota automat** după ștergeri/comasări — renumerotarea produce un diff uriaș
+   (fiecare rând ulterior se schimbă) și se face **doar la cerere explicită**. Între timp
+   `NR.CRT` poate avea **găuri** (ex. după ștergerea unui rând); e acceptabil.
+   `validate.py` semnalează găurile ca **avertisment** (nu eroare) — se ignoră; restul
+   invarianților trebuie totuși să treacă. IDs trebuie să rămână **unice** și întregi.
 4. **Tot ce e intervențional (Tip `I` și `A`) stă în capitolul „Radiologie
    intervențională".** Nu trebuie să reapară intervențional împrăștiat în capitolele
    diagnostice — procedurile terapeutice nu sunt opțiuni de diagnostic.
@@ -69,7 +73,9 @@ RI = **aparat / sistem**.
 
 Rulează `python3 tools/validate.py` și verifică:
 
-- `NR.CRT` contigue 1..N, fără găuri sau duplicate.
+- `NR.CRT` **unic** și întreg pozitiv. Contiguitatea 1..N **nu** e obligatorie între
+  sesiuni (găurile de după ștergeri sunt tolerate — vezi regula 3); `validate.py` o
+  raportează ca avertisment. Se reface contiguitatea doar la o renumerotare cerută explicit.
 - Fiecare rând are exact **13 coloane**.
 - **0** rânduri cu Tip `I`/`A` în afara capitolului „Radiologie intervențională".
 - **0** caractere cedilă (ş/Ş/ţ/Ţ).
