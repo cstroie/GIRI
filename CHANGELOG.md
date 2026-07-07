@@ -181,6 +181,20 @@ _NR 156–280_
 
 - **MUTAT —** 18 rânduri intervenționale (Tip I/A) relocate la RI › Traumatisme.
 - **MODIFICAT (date) —** subcapitol „Bazin și/şi sacru" unificat la forma majoritară cu cedilă „şi".
+- **MODIFICAT (date) — corecturi ortografice și de tipar (10 rânduri).** Diacritice
+  lipsă: „si"→„și" (NR 178, 179 — Examen; NR 206 — Comentarii), „Daca"→„Dacă"
+  (NR 205 Comentarii, NR 222 Alte informații), „electie"→„elecție" (NR 206);
+  proper noun „Otawa"→„Ottawa" (criteriile Ottawa; NR 249, 250, aliniat la NR 251);
+  spațiere: „prealabilă ,timpi"→„prealabilă, timpi" (NR 167 Examen),
+  „toraco - lombară"→„toraco-lombară" (NR 212 Examen, aliniat la rândurile-soră).
+  Fără schimbare de sens clinic.
+- **MODIFICAT (date) — normalizare whitespace pe câmpuri-cheie** (Situație / Examen):
+  eliminate spații finale la „…esofagian înalt" (NR 218–220), „Traumatism de pumn"
+  (NR 258–261) și „Ecografie" (NR 266). Nu afectează gruparea (spațiul era pe toate
+  rândurile din grup).
+- _Chestiuni lăsate pentru editori → `EDITORIAL-decisions.md` §5: subcapitolul-shell
+  „Aparat digestiv" (doar placeholder), cvasi-duplicatul NR 178/179 (→ `DUPLICATE-review.md` §C),
+  omisiuni de patologie (traumatism vascular de membru etc.), „lemn pictat" (NR 221)._
 
 ## 3. Cancer
 _NR 281–516_

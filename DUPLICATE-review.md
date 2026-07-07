@@ -42,3 +42,15 @@ spații parazite). Nu s-au comasat rânduri. Forma canonică rezultată:
 
 > Grupul „Rahialgie / Radiculalgie" a fost **exclus** din uniformizare, pentru a lăsa
 > perechea NR 1472/1473 exact așa cum e, spre studiu.
+
+## C. Cvasi-duplicate semnalate la reviewul pe capitole (de decis)
+
+Perechi găsite la parcurgerea capitol-cu-capitol. **Lăsate neatinse** — comasarea se
+decide de editor.
+
+- **Traumatisme — NR 178 / 179** · Cap · „Traumatism cranio-encefalic" · Tip N ·
+  „PET-CT (F18-FDG) și SPECT-CT (99mTc-HMPAO)" · „Doar cu aviz specializat" · grad C.
+  Rândurile sunt **identice pe toate coloanele** cu excepția unei diferențe minore în
+  Comentarii: unul scrie „**PET-CT** cu fluorodeoxiglucoză", celălalt „**PET** cu
+  fluorodeoxiglucoză" (rest identic). Pare **duplicat accidental** (candidat de comasat),
+  nu două intrări legitime. De confirmat de editor înainte de eliminare.

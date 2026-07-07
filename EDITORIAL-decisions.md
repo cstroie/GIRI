@@ -100,3 +100,48 @@ Criteria, RCR iRefer). **Schițe — de validat clinic de editori** înainte de 
    - _(niciunul confirmat încă)_ — ex. semnalat la analiză: Ecografie „Masă abdominală
      sau pelvină palpabilă" NR 22 = grad B, în timp ce ecografia e grad A în situații
      similare. Probabil intențional (context clinic diferit); de reconfirmat.
+
+---
+
+## 5. Traumatisme — chestiuni structurale și omisiuni
+
+Din analiza capitolului Traumatisme (NR 156–280, 125 rânduri). Corecturile ortografice
+și de whitespace s-au aplicat deja (vezi CHANGELOG §2). Rămân de decis:
+
+### 5.1 Subcapitolul „Aparat digestiv" — shell gol (structural)
+- Subcapitolul **„Aparat digestiv" (NR 160)** conține **doar** rândul-placeholder
+  „ALTĂ SITUAȚIE CLINICĂ" (Tip Z), **fără nicio situație clinică reală**. Traumatismele
+  abdominale efective stau în subcapitolul separat **„Abdomen" (NR 156–159)**.
+- **De decis:** se **elimină** subcapitolul-shell „Aparat digestiv" (redundant cu
+  „Abdomen"), sau se dorește păstrarea lui ca rubrică distinctă (și atunci ce situații
+  primește)? Recomandare: eliminare / contopire în „Abdomen". **Lăsat neatins** până la
+  decizie.
+
+### 5.2 Cvasi-duplicat NR 178 / 179 (Cap, PET-CT/SPECT)
+- Cele două rânduri sunt identice cu excepția unei diferențe triviale în Comentarii
+  („PET-CT" vs „PET"). Pare duplicat accidental. Detalii și decizie → `DUPLICATE-review.md` §C.
+
+### 5.3 Omisiuni de patologie (propuneri — de validat clinic)
+Situații traumatice frecvente aparent neacoperite. **Schițe orientative** (ACR
+Appropriateness Criteria, RCR iRefer); niciun rând inserat în `GHID.csv`.
+
+- **Traumatism vascular al membrelor** (plagă penetrantă / fractură cu suspiciune de
+  leziune arterială). Subcapitolul „Sistem vascular" acoperă **doar** aorta toracică.
+  Propunere: Angio-CT membru = *Indicat, grad B*; ecografie Doppler = *Doar în cazuri
+  particulare*.
+- **Traumatism cranian — stratificare pe reguli clinice** (ex. Canadian CT Head Rule).
+  Există un singur rând generic „Traumatism cranio-encefalic"; de decis dacă se dorește
+  separarea „minor cu factori de risc" vs „sever", ca la coloana cervicală.
+- **Fractură de bazin — stratificare hemodinamică.** „Traumatism izolat de bazin"
+  (NR 174–176) nu distinge pacientul instabil (unde intră angio-CT + embolizare, deja
+  la RI). De confirmat dacă e suficient acoperit.
+- **Membru superior — claviculă / mână-degete** și **membru inferior — femur diafizar /
+  gambă**: probabil acoperite implicit de radiografia regională; de decis dacă merită
+  rânduri proprii.
+
+> Status: **niciun rând nou inserat**. Se așteaptă decizia editorilor.
+
+### 5.4 „lemn pictat" (NR 221) — formulare de verificat
+- Situația „corp străin (metal, sticlă, **lemn pictat**, ghimpe)" — sintagma „lemn
+  pictat" este neobișnuită (probabil „lemn" simplu). De confirmat formularea originală.
+  **Neatins** (nu e o corectură ortografică clară).
