@@ -51,9 +51,9 @@ care se potrivește câștigă**:
 5. **Altfel** → **capitolul anatomic** (organ/aparat).
 
 **Axa de nivel 2 (subcapitole) diferă pe fiecare capitol-context și e intențional așa:**
-Traumatisme = **regiune anatomică** (cap, față, gât, torace, abdomen, bazin, coloană,
-membre, sistem vascular, politraumatism); Cancer = **organ / sediu primar**; RI =
-**aparat / sistem**. **Pediatrie = aparat / sistem + sub-bucket de context** pentru
+Traumatisme = **regiune anatomică + un set FIX de fațete cross-region** (vezi mai jos);
+Cancer = **organ / sediu primar**; RI = **aparat / sistem**.
+**Pediatrie = aparat / sistem + sub-bucket de context** pentru
 fațetele cross-cutting care nu se împrăștie pe aparate — momentan **„Traumatisme"** (trauma
 pediatrică: cranio-cerebral, maltratare/NAI, abdominal, membre). Pediatrie e practic
 „ghidul în miniatură": aparate pentru diagnostic + bucket(uri) de context. _De decis analog
@@ -68,6 +68,16 @@ pentru **oncologia pediatrică** (azi parțial în „Aparat digestiv" + breadcr
   Tip `Z` (nicio situație clinică reală) e o rămășiță după mutarea conținutului → se elimină.
 - **Fără fațeta greșită ca subcapitol.** Nu crea subcapitole-context într-un capitol
   anatomic (ex. „Traumatisme abdominale" în „Aparat digestiv") — trauma stă în Traumatisme.
+- **Sub-axa Traumatisme = regiune anatomică + un set ÎNCHIS de fațete cross-region.**
+  Capitolul e fundamental regional (cap, față, [gât], torace, abdomen, bazin și sacru,
+  coloană cervicală, coloană toraco-lombară, membru superior, membru inferior). Se
+  admit **doar 4 fațete non-regiune**, fiecare pentru că **traversează regiuni și are un
+  workup coerent**: **Sistem vascular** (aortă + membre + cerebrovascular), **Politraumatism**
+  (multi-regiune prin definiție), **Corp străin** (mecanism — poate fi oriunde), **Aparat
+  urogenital** (renal + vezică + uretră + scrot; workup urologic unitar). **Setul e închis:**
+  NU adăuga alte subcapitole organ-sistem în Traumatisme (dizolvarea unei fațete în regiuni
+  ar fragmenta un topic coerent — ex. trauma urogenitală pe abdomen/bazin/perineu). Un
+  organ care nu e una dintre aceste 4 fațete → merge la **regiunea** anatomică.
 
 > **De reconfirmat de editori** (impact practic aproape nul): ordinea **Cancer vs
 > Traumatisme** (pasul 3 înaintea pasului 4). Dacă un rând ar fi simultan oncologic și

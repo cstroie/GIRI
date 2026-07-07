@@ -169,3 +169,25 @@ politraumatism de mare energie) în „Abdomen", forma izolată (inel pelvin) î
 
 > Status: **neatins**, decizie editorială. Recomandare: opțiunea 1 (păstrare), eventual cu
 > clarificarea formulării situației din „Abdomen".
+
+---
+
+## 8. Traumatisme (adult) — sub-axa regiune + fațete; „Corp străin › Ingestie"
+
+**Decis (documentat în `CLAUDE.md`):** sub-axa Traumatisme = **regiune anatomică + un set
+închis de 4 fațete cross-region** (Sistem vascular, Politraumatism, Corp străin, Aparat
+urogenital). Fiecare fațetă traversează regiuni și are un workup coerent; dizolvarea lor în
+regiuni ar fragmenta topicuri clinice unitare. Setul e închis — fără alte subcapitole
+organ-sistem în Traumatisme.
+
+**De discutat mai departe — „Corp străin" conține două lucruri diferite:**
+- **„Traumatism de părți moi cu suspiciune de corp străin"** (metal, sticlă, lemn) —
+  penetrant, **clar traumă**. ✓ rămâne.
+- **„Ingestie de corp străin, situat la nivel faringian sau esofagian înalt"** — corp
+  străin **ingerat**, care e mai degrabă patologie **digestivă / ORL**, nu traumă. Paralel
+  cu decizia pediatrică (corpul străin la copil → capitolul Torace/respirator, nu Traumatisme).
+  **Decizie (utilizator): rămâne deocamdată în Traumatisme › Corp străin**, dar de reevaluat:
+  se mută la Aparat digestiv (sau un capitol ORL / căi aero-digestive), lăsând „Corp străin"
+  = doar corpul străin penetrant de părți moi? De discutat în echipă.
+
+> Status: **neatins**. Nicio mutare acum.
