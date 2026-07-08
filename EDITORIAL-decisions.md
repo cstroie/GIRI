@@ -280,3 +280,34 @@ inventat conținut clinic**; doar inventariez pentru decizia editorilor:
 > Status: **inventariat, neatins.** Dacă se decide completarea vreunuia, conținutul
 > (examen, grad de indicație) trebuie să vină dintr-o sursă citabilă (ACR/ESMO/RCR sau
 > echivalent), nu inventat.
+
+---
+
+## 12. Cardiovascular — chestiuni rămase după review (2026-07-08)
+
+Ridicate la reviewul capitolului 4 (vezi CHANGELOG §4). Corecturile mecanice (ortografie,
+normalizare, Tip↔Examen, de-duplicare de etichetă) au fost aplicate; rămân următoarele,
+care ating grade / ordine / formulare clinică → **decizia editorilor**, neatinse în date:
+
+1. ✅ **REZOLVAT — ordinea examenelor la „Anevrisme vase periferice".** Decizie editor:
+   **Eco Doppler pe prima poziție.** Ordinea CT-întâi rezultase mecanic din fuziunea
+   celor două etichete (CT era rândul singular NR 647). Reordonat la **Eco Doppler (648) →
+   Angio-CT (647) → Angio-IRM (649)** — consecvent cu nota „metoda de primă intenție" a Eco
+   Doppler și cu situația-soră „Arteriopatii periferice simptomatice" (Eco → CT → IRM).
+   Reordonare fizică a rândurilor; NR.CRT neschimbate. Vezi CHANGELOG §4.
+
+2. ✅ **REZOLVAT — notă clinică scoasă din eticheta „Arteriopatii periferice simptomatice".**
+   Avertismentul parantetic „*(arteriopatiile asimptomatice nu necesită evaluare imagistică!)*"
+   a fost scos din etichetă (→ „Arteriopatii periferice simptomatice") și mutat în `Comentarii`
+   pe **toate cele 3 investigații** (NR 650–652), fiind o notă valabilă pentru toată situația
+   (regula „informația de situație pe toate investigațiile"). Vezi CHANGELOG §4.
+
+3. ✅ **REZOLVAT — indicația scintigrafiei osoase la ATTR aliniată la ghid.** Decizie editor:
+   respectă ghidurile. **NR 589** · Indicație „Doar în cazuri particulare" → **„Indicat"**
+   (scintigrafia osoasă cu trasori de fosfat e testul-cheie non-invaziv pentru ATTR —
+   Perugini 2–3 + excluderea gamapatiei monoclonale = diagnostic fără biopsie; recomandare
+   de Clasă I, ESC 2021 / criteriile Gillmore). **Gradul B rămâne** — nivelul de evidență
+   ESC pentru acest test e B; s-a corectat puterea indicației, nu nivelul de evidență.
+   Vezi CHANGELOG §4.
+
+> Status: **toate cele 3 puncte rezolvate** (2026-07-08).

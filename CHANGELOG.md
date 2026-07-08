@@ -41,6 +41,11 @@ indicații radioimagistice.
 > intrările Cancer/Sân de mai jos reflectă starea de dinaintea acestei a doua renumerotări**
 > (NR 1525–1527 din secțiunea Cancer, de exemplu, nu mai există ca atare — conținutul e
 > neschimbat, doar ID-ul).
+>
+> ⚠️ **Renumerotare la cerere, 2026-07-08 (după reviewul Cardiovascular).** Fișierul era deja
+> contiguu 1..1471; renumerotarea a refăcut potrivirea NR.CRT ↔ poziție fizică după
+> reordonarea situației „Anevrisme vase periferice" — **doar 2 ID-uri schimbate** (fostul
+> NR 648 „Eco Doppler" → 647; fostul NR 647 „Angio-CT periferic" → 648). Restul neschimbate.
 
 ---
 
@@ -544,6 +549,77 @@ _NR 575–661_
 - **MUTAT —** 54 rânduri intervenționale (embolizări, angioplastii, protezări,
   angiografie invazivă) relocate la RI › Aparat cardiovascular. Capitolul se reduce
   substanțial (rămân investigațiile diagnostice).
+
+### MODIFICAT — Review capitol Cardiovascular (2026-07-08)
+
+Review complet al capitolului (checklist din `CLAUDE.md` › „Plan de lucru"). **38 rânduri
+modificate** (NR 577–658), toate în capitol; fără schimbări de grad, doză sau ordine a
+examenelor. Validare verde, 0 cedile.
+
+- **MODIFICAT (Tip ↔ Examen) — coduri de modalitate inversate corectate.** La „Suspiciune
+  de valvulopatie dobândită": **NR 631** „Eco Doppler" era Tip `M` → corectat `E`;
+  **NR 632** „IRM" era Tip `E` → corectat `M`. Eroare de date (cod inversat), nu reordonare.
+- **DE-DUPLICAT (Situație) — „Anevrisme vase periferice".** Situația era **scindată
+  accidental** în două etichete care difereau doar prin varianta de scriere
+  „popliteale"/„poplitee" (NR 647 vs 648/649), în același subcapitol. Unificată la
+  „…(iliace, femorale, **poplitee**, renale, mezenterice sau celiace)"; cele 3 examene
+  (Angio-CT periferic, Eco Doppler, Angio-IRM) stau acum sub o singură situație. Ordinea
+  examenelor lăsată în starea existentă — vezi `EDITORIAL-decisions.md` §12.
+- **MODIFICAT (Situație) — eliminat breadcrumb.** „HTA – evaluarea cardiacă (vezi și
+  evaluare vasculară renală)" → „HTA – evaluarea cardiacă" (NR 597–599). Trimiterea
+  încrucișată nu stă în date (regula „un singur home / fără breadcrumb-uri"); dangling-ul
+  „– vezi)" din comentariul NR 597 a fost și el curățat.
+- **MODIFICAT (Situație) — normalizare ortografică.** „amiloidoză transtiretina" →
+  „transtiretină" (NR 588/589); „valvulopatie dobandită" → „dobândită" (NR 631–633);
+  „Anevrism aortă **toracală**" → „toracică" (NR 643–646, aliniat convenției dominante pe
+  fișier — „toracică" 99 vs „toracală" 15).
+- **MODIFICAT (Examen) — normalizare la convenția dominantă.** Anglicismul „Echo"/
+  „Echografie" → „Eco"/„Ecografie" (forma dominantă global: Eco 195 vs Echo 14) — NR 577,
+  590, 597, 600, 624, 631, 639, 644, 648, 650, 653, 654, 657, 658; plus în text liber
+  „echografic"/„echo Doppler" → „ecografic"/„eco Doppler" (NR 654, 656). „Ecografia
+  cardiacă" → „Ecografie cardiacă" (NR 602, consecvent cu uniformizarea din capitolul
+  Cancer). Diacritică lipsă în etichetă: „…si la repaus" → „…și la repaus" (NR 596).
+- **MODIFICAT (Comentarii) — diacritice și typo-uri**, doar unde forma corectă e neambiguă
+  (≈20 rânduri): „substațe"→„substanțe" (NR 582), „bilațul"→„bilanțul" (NR 585),
+  „tulburari"→„tulburări" (NR 578), „in masura in care acestia sunt disponbili"→„în măsura
+  în care aceștia sunt disponibili" (NR 580), „stang"→„stâng" (NR 622), „redusa"→„redusă"
+  (NR 632), „diferential"→„diferențial" (NR 626), „interventională"→„intervențională"
+  (NR 648), „fara"→„fără" (NR 652), „pentru ca"→„pentru că" (NR 630), „shunt"→„șunt"
+  (NR 590, forma românească e deja folosită în capitol), plus alte `si`→`și`,
+  `fractie`→`fracție`, `incărcare`→`încărcare`, `evidentiere`→`evidențiere`,
+  `cinetica`/`fibroza`→`cinetică`/`fibroză` (NR 579, 584, 589, 590, 620, 624, 625).
+- **MODIFICAT (normalizare) — spații parazite.** Tip „M " (NR 613) și Examen „Angio-CT "
+  (NR 643), „Echo Doppler " (NR 648) → fără spațiu final; comentarii cu spațiu final /
+  inițial (NR 587, 615) și `\n` final (NR 616) curățate.
+- **VERIFICAT (regula „informația de situație pe toate investigațiile") — conform.**
+  Notele de nivel-situație sunt deja copiate pe toate rândurile situației acolo unde există
+  (NR 575/576 „CT și IRM au aceeași valoare diagnostică"; NR 594–596 „Examenele au valori
+  similare"; NR 634–637 „La un pacient cu insuficiență cardiacă și leziuni coronariene
+  extensive…"). Restul comentariilor sunt strict per-investigație (ce arată / cum se face
+  fiecare modalitate) și rămân, corect, pe rândul lor. **Nicio propagare necesară.**
+
+### MODIFICAT — Decizii editoriale aplicate (Cardiovascular, 2026-07-08)
+
+Rezolvarea celor trei chestiuni din `EDITORIAL-decisions.md` §12:
+
+- **RESTRUCTURAT (ordine) — „Anevrisme vase periferice": Eco Doppler pe prima poziție.**
+  Ordinea rezultată mecanic din fuziune (Angio-CT → Eco → Angio-IRM) a fost reordonată la
+  **Eco Doppler (NR 648) → Angio-CT (NR 647) → Angio-IRM (NR 649)**, consecvent cu nota
+  „metoda de primă intenție" a Eco Doppler și cu situația-soră „Arteriopatii periferice".
+  Reordonare fizică a rândurilor; NR.CRT neschimbate.
+- **MODIFICAT (Situație → Comentarii) — notă clinică scoasă din etichetă.** Eticheta
+  „Arteriopatii periferice simptomatice **(arteriopatiile asimptomatice nu necesită
+  evaluare imagistică!)**" → „Arteriopatii periferice simptomatice". Nota (prag de
+  indicație, valabilă pentru toată situația) a fost mutată în `Comentarii` pe **toate cele
+  3 investigații** (NR 650–652), per regula „informația de situație pe toate investigațiile".
+- **MODIFICAT (Indicație) — scintigrafia osoasă la amiloidoza transtiretină aliniată la
+  ghid.** NR 589 (Scintigrafie osoasă Tc99m-pirofosfat/HDP, situația „…suspiciune de
+  amiloidoză transtiretină"): Indicație „Doar în cazuri particulare" → **„Indicat"**.
+  Motivare: în ghidurile actuale (ESC 2021 pe cardiomiopatii; criteriile Gillmore et al.)
+  scintigrafia osoasă e **testul-cheie non-invaziv** pentru ATTR — captarea miocardică
+  Perugini 2–3, cu excluderea gamapatiei monoclonale, confirmă diagnosticul fără biopsie
+  (recomandare de Clasă I). **Gradul B rămâne** (nivelul de evidență ESC pentru acest test
+  este B — modificarea privește puterea indicației, nu nivelul de evidență).
 
 ## 5. Torace
 _NR 662–736_
