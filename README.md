@@ -7,7 +7,7 @@ de modificări versionat. Acest repo conține **doar datele** — aplicația de 
 
 ## Fișierul principal
 
-**`GHID.csv`** — 1471 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
+**`GHID.csv`** — 1462 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
 corecte (ș/ț cu virgulă, **nu** cedilă). Delimitator virgulă, câmpuri cu text între
 ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
@@ -15,7 +15,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 | # | Coloană | Descriere |
 |---|---|---|
-| 1 | `NR.CRT` | ID secvențial 1..1471. **Doar identificator de rând**, fără semnificație clinică. Se renumerotează la nevoie. |
+| 1 | `NR.CRT` | ID de rând, unic dar **necontiguu** (găuri după ștergeri; ID-uri noi la finalul secvenței — ex. 1472, 1473). **Doar identificator**, fără semnificație clinică. Renumerotare doar la cerere explicită. |
 | 2 | `Capitol` | Unul din cele 14 capitole (vezi mai jos). |
 | 3 | `Subcapitol` | Grupare în cadrul capitolului. |
 | 4 | `Situația Clinică` | Scenariul clinic pentru care se recomandă (sau nu) investigația. |
@@ -59,15 +59,15 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | `C` | Consens / dovezi limitate |
 | `?` | Neprecizat |
 
-## Structura pe capitole (1471 rânduri)
+## Structura pe capitole (1462 rânduri)
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | Pediatrie | 1–196 | 196 |
 | 2 | Traumatisme | 197–317 | 121 |
-| 3 | Cancer | 318–574 | 257 |
+| 3 | Cancer | 318–574 (+1472, 1473) | 259 |
 | 4 | Aparat cardiovascular | 575–661 | 87 |
-| 5 | Torace | 662–736 | 75 |
+| 5 | Torace | 662–736 (fără 695–705) | 64 |
 | 6 | Aparat digestiv | 737–806 | 70 |
 | 7 | Aparat uro-genital și glande suprarenale | 807–875 | 69 |
 | 8 | Obstetrică și ginecologie | 876–902 | 27 |

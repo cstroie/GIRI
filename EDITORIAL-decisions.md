@@ -315,31 +315,31 @@ care ating grade / ordine / formulare clinică → **decizia editorilor**, neati
 ## 13. Torace — chestiuni de încadrare rămase după review (2026-07-08)
 
 Ridicate la reviewul capitolului 5 (vezi CHANGELOG §5). Corecturile mecanice (ortografie,
-diacritice, normalizare, spații) au fost aplicate; rămân următoarele două chestiuni de
-**încadrare pe ierarhia de capitole**, care nu se decid unilateral (regula de aur 6):
+diacritice, normalizare, spații) au fost aplicate; cele două chestiuni de **încadrare pe
+ierarhia de capitole** (flagate inițial pentru a nu fi decise unilateral, regula de aur 6)
+au fost între timp **tranșate de editor** — status mai jos:
 
-1. **„Neoplasm bronhopulmonar" (NR 695–705) — suprapunere cu „Cancer bronho-pulmonar"
-   (Cancer, NR 334–343).** Capitolul Torace conține 11 rânduri de cancer pulmonar
-   determinat de malignitate cunoscută, pe fazele: *bilanț preterapeutic* (695–698),
-   *diagnostic – suspiciune clinică* (699–701), *stadializare* (702), *supraveghere*
-   (703–705). Per **ierarhia capitolelor, regula 3** („determinată de malignitate
-   cunoscută/suspectată → Cancer"; excepție doar sânul), aceste rânduri ar trebui să
-   **trăiască în Cancer**, unde există deja subcapitolul **Cancer bronho-pulmonar**
-   (NR 334–343: Diagnostic, Stadializare, Monitorizare, + placeholder Z).
+1. ✅ **REZOLVAT — „Neoplasm bronhopulmonar" (NR 695–705) mutat la Cancer › Cancer
+   bronho-pulmonar și fuzionat (⛔ BREAKING).** Decizie editor: se mută la Cancer și se
+   fuzionează. Cele 11 rânduri Torace s-au eliminat; reconciliere fază-cu-fază (Torace
+   „diagnostic – suspiciune clinică"=Diagnostic; „bilanț preterapeutic"+„stadializare"=
+   Stadializare; „supraveghere"=Monitorizare). Vezi CHANGELOG §3 pentru detaliul complet.
+   - **Excepție confirmată:** *Nodul pulmonar solitar* (NR 706–708) rămâne **diagnostic în
+     Torace** — nodul indeterminat ≠ malignitate confirmată.
+   - **⚠️ CONFLICTE DE GRAD — de confirmat de editori (rezolvate provizoriu „gradul din
+     Cancer prevalează"; niciun grad Cancer modificat):** pentru aceeași investigație în
+     aceeași fază, rândul-sursă din Torace avea alt grad decât cel din Cancer. S-a păstrat
+     rândul Cancer (mai coerent intern) și s-a renunțat la duplicatul Torace:
+     | Fază | Investigație | Grad Cancer (păstrat) | Grad Torace (renunțat) |
+     |---|---|---|---|
+     | Diagnostic | Radiografie toracică | **A** (NR 334) | C (fost 699) |
+     | Stadializare | IRM cerebral | **A** (NR 339) | C (fost 695) |
+     | Stadializare | CT cerebral/torace/abdomen | **A** (NR 340) | C (fost 697) |
+     | Stadializare | IRM toracal/mediastinal | **C** (NR 341) | B (fost 698) |
 
-   **De ce nu s-a mutat mecanic:** cele două seturi nu sunt identice — folosesc etichete
-   de fază diferite („bilanț preterapeutic" vs „Stadializare"; „supraveghere" vs
-   „Monitorizare"; „diagnostic – suspiciune clinică" vs „Diagnostic"), au comentarii mai
-   detaliate în Torace și pot diferi la grad/indicație pentru aceeași investigație. O
-   fuziune corectă cere **decizie clinică** (ce rând-sursă prevalează când diferă,
-   cum se reconciliază fazele) → nu se face automat.
-   - **Excepție de reținut:** *Nodul pulmonar (solitar)* (NR 706–708) **NU** e cancer
-     confirmat — e workup de nodul indeterminat (poate fi benign/malign) → rămâne
-     **diagnostic, în Torace**. Doar „Neoplasm bronhopulmonar" (malignitate cunoscută)
-     intră sub regula 3.
-   - **Întrebare pentru editori:** confirmăm mutarea + fuziunea „Neoplasm bronhopulmonar"
-     (695–705) în Cancer › Cancer bronho-pulmonar? Dacă da, e nevoie de o pasă de
-     reconciliere fază-cu-fază (marcată ⛔ BREAKING).
+     Dacă editorii preferă gradul din Torace pentru vreuna, se ajustează punctual (fără a
+     mai reapărea rândul dublu). Restul duplicatelor (PET-CT ×3, Scintigrafie) aveau grade
+     identice → fără conflict.
 
 2. ✅ **REZOLVAT — „Nodul pulmonar" (NR 706) unificat la „Nodul pulmonar solitar".**
    Decizie editor: unificăm eticheta. NR 706 (PET-CT, „nodul solid > 8 mm") purta eticheta
@@ -350,5 +350,5 @@ diacritice, normalizare, spații) au fost aplicate; rămân următoarele două c
    din poziția fizică. Reordonare fizică; NR.CRT neschimbate. NR 708 („…urmărire") rămâne
    situație distinctă. Vezi CHANGELOG §5.
 
-> Status: **punctul 1 deschis** (încadrarea „Neoplasm bronhopulmonar" → Cancer);
-> **punctul 2 rezolvat** (2026-07-08).
+> Status: **ambele puncte rezolvate** (2026-07-08). Rămâne de confirmat de editori doar
+> tabelul de conflicte de grad de la punctul 1 (rezolvare provizorie „gradul Cancer prevalează").

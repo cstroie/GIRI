@@ -49,19 +49,21 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1471 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1462 rânduri, 13 coloane)
 
-> **NR.CRT contigue 1..1471** după a doua renumerotare (2026-07-08). Pe viitor **nu se
-> renumerotează automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc
-> ID-uri la finalul secvenței, până la o nouă renumerotare cerută explicit.
+> **NR.CRT nu mai e contiguu** după fuziunea „Neoplasm bronhopulmonar" (2026-07-08):
+> Torace 695–705 s-au șters (11 găuri), iar Cancer › Cancer bronho-pulmonar a primit 2
+> rânduri noi cu ID-uri la finalul secvenței (1472, 1473). Pe viitor **nu se renumerotează
+> automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc ID-uri la
+> finalul secvenței, până la o nouă renumerotare cerută explicit.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
-| 3 | [Cancer](#3-cancer) | 318–574 | 257 |
+| 3 | [Cancer](#3-cancer) | 318–574 (+1472, 1473) | 259 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 575–661 | 87 |
-| 5 | [Torace](#5-torace) | 662–736 | 75 |
+| 5 | [Torace](#5-torace) | 662–736 (fără 695–705) | 64 |
 | 6 | [Aparat digestiv](#6-aparat-digestiv) | 737–806 | 70 |
 | 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 807–875 | 69 |
 | 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 876–902 | 27 |
@@ -471,7 +473,35 @@ _NR 197–317_
   gambă — acoperite implicit de radiografia regională).
 
 ## 3. Cancer
-_NR 318–574_
+_NR 318–574 (+1472, 1473)_
+
+### ⛔ BREAKING — Fuziunea „Neoplasm bronhopulmonar" din Torace (2026-07-08)
+
+Cancerul pulmonar exista **în dublu exemplar**: subcapitolul canonic **Cancer bronho-pulmonar**
+(NR 334–343) și 11 rânduri „Neoplasm bronhopulmonar" în capitolul Torace › Pulmon (NR 695–705).
+Per **ierarhia capitolelor (regula 3)** — malignitatea cunoscută → Cancer — cele 11 rânduri au
+fost **eliminate din Torace** și reconciliate în Cancer bronho-pulmonar. Maparea fazelor:
+Torace „diagnostic – suspiciune clinică" = **Diagnostic**; „bilanț preterapeutic" + „stadializare"
+= **Stadializare**; „supraveghere" = **Monitorizare**.
+
+- **ADĂUGAT — faza Monitorizare completată** (avea doar PET-CT). Două rânduri noi (ID **1472**
+  Radiografie toracică *Indicat C*, **1473** CT cerebral/torace/abdomen *Indicat C* cu protocolul
+  de urmărire 3/6/12 luni → anual 5 ani), preluate din fostele NR 703/704. Ordine G → T → N.
+- **ÎMBOGĂȚIT — note clinice unice păstrate din rândurile Torace duplicate** (regula „nu pierde
+  conținut clinic la fuziune"): NR **335** (CT diagnostic) — adăugat „se efectuează înaintea
+  bronhoscopiei…" (din 700) + corectat „depisteaza"→„depistează"; NR **340** (CT stadializare) —
+  adăugat nota „fereastră osoasă… metastaze scheletice" (din 697); NR **341** (IRM mediastinal) —
+  comentariul Pancoast îmbogățit cu detaliul anatomic din 698 (plex brahial, vertebre, arteră
+  subclaviculară, invazie pericardică) și reparată fraza trunchiată („…contrast iodat").
+- **DUPLICATE eliminate** (Cancer acoperea deja identic/mai bine): 696≈337 (PET-CT stadializare,
+  comentariu identic), 701≈336 (PET-CT diagnostic), 702≈338 (Scintigrafie osoasă), 705≈342
+  (PET-CT monitorizare), 700 (CT diagnostic amplu, redundant cu 335+340).
+- **CONFLICTE DE GRAD rezolvate „gradul Cancer prevalează"** (semnalate editorial, vezi
+  `EDITORIAL-decisions.md` §13): Radiografie diagnostic **A** păstrat (Torace 699 era C); IRM
+  cerebral stadializare **A** păstrat (695 era C); CT stadializare **A** păstrat (697 era C); IRM
+  mediastinal **C** păstrat (698 era B). Niciun grad Cancer modificat.
+
+Rezultat net Cancer: **+2 rânduri** (257 → 259).
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** subcapitol „Ficat, colecist şi pancreas" normalizat (vezi Modificări globale).
@@ -622,9 +652,19 @@ Rezolvarea celor trei chestiuni din `EDITORIAL-decisions.md` §12:
   este B — modificarea privește puterea indicației, nu nivelul de evidență).
 
 ## 5. Torace
-_NR 662–736_
+_NR 662–736 (fără 695–705)_
 
 - **MUTAT —** 11 rânduri intervenționale relocate la RI › Aparat respirator.
+
+### ⛔ BREAKING — „Neoplasm bronhopulmonar" mutat la Cancer (2026-07-08)
+
+Cele **11 rânduri** „Neoplasm bronhopulmonar" (NR 695–705, subcapitolul Pulmon) au fost
+**eliminate** din Torace și reconciliate în **Cancer › Cancer bronho-pulmonar** — malignitatea
+cunoscută trăiește în Cancer (ierarhia capitolelor, regula 3). Detaliul reconcilierii
+(duplicate eliminate, note păstrate, faza Monitorizare completată cu ID 1472/1473, conflicte
+de grad) e la **§3 Cancer**. Rândurile diagnostice de nodul pulmonar (NR 706–708, „Nodul
+pulmonar solitar") **rămân în Torace** — nodul indeterminat ≠ malignitate confirmată.
+Subcapitolul Pulmon nu rămâne husk (25+ alte situații). Torace: 75 → **64 rânduri**.
 
 ### MODIFICAT — Review capitol Torace (2026-07-08)
 
