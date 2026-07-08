@@ -37,7 +37,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1472 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1471 rânduri, 13 coloane)
 
 > **NR.CRT nu mai e contiguu** de la consolidarea oncologiei (2026-07-08): rândurile mutate
 > între capitole și-au păstrat ID-ul original (fără renumerotare — vezi `CLAUDE.md` regula 3),
@@ -50,7 +50,7 @@ indicații radioimagistice.
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
-| 3 | [Cancer](#3-cancer) | 318–553 + mutate din alte capitole + 1525–1527 | 258 |
+| 3 | [Cancer](#3-cancer) | 318–553 + mutate din alte capitole + 1525–1527 | 257 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 554–640 | 87 |
 | 5 | [Torace](#5-torace) | 641–715 | 75 |
 | 6 | [Aparat digestiv](#6-aparat-digestiv) | 716–842 | 70 |
@@ -483,6 +483,37 @@ _NR 318–553 + rânduri mutate din Aparat digestiv/locomotor/Cap + NR 1525 (nou
   situații distincte NR 1526/1527; tumori cerebrale/IRM → text îmbogățit; tumori
   cerebrale/CT → categorie+grad+text adoptate din fosta versiune Cap) →
   `DUPLICATE-review.md` secțiunea D.
+- **RESTRUCTURAT — a doua verificare, după consolidare (2026-07-08):**
+  - **MODIFICAT (eroare de date) — NR 383**, Cancer esofagian: Ecoendoscopie era marcată
+    `Tip=E` (Ecografie) în loc de `Tip=D` (diagnostic invaziv/endoscopic, ca peste tot
+    în rest); corectat.
+  - **UNIFORMIZAT — „Cancer bronho-pulmonar"**: 4 rânduri cu etichete de situație
+    fragmentate/verboase („Neoplasm bronhopulmonar – diagnostic – suspiciune clinică",
+    „…bilanț preterapeutic", „…stadializare", „…supraveghere") contopite în etichetele
+    scurte deja folosite în același subcapitol: „Diagnostic", „Stadializare" (×2),
+    „Monitorizare". Fără schimbare de conținut clinic; doar gruparea corectă a situației.
+  - **MODIFICAT — eticheta rândului ERCP (NR 490)**, subcapitol „Ficat, colecist și
+    pancreas": situația era etichetată „Cancer pancreatic" — coliziune derutantă cu
+    subcapitolul omonim „Cancer pancreatic". Redenumit „Drenaj biliar / pancreatic (ERCP)".
+  - **ELIMINAT / COMASAT — Limfom, NR 498/499** (ambele „Monitorizare, CT, Indicat B",
+    conținut redundant): păstrat NR 498 (mai complet), cu nuanța unică din NR 499
+    (ritmicitatea urmăririi) adăugată la final. (−1 rând)
+  - **MODIFICAT (date) — corecturi ortografice extinse** pe rândurile mutate din Aparat
+    digestiv (subcapitolele „Tumori maligne primare/secundare hepatice", „Tumori
+    neuroendocrine…"): ~25 câmpuri Comentarii/Alte informații cu diacritice lipsă
+    corectate (ex. „reprezinta"→„reprezintă", „interventionala"→„intervențională",
+    „evaluarii"→„evaluării", „circulatia"→„circulația"), plus câteva erori de tipar
+    („leziunihepatice"→„leziuni hepatice", spații lipsă după punct, „vena cava
+    inferioara"→„vena cavă inferioară").
+  - **MODIFICAT (corecție gramaticală) — 4 rânduri** (NR 362, 363, 401, 735):
+    „poate ajută" → „poate ajuta" (construcția corectă e cu infinitivul scurt după
+    verbul modal „a putea"; corectează o supra-corectare introdusă la trecerea
+    anterioară de normalizare a diacriticelor).
+  - **MODIFICAT (date) — capitalizare/diacritice Examen** (7 câmpuri): „Ecografie
+    endoanala"→„Ecografie endoanală" (×2), „clisma baritată…"→„Clisma baritată…",
+    „limfoscintigrafia…"→„Limfoscintigrafia…", „Angio CT"→„AngioCT" (consecvent cu
+    „AngioRM" din același subcapitol), „Explorari imagistice"→„Explorări imagistice" (×2).
+  - Rezultat net: 258 → 257 rânduri (−1, comasarea Limfom).
 
 ## 4. Aparat cardiovascular
 _NR 554–640_
