@@ -580,6 +580,30 @@ _NR 939–994_
 
 - **MUTAT —** 4 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** spații finale parazite pe „…cancer  " eliminate (12 rânduri).
+- **REVIZUIT — trecere completă (2026-07-08),** aceeași metodă ca la Cancer:
+  - **MODIFICAT (date) — 25 câmpuri** cu spații parazite (inițiale/finale/duble) eliminate,
+    inclusiv 11 caractere spațiu nesecabil (`\xa0`, artefact de copy-paste) în NR 947.
+  - **MODIFICAT (date) — corectură ortografică** NR 950: „distanta"→„distanță",
+    „pacientii"→„pacientele" (genul corect, consecvent cu restul capitolului),
+    „crescuti"→„crescuți", „si"→„și".
+  - **RESTRUCTURAT — reordonare fizică** (fără schimbare de conținut): situația
+    „Stadializarea cancerului de sân: metastaze la distanță" (Cancer de sân) și
+    „Suspiciune clinică de cancer la paciente cu augmentare (implante)" (Paciente cu
+    simptome sugestive) erau rupte în două blocuri neadiacente în CSV, întrerupte de alte
+    situații — rândurile au fost regrupate contiguu.
+  - **UNIFORMIZAT — punctuația etichetelor „Depistare (Screening)"**: 3 situații foloseau
+    virgulă („Depistare (Screening), femei…"), 4 foloseau două puncte („Depistare
+    (Screening): femei…") — unificate la două puncte (8 rânduri). Redenumit și „Screening,
+    femei cu augmentare mamară" → „Depistare (Screening): femei cu augmentare mamară",
+    pentru consecvență cu restul situațiilor de screening din același subcapitol.
+  - **Semnalat, nemodificat** — NR 961 („Depistare (Screening): femei peste 50 ani, THS",
+    Ecografie, *Neindicat* B): comentariul („Ecografia mamară este utilă ca examen
+    complementar în cazul unui sân dens și al femeilor cu proteze.") nu explică de ce e
+    *Neindicat*, spre deosebire de rândul-soră NR 967 (grup de vârstă 50-70 ani, aceeași
+    recomandare, comentariu clar: „Ecografia e indicată în diagnostic, nu în screening.").
+    Probabil doar o formulare neclară (logica generală a capitolului — ecografie utilă/
+    indicată sub 50 ani, neindicată peste 50 ani, corelat cu densitatea mamară — e
+    consecventă în rest), dar merită o a doua opinie a editorului.
 
 ## 10. Cap
 _NR 995–1114_
