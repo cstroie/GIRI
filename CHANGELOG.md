@@ -593,6 +593,24 @@ examenelor. Validare verde, 0 cedile.
   extensive…"). Restul comentariilor sunt strict per-investigație (ce arată / cum se face
   fiecare modalitate) și rămân, corect, pe rândul lor. **Nicio propagare necesară.**
 
+### MODIFICAT — Decizii editoriale aplicate (Cardiovascular, 2026-07-08)
+
+Rezolvarea a două chestiuni din `EDITORIAL-decisions.md` §12:
+
+- **MODIFICAT (Situație → Comentarii) — notă clinică scoasă din etichetă.** Eticheta
+  „Arteriopatii periferice simptomatice **(arteriopatiile asimptomatice nu necesită
+  evaluare imagistică!)**" → „Arteriopatii periferice simptomatice". Nota (prag de
+  indicație, valabilă pentru toată situația) a fost mutată în `Comentarii` pe **toate cele
+  3 investigații** (NR 650–652), per regula „informația de situație pe toate investigațiile".
+- **MODIFICAT (Indicație) — scintigrafia osoasă la amiloidoza transtiretină aliniată la
+  ghid.** NR 589 (Scintigrafie osoasă Tc99m-pirofosfat/HDP, situația „…suspiciune de
+  amiloidoză transtiretină"): Indicație „Doar în cazuri particulare" → **„Indicat"**.
+  Motivare: în ghidurile actuale (ESC 2021 pe cardiomiopatii; criteriile Gillmore et al.)
+  scintigrafia osoasă e **testul-cheie non-invaziv** pentru ATTR — captarea miocardică
+  Perugini 2–3, cu excluderea gamapatiei monoclonale, confirmă diagnosticul fără biopsie
+  (recomandare de Clasă I). **Gradul B rămâne** (nivelul de evidență ESC pentru acest test
+  este B — modificarea privește puterea indicației, nu nivelul de evidență).
+
 ## 5. Torace
 _NR 662–736_
 

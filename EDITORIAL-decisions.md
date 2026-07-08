@@ -296,20 +296,18 @@ care ating grade / ordine / formulare clinică → **decizia editorilor**, neati
    reordonat (regula „ordinea e intențională"), dar aici ordinea a rezultat mecanic din
    fuziune, nu dintr-o intenție clinică — de decis dacă se pune Eco Doppler pe prima poziție.
 
-2. **Notă clinică în eticheta situației „Arteriopatii periferice simptomatice".** Eticheta
-   conține un avertisment clinic parantetic: „*(arteriopatiile asimptomatice nu necesită
-   evaluare imagistică!)*" (NR 650–652). Per regula „datele clinice merg în `Comentarii`",
-   propunerea e să se scurteze eticheta la „Arteriopatii periferice simptomatice" și nota
-   să treacă în comentariul examenului de primă intenție (Eco Doppler, NR 650). N-am mutat-o
-   singur (e o notă pe toată situația) — de confirmat.
+2. ✅ **REZOLVAT — notă clinică scoasă din eticheta „Arteriopatii periferice simptomatice".**
+   Avertismentul parantetic „*(arteriopatiile asimptomatice nu necesită evaluare imagistică!)*"
+   a fost scos din etichetă (→ „Arteriopatii periferice simptomatice") și mutat în `Comentarii`
+   pe **toate cele 3 investigații** (NR 650–652), fiind o notă valabilă pentru toată situația
+   (regula „informația de situație pe toate investigațiile"). Vezi CHANGELOG §4.
 
-3. **Grade care par sub-evaluate față de practica curentă** (NU modificate — regula
-   gradelor):
-   - **NR 589 · Scintigrafie osoasă cu Tc99m-pirofosfat/HDP · amiloidoză transtiretină ·
-     „Doar în cazuri particulare", grad B.** În ghidurile actuale (ESC 2021 pe cardiomiopatii,
-     poziția ASNC/EANM) scintigrafia osoasă cu trasori de fosfat e **testul-cheie
-     non-invaziv** pentru ATTR (captare Perugini 2–3 permite diagnostic fără biopsie când
-     lanțurile ușoare sunt excluse) — pare sub-indicată ca „Doar în cazuri particulare".
-     De reevaluat gradul/indicația.
+3. ✅ **REZOLVAT — indicația scintigrafiei osoase la ATTR aliniată la ghid.** Decizie editor:
+   respectă ghidurile. **NR 589** · Indicație „Doar în cazuri particulare" → **„Indicat"**
+   (scintigrafia osoasă cu trasori de fosfat e testul-cheie non-invaziv pentru ATTR —
+   Perugini 2–3 + excluderea gamapatiei monoclonale = diagnostic fără biopsie; recomandare
+   de Clasă I, ESC 2021 / criteriile Gillmore). **Gradul B rămâne** — nivelul de evidență
+   ESC pentru acest test e B; s-a corectat puterea indicației, nu nivelul de evidență.
+   Vezi CHANGELOG §4.
 
-> Status: **date neatinse** la punctele 1–3. Se așteaptă decizia editorilor.
+> Status: punctul **1 rămâne deschis** (ordinea examenelor — în lucru); **2 și 3 rezolvate**.
