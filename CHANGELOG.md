@@ -37,7 +37,7 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1470 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1472 rânduri, 13 coloane)
 
 > **NR.CRT nu mai e contiguu** de la consolidarea oncologiei (2026-07-08): rândurile mutate
 > între capitole și-au păstrat ID-ul original (fără renumerotare — vezi `CLAUDE.md` regula 3),
@@ -50,7 +50,7 @@ indicații radioimagistice.
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
-| 3 | [Cancer](#3-cancer) | 318–553 + mutate din alte capitole + 1525 | 256 |
+| 3 | [Cancer](#3-cancer) | 318–553 + mutate din alte capitole + 1525–1527 | 258 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 554–640 | 87 |
 | 5 | [Torace](#5-torace) | 641–715 | 75 |
 | 6 | [Aparat digestiv](#6-aparat-digestiv) | 716–842 | 70 |
@@ -213,18 +213,22 @@ Suprapuneri mai mici existau și în **Aparat locomotor** (tumori osoase/părți
    Z; semnalat deja în `EDITORIAL-decisions.md` §5 ca „de eliminat când se ajunge la capitol").
    (−1 rând; NR 716)
 
-**Conflicte de grad găsite la comparație — NEREZOLVATE, semnalate pentru editor**
-(gradele nu se modifică unilateral — regulă `CLAUDE.md`; s-a păstrat gradul din Cancer,
-varianta din capitolul anatomic a fost eliminată ca duplicat, nu editată):
+**Conflicte de grad găsite la comparație — semnalate la editor și REZOLVATE (2026-07-08):**
 
-- Cancer esofagian, CT stadializare: Cancer *Indicat B* vs Aparat digestiv *Indicat A*.
-- Cancer gastric, Ecoendoscopie: Cancer *Indicat B* vs Aparat digestiv *Doar în cazuri particulare B*.
-- Cancer de colon, colonoscopie virtuală CT: Cancer *Indicat A* vs Aparat digestiv *Doar în
-  cazuri particulare B* (scris ca „Colo-CT cu apă" / „Colonoscopie virtuală CT").
-- Tumori cerebrale, IRM/CT diagnostic: Cancer *Indicat B* vs Cap *Indicat A* (IRM), respectiv
-  Cancer *Indicat B* vs Cap *Doar în cazuri particulare A* (CT).
+- Cancer esofagian, CT stadializare (NR 385): **ridicat** la grad A (aliniat la ghidul RCR,
+  referință adăugată).
+- Cancer gastric, Ecoendoscopie stadializare (NR 389): **coborât** la „Doar în cazuri particulare".
+- Cancer de colon, colonografie CT (diagnostic): rândul generic „Colonoscopia CT" (NR 350,
+  Indicat A) rămâne; **readuse ca situații distincte** „Colo-CT cu apă" și „Colonoscopie
+  virtuală CT" (NR 1526/1527, Doar în cazuri particulare, grad B) — erau tehnici/indicații
+  diferite, nu duplicat.
+- Tumori cerebrale, IRM diagnostic (NR 536): grad B păstrat, **text îmbogățit** cu formularea
+  mai completă din fosta versiune Cap.
+- Tumori cerebrale, CT diagnostic (NR 537): avea (eroare preexistentă) text identic cu rândul
+  de IRM; **adoptate categoria „Doar în cazuri particulare", gradul A și textul specific CT**
+  din fosta versiune Cap.
 
-Vezi `DUPLICATE-review.md` secțiunea D pentru detalii complete.
+Detalii complete în `DUPLICATE-review.md` secțiunea D. (+2 rânduri nete: NR 1526, 1527)
 
 **Rânduri mutate/eliminate, pe capitol de origine:** Aparat digestiv 24 mutate + 33
 eliminate (32 duplicate + 1 husk preexistent) · Aparat locomotor 13 mutate + 10 eliminate
@@ -466,15 +470,19 @@ _NR 318–553 + rânduri mutate din Aparat digestiv/locomotor/Cap + NR 1525 (nou
   sus pentru detaliu complet): +24 rânduri mutate din Aparat digestiv (Ficat/colecist/
   pancreas + Tub digestiv), +13 din Aparat locomotor, +1 din Cap; −19 rânduri-husk vechi
   (generice, înlocuite cu conținut mai bogat); subcapitol nou „Tumori neuroendocrine
-  gastro-entero-pancreatice (GEP-NET)" (11 rânduri + Z, NR 1525). Rezultat net: 236 → 256 rânduri.
+  gastro-entero-pancreatice (GEP-NET)" (11 rânduri + Z, NR 1525). Rezultat net: 236 → 258 rânduri
+  (256 din consolidare + 2 din rezolvarea conflictelor de grad, NR 1526/1527).
 - **ADĂUGAT — excepție documentată pentru cancerul de sân** (rămâne în capitolul Sân,
   subcapitol „Cancer de sân"), consemnată în `CLAUDE.md`.
 - **MODIFICAT — corecturi ortografice, punctuație, uniformizare** (diacritice, spații
   parazite, denumiri „PET-CT"/Ecografie/Radiografie, spațiere cratimă) — vezi „Modificări
   globale" pentru detaliu complet.
-- **Grade de indicație divergente găsite la consolidare — semnalate, nerezolvate**
-  (4 cazuri: cancer esofagian/CT, cancer gastric/ecoendoscopie, cancer de colon/
-  colonoscopie virtuală, tumori cerebrale/IRM+CT) → `DUPLICATE-review.md` secțiunea D.
+- **Grade de indicație divergente găsite la consolidare — semnalate la editor și
+  rezolvate** (5 cazuri: cancer esofagian/CT → ridicat la A; cancer gastric/ecoendoscopie
+  → coborât la „Doar în cazuri particulare"; cancer de colon/colonografie CT → readuse ca
+  situații distincte NR 1526/1527; tumori cerebrale/IRM → text îmbogățit; tumori
+  cerebrale/CT → categorie+grad+text adoptate din fosta versiune Cap) →
+  `DUPLICATE-review.md` secțiunea D.
 
 ## 4. Aparat cardiovascular
 _NR 554–640_

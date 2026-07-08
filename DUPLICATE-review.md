@@ -52,29 +52,32 @@ spații parazite). Nu s-au comasat rânduri. Forma canonică rezultată:
   fluorodeoxiglucoză". **REZOLVAT — comasate** (decizie editor): păstrată varianta
   „PET-CT" (aliniată la eticheta Examen); NR renumerotate 1..1487.
 
-## D. Consolidarea oncologiei (Cancer, 2026-07-08) — conflicte de grad semnalate
+## D. Consolidarea oncologiei (Cancer, 2026-07-08) — conflicte de grad
 
 La mutarea conținutului oncologic din Aparat digestiv și Cap către Cancer (vezi
 CHANGELOG § Modificări globale), unele perechi „aceeași situație + același examen"
-aveau **grade de indicație diferite** între capitolul anatomic și Cancer. Per regula
-din `CLAUDE.md` („Gradele de indicație NU se modifică" singur), s-a **păstrat gradul
-din Cancer** și s-a eliminat varianta din capitolul anatomic ca duplicat — **fără**
-a alege activ care grad e corect. De studiat de editor:
+aveau **grade de indicație diferite** între capitolul anatomic și Cancer. Semnalate la
+editor (costinstroie@gmail.com) și **rezolvate 2026-07-08**:
 
-- **Cancer esofagian — CT stadializare (toraco-abdomino-pelvin):** Cancer *Indicat, grad
-  B* vs Aparat digestiv (fostul NR 796) *Indicat, grad A*. Text aproape identic; doar
-  gradul diferă.
-- **Cancer gastric — Ecoendoscopie stadializare:** Cancer *Indicat, grad B* vs Aparat
-  digestiv (fostul NR 792) *Doar în cazuri particulare, grad B* — categorie de indicație
-  diferită, grad identic.
-- **Cancer de colon — colonoscopie virtuală CT (diagnostic):** Cancer *Indicat, grad A*
-  („Colonoscopia CT") vs Aparat digestiv (foste NR 789/790) *Doar în cazuri particulare,
-  grad B* (scris „Colo-CT cu apă" / „Colonoscopie virtuală CT" — posibil tehnici ușor
-  diferite: prep cu apă vs CO₂/aer, de clarificat cu editorul dacă justifică grade diferite).
-- **Tumori cerebrale — IRM diagnostic:** Cancer *Indicat, grad B* vs Cap (fostul NR 1054)
-  *Indicat, grad A*.
-- **Tumori cerebrale — CT diagnostic:** Cancer *Indicat, grad B* vs Cap (fostul NR 1055)
-  *Doar în cazuri particulare, grad A* — categorie și grad ambele diferite.
-- **Cancer de rect / anal — Ecoendoscopie / Ecografie endorectală stadializare:** Cancer
-  *Doar cu aviz specializat, grad B* vs Aparat digestiv (fostul NR 784) *Doar în cazuri
-  particulare, grad B* — categorie diferită, grad identic; impact clinic minor.
+- **Cancer esofagian — CT stadializare (toraco-abdomino-pelvin), NR 385.** Cancer avea
+  grad B, fosta versiune din Aparat digestiv (NR 796, text identic) grad A, aliniat la
+  ghidul RCR. **DECIS: ridicat la grad A**; referință „Ghid RCR" adăugată în „Alte informații".
+- **Cancer gastric — Ecoendoscopie stadializare, NR 389.** Cancer avea „Indicat", fosta
+  versiune din Aparat digestiv (NR 792) „Doar în cazuri particulare" (grad B comun).
+  **DECIS: coborât la „Doar în cazuri particulare"**.
+- **Cancer de colon — colonografie CT, diagnostic.** Cancer avea un singur rând generic
+  „Colonoscopia CT" (Indicat, grad A, NR 350) care rămâne neschimbat; cele două rânduri
+  distincte din Aparat digestiv (foste NR 789/790: „Colo-CT cu apă" — pentru pacienți
+  fragili, fără preparare digestivă; „Colonoscopie virtuală CT" — când colonoscopia optică
+  nu poate fi efectuată) erau tehnici/indicații diferite, nu duplicat. **DECIS: readuse ca
+  situații distincte** în Cancer › Cancer de colon › Diagnostic, NR 1526/1527, „Doar în
+  cazuri particulare", grad B (diacritice corectate la reintroducere).
+- **Tumori cerebrale — IRM diagnostic, NR 536.** Grad B păstrat (ambele surse „Indicat");
+  **DECIS: text îmbogățit** cu formularea mai completă din fosta versiune Cap (NR 1054):
+  menționează explicit rolul în clasificare, alegerea strategiei terapeutice și
+  supravegherea postterapeutică (difuzie/perfuzie/spectroRM).
+- **Tumori cerebrale — CT diagnostic, NR 537.** Cancer avea „Indicat, grad B" cu text
+  *identic* cu rândul de IRM (eroare de conținut — CT nu ar trebui să aibă aceeași
+  justificare ca IRM). Fosta versiune Cap (NR 1055) avea „Doar în cazuri particulare,
+  grad A", cu text specific CT (rol complementar/contraindicație IRM, structuri osoase,
+  leziuni meningeale). **DECIS: adoptată categoria + gradul + textul din Cap.**
