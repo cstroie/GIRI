@@ -100,3 +100,19 @@ nevoie de un diff „aprobat → GIRI".
 2. Rulează validarea: `python3 tools/validate.py` (vezi `CLAUDE.md`).
 3. Documentează în `CHANGELOG.md`, la capitolul corespunzător.
 4. Commit + push. Fiecare capitol trimis la review poate fi un pull request.
+
+## Vizualizare HTML
+
+`tools/generate_html.py` transformă `GHID.csv` într-un `GHID.html` lizibil (un singur
+fișier, CSS inclus, fără JavaScript și fără dependențe externe) — cuprins, legendă și
+ierarhia Capitol → Subcapitol → Situație clinică → examene, cu badge-uri colorate pentru
+Indicație/Grad/Terapeutic.
+
+```
+python3 tools/generate_html.py        # citește GHID.csv, scrie GHID.html
+```
+
+`GHID.html` e un artefact generat, **nu se editează manual**. Workflow-ul GitHub Actions
+`.github/workflows/build-html.yml` rulează `validate.py` și regenerează `GHID.html` la
+fiecare push care atinge `GHID.csv`, comițând rezultatul înapoi pe aceeași ramură dacă
+s-a schimbat.

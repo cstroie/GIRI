@@ -1,0 +1,43 @@
+name: Validează și generează GHID.html
+
+on:
+  push:
+    paths:
+      - GHID.csv
+      - tools/validate.py
+      - tools/generate_html.py
+      - .github/workflows/build-html.yml
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validează invarianții GHID.csv
+        run: python3 tools/validate.py
+
+      - name: Generează GHID.html
+        run: python3 tools/generate_html.py
+
+      - name: Comite GHID.html dacă s-a schimbat
+        run: |
+          if git diff --quiet -- GHID.html; then
+            echo "GHID.html neschimbat, nimic de comis."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add GHID.html
+          git commit -m "chore: regenerează GHID.html din GHID.csv [skip ci]"
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
