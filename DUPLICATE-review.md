@@ -51,3 +51,30 @@ spații parazite). Nu s-au comasat rânduri. Forma canonică rezultată:
   Comentarii: unul scria „**PET-CT** cu fluorodeoxiglucoză", celălalt „**PET** cu
   fluorodeoxiglucoză". **REZOLVAT — comasate** (decizie editor): păstrată varianta
   „PET-CT" (aliniată la eticheta Examen); NR renumerotate 1..1487.
+
+## D. Consolidarea oncologiei (Cancer, 2026-07-08) — conflicte de grad semnalate
+
+La mutarea conținutului oncologic din Aparat digestiv și Cap către Cancer (vezi
+CHANGELOG § Modificări globale), unele perechi „aceeași situație + același examen"
+aveau **grade de indicație diferite** între capitolul anatomic și Cancer. Per regula
+din `CLAUDE.md` („Gradele de indicație NU se modifică" singur), s-a **păstrat gradul
+din Cancer** și s-a eliminat varianta din capitolul anatomic ca duplicat — **fără**
+a alege activ care grad e corect. De studiat de editor:
+
+- **Cancer esofagian — CT stadializare (toraco-abdomino-pelvin):** Cancer *Indicat, grad
+  B* vs Aparat digestiv (fostul NR 796) *Indicat, grad A*. Text aproape identic; doar
+  gradul diferă.
+- **Cancer gastric — Ecoendoscopie stadializare:** Cancer *Indicat, grad B* vs Aparat
+  digestiv (fostul NR 792) *Doar în cazuri particulare, grad B* — categorie de indicație
+  diferită, grad identic.
+- **Cancer de colon — colonoscopie virtuală CT (diagnostic):** Cancer *Indicat, grad A*
+  („Colonoscopia CT") vs Aparat digestiv (foste NR 789/790) *Doar în cazuri particulare,
+  grad B* (scris „Colo-CT cu apă" / „Colonoscopie virtuală CT" — posibil tehnici ușor
+  diferite: prep cu apă vs CO₂/aer, de clarificat cu editorul dacă justifică grade diferite).
+- **Tumori cerebrale — IRM diagnostic:** Cancer *Indicat, grad B* vs Cap (fostul NR 1054)
+  *Indicat, grad A*.
+- **Tumori cerebrale — CT diagnostic:** Cancer *Indicat, grad B* vs Cap (fostul NR 1055)
+  *Doar în cazuri particulare, grad A* — categorie și grad ambele diferite.
+- **Cancer de rect / anal — Ecoendoscopie / Ecografie endorectală stadializare:** Cancer
+  *Doar cu aviz specializat, grad B* vs Aparat digestiv (fostul NR 784) *Doar în cazuri
+  particulare, grad B* — categorie diferită, grad identic; impact clinic minor.

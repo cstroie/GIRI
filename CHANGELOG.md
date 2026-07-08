@@ -37,28 +37,30 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1524 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1470 rânduri, 13 coloane)
 
-> **NR.CRT contigue 1..1524** după renumerotarea la cerere. Pe viitor **nu se renumerotează
-> automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc ID-uri la finalul
-> secvenței, până la o nouă renumerotare cerută explicit. Referă rândurile prin
-> **Capitol + Situație clinică**, nu prin NR.CRT.
+> **NR.CRT nu mai e contiguu** de la consolidarea oncologiei (2026-07-08): rândurile mutate
+> între capitole și-au păstrat ID-ul original (fără renumerotare — vezi `CLAUDE.md` regula 3),
+> iar rândurile noi au primit ID-uri la finalul secvenței (NR 1525). Coloana „NR.CRT" de mai
+> jos e **doar orientativă** (intervalul dominant din capitol); pentru intervalul exact rulează
+> `tools/validate.py` sau interoghează CSV-ul. Referă rândurile prin **Capitol + Situație
+> clinică**, nu prin NR.CRT.
 
-| # | Capitol | NR.CRT | Rânduri |
+| # | Capitol | NR.CRT (orientativ) | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
-| 3 | [Cancer](#3-cancer) | 318–553 | 236 |
+| 3 | [Cancer](#3-cancer) | 318–553 + mutate din alte capitole + 1525 | 256 |
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 554–640 | 87 |
 | 5 | [Torace](#5-torace) | 641–715 | 75 |
-| 6 | [Aparat digestiv](#6-aparat-digestiv) | 716–842 | 127 |
+| 6 | [Aparat digestiv](#6-aparat-digestiv) | 716–842 | 70 |
 | 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 843–911 | 69 |
 | 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 912–938 | 27 |
 | 9 | [Sân](#9-sân) | 939–994 | 56 |
-| 10 | [Cap](#10-cap) | 995–1114 | 120 |
+| 10 | [Cap](#10-cap) | 995–1114 | 116 |
 | 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1115–1132 | 18 |
 | 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1133–1187 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1188–1274 | 87 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1188–1274 | 74 |
 | 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1275–1524 | 250 |
 
 ---
@@ -168,6 +170,85 @@ După consolidarea intervenționalului au rămas perechi aproape identice (acela
   - Ecografie „Suspiciune de masă pelvină" (NR 889 și 890) — comentarii și grad diferite
     (C vs A), par două intrări legitime.
   - Infiltrație „Rahialgie / Radiculalgie" (NR 1472 și 1473) — coduri diferite PC5 vs PC7.
+
+### ⛔ BREAKING — Consolidarea oncologiei diagnostice în capitolul Cancer (2026-07-08)
+
+**Problema:** stadializarea/urmărirea oncologică (malignitate cunoscută sau suspectată)
+era împrăștiată și în capitole anatomice — mai ales **Aparat digestiv**, care conținea
+un set aproape complet (și parțial fragmentat în variante de denumire) de situații
+identice sau cvasi-identice cu subcapitole deja existente în **Cancer** (esofag, stomac,
+colorectal/rect/anal, colangiocarcinom, tumoră hepatică primară, tumoră pancreatică).
+Suprapuneri mai mici existau și în **Aparat locomotor** (tumori osoase/părți moi) și
+**Cap** (tumori cerebrale). Încalcă regula „un singur home per rând" (CLAUDE.md).
+
+**Ce s-a făcut** (script Python, dry-run → apply, `tools/validate.py` verde după fiecare pas):
+
+1. **Excepție documentată — cancerul de sân** rămâne în capitolul **Sân** (subcapitol
+   „Cancer de sân"), analog excepției ERCP; consemnat explicit în `CLAUDE.md` (ierarhia
+   capitolelor, regula 3, + „Decizii deja luate"). Sânul e capitol de specialitate
+   (senologie), nu doar un aparat anatomic.
+2. **Aparat digestiv → Cancer: 24 rânduri mutate, 32 eliminate** (duplicate exacte/cvasi-exacte
+   ale conținutului deja existent în Cancer — vezi detaliu pe capitole mai jos).
+3. **Aparat locomotor → Cancer: 13 rânduri mutate** (restructurare os/părți moi, înlocuind
+   10 rânduri generice vechi din Cancer cu structura mai precisă, deja existentă în
+   Aparat locomotor, care separă osos de părți moi).
+4. **Cap → Cancer: 1 rând mutat, 3 eliminate** (conflict de grad cu conținutul deja
+   existent în Cancer — semnalat mai jos, nu rezolvat unilateral).
+5. **Subcapitol nou în Cancer — „Tumori neuroendocrine gastro-entero-pancreatice
+   (GEP-NET)"** (11 rânduri, NR 765–770 + 774–776 + 838, plus rând Z nou NR 1525):
+   conținut real, absent anterior din Cancer, „ascuns" în Aparat digestiv sub tumoră
+   endocrină pancreatică + suspiciune de tumoră endocrină intestinală. Grupate împreună
+   (terminologie ESMO — GEP-NET) pentru că workup-ul (scintigrafie/PET-CT cu analogi de
+   somatostatină) e comun, indiferent de sediu.
+6. **Duplicat intern eliminat** (nu doar cross-capitol): NR 837 din Aparat digestiv era
+   identic cu NR 775 (aceeași situație, examen și comentariu; doar Doza diferea) —
+   păstrat NR 775, eliminat 837.
+7. **Rânduri-husk vechi din Cancer, eliminate și înlocuite cu conținut mai bogat, mutat din
+   Aparat digestiv** (fără schimbare de grad clinic, doar text mai detaliat/specific):
+   „Tumori maligne primare hepatice" (Detectare + Stadializare) și „Tumori maligne
+   secundare hepatice" (Detectare) — conținutul din Aparat digestiv acoperea explicit
+   ciroza/carcinomul hepatocelular și bilanțul de rezecabilitate al metastazelor, absent
+   din formularea generică veche.
+8. **ELIMINAT — subcapitol-husk preexistent „Aparat digestiv › Abdomen"** (doar rândul-placeholder
+   Z; semnalat deja în `EDITORIAL-decisions.md` §5 ca „de eliminat când se ajunge la capitol").
+   (−1 rând; NR 716)
+
+**Conflicte de grad găsite la comparație — NEREZOLVATE, semnalate pentru editor**
+(gradele nu se modifică unilateral — regulă `CLAUDE.md`; s-a păstrat gradul din Cancer,
+varianta din capitolul anatomic a fost eliminată ca duplicat, nu editată):
+
+- Cancer esofagian, CT stadializare: Cancer *Indicat B* vs Aparat digestiv *Indicat A*.
+- Cancer gastric, Ecoendoscopie: Cancer *Indicat B* vs Aparat digestiv *Doar în cazuri particulare B*.
+- Cancer de colon, colonoscopie virtuală CT: Cancer *Indicat A* vs Aparat digestiv *Doar în
+  cazuri particulare B* (scris ca „Colo-CT cu apă" / „Colonoscopie virtuală CT").
+- Tumori cerebrale, IRM/CT diagnostic: Cancer *Indicat B* vs Cap *Indicat A* (IRM), respectiv
+  Cancer *Indicat B* vs Cap *Doar în cazuri particulare A* (CT).
+
+Vezi `DUPLICATE-review.md` secțiunea D pentru detalii complete.
+
+**Rânduri mutate/eliminate, pe capitol de origine:** Aparat digestiv 24 mutate + 33
+eliminate (32 duplicate + 1 husk preexistent) · Aparat locomotor 13 mutate + 10 eliminate
+(rândurile generice vechi din Cancer) · Cap 1 mutat + 3 eliminate.
+
+### MODIFICAT — Corecturi ortografice, punctuație și uniformizare (capitolul Cancer)
+
+- **Diacritice** — 113 corecții de tip cuvânt-întreg (ex. „electie"→„elecție",
+  „acuratete"→„acuratețe", „hepatica"→„hepatică", „toracica"→„toracică", „in"→„în",
+  „si"→„și"), aplicate doar unde varianta corectă cu diacritice exista deja verificabil
+  în capitol; excluse cuvintele ambigue („an" ≠ „ân", „faza" ca formă articulată).
+  174 câmpuri modificate. Corectat și un typo izolat („ân caz de" → „în caz de", NR 1208
+  — mutat din Aparat locomotor) și „faza tardiva"→„faza tardivă" (NR 726).
+- **Spații parazite** — eliminate spații inițiale/finale și duble pe 54 câmpuri
+  (Situație, Examen, Comentarii, Alte informații), fără schimbare de sens.
+- **Uniformizare „PET-CT"** — 7 variante de scriere („PET - CT", „PET -CT", „PET-CT")
+  pentru același examen, unificate la forma canonică „PET-CT (F18-FDG)" (24 câmpuri,
+  Examen + text liber).
+- **Uniformizare capitalizare examene** — „Ecografia"→„Ecografie", „radiografia
+  toracică"/„Radiografia toracică"→„Radiografie toracică", „Radiografia pulmonară"→
+  „Radiografie pulmonară" (11 câmpuri Examen).
+- **Uniformizare spațiere cratimă** — „Eco- endoscopie"→„Ecoendoscopie", „eso- gastro-
+  duodenal"→„eso-gastro-duodenal", „iod -131"→„iod-131", „cervico- toracal"→„cervico-toracal"
+  (4 câmpuri Examen).
 
 ### MODIFICAT — Uniformizarea formulărilor din „Situația Clinică"
 
@@ -377,10 +458,23 @@ _NR 197–317_
   gambă — acoperite implicit de radiografia regională).
 
 ## 3. Cancer
-_NR 318–553_
+_NR 318–553 + rânduri mutate din Aparat digestiv/locomotor/Cap + NR 1525 (nou)_
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** subcapitol „Ficat, colecist şi pancreas" normalizat (vezi Modificări globale).
+- **RESTRUCTURAT — consolidarea oncologiei diagnostice** (vezi „Modificări globale" mai
+  sus pentru detaliu complet): +24 rânduri mutate din Aparat digestiv (Ficat/colecist/
+  pancreas + Tub digestiv), +13 din Aparat locomotor, +1 din Cap; −19 rânduri-husk vechi
+  (generice, înlocuite cu conținut mai bogat); subcapitol nou „Tumori neuroendocrine
+  gastro-entero-pancreatice (GEP-NET)" (11 rânduri + Z, NR 1525). Rezultat net: 236 → 256 rânduri.
+- **ADĂUGAT — excepție documentată pentru cancerul de sân** (rămâne în capitolul Sân,
+  subcapitol „Cancer de sân"), consemnată în `CLAUDE.md`.
+- **MODIFICAT — corecturi ortografice, punctuație, uniformizare** (diacritice, spații
+  parazite, denumiri „PET-CT"/Ecografie/Radiografie, spațiere cratimă) — vezi „Modificări
+  globale" pentru detaliu complet.
+- **Grade de indicație divergente găsite la consolidare — semnalate, nerezolvate**
+  (4 cazuri: cancer esofagian/CT, cancer gastric/ecoendoscopie, cancer de colon/
+  colonoscopie virtuală, tumori cerebrale/IRM+CT) → `DUPLICATE-review.md` secțiunea D.
 
 ## 4. Aparat cardiovascular
 _NR 554–640_
@@ -400,7 +494,14 @@ _NR 716–842_
 - **ELIMINAT — subcapitol-husk „Traumatisme abdominale"** (conținea doar rândul-placeholder
   Tip Z). Anti-pattern context-în-anatomie: trauma abdominală stă în capitolul Traumatisme,
   nu în Aparat digestiv. (Vezi Modificări globale › Ierarhia capitolelor.) (−1 rând)
-- _Semnalat, de confirmat: subcapitol-husk „Abdomen" (doar placeholder) → `EDITORIAL-decisions.md` §5.1._
+- **ELIMINAT — subcapitol-husk „Abdomen"** (doar rândul-placeholder Z; era semnalat în
+  `EDITORIAL-decisions.md` §5). (−1 rând, NR 716)
+- **MUTAT / ELIMINAT — consolidare oncologie → Cancer** (vezi „Modificări globale"):
+  24 rânduri mutate (cholangiocarcinom, tumoră hepatică primară pe fond de ciroză,
+  metastaze hepatice/bilanț rezecabilitate, tumoră endocrină pancreatică, suspiciune
+  tumoră neuroendocrină intestinală, ecoendoscopie pancreatică) + 32 rânduri eliminate ca
+  duplicate ale conținutului deja existent în Cancer (cancer esofagian, gastric,
+  colorectal/rect/anal — inclusiv un duplicat intern, NR 837 == NR 775). (−56 rânduri)
 
 - **MUTAT —** 62 rânduri intervenționale relocate la RI › Aparat digestiv.
 - **MODIFICAT (date) —** eticheta „Aparat digestiv " (spațiu în plus, 5 rânduri) unificată sub „Aparat digestiv".
@@ -426,6 +527,11 @@ _NR 939–994_
 _NR 995–1114_
 
 - **MUTAT —** 25 rânduri intervenționale (neurovasculare) relocate la RI › Sistem nervos.
+- **MUTAT / ELIMINAT — consolidare oncologie → Cancer** (vezi „Modificări globale"):
+  subcapitolul „Neuro › Tumori cerebrale" dubla parțial „Cancer › Tumori cerebrale și
+  medulare" (conflict de grad pe IRM/CT — semnalat, nerezolvat unilateral). 1 rând mutat
+  (scintigrafie cerebrală cu traceri de viabilitate, conținut absent din Cancer) + 3
+  eliminate ca duplicate/conflict de grad. (−3 rânduri)
 
 ## 11. Gât (părți moi)
 _NR 1115–1132_
@@ -443,6 +549,11 @@ _NR 1133–1187_
 _NR 1188–1274_
 
 - **MUTAT —** 13 rânduri intervenționale relocate la RI › Aparat locomotor.
+- **MUTAT — consolidare oncologie → Cancer** (vezi „Modificări globale"): subcapitolul
+  „Diverse" avea deja o structură os/părți moi mai precisă decât varianta generică din
+  Cancer › „Tumori ale aparatului locomotor". Toate cele 13 rânduri (Diagnostic +
+  bilanț de extensie, os și părți moi separat) mutate în Cancer, înlocuind cele 10
+  rânduri generice vechi. (−13 rânduri)
 
 ## 14. Radiologie intervențională
 _NR 1275–1524 (250 rânduri)_

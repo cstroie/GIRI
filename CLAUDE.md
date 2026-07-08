@@ -46,7 +46,11 @@ care se potrivește câștigă**:
    **Radiologie intervențională** (subcapitol de organ). Excepție: **ERCP** (Tip `D`)
    rămâne în capitolul de origine.
 3. **Determinată de malignitate** cunoscută/suspectată (stadializare, urmărire oncologică)
-   → **Cancer**.
+   → **Cancer**. Excepție: **cancerul de sân** rămâne în capitolul **Sân** (subcapitol
+   „Cancer de sân") — Sânul e un capitol de specialitate (senologie), nu doar un aparat
+   anatomic, și diagnosticul/stadializarea/urmărirea oncologică mamară sunt indisolubil
+   legate de restul conținutului lui (screening, evaluare simptomatică). Analog excepției
+   ERCP de la regula 2.
 4. **Leziune traumatică acută** → **Traumatisme** (subcapitol **pe regiune anatomică**).
 5. **Altfel** → **capitolul anatomic** (organ/aparat).
 
@@ -110,6 +114,9 @@ Rulează `python3 tools/validate.py` și verifică:
 
 - **ERCP (Tip `D`) rămâne în capitolele de origine** (nu se mută la RI), deși e
   intervențional. Marcat `Terapeutic = Da`.
+- **Cancerul de sân rămâne în capitolul Sân** (subcapitol „Cancer de sân"), nu se mută
+  la Cancer, deși e determinat de malignitate. Excepție analogă ERCP — vezi ierarhia
+  capitolelor, regula 3.
 - **Coloana `Terapeutic`**: Da = are rol terapeutic *chiar dacă e și diagnostic*
   (fără o a treia valoare „mixt"). Ex: embolizare/ablație/drenaj = Da; biopsie/PCAFGE/
   angiografie diagnostică = Nu; reducerea invaginației prin clismă = Da.

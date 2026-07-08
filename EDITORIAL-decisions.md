@@ -107,11 +107,12 @@ Criteria, RCR iRefer). **Schițe — de validat clinic de editori** înainte de 
 
 Găsite la auditul global (vezi și `CLAUDE.md` › „Ierarhia capitolelor"). **Husk** =
 subcapitol cu **doar** rândul-placeholder Tip Z, fără situație reală. Cele din capitolele
-**Traumatisme** și **Aparat digestiv** au fost deja eliminate (vezi CHANGELOG). Rămân
-**2 husk-uri, în capitole încă nerevizuite** — de eliminat când se ajunge la ele:
+**Traumatisme** și **Aparat digestiv** au fost deja eliminate (vezi CHANGELOG). Rămâne
+**1 husk, într-un capitol încă nerevizuit** — de eliminat când se ajunge la el:
 
-- ⏳ **„Aparat digestiv › Abdomen"** — bucket generic gol; capitolul e organizat pe organ
-  („Ficat, colecist și pancreas", „Tub digestiv"). Recomandare: eliminare. (cap. 6)
+- ✅ **„Aparat digestiv › Abdomen"** — REZOLVAT (review Cancer, 2026-07): eliminat.
+  Bucket generic gol; capitolul e organizat pe organ („Ficat, colecist și pancreas",
+  „Tub digestiv"). (cap. 6)
 - ⏳ **„Aparat uro-genital › Uter și anexe"** — conținutul de uter/anexe trăiește în
   Obstetrică-ginecologie (Ginecologie / Sarcină) și Cancer (col/corp uterin).
   Recomandare: eliminare. (cap. 7)
