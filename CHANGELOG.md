@@ -595,8 +595,13 @@ examenelor. Validare verde, 0 cedile.
 
 ### MODIFICAT — Decizii editoriale aplicate (Cardiovascular, 2026-07-08)
 
-Rezolvarea a două chestiuni din `EDITORIAL-decisions.md` §12:
+Rezolvarea celor trei chestiuni din `EDITORIAL-decisions.md` §12:
 
+- **RESTRUCTURAT (ordine) — „Anevrisme vase periferice": Eco Doppler pe prima poziție.**
+  Ordinea rezultată mecanic din fuziune (Angio-CT → Eco → Angio-IRM) a fost reordonată la
+  **Eco Doppler (NR 648) → Angio-CT (NR 647) → Angio-IRM (NR 649)**, consecvent cu nota
+  „metoda de primă intenție" a Eco Doppler și cu situația-soră „Arteriopatii periferice".
+  Reordonare fizică a rândurilor; NR.CRT neschimbate.
 - **MODIFICAT (Situație → Comentarii) — notă clinică scoasă din etichetă.** Eticheta
   „Arteriopatii periferice simptomatice **(arteriopatiile asimptomatice nu necesită
   evaluare imagistică!)**" → „Arteriopatii periferice simptomatice". Nota (prag de

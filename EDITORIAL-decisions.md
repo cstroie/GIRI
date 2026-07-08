@@ -289,12 +289,12 @@ Ridicate la reviewul capitolului 4 (vezi CHANGELOG §4). Corecturile mecanice (o
 normalizare, Tip↔Examen, de-duplicare de etichetă) au fost aplicate; rămân următoarele,
 care ating grade / ordine / formulare clinică → **decizia editorilor**, neatinse în date:
 
-1. **Ordinea examenelor la „Anevrisme vase periferice" (după de-duplicare).** Prin
-   unificarea celor două etichete (NR 647 + 648/649), situația are acum ordinea
-   **Angio-CT (647) → Eco Doppler (648) → Angio-IRM (649)**. Comentariul de la Eco Doppler
-   spune „Metoda de primă intenție", deci ordinea firească ar fi **Eco întâi**. N-am
-   reordonat (regula „ordinea e intențională"), dar aici ordinea a rezultat mecanic din
-   fuziune, nu dintr-o intenție clinică — de decis dacă se pune Eco Doppler pe prima poziție.
+1. ✅ **REZOLVAT — ordinea examenelor la „Anevrisme vase periferice".** Decizie editor:
+   **Eco Doppler pe prima poziție.** Ordinea CT-întâi rezultase mecanic din fuziunea
+   celor două etichete (CT era rândul singular NR 647). Reordonat la **Eco Doppler (648) →
+   Angio-CT (647) → Angio-IRM (649)** — consecvent cu nota „metoda de primă intenție" a Eco
+   Doppler și cu situația-soră „Arteriopatii periferice simptomatice" (Eco → CT → IRM).
+   Reordonare fizică a rândurilor; NR.CRT neschimbate. Vezi CHANGELOG §4.
 
 2. ✅ **REZOLVAT — notă clinică scoasă din eticheta „Arteriopatii periferice simptomatice".**
    Avertismentul parantetic „*(arteriopatiile asimptomatice nu necesită evaluare imagistică!)*"
@@ -310,4 +310,4 @@ care ating grade / ordine / formulare clinică → **decizia editorilor**, neati
    ESC pentru acest test e B; s-a corectat puterea indicației, nu nivelul de evidență.
    Vezi CHANGELOG §4.
 
-> Status: punctul **1 rămâne deschis** (ordinea examenelor — în lucru); **2 și 3 rezolvate**.
+> Status: **toate cele 3 puncte rezolvate** (2026-07-08).
