@@ -7,7 +7,7 @@ de modificări versionat. Acest repo conține **doar datele** — aplicația de 
 
 ## Fișierul principal
 
-**`GHID.csv`** — 1488 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
+**`GHID.csv`** — 1471 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
 corecte (ș/ț cu virgulă, **nu** cedilă). Delimitator virgulă, câmpuri cu text între
 ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
@@ -15,7 +15,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 | # | Coloană | Descriere |
 |---|---|---|
-| 1 | `NR.CRT` | ID secvențial 1..1488. **Doar identificator de rând**, fără semnificație clinică. Se renumerotează la nevoie. |
+| 1 | `NR.CRT` | ID secvențial 1..1471. **Doar identificator de rând**, fără semnificație clinică. Se renumerotează la nevoie. |
 | 2 | `Capitol` | Unul din cele 14 capitole (vezi mai jos). |
 | 3 | `Subcapitol` | Grupare în cadrul capitolului. |
 | 4 | `Situația Clinică` | Scenariul clinic pentru care se recomandă (sau nu) investigația. |
@@ -59,24 +59,24 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | `C` | Consens / dovezi limitate |
 | `?` | Neprecizat |
 
-## Structura pe capitole (1488 rânduri)
+## Structura pe capitole (1471 rânduri)
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
-| 1 | Pediatrie | 1–155 | 155 |
-| 2 | Traumatisme | 156–280 | 125 |
-| 3 | Cancer | 281–516 | 236 |
-| 4 | Aparat cardiovascular | 517–603 | 87 |
-| 5 | Torace | 604–678 | 75 |
-| 6 | Aparat digestiv | 679–806 | 128 |
+| 1 | Pediatrie | 1–196 | 196 |
+| 2 | Traumatisme | 197–317 | 121 |
+| 3 | Cancer | 318–574 | 257 |
+| 4 | Aparat cardiovascular | 575–661 | 87 |
+| 5 | Torace | 662–736 | 75 |
+| 6 | Aparat digestiv | 737–806 | 70 |
 | 7 | Aparat uro-genital și glande suprarenale | 807–875 | 69 |
 | 8 | Obstetrică și ginecologie | 876–902 | 27 |
 | 9 | Sân | 903–958 | 56 |
-| 10 | Cap | 959–1078 | 120 |
-| 11 | Gât (părți moi) | 1079–1096 | 18 |
-| 12 | Coloană vertebrală | 1097–1151 | 55 |
-| 13 | Aparat locomotor | 1152–1238 | 87 |
-| 14 | Radiologie intervențională | 1239–1488 | 250 |
+| 10 | Cap | 959–1074 | 116 |
+| 11 | Gât (părți moi) | 1075–1092 | 18 |
+| 12 | Coloană vertebrală | 1093–1147 | 55 |
+| 13 | Aparat locomotor | 1148–1221 | 74 |
+| 14 | Radiologie intervențională | 1222–1471 | 250 |
 
 ## Documentație și review
 
