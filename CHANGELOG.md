@@ -41,6 +41,11 @@ indicații radioimagistice.
 > intrările Cancer/Sân de mai jos reflectă starea de dinaintea acestei a doua renumerotări**
 > (NR 1525–1527 din secțiunea Cancer, de exemplu, nu mai există ca atare — conținutul e
 > neschimbat, doar ID-ul).
+>
+> ⚠️ **Renumerotare la cerere, 2026-07-08 (după reviewul Cardiovascular).** Fișierul era deja
+> contiguu 1..1471; renumerotarea a refăcut potrivirea NR.CRT ↔ poziție fizică după
+> reordonarea situației „Anevrisme vase periferice" — **doar 2 ID-uri schimbate** (fostul
+> NR 648 „Eco Doppler" → 647; fostul NR 647 „Angio-CT periferic" → 648). Restul neschimbate.
 
 ---
 
