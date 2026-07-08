@@ -137,6 +137,13 @@ decizie unilaterală).
    `Comentarii` (col. 9), coduri/referințe în `Alte informații` (col. 10). Breadcrumb-urile
    („(vezi și …)") se scot din date (regula „un singur home / fără breadcrumb-uri").
    Comentariile identice legitime (aceeași situație) **se păstrează** (vezi „Decizii").
+   **Informația clinică valabilă pentru toată situația se copiază în `Comentarii` pe
+   fiecare investigație a situației** — rândurile se afișează separat (per examen), deci
+   fiecare trebuie să fie auto-suficient pentru cititorul care vede o singură investigație.
+   **Excepție:** nota strict specifică unei investigații (ce arată / cum se face *acea*
+   modalitate) rămâne doar pe rândul ei. Practic: partea „despre boală / când se
+   investighează / cadență de monitorizare" = pe toate; partea „despre acest examen" = doar
+   pe el. (Complement al deciziei „comentariile identice se păstrează".)
 6. **Consecvența subcapitolelor și situațiilor.** Verifică încadrarea pe ierarhia de
    capitole; etichete de situație bloatate cu note clinice de tip parantetic → propune
    mutarea notei în `Comentarii` (dacă e o notă pe toată situația, e caz editorial → flag).
@@ -168,6 +175,12 @@ comasez comentarii identice legitime; nu decid singur cazuri clinice/editoriale 
 - **Comentariile identice pe rânduri diferite se păstrează.** Fiecare comentariu
   aparține unei situații; e normal ca rânduri (examene) diferite din aceeași situație
   să aibă comentariu identic. NU dedublica / rezuma — fiecare rând rămâne auto-suficient.
+- **Informația clinică de nivel-situație se copiază pe toate investigațiile situației.**
+  Reversul regulii de mai sus: dacă o notă descrie *situația clinică* (boala, când se
+  investighează, cadența de monitorizare, echivalența dintre examene) și e prezentă doar
+  pe unele rânduri, se **copiază în `Comentarii` pe toate rândurile situației** — fiindcă
+  investigațiile se afișează separat. **Excepție:** nota strict specifică unei investigații
+  (ce arată / cum se face acea modalitate) rămâne doar pe rândul ei.
 - **Diagnosticul diferențial (și orice notă clinică) merge în coloana `Comentarii`
   (col. 9), NU în `Alte informații` (col. 10).** Per schemă: `Comentarii` = note clinice;
   `Alte informații` = coduri interne (ex. „RI - PCx") și referințe. O listă de diferențial

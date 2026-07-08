@@ -570,9 +570,10 @@ examenelor. Validare verde, 0 cedile.
   fișier — „toracică" 99 vs „toracală" 15).
 - **MODIFICAT (Examen) — normalizare la convenția dominantă.** Anglicismul „Echo"/
   „Echografie" → „Eco"/„Ecografie" (forma dominantă global: Eco 195 vs Echo 14) — NR 577,
-  590, 597, 600, 624, 631, 639, 644, 648, 658. „Ecografia cardiacă" → „Ecografie cardiacă"
-  (NR 602, consecvent cu uniformizarea din capitolul Cancer). Diacritică lipsă în etichetă:
-  „…si la repaus" → „…și la repaus" (NR 596).
+  590, 597, 600, 624, 631, 639, 644, 648, 650, 653, 654, 657, 658; plus în text liber
+  „echografic"/„echo Doppler" → „ecografic"/„eco Doppler" (NR 654, 656). „Ecografia
+  cardiacă" → „Ecografie cardiacă" (NR 602, consecvent cu uniformizarea din capitolul
+  Cancer). Diacritică lipsă în etichetă: „…si la repaus" → „…și la repaus" (NR 596).
 - **MODIFICAT (Comentarii) — diacritice și typo-uri**, doar unde forma corectă e neambiguă
   (≈20 rânduri): „substațe"→„substanțe" (NR 582), „bilațul"→„bilanțul" (NR 585),
   „tulburari"→„tulburări" (NR 578), „in masura in care acestia sunt disponbili"→„în măsura
@@ -585,6 +586,12 @@ examenelor. Validare verde, 0 cedile.
 - **MODIFICAT (normalizare) — spații parazite.** Tip „M " (NR 613) și Examen „Angio-CT "
   (NR 643), „Echo Doppler " (NR 648) → fără spațiu final; comentarii cu spațiu final /
   inițial (NR 587, 615) și `\n` final (NR 616) curățate.
+- **VERIFICAT (regula „informația de situație pe toate investigațiile") — conform.**
+  Notele de nivel-situație sunt deja copiate pe toate rândurile situației acolo unde există
+  (NR 575/576 „CT și IRM au aceeași valoare diagnostică"; NR 594–596 „Examenele au valori
+  similare"; NR 634–637 „La un pacient cu insuficiență cardiacă și leziuni coronariene
+  extensive…"). Restul comentariilor sunt strict per-investigație (ce arată / cum se face
+  fiecare modalitate) și rămân, corect, pe rândul lor. **Nicio propagare necesară.**
 
 ## 5. Torace
 _NR 662–736_
