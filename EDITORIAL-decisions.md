@@ -280,3 +280,36 @@ inventat conținut clinic**; doar inventariez pentru decizia editorilor:
 > Status: **inventariat, neatins.** Dacă se decide completarea vreunuia, conținutul
 > (examen, grad de indicație) trebuie să vină dintr-o sursă citabilă (ACR/ESMO/RCR sau
 > echivalent), nu inventat.
+
+---
+
+## 12. Cardiovascular — chestiuni rămase după review (2026-07-08)
+
+Ridicate la reviewul capitolului 4 (vezi CHANGELOG §4). Corecturile mecanice (ortografie,
+normalizare, Tip↔Examen, de-duplicare de etichetă) au fost aplicate; rămân următoarele,
+care ating grade / ordine / formulare clinică → **decizia editorilor**, neatinse în date:
+
+1. **Ordinea examenelor la „Anevrisme vase periferice" (după de-duplicare).** Prin
+   unificarea celor două etichete (NR 647 + 648/649), situația are acum ordinea
+   **Angio-CT (647) → Eco Doppler (648) → Angio-IRM (649)**. Comentariul de la Eco Doppler
+   spune „Metoda de primă intenție", deci ordinea firească ar fi **Eco întâi**. N-am
+   reordonat (regula „ordinea e intențională"), dar aici ordinea a rezultat mecanic din
+   fuziune, nu dintr-o intenție clinică — de decis dacă se pune Eco Doppler pe prima poziție.
+
+2. **Notă clinică în eticheta situației „Arteriopatii periferice simptomatice".** Eticheta
+   conține un avertisment clinic parantetic: „*(arteriopatiile asimptomatice nu necesită
+   evaluare imagistică!)*" (NR 650–652). Per regula „datele clinice merg în `Comentarii`",
+   propunerea e să se scurteze eticheta la „Arteriopatii periferice simptomatice" și nota
+   să treacă în comentariul examenului de primă intenție (Eco Doppler, NR 650). N-am mutat-o
+   singur (e o notă pe toată situația) — de confirmat.
+
+3. **Grade care par sub-evaluate față de practica curentă** (NU modificate — regula
+   gradelor):
+   - **NR 589 · Scintigrafie osoasă cu Tc99m-pirofosfat/HDP · amiloidoză transtiretină ·
+     „Doar în cazuri particulare", grad B.** În ghidurile actuale (ESC 2021 pe cardiomiopatii,
+     poziția ASNC/EANM) scintigrafia osoasă cu trasori de fosfat e **testul-cheie
+     non-invaziv** pentru ATTR (captare Perugini 2–3 permite diagnostic fără biopsie când
+     lanțurile ușoare sunt excluse) — pare sub-indicată ca „Doar în cazuri particulare".
+     De reevaluat gradul/indicația.
+
+> Status: **date neatinse** la punctele 1–3. Se așteaptă decizia editorilor.

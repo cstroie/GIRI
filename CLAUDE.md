@@ -110,6 +110,46 @@ Rulează `python3 tools/validate.py` și verifică:
   newline-uri). Fă întâi un **dry-run** care raportează ce s-ar schimba, apoi aplică.
 - După orice editare: rulează validarea + verifică diacriticele.
 
+## Plan de lucru — review pe capitol (checklist)
+
+Procedura standard când se „analizează" un capitol (aplicată la Cardiovascular,
+2026-07-08; refolosibilă la orice capitol). Ordinea contează: întâi lucruri mecanice
+sigure, apoi normalizări verificate pe tot fișierul, apoi cazuri editoriale (flag, nu
+decizie unilaterală).
+
+1. **Corecturi ortografice.** Diacritice lipsă (`si`→`și`, `in`→`în`, `stang`→`stâng`,
+   `redusa`→`redusă`, `diferential`→`diferențial` etc.) și typo-uri (`substațe`→
+   `substanțe`, `bilațul`→`bilanțul`) — **doar** unde forma corectă e neambiguă. Cedila
+   se verifică cu `validate.py` (invariant dur).
+2. **Normalizare.** Spații parazite (inițiale/finale/duble) în `Tip`, `Examen`,
+   `Situația Clinică`, `Comentarii`. Denumiri de examene aliniate la **convenția dominantă
+   pe tot fișierul** (verificată statistic, nu doar în capitol): ex. `Echo`→`Eco`,
+   `Echografie`→`Ecografie`, `Ecografia`→`Ecografie`, `toracală`→`toracică`. Anglicisme
+   evitabile (`shunt`→`șunt`) doar dacă forma românească e deja folosită în capitol.
+3. **Concordanță `Tip` ↔ `Examen`** (corectitudine): codul modalității trebuie să se
+   potrivească denumirii (ex. `Eco Doppler` = `E`, `IRM` = `M`, `CT` = `T`). Coduri
+   inversate = eroare de date, se corectează (nu e reordonare de examene).
+4. **De-duplicare.** Situații identice ca sens dar scrise diferit **în același subcapitol**
+   (variante de scriere, ex. „popliteale"/„poplitee") → se unifică eticheta situației
+   (fără a comasa rândurile de examene, dacă examenele diferă). Duplicatele exacte de rând
+   → `validate.py` le prinde; cele intenționate se listează în `DUPLICATE-review.md`.
+5. **Reducerea exprimărilor redundante & repartizarea pe coloane.** Note clinice în
+   `Comentarii` (col. 9), coduri/referințe în `Alte informații` (col. 10). Breadcrumb-urile
+   („(vezi și …)") se scot din date (regula „un singur home / fără breadcrumb-uri").
+   Comentariile identice legitime (aceeași situație) **se păstrează** (vezi „Decizii").
+6. **Consecvența subcapitolelor și situațiilor.** Verifică încadrarea pe ierarhia de
+   capitole; etichete de situație bloatate cu note clinice de tip parantetic → propune
+   mutarea notei în `Comentarii` (dacă e o notă pe toată situația, e caz editorial → flag).
+7. **Verificarea corectitudinii informațiilor** față de practica curentă (ACR AC, RCR
+   iRefer, ESC). **NU** se modifică grade sau doze; discrepanțele → `EDITORIAL-decisions.md`.
+8. **Consemnare.** Fiecare modificare în `CHANGELOG.md` (la capitolul respectiv, cu
+   etichetele din Legendă); fiecare chestiune lăsată deschisă în `EDITORIAL-decisions.md`.
+   La final: `python3 tools/validate.py` verde + verificare diacritice.
+
+**Reguli de aur reafirmate pe acest flux:** nu modific grade/doze/ordinea examenelor; nu
+comasez comentarii identice legitime; nu decid singur cazuri clinice/editoriale ambigue
+(le flag în `EDITORIAL-decisions.md`); dry-run înainte de orice operație în masă.
+
 ## Decizii deja luate (nu le relua fără a întreba)
 
 - **ERCP (Tip `D`) rămâne în capitolele de origine** (nu se mută la RI), deși e
@@ -139,6 +179,9 @@ Rulează `python3 tools/validate.py` și verifică:
 
 - Artrografia articulației temporo-mandibulare (ATM): încadrare subcapitol (Sistem
   nervos vs Aparat locomotor) și dacă se păstrează (e „Neindicat", înlocuită de IRM).
+- Cardiovascular (§12): ordinea examenelor la „Anevrisme vase periferice" după
+  de-duplicare (Eco întâi?), nota clinică din eticheta „Arteriopatii periferice
+  simptomatice", și gradul scintigrafiei osoase la amiloidoza transtiretină (NR 589).
 
 ## Maparea capitol origine → subcapitol RI (pentru mutări viitoare de intervențional)
 
