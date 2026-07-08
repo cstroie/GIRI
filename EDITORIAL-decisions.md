@@ -311,3 +311,42 @@ care ating grade / ordine / formulare clinică → **decizia editorilor**, neati
    Vezi CHANGELOG §4.
 
 > Status: **toate cele 3 puncte rezolvate** (2026-07-08).
+
+## 13. Torace — chestiuni de încadrare rămase după review (2026-07-08)
+
+Ridicate la reviewul capitolului 5 (vezi CHANGELOG §5). Corecturile mecanice (ortografie,
+diacritice, normalizare, spații) au fost aplicate; rămân următoarele două chestiuni de
+**încadrare pe ierarhia de capitole**, care nu se decid unilateral (regula de aur 6):
+
+1. **„Neoplasm bronhopulmonar" (NR 695–705) — suprapunere cu „Cancer bronho-pulmonar"
+   (Cancer, NR 334–343).** Capitolul Torace conține 11 rânduri de cancer pulmonar
+   determinat de malignitate cunoscută, pe fazele: *bilanț preterapeutic* (695–698),
+   *diagnostic – suspiciune clinică* (699–701), *stadializare* (702), *supraveghere*
+   (703–705). Per **ierarhia capitolelor, regula 3** („determinată de malignitate
+   cunoscută/suspectată → Cancer"; excepție doar sânul), aceste rânduri ar trebui să
+   **trăiască în Cancer**, unde există deja subcapitolul **Cancer bronho-pulmonar**
+   (NR 334–343: Diagnostic, Stadializare, Monitorizare, + placeholder Z).
+
+   **De ce nu s-a mutat mecanic:** cele două seturi nu sunt identice — folosesc etichete
+   de fază diferite („bilanț preterapeutic" vs „Stadializare"; „supraveghere" vs
+   „Monitorizare"; „diagnostic – suspiciune clinică" vs „Diagnostic"), au comentarii mai
+   detaliate în Torace și pot diferi la grad/indicație pentru aceeași investigație. O
+   fuziune corectă cere **decizie clinică** (ce rând-sursă prevalează când diferă,
+   cum se reconciliază fazele) → nu se face automat.
+   - **Excepție de reținut:** *Nodul pulmonar (solitar)* (NR 706–708) **NU** e cancer
+     confirmat — e workup de nodul indeterminat (poate fi benign/malign) → rămâne
+     **diagnostic, în Torace**. Doar „Neoplasm bronhopulmonar" (malignitate cunoscută)
+     intră sub regula 3.
+   - **Întrebare pentru editori:** confirmăm mutarea + fuziunea „Neoplasm bronhopulmonar"
+     (695–705) în Cancer › Cancer bronho-pulmonar? Dacă da, e nevoie de o pasă de
+     reconciliere fază-cu-fază (marcată ⛔ BREAKING).
+
+2. **„Nodul pulmonar" (NR 706) vs „Nodul pulmonar solitar" (NR 707/708).** În același
+   subcapitol (Pulmon), NR 706 (PET-CT, „nodul solid > 8 mm") poartă eticheta scurtată
+   „Nodul pulmonar", pe când NR 707 (CT torace) și NR 708 (CT low dose, urmărire) folosesc
+   „Nodul pulmonar solitar". Comentariul de la 706 se referă explicit la nodulul solitar →
+   **candidat de unificare a etichetei** la „Nodul pulmonar solitar" (fără comasare de
+   examene). E o normalizare de etichetă care regrupează o situație → lăsată editorilor
+   (mică miză clinică, dar schimbă gruparea afișată).
+
+> Status: **ambele puncte deschise** (2026-07-08).

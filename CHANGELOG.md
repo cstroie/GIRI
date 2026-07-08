@@ -626,6 +626,45 @@ _NR 662–736_
 
 - **MUTAT —** 11 rânduri intervenționale relocate la RI › Aparat respirator.
 
+### MODIFICAT — Review capitol Torace (2026-07-08)
+
+Review complet al capitolului (checklist din `CLAUDE.md` › „Plan de lucru"). **18 editări
+mecanice** pe 11 rânduri (NR 664–729), toate în capitol; fără schimbări de grad, doză,
+indicație sau ordine a examenelor. Validare verde, 0 cedile.
+
+- **MODIFICAT (Situație) — diacritice lipsă.** „Bron**s**ita acută" → „Bron**ș**ita acută"
+  (NR 677); „Transplant de **ma**duvă osoasă" → „Transplant de **mă**duvă osoasă" (NR 728,
+  729; forma corectă „măduvă" e cea standard).
+- **MODIFICAT (Examen) — diacritice și aliniere.** „CT cerebral, abdomen **si** pelvis" →
+  „…**și** pelvis" (NR 697); „Scintigrafie osoasă … WB **si** \\nSPECT-CT\\n" → „…WB **și**
+  \\nSPECT-CT" (NR 702: `si`→`și`, spațiu parazit și `\n` final eliminate, aliniat identic
+  cu rândul-soră NR 338 din capitolul Cancer › Cancer bronho-pulmonar).
+- **MODIFICAT (Comentarii) — diacritice și typo-uri**, doar unde forma corectă e neambiguă:
+  „caracteriza**rii**"→„caracteriză**rii**" și „plămânului sub**j**acent"→„sub**i**acent"
+  (NR 664, forma „subiacent" e deja folosită în fișier); la NR 681 curățare masivă de
+  diacritice pe descrierea scintigrafiei de ventilație-perfuzie („pe**f**uzie"→„per**f**uzie",
+  „Contraindicati**i**"→„Contraindicați**i**", „substanta activa"→„substanța activă",
+  „excipienti"→„excipienți", „**in** caz de hipertensiune pulmonara severa"→„**în** caz…
+  pulmonară severă", „femeile **in**sarcinate sau potential **in**sarcinate **si** la copii"→
+  „**în**sărcinate sau potențial **în**sărcinate **și** la copii"); pe blocul de urmărire
+  a nodulilor de la NR 708 „12 luni **si** apoi"→„…**și** apoi", „persoane **fara** risc"→
+  „…**fără** risc" și „biopsie/reze**c**tie"→„biopsie/reze**c**ție"; „supliman**ta**ră"→
+  „suplimen**ta**ră" și abrevierea „**pt**"→
+  „**pentru**" (NR 727).
+- **MODIFICAT (normalizare) — spații parazite.** Spațiu final la NR 681 și 709; spațiu
+  inițial la NR 696 („ Performanțele"→„Performanțele") — curățate.
+- **VERIFICAT (Tip ↔ Examen) — conform.** Toate codurile de modalitate se potrivesc
+  denumirii (E=Eco/Doppler/Ecocardiografie, G=Radiografie, T=CT, M=IRM, N=PET-CT/Scintigrafie);
+  0 coduri inversate.
+- **VERIFICAT (de-duplicare) — fără duplicate exacte în capitol.** Comentariul identic de la
+  NR 670 („Aplazie medulară") și NR 729 („Transplant de măduvă osoasă") aparține unor situații
+  diferite → păstrat (regula „comentariile identice se păstrează").
+- **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §13:** (1) încadrarea rândurilor
+  „Neoplasm bronhopulmonar" (NR 695–705) — suprapunere de topic cu subcapitolul existent
+  „Cancer bronho-pulmonar" (NR 334–343) din capitolul Cancer; per ierarhie (regula 3)
+  malignitatea cunoscută → Cancer; (2) unificarea etichetei „Nodul pulmonar" (NR 706) cu
+  „Nodul pulmonar solitar" (NR 707/708). Ambele lăsate neschimbate (nu se decid unilateral).
+
 ## 6. Aparat digestiv
 _NR 737–806_
 
