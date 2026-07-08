@@ -242,3 +242,41 @@ se elimină duplicatul. **De făcut la parsarea capitolului Cap**, nu acum.
 
 > Status: **inventariat, neatins.** Reconcilierea se face la parsarea capitolelor de origine
 > (în principal Cap). Nu s-a mutat nimic acum.
+
+---
+
+## 11. Cancer — subcapitole fără fază „Monitorizare" (goluri de conținut)
+
+După unificarea etichetelor de situație la axa canonică **Diagnostic → Stadializare →
+Monitorizare** (2026-07-08), au rămas **9 subcapitole** fără nicio secțiune de
+monitorizare/urmărire post-terapeutică. Nu știu dacă e omisiune reală a sursei sau
+lipsă intenționată (unele cancere se urmăresc predominant non-imagistic) — **nu am
+inventat conținut clinic**; doar inventariez pentru decizia editorilor:
+
+- **Cancer de corp uterin** — are doar Diagnostic + Stadializare. Urmărirea endometrială
+  e predominant clinică/citologică; posibil intenționat, dar multe ghiduri recomandă
+  IRM/CT la recidivă suspectată — de verificat.
+- **Cancer esofagian** — surprinzător absent; supravegherea postoperatorie/postterapeutică
+  prin CT e practică standard. Pare omisiune.
+- **Cancer gastric** — similar cu esofagianul; CT de urmărire e uzual. Pare omisiune.
+- **Cancer pancreatic** — pare omisiune notabilă: supravegherea imagistică postoperatorie
+  (CT) e standard, mai ales cu rată mare de recidivă.
+- **Cancer prostatic** — urmărirea e predominant prin PSA, non-imagistică; **posibil
+  intenționat**. Scintigrafia osoasă/IRM apar doar la restadializare (deja acoperite
+  parțial de „Stadializare").
+- **Cancer vezical** — urmărirea standard e cistoscopică (nu imagistică), dar CT
+  urografie/torace apare des în ghiduri pentru tumori infiltrative. Ambiguu.
+- **Cancerul parotidian** — surprinzător absent, mai ales că restul cancerelor ORL din
+  capitol (laringian, tiroidian, căi aero-digestive, nazofaringian) au toate
+  „Monitorizare". Pare omisiune / inconsecvență cu restul clusterului ORL.
+- **Tumori maligne primare hepatice (CHC)** — pare omisiune notabilă: supravegherea
+  postterapeutică (post-rezecție/ablație/transplant) prin IRM/CT e practică standard,
+  menționată chiar în comentariile de la „Stadializare" ("Este metodă de referință
+  pentru aprecierea răspunsului terapeutic în nodulii tumorali tratați").
+- **Tumori maligne secundare hepatice** — are doar Diagnostic (nici Stadializare). Posibil
+  intenționat — subcapitolul e strict despre detecția/caracterizarea metastazelor
+  hepatice, stadializarea bolii de fond ținând de capitolul cancerului primar.
+
+> Status: **inventariat, neatins.** Dacă se decide completarea vreunuia, conținutul
+> (examen, grad de indicație) trebuie să vină dintr-o sursă citabilă (ACR/ESMO/RCR sau
+> echivalent), nu inventat.

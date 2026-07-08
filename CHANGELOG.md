@@ -514,6 +514,25 @@ _NR 318–553 + rânduri mutate din Aparat digestiv/locomotor/Cap + NR 1525 (nou
     „limfoscintigrafia…"→„Limfoscintigrafia…", „Angio CT"→„AngioCT" (consecvent cu
     „AngioRM" din același subcapitol), „Explorari imagistice"→„Explorări imagistice" (×2).
   - Rezultat net: 258 → 257 rânduri (−1, comasarea Limfom).
+- **UNIFORMIZAT — axa „Situație Clinică" la 3 faze canonice: Diagnostic → Stadializare →
+  Monitorizare** (2026-07-08, la cererea editorului). Etichete-sinonim contopite, fără
+  schimbare de conținut clinic sau grad:
+  - „Supravegherea cancerelor tratate" (Cancer laringian, tiroidian, căi aero-digestive),
+    „Supraveghere" (Cancerul nazofaringian), „Urmărire" (Tumori cerebrale), „Urmărire și
+    restadializare" (Cancer de rect), „Recidive" (Cancer de col uterin) → toate **„Monitorizare"**
+    (42 rânduri retichetate).
+  - „Detectare" (Cancer pancreatic, Tumori maligne primare/secundare hepatice) → **„Diagnostic"**
+    (conținutul e workup diagnostic obișnuit, nu screening/detecție incidentală distinctă).
+  - **Fragmentare internă rezolvată — Cancer anal**: „Monitorizare" (1 rând, PET-CT pentru
+    leziuni echivoce) + „Urmărire" (3 rânduri, protocol general) erau aceeași fază ruptă
+    în două situații → contopite într-o singură „Monitorizare" (4 rânduri).
+  - Rânduri fizic reordonate (Cancer anal, Tumori cerebrale și medulare) pentru ca
+    situațiile identice să fie din nou grupate contiguu în CSV.
+- **INVENTARIAT — 9 subcapitole fără fază „Monitorizare"** (Cancer de corp uterin,
+  esofagian, gastric, pancreatic, prostatic, vezical; Cancerul parotidian; Tumori
+  maligne primare/secundare hepatice) — posibile omisiuni de conținut sau intenționate
+  (ex. prostata se urmărește prin PSA). **Nu s-a inventat conținut clinic** →
+  `EDITORIAL-decisions.md` §11, pentru decizia editorilor.
 
 ## 4. Aparat cardiovascular
 _NR 554–640_
