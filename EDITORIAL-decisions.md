@@ -341,12 +341,14 @@ diacritice, normalizare, spații) au fost aplicate; rămân următoarele două c
      (695–705) în Cancer › Cancer bronho-pulmonar? Dacă da, e nevoie de o pasă de
      reconciliere fază-cu-fază (marcată ⛔ BREAKING).
 
-2. **„Nodul pulmonar" (NR 706) vs „Nodul pulmonar solitar" (NR 707/708).** În același
-   subcapitol (Pulmon), NR 706 (PET-CT, „nodul solid > 8 mm") poartă eticheta scurtată
-   „Nodul pulmonar", pe când NR 707 (CT torace) și NR 708 (CT low dose, urmărire) folosesc
-   „Nodul pulmonar solitar". Comentariul de la 706 se referă explicit la nodulul solitar →
-   **candidat de unificare a etichetei** la „Nodul pulmonar solitar" (fără comasare de
-   examene). E o normalizare de etichetă care regrupează o situație → lăsată editorilor
-   (mică miză clinică, dar schimbă gruparea afișată).
+2. ✅ **REZOLVAT — „Nodul pulmonar" (NR 706) unificat la „Nodul pulmonar solitar".**
+   Decizie editor: unificăm eticheta. NR 706 (PET-CT, „nodul solid > 8 mm") purta eticheta
+   scurtată „Nodul pulmonar"; NR 707 (CT torace) folosea „Nodul pulmonar solitar" — aceeași
+   situație în subcapitolul Pulmon. Eticheta lui 706 → „Nodul pulmonar solitar"; cele două
+   examene stau acum sub o singură situație. **Reordonat** CT torace (707, primă intenție,
+   Indicat B) înaintea PET-CT (706, „Doar în cazuri particulare") — ordinea rezulta invers
+   din poziția fizică. Reordonare fizică; NR.CRT neschimbate. NR 708 („…urmărire") rămâne
+   situație distinctă. Vezi CHANGELOG §5.
 
-> Status: **ambele puncte deschise** (2026-07-08).
+> Status: **punctul 1 deschis** (încadrarea „Neoplasm bronhopulmonar" → Cancer);
+> **punctul 2 rezolvat** (2026-07-08).

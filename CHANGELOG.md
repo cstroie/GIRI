@@ -659,11 +659,18 @@ indicație sau ordine a examenelor. Validare verde, 0 cedile.
 - **VERIFICAT (de-duplicare) — fără duplicate exacte în capitol.** Comentariul identic de la
   NR 670 („Aplazie medulară") și NR 729 („Transplant de măduvă osoasă") aparține unor situații
   diferite → păstrat (regula „comentariile identice se păstrează").
-- **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §13:** (1) încadrarea rândurilor
+- **DE-DUPLICAT (Situație) — eticheta „Nodul pulmonar" unificată la „Nodul pulmonar
+  solitar".** Decizie editor. NR 706 (PET-CT) purta eticheta scurtată „Nodul pulmonar", pe
+  când NR 707 (CT torace) folosea „Nodul pulmonar solitar" — aceeași situație în același
+  subcapitol (Pulmon). Unificată la „Nodul pulmonar solitar"; cele două examene stau acum
+  sub o singură situație. **Reordonat** CT torace (NR 707, detecție de primă intenție,
+  Indicat B) înaintea PET-CT (NR 706, „Doar în cazuri particulare", nodul solid > 8 mm) —
+  ordinea rezulta invers din poziția fizică. Reordonare fizică a rândurilor; NR.CRT
+  neschimbate. NR 708 („Nodul pulmonar solitar urmărire") rămâne situație distinctă.
+- **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §13:** încadrarea rândurilor
   „Neoplasm bronhopulmonar" (NR 695–705) — suprapunere de topic cu subcapitolul existent
   „Cancer bronho-pulmonar" (NR 334–343) din capitolul Cancer; per ierarhie (regula 3)
-  malignitatea cunoscută → Cancer; (2) unificarea etichetei „Nodul pulmonar" (NR 706) cu
-  „Nodul pulmonar solitar" (NR 707/708). Ambele lăsate neschimbate (nu se decid unilateral).
+  malignitatea cunoscută → Cancer. Lăsat neschimbat (nu se decide unilateral).
 
 ## 6. Aparat digestiv
 _NR 737–806_
