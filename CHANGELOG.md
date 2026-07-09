@@ -1197,6 +1197,41 @@ situația care îl descrie de fapt.
 **Nemodificat**: gradele (B pe NR 1046, C pe NR 1047, A pe NR 1056), dozele, ordinea
 examenelor în celelalte situații. Bilanț: **+1 rând** → 1437 → **1438 rânduri**.
 
+### MODIFICAT — a doua contaminare încrucișată găsită și corectată; sweep complet pe capitol (2026-07-09)
+
+La cererea editorului, verificare sistematică a **tot** capitolul „Gât (părți moi)" pentru
+alte fraze duplicate greșit între situații diferite (potrivire exactă + similaritate fuzzy
+pe toate comentariile). Găsită **o singură** contaminare suplimentară, restul asemănărilor
+fiind vocabular medical comun, nu conținut mutat greșit:
+
+- **MODIFICAT — NR 1048** „Gușă plonjantă – preterapeutic" (Ecografie): comentariul avea
+  **două probleme moștenite** — (a) aceeași afirmație inexactă despre ecografie corectată
+  deja pe NR 1046/1047 („ecografia... permite vizualizarea extensiei retrosternale"); (b)
+  fraza finală „În caz de eșec a unei prime intervenții chirurgicale, aceste examene sunt
+  indicate pentru localizarea sursei de hipersecreție" — **identică cuvânt cu cuvânt** cu
+  coada de pe NR 1050/1051 „Hiperparatiroidism", unde aparține de fapt (localizarea unui
+  adenom paratiroidian recidivant; o gușă nu „hipersecretă" în acest sens). Înlocuit cu
+  conținut specific: rolul ecografiei preoperatorii pentru porțiunea cervicală (dimensiuni,
+  ecostructură, raporturi vasculare), cu aceeași limitare la extensia retrosternală ca la
+  faza diagnostică. Referință adăugată în „Alte informații".
+- **MODIFICAT (îmbogățire, nu contaminare) — NR 1049** „Gușă plonjantă – preterapeutic"
+  (IRM/CT): adăugat un detaliu de planificare chirurgicală verificat (StatPearls —
+  Substernal Goiter): CT-ul preoperator stabilește dacă ≥50% din volumul gușii e deasupra
+  strâmtorii toracice superioare (abord cervical simplu) sau nu (abord combinat
+  cervico-toracic necesar). Referință adăugată în „Alte informații".
+- **VERIFICAT — restul capitolului, curat.** Singurele fraze identice rămase între situații
+  diferite sunt 3 propoziții boilerplate despre caracterizarea Doppler, partajate între
+  „Hipertiroidie" (NR 1052) și „Hipotiroidie la adult" (NR 1054) — conținut generic, dar
+  **corect aplicabil ambelor** (Doppler-ul caracterizează orice nodul tiroidian indiferent
+  de statusul funcțional); nu e o eroare de segmentare, lăsat neschimbat.
+
+**Cauza probabilă a ambelor contaminări găsite** (NR 1043 din reviewul anterior + NR 1048
+acum): sursa originală a ghidului avea paragrafe clinice adiacente (Gușă plonjantă /
+Hiperparatiroidism / nodul tiroidian generic sunt situații învecinate în capitolul
+„Tiroidă, paratiroide") care s-au segmentat greșit pe rânduri la conversia în CSV — o frază
+de la finalul unei situații a „migrat" pe rândul următoarei. Nu am mai găsit alte cazuri
+după sweep-ul sistematic.
+
 ## 12. Coloană vertebrală
 _NR 1093–1147_
 
