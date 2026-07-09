@@ -49,32 +49,48 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1471 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1462 rânduri, 13 coloane)
 
-> **NR.CRT contigue 1..1471** după a doua renumerotare (2026-07-08). Pe viitor **nu se
-> renumerotează automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc
-> ID-uri la finalul secvenței, până la o nouă renumerotare cerută explicit.
+> **NR.CRT contigue 1..1462** după a treia renumerotare (2026-07-09, la cerere, după fuziunea
+> „Neoplasm bronhopulmonar"). ⚠️ **Referințele NR.CRT din intrările de mai jos scrise înainte
+> de 2026-07-09 sunt pre-renumerotare** pentru capitolele de după punctul de inserție (Cancer ›
+> bronho-pulmonar, poz. 342) — folosește căutarea după Capitol + Situație, nu NR.CRT. Pe viitor
+> **nu se renumerotează automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile
+> primesc ID-uri la finalul secvenței, până la o nouă renumerotare cerută explicit.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
-| 3 | [Cancer](#3-cancer) | 318–574 | 257 |
-| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 575–661 | 87 |
-| 5 | [Torace](#5-torace) | 662–736 | 75 |
-| 6 | [Aparat digestiv](#6-aparat-digestiv) | 737–806 | 70 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 807–875 | 69 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 876–902 | 27 |
-| 9 | [Sân](#9-sân) | 903–958 | 56 |
-| 10 | [Cap](#10-cap) | 959–1074 | 116 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1075–1092 | 18 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1093–1147 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1148–1221 | 74 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1222–1471 | 250 |
+| 3 | [Cancer](#3-cancer) | 318–576 | 259 |
+| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 577–663 | 87 |
+| 5 | [Torace](#5-torace) | 664–727 | 64 |
+| 6 | [Aparat digestiv](#6-aparat-digestiv) | 728–797 | 70 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–866 | 69 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 867–893 | 27 |
+| 9 | [Sân](#9-sân) | 894–949 | 56 |
+| 10 | [Cap](#10-cap) | 950–1065 | 116 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1066–1083 | 18 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1084–1138 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1139–1212 | 74 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1213–1462 | 250 |
 
 ---
 
 ## Modificări globale (cross-capitol)
+
+### RENUMEROTAT — a treia renumerotare NR.CRT → contiguu 1..1462 (2026-07-09, la cerere)
+
+După fuziunea „Neoplasm bronhopulmonar" (11 rânduri șterse din Torace, 2 inserate în Cancer)
+NR.CRT rămăsese necontiguu (11 găuri la 695–705 + ID-uri 1472/1473 la coadă). La cerere
+explicită, renumerotare pe ordinea fizică → **NR.CRT 1..1462**. Modificare pur mecanică (doar
+col. 1), niciun conținut atins; `validate.py` verde. Referințe live actualizate la noile ID-uri:
+- Cancer › bronho-pulmonar › Monitorizare: rândurile noi 1472/1473 → **342/343**.
+- Perechi duplicat păstrate: masă pelvină 889/890 → **880/881**; rahialgie 1455/1456 → **1446/1447**.
+- Artrografie ATM: 1358 → **1349**, 1460/1461 → **1451/1452**.
+
+⚠️ **NR.CRT din intrările per-capitol scrise înainte de 2026-07-09 sunt pre-renumerotare**
+pentru rândurile de după poziția 342 — referă prin Capitol + Situație, nu prin NR.CRT.
 
 ### RESTRUCTURAT — Ierarhia capitolelor (regula de încadrare) + eliminare husk-uri
 
@@ -178,7 +194,7 @@ După consolidarea intervenționalului au rămas perechi aproape identice (acela
 - **2 perechi păstrate ca duplicate** (de studiat de editor, lăsate neatinse):
   - Ecografie „Suspiciune de masă pelvină" (NR 889 și 890) — comentarii și grad diferite
     (C vs A), par două intrări legitime.
-  - Infiltrație „Rahialgie / Radiculalgie" (NR 1472 și 1473) — coduri diferite PC5 vs PC7.
+  - Infiltrație „Rahialgie / Radiculalgie" (NR 1455 și 1456) — coduri diferite PC5 vs PC7.
 
 ### ⛔ BREAKING — Consolidarea oncologiei diagnostice în capitolul Cancer (2026-07-08)
 
@@ -471,7 +487,53 @@ _NR 197–317_
   gambă — acoperite implicit de radiografia regională).
 
 ## 3. Cancer
-_NR 318–574_
+_NR 318–576_
+
+### ⛔ BREAKING — Fuziunea „Neoplasm bronhopulmonar" din Torace (2026-07-08)
+
+Cancerul pulmonar exista **în dublu exemplar**: subcapitolul canonic **Cancer bronho-pulmonar**
+(NR 334–343) și 11 rânduri „Neoplasm bronhopulmonar" în capitolul Torace › Pulmon (NR 695–705).
+Per **ierarhia capitolelor (regula 3)** — malignitatea cunoscută → Cancer — cele 11 rânduri au
+fost **eliminate din Torace** și reconciliate în Cancer bronho-pulmonar. Maparea fazelor:
+Torace „diagnostic – suspiciune clinică" = **Diagnostic**; „bilanț preterapeutic" + „stadializare"
+= **Stadializare**; „supraveghere" = **Monitorizare**.
+
+- **ADĂUGAT — faza Monitorizare completată** (avea doar PET-CT). Două rânduri noi (ID **1472**
+  Radiografie toracică *Indicat C*, **1473** CT cerebral/torace/abdomen *Indicat C* cu protocolul
+  de urmărire 3/6/12 luni → anual 5 ani), preluate din fostele NR 703/704. Ordine G → T → N.
+- **ÎMBOGĂȚIT — note clinice unice păstrate din rândurile Torace duplicate** (regula „nu pierde
+  conținut clinic la fuziune"): NR **335** (CT diagnostic) — adăugat „se efectuează înaintea
+  bronhoscopiei…" (din 700) + corectat „depisteaza"→„depistează"; NR **340** (CT stadializare) —
+  adăugat nota „fereastră osoasă… metastaze scheletice" (din 697); NR **341** (IRM mediastinal) —
+  comentariul Pancoast îmbogățit cu detaliul anatomic din 698 (plex brahial, vertebre, arteră
+  subclaviculară, invazie pericardică) și reparată fraza trunchiată („…contrast iodat").
+- **DUPLICATE eliminate** (Cancer acoperea deja identic/mai bine): 696≈337 (PET-CT stadializare,
+  comentariu identic), 701≈336 (PET-CT diagnostic), 702≈338 (Scintigrafie osoasă), 705≈342
+  (PET-CT monitorizare), 700 (CT diagnostic amplu, redundant cu 335+340).
+- **CONFLICTE DE GRAD rezolvate „gradul Cancer prevalează"** (semnalate editorial, vezi
+  `EDITORIAL-decisions.md` §17): Radiografie diagnostic **A** păstrat (Torace 699 era C); IRM
+  cerebral stadializare **A** păstrat (695 era C); CT stadializare **A** păstrat (697 era C); IRM
+  mediastinal **C** păstrat (698 era B). Niciun grad Cancer modificat.
+
+Rezultat net Cancer: **+2 rânduri** (257 → 259).
+
+### MODIFICAT — Verificare față de ghiduri + referințe (Cancer bronho-pulmonar, 2026-07-08)
+
+Pasul 7 al checklist-ului, aplicat subcapitolului fuzionat (iRefer/NICE NG122/ACR AC 2019).
+Fără schimbări de grad sau indicație în date.
+
+- **ADĂUGAT (col. 10 „Alte informații") — referințe scurte de ghid** pe rândurile verificate:
+  NR 334 (radiografie primă linie), 335 (CT pre-biopsie), 337 (PET-CT stadializare), 338
+  (PET-CT vs scintigrafie), 339 (IRM cerebral), 340 (CT stadializare), 341 (IRM torace select).
+- **CONFIRMAT — conflictul de grad IRM mediastinal (NR 341) închis la „C"** (decizie editor,
+  susținut de ACR AC — instrument select/problem-solving). Celelalte trei (radiografie/IRM
+  cerebral/CT = A) confirmate de NICE NG122.
+- **MODIFICAT (Indicație) — Scintigrafie osoasă (NR 338): „Indicat" → „Doar în cazuri
+  particulare"** (decizie editor). FDG PET-CT a înlocuit în mare scintigrafia osoasă în
+  stadializarea de rutină; PET-CT stadializare există deja (NR 337, „Indicat" A). Comentariul
+  completat cu „…mai ales atunci când PET-CT nu este disponibil" (+ fix „singura"→„singură").
+  **Gradul B rămâne** neschimbat (modificarea privește puterea indicației, nu nivelul de
+  evidență). Vezi `EDITORIAL-decisions.md` §17.
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** subcapitol „Ficat, colecist şi pancreas" normalizat (vezi Modificări globale).
@@ -622,9 +684,65 @@ Rezolvarea celor trei chestiuni din `EDITORIAL-decisions.md` §12:
   este B — modificarea privește puterea indicației, nu nivelul de evidență).
 
 ## 5. Torace
-_NR 662–736_
+_NR 664–727_
 
 - **MUTAT —** 11 rânduri intervenționale relocate la RI › Aparat respirator.
+
+### ⛔ BREAKING — „Neoplasm bronhopulmonar" mutat la Cancer (2026-07-08)
+
+Cele **11 rânduri** „Neoplasm bronhopulmonar" (NR 695–705, subcapitolul Pulmon) au fost
+**eliminate** din Torace și reconciliate în **Cancer › Cancer bronho-pulmonar** — malignitatea
+cunoscută trăiește în Cancer (ierarhia capitolelor, regula 3). Detaliul reconcilierii
+(duplicate eliminate, note păstrate, faza Monitorizare completată cu ID 1472/1473, conflicte
+de grad) e la **§3 Cancer**. Rândurile diagnostice de nodul pulmonar (NR 706–708, „Nodul
+pulmonar solitar") **rămân în Torace** — nodul indeterminat ≠ malignitate confirmată.
+Subcapitolul Pulmon nu rămâne husk (25+ alte situații). Torace: 75 → **64 rânduri**.
+
+### MODIFICAT — Review capitol Torace (2026-07-08)
+
+Review complet al capitolului (checklist din `CLAUDE.md` › „Plan de lucru"). **18 editări
+mecanice** pe 11 rânduri (NR 664–729), toate în capitol; fără schimbări de grad, doză,
+indicație sau ordine a examenelor. Validare verde, 0 cedile.
+
+- **MODIFICAT (Situație) — diacritice lipsă.** „Bron**s**ita acută" → „Bron**ș**ita acută"
+  (NR 677); „Transplant de **ma**duvă osoasă" → „Transplant de **mă**duvă osoasă" (NR 728,
+  729; forma corectă „măduvă" e cea standard).
+- **MODIFICAT (Examen) — diacritice și aliniere.** „CT cerebral, abdomen **si** pelvis" →
+  „…**și** pelvis" (NR 697); „Scintigrafie osoasă … WB **si** \\nSPECT-CT\\n" → „…WB **și**
+  \\nSPECT-CT" (NR 702: `si`→`și`, spațiu parazit și `\n` final eliminate, aliniat identic
+  cu rândul-soră NR 338 din capitolul Cancer › Cancer bronho-pulmonar).
+- **MODIFICAT (Comentarii) — diacritice și typo-uri**, doar unde forma corectă e neambiguă:
+  „caracteriza**rii**"→„caracteriză**rii**" și „plămânului sub**j**acent"→„sub**i**acent"
+  (NR 664, forma „subiacent" e deja folosită în fișier); la NR 681 curățare masivă de
+  diacritice pe descrierea scintigrafiei de ventilație-perfuzie („pe**f**uzie"→„per**f**uzie",
+  „Contraindicati**i**"→„Contraindicați**i**", „substanta activa"→„substanța activă",
+  „excipienti"→„excipienți", „**in** caz de hipertensiune pulmonara severa"→„**în** caz…
+  pulmonară severă", „femeile **in**sarcinate sau potential **in**sarcinate **si** la copii"→
+  „**în**sărcinate sau potențial **în**sărcinate **și** la copii"); pe blocul de urmărire
+  a nodulilor de la NR 708 „12 luni **si** apoi"→„…**și** apoi", „persoane **fara** risc"→
+  „…**fără** risc" și „biopsie/reze**c**tie"→„biopsie/reze**c**ție"; „supliman**ta**ră"→
+  „suplimen**ta**ră" și abrevierea „**pt**"→
+  „**pentru**" (NR 727).
+- **MODIFICAT (normalizare) — spații parazite.** Spațiu final la NR 681 și 709; spațiu
+  inițial la NR 696 („ Performanțele"→„Performanțele") — curățate.
+- **VERIFICAT (Tip ↔ Examen) — conform.** Toate codurile de modalitate se potrivesc
+  denumirii (E=Eco/Doppler/Ecocardiografie, G=Radiografie, T=CT, M=IRM, N=PET-CT/Scintigrafie);
+  0 coduri inversate.
+- **VERIFICAT (de-duplicare) — fără duplicate exacte în capitol.** Comentariul identic de la
+  NR 670 („Aplazie medulară") și NR 729 („Transplant de măduvă osoasă") aparține unor situații
+  diferite → păstrat (regula „comentariile identice se păstrează").
+- **DE-DUPLICAT (Situație) — eticheta „Nodul pulmonar" unificată la „Nodul pulmonar
+  solitar".** Decizie editor. NR 706 (PET-CT) purta eticheta scurtată „Nodul pulmonar", pe
+  când NR 707 (CT torace) folosea „Nodul pulmonar solitar" — aceeași situație în același
+  subcapitol (Pulmon). Unificată la „Nodul pulmonar solitar"; cele două examene stau acum
+  sub o singură situație. **Reordonat** CT torace (NR 707, detecție de primă intenție,
+  Indicat B) înaintea PET-CT (NR 706, „Doar în cazuri particulare", nodul solid > 8 mm) —
+  ordinea rezulta invers din poziția fizică. Reordonare fizică a rândurilor; NR.CRT
+  neschimbate. NR 708 („Nodul pulmonar solitar urmărire") rămâne situație distinctă.
+- **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §17:** încadrarea rândurilor
+  „Neoplasm bronhopulmonar" (NR 695–705) — suprapunere de topic cu subcapitolul existent
+  „Cancer bronho-pulmonar" (NR 334–343) din capitolul Cancer; per ierarhie (regula 3)
+  malignitatea cunoscută → Cancer. Lăsat neschimbat (nu se decide unilateral).
 
 ## 6. Aparat digestiv
 _NR 737–806_
@@ -734,10 +852,10 @@ _NR 1222–1471_
 - **ERCP rămas în origine (decizie luată).** ERCP (Tip D) **nu** se mută la RI, rămâne
   în capitolele de origine; în coloana „Terapeutic" e marcat **Da**. Vezi `EDITORIAL-decisions.md`.
 - **Artrografia ATM — decizie editorială deschisă.** Rândurile de artrografie temporo-
-  mandibulară (NR 1460, 1461 în RI›Sistem nervos; NR 1358 în RI›Aparat digestiv) au
+  mandibulară (NR 1451, 1452 în RI›Sistem nervos; NR 1349 în RI›Aparat digestiv) au
   încadrarea de subcapitol discutabilă (ATM = articulație → probabil Aparat locomotor)
   și sunt marcate **Neindicat** (înlocuite de IRM). **Lăsate neatinse** — încadrarea și
   păstrarea lor se decid în echipă. Vezi `EDITORIAL-decisions.md`.
-- **Cvasi-duplicate păstrate** (2 perechi de studiat): NR 889/890 (masă pelvină) și
-  NR 1472/1473 (rahialgie). Vezi `DUPLICATE-review.md`.
+- **Cvasi-duplicate păstrate** (2 perechi de studiat): NR 880/881 (masă pelvină) și
+  NR 1446/1447 (rahialgie). Vezi `DUPLICATE-review.md`.
 - **Plasările pe muchie** din Gât și Coloană (vezi maparea) — de validat clinic.

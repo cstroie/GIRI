@@ -22,8 +22,8 @@ RI = "Radiologie intervențională"
 # Perechi de duplicate păstrate intenționat (chei = cols 2..12, normalizate).
 # Nu sunt semnalate ca erori. Vezi DUPLICATE-review.md.
 ALLOWED_DUP_SITUATII = {
-    "Suspiciune de masă pelvină",   # NR 889/890 (grad C vs A)
-    "Rahialgie / Radiculalgie",     # NR 1472/1473 (PC5 vs PC7)
+    "Suspiciune de masă pelvină",   # NR 880/881 (grad C vs A)
+    "Rahialgie / Radiculalgie",     # NR 1446/1447 (PC5 vs PC7)
 }
 
 

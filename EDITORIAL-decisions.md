@@ -8,18 +8,18 @@ NR = NR.CRT curent. (Numerotarea veche nu se mai păstrează.)
 
 **Rânduri:**
 
-- **NR 1460** · RI › Sistem nervos · „Disfuncții ale articulației temporo-mandibulare" ·
+- **NR 1451** · RI › Sistem nervos · „Disfuncții ale articulației temporo-mandibulare" ·
   Tip I · „Artrografie articulații temporo-mandibulare" · **Neindicat** · grad „?" ·
   _„Artrografia temporo-mandibulară este în prezent înlocuită de examenul IRM."_
-- **NR 1461** · RI › Sistem nervos · idem · Tip I · **Neindicat** · grad „B" ·
+- **NR 1452** · RI › Sistem nervos · idem · Tip I · **Neindicat** · grad „B" ·
   aceeași notă · „RI - PC8".
-- **NR 1358** · RI › Aparat digestiv · artrografie (existentă în RI, subcapitol aparent greșit).
+- **NR 1349** · RI › Aparat digestiv · artrografie (existentă în RI, subcapitol aparent greșit).
 
 **De decis:**
 
 1. **Încadrare pe subcapitol.** ATM este anatomic o articulație → logic ar sta la
    **Aparat locomotor**, nu la Sistem nervos (unde a ajuns automat, venind din capitolul
-   „Cap"). NR 1360 pare greșit la „Aparat digestiv". Confirmați subcapitolul corect.
+   „Cap"). NR 1349 pare greșit la „Aparat digestiv". Confirmați subcapitolul corect.
 2. **Păstrare vs. eliminare.** Ambele rânduri sunt **Neindicat**, cu nota că artrografia
    ATM „este în prezent înlocuită de examenul IRM". De decis dacă se mai păstrează în ghid
    (ca indicație istorică / negativă) sau se elimină.
@@ -381,3 +381,344 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (ESC/ACR/RCR) și se consemnează în CHANGELOG.
+
+---
+
+## 15. Sân — goluri de conținut față de ghidurile de referință (2026-07-09)
+
+Analiză de omisiuni a capitolului 9 față de practica curentă (**ACR Appropriateness
+Criteria**, **NCCN Breast Cancer Screening and Diagnosis**), în paralel cu §3 (Pediatrie),
+§11 (Cancer) și §13 (Cardiovascular). **Schițe — de validat clinic de editori** înainte de
+inserare; gradele sunt orientative. **Notă de metodă:** temele de mai jos au fost verificate
+live prin căutare (titluri exacte de ghiduri ACR AC confirmate, cu link); conținutul detaliat
+al fiecărei teme (grade complete pe toate variantele clinice) nu a fost extras integral —
+de confirmat pe documentul-sursă înainte de a fixa gradele definitive.
+
+### 14.A Goluri clare cu home = Sân (propuneri de adăugat în capitol)
+
+- **Evaluarea răspunsului la chimioterapia neoadjuvantă.** **Absentă complet** din
+  „Cancer de sân" (care are doar stadializare inițială + urmărire post-tratament, nimic
+  intra-tratament). Temă ACR AC proprie: *„Monitoring Response to Neoadjuvant Systemic
+  Therapy for Breast Cancer"* (2017, actualizat 2022). Propunere — situație nouă
+  „Evaluarea răspunsului la chimioterapia neoadjuvantă":
+  - IRM mamar = *Indicat, grad A* — metoda cea mai performantă pentru evaluarea
+    răspunsului și planificarea chirurgicală (sensibilitate ~87% pentru răspuns complet).
+  - Ecografie = *Doar în cazuri particulare, grad B* — evaluare interimară, mai accesibilă.
+  - Mamografie/tomosinteză = *Doar în cazuri particulare, grad B* — utilitate limitată de
+    modificările induse de tratament.
+- **Patologia mamară simptomatică la bărbat.** **Absentă complet.** Temă ACR AC proprie:
+  *„Evaluation of the Symptomatic Male Breast"* (2018), cu recomandări stratificate pe
+  vârstă și context clinic. Propunere — situație nouă în „Paciente cu simptome…" (sau
+  subcapitol propriu „Patologie mamară la bărbat"):
+  - Ginecomastie/pseudoginecomastie cu aspect clinic tipic = *Neindicat* — fără imagistică
+    de rutină.
+  - Masă nedeterminată, bărbat sub 25 ani = Ecografie, *Indicat, grad B* — primă intenție.
+  - Masă nedeterminată, bărbat peste 25 ani = Mamografie, *Indicat, grad B*.
+  - Suspiciune clinică de cancer, indiferent de vârstă = Mamografie, *Indicat, grad A*.
+- **Imagistica sânului în sarcină și lactație.** **Absentă complet.** Temă ACR AC proprie:
+  *„Breast Imaging of Pregnant and Lactating Females"*. Propunere — situație nouă:
+  - Ecografie = *Indicat, grad A* — primă linie, fără iradiere/contrast.
+  - Mamografie cu protecție abdominală = *Doar în cazuri particulare, grad B* — dacă
+    ecografia e neconcludentă sau leziune suspectă.
+  - IRM cu contrast = *Neindicat* în sarcină (gadoliniu traversează placenta);
+    *Doar în cazuri particulare* în lactație (alăptarea poate continua, excreție minimă
+    în lapte).
+- **Algoritmul de urmărire BI-RADS 3 („probabil benign").** Piatră de temelie a practicii
+  (NCCN), absentă ca traseu explicit — BI-RADS apare o singură dată, în comentariul NR 990.
+  Propunere — situație nouă „Leziune probabil benignă (BI-RADS 3) — urmărire":
+  - Mamografie și/sau Ecografie (metoda care a detectat leziunea) = *Indicat, grad B* —
+    control la 6 luni, apoi la 12 și 24 luni dacă rămâne stabilă.
+- **Screening suplimentar pe bază de densitate mamară.** Temă ACR AC proprie, actualizată
+  2024/2025 (subiect activ legislativ — notificarea densității). La noi apare doar punctual,
+  în comentariile altor situații („adjuvant... în cazul unui sân dens"), nu ca prag/situație
+  proprie. Propunere — situație nouă „Screening suplimentar la sân dens (categorie
+  BI-RADS C/D)":
+  - Ecografie = *Doar în cazuri particulare, grad B* — adjuvant la mamografie normală.
+  - IRM = *Doar cu aviz specializat, grad B* — la risc suplimentar asociat densității.
+
+### 14.B Goluri cu home probabil în alt capitol (nu se adaugă în Sân)
+
+- **Localizarea preoperatorie ghidată imagistic a leziunilor nepalpabile** (harpon,
+  sămânță radioactivă/magnetică) — procedură (Tip I), home = **RI › Oncologie**, nu Sân.
+  Nu apare nicăieri în tot ghidul (verificat) — de confirmat dacă lipsește real din RI sau
+  e considerată implicită în alt rând.
+- **Drenajul percutan al abcesului mamar** — menționat doar în comentariul „Inflamație
+  mamară" (NR 976, „drenajul ghidat percutan"), fără rând propriu de procedură. Tip I,
+  home = **RI › Oncologie**. De verificat dacă există deja acolo.
+
+### 14.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
+
+- **Tomosinteza (mamografia 3D)** — nu apare deloc ca modalitate distinctă (Tip `G` acoperă
+  generic „Mamografie"). Ghidurile 2025 (ACR) o recomandă alături de mamografia 2D pentru
+  toate categoriile de risc la screening. De decis dacă merită distincție de Tip/Examen sau
+  rămâne implicită în „Mamografie".
+
+> Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
+> se adaugă cu grade/doze validate pe sursă citabilă (ACR AC/NCCN) și se consemnează în
+> CHANGELOG.
+
+---
+
+## 16. Cancer — goluri de conținut, subcapitol cu subcapitol (2026-07-09)
+
+Trecere a doua, mai profundă, prin cele **29 de subcapitole** ale capitolului Cancer
+(dincolo de golurile de fază „Monitorizare" deja inventariate în §11), în paralel cu §13
+(Cardiovascular) și §15 (Sân). Surse: **NCCN Guidelines**, **ESMO Clinical Practice
+Guidelines**, **ACR Appropriateness Criteria**, ghiduri de societate (Fleischner, IMWG,
+EAU/EANM/SNMMI). **Schițe — de validat clinic de editori**; gradele sunt orientative.
+Temele marcate „✓ verificat live" au fost confirmate prin căutare directă; restul vin din
+cunoașterea ghidurilor și trebuie reconfirmate pe sursă înainte de a fixa grade/doze.
+Subcapitolele cu acoperire bună sunt listate scurt, fără propunere.
+
+### 16.1 Adenopatii cervicale — acoperire bună
+Workup-ul pentru „unknown primary" e complet (IRM, CT, PET-CT). Fără propuneri.
+
+### 16.2 Cancer anal — acoperire bună
+Diagnostic/Stadializare/Monitorizare complete și coerente cu ghidurile.
+
+### 16.3 Cancer bronho-pulmonar — 2 goluri majore ✓ verificat live
+- **Screeningul pentru cancer pulmonar la fumători (LDCT).** **Absent complet** din tot
+  ghidul. Temă majoră, foarte frecventă în practică — NCCN (categoria 1) și USPSTF
+  recomandă CT low-dose anual la risc înalt (schema „50-80-20-15": 50–80 ani, ≥20
+  pachete-an, fumător activ sau renunțare <15 ani). Propunere — situație nouă „Screening
+  cancer pulmonar (fumători cu risc înalt)" în „Paciente/pacienți asimptomatici" (subcapitol
+  nou, analog structurii din Sân) sau ca situație în Cancer bronho-pulmonar:
+  - CT toracic low-dose, fără contrast = *Indicat, grad A* — anual, la populația eligibilă.
+- **Algoritmul de urmărire a nodulului pulmonar solitar incidental.** **Absent** ca traseu
+  explicit — capitolul tratează direct suspiciunea clinică de cancer, nu incidentalomul
+  descoperit pe un CT făcut din alt motiv. Ghid de referință: **Fleischner Society 2017**
+  (praguri pe dimensiune + risc, solid vs subsolid, interval 3-12-24 luni, până la 5 ani
+  pentru nodulii subsolizi). Propunere — situație nouă „Nodul pulmonar solitar incidental —
+  urmărire":
+  - CT toracic de control = *Indicat, grad B* — interval stabilit după criteriile Fleischner
+    (dimensiune, solid/subsolid, risc pacient); sub 6 mm la risc scăzut = fără urmărire.
+
+### 16.4 Cancer de col uterin — 1 gol ✓ verificat live
+- **PET-CT absent din Stadializare** (are doar IRM + CT). NCCN recomandă explicit PET-CT
+  pentru evaluarea ganglionilor para-aortici din stadiul IB1 în sus, mai ales pentru
+  planificarea câmpului de radioterapie în boala local-avansată (IB2–IVA). Propunere:
+  - PET-CT (F18-FDG) = *Indicat, grad B* — stadiul IB2 și mai avansat, evaluare
+    ganglionară para-aortică / planificare radioterapie. (Notă: sensibilitate limitată
+    pentru metastaze ganglionare <5 mm — fals-negativ posibil, nu exclude stadializarea
+    chirurgicală la caz selectat.)
+
+### 16.5 Cancer de colon — acoperire bună
+
+### 16.6 Cancer de corp uterin — acoperire relativ bună
+Fără goluri majore de modalitate imagistică identificate.
+
+### 16.7 Cancer de rect — acoperire bună
+
+### 16.8 Cancer esofagian — acoperire relativ bună
+Diagnosticul endoscopic e corect reflectat (imagistica doar completare).
+
+### 16.9 Cancer gastric — acoperire relativ bună
+
+### 16.10 Cancer laringian și al hipofaringelui — acoperire bună
+
+### 16.11 Cancer ovarian — acoperire bună
+
+### 16.12 Cancer pancreatic — acoperire bună (deja completat la consolidare)
+
+### 16.13 Tumori neuroendocrine gastro-entero-pancreatice (GEP-NET) — acoperire bună
+(subcapitol nou, construit la consolidare)
+
+### 16.14 Cancer prostatic — 2 goluri majore ✓ verificat live
+- **IRM multiparametrică (mpMRI) încadrată greșit ca linia a doua.** În ghid, IRM apare
+  doar „Doar în cazuri particulare — suspiciune clinică + biopsie ecoghidată negativă"
+  (adică *după* o biopsie negativă). Practica actuală (NCCN, EAU) recomandă **mpMRI
+  ÎNAINTE de biopsie**, ca instrument de selecție a candidaților și de ghidare a biopsiei
+  țintite (protocol PI-RADS). **Nu modific gradul/încadrarea singur** (regulă CLAUDE.md) —
+  semnalez pentru decizia editorilor: posibilă reformulare a situației „Diagnostic" pentru
+  a reflecta mpMRI pre-biopsie ca prim pas, nu doar ca recurs post-biopsie negativă.
+- **PSMA PET-CT absent complet.** A devenit modalitate de stadializare standard pentru risc
+  intermediar-înalt (superioară CT+scintigrafie osoasă convențională pentru detecția
+  metastazelor ganglionare/osoase oculte) și pentru recidiva biochimică — susținută
+  convergent de EAU, ESMO, NCCN (ghid comun EANM/SNMMI 2.0). Propunere — rând nou în
+  Stadializare:
+  - PSMA PET-CT = *Indicat / Doar cu aviz specializat, grad B* — risc intermediar-înalt la
+    diagnostic (stadializare ganglionară/osoasă) sau recidivă biochimică post-tratament.
+
+### 16.15 Cancer testicular — acoperire bună
+
+### 16.16 Cancer tiroidian — acoperire relativ bună
+
+### 16.17 Cancer vezical — acoperire relativ bună
+
+### 16.18 Cancerul de căi aero-digestive superioare — acoperire bună
+
+### 16.19 Cancerul nazofaringian — acoperire bună
+
+### 16.20 Cancerul parotidian — acoperire bună
+
+### 16.21 Cancerul renal — acoperire bună
+
+### 16.22 Ficat, colecist și pancreas — acoperire bună (scop îngust, intenționat)
+
+### 16.23 Limfom — 1 gol major de capitol (nu doar subcapitol) ✓ verificat live
+- **Mielomul multiplu lipsește complet din tot ghidul** — nicio mențiune, în niciun
+  capitol. E o malignitate hematologică distinctă de limfom, cu workup imagistic propriu
+  și foarte specific (**IMWG Bone Working Group**): CT whole-body low-dose ca primă linie
+  pentru boala osoasă (mai sensibil decât radiografia convențională), IRM pentru cazurile
+  fără alte „myeloma-defining events" pe CT, PET-CT FDG ca standard pentru evaluare
+  funcțională/răspuns la tratament. Propunere: **subcapitol nou „Mielom multiplu"** în
+  Cancer (analog GEP-NET ca precedent de subcapitol nou creat la nevoie), cu situații
+  Diagnostic + Monitorizare:
+  - CT whole-body low-dose = *Indicat, grad A* — primă linie pentru boala osoasă litică.
+  - IRM (coloană/whole-body) = *Indicat, grad B* — la CT neconcludent sau fără leziuni
+    definitorii; superior pentru afectarea medulară difuză.
+  - PET-CT (F18-FDG) = *Indicat, grad B* — evaluare funcțională, răspuns la tratament,
+    boală extramedulară.
+
+### 16.24 Melanom malign — acoperire bună
+(absența situației „Diagnostic" e intenționată — diagnostic prin biopsie excizională,
+menționat explicit în comentariul de la Stadializare, consecvent cu restul ghidului).
+
+### 16.25 Metastaze cu tumoră primară necunoscută — acoperire bună
+
+### 16.26 Tumori ale aparatului locomotor — 1 gol (completare la §11)
+Lipsește complet faza de **Monitorizare** (urmărire post-tratament pentru recidivă locală
+sau metastaze la distanță după rezecția unui sarcom osos/de părți moi) — subcapitolul are
+doar „bilanț diagnostic" și „bilanț de extensie". Nu a fost inclus în lista din §11 (care
+viza doar subcapitolele cu axa Diagnostic/Stadializare/Monitorizare standard). Propunere:
+- CT toracic = *Indicat, grad B* — supraveghere metastaze pulmonare (sarcoame osoase).
+- IRM loco-regională = *Indicat, grad B* — supraveghere recidivă locală.
+- Radiografie standard = *Doar în cazuri particulare, grad C* — supraveghere de rutină,
+  acces limitat.
+
+### 16.27 Tumori cerebrale și medulare — acoperire bună
+
+### 16.28 Tumori maligne primare hepatice — gol Monitorizare (deja în §11)
+
+### 16.29 Tumori maligne secundare hepatice — gol Stadializare + Monitorizare
+Deja notat în §11; posibil intenționat — scop îngust pe detecție/caracterizare.
+
+### 16.30 Goluri la nivel de capitol (cancere absente complet din grupul ginecologic)
+- **Cancer de vulvă / cancer vaginal** — absente din grupul ginecologic (există doar col
+  uterin, corp uterin, ovarian). Prevalență mai mică, dar workup imagistic distinct
+  (IRM pelvină pentru stadializare loco-regională, similar cu col uterin). De evaluat
+  prioritatea de adăugare.
+- **Cancer de penis** — absent, prevalență redusă; menționat doar ca prioritate scăzută.
+
+> Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
+> se adaugă cu grade/doze validate pe sursă citabilă (NCCN/ESMO/ACR AC/IMWG/EAU) și se
+> consemnează în CHANGELOG. Cele două goluri cu impact clinic cel mai mare, în opinia mea:
+> **screeningul LDCT pentru cancerul pulmonar** (§16.3) și **mielomul multiplu absent
+> complet** (§16.23) — ambele teme majore, frecvente în practică, complet neacoperite.
+
+---
+
+## 17. Torace — chestiuni de încadrare rămase după review (2026-07-08)
+
+Ridicate la reviewul capitolului 5 (vezi CHANGELOG §5). Corecturile mecanice (ortografie,
+diacritice, normalizare, spații) au fost aplicate; cele două chestiuni de **încadrare pe
+ierarhia de capitole** (flagate inițial pentru a nu fi decise unilateral, regula de aur 6)
+au fost între timp **tranșate de editor** — status mai jos:
+
+1. ✅ **REZOLVAT — „Neoplasm bronhopulmonar" (NR 695–705) mutat la Cancer › Cancer
+   bronho-pulmonar și fuzionat (⛔ BREAKING).** Decizie editor: se mută la Cancer și se
+   fuzionează. Cele 11 rânduri Torace s-au eliminat; reconciliere fază-cu-fază (Torace
+   „diagnostic – suspiciune clinică"=Diagnostic; „bilanț preterapeutic"+„stadializare"=
+   Stadializare; „supraveghere"=Monitorizare). Vezi CHANGELOG §3 pentru detaliul complet.
+   - **Excepție confirmată:** *Nodul pulmonar solitar* (NR 706–708) rămâne **diagnostic în
+     Torace** — nodul indeterminat ≠ malignitate confirmată.
+   - **✅ CONFLICTE DE GRAD — tranșate „gradul din Cancer prevalează" (niciun grad Cancer
+     modificat), confirmat de editor și susținut de ghiduri (iRefer/NICE NG122/ACR AC 2019):**
+     pentru aceeași investigație în aceeași fază, rândul-sursă din Torace avea alt grad decât
+     cel din Cancer. S-a păstrat rândul Cancer și s-a renunțat la duplicatul Torace:
+     | Fază | Investigație | Grad Cancer (păstrat) | Grad Torace (renunțat) | Susținere ghid |
+     |---|---|---|---|---|
+     | Diagnostic | Radiografie toracică | **A** (NR 334) | C (fost 699) | primă linie la suspiciune (NICE NG12/NG122) |
+     | Stadializare | IRM cerebral | **A** (NR 339) | C (fost 695) | IRM > CT pt. metastaze cerebrale (NICE NG122) |
+     | Stadializare | CT cerebral/torace/abdomen | **A** (NR 340) | C (fost 697) | CT de stadializare standard (NICE NG122) |
+     | Stadializare | IRM toracal/mediastinal | **C** (NR 341) | B (fost 698) | instrument select/problem-solving (ACR AC 2019) — **editor: C** |
+
+     Referințele scurte au fost consemnate în col. 10 „Alte informații" pe rândurile
+     respective. Restul duplicatelor (PET-CT ×3, Scintigrafie) aveau grade identice → fără conflict.
+
+   - ✅ **REZOLVAT — Scintigrafie osoasă (NR 338): indicație coborâtă la „Doar în cazuri
+     particulare" (grad B neschimbat).** Decizie editor. Ghidurile actuale (NICE NG122,
+     ACR AC 2019, ESMO) arată că **FDG PET-CT a înlocuit în mare scintigrafia osoasă** în
+     stadializarea de rutină (PET-CT sensibilitate ~94% vs ~78% pentru metastaze osoase,
+     imagând tumora, nu reacția osoasă). PET-CT stadializare **există deja** (NR 337,
+     „Indicat" A) și acoperă rolul de metastaze osoase/la distanță. Aplicat: indicația NR 338
+     „Indicat" → **„Doar în cazuri particulare"**; comentariul completat cu „…mai ales atunci
+     când PET-CT nu este disponibil"; **gradul B rămâne**. Referință în col. 10. Vezi CHANGELOG §3.
+
+2. ✅ **REZOLVAT — „Nodul pulmonar" unificat la „Nodul pulmonar solitar".**
+   Decizie editor: unificăm eticheta. Rândul PET-CT („nodul solid > 8 mm", azi **NR 698**)
+   purta eticheta scurtată „Nodul pulmonar"; rândul CT torace (azi **NR 697**) folosea „Nodul
+   pulmonar solitar" — aceeași situație în subcapitolul Pulmon. Eticheta a fost unificată la
+   „Nodul pulmonar solitar"; cele două examene stau acum sub o singură situație. **Reordonat**
+   CT torace (697, primă intenție, Indicat B) înaintea PET-CT (698, „Doar în cazuri
+   particulare"). „Nodul pulmonar solitar urmărire" (azi **NR 699**) rămâne situație distinctă.
+   Vezi CHANGELOG §5. _(NR post-renumerotare 2026-07-09.)_
+
+> Status: **toate punctele rezolvate** (2026-07-08). Conflictele de grad — tranșate; discrepanța
+> scintigrafiei osoase NR 338 — aplicată (indicație coborâtă, grad B neschimbat).
+
+---
+
+## 18. Torace — omisiuni de patologie (propuneri de adăugat)
+
+Din analiza capitolului Torace (NR 664–727) față de tabelele de indicații toracice din
+**ACR Appropriateness Criteria, NICE și RCR iRefer**. Patologii frecvente aparent neacoperite
+sau doar parțial acoperite. **Schițe — de validat clinic de editori** înainte de inserare în
+`GHID.csv`; gradele/dozele sunt orientative. Încadrare confirmată de editor: screeningul LDCT
+și masa mediastinală merg în **Torace**.
+
+### 14.1 Lacune majore (topicuri de ghid de sine stătătoare, absente)
+
+- **Screening cancer pulmonar — CT low-dose la persoane cu risc** (→ subcapitol **Pulmon**).
+  Lipsă ca situație dedicată (apare doar în treacăt în comentariul „Nodul pulmonar solitar").
+  Recomandare majoră actuală (USPSTF 2021; ACR AC *Lung Cancer Screening* 2022): LDCT anual la
+  50–80 ani cu ≥20 pachete-an, fumători activi sau opriți de <15 ani. Propunere:
+  - CT torace low-dose fără contrast = *Indicat, grad A* (screening la populația cu risc,
+    anual; nodulii se gestionează pe protocolul din „Nodul pulmonar solitar urmărire").
+  - Radiografie toracică = *Neindicat, grad A* ca test de screening (insensibilă — mesaj util).
+  - Încadrare: rămâne în **Torace › Pulmon** (screeningul unui asimptomatic cu risc ≠
+    malignitate cunoscută, deci nu la Cancer). Ref.: ACR AC 2022; USPSTF 2021.
+
+- **Masă / lărgire mediastinală** (→ subcapitol nou **Mediastin**, sau în Pulmon). Absentă.
+  Topic ACR dedicat (*Imaging of Mediastinal Masses* 2021). Propunere:
+  - CT torace cu substanță de contrast = *Indicat, grad B* (primă linie — localizare,
+    caracterizare, raporturi vasculare).
+  - IRM torace/mediastin = *Doar în cazuri particulare* (caracterizare tisulară: chistic vs
+    solid, invazie; intoleranță la contrast iodat).
+  - PET-CT (F18-FDG) = *Doar cu aviz specializat* (suspiciune de malignitate / limfom).
+  - Radiografie toracică = *Indicat, grad C* (adesea descoperire incidentală inițială).
+  - Încadrare: evaluarea unei mase incidentale/suspectate = diagnostic toracic → **Torace**;
+    dacă se confirmă malignă (timom, limfom) → migrează la Cancer. Ref.: ACR AC 2021.
+
+### 14.2 Lacune reale, dar parțial acoperite indirect
+
+- **Dispnee acută / insuficiență respiratorie acută** (→ Pulmon sau subcapitolul Torace
+  general). Prezentare frecventă, acoperită azi doar indirect (embolie, pneumonie, pacienți
+  ATI). Topic ACR (*Acute Respiratory Illness* / *Dyspnea*). Propunere:
+  - Radiografie toracică = *Indicat, grad B* (primă linie).
+  - CT torace ± angio-CT = *Doar în cazuri particulare* (radiografie neconcludentă,
+    suspiciune de embolie/patologie parenchimatoasă).
+  - Ecografie toracică (pulmonar + cardiac) = *Doar în cazuri particulare* (la patul
+    bolnavului). De decis dacă nu se suprapune prea mult cu situațiile existente.
+
+- **Tuberculoză pulmonară activă — suspiciune / diagnostic** (→ Pulmon). Avem doar „Contacți
+  de tuberculoză" (screening de contact), nu boala activă. Propunere:
+  - Radiografie toracică = *Indicat, grad B* (primă linie — infiltrate, cavitații, adenopatii).
+  - CT torace = *Doar în cazuri particulare* (radiografie echivocă, forme complicate/miliare,
+    evaluarea activității).
+
+### 14.3 Rafinări (mai degrabă situații distincte din situații existente)
+
+- **Empiem / pleurezie parapneumonică** (→ Pleură; azi parțial sub „Epanșament pleural").
+  Ecografie = *Indicat, grad B* (cloazonări, ghidaj drenaj); CT torace cu contrast = *Indicat,
+  grad B* (colecție organizată, „split pleura sign", ghidaj drenaj). De decis dacă merită
+  situație proprie sau rămâne notă în „Epanșament pleural".
+
+- **Bronșiectazii** (→ Pulmon; azi parțial sub „Bronhoree cronică", care menționează deja
+  „dilatații bronșice"). HRCT torace fără contrast = *Indicat, grad A* (examen de referință);
+  Radiografie toracică = *Doar în cazuri particulare* (insensibilă). De decis dacă se separă
+  de „Bronhoree cronică" sau rămâne acoperită acolo.
+
+> Status: **6 propuneri deschise** (2026-07-09). Încadrare confirmată: screening LDCT + masă
+> mediastinală → Torace. Gradele/încadrarea fină rămân de validat de editori înainte de inserarea
+> în `GHID.csv`.
