@@ -311,3 +311,73 @@ care ating grade / ordine / formulare clinică → **decizia editorilor**, neati
    Vezi CHANGELOG §4.
 
 > Status: **toate cele 3 puncte rezolvate** (2026-07-08).
+
+---
+
+## 13. Cardiovascular — goluri de conținut față de ghidurile de referință (2026-07-09)
+
+Analiză de omisiuni a capitolului 4 față de practica curentă (**ESC**, **ACR Appropriateness
+Criteria**, **RCR iRefer**), în paralel cu §3 (Pediatrie) și §11 (Cancer). **Schițe — de
+validat clinic de editori** înainte de inserare; gradele/indicațiile sunt orientative.
+Acoperirea existentă a fost verificată prin căutare pe tot fișierul (ce e mai jos e absent
+sau doar menționat în comentarii). **Notă de metodă:** verificarea live pe ghiduri a fost
+limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașterea ghidurilor
+și trebuie confirmate pe documentele-sursă înainte de a fixa grade/doze.
+
+### 13.A Goluri clare cu home = Cardiovascular (propuneri de adăugat în capitol)
+
+- **Durere toracică cronică / suspiciune de boală coronariană stabilă — evaluare inițială.**
+  Distinctă de „Explorarea non-invazivă a ischemiei miocardice" (testare funcțională) și de
+  „Boala coronariană cronică și evaluare post IMA" (boală cunoscută). Lipsește **workup-ul
+  inițial la probabilitate pre-test joasă–intermediară**, unde imagistica s-a mutat spre
+  **Angio-CT coronarian (Coronaro-CT)** ca primă linie:
+  - Angio-CT coronarian = *Indicat, grad A* (ESC 2019/2024 sindroame coronariene cronice —
+    Clasă I; NICE CG95 — CTCA primă linie; ACR AC).
+  - Scor de calciu coronarian (CT) = *Indicat, grad B* — stratificare de risc la selectați.
+  - Teste funcționale de stress (eco / IRM / SPECT) = *Indicat, grad A* la probabilitate
+    intermediară–înaltă (parțial acoperite de „Explorarea non-invazivă" — de corelat/uniformizat).
+  - Coronarografia invazivă e deja la RI.
+- **Endocardită infecțioasă.** **Absentă complet** (0 apariții în tot ghidul). Indicație
+  imagistică majoră:
+  - Ecocardiografie transtoracică (ETT) = *Indicat, grad A* — primă intenție.
+  - Ecocardiografie transesofagiană (ETE) = *Indicat, grad A* — sensibilitate superioară,
+    valve protetice, complicații (abces, vegetații mici).
+  - 18F-FDG PET/CT = *Indicat / Doar în cazuri particulare, grad B* — endocardită pe valvă
+    protetică / dispozitive intracardiace (criteriu major ESC 2023), embolii oculte.
+  - CT cardiac = *Indicat, grad B* — abcese/pseudoanevrisme, dehiscență protetică, planificare
+    chirurgicală; angio-CT pentru embolii sistemice. (SPECT cu leucocite marcate = alternativă.)
+- **Fibrilație atrială — evaluare pre-procedurală / sursă cardioembolică.** **Absentă** (doar
+  o mențiune în comentariul NR 622). 
+  - ETE = *Indicat, grad A* — excluderea trombului din auriculul stâng înainte de
+    cardioversie/ablație; bilanț de sursă embolică după AVC.
+  - CT cardiac (atriu stâng + vene pulmonare) = *Indicat, grad B* — cartografiere pre-ablație /
+    pre-închidere de auricul stâng (LAA).
+- **(prioritate medie) Sarcoidoză cardiacă.** IRM cardiac + FDG-PET (protocol dedicat cu
+  pregătire dietetică). Poate sta și ca sub-caz la „Suspiciune de cardiomiopatie sau miocardită".
+
+### 13.B Goluri cu home probabil în alt capitol / decizie de încadrare (nu se adaugă aici orbește)
+
+- **Stenoză de arteră renală / HTA renovasculară** (Doppler, angio-CT, angio-IRM) — home
+  probabil **Aparat uro-genital**; de verificat acoperirea acolo (breadcrumb-ul „vezi evaluare
+  vasculară renală" scos la review sugera o trimitere existentă).
+- **Boală carotidiană / stenoză carotidiană (AVC/AIT)** — deja parțial în **Cap** (NR 969, AVC
+  tranzitor) și Traumatisme; de verificat completitudinea la parsarea capitolului Cap, nu se
+  adaugă la Cardiovascular.
+- **Ischemie mezenterică (diagnostic)** — home **Aparat digestiv** (forma cronică e deja la
+  RI, NR 1293); de verificat.
+- **Cardio-oncologie / cardiotoxicitate** (monitorizarea FEVS sub terapie oncologică: eco cu
+  strain/GLS, IRM cardiac, ventriculografie izotopică) — **absentă complet** (ESC 2022
+  cardio-oncologie). **Decizie de home:** Cancer vs Cardiovascular.
+- **Vasculite de vase mari** (arterită Takayasu, arterită cu celule gigante) — eco („halo sign"),
+  angio-IRM/CT de aortă, FDG-PET (recomandările EULAR). Sistemic apare doar pulmonar în **Torace**
+  (NR 692–694); afectarea aortică/vase mari nu e acoperită vascular. Decizie de home.
+- **Urmărire post-EVAR/TEVAR aortic (endoleak)** — CT de supraveghere a protezelor aortice.
+  Absentă. Home: Cardiovascular (diagnostic) vs RI (urmărire de procedură).
+
+### 13.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
+
+- **Evaluare structurală pre-TAVI/TAVR** — există doar în comentarii (NR 593, 633), nu ca
+  situație dedicată. De decis dacă merită rând propriu (angio-CT „de la aortă la femurale").
+
+> Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
+> se adaugă cu grade/doze validate pe sursă citabilă (ESC/ACR/RCR) și se consemnează în CHANGELOG.
