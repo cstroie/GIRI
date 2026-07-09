@@ -1257,3 +1257,31 @@ decizie de embolizare.
 > (§ intro). Propuneri gata de validat/inserat la `Obstetrică-ginecologie` (nu la Aparat
 > uro-genital) când se decide — ar completa și capitolul 8, nu doar 7. „Malformații/fistule
 > arterio-venoase pelvine" rămâne fără propunere de grad (sursă insuficientă).
+
+---
+
+## 26. Aparat uro-genital — ordine/grad pe muchie, semnalate la recitire (2026-07-09)
+
+Observații de la a treia trecere prin capitol (după renumerotare). **Ating grade sau ordinea
+examenelor → NU le modific singur** (reguli de aur); le consemnez pentru editori.
+
+- ⏳ **Incidentalom suprarenalian — CT non-contrast pare subevaluat ca poziție și grad.**
+  Ordinea curentă a examenelor: IRM (grad C) → Scintigrafie Norcolesterol (B) → CT (C). Dar
+  **comentariul propriu** al situației spune „Sunt indicate un examen CT fără injectare și
+  măsurarea densității… O leziune omogenă cu densitate sub 10 UH (CT)… sunt sugestive pentru
+  adenom" — adică CT-ul non-contrast cu măsurarea densității e, în text, testul-cheie de
+  primă linie (ACR AC / ghiduri de incidentalom suprarenalian: CT washout = pilonul
+  caracterizării). Totuși e listat ultimul și cu grad C „Doar cu aviz specializat", sub IRM.
+  Posibilă inversiune de prioritate moștenită din sursă. **De decis editori:** promovarea
+  CT-ului pe prima poziție și/sau ridicarea gradului. (Nu am reordonat — ordinea examenelor e
+  intangibilă fără decizie explicită.)
+- ⏳ **sdr. Cushing — două rânduri CT (grad A + grad B) sub aceeași situație.** NR 859 (CT,
+  grad A, „de primă intenție când ACTH plasmatic e scăzut" = Cushing ACTH-independent,
+  suprarenalian) și NR 860 (CT, grad B, comentariu identic cu IRM-ul NR 858, scenariul
+  „ACTH nu e diminuat" → IRM hipofizar/CT toracic = Cushing ACTH-dependent). **Nu e duplicat
+  greșit** — sunt două sub-scenarii etiologice reale colapsate sub o etichetă unică. De decis
+  dacă merită **etichete de situație separate** („Cushing ACTH-independent" vs „ACTH-dependent")
+  pentru claritate, sau rămân comasate (compact, dar cu grade duble aparent contradictorii pe
+  aceeași modalitate). Analog perechilor duplicate păstrate intenționat (CLAUDE.md).
+
+> Status: **niciun grad/ordine modificat**. Pur observațional, pentru decizia editorilor.

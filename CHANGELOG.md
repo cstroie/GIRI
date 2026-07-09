@@ -1023,6 +1023,26 @@ neschimbate** (precedent: Cardiovascular §12).
 Capitol: 68 rânduri (neschimbat ca număr — doar reordonare + 3 fuziuni de etichetă + 1
 redenumire, fără adăugare/eliminare de rând).
 
+### MODIFICAT — A treia trecere: corecturi ortografice reziduale (2026-07-09)
+
+Recitire integrală a capitolului (post-renumerotare 1..1439). Doar corecturi mecanice
+neambigue în `Comentarii`; niciun grad/doză/examen atins.
+
+- **Ortografie/gramatică:** „în practica, curentă" → „în practica curentă" (virgulă
+  parazită, Torsiune de cordon spermatic); „Această strategie exclud" → „…exclude" (acord
+  subiect-predicat, Hematurie ×2); „ca examen de rutina" → „…de rutină" (Hematurie/UroCT);
+  „recomandata … obtinerea … spalare lezionala )" → „recomandată … obținerea … spălare
+  lezională)" (Incidentalom/CT — 4 diacritice lipsă + spațiu parazit înainte de paranteză).
+- **Normalizare „rg." → „radiografie" în comentarii** (convenția dominantă pe tot fișierul:
+  202 „radiografi*" vs 8 „rg."): 3 rânduri din capitol (Infecție urinară/Radiografie;
+  Hematurie/Ecografie + /Radiografie). Efect secundar: **re-armonizează byte-identic** perechea
+  de comentarii de situație „Infecție urinară" (Ecografie NR 821 folosea deja „radiografie",
+  Radiografie NR 822 folosea „rg.") și păstrează identitatea perechii „Hematurie" (NR 826==827).
+  _(Rămân 2 „rg." în comentarii în alte capitole — Pediatrie NR 47, Aparat digestiv NR 762 —
+  în afara scopului acestui review.)_
+
+Capitol: 68 rânduri (neschimbat). NR.CRT neschimbate.
+
 ## 8. Obstetrică și ginecologie
 _NR 876–902_
 
