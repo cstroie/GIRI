@@ -910,16 +910,14 @@ alt capitol): screening HCC în ciroză și stadializările → **Cancer**; trau
 
 Din reviewul capitolului „Gât (părți moi)" (NR 1042–1059). Modificările mecanice
 (diacritice, normalizare, de-duplicarea etichetei) au fost aplicate — vezi `CHANGELOG.md`
-§11. Rămân două chestiuni de decizie editorială:
+§11.
 
-1. **Terminologie: „Hiperparatiroidie" vs „Hiperparatiroidism".** La de-duplicarea
-   etichetei (NR 1050 „Hiperparatiroidie" / NR 1051 „Hiperparatiroidism" — aceeași situație,
-   scindată accidental), am unificat la **„Hiperparatiroidie"** prin paralelism cu situațiile
-   din același subcapitol („Hipertiroidie", „Hipotiroidie", forma „-ie"). În endocrinologia
-   română forma **„hiperparatiroidism" (-ism)** este însă cel puțin la fel de răspândită
-   (primar/secundar/terțiar). **De confirmat** preferința; dacă editorii preferă „-ism",
-   e o schimbare de un cuvânt (și, prin consecvență, s-ar putea revizui și „hiper/hipotiroidie"
-   → „-ism", decizie de vocabular pe tot ghidul).
+1. ✅ **Terminologie: „Hiperparatiroidie" vs „Hiperparatiroidism" — DECIS (2026-07-09).**
+   La de-duplicarea etichetei (NR 1050 / NR 1051 — aceeași situație, scindată accidental),
+   ambele rânduri s-au unificat la **„Hiperparatiroidism"** (forma standard din
+   endocrinologie). Notă de consecvență: „Hipertiroidie" și „Hipotiroidie" rămân în forma
+   „-ie" (nu au fost atinse); dacă editorii vor o uniformizare „-ism" pe tot vocabularul
+   tiroidian, e o decizie separată, de semnalat aparte.
 
 2. **Încadrare: „Suflu carotidian asimptomatic" (NR 1044).** Situația este esențialmente
    **vasculară** — investigația unică e „Eco Doppler al vaselor cervico-craniene" (trunchiuri
@@ -930,5 +928,5 @@ Din reviewul capitolului „Gât (părți moi)" (NR 1042–1059). Modificările 
    supra-aortice). **De decis** mutarea; neschimbată unilateral (încadrare de capitol =
    decizie editorială).
 
-> Status: **2 chestiuni deschise** (2026-07-09). Nicio modificare suplimentară de date
-> până la decizie.
+> Status: **1 decisă** (terminologia — hiperparatiroidism), **1 deschisă** (încadrarea
+> „Suflu carotidian asimptomatic") — 2026-07-09. Nicio altă modificare de date până la decizie.

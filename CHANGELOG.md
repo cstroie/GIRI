@@ -951,13 +951,12 @@ Review complet al capitolului (checklist din `CLAUDE.md` › „Plan de lucru"),
 (NR 1042–1059, subcapitolele „Diverse" și „Tiroidă, paratiroide"). Fără schimbări de grad,
 doză sau ordine a examenelor. Validare verde, 0 cedile.
 
-- **DE-DUPLICAT (Situație) — „Hiperparatiroidism" → „Hiperparatiroidie".** Aceeași situație
-  clinică era **scindată accidental** în două etichete diferite în același subcapitol:
-  **NR 1050** „Hiperparatiroidie" (Ecografie) și **NR 1051** „Hiperparatiroidism"
-  (Scintigrafie). Unificată la **„Hiperparatiroidie"**, prin paralelism cu situațiile-soră
-  din subcapitol („Hipertiroidie", „Hipotiroidie"); cele două examene stau acum sub o
-  singură situație. Rândurile nu au fost comasate. (Preferința de terminologie „-ie" vs
-  „-ism" e semnalată în `EDITORIAL-decisions.md` §21.)
+- **DE-DUPLICAT (Situație) — „Hiperparatiroidie" + „Hiperparatiroidism" → „Hiperparatiroidism".**
+  Aceeași situație clinică era **scindată accidental** în două etichete diferite în același
+  subcapitol: **NR 1050** „Hiperparatiroidie" (Ecografie) și **NR 1051** „Hiperparatiroidism"
+  (Scintigrafie). Unificată la **„Hiperparatiroidism"** (decizie editorială, 2026-07-09 —
+  forma standard din endocrinologie); cele două examene stau acum sub o singură situație.
+  Rândurile nu au fost comasate.
 - **MODIFICAT (Examen) — normalizare la convenția dominantă.** „Eco-doppler al vaselor
   cervico-craniene" → „Eco Doppler al vaselor cervico-craniene" (NR 1044; forma dominantă
   pe fișier „Eco Doppler", plus capitalizarea „Doppler"). „Scintigrafie (99mTc**- **Sestamibi)"
