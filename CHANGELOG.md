@@ -815,6 +815,26 @@ de-duplicare, încadrare). Fără schimbări de grad/doză/ordine a examenelor.
 
 Capitol: **70 → 65 rânduri** (1 mutat la Cancer, 4 comasate). NR.CRT rămân neschimbate
 (găuri tolerate la 786–788, 794 — vezi regula 3).
+- **RESTRUCTURAT (etichete) — rafinarea titlurilor de „Situația Clinică"** (2026-07-09):
+  normalizate la formă nominală **nearticulată**, fără informație clinică după „–"/paranteză
+  (mutată în `Comentarii`). Sufixul de **fază** păstrat standardizat, ca la Cancer
+  (`– bilanț` / `– depistare` / `– monitorizare`). Mapări:
+  - „Caracterizarea unei leziuni hepatice descoperita accidental…" → **„Leziune hepatică focală incidentală"**
+  - „Patologie biliară (în particular litiazică)" → **„Patologie biliară litiazică"**
+  - „Suspiciune de fistulă biliară – antecedente chirurgicale recente" → **„…postoperatorie"**
+  - „Disfagia înaltă sau joasă" → **„Disfagie"** (context „înaltă sau joasă" → Comentarii)
+  - „Dispepsia – gastropareza" → **„Gastropareză"** (context „dispepsie" → Comentarii)
+  - „Durerea abdominala acuta – urgenta chirurgicala" → **„Durere abdominală acută"**
+  - „Durerea toracică – …hernie hiatală sau de reflux" → **„Reflux gastroesofagian / hernie hiatală"**
+    (prezentarea „durere toracică" → Comentarii)
+  - „Maladia Crohn intestinala" → **„Boala Crohn intestinală"**; „Maladie inflamatorie a colonului"
+    → **„Boală inflamatorie a colonului"** (`Maladie/Maladia` → `Boală/Boala`, uz RO standard)
+  - „Polipul colorectal depistare" → **„Polip colorectal – depistare"**
+  - „Suspiciune de fistulă esofagiană…(esofag, stomac)" → **„…esofagiană / anastomotică postoperatorie"**
+    (organul operat → Comentarii)
+  - „Suspiciunea de perforație esofagiană" → **„Suspiciune de perforație esofagiană"**
+  - „Ulcerul gastro-duodenal monitorizare" → **„Ulcer gastro-duodenal – monitorizare"**
+  Fără schimbare de examene/grade/doze; 5 comentarii îmbogățite cu contextul mutat din titlu.
 - **DESCHIS — omisiuni de patologie față de ghiduri** (`EDITORIAL-decisions.md §20`, 13 propuneri):
   colecistită acută (+ HIDA, absentă din capitol), apendicită / diverticulită acută ca situații
   proprii, ischemie mezenterică, hipertensiune portală, steatoză/fibroză (NAFLD), fistulă
