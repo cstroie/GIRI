@@ -384,7 +384,7 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 
 ---
 
-## 14. Sân — goluri de conținut față de ghidurile de referință (2026-07-09)
+## 15. Sân — goluri de conținut față de ghidurile de referință (2026-07-09)
 
 Analiză de omisiuni a capitolului 9 față de practica curentă (**ACR Appropriateness
 Criteria**, **NCCN Breast Cancer Screening and Diagnosis**), în paralel cu §3 (Pediatrie),
