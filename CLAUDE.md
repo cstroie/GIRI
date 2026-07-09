@@ -147,9 +147,15 @@ decizie unilaterală).
 6. **Consecvența subcapitolelor și situațiilor.** Verifică încadrarea pe ierarhia de
    capitole; etichete de situație bloatate cu note clinice de tip parantetic → propune
    mutarea notei în `Comentarii` (dacă e o notă pe toată situația, e caz editorial → flag).
-7. **Verificarea corectitudinii informațiilor** față de practica curentă (ACR AC, RCR
+7. **Ordonarea situațiilor clinice în cadrul unui subcapitol** urmează un **flux clinic**,
+   nu ordinea alfabetică: **urgență/acut → cronic → screening/populații speciale**, cu
+   `ALTĂ SITUAȚIE CLINICĂ` mereu ultima. Reordonare **fizică** a rândurilor (NR.CRT rămân
+   atașate rândului, deci pot deveni necontigue până la o renumerotare cerută explicit —
+   vezi regula 3). **Nu confunda cu ordinea *examenelor* în interiorul unei situații**, care
+   rămâne intangibilă (vezi „Decizii deja luate").
+8. **Verificarea corectitudinii informațiilor** față de practica curentă (ACR AC, RCR
    iRefer, ESC). **NU** se modifică grade sau doze; discrepanțele → `EDITORIAL-decisions.md`.
-8. **Consemnare.** Fiecare modificare în `CHANGELOG.md` (la capitolul respectiv, cu
+9. **Consemnare.** Fiecare modificare în `CHANGELOG.md` (la capitolul respectiv, cu
    etichetele din Legendă); fiecare chestiune lăsată deschisă în `EDITORIAL-decisions.md`.
    La final: `python3 tools/validate.py` verde + verificare diacritice.
 
@@ -172,6 +178,11 @@ comasez comentarii identice legitime; nu decid singur cazuri clinice/editoriale 
   Radiculalgie" (coduri PC5 vs PC7).
 - **Ordinea indicațiilor (examenelor) în cadrul unei situații este intențională** —
   NU o reordona (nici „standardizat după iradiere"). Reflectă prioritatea clinică.
+- **Ordonarea situațiilor clinice într-un subcapitol**: flux **urgență/acut → cronic →
+  screening/populații speciale**, cu `ALTĂ SITUAȚIE CLINICĂ` mereu ultima — NU alfabetic
+  (vezi checklist, pasul 7). Distinct de regula de mai sus: aici se reordonează *situațiile*
+  (grupuri de rânduri), nu *examenele* din interiorul uneia. Aplicat prima dată la Aparat
+  uro-genital, 2026-07-09 (reordonare fizică, NR.CRT neschimbate).
 - **Comentariile identice pe rânduri diferite se păstrează.** Fiecare comentariu
   aparține unei situații; e normal ca rânduri (examene) diferite din aceeași situație
   să aibă comentariu identic. NU dedublica / rezuma — fiecare rând rămâne auto-suficient.
