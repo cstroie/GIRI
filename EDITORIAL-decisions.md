@@ -476,22 +476,14 @@ Workup-ul pentru „unknown primary" e complet (IRM, CT, PET-CT). Fără propune
 ### 16.2 Cancer anal — acoperire bună
 Diagnostic/Stadializare/Monitorizare complete și coerente cu ghidurile.
 
-### 16.3 Cancer bronho-pulmonar — 2 goluri majore ✓ verificat live
-- **Screeningul pentru cancer pulmonar la fumători (LDCT).** **Absent complet** din tot
-  ghidul. Temă majoră, foarte frecventă în practică — NCCN (categoria 1) și USPSTF
-  recomandă CT low-dose anual la risc înalt (schema „50-80-20-15": 50–80 ani, ≥20
-  pachete-an, fumător activ sau renunțare <15 ani). Propunere — situație nouă „Screening
-  cancer pulmonar (fumători cu risc înalt)" în „Paciente/pacienți asimptomatici" (subcapitol
-  nou, analog structurii din Sân) sau ca situație în Cancer bronho-pulmonar:
-  - CT toracic low-dose, fără contrast = *Indicat, grad A* — anual, la populația eligibilă.
-- **Algoritmul de urmărire a nodulului pulmonar solitar incidental.** **Absent** ca traseu
-  explicit — capitolul tratează direct suspiciunea clinică de cancer, nu incidentalomul
-  descoperit pe un CT făcut din alt motiv. Ghid de referință: **Fleischner Society 2017**
-  (praguri pe dimensiune + risc, solid vs subsolid, interval 3-12-24 luni, până la 5 ani
-  pentru nodulii subsolizi). Propunere — situație nouă „Nodul pulmonar solitar incidental —
-  urmărire":
-  - CT toracic de control = *Indicat, grad B* — interval stabilit după criteriile Fleischner
-    (dimensiune, solid/subsolid, risc pacient); sub 6 mm la risc scăzut = fără urmărire.
+### 16.3 Cancer bronho-pulmonar — acoperire bună (2 goluri redirecționate la Torace)
+La analiza inițială semnalasem aici screeningul LDCT și urmărirea nodulului pulmonar
+incidental. **Corectat**: ambele au home confirmat de editor în **Torace**, nu Cancer —
+vezi §17 („Nodul pulmonar solitar" rămâne diagnostic în Torace: „nodul indeterminat ≠
+malignitate confirmată") și §18/„14.1" (screening LDCT + masă mediastinală, încadrare
+Torace explicit confirmată). Eliminate de aici pentru a nu duplica/contrazice deciziile
+deja luate. Restul subcapitolului (Diagnostic la suspiciune clinică, Stadializare,
+Monitorizare) are acoperire bună.
 
 ### 16.4 Cancer de col uterin — 1 gol ✓ verificat live
 - **PET-CT absent din Stadializare** (are doar IRM + CT). NCCN recomandă explicit PET-CT
@@ -602,9 +594,10 @@ Deja notat în §11; posibil intenționat — scop îngust pe detecție/caracter
 
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (NCCN/ESMO/ACR AC/IMWG/EAU) și se
-> consemnează în CHANGELOG. Cele două goluri cu impact clinic cel mai mare, în opinia mea:
-> **screeningul LDCT pentru cancerul pulmonar** (§16.3) și **mielomul multiplu absent
-> complet** (§16.23) — ambele teme majore, frecvente în practică, complet neacoperite.
+> consemnează în CHANGELOG. Golul cu impact clinic cel mai mare rămas **la Cancer** (după
+> redirecționarea screeningului LDCT / nodulului pulmonar la Torace, §17–18): **mielomul
+> multiplu absent complet din tot ghidul** (§16.23) — temă majoră, frecventă, fără
+> subcapitol propriu nicăieri.
 
 ---
 
