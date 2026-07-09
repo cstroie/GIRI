@@ -360,3 +360,67 @@ au fost între timp **tranșate de editor** — status mai jos:
 
 > Status: **toate punctele rezolvate** (2026-07-08). Conflictele de grad — tranșate; discrepanța
 > scintigrafiei osoase NR 338 — aplicată (indicație coborâtă, grad B neschimbat).
+
+## 14. Torace — omisiuni de patologie (propuneri de adăugat)
+
+Din analiza capitolului Torace (NR 662–736) față de tabelele de indicații toracice din
+**ACR Appropriateness Criteria, NICE și RCR iRefer**. Patologii frecvente aparent neacoperite
+sau doar parțial acoperite. **Schițe — de validat clinic de editori** înainte de inserare în
+`GHID.csv`; gradele/dozele sunt orientative. Încadrare confirmată de editor: screeningul LDCT
+și masa mediastinală merg în **Torace**.
+
+### 14.1 Lacune majore (topicuri de ghid de sine stătătoare, absente)
+
+- **Screening cancer pulmonar — CT low-dose la persoane cu risc** (→ subcapitol **Pulmon**).
+  Lipsă ca situație dedicată (apare doar în treacăt în comentariul „Nodul pulmonar solitar").
+  Recomandare majoră actuală (USPSTF 2021; ACR AC *Lung Cancer Screening* 2022): LDCT anual la
+  50–80 ani cu ≥20 pachete-an, fumători activi sau opriți de <15 ani. Propunere:
+  - CT torace low-dose fără contrast = *Indicat, grad A* (screening la populația cu risc,
+    anual; nodulii se gestionează pe protocolul din „Nodul pulmonar solitar urmărire").
+  - Radiografie toracică = *Neindicat, grad A* ca test de screening (insensibilă — mesaj util).
+  - Încadrare: rămâne în **Torace › Pulmon** (screeningul unui asimptomatic cu risc ≠
+    malignitate cunoscută, deci nu la Cancer). Ref.: ACR AC 2022; USPSTF 2021.
+
+- **Masă / lărgire mediastinală** (→ subcapitol nou **Mediastin**, sau în Pulmon). Absentă.
+  Topic ACR dedicat (*Imaging of Mediastinal Masses* 2021). Propunere:
+  - CT torace cu substanță de contrast = *Indicat, grad B* (primă linie — localizare,
+    caracterizare, raporturi vasculare).
+  - IRM torace/mediastin = *Doar în cazuri particulare* (caracterizare tisulară: chistic vs
+    solid, invazie; intoleranță la contrast iodat).
+  - PET-CT (F18-FDG) = *Doar cu aviz specializat* (suspiciune de malignitate / limfom).
+  - Radiografie toracică = *Indicat, grad C* (adesea descoperire incidentală inițială).
+  - Încadrare: evaluarea unei mase incidentale/suspectate = diagnostic toracic → **Torace**;
+    dacă se confirmă malignă (timom, limfom) → migrează la Cancer. Ref.: ACR AC 2021.
+
+### 14.2 Lacune reale, dar parțial acoperite indirect
+
+- **Dispnee acută / insuficiență respiratorie acută** (→ Pulmon sau subcapitolul Torace
+  general). Prezentare frecventă, acoperită azi doar indirect (embolie, pneumonie, pacienți
+  ATI). Topic ACR (*Acute Respiratory Illness* / *Dyspnea*). Propunere:
+  - Radiografie toracică = *Indicat, grad B* (primă linie).
+  - CT torace ± angio-CT = *Doar în cazuri particulare* (radiografie neconcludentă,
+    suspiciune de embolie/patologie parenchimatoasă).
+  - Ecografie toracică (pulmonar + cardiac) = *Doar în cazuri particulare* (la patul
+    bolnavului). De decis dacă nu se suprapune prea mult cu situațiile existente.
+
+- **Tuberculoză pulmonară activă — suspiciune / diagnostic** (→ Pulmon). Avem doar „Contacți
+  de tuberculoză" (screening de contact), nu boala activă. Propunere:
+  - Radiografie toracică = *Indicat, grad B* (primă linie — infiltrate, cavitații, adenopatii).
+  - CT torace = *Doar în cazuri particulare* (radiografie echivocă, forme complicate/miliare,
+    evaluarea activității).
+
+### 14.3 Rafinări (mai degrabă situații distincte din situații existente)
+
+- **Empiem / pleurezie parapneumonică** (→ Pleură; azi parțial sub „Epanșament pleural").
+  Ecografie = *Indicat, grad B* (cloazonări, ghidaj drenaj); CT torace cu contrast = *Indicat,
+  grad B* (colecție organizată, „split pleura sign", ghidaj drenaj). De decis dacă merită
+  situație proprie sau rămâne notă în „Epanșament pleural".
+
+- **Bronșiectazii** (→ Pulmon; azi parțial sub „Bronhoree cronică", care menționează deja
+  „dilatații bronșice"). HRCT torace fără contrast = *Indicat, grad A* (examen de referință);
+  Radiografie toracică = *Doar în cazuri particulare* (insensibilă). De decis dacă se separă
+  de „Bronhoree cronică" sau rămâne acoperită acolo.
+
+> Status: **6 propuneri deschise** (2026-07-09). Încadrare confirmată: screening LDCT + masă
+> mediastinală → Torace. Gradele/încadrarea fină rămân de validat de editori înainte de inserarea
+> în `GHID.csv`.

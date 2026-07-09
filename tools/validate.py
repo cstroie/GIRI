@@ -23,7 +23,7 @@ RI = "Radiologie intervențională"
 # Nu sunt semnalate ca erori. Vezi DUPLICATE-review.md.
 ALLOWED_DUP_SITUATII = {
     "Suspiciune de masă pelvină",   # NR 889/890 (grad C vs A)
-    "Rahialgie / Radiculalgie",     # NR 1472/1473 (PC5 vs PC7)
+    "Rahialgie / Radiculalgie",     # NR 1455/1456 (PC5 vs PC7)
 }
 
 

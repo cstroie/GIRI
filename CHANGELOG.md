@@ -180,7 +180,7 @@ După consolidarea intervenționalului au rămas perechi aproape identice (acela
 - **2 perechi păstrate ca duplicate** (de studiat de editor, lăsate neatinse):
   - Ecografie „Suspiciune de masă pelvină" (NR 889 și 890) — comentarii și grad diferite
     (C vs A), par două intrări legitime.
-  - Infiltrație „Rahialgie / Radiculalgie" (NR 1472 și 1473) — coduri diferite PC5 vs PC7.
+  - Infiltrație „Rahialgie / Radiculalgie" (NR 1455 și 1456) — coduri diferite PC5 vs PC7.
 
 ### ⛔ BREAKING — Consolidarea oncologiei diagnostice în capitolul Cancer (2026-07-08)
 
@@ -843,5 +843,5 @@ _NR 1222–1471_
   și sunt marcate **Neindicat** (înlocuite de IRM). **Lăsate neatinse** — încadrarea și
   păstrarea lor se decid în echipă. Vezi `EDITORIAL-decisions.md`.
 - **Cvasi-duplicate păstrate** (2 perechi de studiat): NR 889/890 (masă pelvină) și
-  NR 1472/1473 (rahialgie). Vezi `DUPLICATE-review.md`.
+  NR 1455/1456 (rahialgie). Vezi `DUPLICATE-review.md`.
 - **Plasările pe muchie** din Gât și Coloană (vezi maparea) — de validat clinic.
