@@ -978,19 +978,22 @@ rămâne subiectul unei decizii deschise separate (§8, §10 — nu face parte d
 
 ### B. Omisiuni de conținut (propuneri de adăugat)
 
-- ⏳ **Sialolitiază / sialadenită acută** — complet absentă din ghid (0 hits „sialaden",
-  „sialolit" în tot fișierul; „Obstrucția fluxului salivar" din Cap›ORL acoperă doar
-  obstrucția cronică — Sialo-IRM, scintigrafie — nu episodul acut/infecțios). Literatura
-  (StatPearls, Applied Radiology, ACR) recomandă **ecografie** (POCUS, sondă liniară de
-  înaltă frecvență) de primă intenție pentru calcul + glandă inflamată, cu **CT cu
-  substanță de contrast** rezervat complicațiilor (abces, flegmon). Propunere: situație nouă
-  în „Gât (părți moi)" (sau în subcapitolul de glande salivare, dacă se aplică propunerea A).
-- ⏳ **Abces / infecție de spații cervicale profunde** (retrofaringian, periamigdalian,
-  angina Ludwig) — absentă (singurele mențiuni „abces" din fișier sunt abdominale/RI/
-  mamare, nimic cervical la adult). **CT cu substanță de contrast** e standardul pentru
-  diagnostic și monitorizare (sursă: Springer „Imaging of Neck and Facial Infections";
-  serie de caz peritonsilar abscess). Urgență ORL frecventă — omisiune notabilă. Propunere:
-  situație nouă, subcapitol „Diverse" sau nou subcapitol „Infecții".
+- ✅ **Sialolitiază / sialadenită acută — DECISĂ și APLICATĂ (2026-07-09).** La reverificare,
+  golul era mai îngust decât estimat inițial: „Obstrucția fluxului salivar" acoperea deja
+  litiaza (NR 1021 „natura litiazică", NR 1023 „complicație infecțioasă"/calculi). Lipsea
+  doar **sialadenita acută infecțioasă fără calcul** (bacteriană, pacienți deshidratați/
+  postoperator) — adăugată ca frază la finalul comentariului NR 1021 (Ecografie): aspect
+  ecografic specific (glandă difuz mărită, hipoecogenă, hiperemică Doppler), ecografia
+  rămâne primă intenție și fără litiază. Surse: StatPearls — *Sialolithiasis*; Applied
+  Radiology — *Obstructive Sialadenitis*. Fără rând nou — completare de conținut existent.
+- ✅ **Abces / infecție de spații cervicale profunde — DECISĂ și APLICATĂ (2026-07-09).**
+  Situație nouă „Abces / infecție profundă de spații cervicale", subcapitol „Mase cervicale"
+  — **2 rânduri**: NR 1441 (CT cu substanță de contrast, Indicat, grad B — standardul pentru
+  extensie/complicații, câmp extins la mediastin dacă suspiciune de extensie descendentă) și
+  NR 1442 (Ecografie cervicală/intraorală, Doar în cazuri particulare, grad B — pentru
+  abcesul periamigdalian, sensibilitate/specificitate 89–100% comparativ cu CT, poate ghida
+  drenajul). Surse: Springer — *Imaging of Neck and Facial Infections*; *Retropharyngeal
+  Abscess* (2024); JETem — *POCUS for Peritonsillar Abscess*. Detalii în `CHANGELOG.md` §11.
 - ✅ **Stratificare de risc ecografică a nodulului tiroidian (TI-RADS / EU-TIRADS) —
   DECISĂ și APLICATĂ (2026-07-09, la cerere explicită).** Reformulată față de propunerea
   inițială: nu completare pe NR 1046 (care descria de fapt greșit „Gușă plonjantă", nu
@@ -1012,11 +1015,11 @@ rămâne subiectul unei decizii deschise separate (§8, §10 — nu face parte d
 - [Imaging of Neck and Facial Infections — Springer](https://link.springer.com/rwe/10.1007/978-3-031-78916-8_12)
 - [Obstructive Sialadenitis — Applied Radiology](https://appliedradiology.com/articles/obstructive-sialadenitis)
 
-> Status: **A decisă și aplicată integral** (mutare Cap›ORL → Gât + de-duplicare „Mase
+> Status: **A și B decise și aplicate integral** (mutare Cap›ORL → Gât + de-duplicare „Mase
 > cervicale ale adultului"/„Masă cervicală..." + redenumire subcapitol „Diverse" → „Mase
-> cervicale", 2026-07-09). **TI-RADS/EU-TIRADS (parte din B) aplicată** ca rând nou
-> NR 1440, 2026-07-09. Rămâne cvasi-duplicat cross-capitol **doar** „Corp străin
-> faringian sau esofagian înalt" vs `Traumatisme › Corp străin` (nerezolvat, vezi §8/§10 și
-> `DUPLICATE-review.md` §C). **2 propuneri de conținut rămân deschise**: sialolitiază/
-> sialadenită acută, abces cervical profund. Nicio modificare suplimentară de date până la
-> decizia editorilor.
+> cervicale" + TI-RADS/EU-TIRADS (NR 1440) + abces cervical profund (NR 1441/1442) +
+> sialadenită acută fără litiază (NR 1021), 2026-07-09). Rămâne cvasi-duplicat cross-capitol
+> **doar** „Corp străin faringian sau esofagian înalt" vs `Traumatisme › Corp străin`
+> (nerezolvat, decizie de încadrare cross-capitol lăsată deschisă intenționat — vezi §8/§10
+> și `DUPLICATE-review.md` §C). Nicio propunere de conținut deschisă. §22 **închis** —
+> rămâne doar duplicatul din §8/§10.

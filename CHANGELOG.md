@@ -1232,6 +1232,40 @@ Hiperparatiroidism / nodul tiroidian generic sunt situații învecinate în capi
 de la finalul unei situații a „migrat" pe rândul următoarei. Nu am mai găsit alte cazuri
 după sweep-ul sistematic.
 
+### ADĂUGAT + MODIFICAT — rezolvarea celor 2 propuneri de conținut rămase din §22.B (2026-07-09)
+
+Din `EDITORIAL-decisions.md` §22.B: 2 goluri de conținut semnalate față de ghidurile
+internaționale, ambele aplicate acum la cererea editorului.
+
+- **ADĂUGAT — situație nouă „Abces / infecție profundă de spații cervicale"** (subcapitol
+  „Mase cervicale", poziționată prima, alfabetic). 2 rânduri:
+  - **NR 1441** T, CT regiune cervicală cu substanță de contrast, Indicat, grad **B** —
+    standardul de diagnostic pentru infecțiile profunde ale spațiilor cervicale
+    (retrofaringian, parafaringian, angina Ludwig): extensie, localizarea colecției,
+    complicații (extensie mediastinală, tromboză jugulară, erodare vasculară); câmpul de
+    examinare extins la mediastinul superior dacă se suspectează extensie descendentă
+    (spațiile visceral/retrofaringian/prevertebral comunică cu mediastinul).
+  - **NR 1442** E, Ecografie cervicală/intraorală, Doar în cazuri particulare, grad **B** —
+    pentru abcesul periamigdalian (cea mai frecventă localizare, superficială, accesibilă):
+    sensibilitate/specificitate comparabile cu CT (89–100%), fără iradiere, poate ghida
+    direct drenajul; rezervată colecțiilor superficiale — pentru localizări profunde sau
+    suspiciune de complicații, CT rămâne necesar.
+  - Surse: Springer — *Imaging of Neck and Facial Infections*; *Retropharyngeal Abscess:
+    Patterns of Deep Neck Space Extension* (2024); JETem — *POCUS for Peritonsillar
+    Abscess*. Referințe în „Alte informații" pe ambele rânduri.
+- **MODIFICAT (îmbogățire) — „Obstrucția fluxului salivar" (Glande salivare), sialadenita
+  acută fără litiază.** Gol mai îngust decât inițial estimat: situația acoperea deja bine
+  litiaza (NR 1021 menționează „natura litiazică", NR 1023 menționează complicația
+  infecțioasă); lipsea doar cazul **sialadenitei acute infecțioase fără calcul** (bacteriană,
+  tipic la pacienți deshidratați/postoperator). Adăugată frază la finalul comentariului
+  **NR 1021** (Ecografie): aspectul ecografic (glandă difuz mărită, hipoecogenă, hiperemică
+  Doppler) și confirmarea că ecografia rămâne prima intenție și în absența litiazei. Surse:
+  StatPearls — *Sialolithiasis*; Applied Radiology — *Obstructive Sialadenitis*. Referințe
+  adăugate în „Alte informații" pe NR 1021 și NR 1023.
+
+**Nemodificat**: gradele/dozele/ordinea pe situațiile atinse de îmbogățire. Bilanț:
+**+2 rânduri** → 1438 → **1440 rânduri**.
+
 ## 12. Coloană vertebrală
 _NR 1093–1147_
 
