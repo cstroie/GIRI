@@ -764,6 +764,33 @@ _NR 737–806_
 - **MUTAT —** 62 rânduri intervenționale relocate la RI › Aparat digestiv.
 - **MODIFICAT (date) —** eticheta „Aparat digestiv " (spațiu în plus, 5 rânduri) unificată sub „Aparat digestiv".
 
+### MODIFICAT — Review capitol Aparat digestiv (2026-07-09)
+
+Pas 1–6 din checklistul de review (corecturi ortografice, normalizare, de-duplicare
+etichete). Fără schimbări de grad/doză/ordine a examenelor.
+
+- **MODIFICAT (ortografie) — typo-uri neambigue corectate:**
+  - „CT este este o examinare" → „CT este o examinare" (Caracterizare leziune hepatică, CT).
+  - „pancreatitei cornice" → „pancreatitei cronice" (Pancreatită cronică, IRM/colangio-IRM).
+  - „util pentru e evidenția" → „util pentru a evidenția" (Disfagia, tranzit baritat).
+  - „scintgrafia" → „scintigrafia" (Dispepsia – gastropareza).
+  - „sediului sângeraăriiș poate" → „sediului sângerării; poate" (Sângerare GI acută, Eco).
+  - „cauzei onstrucției" → „cauzei obstrucției" (Sindrom ocluziv, Radiografie).
+  - „parenchim hepatic indem" → „…indemn"; „managment" → „management" (col. Alte informații).
+- **MODIFICAT (normalizare) — spații parazite** (inițiale/finale/duble) curățate în
+  `Tip`, `Examen`, `Situația Clinică` și `Comentarii` pe rândurile capitolului
+  (ex. Tip „M " → „M", „PET-CT " → „PET-CT", „Irigografie cu bariu " → „Irigografie cu bariu").
+- **MODIFICAT (de-duplicare etichete) — „Maladie inflamatorie a colonului"**: variantele
+  „Maladia inflamatorie a colonului " (2 rânduri: Radiografie și Scintigrafie leucocite)
+  unificate sub forma dominantă / nearticulată „Maladie inflamatorie a colonului" (celelalte
+  5 rânduri). Situația era fragmentată în 3 blocuri; acum se consolidează într-unul singur
+  (gruparea HTML e pe Capitol → Subcapitol → Situație). Eticheta „Suspiciune de fistulă
+  biliară … chirurgie digestivă " (3 rânduri) — spațiul final eliminat.
+- **DESCHIS — 3 chestiuni editoriale** notate în `EDITORIAL-decisions.md` §Aparat digestiv:
+  încadrarea rândului „Cancerul de stomac" (→ Cancer?), cvasi-duplicatul „fistulă biliară"
+  între subcapitolele Ficat și Tub digestiv, și confuzia „sângerare acută vs. ocultă"
+  (scintigrafia cu hematii marcate de la NR 794).
+
 ## 7. Aparat uro-genital și glande suprarenale
 _NR 807–875_
 

@@ -735,3 +735,51 @@ sau doar parțial acoperite. **Schițe — de validat clinic de editori** înain
 > Status: **6 propuneri deschise** (2026-07-09). Încadrare confirmată: screening LDCT + masă
 > mediastinală → Torace. Gradele/încadrarea fină rămân de validat de editori înainte de inserarea
 > în `GHID.csv`.
+
+---
+
+## 19. Aparat digestiv — chestiuni deschise după review (2026-07-09)
+
+Ridicate în review-ul capitolului (pașii 6–7). Modificările mecanice (ortografie,
+whitespace, unificare etichete) au fost aplicate; cele de mai jos cer decizie clinică/
+editorială și **nu** au fost executate.
+
+### 19.1 „Cancerul de stomac – diagnostic și bilanț de extensie" (PET-CT F18-FDG) — încadrare
+Rândul (azi în `Aparat digestiv › Tub digestiv`, PET-CT F18-FDG, *Doar în cazuri
+particulare, B*; comentariul vizează stadializarea/urmărirea tumorilor stromale
+gastrointestinale — GIST) e **determinat de malignitate** → per ierarhia capitolelor
+(regula 3) ar trebui în **Cancer › Cancer gastric**. Subcapitolul „Cancer gastric" există
+deja (Diagnostic: CT, tranzit dublu contrast; Stadializare: ecoendoscopie, CT) și **nu**
+are un rând de medicină nucleară — deci mutarea l-ar completa, nu ar duplica.
+**Propunere:** MUTAT → `Cancer › Cancer gastric`, situația „Stadializare" (sau situație
+proprie pentru GIST). De confirmat de editori (mutare cross-capitol, ⛔ BREAKING).
+
+### 19.2 „Suspiciune de fistulă biliară" — cvasi-duplicat între două subcapitole
+Aceeași situație clinică apare de două ori, în subcapitole diferite, cu conținut
+cvasi-identic (Ecografie / CT / IRM colangio, aceleași indicații și note):
+- `Ficat, colecist și pancreas` — „Suspiciune de fistulă biliară – antecedente
+  chirurgicale recente" (Eco *Indicat C*, CT *Indicat C*, IRM *Doar în cazuri particulare C*).
+- `Tub digestiv` — „Suspiciune de fistulă biliară – antecedente recente de chirurgie
+  digestivă" (Eco *Indicat C*, CT *Indicat C*, IRM *Doar în cazuri particulare C*).
+Fistula biliară e patologie hepato-biliară → aparține subcapitolului **Ficat, colecist și
+pancreas**. **Propunere:** COMASAT într-o singură situație acolo, cu reținerea notelor
+clinice unice din ambele (regula „nu pierde conținut la comasare"). De confirmat de editori.
+
+### 19.3 „Sângerare acută" vs. „sângerare ocultă" — scintigrafia cu hematii marcate (NR 794)
+Confuzie de etichete în `Tub digestiv`:
+- „Hemoragie gastro-intestinală ocultă – bilanț" (Scintigrafie cu hematii marcate,
+  *Doar în cazuri particulare B*; + PET-CT neindicat; + Videocapsulă, Entero-CT, Eco, IRM).
+- „Sângerare gastro-intestinală acută" (CT *Indicat B*; Eco/IRM neindicate) — hemoragie activă.
+- „Suspiciunea de sângerare gastro-intestinală acută" (NR 794, Scintigrafie cu hematii
+  marcate, *Indicat*, grad `?`) — dar **comentariul e identic** cu cel al scintigrafiei din
+  „Hemoragie ocultă" (sângerări recurente intermitente de origine necunoscută, endoscopie
+  negativă) → descrie de fapt **sângerarea ocultă/obscură**, nu una acută/manifestă.
+**Propunere:** reasignarea scintigrafiei de la NR 794 către situația „Hemoragie
+gastro-intestinală ocultă – bilanț" (sau clarificarea etichetelor „acut" vs. „ocult/obscur");
+de armonizat și gradul (`?` vs. `B`). Decizie clinică → editori.
+
+### 19.4 Informativ — situații fragmentate (fără schimbare de date)
+„Hemoragie gastro-intestinală ocultă – bilanț" are rânduri non-contigue în fișier
+(scintigrafie + PET-CT într-un loc; videocapsulă/entero-CT/eco/IRM în altul), dar cu
+**etichetă identică** → se consolidează automat în vizualizarea HTML (gruparea e pe
+Capitol → Subcapitol → Situație). Nu necesită acțiune; notat pentru claritate.
