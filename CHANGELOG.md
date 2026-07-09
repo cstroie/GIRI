@@ -514,10 +514,12 @@ Fără schimbări de grad sau indicație în date.
 - **CONFIRMAT — conflictul de grad IRM mediastinal (NR 341) închis la „C"** (decizie editor,
   susținut de ACR AC — instrument select/problem-solving). Celelalte trei (radiografie/IRM
   cerebral/CT = A) confirmate de NICE NG122.
-- **SEMNALAT (editorial, NU modificat în date) — Scintigrafie osoasă (NR 338).** FDG PET-CT
-  a înlocuit în mare scintigrafia osoasă în stadializarea de rutină; PET-CT stadializare
-  există deja (NR 337). Propunere de coborâre a indicației 338 „Indicat"→„Doar în cazuri
-  particulare" (gradul B rămâne) lăsată editorilor. Vezi `EDITORIAL-decisions.md` §13.
+- **MODIFICAT (Indicație) — Scintigrafie osoasă (NR 338): „Indicat" → „Doar în cazuri
+  particulare"** (decizie editor). FDG PET-CT a înlocuit în mare scintigrafia osoasă în
+  stadializarea de rutină; PET-CT stadializare există deja (NR 337, „Indicat" A). Comentariul
+  completat cu „…mai ales atunci când PET-CT nu este disponibil" (+ fix „singura"→„singură").
+  **Gradul B rămâne** neschimbat (modificarea privește puterea indicației, nu nivelul de
+  evidență). Vezi `EDITORIAL-decisions.md` §13.
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** subcapitol „Ficat, colecist şi pancreas" normalizat (vezi Modificări globale).

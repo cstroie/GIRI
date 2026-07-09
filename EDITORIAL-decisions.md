@@ -340,17 +340,14 @@ au fost între timp **tranșate de editor** — status mai jos:
      Referințele scurte au fost consemnate în col. 10 „Alte informații" pe rândurile
      respective. Restul duplicatelor (PET-CT ×3, Scintigrafie) aveau grade identice → fără conflict.
 
-   - **🔴 DISCREPANȚĂ CU PRACTICA CURENTĂ — Scintigrafie osoasă (NR 338), „Indicat" grad B.**
-     Ghidurile actuale (NICE NG122, ACR AC 2019, ESMO) arată că **FDG PET-CT a înlocuit în
-     mare scintigrafia osoasă** în stadializarea de rutină a cancerului bronho-pulmonar
-     (PET-CT sensibilitate ~94% vs ~78% pentru metastaze osoase, imagând tumora, nu reacția
-     osoasă). PET-CT pentru stadializare **există deja** în subcapitol (NR 337, „Indicat" A)
-     și acoperă rolul de detecție a metastazelor osoase/la distanță — deci nu e nevoie de
-     rând nou. Scintigrafia rămâne utilă doar când PET-CT nu e disponibil.
-     - **Propunere pentru editori:** coborârea indicației NR 338 de la „Indicat" la **„Doar
-       în cazuri particulare"** (PET-CT indisponibil), **gradul B rămâne** neschimbat.
-       Nedecis unilateral (regula de aur: gradele/indicațiile clinice se lasă editorilor).
-       Referință consemnată în col. 10. Vezi și CHANGELOG §3.
+   - ✅ **REZOLVAT — Scintigrafie osoasă (NR 338): indicație coborâtă la „Doar în cazuri
+     particulare" (grad B neschimbat).** Decizie editor. Ghidurile actuale (NICE NG122,
+     ACR AC 2019, ESMO) arată că **FDG PET-CT a înlocuit în mare scintigrafia osoasă** în
+     stadializarea de rutină (PET-CT sensibilitate ~94% vs ~78% pentru metastaze osoase,
+     imagând tumora, nu reacția osoasă). PET-CT stadializare **există deja** (NR 337,
+     „Indicat" A) și acoperă rolul de metastaze osoase/la distanță. Aplicat: indicația NR 338
+     „Indicat" → **„Doar în cazuri particulare"**; comentariul completat cu „…mai ales atunci
+     când PET-CT nu este disponibil"; **gradul B rămâne**. Referință în col. 10. Vezi CHANGELOG §3.
 
 2. ✅ **REZOLVAT — „Nodul pulmonar" (NR 706) unificat la „Nodul pulmonar solitar".**
    Decizie editor: unificăm eticheta. NR 706 (PET-CT, „nodul solid > 8 mm") purta eticheta
@@ -361,6 +358,5 @@ au fost între timp **tranșate de editor** — status mai jos:
    din poziția fizică. Reordonare fizică; NR.CRT neschimbate. NR 708 („…urmărire") rămâne
    situație distinctă. Vezi CHANGELOG §5.
 
-> Status: **ambele puncte rezolvate** (2026-07-08). Conflictele de grad de la punctul 1 —
-> tranșate (editor + susținere de ghid). Rămâne o singură propunere deschisă pentru editori:
-> coborârea indicației scintigrafiei osoase NR 338 („Indicat" → „Doar în cazuri particulare").
+> Status: **toate punctele rezolvate** (2026-07-08). Conflictele de grad — tranșate; discrepanța
+> scintigrafiei osoase NR 338 — aplicată (indicație coborâtă, grad B neschimbat).
