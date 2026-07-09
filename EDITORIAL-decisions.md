@@ -574,7 +574,17 @@ Diagnosticul endoscopic e corect reflectat (imagistica doar completare).
 
 ### ✅ 16.20 Cancerul parotidian — acoperire bună
 
-### ✅ 16.21 Cancerul renal — acoperire bună
+### 16.21 Cancerul renal — acoperire bună, dar fază „Diagnostic" aproape duplicat cross-capitol
+⏳ **Găsit la reviewul Aparat uro-genital (2026-07-09):** faza „Diagnostic" (NR 495–498:
+Ecografie/CT/UIV/IRM) e aproape identică cu `Aparat uro-genital › Masă renală` (Ecografie/
+CT/IRM/PET-CT/UIV) — aceleași examene, grade apropiate, comentarii parafrazate din aceeași
+sursă. Analog precedentului „Nodul pulmonar solitar" (Torace, §17): caracterizarea unei mase
+renale **indeterminate** (chist/oncocitom/AML/RCC) ar trebui să stea în capitolul anatomic
+(regula 5), iar Cancer să rețină doar Stadializare (502–504) + Monitorizare (499–501), care
+presupun deja malignitate stabilită. **Recomandare: eliminarea fazei „Diagnostic" din
+`Cancer › Cancerul renal`** — dar **neaplicat la cererea explicită a utilizatorului**
+(„nu modificăm capitolul de cancer" acum). De reconciliat separat, la parsarea capitolului
+Cancer sau când se decide explicit.
 
 ### ✅ 16.22 Ficat, colecist și pancreas — acoperire bună (scop îngust, intenționat)
 

@@ -988,13 +988,20 @@ neschimbate** (precedent: Cardiovascular §12).
   - **Aparat urogenital:** Suspiciune de colică nefretică → Calcul renal (non-acut) →
     Sindrom obstructiv înalt → Sindrom obstructiv jos → Retenție acută de urină → Infecție
     urinară → Hematurie → Hipertensiune arterială (reno-vasculară) → Insuficiență renală →
-    Evaluarea funcției renale → Masă tumorală renală → Evaluarea transplantului renal
+    Evaluarea funcției renale → Masă renală → Evaluarea transplantului renal
     (populație specială) → ALTĂ SITUAȚIE.
   - **Glande suprarenale:** Incidentalom suprarenalian (poarta de intrare cea mai frecventă)
     → sdr. Conn → sdr. Cushing → Feocromocitom → ALTĂ SITUAȚIE.
+- **RESTRUCTURAT (etichetă) — „Masă tumorală renală" → „Masă renală"** (la cerere). O masă
+  renală depistată e adesea nedeterminată (chist, oncocitom, angiomiolipom, nu doar RCC);
+  eticheta „tumorală" presupunea prematur natura ei. Conținutul (Ecografie/CT/IRM/PET-CT/UIV,
+  caracterizare) rămâne neschimbat — e etapa diagnostică dinaintea oricărei determinări de
+  malignitate. Semnalat, dar **neatins la cererea utilizatorului**: aproape duplicat cu
+  `Cancer › Cancerul renal › Diagnostic` (NR 495–498) — de reconciliat separat, fără a
+  modifica acum capitolul Cancer.
 
-Capitol: 68 rânduri (neschimbat ca număr — doar reordonare + 3 fuziuni de etichetă, fără
-adăugare/eliminare de rând).
+Capitol: 68 rânduri (neschimbat ca număr — doar reordonare + 3 fuziuni de etichetă + 1
+redenumire, fără adăugare/eliminare de rând).
 
 ## 8. Obstetrică și ginecologie
 _NR 876–902_
