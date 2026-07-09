@@ -943,27 +943,25 @@ date — doar propuneri, de validat de editori.
 
 ### A. Suprapunere / încadrare greșită — „Cap › ORL" conține conținut de „Gât (părți moi)"
 
-Capitolul **„Cap › ORL"** (NR 1010–1041) conține trei situații despre structuri **cervicale**
-(glande salivare, mase de gât), nu despre cap propriu-zis:
+✅ **DECIS și APLICAT (2026-07-09) — varianta (a), mutare, fără unificare.** La cererea
+editorului („mută la Gât tot ce e ORL/gât în capitolul Cap"), cele **12 rânduri** (3
+situații) au fost relocate din „Cap › ORL" în „Gât (părți moi)":
 
-- **NR 1018–1020 „Mase cervicale ale adultului"** (Eco cervicală, IRM regiune cervicală, CT
-  regiune cervicală și torace) — **aproape identică** cu **NR 1042–1043 „Masă cervicală cu
-  punct de plecare necunoscut"** din Gât (părți moi) › Diverse (Eco, IRM regiune cervicală ±
-  CT). Același workup clinic, etichete diferite, **capitole diferite** — clasic caz de
-  duplicat cross-capitol cu conținut ușor diferit (rule 6 — nu comasez unilateral).
-- **NR 1015–1017 „Mase ale glandelor salivare"** și **NR 1021–1025 „Obstrucția fluxului
-  salivar"** — glandele salivare (parotidă, submandibulară) sunt structuri **cervicale**, nu
-  ale capului. Per ierarhia de încadrare (regula 5, „altfel → capitolul anatomic"), ar trebui
-  să stea la **Gât (părți moi)**, nu la „Cap › ORL" (unde par a fi ajuns prin bundling-ul
-  istoric „ORL" = ureche-nas-gât).
+- **NR 1015–1017 „Mase ale glandelor salivare"** + **NR 1021–1025 „Obstrucția fluxului
+  salivar"** + **NR 1029 „Sindromul izolat de gură uscată"** → subcapitol **nou „Glande
+  salivare"** (+ placeholder nou **NR 1439**).
+- **NR 1018–1020 „Mase cervicale ale adultului"** → subcapitolul **„Diverse"**, alături de
+  **NR 1042–1043 „Masă cervicală cu punct de plecare necunoscut"**.
 
-**Propunere:** de discutat cu editorii — fie (a) mutarea celor 3 situații (11 rânduri) din
-„Cap › ORL" la „Gât (părți moi)" (subcapitol nou, „Glande salivare"), cu unificarea „Mase
-cervicale ale adultului" + „Masă cervicală cu punct de plecare necunoscut" într-o singură
-situație; fie (b) păstrarea status-quo dacă „ORL" e considerat un capitol de specialitate
-(analog excepției Sân de la regula 3) care își păstrează coerența proprie indiferent de
-regiunea anatomică strictă. **Nu am decis și nu am mutat nimic** — impact prea mare pentru
-o decizie unilaterală.
+**Unificarea celor două situații de masă cervicală NU a fost făcută** — rămân **cvasi-
+duplicat co-locat**, cu grade și seturi de examene diferite (grad Ecografie B vs C; fostul
+ORL are și rând CT, cel din Gât nu). De rezolvat separat de editori: vezi
+`DUPLICATE-review.md` §C. Detalii complete ale mutării în `CHANGELOG.md` §10, §11.
+
+**Rămas nemutat, la „Cap › ORL"** (structuri ale capului, nu ale gâtului): TMJ,
+leziuni nazo-sinusale, patologie de ureche (colesteatom, urechea internă/medie,
+surditate), sinuzite, tulburări de miros. „Corp străin faringian sau esofagian înalt"
+rămâne subiectul unei decizii deschise separate (§8, §10 — nu face parte din acest lot).
 
 ### B. Omisiuni de conținut (propuneri de adăugat)
 
@@ -999,5 +997,7 @@ o decizie unilaterală.
 - [Imaging of Neck and Facial Infections — Springer](https://link.springer.com/rwe/10.1007/978-3-031-78916-8_12)
 - [Obstructive Sialadenitis — Applied Radiology](https://appliedradiology.com/articles/obstructive-sialadenitis)
 
-> Status: **1 chestiune de încadrare** (A, suprapunere Cap›ORL) + **3 propuneri de conținut**
-> (B) — toate deschise (2026-07-09). Nicio modificare de date până la decizia editorilor.
+> Status: **A decisă și aplicată** (mutare Cap›ORL → Gât, 2026-07-09) — rămâne deschisă doar
+> **de-duplicarea** „Mase cervicale ale adultului" / „Masă cervicală cu punct de plecare
+> necunoscut" (`DUPLICATE-review.md` §C). **3 propuneri de conținut** (B) rămân deschise.
+> Nicio modificare suplimentară de date până la decizia editorilor.

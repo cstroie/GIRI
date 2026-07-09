@@ -52,6 +52,23 @@ spații parazite). Nu s-au comasat rânduri. Forma canonică rezultată:
   fluorodeoxiglucoză". **REZOLVAT — comasate** (decizie editor): păstrată varianta
   „PET-CT" (aliniată la eticheta Examen); NR renumerotate 1..1487.
 
+- **Gât (părți moi) › Diverse — NR 1042/1043 vs NR 1018/1019/1020** (2026-07-09) ·
+  „Masă cervicală cu punct de plecare necunoscut" vs „Mase cervicale ale adultului".
+  Aceeași temă clinică (bilanț masă cervicală la adult, origine necunoscută), acum
+  co-locate în același subcapitol după mutarea celei de-a doua din „Cap › ORL"
+  (`EDITORIAL-decisions.md` §22.A). **NU comasate** — diferă pe mai multe axe:
+  - **Grad**: Ecografie **B** (NR 1042) vs **C** (NR 1018).
+  - **Set de examene**: „Masă cervicală…" are doar E+M (Eco, IRM); „Mase cervicale ale
+    adultului" are E+M+**T** (și rând CT regiune cervicală și torace).
+  - **Comentarii**: text diferit — NR 1043 (IRM) menționează explicit tumoră parotidiană,
+    CT torace-abdomen-pelvis, PET-CT, endoscopie digestivă, bilanț preterapeutic gușă
+    retrosternală; NR 1019/1020 (IRM/CT) menționează orientarea după natura suspectată
+    (congenitală/dobândită/tumorală) și glande salivare/chist congenital.
+  - **De decis**: unificare (cu care set de examene și grad?) sau păstrare ca situații
+    distincte (poate: „origine necunoscută" = bilanț oncologic extins, „mase ale
+    adultului" = triaj inițial mai larg, incl. cauze congenitale). **PĂSTRATE ca duplicat**
+    — decizie editorială, neschimbate.
+
 ## D. Consolidarea oncologiei (Cancer, 2026-07-08) — conflicte de grad
 
 La mutarea conținutului oncologic din Aparat digestiv și Cap către Cancer (vezi

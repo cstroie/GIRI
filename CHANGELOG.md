@@ -946,6 +946,11 @@ _NR 950–1065 (23 găuri)_
   - **NEMUTAT**: „Corp străin faringian sau esofagian înalt" (ORL) — corp străin **ingerat**,
     subiectul deciziei deschise (ORL/digestiv vs traumă). Vezi `EDITORIAL-decisions.md` §8, §10.
   - Fără renumerotare → 23 găuri în capitolul Cap. (−23 rânduri)
+- **MUTAT — consolidare anatomică → Gât (părți moi)** (2026-07-09). Subcapitolul „ORL"
+  conținea 3 situații despre structuri **cervicale**, nu ale capului (glande salivare, mase
+  cervicale) — semnalate la reviewul Gât (`EDITORIAL-decisions.md` §22) și mutate la cerere.
+  **12 rânduri** relocate; detalii complete în §11. „Corp străin faringian sau esofagian
+  înalt" **rămâne nemutat** (decizie deschisă separată, nu face parte din acest lot).
 
 ## 11. Gât (părți moi)
 _NR 1075–1092_
@@ -1030,7 +1035,36 @@ acest subcapitol, ceea ce e permis (validatorul verifică doar unicitatea, nu or
 Din cercetarea în ACR Appropriateness Criteria, RCR iRefer și ESR Essentials (Thyroid
 Imaging 2025) pentru capitolul „Gât (părți moi)": propuneri de completare și o suprapunere
 de conținut cu „Cap › ORL" identificate — consemnate în `EDITORIAL-decisions.md` §22.
-Nicio modificare de date până la decizia editorilor.
+
+### MUTAT — conținut cervical din „Cap › ORL" (2026-07-09, la cerere)
+
+Subcapitolul „Cap › ORL" conținea situații despre structuri **cervicale** (glande
+salivare, mase de gât), nu despre capul propriu-zis — semnalate în §22. La cererea
+editorului, cele **12 rânduri** au fost mutate în „Gât (părți moi)"; conținutul clinic
+neschimbat, doar `Capitol`/`Subcapitol`. NR.CRT neschimbate (mutare, nu renumerotare).
+
+- **Subcapitol nou „Glande salivare"** (9 rânduri + 1 placeholder nou, **NR 1439**):
+  - **NR 1015–1017** „Mase ale glandelor salivare" (Ecografie, IRM, CT).
+  - **NR 1021–1025** „Obstrucția fluxului salivar" (Ecografie, Sialo-IRM, CT, Scintigrafie,
+    Radiografie).
+  - **NR 1029** „Sindromul izolat de gură uscată" (Tip Z — imagistica nu e indicată).
+  - Poziționat alfabetic între „Diverse" și „Tiroidă, paratiroide" (convenția de
+    subcapitole a fișierului, nedivergentă — spre deosebire de ordinea situațiilor din
+    „Tiroidă, paratiroide", care a fost intenționat reordonată clinic, vezi mai sus).
+- **„Mase cervicale ale adultului"** (**NR 1018–1020**, Ecografie/IRM/CT) mutate în
+  subcapitolul **„Diverse"**, alături de „Masă cervicală cu punct de plecare necunoscut"
+  (NR 1042–1043).
+- **NU mutat**: TMJ, tumori nazo-sinusale, patologie de ureche, sinuzite, tulburări de
+  miros — rămân la „Cap › ORL" (structuri ale capului, nu ale gâtului); „Corp străin
+  faringian sau esofagian înalt" rămâne nemutat (decizie deschisă separată, §8/§10 Cap).
+
+**⚠️ Cvasi-duplicat co-locat, nerezolvat.** „Mase cervicale ale adultului" (NR 1018–1020,
+fost Cap›ORL) și „Masă cervicală cu punct de plecare necunoscut" (NR 1042–1043) descriu
+același workup clinic (masă cervicală la adult) cu **etichete, grade și seturi de examene
+diferite** (fostul ORL are și rând CT, cel din Gât nu; grad Ecografie B vs C). Acum
+co-locate în același subcapitol, dar **NU comasate** — duplicat cu conținut diferit,
+decizie editorială. Vezi `DUPLICATE-review.md` §C și `EDITORIAL-decisions.md` §22
+(actualizat, decis și aplicat).
 
 ## 12. Coloană vertebrală
 _NR 1093–1147_
