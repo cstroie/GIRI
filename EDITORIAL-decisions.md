@@ -381,3 +381,78 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (ESC/ACR/RCR) și se consemnează în CHANGELOG.
+
+---
+
+## 14. Sân — goluri de conținut față de ghidurile de referință (2026-07-09)
+
+Analiză de omisiuni a capitolului 9 față de practica curentă (**ACR Appropriateness
+Criteria**, **NCCN Breast Cancer Screening and Diagnosis**), în paralel cu §3 (Pediatrie),
+§11 (Cancer) și §13 (Cardiovascular). **Schițe — de validat clinic de editori** înainte de
+inserare; gradele sunt orientative. **Notă de metodă:** temele de mai jos au fost verificate
+live prin căutare (titluri exacte de ghiduri ACR AC confirmate, cu link); conținutul detaliat
+al fiecărei teme (grade complete pe toate variantele clinice) nu a fost extras integral —
+de confirmat pe documentul-sursă înainte de a fixa gradele definitive.
+
+### 14.A Goluri clare cu home = Sân (propuneri de adăugat în capitol)
+
+- **Evaluarea răspunsului la chimioterapia neoadjuvantă.** **Absentă complet** din
+  „Cancer de sân" (care are doar stadializare inițială + urmărire post-tratament, nimic
+  intra-tratament). Temă ACR AC proprie: *„Monitoring Response to Neoadjuvant Systemic
+  Therapy for Breast Cancer"* (2017, actualizat 2022). Propunere — situație nouă
+  „Evaluarea răspunsului la chimioterapia neoadjuvantă":
+  - IRM mamar = *Indicat, grad A* — metoda cea mai performantă pentru evaluarea
+    răspunsului și planificarea chirurgicală (sensibilitate ~87% pentru răspuns complet).
+  - Ecografie = *Doar în cazuri particulare, grad B* — evaluare interimară, mai accesibilă.
+  - Mamografie/tomosinteză = *Doar în cazuri particulare, grad B* — utilitate limitată de
+    modificările induse de tratament.
+- **Patologia mamară simptomatică la bărbat.** **Absentă complet.** Temă ACR AC proprie:
+  *„Evaluation of the Symptomatic Male Breast"* (2018), cu recomandări stratificate pe
+  vârstă și context clinic. Propunere — situație nouă în „Paciente cu simptome…" (sau
+  subcapitol propriu „Patologie mamară la bărbat"):
+  - Ginecomastie/pseudoginecomastie cu aspect clinic tipic = *Neindicat* — fără imagistică
+    de rutină.
+  - Masă nedeterminată, bărbat sub 25 ani = Ecografie, *Indicat, grad B* — primă intenție.
+  - Masă nedeterminată, bărbat peste 25 ani = Mamografie, *Indicat, grad B*.
+  - Suspiciune clinică de cancer, indiferent de vârstă = Mamografie, *Indicat, grad A*.
+- **Imagistica sânului în sarcină și lactație.** **Absentă complet.** Temă ACR AC proprie:
+  *„Breast Imaging of Pregnant and Lactating Females"*. Propunere — situație nouă:
+  - Ecografie = *Indicat, grad A* — primă linie, fără iradiere/contrast.
+  - Mamografie cu protecție abdominală = *Doar în cazuri particulare, grad B* — dacă
+    ecografia e neconcludentă sau leziune suspectă.
+  - IRM cu contrast = *Neindicat* în sarcină (gadoliniu traversează placenta);
+    *Doar în cazuri particulare* în lactație (alăptarea poate continua, excreție minimă
+    în lapte).
+- **Algoritmul de urmărire BI-RADS 3 („probabil benign").** Piatră de temelie a practicii
+  (NCCN), absentă ca traseu explicit — BI-RADS apare o singură dată, în comentariul NR 990.
+  Propunere — situație nouă „Leziune probabil benignă (BI-RADS 3) — urmărire":
+  - Mamografie și/sau Ecografie (metoda care a detectat leziunea) = *Indicat, grad B* —
+    control la 6 luni, apoi la 12 și 24 luni dacă rămâne stabilă.
+- **Screening suplimentar pe bază de densitate mamară.** Temă ACR AC proprie, actualizată
+  2024/2025 (subiect activ legislativ — notificarea densității). La noi apare doar punctual,
+  în comentariile altor situații („adjuvant... în cazul unui sân dens"), nu ca prag/situație
+  proprie. Propunere — situație nouă „Screening suplimentar la sân dens (categorie
+  BI-RADS C/D)":
+  - Ecografie = *Doar în cazuri particulare, grad B* — adjuvant la mamografie normală.
+  - IRM = *Doar cu aviz specializat, grad B* — la risc suplimentar asociat densității.
+
+### 14.B Goluri cu home probabil în alt capitol (nu se adaugă în Sân)
+
+- **Localizarea preoperatorie ghidată imagistic a leziunilor nepalpabile** (harpon,
+  sămânță radioactivă/magnetică) — procedură (Tip I), home = **RI › Oncologie**, nu Sân.
+  Nu apare nicăieri în tot ghidul (verificat) — de confirmat dacă lipsește real din RI sau
+  e considerată implicită în alt rând.
+- **Drenajul percutan al abcesului mamar** — menționat doar în comentariul „Inflamație
+  mamară" (NR 976, „drenajul ghidat percutan"), fără rând propriu de procedură. Tip I,
+  home = **RI › Oncologie**. De verificat dacă există deja acolo.
+
+### 14.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
+
+- **Tomosinteza (mamografia 3D)** — nu apare deloc ca modalitate distinctă (Tip `G` acoperă
+  generic „Mamografie"). Ghidurile 2025 (ACR) o recomandă alături de mamografia 2D pentru
+  toate categoriile de risc la screening. De decis dacă merită distincție de Tip/Examen sau
+  rămâne implicită în „Mamografie".
+
+> Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
+> se adaugă cu grade/doze validate pe sursă citabilă (ACR AC/NCCN) și se consemnează în
+> CHANGELOG.
