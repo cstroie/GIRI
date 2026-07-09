@@ -919,14 +919,85 @@ Din reviewul capitolului „Gât (părți moi)" (NR 1042–1059). Modificările 
    „-ie" (nu au fost atinse); dacă editorii vor o uniformizare „-ism" pe tot vocabularul
    tiroidian, e o decizie separată, de semnalat aparte.
 
-2. **Încadrare: „Suflu carotidian asimptomatic" (NR 1044).** Situația este esențialmente
-   **vasculară** — investigația unică e „Eco Doppler al vaselor cervico-craniene" (trunchiuri
-   supra-aortice), workup identic cu evaluarea stenozelor carotidiene din **Aparat
-   cardiovascular**. Aflată azi la „Gât (părți moi) › Diverse", venind din capitolul anatomic
-   de origine. Per ierarhia de încadrare, un topic vascular cerebro-cervical ar sta mai
-   degrabă la **Aparat cardiovascular** (unde există deja evaluarea trunchiurilor
-   supra-aortice). **De decis** mutarea; neschimbată unilateral (încadrare de capitol =
-   decizie editorială).
+2. ✅ **Încadrare: „Suflu carotidian asimptomatic" (NR 1044) — DECIS și APLICAT
+   (2026-07-09).** Situația este esențialmente **vasculară** — investigația unică e
+   „Eco Doppler al vaselor cervico-craniene" (trunchiuri supra-aortice), workup identic cu
+   evaluarea stenozelor carotidiene din **Aparat cardiovascular**. **Mutată** din „Gât
+   (părți moi) › Diverse" în **„Aparat cardiovascular › Sistem vascular"** (poziționată
+   alfabetic, între „Malformații vasculare" și „Tromboză venoasă membre inferioare"). Vezi
+   `CHANGELOG.md` §4 și §11.
 
-> Status: **1 decisă** (terminologia — hiperparatiroidism), **1 deschisă** (încadrarea
-> „Suflu carotidian asimptomatic") — 2026-07-09. Nicio altă modificare de date până la decizie.
+> Status: **2 decise și aplicate** (terminologia hiperparatiroidism; mutarea suflului
+> carotidian) — 2026-07-09. Vezi §22 pentru chestiunile noi ridicate ulterior (omisiuni
+> față de ghidurile internaționale, suprapunere cu „Cap › ORL").
+
+---
+
+## 22. Gât (părți moi) — omisiuni față de ghidurile internaționale + suprapunere cu „Cap › ORL" (2026-07-09)
+
+Cercetare punctuală (ACR Appropriateness Criteria, RCR iRefer, ESR Essentials — Thyroid
+Imaging 2025) pentru capitolul „Gât (părți moi)" (NR 1042–1059, după mutările din §21).
+Verificarea încrucișată cu restul fișierului a scos la iveală și o **suprapunere
+structurală cu „Cap › ORL"**, separată de chestiunea omisiunilor pure. Nicio modificare de
+date — doar propuneri, de validat de editori.
+
+### A. Suprapunere / încadrare greșită — „Cap › ORL" conține conținut de „Gât (părți moi)"
+
+Capitolul **„Cap › ORL"** (NR 1010–1041) conține trei situații despre structuri **cervicale**
+(glande salivare, mase de gât), nu despre cap propriu-zis:
+
+- **NR 1018–1020 „Mase cervicale ale adultului"** (Eco cervicală, IRM regiune cervicală, CT
+  regiune cervicală și torace) — **aproape identică** cu **NR 1042–1043 „Masă cervicală cu
+  punct de plecare necunoscut"** din Gât (părți moi) › Diverse (Eco, IRM regiune cervicală ±
+  CT). Același workup clinic, etichete diferite, **capitole diferite** — clasic caz de
+  duplicat cross-capitol cu conținut ușor diferit (rule 6 — nu comasez unilateral).
+- **NR 1015–1017 „Mase ale glandelor salivare"** și **NR 1021–1025 „Obstrucția fluxului
+  salivar"** — glandele salivare (parotidă, submandibulară) sunt structuri **cervicale**, nu
+  ale capului. Per ierarhia de încadrare (regula 5, „altfel → capitolul anatomic"), ar trebui
+  să stea la **Gât (părți moi)**, nu la „Cap › ORL" (unde par a fi ajuns prin bundling-ul
+  istoric „ORL" = ureche-nas-gât).
+
+**Propunere:** de discutat cu editorii — fie (a) mutarea celor 3 situații (11 rânduri) din
+„Cap › ORL" la „Gât (părți moi)" (subcapitol nou, „Glande salivare"), cu unificarea „Mase
+cervicale ale adultului" + „Masă cervicală cu punct de plecare necunoscut" într-o singură
+situație; fie (b) păstrarea status-quo dacă „ORL" e considerat un capitol de specialitate
+(analog excepției Sân de la regula 3) care își păstrează coerența proprie indiferent de
+regiunea anatomică strictă. **Nu am decis și nu am mutat nimic** — impact prea mare pentru
+o decizie unilaterală.
+
+### B. Omisiuni de conținut (propuneri de adăugat)
+
+- ⏳ **Sialolitiază / sialadenită acută** — complet absentă din ghid (0 hits „sialaden",
+  „sialolit" în tot fișierul; „Obstrucția fluxului salivar" din Cap›ORL acoperă doar
+  obstrucția cronică — Sialo-IRM, scintigrafie — nu episodul acut/infecțios). Literatura
+  (StatPearls, Applied Radiology, ACR) recomandă **ecografie** (POCUS, sondă liniară de
+  înaltă frecvență) de primă intenție pentru calcul + glandă inflamată, cu **CT cu
+  substanță de contrast** rezervat complicațiilor (abces, flegmon). Propunere: situație nouă
+  în „Gât (părți moi)" (sau în subcapitolul de glande salivare, dacă se aplică propunerea A).
+- ⏳ **Abces / infecție de spații cervicale profunde** (retrofaringian, periamigdalian,
+  angina Ludwig) — absentă (singurele mențiuni „abces" din fișier sunt abdominale/RI/
+  mamare, nimic cervical la adult). **CT cu substanță de contrast** e standardul pentru
+  diagnostic și monitorizare (sursă: Springer „Imaging of Neck and Facial Infections";
+  serie de caz peritonsilar abscess). Urgență ORL frecventă — omisiune notabilă. Propunere:
+  situație nouă, subcapitol „Diverse" sau nou subcapitol „Infecții".
+- ⏳ **Stratificare de risc ecografică a nodulului tiroidian (TI-RADS / EU-TIRADS)** — nu e
+  o situație lipsă, ci o **rafinare de conținut**: NR 1046 descrie fluxul diagnostic clasic
+  (clinic/TSH/ecografie/PCAFGE) fără referire la sistemele de scor structurat (ACR TI-RADS,
+  EU-TIRADS) care sunt azi practica standard pentru triajul FNA (ESR Essentials — Thyroid
+  Imaging, European Radiology 2025: abordare risc-stratificată, evitarea lucrului de rutină
+  pe incidentaloame fără trăsături suspecte). Propunere: completare `Comentarii` la NR 1046,
+  nu rând nou — **nu modific fără acordul editorilor** (regula „nu decid singur chestiuni
+  clinice ambigue" + „nu modific grade").
+
+### Surse consultate
+
+- [ACR AC — Neck Mass/Adenopathy (patient summary)](https://www.jacr.org/article/S1546-1440(22)00174-0/fulltext)
+- [ACR AC — Parathyroid Adenoma](https://acsearch.acr.org/docs/3158171/Narrative/)
+- [ACR TI-RADS — White Paper](https://www.jacr.org/article/s1546-1440(17)30186-2/fulltext)
+- [ESR Essentials — Thyroid imaging (European Radiology, 2025)](https://link.springer.com/article/10.1007/s00330-025-12101-2)
+- [Sialolithiasis — StatPearls](https://www.ncbi.nlm.nih.gov/books/NBK549845/)
+- [Imaging of Neck and Facial Infections — Springer](https://link.springer.com/rwe/10.1007/978-3-031-78916-8_12)
+- [Obstructive Sialadenitis — Applied Radiology](https://appliedradiology.com/articles/obstructive-sialadenitis)
+
+> Status: **1 chestiune de încadrare** (A, suprapunere Cap›ORL) + **3 propuneri de conținut**
+> (B) — toate deschise (2026-07-09). Nicio modificare de date până la decizia editorilor.

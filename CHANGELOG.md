@@ -707,6 +707,14 @@ Rezolvarea celor trei chestiuni din `EDITORIAL-decisions.md` §12:
   (recomandare de Clasă I). **Gradul B rămâne** (nivelul de evidență ESC pentru acest test
   este B — modificarea privește puterea indicației, nu nivelul de evidență).
 
+### MUTAT — „Suflu carotidian asimptomatic" primit din Gât (părți moi) (2026-07-09)
+
+**NR 1044** (Eco Doppler al vaselor cervico-craniene) relocat în subcapitolul **„Sistem
+vascular"**, între „Malformații vasculare" și „Tromboză venoasă membre inferioare"
+(ordine alfabetică, convenția subcapitolului). Situația e esențialmente vasculară
+(trunchiuri supra-aortice), nu de părți moi cervicale — vezi detaliile mutării în
+`CHANGELOG.md` §11 și decizia în `EDITORIAL-decisions.md` §21.2.
+
 ## 5. Torace
 _NR 664–727_
 
@@ -971,10 +979,58 @@ doză sau ordine a examenelor. Validare verde, 0 cedile.
   Situației + `\n\n` final în Comentarii (NR 1056).
 - **VERIFICAT (Tip ↔ Examen) — conform.** Toate cele 16 rânduri reale au codul modalității
   concordant cu denumirea examenului (E/Ecografie, M/IRM, N/Scintigrafie); nicio corecție.
-- **SEMNALAT (încadrare) — „Suflu carotidian asimptomatic" (NR 1044).** Situație
-  esențialmente **vasculară** (eco-Doppler de trunchiuri supra-aortice) plasată într-un
-  capitol de părți moi cervicale → posibilă mutare la Aparat cardiovascular. Flag în
-  `EDITORIAL-decisions.md` §21 — neschimbată unilateral.
+
+### MUTAT — „Suflu carotidian asimptomatic" → Aparat cardiovascular (2026-07-09)
+
+**NR 1044** relocat din „Gât (părți moi) › Diverse" în **„Aparat cardiovascular ›
+Sistem vascular"** (decizie editorială — situația e esențialmente vasculară: eco-Doppler
+de trunchiuri supra-aortice, workup identic cu restul subcapitolului „Sistem vascular",
+nu de părți moi cervicale). Poziționat alfabetic, între „Malformații vasculare" și
+„Tromboză venoasă membre inferioare". Conținutul clinic al rândului neschimbat. Vezi
+`CHANGELOG.md` §4 și `EDITORIAL-decisions.md` §21.2 (decizie acum aplicată).
+
+### MODIFICAT — Titluri lungi cu date clinice mutate în Comentarii (2026-07-09)
+
+- **NR 1054/1055 — „Hipotiroidie la adult (pentru copil a se vedea și capitolul
+  Pediatrie)" → „Hipotiroidie la adult".** Parantezul era un breadcrumb către alt
+  capitol, eliminat conform regulii „un singur home / fără breadcrumb-uri" (precedent:
+  breadcrumb-ul HTA din Cardiovascular, §4).
+- **NR 1056 — titlu scurtat + date clinice mutate în `Comentarii`.**
+  „Nodul tiroidian palpabil și gușă eutiroidiană (concentrație normală de TSH) – fază
+  diagnostică. În caz de disfuncție a se vedea Hipertiroidia sau Hipotiroidia!" →
+  **„Nodul tiroidian palpabil și gușă eutiroidiană – fază diagnostică"**. Parantezul
+  clinic „(concentrație normală de TSH)" — definește „eutiroidiană" — mutat ca primă
+  propoziție în `Comentarii` („TSH cu concentrație normală (eutiroidian)."). Fraza finală
+  „…a se vedea Hipertiroidia sau Hipotiroidia!" era un breadcrumb către situații-soră din
+  același subcapitol, eliminată (nu mutată — regula breadcrumb-urilor).
+
+### RESTRUCTURAT (ordine) — Subcapitolul „Tiroidă, paratiroide" reordonat clinic (2026-07-09)
+
+Situațiile subcapitolului erau (ca peste tot în fișier) în **ordine alfabetică** după
+etichetă. La cerere, reordonate în succesiune **clinică/de workflow**, cu abatere
+intenționată de la convenția alfabetică — doar pentru acest subcapitol:
+
+1. Nodul tiroidian palpabil și gușă eutiroidiană – fază diagnostică _(punctul de intrare:
+   depistarea nodulului/gușii)_
+2. Supravegherea pe termen lung a nodulilor tiroidieni de peste 10 mm și a gușilor
+   _(urmărirea aceleiași populații)_
+3. Gușă plonjantă – diagnostic
+4. Gușă plonjantă – preterapeutic _(succede diagnosticului, aceeași entitate)_
+5. Hipertiroidie
+6. Hipotiroidie la adult _(tulburări funcționale tiroidiene, hiper înainte de hipo)_
+7. Hiperparatiroidism _(glandă distinctă — paratiroidă — plasată ultima)_
+8. ALTĂ SITUAȚIE CLINICĂ _(placeholder, rămâne ultima)_
+
+Reordonare fizică a rândurilor; **NR.CRT neschimbate** (precedent: reordonarea „Anevrisme
+vase periferice" din Cardiovascular, §4) — secvența NR.CRT în fișier nu mai e monotonă în
+acest subcapitol, ceea ce e permis (validatorul verifică doar unicitatea, nu ordinea fizică).
+
+### SEMNALAT — omisiuni față de ghidurile internaționale + suprapunere cu „Cap › ORL"
+
+Din cercetarea în ACR Appropriateness Criteria, RCR iRefer și ESR Essentials (Thyroid
+Imaging 2025) pentru capitolul „Gât (părți moi)": propuneri de completare și o suprapunere
+de conținut cu „Cap › ORL" identificate — consemnate în `EDITORIAL-decisions.md` §22.
+Nicio modificare de date până la decizia editorilor.
 
 ## 12. Coloană vertebrală
 _NR 1093–1147_
