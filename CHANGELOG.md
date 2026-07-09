@@ -53,13 +53,20 @@ indicații radioimagistice.
 > la coadă (1463–1465). Renumerotare pe poziția fizică → **1..1438**. **Referințele NR.CRT din
 > intrările de mai jos reflectă starea de la momentul modificării** — folosește Capitol +
 > Situație clinică, nu NR.CRT.
+>
+> ⚠️ **A cincea renumerotare integrală, 1..1440** (la cerere, 2026-07-09, după reviewul complet
+> al capitolului Gât (părți moi) — mutări din Cap›ORL, de-duplicări, restructurare subcapitole,
+> rânduri noi). Baza de dinainte (contiguă 1..1438) avea găuri tolerate (1018, 1019) și ID-uri
+> noi la coadă (1439, 1440–1442). Renumerotare pe poziția fizică → **1..1440**. **Referințele
+> NR.CRT din intrările de mai jos (inclusiv secțiunea Gât) reflectă starea de la momentul
+> modificării** — folosește Capitol + Situație clinică, nu NR.CRT.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1438 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1440 rânduri, 13 coloane)
 
-> **1438 rânduri, contiguu 1..1438** după a patra renumerotare (2026-07-09, la cerere, după
-> reviewul complet al capitolului Aparat digestiv). Pe viitor **nu se renumerotează automat**
+> **1440 rânduri, contiguu 1..1440** după a cincea renumerotare (2026-07-09, la cerere, după
+> reviewul complet al capitolului Gât (părți moi)). Pe viitor **nu se renumerotează automat**
 > (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc ID-uri la finalul secvenței,
 > până la o nouă renumerotare cerută explicit. ⚠️ **Referințele NR.CRT din intrările per-capitol
 > de mai jos reflectă starea de la momentul modificării** (pre-renumerotare) — folosește căutarea
@@ -70,21 +77,35 @@ indicații radioimagistice.
 | 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
 | 3 | [Cancer](#3-cancer) | 318–577 | 260 |
-| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 578–664 | 87 |
-| 5 | [Torace](#5-torace) | 665–728 | 64 |
-| 6 | [Aparat digestiv](#6-aparat-digestiv) | 729–796 | 68 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 797–865 | 69 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 866–892 | 27 |
-| 9 | [Sân](#9-sân) | 893–948 | 56 |
-| 10 | [Cap](#10-cap) | 949–1041 | 93 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1042–1059 | 18 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1060–1114 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1115–1188 | 74 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1189–1438 | 250 |
+| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 578–665 | 88 |
+| 5 | [Torace](#5-torace) | 666–729 | 64 |
+| 6 | [Aparat digestiv](#6-aparat-digestiv) | 730–797 | 68 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–866 | 69 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 867–893 | 27 |
+| 9 | [Sân](#9-sân) | 894–949 | 56 |
+| 10 | [Cap](#10-cap) | 950–1028 | 79 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1029–1061 | 33 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1062–1116 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1117–1190 | 74 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1191–1440 | 250 |
 
 ---
 
 ## Modificări globale (cross-capitol)
+
+### RENUMEROTAT — a cincea renumerotare NR.CRT → contiguu 1..1440 (2026-07-09, la cerere)
+
+După reviewul complet al capitolului Gât (părți moi) — mutări din Cap›ORL (12 rânduri),
+de-duplicări (Hiperparatiroidism, Masă cervicală la adult), restructurare subcapitole
+(Diverse → Mase cervicale; subcapitol nou Glande salivare), rânduri noi (Ecografie pe nodul
+tiroidian, Abces cervical profund) — NR.CRT rămăsese necontiguu (găuri 1018, 1019 + ID-uri
+noi la coadă 1439, 1440–1442). La cerere explicită, renumerotare pe ordinea fizică →
+**NR.CRT 1..1440**. Modificare pur mecanică (doar col. 1), niciun conținut atins;
+`validate.py` verde. Toate capitolele de după Aparat cardiovascular (inclusiv) își schimbă
+ID-urile (vezi tabelul de structură actualizat mai sus) — Cardiovascular +1 rând („Suflu
+carotidian asimptomatic", mutat din Gât), Cap −14 rânduri (mutate la Gât), Gât +15 net
+(14 mutate din Cap + 3 rânduri noi − 2 eliminate la comasarea „Masă cervicală"). Total
+fișier: **1438 → 1440** (+2, din adăugările nete de conținut, nu din renumerotare în sine).
 
 ### RENUMEROTAT — a patra renumerotare NR.CRT → contiguu 1..1438 (2026-07-09, la cerere)
 
