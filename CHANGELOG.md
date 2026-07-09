@@ -1154,6 +1154,49 @@ golit pe toate cele 6:
   nota despre rolul Doppler-ului, adăugată chiar de mine la comasarea anterioară în
   coloana greșită; corectată acum.
 
+### ADĂUGAT + MODIFICAT — „Nodul tiroidian palpabil..." completat cu Ecografie; „Gușă
+### plonjantă – diagnostic" corectată (2026-07-09, cu verificare în ghiduri consacrate)
+
+Continuarea reviewului de comentarii: situația **„Nodul tiroidian palpabil și gușă
+eutiroidiană – fază diagnostică"** (NR 1440/1056) — punctul de intrare pentru orice
+nodul/gușă palpabilă — avea **un singur rând, Scintigrafie**, fără Ecografie (testul de
+primă intenție conform tuturor ghidurilor consultate). În paralel, situația **„Gușă
+plonjantă – diagnostic"** (NR 1046/1047) avea pe rândul de Ecografie un comentariu generic
+despre orice nodul tiroidian (nu despre gușă plonjantă), cu o coadă duplicată identic cu
+NR 1057 „Supravegherea pe termen lung...". Cele două probleme au aceeași cauză: conținutul
+generic despre workup-ul nodulului tiroidian era atașat greșit de „Gușă plonjantă", nu de
+situația care îl descrie de fapt.
+
+- **ADĂUGAT — NR 1440**, „Nodul tiroidian palpabil și gușă eutiroidiană – fază
+  diagnostică" › **E, Ecografie, Indicat, grad B** (poziționat înaintea NR 1056, ca primă
+  intenție). Comentariu nou, verificat față de **ATA 2015** (Haugen et al.), **ACR TI-RADS**
+  (JACR 2017) și **ESR Essentials — Thyroid imaging** (European Radiology 2025, cercetat
+  deja la §22): ecografia e testul de primă linie pentru orice nodul/gușă cu TSH normal,
+  confirmă numărul/dimensiunile/localizarea nodulilor, evaluează volumul și ecogenitatea
+  glandei, examinează ganglionii cervicali, și — element nou, absent anterior din ghid —
+  **stratificarea de risc structurată (ACR TI-RADS / EU-TIRADS)** ghidează decizia de
+  PCAFGE. Rezolvă și propunerea de conținut din `EDITORIAL-decisions.md` §22.B
+  (introducerea TI-RADS/EU-TIRADS), acum implementată ca rând nou, nu doar completare de
+  comentariu. Referință în „Alte informații".
+- **MODIFICAT (Comentarii) — NR 1046** „Gușă plonjantă – diagnostic" (Ecografie): text
+  generic despre orice nodul tiroidian **înlocuit** cu conținut specific gușii plonjante,
+  verificat: **ecografia nu poate evalua complet extensia retrosternală** (fasciculul
+  ultrasonor nu traversează planul osos toracic) — limita inferioară nevizualizabilă sau
+  devierea/compresia traheală sugerează caracterul plonjant, dar cuantificarea extensiei
+  necesită CT sau IRM (sursă: StatPearls — Substernal Goiter, NBK557416; confirmă
+  practica deja reflectată pe NR 1048/1049 „fază preterapeutică"). Referință adăugată în
+  „Alte informații".
+- **MODIFICAT (Comentarii) — NR 1047** „Gușă plonjantă – diagnostic" (Scintigrafie):
+  aceeași notă de nivel-situație (limitarea ecografiei, necesitatea CT/IRM), pentru
+  consecvență cu NR 1046 — regula „informație de situație pe toate investigațiile" —, plus
+  păstrat elementul specific scintigrafiei (identificarea zonelor de funcție autonomă în
+  gușile polinodulare). **Notă**: fraza inițială „ecografia... permit vizualizarea
+  extensiei retrosternale" a fost corectată — sursele consultate arată clar că ecografia
+  **nu** poate evalua extensia intratoracică; CT/IRM sunt necesare (nu doar utile).
+
+**Nemodificat**: gradele (B pe NR 1046, C pe NR 1047, A pe NR 1056), dozele, ordinea
+examenelor în celelalte situații. Bilanț: **+1 rând** → 1437 → **1438 rânduri**.
+
 ## 12. Coloană vertebrală
 _NR 1093–1147_
 

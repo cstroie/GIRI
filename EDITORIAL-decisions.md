@@ -991,14 +991,16 @@ rămâne subiectul unei decizii deschise separate (§8, §10 — nu face parte d
   diagnostic și monitorizare (sursă: Springer „Imaging of Neck and Facial Infections";
   serie de caz peritonsilar abscess). Urgență ORL frecventă — omisiune notabilă. Propunere:
   situație nouă, subcapitol „Diverse" sau nou subcapitol „Infecții".
-- ⏳ **Stratificare de risc ecografică a nodulului tiroidian (TI-RADS / EU-TIRADS)** — nu e
-  o situație lipsă, ci o **rafinare de conținut**: NR 1046 descrie fluxul diagnostic clasic
-  (clinic/TSH/ecografie/PCAFGE) fără referire la sistemele de scor structurat (ACR TI-RADS,
-  EU-TIRADS) care sunt azi practica standard pentru triajul FNA (ESR Essentials — Thyroid
-  Imaging, European Radiology 2025: abordare risc-stratificată, evitarea lucrului de rutină
-  pe incidentaloame fără trăsături suspecte). Propunere: completare `Comentarii` la NR 1046,
-  nu rând nou — **nu modific fără acordul editorilor** (regula „nu decid singur chestiuni
-  clinice ambigue" + „nu modific grade").
+- ✅ **Stratificare de risc ecografică a nodulului tiroidian (TI-RADS / EU-TIRADS) —
+  DECISĂ și APLICATĂ (2026-07-09, la cerere explicită).** Reformulată față de propunerea
+  inițială: nu completare pe NR 1046 (care descria de fapt greșit „Gușă plonjantă", nu
+  nodulul tiroidian generic — vezi descoperirea din review-ul de comentarii), ci **rând nou
+  de Ecografie (NR 1440)** pe situația care lipsea complet de testul de primă intenție —
+  „Nodul tiroidian palpabil și gușă eutiroidiană – fază diagnostică" (avea doar
+  Scintigrafie). Conținut verificat față de ATA 2015, ACR TI-RADS (JACR 2017) și ESR
+  Essentials 2025. NR 1046/1047 („Gușă plonjantă – diagnostic") corectate separat, cu
+  conținut specific gușii plonjante (limitarea ecografiei la extensia retrosternală,
+  verificată StatPearls — Substernal Goiter). Detalii complete în `CHANGELOG.md` §11.
 
 ### Surse consultate
 
@@ -1012,7 +1014,9 @@ rămâne subiectul unei decizii deschise separate (§8, §10 — nu face parte d
 
 > Status: **A decisă și aplicată integral** (mutare Cap›ORL → Gât + de-duplicare „Mase
 > cervicale ale adultului"/„Masă cervicală..." + redenumire subcapitol „Diverse" → „Mase
-> cervicale", 2026-07-09). Rămâne cvasi-duplicat cross-capitol **doar** „Corp străin
+> cervicale", 2026-07-09). **TI-RADS/EU-TIRADS (parte din B) aplicată** ca rând nou
+> NR 1440, 2026-07-09. Rămâne cvasi-duplicat cross-capitol **doar** „Corp străin
 > faringian sau esofagian înalt" vs `Traumatisme › Corp străin` (nerezolvat, vezi §8/§10 și
-> `DUPLICATE-review.md` §C). **3 propuneri de conținut** (B) rămân deschise. Nicio
-> modificare suplimentară de date până la decizia editorilor.
+> `DUPLICATE-review.md` §C). **2 propuneri de conținut rămân deschise**: sialolitiază/
+> sialadenită acută, abces cervical profund. Nicio modificare suplimentară de date până la
+> decizia editorilor.
