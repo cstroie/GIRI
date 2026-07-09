@@ -46,40 +46,54 @@ indicații radioimagistice.
 > contiguu 1..1471; renumerotarea a refăcut potrivirea NR.CRT ↔ poziție fizică după
 > reordonarea situației „Anevrisme vase periferice" — **doar 2 ID-uri schimbate** (fostul
 > NR 648 „Eco Doppler" → 647; fostul NR 647 „Angio-CT periferic" → 648). Restul neschimbate.
+>
+> ⚠️ **A patra renumerotare integrală, 1..1438** (la cerere, 2026-07-09, după reviewul complet
+> al capitolului Aparat digestiv — subcapitolizare, mutări, comasări, placeholder-e noi). Baza
+> de dinainte (contiguă 1..1462) avea găuri tolerate (786–788, 794, 1003–… etc.) și ID-uri noi
+> la coadă (1463–1465). Renumerotare pe poziția fizică → **1..1438**. **Referințele NR.CRT din
+> intrările de mai jos reflectă starea de la momentul modificării** — folosește Capitol +
+> Situație clinică, nu NR.CRT.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1439 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1438 rânduri, 13 coloane)
 
-> **1439 rânduri, cu 23 de găuri în capitolul Cap** după consolidarea Cap → Traumatisme
-> (2026-07-09, §10). Contiguitatea se reface doar la o renumerotare cerută explicit.
-> Baza a fost contiguă 1..1462 după a treia renumerotare (2026-07-09, la cerere, după fuziunea
-> „Neoplasm bronhopulmonar"). ⚠️ **Referințele NR.CRT din intrările de mai jos scrise înainte
-> de 2026-07-09 sunt pre-renumerotare** pentru capitolele de după punctul de inserție (Cancer ›
-> bronho-pulmonar, poz. 342) — folosește căutarea după Capitol + Situație, nu NR.CRT. Pe viitor
-> **nu se renumerotează automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile
-> primesc ID-uri la finalul secvenței, până la o nouă renumerotare cerută explicit.
+> **1438 rânduri, contiguu 1..1438** după a patra renumerotare (2026-07-09, la cerere, după
+> reviewul complet al capitolului Aparat digestiv). Pe viitor **nu se renumerotează automat**
+> (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc ID-uri la finalul secvenței,
+> până la o nouă renumerotare cerută explicit. ⚠️ **Referințele NR.CRT din intrările per-capitol
+> de mai jos reflectă starea de la momentul modificării** (pre-renumerotare) — folosește căutarea
+> după Capitol + Situație clinică, nu NR.CRT.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
-| 3 | [Cancer](#3-cancer) | 318–576 | 259 |
-| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 577–663 | 87 |
-| 5 | [Torace](#5-torace) | 664–727 | 64 |
-| 6 | [Aparat digestiv](#6-aparat-digestiv) | 728–797 | 70 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–866 | 69 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 867–893 | 27 |
-| 9 | [Sân](#9-sân) | 894–949 | 56 |
-| 10 | [Cap](#10-cap) | 950–1065 (23 găuri) | 93 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1066–1083 | 18 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1084–1138 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1139–1212 | 74 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1213–1462 | 250 |
+| 3 | [Cancer](#3-cancer) | 318–577 | 260 |
+| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 578–664 | 87 |
+| 5 | [Torace](#5-torace) | 665–728 | 64 |
+| 6 | [Aparat digestiv](#6-aparat-digestiv) | 729–796 | 68 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 797–865 | 69 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 866–892 | 27 |
+| 9 | [Sân](#9-sân) | 893–948 | 56 |
+| 10 | [Cap](#10-cap) | 949–1041 | 93 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1042–1059 | 18 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1060–1114 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1115–1188 | 74 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1189–1438 | 250 |
 
 ---
 
 ## Modificări globale (cross-capitol)
+
+### RENUMEROTAT — a patra renumerotare NR.CRT → contiguu 1..1438 (2026-07-09, la cerere)
+
+După reviewul complet al capitolului Aparat digestiv (subcapitolizare pe organ + coș
+transversal, mutarea „Cancerul de stomac" la Cancer, comasări de duplicate, 3 placeholder-e
+noi), NR.CRT rămăsese necontiguu (găuri 786–788, 794 + moștenite din Cap + ID-uri noi
+1463–1465 la coadă). La cerere explicită, renumerotare pe ordinea fizică → **NR.CRT 1..1438**.
+Modificare pur mecanică (doar col. 1), niciun conținut atins; `validate.py` verde. Toate
+capitolele de după Cancer își schimbă ID-urile (vezi tabelul de structură actualizat mai sus).
 
 ### RENUMEROTAT — a treia renumerotare NR.CRT → contiguu 1..1462 (2026-07-09, la cerere)
 
