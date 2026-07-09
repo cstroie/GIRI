@@ -954,6 +954,48 @@ a examenelor.
 Capitol: 69 → 68 rânduri (−1, husk-ul „Uter și anexe"). NR.CRT rămân neschimbate (gaură
 tolerată la 866 — vezi regula 3).
 
+### RESTRUCTURAT — a doua trecere, subcapitol cu subcapitol (2026-07-09, la cerere)
+
+De-duplicare de situații, reordonare după raționament clinic (urgență → cronic → screening/
+populații speciale) și normalizare de etichete (context mutat în `Comentarii`). Fără
+schimbare de grad/doză; ordinea examenelor **în interiorul** unei situații neatinsă (doar
+poziția grupurilor de situații s-a schimbat). **Reordonare fizică a rândurilor; NR.CRT
+neschimbate** (precedent: Cardiovascular §12).
+
+- **COMASAT — „Hipertensiune arterială".** Cele două situații „Hipertensiune arterială
+  (fără boală renală cunoscută)" (doar UIV, Neindicat) și „Hipertensiune arterială (la adult
+  tânăr sau unde pacientul nu răspunde la tratamentul medical)" (Eco-Doppler/Scintigrafie/
+  AngioRM/AngioCT) descriau aceeași întrebare clinică (evaluarea HTA pentru cauză
+  reno-vasculară) din două unghiuri (test fără rol / workup țintit) — unificate sub o
+  singură etichetă **„Hipertensiune arterială (suspiciune de cauză reno-vasculară)"**
+  (5 rânduri: NR 819–822 + 818, UIV mutat ultimul, consecvent cu convenția „pozitiv înaintea
+  negativului"). Niciun grad schimbat.
+- **RESTRUCTURAT (etichete) — context mutat din titlu în `Comentarii`:**
+  - „Hematurie (macroscopică sau microscopică persistentă fără proteinurie semnificativă)"
+    → **„Hematurie"**; calificativul mutat ca primă propoziție în `Comentarii`, pe toate
+    cele 4 rânduri (regulă „informație de situație pe toate investigațiile").
+  - „Evaluarea funcției renale: – evaluarea funcției renale globale – evaluarea funcției
+    renale relative (a fiecărui rinichi în parte)" → **„Evaluarea funcției renale"**;
+    detaliul mutat similar în `Comentarii` (2 rânduri).
+  - „Incidentalom suprarenalian (leziune suprarenaliană descoperită întâmplător)." →
+    **„Incidentalom suprarenalian"** — parafraza era doar glosarul termenului, fără
+    informație clinică nouă de păstrat (3 rânduri).
+- **MODIFICAT (ortografie) —** „pentu leziunile" → „pentru leziunile" (Incidentalom, CT).
+- **REORDONAT (situații, raționament clinic)** — trei subcapitole reordonate de la ordinea
+  alfabetică la un flux urgență → cronic → screening/populații speciale:
+  - **Aparat genital masculin:** Torsiune de cordon spermatic (urgență chirurgicală) →
+    Durere și/sau masă scrotală → Impotență → Infertilitate → ALTĂ SITUAȚIE.
+  - **Aparat urogenital:** Suspiciune de colică nefretică → Calcul renal (non-acut) →
+    Sindrom obstructiv înalt → Sindrom obstructiv jos → Retenție acută de urină → Infecție
+    urinară → Hematurie → Hipertensiune arterială (reno-vasculară) → Insuficiență renală →
+    Evaluarea funcției renale → Masă tumorală renală → Evaluarea transplantului renal
+    (populație specială) → ALTĂ SITUAȚIE.
+  - **Glande suprarenale:** Incidentalom suprarenalian (poarta de intrare cea mai frecventă)
+    → sdr. Conn → sdr. Cushing → Feocromocitom → ALTĂ SITUAȚIE.
+
+Capitol: 68 rânduri (neschimbat ca număr — doar reordonare + 3 fuziuni de etichetă, fără
+adăugare/eliminare de rând).
+
 ## 8. Obstetrică și ginecologie
 _NR 876–902_
 
