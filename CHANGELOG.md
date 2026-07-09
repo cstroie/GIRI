@@ -49,9 +49,11 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1462 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1439 rânduri, 13 coloane)
 
-> **NR.CRT contigue 1..1462** după a treia renumerotare (2026-07-09, la cerere, după fuziunea
+> **1439 rânduri, cu 23 de găuri în capitolul Cap** după consolidarea Cap → Traumatisme
+> (2026-07-09, §10). Contiguitatea se reface doar la o renumerotare cerută explicit.
+> Baza a fost contiguă 1..1462 după a treia renumerotare (2026-07-09, la cerere, după fuziunea
 > „Neoplasm bronhopulmonar"). ⚠️ **Referințele NR.CRT din intrările de mai jos scrise înainte
 > de 2026-07-09 sunt pre-renumerotare** pentru capitolele de după punctul de inserție (Cancer ›
 > bronho-pulmonar, poz. 342) — folosește căutarea după Capitol + Situație, nu NR.CRT. Pe viitor
@@ -69,7 +71,7 @@ indicații radioimagistice.
 | 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–866 | 69 |
 | 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 867–893 | 27 |
 | 9 | [Sân](#9-sân) | 894–949 | 56 |
-| 10 | [Cap](#10-cap) | 950–1065 | 116 |
+| 10 | [Cap](#10-cap) | 950–1065 (23 găuri) | 93 |
 | 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1066–1083 | 18 |
 | 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1084–1138 | 55 |
 | 13 | [Aparat locomotor](#13-aparat-locomotor) | 1139–1212 | 74 |
@@ -804,7 +806,7 @@ _NR 903–958_
     consecventă în rest), dar merită o a doua opinie a editorului.
 
 ## 10. Cap
-_NR 959–1074_
+_NR 950–1065 (23 găuri)_
 
 - **MUTAT —** 25 rânduri intervenționale (neurovasculare) relocate la RI › Sistem nervos.
 - **MUTAT / ELIMINAT — consolidare oncologie → Cancer** (vezi „Modificări globale"):
@@ -812,6 +814,21 @@ _NR 959–1074_
   medulare" (conflict de grad pe IRM/CT — semnalat, nerezolvat unilateral). 1 rând mutat
   (scintigrafie cerebrală cu traceri de viabilitate, conținut absent din Cancer) + 3
   eliminate ca duplicate/conflict de grad. (−3 rânduri)
+- **ELIMINAT — consolidare traumă → Traumatisme** (2026-07-09). Capitolul Cap conținea un
+  **cluster paralel de traumă față/craniu** (în „Neuro" + „ORL") care **dubla** (cu variații)
+  situațiile canonice din `Traumatisme › Cap` și `Traumatisme › Față și orbite`. **Eliminate
+  23 rânduri / 7 situații** din Cap — versiunea din Traumatisme e canonică și, în general, mai
+  bună (etichete corecte „de orbite" vs „regiune cervicală" greșit; radiografii de craniu/față
+  gradate B/A vs „?"; OPG „Indicat" primă intenție la mandibulă):
+  - Traumatisme cranio-encefalice · Traumatism orbită (obiecte neascuțite + perforare) ·
+    Traumatisme ale stâncii temporalului · Traumatismul în 1/3 centrală a feței · Traumatismul
+    mandibulei · Traumatismul nazal.
+  - **SALVAT** în Traumatisme: comentariul clinic al radiografiei nazale (examen clinic
+    primordial; o radiografie normală nu exclude fractura de oase nazale) — adăugat la
+    `Traumatisme › Față și orbite: Traumatism nazal` (unde lipsea).
+  - **NEMUTAT**: „Corp străin faringian sau esofagian înalt" (ORL) — corp străin **ingerat**,
+    subiectul deciziei deschise (ORL/digestiv vs traumă). Vezi `EDITORIAL-decisions.md` §8, §10.
+  - Fără renumerotare → 23 găuri în capitolul Cap. (−23 rânduri)
 
 ## 11. Gât (părți moi)
 _NR 1075–1092_

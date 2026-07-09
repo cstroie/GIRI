@@ -203,27 +203,25 @@ situații de **leziune traumatică acută** care, per ierarhie (regula 4), ar tr
 (nu mutare oarbă): se compară cele două versiuni, se păstrează conținutul mai bun/complet,
 se elimină duplicatul. **De făcut la parsarea capitolului Cap**, nu acum.
 
-**De mutat/reconciliat (Cap → Traumatisme):**
-- `Cap › Neuro` → **Traumatisme cranio-encefalice** ↔ `Traumatisme › Cap: Traumatism cranio-cerebral`
-  (cvasi-identice; versiunea din Cap are încă gradul „?" la radiografia de craniu).
-- `Cap › ORL` → **Traumatism orbită – prin obiecte neascuțite** ↔ `Față și orbite: Traumatism orbitar contondent`
-- `Cap › ORL` → **Traumatism orbită – prin perforare** ↔ `Față și orbite: Traumatism orbitar penetrant`
-- `Cap › ORL` → **Traumatisme ale stâncii temporalului** ↔ `Față și orbite: Traumatism stâncă temporală`
-- `Cap › ORL` → **Traumatismul în 1/3 centrală a feței** ↔ `Față și orbite: Leziune facială centrală`
-- `Cap › ORL` → **Traumatismul mandibulei** ↔ `Față și orbite: Traumatism mandibular`
-  (versiunea din Cap e mai bogată — include ATM, CBCT; de reconciliat cu atenție).
-- `Cap › ORL` → **Traumatismul nazal** ↔ `Față și orbite: Traumatism nazal`
-- _Legat de §8:_ `Cap › ORL → Corp străin faringian sau esofagian înalt` — corp străin ingerat
-  (aceeași chestiune ca `Traumatisme › Corp străin: Ingestie…`). De decis împreună (ORL/digestiv vs traumă).
+✅ **REZOLVAT (2026-07-09).** Cele 7 situații de traumă față/craniu din Cap au fost
+**eliminate** (dublau, cu variații, situațiile canonice din Traumatisme, care erau egale sau
+mai bune). Comentariul clinic al radiografiei nazale a fost salvat în Traumatisme. Vezi
+CHANGELOG §10 (−23 rânduri). Perechile reconciliate:
+- `Cap › Neuro: Traumatisme cranio-encefalice` → duplica `Traumatisme › Cap` (Cap avea „?" la Rg craniu).
+- `Cap › ORL: orbită – obiecte neascuțite / prin perforare` → duplica `Față și orbite: orbitar
+  contondent / penetrant` (Cap avea etichete greșite „regiune cervicală", Rg „?").
+- `Cap › ORL: stâncă temporală / 1/3 centrală a feței / mandibulă / nazal` → duplicau omologii
+  din `Față și orbite` (la mandibulă, Traumatisme are OPG „Indicat" + Alte informații mai complete).
 
-**Fals-pozitive (NU sunt traumă acută — rămân unde sunt):**
+**Rămas de decis (§8):** `Cap › ORL → Corp străin faringian sau esofagian înalt` — corp străin
+**ingerat**, NEmutat (aceeași chestiune ca `Traumatisme › Corp străin: Ingestie…` — ORL/digestiv
+vs traumă). De decis împreună.
+
+**Fals-pozitive (NU sunt traumă acută — rămân unde sunt, confirmat):**
 - `Coloană › Bilanț fractură vertebrală spontană` (fractură spontană/patologică).
 - `Coloană › Sindrom medular (în afara traumatismelor coloanei vertebrale)` (explicit ne-traumatic).
 - `Coloană cervicală › Posibilitate de subluxație atlanto-axoidiană` (de regulă reumatoidă/congenitală).
 - `Aparat locomotor › Gonalgie (meniscală/condropatie)` (patologie cronică internă a genunchiului).
-
-> Status: **inventariat, neatins.** Reconcilierea se face la parsarea capitolelor de origine
-> (în principal Cap). Nu s-a mutat nimic acum.
 
 ---
 
@@ -363,6 +361,46 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (ESC/ACR/RCR) și se consemnează în CHANGELOG.
+
+---
+
+## 14. Traumatisme (adult) — omisiuni de subcapitol / situație (de adăugat) (2026-07-09)
+
+Comparație cu ghidurile majore (ACR Appropriateness Criteria, RCR iRefer, NICE, ATLS / EAST /
+WSES). **Schițe orientative — de validat clinic**; niciun rând inserat în `GHID.csv`.
+Gradele/indicațiile sunt propuneri.
+
+### 14.1 „Gât" — regiune întreagă lipsă (MAJOR) 🔴
+Nu există subcapitol de traumă cervicală de părți moi (CLAUDE.md o anticipează deja — `[gât]`
+în lista de regiuni). Trauma **vasculară** cervicală e parțial acoperită de „Sistem vascular ›
+Leziune cerebrovasculară posttraumatică", dar restul gâtului nu. De adăugat un subcapitol
+**Gât**:
+- **Traumatism cervical penetrant** (plagă înjunghiată / împușcată; zonele I/II/III) →
+  Angio-CT cervico-toracic = *Indicat* (screening vascular + aerodigestiv, ACR AC –
+  *Penetrating Neck Injury*).
+- **Leziune laringo-traheală** (traumatism cervical închis) → CT = *Indicat*.
+- **Leziune faringo-esofagiană** → CT + esofagografie cu contrast hidrosolubil.
+
+### 14.2 Traumatism penetrant — subreprezentat 🔴
+Capitolul e orientat aproape exclusiv pe traumă închisă (blunt). De adăugat:
+- **Traumatism abdominal penetrant** (armă albă / armă de foc) → CT cu contrast = *Indicat*
+  (ACR AC – *Penetrating Abdominal/Flank Trauma*) — distinct de „Traumatism abdominal major".
+
+### 14.3 Torace — situații lipsă
+- **Leziune diafragmatică traumatică** → CT cu reconstrucții coronale/sagitale = *Indicat*
+  (entitate frecvent ratată).
+- **Fractură de stern** → radiografie de profil / CT = *Indicat*; asociere cu contuzia cardiacă.
+
+### 14.4 Membre — situație generică
+- **„Traumatism de membru — suspiciune de fractură" (adult)**, ca la pediatrie: acoperă
+  claviculă / mână-degete / femur diafizar / gambă, neacoperite ca situații individuale.
+
+### 14.5 Minore
+- **Traumatism cranian la vârstnic / anticoagulat** — prag mai jos de CT; mai degrabă o notă
+  în situația „Traumatism cranio-cerebral" existentă, nu un subcapitol nou.
+
+> Status: **inventariat, neatins.** De validat/adăugat de editori. Nu confunda cu §10
+> (trauma care EXISTĂ deja în alte capitole și se aduce în Traumatisme — vezi CHANGELOG).
 
 ---
 
