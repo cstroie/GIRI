@@ -503,6 +503,22 @@ Torace „diagnostic – suspiciune clinică" = **Diagnostic**; „bilanț prete
 
 Rezultat net Cancer: **+2 rânduri** (257 → 259).
 
+### MODIFICAT — Verificare față de ghiduri + referințe (Cancer bronho-pulmonar, 2026-07-08)
+
+Pasul 7 al checklist-ului, aplicat subcapitolului fuzionat (iRefer/NICE NG122/ACR AC 2019).
+Fără schimbări de grad sau indicație în date.
+
+- **ADĂUGAT (col. 10 „Alte informații") — referințe scurte de ghid** pe rândurile verificate:
+  NR 334 (radiografie primă linie), 335 (CT pre-biopsie), 337 (PET-CT stadializare), 338
+  (PET-CT vs scintigrafie), 339 (IRM cerebral), 340 (CT stadializare), 341 (IRM torace select).
+- **CONFIRMAT — conflictul de grad IRM mediastinal (NR 341) închis la „C"** (decizie editor,
+  susținut de ACR AC — instrument select/problem-solving). Celelalte trei (radiografie/IRM
+  cerebral/CT = A) confirmate de NICE NG122.
+- **SEMNALAT (editorial, NU modificat în date) — Scintigrafie osoasă (NR 338).** FDG PET-CT
+  a înlocuit în mare scintigrafia osoasă în stadializarea de rutină; PET-CT stadializare
+  există deja (NR 337). Propunere de coborâre a indicației 338 „Indicat"→„Doar în cazuri
+  particulare" (gradul B rămâne) lăsată editorilor. Vezi `EDITORIAL-decisions.md` §13.
+
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** subcapitol „Ficat, colecist şi pancreas" normalizat (vezi Modificări globale).
 - **RESTRUCTURAT — consolidarea oncologiei diagnostice** (vezi „Modificări globale" mai

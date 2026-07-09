@@ -326,20 +326,31 @@ au fost între timp **tranșate de editor** — status mai jos:
    Stadializare; „supraveghere"=Monitorizare). Vezi CHANGELOG §3 pentru detaliul complet.
    - **Excepție confirmată:** *Nodul pulmonar solitar* (NR 706–708) rămâne **diagnostic în
      Torace** — nodul indeterminat ≠ malignitate confirmată.
-   - **⚠️ CONFLICTE DE GRAD — de confirmat de editori (rezolvate provizoriu „gradul din
-     Cancer prevalează"; niciun grad Cancer modificat):** pentru aceeași investigație în
-     aceeași fază, rândul-sursă din Torace avea alt grad decât cel din Cancer. S-a păstrat
-     rândul Cancer (mai coerent intern) și s-a renunțat la duplicatul Torace:
-     | Fază | Investigație | Grad Cancer (păstrat) | Grad Torace (renunțat) |
-     |---|---|---|---|
-     | Diagnostic | Radiografie toracică | **A** (NR 334) | C (fost 699) |
-     | Stadializare | IRM cerebral | **A** (NR 339) | C (fost 695) |
-     | Stadializare | CT cerebral/torace/abdomen | **A** (NR 340) | C (fost 697) |
-     | Stadializare | IRM toracal/mediastinal | **C** (NR 341) | B (fost 698) |
+   - **✅ CONFLICTE DE GRAD — tranșate „gradul din Cancer prevalează" (niciun grad Cancer
+     modificat), confirmat de editor și susținut de ghiduri (iRefer/NICE NG122/ACR AC 2019):**
+     pentru aceeași investigație în aceeași fază, rândul-sursă din Torace avea alt grad decât
+     cel din Cancer. S-a păstrat rândul Cancer și s-a renunțat la duplicatul Torace:
+     | Fază | Investigație | Grad Cancer (păstrat) | Grad Torace (renunțat) | Susținere ghid |
+     |---|---|---|---|---|
+     | Diagnostic | Radiografie toracică | **A** (NR 334) | C (fost 699) | primă linie la suspiciune (NICE NG12/NG122) |
+     | Stadializare | IRM cerebral | **A** (NR 339) | C (fost 695) | IRM > CT pt. metastaze cerebrale (NICE NG122) |
+     | Stadializare | CT cerebral/torace/abdomen | **A** (NR 340) | C (fost 697) | CT de stadializare standard (NICE NG122) |
+     | Stadializare | IRM toracal/mediastinal | **C** (NR 341) | B (fost 698) | instrument select/problem-solving (ACR AC 2019) — **editor: C** |
 
-     Dacă editorii preferă gradul din Torace pentru vreuna, se ajustează punctual (fără a
-     mai reapărea rândul dublu). Restul duplicatelor (PET-CT ×3, Scintigrafie) aveau grade
-     identice → fără conflict.
+     Referințele scurte au fost consemnate în col. 10 „Alte informații" pe rândurile
+     respective. Restul duplicatelor (PET-CT ×3, Scintigrafie) aveau grade identice → fără conflict.
+
+   - **🔴 DISCREPANȚĂ CU PRACTICA CURENTĂ — Scintigrafie osoasă (NR 338), „Indicat" grad B.**
+     Ghidurile actuale (NICE NG122, ACR AC 2019, ESMO) arată că **FDG PET-CT a înlocuit în
+     mare scintigrafia osoasă** în stadializarea de rutină a cancerului bronho-pulmonar
+     (PET-CT sensibilitate ~94% vs ~78% pentru metastaze osoase, imagând tumora, nu reacția
+     osoasă). PET-CT pentru stadializare **există deja** în subcapitol (NR 337, „Indicat" A)
+     și acoperă rolul de detecție a metastazelor osoase/la distanță — deci nu e nevoie de
+     rând nou. Scintigrafia rămâne utilă doar când PET-CT nu e disponibil.
+     - **Propunere pentru editori:** coborârea indicației NR 338 de la „Indicat" la **„Doar
+       în cazuri particulare"** (PET-CT indisponibil), **gradul B rămâne** neschimbat.
+       Nedecis unilateral (regula de aur: gradele/indicațiile clinice se lasă editorilor).
+       Referință consemnată în col. 10. Vezi și CHANGELOG §3.
 
 2. ✅ **REZOLVAT — „Nodul pulmonar" (NR 706) unificat la „Nodul pulmonar solitar".**
    Decizie editor: unificăm eticheta. NR 706 (PET-CT, „nodul solid > 8 mm") purta eticheta
@@ -350,5 +361,6 @@ au fost între timp **tranșate de editor** — status mai jos:
    din poziția fizică. Reordonare fizică; NR.CRT neschimbate. NR 708 („…urmărire") rămâne
    situație distinctă. Vezi CHANGELOG §5.
 
-> Status: **ambele puncte rezolvate** (2026-07-08). Rămâne de confirmat de editori doar
-> tabelul de conflicte de grad de la punctul 1 (rezolvare provizorie „gradul Cancer prevalează").
+> Status: **ambele puncte rezolvate** (2026-07-08). Conflictele de grad de la punctul 1 —
+> tranșate (editor + susținere de ghid). Rămâne o singură propunere deschisă pentru editori:
+> coborârea indicației scintigrafiei osoase NR 338 („Indicat" → „Doar în cazuri particulare").
