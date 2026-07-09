@@ -60,17 +60,25 @@ indicații radioimagistice.
 > noi la coadă (1439, 1440–1442). Renumerotare pe poziția fizică → **1..1440**. **Referințele
 > NR.CRT din intrările de mai jos (inclusiv secțiunea Gât) reflectă starea de la momentul
 > modificării** — folosește Capitol + Situație clinică, nu NR.CRT.
+>
+> ⚠️ **A șasea renumerotare integrală, 1..1439** (la cerere, 2026-07-09, după reviewul complet
+> al capitolului Aparat uro-genital și glande suprarenale — eliminarea husk-ului „Uter și
+> anexe", comasarea „Hipertensiune arterială", reordonarea subcapitolelor). Baza de dinainte
+> (contiguă 1..1440) avea o gaură tolerată (866, după ștergerea husk-ului). Renumerotare pe
+> poziția fizică → **1..1439**. **Referințele NR.CRT din intrările de mai jos (inclusiv
+> secțiunea Aparat uro-genital) reflectă starea de la momentul modificării** — folosește
+> Capitol + Situație clinică, nu NR.CRT.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1440 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1439 rânduri, 13 coloane)
 
-> **1440 rânduri, contiguu 1..1440** după a cincea renumerotare (2026-07-09, la cerere, după
-> reviewul complet al capitolului Gât (părți moi)). Pe viitor **nu se renumerotează automat**
-> (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc ID-uri la finalul secvenței,
-> până la o nouă renumerotare cerută explicit. ⚠️ **Referințele NR.CRT din intrările per-capitol
-> de mai jos reflectă starea de la momentul modificării** (pre-renumerotare) — folosește căutarea
-> după Capitol + Situație clinică, nu NR.CRT.
+> **1439 rânduri, contiguu 1..1439** după a șasea renumerotare (2026-07-09, la cerere, după
+> reviewul complet al capitolului Aparat uro-genital și glande suprarenale). Pe viitor **nu se
+> renumerotează automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc
+> ID-uri la finalul secvenței, până la o nouă renumerotare cerută explicit. ⚠️ **Referințele
+> NR.CRT din intrările per-capitol de mai jos reflectă starea de la momentul modificării**
+> (pre-renumerotare) — folosește căutarea după Capitol + Situație clinică, nu NR.CRT.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
@@ -80,18 +88,30 @@ indicații radioimagistice.
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 578–665 | 88 |
 | 5 | [Torace](#5-torace) | 666–729 | 64 |
 | 6 | [Aparat digestiv](#6-aparat-digestiv) | 730–797 | 68 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–866 | 69 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 867–893 | 27 |
-| 9 | [Sân](#9-sân) | 894–949 | 56 |
-| 10 | [Cap](#10-cap) | 950–1028 | 79 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1029–1061 | 33 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1062–1116 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1117–1190 | 74 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1191–1440 | 250 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–865 | 68 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 866–892 | 27 |
+| 9 | [Sân](#9-sân) | 893–948 | 56 |
+| 10 | [Cap](#10-cap) | 949–1027 | 79 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1028–1060 | 33 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1061–1115 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1116–1189 | 74 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1190–1439 | 250 |
 
 ---
 
 ## Modificări globale (cross-capitol)
+
+### RENUMEROTAT — a șasea renumerotare NR.CRT → contiguu 1..1439 (2026-07-09, la cerere)
+
+După reviewul complet al capitolului Aparat uro-genital și glande suprarenale — eliminarea
+subcapitolului-husk „Uter și anexe" (−1 rând), comasarea situației „Hipertensiune arterială",
+simplificarea a 3 etichete bloatate, redenumirea „Masă tumorală renală" → „Masă renală" și
+reordonarea celor 3 subcapitole după flux clinic — NR.CRT rămăsese necontiguu (o singură
+gaură, la 866, fostul rând husk). La cerere explicită, renumerotare pe ordinea fizică →
+**NR.CRT 1..1439**. Modificare pur mecanică (doar col. 1), niciun conținut atins;
+`validate.py` verde. Toate capitolele de la Aparat uro-genital încolo (inclusiv) își schimbă
+ID-urile cu −1 (vezi tabelul de structură actualizat mai sus). Total fișier: **1440 → 1439**
+(−1, din eliminarea husk-ului, nu din renumerotare în sine).
 
 ### RENUMEROTAT — a cincea renumerotare NR.CRT → contiguu 1..1440 (2026-07-09, la cerere)
 
