@@ -1073,9 +1073,10 @@ decizie editorială. Vezi `DUPLICATE-review.md` §C și `EDITORIAL-decisions.md`
 
 ### MUTAT — „Corp străin faringian sau esofagian înalt" (2026-07-09, la cerere)
 
-**NR 1007–1008** mutate din „Cap › ORL" în **„Gât (părți moi) › Diverse"** (poziționat
-alfabetic, primul din subcapitol — „Corp străin..." < „Masă cervicală..."). Conținutul
-clinic neschimbat, doar `Capitol`/`Subcapitol`; NR.CRT neschimbate.
+**NR 1007–1008** mutate din „Cap › ORL" în **„Gât (părți moi) › Diverse"** (redenumit ulterior
+„Mase cervicale", vezi mai jos; poziționat alfabetic, primul din subcapitol — „Corp
+străin..." < „Masă cervicală..."). Conținutul clinic neschimbat, doar `Capitol`/`Subcapitol`;
+NR.CRT neschimbate.
 
 **⚠️ Cvasi-duplicat cross-capitol, nerezolvat — mutat, nu rezolvat.** Situația e aproape
 identică (text parafrazat, aceleași 2 examene: Radiografie părți moi cervicale de profil +
@@ -1087,6 +1088,50 @@ ca „subiect al deciziei deschise (ORL/digestiv vs traumă)"; mutarea de acum *
 duplicatul de la Cap la Gât, nu-l elimină. De decis: unificare (și în care capitol?) sau
 păstrare distinctă (traumă/ingestie acută vs bilanț ORL general). Vezi
 `DUPLICATE-review.md` §C.
+
+### DE-DUPLICAT + RESTRUCTURAT — „Mase cervicale ale adultului" (2026-07-09, la cerere)
+
+Cvasi-duplicatul semnalat mai sus (§22.A) — „Masă cervicală cu punct de plecare
+necunoscut" (NR 1042–1043) vs „Mase cervicale ale adultului" (NR 1018–1020, fost Cap›ORL)
+— a fost **comasat** la cererea editorului, plus subcapitolul redenumit.
+
+- **COMASAT — situație unică „Masă cervicală la adult, cu punct de plecare
+  necunoscut".** Etichetă nouă (combină „la adult" + „punct de plecare necunoscut", cele
+  două nuanțe reale ale celor 2 foste situații). 3 rânduri păstrate — **NR 1042** (E,
+  Ecografie, grad **B**, păstrat — motivat explicit ca „primă intenție"), **NR 1043** (M,
+  IRM regiune cervicală, grad C) și **NR 1020** (T, CT regiune cervicală și torace, grad C,
+  singurul rând CT dintre cele două situații — păstrat, aduce o modalitate nouă). **NR
+  1018, 1019 eliminate** (conținutul absorbit). Comentariile celor 3 rânduri au fost
+  rescrise, sintetizând informația din ambele situații fără redundanță (diferențial
+  congenital/dobândit/tumoral → alegere IRM vs CT; entități specifice: tumoră parotidiană,
+  glande salivare, chist congenital, paragangliom, adenopatie metastatică; PET-CT +
+  endoscopie digestivă superioară pentru adenopatie neoplazică cu origine neclară) —
+  conform regulii „informația de nivel-situație pe toate investigațiile". Alte informații
+  „Examenul Doppler apreciază vascularizația leziunii" (fostă pe NR 1018) păstrată pe
+  rândul de Ecografie.
+- **⛔ Corectat conținut contaminat — text de gușă eliminat din comentariul IRM.**
+  Comentariul original al NR 1043 conținea, lipit la finalul frazei despre masa cervicală,
+  un fragment **despre gușă** („…CT-ul fără injectarea de contrast iodat sau RM-ul sunt
+  utile pentru a caracteriza d.p.d.v morfologic extensia retrosternală a gușii, pentru
+  evidențierea unei compresii traheale și cuantificarea îngustării") — text aproape
+  identic cu comentariul de pe `Tiroidă, paratiroide › Gușă plonjantă – preterapeutic`
+  (NR 1049), unde acest conținut e corect încadrat. Fragmentul era o contaminare (probabil
+  artefact de la o consolidare anterioară a sursei), nu informație despre masa cervicală
+  cu origine necunoscută. **Eliminat la comasare** — fără pierdere de informație (rămâne
+  intact pe NR 1049).
+- **REDENUMIT — subcapitol „Diverse" → „Mase cervicale".** Eticheta „Diverse" nu descria
+  conținutul real (o etichetă generică, plus o singură situație clinică reală înainte de
+  comasare) și era considerată nepotrivită. Subcapitolul conține acum: „Corp străin
+  faringian sau esofagian înalt" (NR 1007–1008 — plasare provizorie, cvasi-duplicat cu
+  Traumatisme, vezi mai sus) + „Masă cervicală la adult, cu punct de plecare necunoscut"
+  (comasată) + placeholder (NR 1045).
+- **RESTRUCTURAT (ordine subcapitole) — „Glande salivare" mutat înaintea „Mase
+  cervicale".** Ordinea alfabetică a subcapitolelor (convenția fișierului) cerea
+  actualizare după redenumire: **Glande salivare → Mase cervicale → Tiroidă, paratiroide**
+  (G < M < T). Reordonare fizică; NR.CRT neschimbate.
+
+**Bilanț rânduri:** −2 (comasare) → capitolul „Gât (părți moi)" scade de la 1439 la
+**1437 rânduri**; 2 găuri noi (1018, 1019), tolerate per regula 3 din `CLAUDE.md`.
 
 ## 12. Coloană vertebrală
 _NR 1093–1147_

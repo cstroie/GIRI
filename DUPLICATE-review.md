@@ -22,6 +22,23 @@ versiune veche fără; s-a păstrat textul cu diacritice și codul intern „RI 
 - **NR 1446 / 1447** — Infiltrație, „Rahialgie / Radiculalgie". Coduri „Alte informații"
   diferite: **PC5 vs PC7** — de stabilit care e corect.
 
+**1 duplicat cross-capitol comasat** (2026-07-09, la cererea editorului — „do your best"):
+
+- **Gât (părți moi) › Mase cervicale — „Masă cervicală cu punct de plecare necunoscut"
+  (NR 1042/1043) + „Mase cervicale ale adultului" (NR 1018–1020, fostă Cap›ORL).**
+  Comasate într-o singură situație: **„Masă cervicală la adult, cu punct de plecare
+  necunoscut"** — 3 rânduri păstrate (**NR 1042** E-Ecografie grad **B**, **NR 1043**
+  M-IRM grad C, **NR 1020** T-CT grad C — singurul rând CT dintre cele două, păstrat ca
+  modalitate suplimentară); **NR 1018, 1019 eliminate**. Grad Ecografie **B ales** (era
+  B pe „Masă cervicală…", C pe „Mase cervicale ale adultului") — motivat explicit în
+  comentariul original ca „primă intenție". Comentariile celor 3 rânduri rescrise,
+  sintetizând informația din ambele situații (diferențial congenital/tumoral, entități
+  specifice, PET-CT + endoscopie) fără redundanță. **Bonus găsit la comasare**: comentariul
+  IRM (NR 1043) conținea un fragment contaminat despre gușă (text aproape identic cu
+  NR 1049, „Gușă plonjantă – preterapeutic") — eliminat, fără pierdere de informație
+  (rămâne corect pe NR 1049). Subcapitolul „Diverse" redenumit **„Mase cervicale"**. Detalii
+  complete în `CHANGELOG.md` §11.
+
 ## B. Formulări ale „Situației Clinice" — UNIFORMIZATE (16 grupuri)
 
 Textul situației a fost adus la o formă canonică (diacritice, majusculă inițială, fără
@@ -52,24 +69,10 @@ spații parazite). Nu s-au comasat rânduri. Forma canonică rezultată:
   fluorodeoxiglucoză". **REZOLVAT — comasate** (decizie editor): păstrată varianta
   „PET-CT" (aliniată la eticheta Examen); NR renumerotate 1..1487.
 
-- **Gât (părți moi) › Diverse — NR 1042/1043 vs NR 1018/1019/1020** (2026-07-09) ·
-  „Masă cervicală cu punct de plecare necunoscut" vs „Mase cervicale ale adultului".
-  Aceeași temă clinică (bilanț masă cervicală la adult, origine necunoscută), acum
-  co-locate în același subcapitol după mutarea celei de-a doua din „Cap › ORL"
-  (`EDITORIAL-decisions.md` §22.A). **NU comasate** — diferă pe mai multe axe:
-  - **Grad**: Ecografie **B** (NR 1042) vs **C** (NR 1018).
-  - **Set de examene**: „Masă cervicală…" are doar E+M (Eco, IRM); „Mase cervicale ale
-    adultului" are E+M+**T** (și rând CT regiune cervicală și torace).
-  - **Comentarii**: text diferit — NR 1043 (IRM) menționează explicit tumoră parotidiană,
-    CT torace-abdomen-pelvis, PET-CT, endoscopie digestivă, bilanț preterapeutic gușă
-    retrosternală; NR 1019/1020 (IRM/CT) menționează orientarea după natura suspectată
-    (congenitală/dobândită/tumorală) și glande salivare/chist congenital.
-  - **De decis**: unificare (cu care set de examene și grad?) sau păstrare ca situații
-    distincte (poate: „origine necunoscută" = bilanț oncologic extins, „mase ale
-    adultului" = triaj inițial mai larg, incl. cauze congenitale). **PĂSTRATE ca duplicat**
-    — decizie editorială, neschimbate.
+> „Masă cervicală cu punct de plecare necunoscut" vs „Mase cervicale ale adultului" —
+> **REZOLVAT — comasate 2026-07-09**, vezi §A mai sus.
 
-- **Gât (părți moi) › Diverse — NR 1007/1008 vs Traumatisme › Corp străin — NR 250–252**
+- **Gât (părți moi) › Mase cervicale — NR 1007/1008 vs Traumatisme › Corp străin — NR 250–252**
   (2026-07-09) · „Corp străin faringian sau esofagian înalt" (Gât, fost Cap›ORL) vs
   „Ingestie de corp străin, situat la nivel faringian sau esofagian înalt" (Traumatisme).
   **Cvasi-duplicat cross-capitol** — text aproape identic, aceleași 2 examene comune:

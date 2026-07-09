@@ -963,10 +963,13 @@ situații) au fost relocate din „Cap › ORL" în „Gât (părți moi)":
 - **NR 1018–1020 „Mase cervicale ale adultului"** → subcapitolul **„Diverse"**, alături de
   **NR 1042–1043 „Masă cervicală cu punct de plecare necunoscut"**.
 
-**Unificarea celor două situații de masă cervicală NU a fost făcută** — rămân **cvasi-
-duplicat co-locat**, cu grade și seturi de examene diferite (grad Ecografie B vs C; fostul
-ORL are și rând CT, cel din Gât nu). De rezolvat separat de editori: vezi
-`DUPLICATE-review.md` §C. Detalii complete ale mutării în `CHANGELOG.md` §10, §11.
+✅ **Unificare — DECISĂ și APLICATĂ ulterior (2026-07-09, „do your best").** Cele două
+situații au fost **comasate** într-una singură — „Masă cervicală la adult, cu punct de
+plecare necunoscut" (NR 1042 E, 1043 M, 1020 T; NR 1018/1019 eliminate) — plus subcapitolul
+„Diverse" **redenumit „Mase cervicale"**. Detalii complete (inclusiv un fragment de text
+contaminat cu conținut de gușă, eliminat la comasare) în `CHANGELOG.md` §11
+(„DE-DUPLICAT + RESTRUCTURAT"). Fostă intrare în `DUPLICATE-review.md` §C mutată la
+„REZOLVATE".
 
 **Rămas nemutat, la „Cap › ORL"** (structuri ale capului, nu ale gâtului): TMJ,
 leziuni nazo-sinusale, patologie de ureche (colesteatom, urechea internă/medie,
@@ -1007,7 +1010,9 @@ rămâne subiectul unei decizii deschise separate (§8, §10 — nu face parte d
 - [Imaging of Neck and Facial Infections — Springer](https://link.springer.com/rwe/10.1007/978-3-031-78916-8_12)
 - [Obstructive Sialadenitis — Applied Radiology](https://appliedradiology.com/articles/obstructive-sialadenitis)
 
-> Status: **A decisă și aplicată** (mutare Cap›ORL → Gât, 2026-07-09) — rămâne deschisă doar
-> **de-duplicarea** „Mase cervicale ale adultului" / „Masă cervicală cu punct de plecare
-> necunoscut" (`DUPLICATE-review.md` §C). **3 propuneri de conținut** (B) rămân deschise.
-> Nicio modificare suplimentară de date până la decizia editorilor.
+> Status: **A decisă și aplicată integral** (mutare Cap›ORL → Gât + de-duplicare „Mase
+> cervicale ale adultului"/„Masă cervicală..." + redenumire subcapitol „Diverse" → „Mase
+> cervicale", 2026-07-09). Rămâne cvasi-duplicat cross-capitol **doar** „Corp străin
+> faringian sau esofagian înalt" vs `Traumatisme › Corp străin` (nerezolvat, vezi §8/§10 și
+> `DUPLICATE-review.md` §C). **3 propuneri de conținut** (B) rămân deschise. Nicio
+> modificare suplimentară de date până la decizia editorilor.
