@@ -1133,6 +1133,27 @@ necunoscut" (NR 1042–1043) vs „Mase cervicale ale adultului" (NR 1018–1020
 **Bilanț rânduri:** −2 (comasare) → capitolul „Gât (părți moi)" scade de la 1439 la
 **1437 rânduri**; 2 găuri noi (1018, 1019), tolerate per regula 3 din `CLAUDE.md`.
 
+### MODIFICAT — note clinice mutate din „Alte informații" în „Comentarii" (2026-07-09)
+
+La cererea editorului (opinie solicitată despre titluri/comentarii), 6 rânduri aveau note
+**clinice** puse greșit în coloana `Alte informații` — care per schema din `CLAUDE.md`
+(secțiunea „Decizii deja luate") e rezervată codurilor interne/referințelor, nu notelor
+clinice. Textul a fost mutat (adăugat ca frază finală) în `Comentarii`; `Alte informații`
+golit pe toate cele 6:
+
+- **NR 1007/1008** „Corp străin faringian sau esofagian înalt" — detalii despre
+  vizibilitatea radiologică a corpilor străini alimentari și semnele indirecte de
+  complicație.
+- **NR 1016** „Mase ale glandelor salivare" (IRM) — nota despre bilanțul adenopatiilor
+  cervicale asociat bilanțului tumoral local.
+- **NR 1021** „Obstrucția fluxului salivar" (Ecografie) — „Sensibilitate și specificitate
+  crescute."
+- **NR 1022** „Obstrucția fluxului salivar" (Sialo-IRM) — comparația cu sialografia
+  convențională.
+- **NR 1042** „Masă cervicală la adult, cu punct de plecare necunoscut" (Ecografie) —
+  nota despre rolul Doppler-ului, adăugată chiar de mine la comasarea anterioară în
+  coloana greșită; corectată acum.
+
 ## 12. Coloană vertebrală
 _NR 1093–1147_
 
