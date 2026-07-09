@@ -945,6 +945,38 @@ _NR 1075–1092_
 - **MUTAT —** 8 rânduri intervenționale (PCAFGE) relocate la RI: tiroidă/paratiroidă
   → Aparat endocrin; „Masă cervicală" → Oncologie.
 
+### MODIFICAT — Review capitol Gât (părți moi) (2026-07-09)
+
+Review complet al capitolului (checklist din `CLAUDE.md` › „Plan de lucru"), 18 rânduri
+(NR 1042–1059, subcapitolele „Diverse" și „Tiroidă, paratiroide"). Fără schimbări de grad,
+doză sau ordine a examenelor. Validare verde, 0 cedile.
+
+- **DE-DUPLICAT (Situație) — „Hiperparatiroidism" → „Hiperparatiroidie".** Aceeași situație
+  clinică era **scindată accidental** în două etichete diferite în același subcapitol:
+  **NR 1050** „Hiperparatiroidie" (Ecografie) și **NR 1051** „Hiperparatiroidism"
+  (Scintigrafie). Unificată la **„Hiperparatiroidie"**, prin paralelism cu situațiile-soră
+  din subcapitol („Hipertiroidie", „Hipotiroidie"); cele două examene stau acum sub o
+  singură situație. Rândurile nu au fost comasate. (Preferința de terminologie „-ie" vs
+  „-ism" e semnalată în `EDITORIAL-decisions.md` §21.)
+- **MODIFICAT (Examen) — normalizare la convenția dominantă.** „Eco-doppler al vaselor
+  cervico-craniene" → „Eco Doppler al vaselor cervico-craniene" (NR 1044; forma dominantă
+  pe fișier „Eco Doppler", plus capitalizarea „Doppler"). „Scintigrafie (99mTc**- **Sestamibi)"
+  → „…(99mTc-Sestamibi)" (NR 1051, spațiu parazit după cratimă).
+- **MODIFICAT (Comentarii) — diacritice și typo-uri**, doar unde forma corectă e neambiguă:
+  „fara"→„fără" (NR 1049), „tintite"→„țintite" și „depisatarea"→„depistarea" (NR 1050),
+  „hipetiroidie"→„hipertiroidie" (NR 1052), „hipertiroidie si tipurile"→„…și tipurile"
+  (NR 1058).
+- **MODIFICAT (normalizare) — spații/newline parazite.** Spații duble în Comentarii
+  (NR 1043, 1048, 1049), spațiu înainte de punctul final (NR 1044), spațiu final
+  (NR 1057, 1058), `\n` final în câmpul Examen (NR 1053, 1055), spațiu dublu în eticheta
+  Situației + `\n\n` final în Comentarii (NR 1056).
+- **VERIFICAT (Tip ↔ Examen) — conform.** Toate cele 16 rânduri reale au codul modalității
+  concordant cu denumirea examenului (E/Ecografie, M/IRM, N/Scintigrafie); nicio corecție.
+- **SEMNALAT (încadrare) — „Suflu carotidian asimptomatic" (NR 1044).** Situație
+  esențialmente **vasculară** (eco-Doppler de trunchiuri supra-aortice) plasată într-un
+  capitol de părți moi cervicale → posibilă mutare la Aparat cardiovascular. Flag în
+  `EDITORIAL-decisions.md` §21 — neschimbată unilateral.
+
 ## 12. Coloană vertebrală
 _NR 1093–1147_
 

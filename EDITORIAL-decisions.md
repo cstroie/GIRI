@@ -903,3 +903,32 @@ alt capitol): screening HCC în ciroză și stadializările → **Cancer**; trau
 > Status: **13 propuneri deschise** (2026-07-09) — 4 lacune majore, 5 parțial acoperite, 4 rafinări.
 > Gradele/indicațiile propuse sunt orientative (aliniate ACR AC / RCR iRefer / ESGAR) și rămân
 > de validat de editori înainte de inserarea în `GHID.csv`. Nicio modificare de date până la decizie.
+
+---
+
+## 21. Gât (părți moi) — chestiuni ridicate la review (2026-07-09)
+
+Din reviewul capitolului „Gât (părți moi)" (NR 1042–1059). Modificările mecanice
+(diacritice, normalizare, de-duplicarea etichetei) au fost aplicate — vezi `CHANGELOG.md`
+§11. Rămân două chestiuni de decizie editorială:
+
+1. **Terminologie: „Hiperparatiroidie" vs „Hiperparatiroidism".** La de-duplicarea
+   etichetei (NR 1050 „Hiperparatiroidie" / NR 1051 „Hiperparatiroidism" — aceeași situație,
+   scindată accidental), am unificat la **„Hiperparatiroidie"** prin paralelism cu situațiile
+   din același subcapitol („Hipertiroidie", „Hipotiroidie", forma „-ie"). În endocrinologia
+   română forma **„hiperparatiroidism" (-ism)** este însă cel puțin la fel de răspândită
+   (primar/secundar/terțiar). **De confirmat** preferința; dacă editorii preferă „-ism",
+   e o schimbare de un cuvânt (și, prin consecvență, s-ar putea revizui și „hiper/hipotiroidie"
+   → „-ism", decizie de vocabular pe tot ghidul).
+
+2. **Încadrare: „Suflu carotidian asimptomatic" (NR 1044).** Situația este esențialmente
+   **vasculară** — investigația unică e „Eco Doppler al vaselor cervico-craniene" (trunchiuri
+   supra-aortice), workup identic cu evaluarea stenozelor carotidiene din **Aparat
+   cardiovascular**. Aflată azi la „Gât (părți moi) › Diverse", venind din capitolul anatomic
+   de origine. Per ierarhia de încadrare, un topic vascular cerebro-cervical ar sta mai
+   degrabă la **Aparat cardiovascular** (unde există deja evaluarea trunchiurilor
+   supra-aortice). **De decis** mutarea; neschimbată unilateral (încadrare de capitol =
+   decizie editorială).
+
+> Status: **2 chestiuni deschise** (2026-07-09). Nicio modificare suplimentară de date
+> până la decizie.
