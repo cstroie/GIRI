@@ -171,12 +171,18 @@ organ-sistem în Traumatisme.
 ⏳ **De discutat mai departe — „Corp străin" conține două lucruri diferite:**
 - **„Traumatism de părți moi cu suspiciune de corp străin"** (metal, sticlă, lemn) —
   penetrant, **clar traumă**. ✓ rămâne.
-- **„Ingestie de corp străin, situat la nivel faringian sau esofagian înalt"** — corp
-  străin **ingerat**, care e mai degrabă patologie **digestivă / ORL**, nu traumă. Paralel
-  cu decizia pediatrică (corpul străin la copil → capitolul Torace/respirator, nu Traumatisme).
-  **Decizie (utilizator): rămâne deocamdată în Traumatisme › Corp străin**, dar de reevaluat:
-  se mută la Aparat digestiv (sau un capitol ORL / căi aero-digestive), lăsând „Corp străin"
-  = doar corpul străin penetrant de părți moi? De discutat în echipă.
+- **„Ingestie de corp străin, situat la nivel faringian sau esofagian înalt"** (NR 250–252)
+  — corp străin **ingerat**, care e mai degrabă patologie **digestivă / ORL**, nu traumă.
+  Paralel cu decizia pediatrică (corpul străin la copil → capitolul Torace/respirator, nu
+  Traumatisme). **Decizie (utilizator): rămâne deocamdată în Traumatisme › Corp străin**, dar
+  de reevaluat: se mută la Aparat digestiv (sau un capitol ORL / căi aero-digestive), lăsând
+  „Corp străin" = doar corpul străin penetrant de părți moi? De discutat în echipă.
+  **Actualizare 2026-07-09:** versiunea aproape identică din `Cap › ORL` (NR 1007–1008,
+  „Corp străin faringian sau esofagian înalt") a fost **mutată la Gât (părți moi) › Diverse**
+  (la cerere) — vezi §10 mai jos. Rezultă un **cvasi-duplicat cross-capitol**
+  Traumatisme/Corp străin ↔ Gât (părți moi)/Diverse, nerezolvat — aceeași întrebare de fond
+  (ORL/digestiv vs traumă), acum cu trei capitole candidate. Consemnat în
+  `DUPLICATE-review.md` §C.
 
 ---
 
@@ -213,9 +219,13 @@ CHANGELOG §10 (−23 rânduri). Perechile reconciliate:
 - `Cap › ORL: stâncă temporală / 1/3 centrală a feței / mandibulă / nazal` → duplicau omologii
   din `Față și orbite` (la mandibulă, Traumatisme are OPG „Indicat" + Alte informații mai complete).
 
-**Rămas de decis (§8):** `Cap › ORL → Corp străin faringian sau esofagian înalt` — corp străin
-**ingerat**, NEmutat (aceeași chestiune ca `Traumatisme › Corp străin: Ingestie…` — ORL/digestiv
-vs traumă). De decis împreună.
+✅ **REZOLVAT (2026-07-09) — mutat, nu comasat.** `Cap › ORL → Corp străin faringian sau
+esofagian înalt` (NR 1007–1008) — corp străin **ingerat** — a fost mutat la cerere în
+**`Gât (părți moi) › Diverse`** (NR.CRT neschimbate). Rămâne totuși **aproape identic** cu
+`Traumatisme › Corp străin: Ingestie de corp străin, situat la nivel faringian sau esofagian
+înalt` (NR 250–252) — chestiunea de fond (ORL/digestiv vs traumă, §8) **nu e rezolvată**,
+doar relocată: acum e un duplicat între Gât (părți moi) și Traumatisme, nu între Cap și
+Traumatisme. Vezi `DUPLICATE-review.md` §C.
 
 **Fals-pozitive (NU sunt traumă acută — rămân unde sunt, confirmat):**
 - `Coloană › Bilanț fractură vertebrală spontană` (fractură spontană/patologică).

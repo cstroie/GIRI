@@ -69,6 +69,28 @@ spații parazite). Nu s-au comasat rânduri. Forma canonică rezultată:
     adultului" = triaj inițial mai larg, incl. cauze congenitale). **PĂSTRATE ca duplicat**
     — decizie editorială, neschimbate.
 
+- **Gât (părți moi) › Diverse — NR 1007/1008 vs Traumatisme › Corp străin — NR 250–252**
+  (2026-07-09) · „Corp străin faringian sau esofagian înalt" (Gât, fost Cap›ORL) vs
+  „Ingestie de corp străin, situat la nivel faringian sau esofagian înalt" (Traumatisme).
+  **Cvasi-duplicat cross-capitol** — text aproape identic, aceleași 2 examene comune:
+  - **G** Radiografie părți moi cervicale de profil — „Doar în cazuri particulare" — grad
+    **B**, ambele capitole, text parafrazat identic (corp străin nevizualizat clinic;
+    mulți corpi străini alimentari nu se văd pe radiografie; semne indirecte).
+  - **T** CT regiune cervicală și torace — „Doar în cazuri particulare" — grad **B**, ambele
+    capitole, text parafrazat identic (CT mai sensibil; înlocuiește Rg dacă se suspectează
+    complicație).
+  - **Diferență**: Traumatisme are un **al treilea rând** (NR 252, Tip Z, Neindicat) —
+    examenul orofaringian clinic e de primă intenție, imagistica nu e indicată înainte de
+    acesta. Gât (fostul Cap›ORL) nu are acest rând.
+  - **Context**: chestiune de fond ridicată în `EDITORIAL-decisions.md` §8 — corpul străin
+    **ingerat** e mai degrabă patologie digestivă/ORL decât traumă; decizia anterioară
+    lăsase versiunea Cap pe loc „provizoriu". Mutarea (2026-07-09, la cerere) a relocat
+    duplicatul de la Cap la Gât, **fără să rezolve** dacă home-ul corect e Traumatisme,
+    Gât (părți moi), sau ambele cu roluri diferite (acut/traumă vs bilanț general).
+  - **De decis**: unificare într-un singur capitol (care?) sau păstrare distinctă cu
+    etichete care clarifice diferența de context (urgență/ingestie acută vs bilanț ORL
+    general). **PĂSTRATE ca duplicat** — decizie editorială, neschimbate.
+
 ## D. Consolidarea oncologiei (Cancer, 2026-07-08) — conflicte de grad
 
 La mutarea conținutului oncologic din Aparat digestiv și Cap către Cancer (vezi

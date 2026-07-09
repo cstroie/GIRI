@@ -943,14 +943,20 @@ _NR 950–1065 (23 găuri)_
   - **SALVAT** în Traumatisme: comentariul clinic al radiografiei nazale (examen clinic
     primordial; o radiografie normală nu exclude fractura de oase nazale) — adăugat la
     `Traumatisme › Față și orbite: Traumatism nazal` (unde lipsea).
-  - **NEMUTAT**: „Corp străin faringian sau esofagian înalt" (ORL) — corp străin **ingerat**,
-    subiectul deciziei deschise (ORL/digestiv vs traumă). Vezi `EDITORIAL-decisions.md` §8, §10.
+  - **NEMUTAT la acel moment**: „Corp străin faringian sau esofagian înalt" (ORL) — corp
+    străin **ingerat**, subiectul deciziei deschise (ORL/digestiv vs traumă). Vezi
+    `EDITORIAL-decisions.md` §8, §10. **Mutat ulterior** — vezi bullet-ul de mai jos.
   - Fără renumerotare → 23 găuri în capitolul Cap. (−23 rânduri)
 - **MUTAT — consolidare anatomică → Gât (părți moi)** (2026-07-09). Subcapitolul „ORL"
-  conținea 3 situații despre structuri **cervicale**, nu ale capului (glande salivare, mase
-  cervicale) — semnalate la reviewul Gât (`EDITORIAL-decisions.md` §22) și mutate la cerere.
-  **12 rânduri** relocate; detalii complete în §11. „Corp străin faringian sau esofagian
-  înalt" **rămâne nemutat** (decizie deschisă separată, nu face parte din acest lot).
+  conținea situații despre structuri **cervicale**, nu ale capului (glande salivare, mase
+  cervicale, corp străin faringo-esofagian) — semnalate la reviewul Gât
+  (`EDITORIAL-decisions.md` §22) și mutate la cerere, în două loturi:
+  - **12 rânduri** (glande salivare + mase cervicale ale adultului); detalii complete în §11.
+  - **2 rânduri** — „Corp străin faringian sau esofagian înalt" (NR 1007–1008) → Gât
+    (părți moi) › Diverse. Rămâne **cvasi-duplicat** cu `Traumatisme › Corp străin:
+    Ingestie de corp străin…` (NR 250–252) — chestiunea de fond (ORL/digestiv vs traumă,
+    §8) tot nerezolvată, doar relocată. Vezi `DUPLICATE-review.md` §C și
+    `EDITORIAL-decisions.md` §8/§10.
 
 ## 11. Gât (părți moi)
 _NR 1075–1092_
@@ -1055,8 +1061,7 @@ neschimbat, doar `Capitol`/`Subcapitol`. NR.CRT neschimbate (mutare, nu renumero
   subcapitolul **„Diverse"**, alături de „Masă cervicală cu punct de plecare necunoscut"
   (NR 1042–1043).
 - **NU mutat**: TMJ, tumori nazo-sinusale, patologie de ureche, sinuzite, tulburări de
-  miros — rămân la „Cap › ORL" (structuri ale capului, nu ale gâtului); „Corp străin
-  faringian sau esofagian înalt" rămâne nemutat (decizie deschisă separată, §8/§10 Cap).
+  miros — rămân la „Cap › ORL" (structuri ale capului, nu ale gâtului).
 
 **⚠️ Cvasi-duplicat co-locat, nerezolvat.** „Mase cervicale ale adultului" (NR 1018–1020,
 fost Cap›ORL) și „Masă cervicală cu punct de plecare necunoscut" (NR 1042–1043) descriu
@@ -1065,6 +1070,23 @@ diferite** (fostul ORL are și rând CT, cel din Gât nu; grad Ecografie B vs C)
 co-locate în același subcapitol, dar **NU comasate** — duplicat cu conținut diferit,
 decizie editorială. Vezi `DUPLICATE-review.md` §C și `EDITORIAL-decisions.md` §22
 (actualizat, decis și aplicat).
+
+### MUTAT — „Corp străin faringian sau esofagian înalt" (2026-07-09, la cerere)
+
+**NR 1007–1008** mutate din „Cap › ORL" în **„Gât (părți moi) › Diverse"** (poziționat
+alfabetic, primul din subcapitol — „Corp străin..." < „Masă cervicală..."). Conținutul
+clinic neschimbat, doar `Capitol`/`Subcapitol`; NR.CRT neschimbate.
+
+**⚠️ Cvasi-duplicat cross-capitol, nerezolvat — mutat, nu rezolvat.** Situația e aproape
+identică (text parafrazat, aceleași 2 examene: Radiografie părți moi cervicale de profil +
+CT regiune cervicală și torace, ambele grad B) cu **`Traumatisme › Corp străin: Ingestie de
+corp străin, situat la nivel faringian sau esofagian înalt`** (NR 250–252, care are în plus
+un al treilea rând, Tip Z, despre examenul orofaringian de primă intenție). Decizie
+editorială anterioară (`EDITORIAL-decisions.md` §8) lăsase versiunea din Traumatisme pe loc,
+ca „subiect al deciziei deschise (ORL/digestiv vs traumă)"; mutarea de acum **relochează**
+duplicatul de la Cap la Gât, nu-l elimină. De decis: unificare (și în care capitol?) sau
+păstrare distinctă (traumă/ingestie acută vs bilanț ORL general). Vezi
+`DUPLICATE-review.md` §C.
 
 ## 12. Coloană vertebrală
 _NR 1093–1147_
