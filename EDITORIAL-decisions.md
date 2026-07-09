@@ -384,7 +384,7 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 
 ---
 
-## 14. Sân — goluri de conținut față de ghidurile de referință (2026-07-09)
+## 15. Sân — goluri de conținut față de ghidurile de referință (2026-07-09)
 
 Analiză de omisiuni a capitolului 9 față de practica curentă (**ACR Appropriateness
 Criteria**, **NCCN Breast Cancer Screening and Diagnosis**), în paralel cu §3 (Pediatrie),
@@ -459,7 +459,156 @@ de confirmat pe documentul-sursă înainte de a fixa gradele definitive.
 
 ---
 
-## 15. Torace — chestiuni de încadrare rămase după review (2026-07-08)
+## 16. Cancer — goluri de conținut, subcapitol cu subcapitol (2026-07-09)
+
+Trecere a doua, mai profundă, prin cele **29 de subcapitole** ale capitolului Cancer
+(dincolo de golurile de fază „Monitorizare" deja inventariate în §11), în paralel cu §13
+(Cardiovascular) și §15 (Sân). Surse: **NCCN Guidelines**, **ESMO Clinical Practice
+Guidelines**, **ACR Appropriateness Criteria**, ghiduri de societate (Fleischner, IMWG,
+EAU/EANM/SNMMI). **Schițe — de validat clinic de editori**; gradele sunt orientative.
+Temele marcate „✓ verificat live" au fost confirmate prin căutare directă; restul vin din
+cunoașterea ghidurilor și trebuie reconfirmate pe sursă înainte de a fixa grade/doze.
+Subcapitolele cu acoperire bună sunt listate scurt, fără propunere.
+
+### 16.1 Adenopatii cervicale — acoperire bună
+Workup-ul pentru „unknown primary" e complet (IRM, CT, PET-CT). Fără propuneri.
+
+### 16.2 Cancer anal — acoperire bună
+Diagnostic/Stadializare/Monitorizare complete și coerente cu ghidurile.
+
+### 16.3 Cancer bronho-pulmonar — 2 goluri majore ✓ verificat live
+- **Screeningul pentru cancer pulmonar la fumători (LDCT).** **Absent complet** din tot
+  ghidul. Temă majoră, foarte frecventă în practică — NCCN (categoria 1) și USPSTF
+  recomandă CT low-dose anual la risc înalt (schema „50-80-20-15": 50–80 ani, ≥20
+  pachete-an, fumător activ sau renunțare <15 ani). Propunere — situație nouă „Screening
+  cancer pulmonar (fumători cu risc înalt)" în „Paciente/pacienți asimptomatici" (subcapitol
+  nou, analog structurii din Sân) sau ca situație în Cancer bronho-pulmonar:
+  - CT toracic low-dose, fără contrast = *Indicat, grad A* — anual, la populația eligibilă.
+- **Algoritmul de urmărire a nodulului pulmonar solitar incidental.** **Absent** ca traseu
+  explicit — capitolul tratează direct suspiciunea clinică de cancer, nu incidentalomul
+  descoperit pe un CT făcut din alt motiv. Ghid de referință: **Fleischner Society 2017**
+  (praguri pe dimensiune + risc, solid vs subsolid, interval 3-12-24 luni, până la 5 ani
+  pentru nodulii subsolizi). Propunere — situație nouă „Nodul pulmonar solitar incidental —
+  urmărire":
+  - CT toracic de control = *Indicat, grad B* — interval stabilit după criteriile Fleischner
+    (dimensiune, solid/subsolid, risc pacient); sub 6 mm la risc scăzut = fără urmărire.
+
+### 16.4 Cancer de col uterin — 1 gol ✓ verificat live
+- **PET-CT absent din Stadializare** (are doar IRM + CT). NCCN recomandă explicit PET-CT
+  pentru evaluarea ganglionilor para-aortici din stadiul IB1 în sus, mai ales pentru
+  planificarea câmpului de radioterapie în boala local-avansată (IB2–IVA). Propunere:
+  - PET-CT (F18-FDG) = *Indicat, grad B* — stadiul IB2 și mai avansat, evaluare
+    ganglionară para-aortică / planificare radioterapie. (Notă: sensibilitate limitată
+    pentru metastaze ganglionare <5 mm — fals-negativ posibil, nu exclude stadializarea
+    chirurgicală la caz selectat.)
+
+### 16.5 Cancer de colon — acoperire bună
+
+### 16.6 Cancer de corp uterin — acoperire relativ bună
+Fără goluri majore de modalitate imagistică identificate.
+
+### 16.7 Cancer de rect — acoperire bună
+
+### 16.8 Cancer esofagian — acoperire relativ bună
+Diagnosticul endoscopic e corect reflectat (imagistica doar completare).
+
+### 16.9 Cancer gastric — acoperire relativ bună
+
+### 16.10 Cancer laringian și al hipofaringelui — acoperire bună
+
+### 16.11 Cancer ovarian — acoperire bună
+
+### 16.12 Cancer pancreatic — acoperire bună (deja completat la consolidare)
+
+### 16.13 Tumori neuroendocrine gastro-entero-pancreatice (GEP-NET) — acoperire bună
+(subcapitol nou, construit la consolidare)
+
+### 16.14 Cancer prostatic — 2 goluri majore ✓ verificat live
+- **IRM multiparametrică (mpMRI) încadrată greșit ca linia a doua.** În ghid, IRM apare
+  doar „Doar în cazuri particulare — suspiciune clinică + biopsie ecoghidată negativă"
+  (adică *după* o biopsie negativă). Practica actuală (NCCN, EAU) recomandă **mpMRI
+  ÎNAINTE de biopsie**, ca instrument de selecție a candidaților și de ghidare a biopsiei
+  țintite (protocol PI-RADS). **Nu modific gradul/încadrarea singur** (regulă CLAUDE.md) —
+  semnalez pentru decizia editorilor: posibilă reformulare a situației „Diagnostic" pentru
+  a reflecta mpMRI pre-biopsie ca prim pas, nu doar ca recurs post-biopsie negativă.
+- **PSMA PET-CT absent complet.** A devenit modalitate de stadializare standard pentru risc
+  intermediar-înalt (superioară CT+scintigrafie osoasă convențională pentru detecția
+  metastazelor ganglionare/osoase oculte) și pentru recidiva biochimică — susținută
+  convergent de EAU, ESMO, NCCN (ghid comun EANM/SNMMI 2.0). Propunere — rând nou în
+  Stadializare:
+  - PSMA PET-CT = *Indicat / Doar cu aviz specializat, grad B* — risc intermediar-înalt la
+    diagnostic (stadializare ganglionară/osoasă) sau recidivă biochimică post-tratament.
+
+### 16.15 Cancer testicular — acoperire bună
+
+### 16.16 Cancer tiroidian — acoperire relativ bună
+
+### 16.17 Cancer vezical — acoperire relativ bună
+
+### 16.18 Cancerul de căi aero-digestive superioare — acoperire bună
+
+### 16.19 Cancerul nazofaringian — acoperire bună
+
+### 16.20 Cancerul parotidian — acoperire bună
+
+### 16.21 Cancerul renal — acoperire bună
+
+### 16.22 Ficat, colecist și pancreas — acoperire bună (scop îngust, intenționat)
+
+### 16.23 Limfom — 1 gol major de capitol (nu doar subcapitol) ✓ verificat live
+- **Mielomul multiplu lipsește complet din tot ghidul** — nicio mențiune, în niciun
+  capitol. E o malignitate hematologică distinctă de limfom, cu workup imagistic propriu
+  și foarte specific (**IMWG Bone Working Group**): CT whole-body low-dose ca primă linie
+  pentru boala osoasă (mai sensibil decât radiografia convențională), IRM pentru cazurile
+  fără alte „myeloma-defining events" pe CT, PET-CT FDG ca standard pentru evaluare
+  funcțională/răspuns la tratament. Propunere: **subcapitol nou „Mielom multiplu"** în
+  Cancer (analog GEP-NET ca precedent de subcapitol nou creat la nevoie), cu situații
+  Diagnostic + Monitorizare:
+  - CT whole-body low-dose = *Indicat, grad A* — primă linie pentru boala osoasă litică.
+  - IRM (coloană/whole-body) = *Indicat, grad B* — la CT neconcludent sau fără leziuni
+    definitorii; superior pentru afectarea medulară difuză.
+  - PET-CT (F18-FDG) = *Indicat, grad B* — evaluare funcțională, răspuns la tratament,
+    boală extramedulară.
+
+### 16.24 Melanom malign — acoperire bună
+(absența situației „Diagnostic" e intenționată — diagnostic prin biopsie excizională,
+menționat explicit în comentariul de la Stadializare, consecvent cu restul ghidului).
+
+### 16.25 Metastaze cu tumoră primară necunoscută — acoperire bună
+
+### 16.26 Tumori ale aparatului locomotor — 1 gol (completare la §11)
+Lipsește complet faza de **Monitorizare** (urmărire post-tratament pentru recidivă locală
+sau metastaze la distanță după rezecția unui sarcom osos/de părți moi) — subcapitolul are
+doar „bilanț diagnostic" și „bilanț de extensie". Nu a fost inclus în lista din §11 (care
+viza doar subcapitolele cu axa Diagnostic/Stadializare/Monitorizare standard). Propunere:
+- CT toracic = *Indicat, grad B* — supraveghere metastaze pulmonare (sarcoame osoase).
+- IRM loco-regională = *Indicat, grad B* — supraveghere recidivă locală.
+- Radiografie standard = *Doar în cazuri particulare, grad C* — supraveghere de rutină,
+  acces limitat.
+
+### 16.27 Tumori cerebrale și medulare — acoperire bună
+
+### 16.28 Tumori maligne primare hepatice — gol Monitorizare (deja în §11)
+
+### 16.29 Tumori maligne secundare hepatice — gol Stadializare + Monitorizare
+Deja notat în §11; posibil intenționat — scop îngust pe detecție/caracterizare.
+
+### 16.30 Goluri la nivel de capitol (cancere absente complet din grupul ginecologic)
+- **Cancer de vulvă / cancer vaginal** — absente din grupul ginecologic (există doar col
+  uterin, corp uterin, ovarian). Prevalență mai mică, dar workup imagistic distinct
+  (IRM pelvină pentru stadializare loco-regională, similar cu col uterin). De evaluat
+  prioritatea de adăugare.
+- **Cancer de penis** — absent, prevalență redusă; menționat doar ca prioritate scăzută.
+
+> Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
+> se adaugă cu grade/doze validate pe sursă citabilă (NCCN/ESMO/ACR AC/IMWG/EAU) și se
+> consemnează în CHANGELOG. Cele două goluri cu impact clinic cel mai mare, în opinia mea:
+> **screeningul LDCT pentru cancerul pulmonar** (§16.3) și **mielomul multiplu absent
+> complet** (§16.23) — ambele teme majore, frecvente în practică, complet neacoperite.
+
+---
+
+## 17. Torace — chestiuni de încadrare rămase după review (2026-07-08)
 
 Ridicate la reviewul capitolului 5 (vezi CHANGELOG §5). Corecturile mecanice (ortografie,
 diacritice, normalizare, spații) au fost aplicate; cele două chestiuni de **încadrare pe
@@ -510,7 +659,7 @@ au fost între timp **tranșate de editor** — status mai jos:
 
 ---
 
-## 16. Torace — omisiuni de patologie (propuneri de adăugat)
+## 18. Torace — omisiuni de patologie (propuneri de adăugat)
 
 Din analiza capitolului Torace (NR 664–727) față de tabelele de indicații toracice din
 **ACR Appropriateness Criteria, NICE și RCR iRefer**. Patologii frecvente aparent neacoperite
