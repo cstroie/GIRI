@@ -815,6 +815,11 @@ de-duplicare, încadrare). Fără schimbări de grad/doză/ordine a examenelor.
 
 Capitol: **70 → 65 rânduri** (1 mutat la Cancer, 4 comasate). NR.CRT rămân neschimbate
 (găuri tolerate la 786–788, 794 — vezi regula 3).
+- **DESCHIS — omisiuni de patologie față de ghiduri** (`EDITORIAL-decisions.md §20`, 13 propuneri):
+  colecistită acută (+ HIDA, absentă din capitol), apendicită / diverticulită acută ca situații
+  proprii, ischemie mezenterică, hipertensiune portală, steatoză/fibroză (NAFLD), fistulă
+  perianală, chist hidatic ș.a. Aliniate ACR AC / RCR iRefer / ESGAR; **neinserate** (așteaptă
+  decizia editorilor).
 
 ## 7. Aparat uro-genital și glande suprarenale
 _NR 807–875_

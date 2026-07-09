@@ -787,3 +787,90 @@ de situația „Sângerare gastro-intestinală acută" (CT prima intenție).
 (scintigrafie + PET-CT într-un loc; videocapsulă/entero-CT/eco/IRM în altul), dar cu
 **etichetă identică** → se consolidează automat în vizualizarea HTML (gruparea e pe
 Capitol → Subcapitol → Situație). Nu necesită acțiune; notat pentru claritate.
+
+---
+
+## 20. Aparat digestiv — omisiuni de patologie față de ghiduri (propuneri de adăugat, 2026-07-09)
+
+Verificare a capitolului (65 rânduri) față de **ACR Appropriateness Criteria (AC)**, **RCR
+iRefer** și **ESGAR/ESGE**. Se listează situații clinice diagnostice **non-oncologice**
+absente sau doar parțial acoperite. **Nimic nu s-a inserat în `GHID.csv`** — gradele/indicațiile
+propuse sunt orientative și **de validat de editori** înainte de adăugare. Excluse (au home în
+alt capitol): screening HCC în ciroză și stadializările → **Cancer**; trauma abdominală →
+**Traumatisme**; drenaje/embolizări/TIPS → **RI**; variantele pediatrice → **Pediatrie**.
+
+### 20.1 Lacune majore (topicuri AC dedicate, frecvente, fără situație proprie)
+
+- ⏳ **Durere în hipocondrul drept — suspiciune de colecistită acută** (→ `Ficat, colecist și
+  pancreas`). Azi „Patologie biliară (litiazică)" acoperă calculii, **nu** inflamația acută.
+  - Ecografie abdominală = *Indicat, B* (prima intenție).
+  - **Scintigrafie biliară (colescintigrafie / HIDA)** = *Doar în cazuri particulare, B* — când
+    ecografia e echivocă (sensibilitate/specificitate superioare pentru colecistita acută).
+    **NB: HIDA lipsește complet din tot capitolul digestiv.**
+  - CT abdominal cu contrast = *Doar în cazuri particulare* (complicații, diagnostic alternativ).
+  - IRM + colangio-IRM = *Doar în cazuri particulare* (echivoc, gravide, coledocolitiază asociată).
+  - Ref.: ACR AC *Right Upper Quadrant Pain*.
+
+- ⏳ **Durere în fosa iliacă dreaptă — suspiciune de apendicită acută (adult)** (→ `Tub digestiv`).
+  Azi doar în comentariul CT/Eco de la „Durerea abdominală acută"; AC îi dedică topic propriu.
+  - CT abdomen și pelvis cu contrast = *Indicat, A/B* (adult, prima intenție).
+  - Ecografie = *Doar în cazuri particulare* (pacient slab; **Indicat** la gravide/copii — copiii → Pediatrie).
+  - IRM fără contrast = *Doar în cazuri particulare* (gravide).
+  - Ref.: ACR AC *Right Lower Quadrant Pain — Suspected Appendicitis* (2022).
+
+- ⏳ **Durere în fosa iliacă stângă — suspiciune de diverticulită acută** (→ `Tub digestiv`).
+  Azi doar menționată în comentariul CT de la „Durerea abdominală acută".
+  - CT abdomen și pelvis cu contrast = *Indicat, A/B* (prima intenție; stadializare Hinchey).
+  - Ecografie = *Doar în cazuri particulare*.
+  - Ref.: ACR AC *Left Lower Quadrant Pain — Suspected Diverticulitis*.
+
+- ⏳ **Ischemie mezenterică (acută / cronică)** (→ `Tub digestiv`). Complet absentă. Patologie
+  vasculară abdominală, dar **non-traumatică** → home în digestiv (Traumatisme = doar vascular traumatic).
+  - Angio-CT abdomen și pelvis = *Indicat, A/B* (prima intenție, acut și cronic).
+  - Angio-IRM abdomen și pelvis = *Doar în cazuri particulare* (cronic; insuficiență renală).
+  - Eco Doppler = *Doar în cazuri particulare* (screening / formă cronică).
+  - Ref.: ACR AC *Imaging of Mesenteric Ischemia*.
+
+### 20.2 Lacune reale, parțial acoperite / mai înguste
+
+- ⏳ **Boală hepatică cronică difuză — steatoză / fibroză / cuantificare (NAFLD-MASLD)** (→ `Ficat…`).
+  - Ecografie ± elastografie (shear-wave) = *Indicat, B* (screening steatoză, stadializare fibroză).
+  - IRM (PDFF / elastografie-RM) = *Doar cu aviz specializat, B* (cuantificare grăsime/fier, fibroză).
+  - Non-oncologic (screening HCC în ciroză rămâne la Cancer › Tumori maligne primare hepatice).
+
+- ⏳ **Hipertensiune portală / tromboză de venă portă / evaluare vasculară hepatică** (→ `Ficat…`).
+  - Eco Doppler abdominal = *Indicat, B* (prima intenție: flux/permeabilitate portală, colaterale, Budd-Chiari).
+  - CT / IRM cu contrast (fază venoasă/portală) = *Indicat / Doar în cazuri particulare* (cartografiere,
+    tromboză tumorală vs. blandă, evaluare pre-TIPS — procedura însăși = RI).
+
+- ⏳ **Suspiciune de abces hepatic / colecție intraabdominală (non-postoperator)** (→ `Ficat…` sau `Tub digestiv`).
+  - Ecografie = *Indicat* (prima intenție); CT abdomen cu contrast = *Indicat* (caracterizare; drenajul = RI).
+  - Azi acoperit doar tangențial (fistulă biliară postop, durere abdominală acută).
+
+- ⏳ **Fistulă perianală / boală perianală (inclusiv Crohn perianal)** (→ `Tub digestiv`).
+  Azi doar o mențiune în comentariul IRM de la „Maladie inflamatorie a colonului".
+  - IRM pelvin (protocol fistulă) = *Indicat, A/B* (standard de aur).
+  - Ecografie endoanală = *Doar cu aviz specializat*.
+  - Ref.: ESGAR; ACR AC *Crohn Disease*.
+
+- ⏳ **Chist hidatic hepatic / echinococoză** (→ `Ficat…`). Relevanță endemică (RO).
+  - Ecografie = *Indicat, B* (clasificare WHO-IWGE / Gharbi); CT / IRM = *Doar în cazuri particulare*
+    (localizări dificile, complicații biliare, planificare terapeutică).
+
+### 20.3 Rafinări (situații distincte din situații/etichete existente)
+
+- ⏳ **Perforație de organ cavitar / pneumoperitoneu (non-esofagian)** — azi doar perforația
+  **esofagiană** are situație; perforația gastro-duodenală/colonică apare doar în comentarii
+  („Durerea abdominală acută", „Sindrom ocluziv"). Radiografie în ortostatism + CT cu contrast
+  oral/i.v. De decis dacă merită situație proprie.
+- ⏳ **Colangită sclerozantă primitivă / evaluarea căilor biliare (colangio-IRM)** — azi doar
+  mențiune în „Icter" și „Patologie biliară". Posibilă situație proprie (MRCP = examen de referință).
+- ⏳ **Achalazie / tulburări de motilitate esofagiană** — tranzit baritat cronometrat (timed barium
+  esophagogram); azi parțial sub „Disfagia înaltă sau joasă".
+- ⏳ **Defecografie / disfuncție de planșeu pelvin posterior** (constipație de evacuare, prolaps,
+  intususcepție rectală) — MR-defecografie / defecografie fluoroscopică. **Încadrare de decis:**
+  `Tub digestiv` vs. `Obstetrică și ginecologie` (planșeu pelvin).
+
+> Status: **13 propuneri deschise** (2026-07-09) — 4 lacune majore, 5 parțial acoperite, 4 rafinări.
+> Gradele/indicațiile propuse sunt orientative (aliniate ACR AC / RCR iRefer / ESGAR) și rămân
+> de validat de editori înainte de inserarea în `GHID.csv`. Nicio modificare de date până la decizie.
