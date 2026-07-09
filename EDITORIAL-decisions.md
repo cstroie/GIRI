@@ -1149,3 +1149,101 @@ NU aplicate — decizie editori)
 > decizia editorilor pentru 24.A (situații noi) și 24.B (reconsiderare grad scintigrafie
 > suprarenaliană / adăugare DOTATATE); apoi se adaugă/ajustează cu grade validate pe sursă
 > citabilă și se consemnează în `CHANGELOG.md`. 24.C rămas informativ, prioritate scăzută.
+
+---
+
+## 25. Fostul „Uter și anexe" — capitol scris superficial: doar terapeutic, fără diagnostic
+(observație utilizator, 2026-07-09)
+
+**Observația utilizatorului, confirmată de verificare:** subcapitolul „Aparat uro-genital ›
+Uter și anexe", eliminat la review (§5/§23, CHANGELOG §7) fiindcă rămăsese doar cu rândul-
+placeholder Z, nu era gol întâmplător — **conținea de la bun început, în sursa originală,
+exclusiv proceduri Tip I** (embolizare / HSG / angiografie), **fără nicio linie de
+diagnostic** (ecografie/IRM) pentru ele. Nu e un artefact al restructurării RI — e o lacună
+preexistentă în ghidul-sursă, doar devenită mai vizibilă acum că rândurile terapeutice
+(corect mutate la RI › Aparat urogenital, NR 1363–1375) nu mai lasă în urmă niciun rând-
+umbrelă în capitolul anatomic.
+
+**Verificare acoperire existentă** (căutare în tot `GHID.csv`): din cele 12 situații clinice
+ale fostului subcapitol, **3 au deja diagnostic în altă parte** (Sarcină ectopică →
+Obstetrică-ginecologie › Sarcină, NR 891; Avorturi spontane multiple + Infertilitate
+feminină → Fertilitate, NR 867–870; Metroragii postmenopauzale → Ginecologie, NR 876–877).
+**9 nu au nicio linie de diagnostic nicăieri.**
+
+**Home corect pentru diagnostic** (per ierarhia capitolelor): nu Aparat uro-genital (unde
+stătea husk-ul) — patologia uterină/anexială stă la **Obstetrică-ginecologie**, lângă
+conținutul deja existent acolo (simetric cu „Suspiciune de masă pelvină", „Metroragii
+postmenopauzale" din Ginecologie). Terapeuticul rămâne corect la RI (regula de aur 4) —
+aici se propune **doar** completarea diagnosticului lipsă, capăt care precede logic orice
+decizie de embolizare.
+
+**Decizie utilizator:** doar draft aici (fără inserare în `GHID.csv` deocamdată).
+
+### 25.A Propuneri — `Obstetrică-ginecologie › Ginecologie`
+
+- ⏳ **Leiomiom uterin (fibrom uterin, unic sau multiplu)** — unifică etichetele „Leiomiomul
+  uterin" + „Polifibromatoza uterina" din RI (workup diagnostic identic indiferent de
+  numărul fibroamelor; procedurile terapeutice din RI rămân neatinse). **Gol notabil** —
+  patologie extrem de frecventă, complet absentă ca diagnostic din tot ghidul. Temă ACR AC
+  proprie (*„Fibroids"*, 2022; *„Management of Uterine Fibroids: 2023 Update"*):
+  - Ecografie (transvaginală ± transabdominală, ± Doppler) = *Indicat, grad A* — primă
+    intenție pentru diagnostic inițial.
+  - IRM cu contrast i.v. = *Doar cu aviz specializat, grad B* — mapare (număr, dimensiune,
+    perfuzie, poziție) înainte de embolizare/miomectomie; exclude leiomiosarcomul la cazuri
+    atipice.
+- ⏳ **Adenomioză uterină.** **Absentă complet** ca diagnostic (există doar embolizarea în
+  RI). Literatura (review-uri de acuratețe diagnostică, 2023–2024) confirmă ecografia
+  transvaginală ca primă linie, IRM ca linie a doua (mai sensibil/specific) la caz echivoc
+  sau coexistență cu fibrom:
+  - Ecografie (transvaginală) = *Indicat, grad B* — primă intenție.
+  - IRM = *Doar cu aviz specializat, grad B* — caz echivoc ecografic sau înainte de
+    embolizare/tratament conservator.
+- ⏳ **Sângerare genitală acută/severă (refractară la tratament medical).** Corespunde
+  „Hemoragii acute/cronice în sfera genitală" din fostul „Uter și anexe" — distinctă de
+  „Metroragii postmenopauzale" (care e specific perimenopauzal/de excludere a malignității,
+  deja acoperită). Aici accentul e pe **identificarea sursei înainte de o embolizare de
+  urgență/electivă** (fibrom, resturi placentare, tumoră, cauză vasculară):
+  - Ecografie (± Doppler) = *Indicat, grad B* — evaluare inițială, identifică patologia
+    subiacentă.
+  - AngioCT = *Doar în cazuri particulare, grad C* — pacientă instabilă hemodinamic, pentru
+    localizarea sursei active de sângerare înaintea embolizării emergente.
+- ⏳ **Varice periuterine (sindrom de congestie pelvină).** Absent complet ca diagnostic
+  (doar embolizare în RI). Consens SFICV/FRI/CERF/SIFEM (2024) și literatura de specialitate:
+  - Ecografie transvaginală + Doppler = *Doar în cazuri particulare, grad C* — primă linie,
+    dar sensibilitate/specificitate limitate.
+  - IRM (± angio-IRM) = *Doar cu aviz specializat, grad B* — extensia varicelor, exclude
+    diagnostice diferențiale (ex. endometrioză), planificare pre-embolizare.
+- ⏳ **Malformații/fistule arterio-venoase pelvine.** Absente ca diagnostic; patologie rară,
+  de obicei surprinsă incidental sau prin extensia investigării altei situații (hemoragie,
+  masă pelvină). Prioritate scăzută — **de cercetat mai atent** înainte de a propune
+  grade (sursele găsite sunt de nivel caz-serie, insuficiente pentru un grad citabil).
+
+### 25.B Propuneri — `Obstetrică-ginecologie › Obstetrică`
+
+- ⏳ **Anomalii de placentație (spectrul placenta accreta).** Absente complet ca diagnostic
+  (doar embolizare „doar în cazuri particulare" în RI). Temă ACR AC proprie („Placenta
+  Accreta Spectrum Disorder"): ecografia (2D + Doppler, cu markeri standardizați EW-AIP:
+  lacune placentare, subțiere miometrială) e testul de primă linie antenatal; IRM e adjuvant
+  pentru cazuri echivoce/planificare chirurgicală (sensibilitate/specificitate similare, dar
+  câmp vizual mai mare, utilă mai ales pentru placenta posterioară):
+  - Ecografie (cu Doppler) = *Indicat, grad A* — screening/diagnostic la paciente cu risc
+    (placenta praevia + cezariană/chirurgie uterină în antecedente).
+  - IRM = *Doar cu aviz specializat, grad B* — ecografie echivocă sau nevoie de planificare
+    chirurgicală detaliată (extensie laterală, organe adiacente).
+
+### Surse consultate
+
+- [ACR AC — Fibroids (2022)](https://www.jacr.org/article/S1546-1440(22)00653-6/fulltext)
+- [ACR AC — Management of Uterine Fibroids: 2023 Update](https://www.jacr.org/article/S1546-1440(24)00263-1/abstract)
+- [ACR AC — Abnormal Uterine Bleeding](https://www.jacr.org/article/S1546-1440(20)30948-0/fulltext)
+- [ACR AC — Placenta Accreta Spectrum Disorder](https://www.jacr.org/article/S1546-1440(20)30119-8/fulltext)
+- [MRI and Adenomyosis: What Can Radiologists Evaluate? — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9140978/)
+- [Pelvic Congestion Syndrome — StatPearls](https://www.ncbi.nlm.nih.gov/books/NBK560790/)
+- [Endovascular management of pelvic congestion syndrome — SFICV/FRI/CERF/SIFEM expert
+  consensus (2024/2025)](https://www.sciencedirect.com/science/article/pii/S2211568425000750)
+
+> Status: **niciun rând inserat** în `GHID.csv` (la cererea utilizatorului — doar draft).
+> 9 din 12 situații ale fostului „Uter și anexe" nu au diagnostic nicăieri în ghid; 3 au deja
+> (§ intro). Propuneri gata de validat/inserat la `Obstetrică-ginecologie` (nu la Aparat
+> uro-genital) când se decide — ar completa și capitolul 8, nu doar 7. „Malformații/fistule
+> arterio-venoase pelvine" rămâne fără propunere de grad (sursă insuficientă).
