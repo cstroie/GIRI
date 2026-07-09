@@ -788,6 +788,23 @@ de situația „Sângerare gastro-intestinală acută" (CT prima intenție).
 **etichetă identică** → se consolidează automat în vizualizarea HTML (gruparea e pe
 Capitol → Subcapitol → Situație). Nu necesită acțiune; notat pentru claritate.
 
+### 19.5 ✅ Încadrare confirmată — „durere toracică" / reflux-hernie hiatală **rămâne în Aparat digestiv**
+Întrebare ridicată la rafinarea titlurilor: rândul (tranzit baritat pentru reflux / hernie
+hiatală), fost intitulat „Durerea toracică – suspiciunea de hernie hiatală sau de reflux",
+ar trebui mutat la **Torace**? **Decizie: NU.** Motivare (ierarhia capitolelor — home după
+**entitate**, nu după simptomul de prezentare):
+- **Entitatea** e esofagiană/eso-gastrică (BRGE, hernie hiatală) → esofagul e organ digestiv;
+  restul patologiei esofagiene stă deja în Aparat digestiv (disfagie, perforație esofagiană,
+  fistulă esofagiană/anastomotică). Mutarea la Torace ar **fragmenta** patologia esofagiană.
+- **„Durere toracică" e o prezentare**, nu un home; diagnosticul diferențial al durerii
+  toracice traversează capitole (cardiac, aortic, pulmonar, esofagian) = treabă de **index /
+  aplicație de consultare**, nu de duplicare în date (regula „un singur home / fără breadcrumb").
+- Prezentarea „durere toracică" e deja ancorată unde stă urgența: **Torace** — „Durere toracică
+  izolată fără cauze aparente" (NR 726, radiografie); **Cardiovascular** — „Sindrom coronarian
+  acut", „Sindrom aortic acut".
+- **Acțiune aplicată:** titlul a fost reformulat pe entitate → „Reflux gastroesofagian / hernie
+  hiatală", cu prezentarea „durere toracică" mutată în `Comentarii`. Confuzia dispare fără mutare.
+
 ---
 
 ## 20. Aparat digestiv — omisiuni de patologie față de ghiduri (propuneri de adăugat, 2026-07-09)
@@ -802,7 +819,19 @@ alt capitol): screening HCC în ciroză și stadializările → **Cancer**; trau
 ### 20.1 Lacune majore (topicuri AC dedicate, frecvente, fără situație proprie)
 
 - ⏳ **Durere în hipocondrul drept — suspiciune de colecistită acută** (→ `Ficat, colecist și
-  pancreas`). Azi „Patologie biliară (litiazică)" acoperă calculii, **nu** inflamația acută.
+  pancreas`). **Colecistita acută ≠ litiaza biliară — abordare imagistică distinctă**, deși
+  ambele pornesc de la ecografie:
+  - *Litiaza biliară* („Patologie biliară litiazică", situația existentă) = întrebare **anatomică**:
+    există calculi? sunt căile dilatate? → Eco (referință); pentru litiaza **coledociană** →
+    colangio-IRM (MRCP) / ecoendoscopie. **Colescintigrafia nu are rol.**
+  - *Colecistita acută* = întrebare **inflamatorie/funcțională** (obstrucție de canal cistic +
+    inflamație): Eco (perete îngroșat, lichid pericolecistic, semn Murphy ecografic, calcul
+    inclavat în infundibul); când Eco e echivocă → **colescintigrafie (HIDA)**, cea mai
+    sensibilă/specifică (non-umplerea colecistului = obstrucție cistică) — **modalitate absentă
+    din tot capitolul**; CT/IRM pentru **complicații** (gangrenoasă, emfizematoasă, perforată).
+  - Ref.: **Tokyo Guidelines TG18** (criterii dg. + gradare severitate colecistită acută);
+    ACR AC *Right Upper Quadrant Pain* (Eco prima intenție; HIDA ca test de rezolvare a cazurilor
+    echivoce; CT/IRM+MRCP pentru complicații).
   - Ecografie abdominală = *Indicat, B* (prima intenție).
   - **Scintigrafie biliară (colescintigrafie / HIDA)** = *Doar în cazuri particulare, B* — când
     ecografia e echivocă (sensibilitate/specificitate superioare pentru colecistita acută).
