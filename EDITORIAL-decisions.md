@@ -1044,5 +1044,108 @@ au fost aplicate; rămâne o singură formulare clinică ambiguă, neatinsă:
 > Status: **inventariat, neatins.** Restul capitolului (69→68 rânduri după eliminarea
 > husk-ului „Uter și anexe") e curat: 0 breadcrumb-uri, 0 mismatch Tip↔Examen, 0 cedilă,
 > subcapitole ordonate alfabetic pe situație. O analiză de completitudine față de ghiduri
-> (ACR AC / RCR iRefer, gen §13/§15/§16/§18/§20) **nu a fost făcută încă** pentru acest
-> capitol — poate fi o sesiune separată dacă editorii o doresc.
+> (ACR AC / RCR iRefer, gen §13/§15/§16/§18/§20) **a fost făcută separat — vezi §24**.
+
+---
+
+## 24. Aparat uro-genital și glande suprarenale — goluri de conținut față de ghidurile de
+referință (2026-07-09)
+
+Analiză de omisiuni a capitolului 7 față de practica curentă (**ACR Appropriateness
+Criteria**, **AUA/SMSNA**, **Endocrine Society**), în paralel cu §13 (Cardiovascular), §15
+(Sân), §16 (Cancer), §18/§20 (Torace/Aparat digestiv). **Schițe — de validat clinic de
+editori** înainte de inserare; gradele sunt orientative. Acoperirea existentă a fost
+verificată prin căutare în tot fișierul. **Notă de metodă:** temele de mai jos au fost
+verificate live prin WebSearch (surse citate); conținutul detaliat (grade complete pe toate
+variantele clinice) nu a fost extras integral din documentele-sursă — de confirmat înainte
+de a fixa gradele definitive. Exclus din scop, per ierarhia capitolelor: cancer renal/
+vezical/prostatic/testicular (→ Cancer), trauma urogenitală (→ Traumatisme), UTI/reflux la
+copil (→ Pediatrie), infertilitate feminină (→ Obstetrică-ginecologie, deja acoperit — vezi
+breadcrumb NR 801).
+
+### 24.A Goluri clare (propuneri de adăugat în capitol)
+
+- ⏳ **Priapism.** **Absent complet** (0 apariții în tot ghidul). Urgență urologică distinctă
+  de „Durere și/sau masă scrotală" (organ diferit — corpi cavernoși, nu testicul/epididim).
+  Ghidul AUA/SMSNA 2022 confirmă: gazometria din corpii cavernoși e primul test (non-
+  imagistic), dar ecografia Doppler peniană are rol când diagnosticul ischemic vs.
+  non-ischemic e neclar clinic (disting flux absent/velocități <50 cm/s + reversul
+  diastolic în priapismul ischemic, față de flux crescut cu velocități >50 cm/s în cel
+  non-ischemic — distincție critică pentru conduită, ischemic = urgență). Propunere —
+  situație nouă „Priapism", subcapitol „Aparat genital masculin":
+  - Eco-Doppler penian = *Doar în cazuri particulare, grad B* — când diagnosticul clinic
+    ischemic/non-ischemic e neconcludent.
+- ⏳ **Incontinență urinară / disfuncție de planșeu pelvin (femeie).** **Absentă complet**
+  din tot ghidul (0 apariții „incontinen", inclusiv în Obstetrică-ginecologie). Temă ACR AC
+  proprie, actualizată recent (*„Pelvic Floor Dysfunction in Females"*, cu topic conex
+  *„Recurrent Lower Urinary Tract Infections in Females"* — update 2026). Propunere —
+  situație nouă:
+  - Ecografie (transperineală/introitală, reziduu postmicțional) = *Indicat, grad B* —
+    evaluare inițială.
+  - IRM dinamic de planșeu pelvin = *Doar cu aviz specializat, grad B* — cazuri complexe/
+    preoperator, disfuncție combinată.
+  - **De decis home:** Aparat urogenital (simetric cu „Sindrom obstructiv jos" la bărbat)
+    vs. Obstetrică-ginecologie › Ginecologie (disfuncție de planșeu pelvin e adesea
+    tratată acolo). Recomandare: Aparat urogenital, pentru simetrie cu LUTS masculin deja
+    prezent aici.
+
+### 24.B Modernizare — glande suprarenale (propuneri de completare/reconsiderare a gradelor,
+NU aplicate — decizie editori)
+
+- ⏳ **Feocromocitom/paragangliom — PET-CT cu ⁶⁸Ga-DOTATATE absent.** Situația „Tumori
+  medulosuprarenaliene (feocromocitom)" are IRM/CT/Scintigrafie mIBG, toate *Indicat*. Studii
+  comparative directe arată sensibilitate net superioară a ⁶⁸Ga-DOTATATE PET-CT față de
+  scintigrafia cu I-131/I-123-MIBG (~93% vs. ~47% per-pacient; ~92% vs. ~26% per-leziune),
+  cu detecție superioară și a bolii metastatice/extra-adrenale — surse convergente îl descriu
+  ca „prima linie ideală" pentru pheo/paragangliom. mIBG rămâne util adjuvant (planificare
+  terapie cu I-131-MIBG) dar nu mai e echivalent ca test de primă linie. Propunere: rând nou
+  PET-CT (⁶⁸Ga-DOTATATE) = *Indicat, grad B*; **nu modific gradul scintigrafiei mIBG singur**
+  (regulă CLAUDE.md) — semnalez pentru decizia editorilor dacă indicația ei coboară la „Doar
+  în cazuri particulare" (analog precedentului scintigrafiei osoase la cancer bronho-pulmonar,
+  §17).
+- ⏳ **Sdr. Conn — scintigrafia I131-Norcolesterol supra-cotată față de rolul actual.**
+  Ghidul Endocrine Society (2016, reconfirmat 2025) situează **CT suprarenalian** (excludere
+  carcinom) + **cateterism venos suprarenalian / AVS** (deja prezent corect în RI › Aparat
+  urogenital, Tip A, „Doar cu aviz specializat") ca modalitățile centrale pentru
+  lateralizare; scintigrafia cu iodocolesterol (NP-59/I131-Norcolesterol) e descrisă explicit
+  ca rol **ancilar** — folosită doar când cateterismul bilateral eșuează — nu ca test
+  co-egal cu CT-ul. În ghidul nostru, scintigrafia apare *Indicat* grad B, la fel ca CT-ul,
+  sugerând paritate. **Nu modific gradul singur** — semnalez pentru editori: posibilă
+  coborâre la „Doar în cazuri particulare" sau reformulare a comentariului (rol ancilar,
+  nu de primă linie). Aceeași scintigrafie apare și la sdr. Cushing (NR 858) — verificați
+  dacă observația se aplică și acolo, sau dacă acolo rolul ei diferă (localizări ectopice/
+  bilaterale, unde comentariul actual pare deja adecvat).
+
+### 24.C Minore — de îmbogățit, nu neapărat situație nouă
+
+- ⏳ **Varicocel — fără linie diagnostică proprie în Aparat genital masculin.** Apare doar
+  implicit, în comentariul „Infertilitate masculină" (Obstetrică-ginecologie › Fertilitate,
+  NR 871: „ecografia Doppler scrotală… pentru depistarea… varicocelelor infraclinice") și ca
+  tratament la RI (`Radiologie intervențională › Aparat cardiovascular › Varicocel ›
+  Embolizare`, NR 1280 — încadrare RI discutabilă, ar aparține mai degrabă „Aparat
+  urogenital" ca restul procedurilor urologice, de verificat la parsarea RI). Diagnosticul
+  propriu-zis (Eco-Doppler scrotal) nu are rând dedicat în capitolul de diagnostic. Prioritate
+  scăzută — acoperire implicită suficientă pentru scopul ghidului.
+- ⏳ **„Durere și/sau masă scrotală" combină două topicuri ACR AC distincte** (*Acute Onset
+  of Scrotal Pain* vs. *Newly Diagnosed Palpable Scrotal Abnormality*, cu grade de suspiciune
+  de malignitate diferite pentru masa nedureroasă). Combinarea într-o singură situație e o
+  simplificare rezonabilă (ambele → ecografie, grad B), dar de reconfirmat dacă merită
+  separare (masa nedureroasă la adult tânăr are prag mai jos pentru a exclude tumoră
+  testiculară → breadcrumb implicit spre Cancer, neexplicit azi).
+
+### Surse consultate
+
+- [ACR AC — Pelvic Floor Dysfunction in Females](https://acsearch.acr.org/docs/3083064/Narrative/)
+- [ACR AC — Recurrent Lower Urinary Tract Infections in Females: Update 2026 (JACR)](https://www.jacr.org/article/S1546-1440(26)00158-4/fulltext)
+- [ACR AC — Lower Urinary Tract Symptoms-Suspicion of BPH](https://acsearch.acr.org/docs/69368/Narrative/)
+- [AUA/SMSNA — Acute Ischemic Priapism Guideline (2022)](https://www.auanet.org/guidelines-and-quality/guidelines/acute-ischemic-priapism)
+- [Diagnostic Performance of 68Ga-DOTATATE PET/CT vs. 131I-MIBG in Pheochromocytoma/
+  Paraganglioma — PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4463879/)
+- [Endocrine Society — Primary Aldosteronism Clinical Practice Guideline (AVS/CT vs.
+  scintigraphy)](https://academic.oup.com/jcem/article/101/5/1889/2804729)
+- [ACR AC — Newly Diagnosed Palpable Scrotal Abnormality](https://acsearch.acr.org/docs/3158184/Narrative/)
+
+> Status: **niciun rând nou inserat, niciun grad modificat** în `GHID.csv`. Se așteaptă
+> decizia editorilor pentru 24.A (situații noi) și 24.B (reconsiderare grad scintigrafie
+> suprarenaliană / adăugare DOTATATE); apoi se adaugă/ajustează cu grade validate pe sursă
+> citabilă și se consemnează în `CHANGELOG.md`. 24.C rămas informativ, prioritate scăzută.
