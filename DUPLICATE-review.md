@@ -17,9 +17,9 @@ versiune veche fără; s-a păstrat textul cu diacritice și codul intern „RI 
 
 **2 perechi PĂSTRATE ca duplicate** (de studiat de editor — lăsate neatinse):
 
-- **NR 889 / 890** — Ecografie, „Suspiciune de masă pelvină". Comentarii substanțial
+- **NR 880 / 881** — Ecografie, „Suspiciune de masă pelvină". Comentarii substanțial
   diferite + grad **C vs A**; par două intrări legitime, nu un simplu duplicat.
-- **NR 1455 / 1456** — Infiltrație, „Rahialgie / Radiculalgie". Coduri „Alte informații"
+- **NR 1446 / 1447** — Infiltrație, „Rahialgie / Radiculalgie". Coduri „Alte informații"
   diferite: **PC5 vs PC7** — de stabilit care e corect.
 
 ## B. Formulări ale „Situației Clinice" — UNIFORMIZATE (16 grupuri)
@@ -41,7 +41,7 @@ spații parazite). Nu s-au comasat rânduri. Forma canonică rezultată:
 - „Stenoză carotidiană asimptomatică"
 
 > Grupul „Rahialgie / Radiculalgie" a fost **exclus** din uniformizare, pentru a lăsa
-> perechea NR 1455/1456 exact așa cum e, spre studiu.
+> perechea NR 1446/1447 exact așa cum e, spre studiu.
 
 ## C. Cvasi-duplicate semnalate la reviewul pe capitole
 

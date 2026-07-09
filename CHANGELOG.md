@@ -51,32 +51,46 @@ indicații radioimagistice.
 
 ## Structura ghidului (după modificări — 14 capitole, 1462 rânduri, 13 coloane)
 
-> **NR.CRT nu mai e contiguu** după fuziunea „Neoplasm bronhopulmonar" (2026-07-08):
-> Torace 695–705 s-au șters (11 găuri), iar Cancer › Cancer bronho-pulmonar a primit 2
-> rânduri noi cu ID-uri la finalul secvenței (1472, 1473). Pe viitor **nu se renumerotează
-> automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc ID-uri la
-> finalul secvenței, până la o nouă renumerotare cerută explicit.
+> **NR.CRT contigue 1..1462** după a treia renumerotare (2026-07-09, la cerere, după fuziunea
+> „Neoplasm bronhopulmonar"). ⚠️ **Referințele NR.CRT din intrările de mai jos scrise înainte
+> de 2026-07-09 sunt pre-renumerotare** pentru capitolele de după punctul de inserție (Cancer ›
+> bronho-pulmonar, poz. 342) — folosește căutarea după Capitol + Situație, nu NR.CRT. Pe viitor
+> **nu se renumerotează automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile
+> primesc ID-uri la finalul secvenței, până la o nouă renumerotare cerută explicit.
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | [Pediatrie](#1-pediatrie) | 1–196 | 196 |
 | 2 | [Traumatisme](#2-traumatisme) | 197–317 | 121 |
-| 3 | [Cancer](#3-cancer) | 318–574 (+1472, 1473) | 259 |
-| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 575–661 | 87 |
-| 5 | [Torace](#5-torace) | 662–736 (fără 695–705) | 64 |
-| 6 | [Aparat digestiv](#6-aparat-digestiv) | 737–806 | 70 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 807–875 | 69 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 876–902 | 27 |
-| 9 | [Sân](#9-sân) | 903–958 | 56 |
-| 10 | [Cap](#10-cap) | 959–1074 | 116 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1075–1092 | 18 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1093–1147 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1148–1221 | 74 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1222–1471 | 250 |
+| 3 | [Cancer](#3-cancer) | 318–576 | 259 |
+| 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 577–663 | 87 |
+| 5 | [Torace](#5-torace) | 664–727 | 64 |
+| 6 | [Aparat digestiv](#6-aparat-digestiv) | 728–797 | 70 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–866 | 69 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 867–893 | 27 |
+| 9 | [Sân](#9-sân) | 894–949 | 56 |
+| 10 | [Cap](#10-cap) | 950–1065 | 116 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1066–1083 | 18 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1084–1138 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1139–1212 | 74 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1213–1462 | 250 |
 
 ---
 
 ## Modificări globale (cross-capitol)
+
+### RENUMEROTAT — a treia renumerotare NR.CRT → contiguu 1..1462 (2026-07-09, la cerere)
+
+După fuziunea „Neoplasm bronhopulmonar" (11 rânduri șterse din Torace, 2 inserate în Cancer)
+NR.CRT rămăsese necontiguu (11 găuri la 695–705 + ID-uri 1472/1473 la coadă). La cerere
+explicită, renumerotare pe ordinea fizică → **NR.CRT 1..1462**. Modificare pur mecanică (doar
+col. 1), niciun conținut atins; `validate.py` verde. Referințe live actualizate la noile ID-uri:
+- Cancer › bronho-pulmonar › Monitorizare: rândurile noi 1472/1473 → **342/343**.
+- Perechi duplicat păstrate: masă pelvină 889/890 → **880/881**; rahialgie 1455/1456 → **1446/1447**.
+- Artrografie ATM: 1358 → **1349**, 1460/1461 → **1451/1452**.
+
+⚠️ **NR.CRT din intrările per-capitol scrise înainte de 2026-07-09 sunt pre-renumerotare**
+pentru rândurile de după poziția 342 — referă prin Capitol + Situație, nu prin NR.CRT.
 
 ### RESTRUCTURAT — Ierarhia capitolelor (regula de încadrare) + eliminare husk-uri
 
@@ -473,7 +487,7 @@ _NR 197–317_
   gambă — acoperite implicit de radiografia regională).
 
 ## 3. Cancer
-_NR 318–574 (+1472, 1473)_
+_NR 318–576_
 
 ### ⛔ BREAKING — Fuziunea „Neoplasm bronhopulmonar" din Torace (2026-07-08)
 
@@ -670,7 +684,7 @@ Rezolvarea celor trei chestiuni din `EDITORIAL-decisions.md` §12:
   este B — modificarea privește puterea indicației, nu nivelul de evidență).
 
 ## 5. Torace
-_NR 662–736 (fără 695–705)_
+_NR 664–727_
 
 - **MUTAT —** 11 rânduri intervenționale relocate la RI › Aparat respirator.
 
@@ -838,10 +852,10 @@ _NR 1222–1471_
 - **ERCP rămas în origine (decizie luată).** ERCP (Tip D) **nu** se mută la RI, rămâne
   în capitolele de origine; în coloana „Terapeutic" e marcat **Da**. Vezi `EDITORIAL-decisions.md`.
 - **Artrografia ATM — decizie editorială deschisă.** Rândurile de artrografie temporo-
-  mandibulară (NR 1460, 1461 în RI›Sistem nervos; NR 1358 în RI›Aparat digestiv) au
+  mandibulară (NR 1451, 1452 în RI›Sistem nervos; NR 1349 în RI›Aparat digestiv) au
   încadrarea de subcapitol discutabilă (ATM = articulație → probabil Aparat locomotor)
   și sunt marcate **Neindicat** (înlocuite de IRM). **Lăsate neatinse** — încadrarea și
   păstrarea lor se decid în echipă. Vezi `EDITORIAL-decisions.md`.
-- **Cvasi-duplicate păstrate** (2 perechi de studiat): NR 889/890 (masă pelvină) și
-  NR 1455/1456 (rahialgie). Vezi `DUPLICATE-review.md`.
+- **Cvasi-duplicate păstrate** (2 perechi de studiat): NR 880/881 (masă pelvină) și
+  NR 1446/1447 (rahialgie). Vezi `DUPLICATE-review.md`.
 - **Plasările pe muchie** din Gât și Coloană (vezi maparea) — de validat clinic.

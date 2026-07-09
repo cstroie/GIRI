@@ -8,18 +8,18 @@ NR = NR.CRT curent. (Numerotarea veche nu se mai păstrează.)
 
 **Rânduri:**
 
-- **NR 1460** · RI › Sistem nervos · „Disfuncții ale articulației temporo-mandibulare" ·
+- **NR 1451** · RI › Sistem nervos · „Disfuncții ale articulației temporo-mandibulare" ·
   Tip I · „Artrografie articulații temporo-mandibulare" · **Neindicat** · grad „?" ·
   _„Artrografia temporo-mandibulară este în prezent înlocuită de examenul IRM."_
-- **NR 1461** · RI › Sistem nervos · idem · Tip I · **Neindicat** · grad „B" ·
+- **NR 1452** · RI › Sistem nervos · idem · Tip I · **Neindicat** · grad „B" ·
   aceeași notă · „RI - PC8".
-- **NR 1358** · RI › Aparat digestiv · artrografie (existentă în RI, subcapitol aparent greșit).
+- **NR 1349** · RI › Aparat digestiv · artrografie (existentă în RI, subcapitol aparent greșit).
 
 **De decis:**
 
 1. **Încadrare pe subcapitol.** ATM este anatomic o articulație → logic ar sta la
    **Aparat locomotor**, nu la Sistem nervos (unde a ajuns automat, venind din capitolul
-   „Cap"). NR 1360 pare greșit la „Aparat digestiv". Confirmați subcapitolul corect.
+   „Cap"). NR 1349 pare greșit la „Aparat digestiv". Confirmați subcapitolul corect.
 2. **Păstrare vs. eliminare.** Ambele rânduri sunt **Neindicat**, cu nota că artrografia
    ATM „este în prezent înlocuită de examenul IRM". De decis dacă se mai păstrează în ghid
    (ca indicație istorică / negativă) sau se elimină.
@@ -349,21 +349,21 @@ au fost între timp **tranșate de editor** — status mai jos:
      „Indicat" → **„Doar în cazuri particulare"**; comentariul completat cu „…mai ales atunci
      când PET-CT nu este disponibil"; **gradul B rămâne**. Referință în col. 10. Vezi CHANGELOG §3.
 
-2. ✅ **REZOLVAT — „Nodul pulmonar" (NR 706) unificat la „Nodul pulmonar solitar".**
-   Decizie editor: unificăm eticheta. NR 706 (PET-CT, „nodul solid > 8 mm") purta eticheta
-   scurtată „Nodul pulmonar"; NR 707 (CT torace) folosea „Nodul pulmonar solitar" — aceeași
-   situație în subcapitolul Pulmon. Eticheta lui 706 → „Nodul pulmonar solitar"; cele două
-   examene stau acum sub o singură situație. **Reordonat** CT torace (707, primă intenție,
-   Indicat B) înaintea PET-CT (706, „Doar în cazuri particulare") — ordinea rezulta invers
-   din poziția fizică. Reordonare fizică; NR.CRT neschimbate. NR 708 („…urmărire") rămâne
-   situație distinctă. Vezi CHANGELOG §5.
+2. ✅ **REZOLVAT — „Nodul pulmonar" unificat la „Nodul pulmonar solitar".**
+   Decizie editor: unificăm eticheta. Rândul PET-CT („nodul solid > 8 mm", azi **NR 698**)
+   purta eticheta scurtată „Nodul pulmonar"; rândul CT torace (azi **NR 697**) folosea „Nodul
+   pulmonar solitar" — aceeași situație în subcapitolul Pulmon. Eticheta a fost unificată la
+   „Nodul pulmonar solitar"; cele două examene stau acum sub o singură situație. **Reordonat**
+   CT torace (697, primă intenție, Indicat B) înaintea PET-CT (698, „Doar în cazuri
+   particulare"). „Nodul pulmonar solitar urmărire" (azi **NR 699**) rămâne situație distinctă.
+   Vezi CHANGELOG §5. _(NR post-renumerotare 2026-07-09.)_
 
 > Status: **toate punctele rezolvate** (2026-07-08). Conflictele de grad — tranșate; discrepanța
 > scintigrafiei osoase NR 338 — aplicată (indicație coborâtă, grad B neschimbat).
 
 ## 14. Torace — omisiuni de patologie (propuneri de adăugat)
 
-Din analiza capitolului Torace (NR 662–736) față de tabelele de indicații toracice din
+Din analiza capitolului Torace (NR 664–727) față de tabelele de indicații toracice din
 **ACR Appropriateness Criteria, NICE și RCR iRefer**. Patologii frecvente aparent neacoperite
 sau doar parțial acoperite. **Schițe — de validat clinic de editori** înainte de inserare în
 `GHID.csv`; gradele/dozele sunt orientative. Încadrare confirmată de editor: screeningul LDCT
