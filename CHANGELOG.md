@@ -491,6 +491,14 @@ _NR 197–317_
 ## 3. Cancer
 _NR 318–576_
 
+### MUTAT — PET-CT (F18-FDG) în „Cancer gastric" din Aparat digestiv (2026-07-09)
+
+În review-ul capitolului Aparat digestiv (§19.1), rândul „Cancerul de stomac – diagnostic
+și bilanț de extensie" (PET-CT F18-FDG pentru GIST, *Doar în cazuri particulare, B*) a fost
+mutat aici, la `Cancer gastric › Stadializare` — determinat de malignitate, per ierarhia
+capitolelor (regula 3). Completează un gol de medicină nucleară (înainte: doar ecoendoscopie
++ CT la Stadializare). NR.CRT păstrat (rândul e reinserat fizic după fostul NR 394).
+
 ### ⛔ BREAKING — Fuziunea „Neoplasm bronhopulmonar" din Torace (2026-07-08)
 
 Cancerul pulmonar exista **în dublu exemplar**: subcapitolul canonic **Cancer bronho-pulmonar**
@@ -766,8 +774,8 @@ _NR 737–806_
 
 ### MODIFICAT — Review capitol Aparat digestiv (2026-07-09)
 
-Pas 1–6 din checklistul de review (corecturi ortografice, normalizare, de-duplicare
-etichete). Fără schimbări de grad/doză/ordine a examenelor.
+Pașii 1–7 din checklistul de review (corecturi ortografice + diacritice, normalizare,
+de-duplicare, încadrare). Fără schimbări de grad/doză/ordine a examenelor.
 
 - **MODIFICAT (ortografie) — typo-uri neambigue corectate:**
   - „CT este este o examinare" → „CT este o examinare" (Caracterizare leziune hepatică, CT).
@@ -786,10 +794,27 @@ etichete). Fără schimbări de grad/doză/ordine a examenelor.
   5 rânduri). Situația era fragmentată în 3 blocuri; acum se consolidează într-unul singur
   (gruparea HTML e pe Capitol → Subcapitol → Situație). Eticheta „Suspiciune de fistulă
   biliară … chirurgie digestivă " (3 rânduri) — spațiul final eliminat.
-- **DESCHIS — 3 chestiuni editoriale** notate în `EDITORIAL-decisions.md` §Aparat digestiv:
-  încadrarea rândului „Cancerul de stomac" (→ Cancer?), cvasi-duplicatul „fistulă biliară"
-  între subcapitolele Ficat și Tub digestiv, și confuzia „sângerare acută vs. ocultă"
-  (scintigrafia cu hematii marcate de la NR 794).
+- **MODIFICAT (diacritice) — restaurare `ș/ț/ă/â/î` (cu virgulă)** pe rândurile care aveau
+  comentarii/note fără diacritice (≈30 câmpuri, NR 728–730, 733, 735–738, 741–742, 746, 750,
+  752, 754, 759, 761–763, 766, 769–778, 796; + typo-uri neambigue prinse pe parcurs:
+  `decoperite`→`descoperite`, `contast`→`contrast`, `congenitate`→`congenitale`,
+  `bilare`→`biliare`, `ptr`→`pentru`). Cele 3 note Crohn identice (Eco/Entero-IRM/Entero-CT)
+  armonizate byte-identic (regula „comentariile identice se păstrează").
+- **⛔ BREAKING / MUTAT — „Cancerul de stomac" → `Cancer › Cancer gastric`** (decizie
+  editorială §19.1 aplicată): rândul PET-CT (F18-FDG) pentru GIST, determinat de malignitate,
+  mutat conform ierarhiei (regula 3) la situația „Stadializare" din Cancer gastric (unde
+  completează un gol de medicină nucleară). Vezi și cap. 3 Cancer. (−1 rând din capitol)
+- **COMASAT — cvasi-duplicatul „Suspiciune de fistulă biliară"** (§19.2): cele 3 rânduri din
+  `Tub digestiv` (Eco/CT/IRM, antecedente de chirurgie digestivă) eliminate ca duplicate ale
+  situației identice din `Ficat, colecist și pancreas` (fistula biliară e patologie
+  hepato-biliară → home unic acolo). Fără pierdere de conținut clinic. (−3 rânduri)
+- **COMASAT — scintigrafia „sângerare acută"** (§19.3): rândul NR 794 (Scintigrafie cu hematii
+  marcate, etichetat „sângerare acută" dar cu comentariu identic celui de sângerare ocultă)
+  eliminat ca duplicat al scintigrafiei din „Hemoragie gastro-intestinală ocultă – bilanț"
+  (NR 754, grad B). (−1 rând)
+
+Capitol: **70 → 65 rânduri** (1 mutat la Cancer, 4 comasate). NR.CRT rămân neschimbate
+(găuri tolerate la 786–788, 794 — vezi regula 3).
 
 ## 7. Aparat uro-genital și glande suprarenale
 _NR 807–875_
