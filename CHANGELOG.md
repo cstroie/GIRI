@@ -907,6 +907,53 @@ _NR 807–875_
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Aparat urogenital.
 
+### MODIFICAT — Review capitol Aparat uro-genital și glande suprarenale (2026-07-09)
+
+Pașii 1–6 din checklistul de review (corecturi ortografice + diacritice, normalizare,
+concordanță Tip↔Examen, eliminare breadcrumb-uri, husk). Fără schimbări de grad/doză/ordine
+a examenelor.
+
+- **MODIFICAT (ortografie) — typo-uri neambigue corectate:**
+  - „vezi capitolulul Obstetrică-Ginecologie" → „vezi capitolul …" (Infertilitate); „A se
+    vedeacapitolul" → „A se vedea capitolul" (spațiu lipsă).
+  - „hiperpaziile" → „hiperplaziile" (sdr. Conn).
+  - „informatii pertinente" → „informații pertinente" (Sindrom obstructiv jos, UIV).
+  - „origine in crestele neurale" → „…în…" (feocromocitom, scintigrafie mIBG).
+  - „atentie … posibila declansare de criza HTA" → „atenție … posibilă declanșare de criză
+    HTA" (feocromocitom, CT).
+  - „în afara faze acute" → „în afara fazei acute" (Infecție urinară, cistografie retrogradă).
+- **MODIFICAT (normalizare) — diacritice + spații parazite pe `Examen`:** „Scintigrafie
+  renala dinamica si statica " (fără diacritice, spațiu final) → „Scintigrafie renală
+  dinamică și statică" (3 rânduri: Evaluarea funcției renale, Evaluarea transplantului
+  renal, Insuficiență renală); „Scintigrafie renal[ă/a] dinamica[ ]" → „Scintigrafie
+  renală dinamică" (Hipertensiune arterială, Sindrom obstructiv înalt). Spații
+  duble/inițiale eliminate în `Comentarii` (Cistografie retrogradă, Scintigrafie
+  Norcolesterol — sdr. Cushing).
+- **MODIFICAT (concordanță Tip↔Examen) —** „Sindrom obstructiv înalt" › Radiografie
+  abdominală simplă avea `Tip E` (Ecografie) în loc de `Tip G` — corectat. Eroare de date
+  preexistentă în sursă.
+- **RESTRUCTURAT (eliminare breadcrumb-uri) —** scoase parantezele „(v. și capitolul
+  Radiologie intervențională)" / „(v. și capitolul Pediatrie)" din etichetele de
+  `Situația Clinică` (Calcul renal, Hipertensiune arterială, Infecție urinară,
+  Insuficiență renală, Suspiciune de colică nefretică — 20 rânduri) și breadcrumb-ul „(a se
+  vedea pentru copil capitolul Pediatrie)" din `Comentarii` (Cistografie retrogradă).
+  Consecvent cu regula „un singur home / fără breadcrumb-uri" (CLAUDE.md) și cu eliminarea
+  deja aplicată la celelalte capitole revizuite (Cardiovascular, Torace, Aparat digestiv).
+- **ELIMINAT — subcapitol-husk „Uter și anexe"** (doar rândul-placeholder Z, conținutul de
+  uter/anexe trăiește deja în Obstetrică-ginecologie și Cancer); era semnalat în
+  `EDITORIAL-decisions.md` §5. (−1 rând, fost NR 866)
+- **CONFIRMAT (fără modificare) —** acoperirea „Stenoză de arteră renală / HTA
+  renovasculară" (semnalată ca de verificat în `EDITORIAL-decisions.md` §13.B) există deja
+  complet la situația „Hipertensiune arterială (la adult tânăr…)" (Eco-Doppler,
+  Scintigrafie, AngioRM, AngioCT) — fără gol de conținut.
+- **DESCHIS (flag, neatins) —** „Impotență" › Ecografie = *Neindicat*, cu comentariul „În
+  formele secundare posttraumatice" — formulare ambiguă/posibil trunchiată moștenită din
+  sursă (verdictul Neindicat pare să contrazică propria notă). Nu am modificat gradul/
+  formularea clinică — de clarificat de editori.
+
+Capitol: 69 → 68 rânduri (−1, husk-ul „Uter și anexe"). NR.CRT rămân neschimbate (gaură
+tolerată la 866 — vezi regula 3).
+
 ## 8. Obstetrică și ginecologie
 _NR 876–902_
 

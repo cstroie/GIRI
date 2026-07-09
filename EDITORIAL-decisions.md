@@ -103,9 +103,9 @@ fără situație reală.
 - ✅ **„Aparat digestiv › Abdomen"** — REZOLVAT (review Cancer, 2026-07): eliminat.
   Bucket generic gol; capitolul e organizat pe organ („Ficat, colecist și pancreas",
   „Tub digestiv"). (cap. 6)
-- ⏳ **„Aparat uro-genital › Uter și anexe"** — conținutul de uter/anexe trăiește în
-  Obstetrică-ginecologie (Ginecologie / Sarcină) și Cancer (col/corp uterin).
-  Recomandare: eliminare. (cap. 7)
+- ✅ **„Aparat uro-genital › Uter și anexe"** — REZOLVAT (review Aparat uro-genital,
+  2026-07-09): eliminat. Conținutul de uter/anexe trăiește deja în Obstetrică-ginecologie
+  (Ginecologie / Sarcină) și Cancer (col/corp uterin). (cap. 7)
 
 ---
 
@@ -347,9 +347,10 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 
 ### 13.B Goluri în alte capitole, privind Cardiovascular / decizie de încadrare
 
-- ⏳ **Stenoză de arteră renală / HTA renovasculară** (Doppler, angio-CT, angio-IRM) — home
-  probabil **Aparat uro-genital**; de verificat acoperirea acolo (breadcrumb-ul „vezi evaluare
-  vasculară renală" scos la review sugera o trimitere existentă).
+- ✅ **Stenoză de arteră renală / HTA renovasculară** — REZOLVAT (review Aparat uro-genital,
+  2026-07-09): acoperire confirmată la situația „Hipertensiune arterială (la adult tânăr sau
+  unde pacientul nu răspunde la tratamentul medical)" (Eco-Doppler, Scintigrafie renală,
+  AngioRM, AngioCT). Fără gol de conținut.
 - ⏳ **Boală carotidiană / stenoză carotidiană (AVC/AIT)** — deja parțial în **Cap** (NR 969, AVC
   tranzitor) și Traumatisme; de verificat completitudinea la parsarea capitolului Cap, nu se
   adaugă la Cardiovascular.
@@ -1023,3 +1024,25 @@ rămâne subiectul unei decizii deschise separate (§8, §10 — nu face parte d
 > (nerezolvat, decizie de încadrare cross-capitol lăsată deschisă intenționat — vezi §8/§10
 > și `DUPLICATE-review.md` §C). Nicio propunere de conținut deschisă. §22 **închis** —
 > rămâne doar duplicatul din §8/§10.
+
+---
+
+## 23. Aparat uro-genital și glande suprarenale — chestiune ridicată la review (2026-07-09)
+
+Ridicată la reviewul mecanic al capitolului 7 (vezi `CHANGELOG.md` §7). Corecturile
+mecanice (ortografie, diacritice, normalizare, Tip↔Examen, eliminare breadcrumb-uri, husk)
+au fost aplicate; rămâne o singură formulare clinică ambiguă, neatinsă:
+
+- ⏳ **„Impotență" › Ecografie = Neindicat, cu comentariul „În formele secundare
+  posttraumatice".** Formulare moștenită identic din sursa originală (necedilată deja
+  acolo). Verdictul „Neindicat" pare să contrazică propria notă (care sugerează un context —
+  forma secundară posttraumatică — în care ecografia ar avea rol). Posibil rezultat al unei
+  trunchieri de conținut în sursă. Nu am modificat gradul/verdictul (regulă CLAUDE.md) —
+  de clarificat de editori: fie completarea comentariului, fie schimbarea indicației la
+  „Doar în cazuri particulare" dacă asta reflectă intenția reală.
+
+> Status: **inventariat, neatins.** Restul capitolului (69→68 rânduri după eliminarea
+> husk-ului „Uter și anexe") e curat: 0 breadcrumb-uri, 0 mismatch Tip↔Examen, 0 cedilă,
+> subcapitole ordonate alfabetic pe situație. O analiză de completitudine față de ghiduri
+> (ACR AC / RCR iRefer, gen §13/§15/§16/§18/§20) **nu a fost făcută încă** pentru acest
+> capitol — poate fi o sesiune separată dacă editorii o doresc.
