@@ -757,6 +757,24 @@ indicație sau ordine a examenelor. Validare verde, 0 cedile.
 ## 6. Aparat digestiv
 _NR 737–806_
 
+- **RESTRUCTURAT — subcapitolizare pe organ + coș transversal** (2026-07-09). Coșul unic
+  „Tub digestiv" (eterogen: esofag → colon + urgențe) a fost spart pe **5 subcapitole**,
+  aliniat stilului anatomic al ghidului (organ/regiune, cu bucket transversal ca „Diverse"
+  din Aparat locomotor):
+  1. **Esofag** — Disfagie · Reflux gastroesofagian / hernie hiatală · Perforație esofagiană ·
+     Fistulă esofagiană / anastomotică postoperatorie.
+  2. **Stomac și duoden** — Gastropareză · Ulcer gastro-duodenal.
+  3. **Intestin subțire și colon** — Boala Crohn intestinală · Boală inflamatorie a colonului ·
+     Polip colorectal.
+  4. **Ficat, colecist și pancreas** *(neschimbat)*.
+  5. **Abdomen acut și hemoragii digestive** — Durere abdominală acută · Sindrom ocluziv ·
+     Sângerare gastro-intestinală acută · Hemoragie gastro-intestinală ocultă (sindroame
+     multi-organ, home coerent transversal).
+
+  Doar reetichetarea coloanei `Subcapitol` + **reordonare fizică** a rândurilor pe subcapitole
+  (NR.CRT neschimbate; ordinea examenelor în situație neatinsă). **ADĂUGAT — 3 placeholder-e
+  `ALTĂ SITUAȚIE CLINICĂ`** (Tip Z, NR 1463–1465) pentru subcapitolele noi (fiecare subcapitol
+  are un placeholder, per convenția ghidului). Fără schimbare clinică. (+3 rânduri)
 - **ELIMINAT — subcapitol-husk „Traumatisme abdominale"** (conținea doar rândul-placeholder
   Tip Z). Anti-pattern context-în-anatomie: trauma abdominală stă în capitolul Traumatisme,
   nu în Aparat digestiv. (Vezi Modificări globale › Ierarhia capitolelor.) (−1 rând)
