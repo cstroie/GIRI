@@ -312,7 +312,154 @@ care ating grade / ordine / formulare clinică → **decizia editorilor**, neati
 
 > Status: **toate cele 3 puncte rezolvate** (2026-07-08).
 
-## 13. Torace — chestiuni de încadrare rămase după review (2026-07-08)
+---
+
+## 13. Cardiovascular — goluri de conținut față de ghidurile de referință (2026-07-09)
+
+Analiză de omisiuni a capitolului 4 față de practica curentă (**ESC**, **ACR Appropriateness
+Criteria**, **RCR iRefer**), în paralel cu §3 (Pediatrie) și §11 (Cancer). **Schițe — de
+validat clinic de editori** înainte de inserare; gradele/indicațiile sunt orientative.
+Acoperirea existentă a fost verificată prin căutare pe tot fișierul (ce e mai jos e absent
+sau doar menționat în comentarii). **Notă de metodă:** verificarea live pe ghiduri a fost
+limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașterea ghidurilor
+și trebuie confirmate pe documentele-sursă înainte de a fixa grade/doze.
+
+### 13.A Goluri clare cu home = Cardiovascular (propuneri de adăugat în capitol)
+
+- **Durere toracică cronică / suspiciune de boală coronariană stabilă — evaluare inițială.**
+  Distinctă de „Explorarea non-invazivă a ischemiei miocardice" (testare funcțională) și de
+  „Boala coronariană cronică și evaluare post IMA" (boală cunoscută). Lipsește **workup-ul
+  inițial la probabilitate pre-test joasă–intermediară**, unde imagistica s-a mutat spre
+  **Angio-CT coronarian (Coronaro-CT)** ca primă linie:
+  - Angio-CT coronarian = *Indicat, grad A* (ESC 2019/2024 sindroame coronariene cronice —
+    Clasă I; NICE CG95 — CTCA primă linie; ACR AC).
+  - Scor de calciu coronarian (CT) = *Indicat, grad B* — stratificare de risc la selectați.
+  - Teste funcționale de stress (eco / IRM / SPECT) = *Indicat, grad A* la probabilitate
+    intermediară–înaltă (parțial acoperite de „Explorarea non-invazivă" — de corelat/uniformizat).
+  - Coronarografia invazivă e deja la RI.
+- **Endocardită infecțioasă.** **Absentă complet** (0 apariții în tot ghidul). Indicație
+  imagistică majoră:
+  - Ecocardiografie transtoracică (ETT) = *Indicat, grad A* — primă intenție.
+  - Ecocardiografie transesofagiană (ETE) = *Indicat, grad A* — sensibilitate superioară,
+    valve protetice, complicații (abces, vegetații mici).
+  - 18F-FDG PET/CT = *Indicat / Doar în cazuri particulare, grad B* — endocardită pe valvă
+    protetică / dispozitive intracardiace (criteriu major ESC 2023), embolii oculte.
+  - CT cardiac = *Indicat, grad B* — abcese/pseudoanevrisme, dehiscență protetică, planificare
+    chirurgicală; angio-CT pentru embolii sistemice. (SPECT cu leucocite marcate = alternativă.)
+- **Fibrilație atrială — evaluare pre-procedurală / sursă cardioembolică.** **Absentă** (doar
+  o mențiune în comentariul NR 622). 
+  - ETE = *Indicat, grad A* — excluderea trombului din auriculul stâng înainte de
+    cardioversie/ablație; bilanț de sursă embolică după AVC.
+  - CT cardiac (atriu stâng + vene pulmonare) = *Indicat, grad B* — cartografiere pre-ablație /
+    pre-închidere de auricul stâng (LAA).
+- **(prioritate medie) Sarcoidoză cardiacă.** IRM cardiac + FDG-PET (protocol dedicat cu
+  pregătire dietetică). Poate sta și ca sub-caz la „Suspiciune de cardiomiopatie sau miocardită".
+
+### 13.B Goluri cu home probabil în alt capitol / decizie de încadrare (nu se adaugă aici orbește)
+
+- **Stenoză de arteră renală / HTA renovasculară** (Doppler, angio-CT, angio-IRM) — home
+  probabil **Aparat uro-genital**; de verificat acoperirea acolo (breadcrumb-ul „vezi evaluare
+  vasculară renală" scos la review sugera o trimitere existentă).
+- **Boală carotidiană / stenoză carotidiană (AVC/AIT)** — deja parțial în **Cap** (NR 969, AVC
+  tranzitor) și Traumatisme; de verificat completitudinea la parsarea capitolului Cap, nu se
+  adaugă la Cardiovascular.
+- **Ischemie mezenterică (diagnostic)** — home **Aparat digestiv** (forma cronică e deja la
+  RI, NR 1293); de verificat.
+- **Cardio-oncologie / cardiotoxicitate** (monitorizarea FEVS sub terapie oncologică: eco cu
+  strain/GLS, IRM cardiac, ventriculografie izotopică) — **absentă complet** (ESC 2022
+  cardio-oncologie). **Decizie de home:** Cancer vs Cardiovascular.
+- **Vasculite de vase mari** (arterită Takayasu, arterită cu celule gigante) — eco („halo sign"),
+  angio-IRM/CT de aortă, FDG-PET (recomandările EULAR). Sistemic apare doar pulmonar în **Torace**
+  (NR 692–694); afectarea aortică/vase mari nu e acoperită vascular. Decizie de home.
+- **Urmărire post-EVAR/TEVAR aortic (endoleak)** — CT de supraveghere a protezelor aortice.
+  Absentă. Home: Cardiovascular (diagnostic) vs RI (urmărire de procedură).
+
+### 13.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
+
+- **Evaluare structurală pre-TAVI/TAVR** — există doar în comentarii (NR 593, 633), nu ca
+  situație dedicată. De decis dacă merită rând propriu (angio-CT „de la aortă la femurale").
+
+> Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
+> se adaugă cu grade/doze validate pe sursă citabilă (ESC/ACR/RCR) și se consemnează în CHANGELOG.
+
+---
+
+## 14. Sân — goluri de conținut față de ghidurile de referință (2026-07-09)
+
+Analiză de omisiuni a capitolului 9 față de practica curentă (**ACR Appropriateness
+Criteria**, **NCCN Breast Cancer Screening and Diagnosis**), în paralel cu §3 (Pediatrie),
+§11 (Cancer) și §13 (Cardiovascular). **Schițe — de validat clinic de editori** înainte de
+inserare; gradele sunt orientative. **Notă de metodă:** temele de mai jos au fost verificate
+live prin căutare (titluri exacte de ghiduri ACR AC confirmate, cu link); conținutul detaliat
+al fiecărei teme (grade complete pe toate variantele clinice) nu a fost extras integral —
+de confirmat pe documentul-sursă înainte de a fixa gradele definitive.
+
+### 14.A Goluri clare cu home = Sân (propuneri de adăugat în capitol)
+
+- **Evaluarea răspunsului la chimioterapia neoadjuvantă.** **Absentă complet** din
+  „Cancer de sân" (care are doar stadializare inițială + urmărire post-tratament, nimic
+  intra-tratament). Temă ACR AC proprie: *„Monitoring Response to Neoadjuvant Systemic
+  Therapy for Breast Cancer"* (2017, actualizat 2022). Propunere — situație nouă
+  „Evaluarea răspunsului la chimioterapia neoadjuvantă":
+  - IRM mamar = *Indicat, grad A* — metoda cea mai performantă pentru evaluarea
+    răspunsului și planificarea chirurgicală (sensibilitate ~87% pentru răspuns complet).
+  - Ecografie = *Doar în cazuri particulare, grad B* — evaluare interimară, mai accesibilă.
+  - Mamografie/tomosinteză = *Doar în cazuri particulare, grad B* — utilitate limitată de
+    modificările induse de tratament.
+- **Patologia mamară simptomatică la bărbat.** **Absentă complet.** Temă ACR AC proprie:
+  *„Evaluation of the Symptomatic Male Breast"* (2018), cu recomandări stratificate pe
+  vârstă și context clinic. Propunere — situație nouă în „Paciente cu simptome…" (sau
+  subcapitol propriu „Patologie mamară la bărbat"):
+  - Ginecomastie/pseudoginecomastie cu aspect clinic tipic = *Neindicat* — fără imagistică
+    de rutină.
+  - Masă nedeterminată, bărbat sub 25 ani = Ecografie, *Indicat, grad B* — primă intenție.
+  - Masă nedeterminată, bărbat peste 25 ani = Mamografie, *Indicat, grad B*.
+  - Suspiciune clinică de cancer, indiferent de vârstă = Mamografie, *Indicat, grad A*.
+- **Imagistica sânului în sarcină și lactație.** **Absentă complet.** Temă ACR AC proprie:
+  *„Breast Imaging of Pregnant and Lactating Females"*. Propunere — situație nouă:
+  - Ecografie = *Indicat, grad A* — primă linie, fără iradiere/contrast.
+  - Mamografie cu protecție abdominală = *Doar în cazuri particulare, grad B* — dacă
+    ecografia e neconcludentă sau leziune suspectă.
+  - IRM cu contrast = *Neindicat* în sarcină (gadoliniu traversează placenta);
+    *Doar în cazuri particulare* în lactație (alăptarea poate continua, excreție minimă
+    în lapte).
+- **Algoritmul de urmărire BI-RADS 3 („probabil benign").** Piatră de temelie a practicii
+  (NCCN), absentă ca traseu explicit — BI-RADS apare o singură dată, în comentariul NR 990.
+  Propunere — situație nouă „Leziune probabil benignă (BI-RADS 3) — urmărire":
+  - Mamografie și/sau Ecografie (metoda care a detectat leziunea) = *Indicat, grad B* —
+    control la 6 luni, apoi la 12 și 24 luni dacă rămâne stabilă.
+- **Screening suplimentar pe bază de densitate mamară.** Temă ACR AC proprie, actualizată
+  2024/2025 (subiect activ legislativ — notificarea densității). La noi apare doar punctual,
+  în comentariile altor situații („adjuvant... în cazul unui sân dens"), nu ca prag/situație
+  proprie. Propunere — situație nouă „Screening suplimentar la sân dens (categorie
+  BI-RADS C/D)":
+  - Ecografie = *Doar în cazuri particulare, grad B* — adjuvant la mamografie normală.
+  - IRM = *Doar cu aviz specializat, grad B* — la risc suplimentar asociat densității.
+
+### 14.B Goluri cu home probabil în alt capitol (nu se adaugă în Sân)
+
+- **Localizarea preoperatorie ghidată imagistic a leziunilor nepalpabile** (harpon,
+  sămânță radioactivă/magnetică) — procedură (Tip I), home = **RI › Oncologie**, nu Sân.
+  Nu apare nicăieri în tot ghidul (verificat) — de confirmat dacă lipsește real din RI sau
+  e considerată implicită în alt rând.
+- **Drenajul percutan al abcesului mamar** — menționat doar în comentariul „Inflamație
+  mamară" (NR 976, „drenajul ghidat percutan"), fără rând propriu de procedură. Tip I,
+  home = **RI › Oncologie**. De verificat dacă există deja acolo.
+
+### 14.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
+
+- **Tomosinteza (mamografia 3D)** — nu apare deloc ca modalitate distinctă (Tip `G` acoperă
+  generic „Mamografie"). Ghidurile 2025 (ACR) o recomandă alături de mamografia 2D pentru
+  toate categoriile de risc la screening. De decis dacă merită distincție de Tip/Examen sau
+  rămâne implicită în „Mamografie".
+
+> Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
+> se adaugă cu grade/doze validate pe sursă citabilă (ACR AC/NCCN) și se consemnează în
+> CHANGELOG.
+
+---
+
+## 15. Torace — chestiuni de încadrare rămase după review (2026-07-08)
 
 Ridicate la reviewul capitolului 5 (vezi CHANGELOG §5). Corecturile mecanice (ortografie,
 diacritice, normalizare, spații) au fost aplicate; cele două chestiuni de **încadrare pe
@@ -361,7 +508,9 @@ au fost între timp **tranșate de editor** — status mai jos:
 > Status: **toate punctele rezolvate** (2026-07-08). Conflictele de grad — tranșate; discrepanța
 > scintigrafiei osoase NR 338 — aplicată (indicație coborâtă, grad B neschimbat).
 
-## 14. Torace — omisiuni de patologie (propuneri de adăugat)
+---
+
+## 16. Torace — omisiuni de patologie (propuneri de adăugat)
 
 Din analiza capitolului Torace (NR 664–727) față de tabelele de indicații toracice din
 **ACR Appropriateness Criteria, NICE și RCR iRefer**. Patologii frecvente aparent neacoperite

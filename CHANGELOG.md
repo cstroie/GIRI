@@ -511,7 +511,7 @@ Torace „diagnostic – suspiciune clinică" = **Diagnostic**; „bilanț prete
   comentariu identic), 701≈336 (PET-CT diagnostic), 702≈338 (Scintigrafie osoasă), 705≈342
   (PET-CT monitorizare), 700 (CT diagnostic amplu, redundant cu 335+340).
 - **CONFLICTE DE GRAD rezolvate „gradul Cancer prevalează"** (semnalate editorial, vezi
-  `EDITORIAL-decisions.md` §13): Radiografie diagnostic **A** păstrat (Torace 699 era C); IRM
+  `EDITORIAL-decisions.md` §15): Radiografie diagnostic **A** păstrat (Torace 699 era C); IRM
   cerebral stadializare **A** păstrat (695 era C); CT stadializare **A** păstrat (697 era C); IRM
   mediastinal **C** păstrat (698 era B). Niciun grad Cancer modificat.
 
@@ -533,7 +533,7 @@ Fără schimbări de grad sau indicație în date.
   stadializarea de rutină; PET-CT stadializare există deja (NR 337, „Indicat" A). Comentariul
   completat cu „…mai ales atunci când PET-CT nu este disponibil" (+ fix „singura"→„singură").
   **Gradul B rămâne** neschimbat (modificarea privește puterea indicației, nu nivelul de
-  evidență). Vezi `EDITORIAL-decisions.md` §13.
+  evidență). Vezi `EDITORIAL-decisions.md` §15.
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** subcapitol „Ficat, colecist şi pancreas" normalizat (vezi Modificări globale).
@@ -739,7 +739,7 @@ indicație sau ordine a examenelor. Validare verde, 0 cedile.
   Indicat B) înaintea PET-CT (NR 706, „Doar în cazuri particulare", nodul solid > 8 mm) —
   ordinea rezulta invers din poziția fizică. Reordonare fizică a rândurilor; NR.CRT
   neschimbate. NR 708 („Nodul pulmonar solitar urmărire") rămâne situație distinctă.
-- **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §13:** încadrarea rândurilor
+- **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §15:** încadrarea rândurilor
   „Neoplasm bronhopulmonar" (NR 695–705) — suprapunere de topic cu subcapitolul existent
   „Cancer bronho-pulmonar" (NR 334–343) din capitolul Cancer; per ierarhie (regula 3)
   malignitatea cunoscută → Cancer. Lăsat neschimbat (nu se decide unilateral).
