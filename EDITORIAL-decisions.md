@@ -1573,8 +1573,54 @@ final îl fixează editorii. Încadrarea urmează ierarhia din `CLAUDE.md`.
 - **Osteoporoză — VFA (vertebral fracture assessment) prin DXA lateral** ca și complement al
   osteodensitometriei, pentru fracturi vertebrale morfometrice asimptomatice.
 
-> Status: **analiză, fără modificare de date.** Propunerile așteaptă decizia editorilor (ce se
-> adaugă, cu ce grad/doză, unde se încadrează). Priorități: 🔴 = gol major (infecție spinală,
-> cauda equina). Surse: ACR Appropriateness Criteria® (*Low Back Pain* 2021, *Suspected Spine
-> Infection* 2021, *Myelopathy*, *Vertebral Compression Fractures*), RCR iRefer (ed. 8), criteriile
-> ASAS pentru spondilartrita axială.
+### 31.D Rânduri propuse — schiță pentru editori (NU sunt în `GHID.csv`)
+
+Draft concret al situațiilor din 31.A, gata de studiat. **Gradele și dozele sunt orientative** —
+deduse din rândurile analoge din capitol (IRM 0/0; CT 2/3; radiografie 1–2; scintigrafie 2/3;
+PET-CT 4/4) + logica de primă intenție din ghiduri. **Se validează de editori înainte de orice
+inserare.** Coloane fixe pentru toate: `Capitol = Coloană vertebrală`, `Terapeutic = Nu`,
+`Alte informații =` (gol). Ordinea examenelor în fiecare situație = de la prima intenție în jos.
+
+#### (1) Subcapitol „Coloană" — **Suspiciune de infecție spinală (spondilodiscită, abces epidural)** 🔴
+
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM | Indicat | A | 0 / 0 | Examen de elecție, **cu substanță de contrast** (gadolinium): edem disco-vertebral, abces epidural/paravertebral, empiem. De realizat **în urgență** la deficit neurologic sau suspiciune de abces epidural. |
+| G | Radiografie standard | Doar în cazuri particulare | B | 2 / 2 | Bilanț inițial; poate fi **normală în faza precoce** — pensarea discului și eroziunile platourilor apar după 2–3 săptămâni. |
+| T | CT | Doar în cazuri particulare | B | 2 / 3 | Pentru distrucția osoasă și **ghidarea puncției-biopsii**; sensibilitate mai mică decât IRM precoce. |
+| N | Scintigrafie cu leucocite radiomarcate | Doar cu aviz specializat | B | 2 / 3 | Când IRM e contraindicat/neconcludent. |
+| N | PET-CT (F18-FDG) | Doar cu aviz specializat | B | 4 / 4 | Util în infecția cronică sau de material protetic; diferențiere de modificările degenerative. |
+
+#### (2) Subcapitol „Coloană lombară" — **Sindrom de coadă de cal (cauda equina)** 🔴
+
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM | Indicat | A | 0 / 0 | **Urgență neurochirurgicală.** IRM lombo-sacrată de urgență = gold standard (compresia sacului dural, hernie mediană masivă, proces expansiv). De realizat imediat. |
+| T | CT / mielo-CT | Doar în cazuri particulare | B | 2 / 3 | Când IRM e contraindicat sau indisponibil; mielo-CT evidențiază compresia sacului dural. |
+
+#### (3) Subcapitol „Coloană lombară" — **Rahialgie/radiculalgie după chirurgie lombară (recidivă de hernie vs. fibroză)** 🟠
+
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM | Indicat | B | 0 / 0 | IRM **cu și fără gadolinium** = tehnica de elecție: fibroza/cicatricea epidurală **captează** contrastul, hernia recidivată **nu captează** central. |
+| T | CT | Doar în cazuri particulare | B | 2 / 3 | Pentru evaluarea instrumentației/fuziunii și a complicațiilor osoase. |
+
+#### (4) Subcapitol „Sacru" (sau subcapitol nou) — **Suspiciune de spondilartrită axială (durere lombară de tip inflamator)** 🟠
+
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM articulații sacro-iliace (± coloană) | Indicat | A | 0 / 0 | **Primă intenție** la suspiciune clinică (durere inflamatorie, HLA-B27): edem osos subcondral pe STIR = **sacroiliită activă precoce**, când radiografia e încă normală (criterii ASAS). |
+| G | Radiografie de bazin / sacro-iliace | Doar în cazuri particulare | B | 1 / 2 | Pentru **sacroiliita structurală tardivă** (eroziuni, scleroză, anchiloză); normală în faza precoce. |
+| T | CT sacro-iliace | Doar cu aviz specializat | B | 2 / 3 | Pentru leziuni structurale echivoce pe radiografie; iradiere mai mare. |
+
+> ⚠️ **Suprapunere de rezolvat (situația 4):** se suprapune cu „Sacro-ileită" existentă (Sacru,
+> radiografie-centric). De decis: (a) situație nouă „Spondilartrită axială" distinctă de
+> „Sacro-ileită", sau (b) **îmbogățirea „Sacro-ileită"** mutând IRM ca primă intenție și
+> reîncadrând radiografia pentru leziunile structurale tardive. Recomandare: (b), pentru a evita
+> două situații cvasi-suprapuse.
+
+> Status: **analiză, fără modificare de date.** Propunerile (inclusiv rândurile-schiță din 31.D)
+> așteaptă decizia editorilor (ce se adaugă, cu ce grad/doză, unde se încadrează). Priorități:
+> 🔴 = gol major (infecție spinală, cauda equina). Surse: ACR Appropriateness Criteria®
+> (*Low Back Pain* 2021, *Suspected Spine Infection* 2021, *Myelopathy*, *Vertebral Compression
+> Fractures*), RCR iRefer (ed. 8), criteriile ASAS pentru spondilartrita axială.
