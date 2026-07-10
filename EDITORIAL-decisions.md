@@ -687,6 +687,65 @@ de confirmat pe documentul-sursă înainte de a fixa gradele definitive.
   toate categoriile de risc la screening. De decis dacă merită distincție de Tip/Examen sau
   rămâne implicită în „Mamografie".
 
+### 15.D Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
+
+Coloane fixe: `Capitol = Sân`, `Terapeutic = Nu`; `NR.CRT` = ID nou la inserare. `Alte informații`
+= referința de sub fiecare situație. **Referințe re-confirmate real (2026-07-10):** ACR AC
+*Monitoring Response to Neoadjuvant Systemic Therapy for Breast Cancer*; *Evaluation of the
+Symptomatic Male Breast* (2018) — plus noul *Male Breast Cancer Screening* (2025); *Breast Imaging
+of Pregnant and Lactating **Women*** (2018) — **titlu corectat** (editorialul scria „…Females");
+*Supplemental Breast Cancer Screening Based on Breast Density* (2024); ACR BI-RADS Atlas + NCCN
+pentru traseul BI-RADS 3. Gradele orientative.
+
+#### (1) `Cancer de sân` — **Evaluarea răspunsului la chimioterapia neoadjuvantă**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Monitoring Response to Neoadjuvant Systemic Therapy for Breast Cancer."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | IRM mamar | Indicat | A | 0/0 | Metoda cea mai performantă pentru evaluarea răspunsului și planificarea chirurgicală (sensibilitate ~87% pentru răspunsul complet). |
+| E | Ecografie | Doar în cazuri particulare | B | 0/0 | Evaluare interimară, mai accesibilă; utilă pentru ganglionii axilari. |
+| G | Mamografie / tomosinteză | Doar în cazuri particulare | B | 1/1 | Utilitate limitată de modificările induse de tratament; utilă pentru microcalcificări reziduale. |
+
+#### (2) `Patologie mamară la bărbat` (subcapitol nou propus) — 4 situații
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Evaluation of the Symptomatic Male Breast (2018)."
+| Situația Clinică | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|---|
+| Ginecomastie / pseudoginecomastie cu aspect clinic tipic | G | Mamografie | Neindicat | B | 1/1 | Diagnostic clinic; fără imagistică de rutină. |
+| Masă mamară nedeterminată, bărbat sub 25 de ani | E | Ecografie | Indicat | B | 0/0 | Primă intenție la tânăr (probabilitate mică de malignitate). |
+| Masă mamară nedeterminată, bărbat peste 25 de ani | G | Mamografie / tomosinteză | Indicat | B | 1/1 | Primă intenție; ecografia = complementar. |
+| Suspiciune clinică de cancer mamar, indiferent de vârstă | G | Mamografie / tomosinteză | Indicat | A | 1/1 | ± ecografie complementară pentru caracterizare și evaluare ganglionară. |
+
+> Încadrare (2): recomandat **subcapitol nou `Patologie mamară la bărbat`** (subcapitolele actuale
+> sunt „Paciente…"). Alternativ, cele 4 situații intră la „Paciente cu simptome…" — decizie de încadrare.
+
+#### (3) `Paciente cu simptome și semne nesugestive de cancer` — **Imagistica sânului în sarcină și lactație**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Breast Imaging of Pregnant and Lactating Women."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie | Indicat | A | 0/0 | Primă linie, fără iradiere/contrast; de elecție la gravidă/femeia care alăptează. |
+| G | Mamografie cu protecție abdominală | Doar în cazuri particulare | B | 1/1 | Dacă ecografia e neconcludentă sau la leziune suspectă; iradiere fetală neglijabilă cu ecranare. |
+| M | IRM cu substanță de contrast | Neindicat | B | 0/0 | În **sarcină** (gadoliniul traversează placenta). În **lactație** = *Doar în cazuri particulare* (alăptarea poate continua — excreție minimă în lapte). |
+
+> La inserare, „IRM" se poate scinda în două rânduri (sarcină = Neindicat / lactație = Doar în
+> cazuri particulare) dacă editorii preferă situații separate sarcină vs. lactație.
+
+#### (4) `Paciente cu simptome și semne nesugestive de cancer` — **Leziune probabil benignă (BI-RADS 3) – urmărire**
+`Alte informații =` „Cf. ACR BI-RADS Atlas; NCCN Breast Cancer Screening and Diagnosis."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| G | Mamografie și/sau Ecografie (metoda care a detectat leziunea) | Indicat | B | 1/1 | Control la 6 luni, apoi la 12 și 24 de luni dacă leziunea rămâne stabilă; biopsie la orice progresie. (Dacă se detectase ecografic, se folosește Ecografie, Tip `E`, doză 0/0.) |
+
+#### (5) `Paciente asimptomatice` — **Screening suplimentar la sân dens (categorie BI-RADS C/D)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Supplemental Breast Cancer Screening Based on Breast Density (2024)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie | Doar în cazuri particulare | B | 0/0 | Adjuvant la mamografia normală la sânul dens; crește detecția, dar și rata de rechemări. |
+| M | IRM | Doar cu aviz specializat | B | 0/0 | La risc suplimentar asociat densității; cea mai sensibilă metodă adjuvantă. |
+
+> **§15.B rămâne NON-insertion-ready** — localizarea preoperatorie (harpon/sămânță) și drenajul
+> percutan al abcesului mamar sunt **proceduri (Tip `I`)** cu home la **RI › Oncologie**, nu Sân;
+> de verificat întâi dacă există deja acolo (nedraftate aici, intenționat). **§15.C** (tomosinteză)
+> = rafinare de Tip/Examen, nu rând nou.
+
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (ACR AC/NCCN) și se consemnează în
 > CHANGELOG.
@@ -836,6 +895,69 @@ Deja notat în §11; posibil intenționat — scop îngust pe detecție/caracter
   prioritatea de adăugare.
 - ⏳ **Cancer de penis** — absent, prevalență redusă; menționat doar ca prioritate scăzută.
 
+### 16.31 Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
+
+Coloane fixe: `Capitol = Cancer`, `Terapeutic = Nu`; `NR.CRT` = ID nou la inserare. `Alte informații`
+= referința de sub fiecare situație. **Referințe confirmate real (2026-07-10):** IMWG consensus –
+imaging in monoclonal plasma cell disorders (Hillengass et al., *Lancet Oncology* 2019); NCCN
+(col uterin, prostată, sarcoame); EAU/ESMO + ghid comun EANM/SNMMI 2.0 (PSMA PET). Gradele orientative.
+**Reamintire:** capitolul Cancer nu se atinge în `GHID.csv` la cererea utilizatorului — cele de mai
+jos rămân **schițe** până la decizia explicită de completare.
+
+#### (1) `Cancer de col uterin › Stadializare` — adăugare rând PET-CT (§16.4)
+`Alte informații =` „Cf. NCCN Cervical Cancer."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| N | PET-CT (F18-FDG) | Indicat | B | 4/4 | Stadiul IB2 și mai avansat: evaluare ganglionară para-aortică / planificarea câmpului de radioterapie. Sensibilitate limitată pentru ganglionii <5 mm (fals-negativ posibil — nu exclude stadializarea chirurgicală la caz selectat). |
+
+#### (2) `Cancer prostatic › Stadializare` — adăugare rând PSMA PET-CT (§16.14)
+`Alte informații =` „Cf. EAU/ESMO/NCCN; ghid comun EANM/SNMMI PSMA PET 2.0."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| N | PSMA PET-CT | Indicat | B | 4/4 | Risc intermediar-înalt la diagnostic (stadializare ganglionară/osoasă — superioară CT + scintigrafie osoasă convențională pentru metastaze oculte) sau recidivă biochimică post-tratament. „Doar cu aviz specializat" unde accesul e limitat. |
+
+> **§16.14(a) mpMRI pre-biopsie NU produce un rând nou** — e o **reîncadrare/regradare** a situației
+> „Diagnostic" existente (mutarea IRM din „după biopsie negativă" în „înaintea biopsiei", protocol
+> PI-RADS). Modifică grade/încadrare → decizie de editori, nu draft de rând.
+
+#### (3) `Mielom multiplu` (subcapitol nou) — **Diagnostic** și **Monitorizare** (§16.23)
+`Alte informații =` „Cf. IMWG – imaging in monoclonal plasma cell disorders (Hillengass, Lancet Oncol 2019)."
+
+*Situația „Diagnostic":*
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT whole-body low-dose | Indicat | A | 2/3 | Primă linie pentru boala osoasă litică (mai sensibil decât radiografia convențională / bilanțul osos clasic). |
+| M | IRM (coloană / whole-body) | Indicat | B | 0/0 | La CT neconcludent sau fără leziuni definitorii; superior pentru afectarea medulară difuză și pentru leziunile focale („>1 leziune focală" = criteriu de boală). |
+| N | PET-CT (F18-FDG) | Indicat | B | 4/4 | Evaluare funcțională inițială, boală extramedulară; bază pentru evaluarea ulterioară a răspunsului. |
+
+*Situația „Monitorizare":*
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| N | PET-CT (F18-FDG) | Indicat | B | 4/4 | Standard pentru evaluarea răspunsului la tratament (metabolic) și a bolii reziduale imagistice. |
+| M | IRM (whole-body) | Doar în cazuri particulare | B | 0/0 | Monitorizarea leziunilor medulare/difuze la caz selectat. |
+
+#### (4) `Tumori ale aparatului locomotor` — fază **Monitorizare** lipsă (§16.26)
+`Alte informații =` „Cf. NCCN Bone Cancer / Soft Tissue Sarcoma; ACR Appropriateness Criteria."
+Se inserează **simetric** pentru ambele linii existente — situațiile
+„Formațiune tumorală osoasă primitivă – supraveghere post-tratament" și
+„Formațiune tumorală de părți moi – supraveghere post-tratament" (aceleași rânduri):
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT toracic | Indicat | B | 2/3 | Supravegherea metastazelor pulmonare (sarcoame osoase și de părți moi cu risc). |
+| M | IRM loco-regională | Indicat | B | 0/0 | Supravegherea recidivei locale la nivelul patului tumoral. |
+| G | Radiografie standard | Doar în cazuri particulare | C | 1/1 | Supraveghere de rutină când accesul la CT/IRM e limitat. |
+
+#### (5) `Cancer de vulvă / cancer vaginal` (subcapitol nou, prioritate medie) — **Stadializare** (§16.30)
+`Alte informații =` „Cf. NCCN Vulvar/Vaginal Cancer; ESMO."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | IRM pelvină | Indicat | B | 0/0 | Stadializare loco-regională (extensie locală, ganglioni pelvini), similar cancerului de col uterin. |
+| N | PET-CT (F18-FDG) | Doar în cazuri particulare | B | 4/4 | Evaluare ganglionară (inghino-femurală/pelvină) și la distanță în boala avansată. |
+| T | CT toraco-abdomino-pelvin | Doar în cazuri particulare | B | 2/3 | Metastaze la distanță în boala avansată. |
+
+> **Cancer de penis** (§16.30) — prevalență redusă; **nedraftat** (prioritate scăzută). Dacă se
+> adaugă: IRM penian pentru stadializare locală + PET-CT/CT pentru ganglioni inghinali.
+
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (NCCN/ESMO/ACR AC/IMWG/EAU) și se
 > consemnează în CHANGELOG. Golul cu impact clinic cel mai mare rămas **la Cancer** (după
@@ -955,6 +1077,64 @@ sau doar parțial acoperite. **Schițe — de validat clinic de editori** înain
   „dilatații bronșice"). HRCT torace fără contrast = *Indicat, grad A* (examen de referință);
   Radiografie toracică = *Doar în cazuri particulare* (insensibilă). De decis dacă se separă
   de „Bronhoree cronică" sau rămâne acoperită acolo.
+
+### 18.x Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
+
+Coloane fixe: `Capitol = Torace`, `Terapeutic = Nu`; `NR.CRT` = ID nou la inserare. `Alte informații`
+= referința de sub fiecare situație. **Referințe confirmate real (2026-07-10):** ACR AC *Lung Cancer
+Screening* (2022) + USPSTF 2021; ACR AC *Imaging of Mediastinal Masses* (2021); ACR AC *Acute
+Respiratory Illness* / *Dyspnea*; RCR iRefer. Gradele orientative.
+
+#### (1) `Pulmon` — **Screening cancer pulmonar (CT low-dose la persoane cu risc)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Lung Cancer Screening (2022); USPSTF 2021."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT torace low-dose fără substanță de contrast | Indicat | A | 2/2 | Screening anual la 50–80 ani cu ≥20 pachete-an, fumători activi sau opriți de <15 ani. Nodulii se gestionează pe protocolul din „Nodul pulmonar solitar urmărire". |
+| G | Radiografie toracică | Neindicat | A | 1/1 | Insensibilă ca test de screening — mesaj util (NU înlocuiește LDCT). |
+
+#### (2) `Mediastin` (subcapitol nou) — **Masă / lărgire mediastinală**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Imaging of Mediastinal Masses (2021)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT torace cu substanță de contrast | Indicat | B | 2/3 | Primă linie: localizare, caracterizare, raporturi vasculare. |
+| G | Radiografie toracică | Indicat | C | 1/1 | Adesea descoperire incidentală inițială. |
+| M | IRM torace/mediastin | Doar în cazuri particulare | B | 0/0 | Caracterizare tisulară (chistic vs solid), invazie; intoleranță la contrast iodat. |
+| N | PET-CT (F18-FDG) | Doar cu aviz specializat | B | 4/4 | Suspiciune de malignitate / limfom. |
+
+> Dacă masa se confirmă malignă (timom, limfom) → migrează la Cancer (nu breadcrumb în date).
+
+#### (3) `Pulmon` — **Dispnee acută / insuficiență respiratorie acută**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Acute Respiratory Illness / Dyspnea."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| G | Radiografie toracică | Indicat | B | 1/1 | Primă linie. |
+| T | CT torace ± angio-CT | Doar în cazuri particulare | B | 2/3 | Radiografie neconcludentă, suspiciune de embolie / patologie parenchimatoasă. |
+| E | Ecografie toracică (pulmonară + cardiacă) | Doar în cazuri particulare | B | 0/0 | La patul bolnavului. De verificat suprapunerea cu situațiile existente înainte de inserare. |
+
+#### (4) `Pulmon` — **Tuberculoză pulmonară activă (suspiciune / diagnostic)**
+`Alte informații =` „Cf. RCR iRefer; ACR Appropriateness Criteria."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| G | Radiografie toracică | Indicat | B | 1/1 | Primă linie: infiltrate, cavitații, adenopatii. |
+| T | CT torace | Doar în cazuri particulare | B | 2/3 | Radiografie echivocă, forme complicate/miliare, evaluarea activității. |
+
+#### (5) `Pleură` — **Empiem / pleurezie parapneumonică**
+`Alte informații =` „Cf. ACR Appropriateness Criteria (patologie pleurală)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie toracică | Indicat | B | 0/0 | Cloazonări, ghidajul drenajului. |
+| T | CT torace cu substanță de contrast | Indicat | B | 2/3 | Colecție organizată, „split pleura sign", ghidajul drenajului. |
+
+> De decis: situație proprie vs. notă în „Epanșament pleural".
+
+#### (6) `Pulmon` — **Bronșiectazii**
+`Alte informații =` „Cf. RCR iRefer; ACR Appropriateness Criteria."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | HRCT torace fără substanță de contrast | Indicat | A | 2/3 | Examen de referință. |
+| G | Radiografie toracică | Doar în cazuri particulare | B | 1/1 | Insensibilă. |
+
+> De decis: se separă de „Bronhoree cronică" (care menționează deja „dilatații bronșice") sau rămâne acolo.
 
 > Status: **6 propuneri deschise** (2026-07-09). Încadrare confirmată: screening LDCT + masă
 > mediastinală → Torace. Gradele/încadrarea fină rămân de validat de editori înainte de inserarea
