@@ -115,6 +115,29 @@ indicații radioimagistice.
 
 ## Modificări globale (cross-capitol)
 
+### MODIFICAT — Normalizarea denumirilor cu cratimă: Eco-Doppler / Angio-CT / Angio-IRM (2026-07-10, la cerere)
+
+Unificarea globală a trei denumiri compuse de modalitate la o formă canonică **cu cratimă**,
+pe tot fișierul. **59 de modificări** pe rânduri din 8 capitole. Validare verde, 0 cedile.
+
+- **Forme canonice:** `Eco-Doppler`, `Angio-CT`, `Angio-IRM` (RM → IRM în compusul angiografic,
+  conform deciziei).
+- **Coloana `Examen` (33 rânduri) — normalizare completă:** `Eco Doppler` / `eco Doppler` /
+  `Ecografie Doppler` → `Eco-Doppler`; `AngioCT` → `Angio-CT`; `AngioRM` / `Angio-RM` → `Angio-IRM`.
+- **Coloanele `Comentarii` / `Alte informații` (26) — abrevieri:** `angioCT` / `angio-CT` /
+  `Angio CT` → `Angio-CT`; `angioRM` / `angio-RM` / `AngioRM` / `angioIRM` / `AngioIRM` →
+  `Angio-IRM`; formele compacte Doppler (`ecodoppler`, `ecoDoppler`, `eco Doppler`, `Eco-doppler`)
+  → `Eco-Doppler` / `eco-Doppler` (capitalizarea de propoziție păstrată). Caz-margine
+  `angioCT/RM` → `Angio-CT/IRM` (2 rânduri, RI).
+- **PĂSTRAT intenționat — proza articulată.** `Ecografia Doppler…` / `ecografia Doppler…` din
+  `Comentarii` (×15, formă articulată gramatical corectă în frază) **nu** a fost colapsată la
+  `Eco-Doppler` — s-a corectat doar `doppler` → `Doppler` (D mare). (Decizie de scop: normalizare
+  a etichetelor + abrevierilor, fără a strica registrul prozei.)
+- **Neatins:** `spectroRM` (nu e angiografie), `IRM` / `RM` de sine stătător (normalizare
+  neinclusă în cerere), `Angiografie` invazivă (DSA, altă modalitate).
+- **Reversal:** anulează nota „NENORMALIZAT (intenționat)" din reviewul capitolului Cap
+  (§10) — decizia a fost luată ulterior de editor.
+
 ### RENUMEROTAT — a șaptea renumerotare NR.CRT → contiguu 1..1421 (2026-07-10, la cerere)
 
 După reviewul complet al capitolului **Coloană vertebrală** (55 → 38 rânduri: comasări de
@@ -1392,9 +1415,10 @@ examenelor. Validare verde, 0 cedile.
   rânduri-soră din aceeași situație (NR 965 == 966 „Cefalee acute brutale"; NR 970 == 971
   „Cefalee progresive"; NR 999 == 1000 „Stenoza carotidiană") — păstrate (regula
   „comentariile identice se păstrează").
-- **NENORMALIZAT (intenționat).** Cratimarea „Angio-CT/AngioCT" și „Eco-Doppler/Eco Doppler"
-  este **împărțită pe tot fișierul** (fără dominant clar) → chestiune de normalizare la nivel
-  de fișier, nu de capitol; lăsată neatinsă pentru a nu introduce inconsecvență locală.
+- **NORMALIZAT ulterior (global, la cerere) —** cratimarea „Angio-CT / Angio-IRM / Eco-Doppler"
+  a fost unificată **pe tot fișierul** (vezi „Modificări globale › Normalizarea denumirilor
+  cu cratimă"). La reviewul capitolului fusese lăsată neatinsă (chestiune la nivel de fișier);
+  decisă între timp de editor.
 - **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §24:** comentariul de la NR 989
   („Neuro › Probleme psihiatrice", IRM) este textul **copiat de la NR 993** („Scleroza în
   plăci") — descrie monitorizarea substanței albe / IRM medular / criterii de diagnostic,
