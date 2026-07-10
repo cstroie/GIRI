@@ -2006,8 +2006,15 @@ se adaugă o justificare scurtă (conținut → editorii).
 
 ## 40. Stenoza carotidiană asimptomatică — încadrare + duplicate cross-capitol (2026-07-10)
 
-Ridicat de editor („stenoza carotidiană n-ar trebui să meargă la cardiovascular?"). Analiza
-arată că topicul e **fragmentat pe 4 locuri**, cu duplicate:
+✅ **Decizie luată (2026-07-10):** partea **diagnostică rămâne în Cap › Neuro** (opțiunea A).
+Stub-ul din Cardiovascular (NR 663, „Suflu carotidian asimptomatic", doar Eco-Doppler) a fost
+**comasat** în versiunea Neuro (NR 998–1000): partea descriptivă utilă a comentariului lui 663
+a fost portată pe NR 998; rândul 663 eliminat. Gradul Eco-Doppler rămâne **A** (versiunea Neuro
+păstrată; stub-ul avea B). ⏳ **Amânat (la cerere):** consolidarea **intervenționalului RI**
+(problema 2 de mai jos) — carotida apare și la RI › Aparat cardiovascular, și la RI › Sistem
+nervos.
+
+**Context (analiza inițială) — topicul era fragmentat pe 4 locuri:**
 
 **Diagnostic:**
 - **Cap › Neuro** — „Stenoza carotidiană asimptomatică (suflu) – diagnostic" (NR 998–1000):

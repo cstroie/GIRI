@@ -819,6 +819,16 @@ Fără schimbări de grad sau indicație în date.
 ## 4. Aparat cardiovascular
 _NR 575–661_
 
+### ELIMINAT / COMASAT — „Suflu carotidian asimptomatic" → Cap › Neuro (2026-07-10, la cerere)
+
+Duplicat cross-capitol rezolvat (vezi `EDITORIAL-decisions.md` §40). Situația „Suflu carotidian
+asimptomatic" (NR 663, un singur rând Eco-Doppler, grad B) din Sistem vascular **dubla** situația
+mai completă „Stenoza carotidiană asimptomatică (suflu) – diagnostic" din Cap › Neuro (Eco-Doppler
+A + Angio-IRM + Angio-CT). Decizie de încadrare: carotida diagnostică stă cu restul workup-ului
+cerebrovascular din Neuro. Rândul 663 **eliminat**; partea descriptivă utilă a comentariului lui
+portată pe NR 998 (Cap › Neuro). Gradul Eco-Doppler rămâne A (versiunea păstrată). (−1 rând;
+intervenționalul carotidian din RI rămâne de consolidat — §40.)
+
 ### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
 
 Ambele subcapitole erau în ordine **alfabetică** → reordonate pe fluxul **urgență/acut →
