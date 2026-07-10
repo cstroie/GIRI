@@ -2054,3 +2054,124 @@ nervos.
 
 În ambele cazuri: aliniat și **RI** (carotida intervențională într-un singur subcapitol — cardio
 sau neuro — nu ambele). Nedecis unilateral (încadrare cross-capitol + comasare de duplicate).
+
+---
+
+## 41. Cap — goluri de conținut față de ghidurile de referință (ACR AC, iRefer) — propuneri (2026-07-10)
+
+Audit al capitolului Cap (Neuro + ORL) față de **ACR Appropriateness Criteria®** (panelurile
+*Neurologic Imaging* și *Head and Neck Imaging*) și **RCR iRefer (ed. 8)**, căutând situații
+care ar trebui prezente și lipsesc sau sunt subțiri.
+
+**Filtre de încadrare (ierarhia GIRI) — NU sunt goluri ale acestui capitol:** traumatismul
+cranio-cerebral / facial → **Traumatisme**; tumorile cerebrale/medulare, metastazele, meningiomul,
+schwannomul vestibular *ca stadializare/urmărire oncologică* → **Cancer** (menționate aici doar ca
+diagnostic diferențial); masa cervicală / tiroida / glandele salivare / laringele → **Gât (părți
+moi)**; stenoza carotidiană → deja acoperită (Neuro, §40).
+
+> Status: **analiză, fără modificare de date.** Rândurile-schiță (modalități, indicație, grad,
+> doză, comentariu) sunt **propuneri** — gradele/dozele se confirmă de editori și de sursa primară.
+> Priorități: 🔴 = gol major (topic ACR/RCR dedicat, entitate întreagă absentă); 🟠 = recomandat;
+> 🟢 = opțional.
+
+### 41.A Neuro
+
+#### (N1) 🔴 Anevrism intracranian nerupt / malformație vasculară (MAV, fistulă durală) — depistare & urmărire
+_ACR AC „Cerebrovascular Diseases — Aneurysm, Vascular Malformation, and Subarachnoid Hemorrhage"._
+Azi capitolul acoperă doar **ruptura** (prin „Cefalee acute brutale" → HSA). Lipsesc depistarea/
+screeningul anevrismului **nerupt** și urmărirea, plus MAV / fistula durală. Home: **Cap › Neuro**.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| M | Angio-IRM (TOF) cap | Indicat | B | 0/0 | Depistare/urmărire anevrism nerupt; screening la risc înalt (≥ 2 rude gr. I cu anevrism/HSA, boală polichistică renală autosomal dominantă). Neiradiant, fără contrast. |
+| T | Angio-CT poligon Willis | Indicat | B | 2/3 | Caracterizare pre-terapeutică (dimensiune, col, calcificări); sensibil pentru anevrisme ≥ 3 mm și pentru MAV/fistulă. |
+| M | Angio-IRM cu contrast + secvențe vasculare | Doar cu aviz specializat | B | 0/0 | MAV / fistulă arterio-venoasă durală: angioarhitectură, drenaj venos. |
+
+_(Arteriografia DSA = standard de referință, dar Tip `A` → **RI**.)_
+
+#### (N2) 🟠 Tromboză venoasă cerebrală (TVC)
+_ACR AC (stroke-related)._ Azi doar **menționată** în comentarii (cefalee progresive), fără situație
+proprie. Home: **Cap › Neuro**.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM cerebral + veno-IRM (2D-TOF / cu contrast) | Indicat | B | 0/0 | Suspiciune TVC: cefalee progresivă, hipertensiune intracraniană, crize, deficite fluctuante, context protrombotic/post-partum. Evidențiază trombul + infarctul venos/hemoragia. |
+| T | Veno-CT (angio-CT în timp venos) | Indicat | B | 2/3 | Alternativă în urgență / IRM indisponibil; sensibilă pentru sinusurile durale. |
+
+#### (N3) 🔴 Alterarea acută a stării de conștiență / comă / delir (encefalopatie acută)
+_ACR AC „Altered Mental Status, Coma, Delirium, and Psychosis" (2024)._ Distinct de „Probleme
+psihiatrice" (cronic) și „Probleme cognitive" (demență). Home: **Cap › Neuro** (bloc acut).
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| T | CT cerebral fără contrast | Indicat | B | 2/2 | Primă intenție în urgență: exclude hemoragie, efect de masă, hidrocefalie, infarct extins. |
+| M | IRM cerebral | Indicat | B | 0/0 | CT neconcludent / suspiciune encefalită sau encefalopatie (difuzie: ischemie, status epileptic, cauze metabolice/toxice, PRES, encefalită autoimună). |
+
+#### (N4) 🟠 Ataxie / sindrom cerebelos
+_ACR AC „Ataxia"._ Home: **Cap › Neuro**.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM cerebral (accent fosă posterioară), cu și fără contrast | Indicat | B | 0/0 | Examen de elecție: atrofie cerebeloasă, leziune structurală/demielinizantă, sdr. paraneoplazic, malformație (Chiari). |
+| T | CT cerebral | Doar în cazuri particulare | C | 2/2 | Doar dacă IRM contraindicat/indisponibil; sensibilitate limitată în fosa posterioară. |
+
+#### (N5) 🟠 Paralizie facială periferică / neuropatie craniană izolată
+_ACR AC „Cranial Neuropathy"._ Completează „Afectarea bazei craniului și nervilor cranieni"
+(generic). Home: **Cap › Neuro**.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM cerebral + conduct auditiv intern + stâncă temporală, cu contrast | Doar în cazuri particulare | B | 0/0 | Paralizie facială **atipică, recurentă, progresivă sau fără recuperare la 2–4 luni**. Paralizia Bell tipică NU se imagistică de rutină. Traiect CN VII (trunchi cerebral → parotidă). |
+| T | CT stâncă temporală și bază de craniu | Doar în cazuri particulare | C | 2/3 | Context traumatic/otologic (canal facial, dehiscențe, eroziuni). |
+
+#### (N6) 🟠 Fistulă de LCR (rinoree / otoree de LCR)
+_ACR AC „Cerebrospinal Fluid Leak"._ Interfață cu ORL, dar defectul e al **bazei craniului**.
+Home propus: **Cap › Neuro**.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| T | CT în strat subțire al bazei craniului / sinusurilor (înaltă rezoluție) | Indicat | B | 2/3 | Localizarea defectului osos. |
+| M | Cisterno-IRM (T2 înaltă rezoluție) | Indicat | B | 0/0 | Confirmarea traiectului fistulos, meningo-/encefalocel; neiradiant. |
+| X | Cisternografie CT cu contrast intratecal | Doar cu aviz specializat | C | 3/4 | Cazuri neconcludente / fistulă intermitentă (procedură invazivă). |
+
+### 41.B ORL
+
+#### (O1) 🔴 Tinitus pulsatil
+_ACR AC „Tinnitus" (forma pulsatilă)._ Distinct de „Simptomatologia urechii interne (vertij,
+acufene)" (nepulsatil). Workup **vascular** dedicat. Home: **Cap › ORL**.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| T | Angio-CT cap și gât + CT stâncă temporală | Indicat | B | 2/3 | Cauză vasculară: tumoră glomică (timpanică/jugulară), dehiscență de golf jugular / sinus sigmoid, fistulă durală, stenoză, sinus lateral aberrant. |
+| M | IRM + Angio-IRM cap, cu și fără contrast | Indicat | B | 0/0 | Alternativă neinvazivă: paragangliom, schwannom, cauze vasculare, tromboză de sinus. |
+
+#### (O2) 🟠 Surditate brusc instalată (neurosenzorială)
+Urgentă; distinctă de „Surditatea neurosenzorială la adult" (cronic). Home: **Cap › ORL**.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM conduct auditiv intern și unghi ponto-cerebelos, cu contrast | Indicat | B | 0/0 | Excludere schwannom vestibular / leziune retrocohleară; urgență ORL (fereastră terapeutică precoce). |
+
+#### (O3) 🔴 Patologie orbitară (exoftalmie, masă orbitară, oftalmopatie tiroidiană, celulită orbitară)
+_ACR AC „Orbits, Vision, and Visual Loss"._ Azi „Tulburări de vedere" acoperă neuro-oftalmologia
+funcțională (acuitate/câmp), NU patologia orbitară structurală. Home: **Cap › Neuro** (lângă
+„Tulburări de vedere") sau ORL.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM orbite, cu și fără contrast | Indicat | B | 0/0 | Masă orbitară, nevrită optică, oftalmopatie tiroidiană (părți moi, apex orbitar, nerv optic). |
+| T | CT orbite | Indicat | B | 2/2 | Exoftalmie / celulită orbitară (os, colecții, corp străin), traumă — complementar; **urgență** în celulita orbitară cu complicații. |
+
+#### (O4) 🟠 Otită externă malignă (necrozantă) / osteomielita bazei craniului
+Home: **Cap › ORL**.
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| T | CT stâncă temporală și bază de craniu, cu contrast | Indicat | B | 2/3 | Eroziune osoasă, extensie (diabetic / imunodeprimat). |
+| M | IRM bază de craniu, cu contrast | Indicat | B | 0/0 | Extensie părți moi profunde / intracraniană, spații parafaringiene. |
+| N | Scintigrafie osoasă / cu leucocite marcate / PET-CT | Doar cu aviz specializat | C | 2/4 | Confirmarea activității, urmărirea răspunsului terapeutic. |
+
+### 41.C 🟢 Opțional (acoperire exhaustivă)
+
+- **Boala Menière / hidrops endolimfatic** (extindere a „urechii interne") — IRM cu gadolinium
+  tardiv, secvențe dedicate — la aviz specializat.
+- **Malformații / displazii ale urechii interne** (surditate progresivă/asimetrică, bilanț
+  pre-implant cohlear) — CT stâncă temporală + IRM.
+- **Nevralgie de trigemen** (posibil sub N5 „neuropatie craniană") — IRM cu secvențe de conflict
+  neuro-vascular (ansă vasculară pe CN V).
+
+### Note de acoperire (deja prezente — fără gol)
+
+Encefalitele/meningitele → „Patologie neuroinfecțioasă" ✓; demența → „Probleme cognitive" ✓;
+sindroamele parkinsoniene → „Mișcări anormale" ✓; mielopatia → „Sindroame medulare" ✓; scleroza
+multiplă → „Scleroza în plăci…" ✓; patologia hipofizară → „Procese expansive hipofizare…" ✓.
