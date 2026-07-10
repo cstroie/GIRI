@@ -1331,6 +1331,26 @@ _NR 903–958_
 ## 10. Cap
 _NR 948–1026_
 
+### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
+
+Reordonare **fizică** a situațiilor pe flux clinic (**urgență/acut → cronic → screening**,
+`ALTĂ` ultima), pe blocuri clinice coerente, în ambele subcapitole. **Fără** subcapitole noi
+(păstrat modelul „un sistem = un subcapitol", ca la `Cord`/`Pulmon`; vezi
+`EDITORIAL-decisions.md` §38). Ordinea **examenelor** în interiorul fiecărei situații —
+neatinsă. NR.CRT rămân atașate rândurilor (devin necontigue până la o eventuală renumerotare).
+
+- **Neuro** — blocuri: (1) vascular cerebral acut (AVC constituit parenchim/extra-/intracranian
+  → AVCT parenchim/trunchiuri); (2) cefalee (acute brutale → progresive → cronice atipice);
+  (3) crize/epilepsie (crize comițiale → epilepsie cronică); (4) neuroinfecțios & demielinizant
+  (patologie neuroinfecțioasă → scleroză în plăci); (5) sindroame medulare; (6) tumoral/selar/
+  bază craniu/neuro-oftalmologic (procese expansive hipofizare → bază craniu și nervi cranieni →
+  tulburări de vedere); (7) hidrocefalie (+ funcționare cateter); (8) neurodegenerativ/cognitiv/
+  psihiatric (mișcări anormale → probleme cognitive → probleme psihiatrice); (9) screening
+  (stenoză carotidiană **asimptomatică**) → `ALTĂ`.
+- **ORL** — blocuri: ureche (urechea medie post-acut → urechea internă → colesteatom → surditate
+  neurosenzorială) → nas/sinusuri (sinuzită acută → cronică → tumori nazo-sinusale → tulburări
+  olfactive) → **ATM** (articulație, subiect deschis de încadrare §1) → `ALTĂ`.
+
 ### MODIFICAT — Review capitol Cap (2026-07-10)
 
 Review complet al capitolului (checklist din `CLAUDE.md` › „Plan de lucru"), pe cele două
@@ -1355,6 +1375,8 @@ examenelor. Validare verde, 0 cedile.
   „si Dementa", „corpi Levy" → „între", „și Demența", „corpi Lewy" (eponim corect Lewy)
   (NR 987); „împreuna"→„împreună" (NR 999, 1000); „daca"→„dacă" și „diferential"→
   „diferențial" (NR 993, 994); „rinosinusala"→„rinosinusală" (NR 1025).
+- **MODIFICAT (Situație) — diacritic lipsă.** „afectarea **camp**ului vizual"→„afectarea
+  **câmp**ului vizual" în eticheta situației „Tulburări de vedere…" (NR 1001, 1002).
 - **MODIFICAT (Examen) — diacritice / spații parazite.** „reconstrucție in fereastră"→
   „…în fereastră" (NR 992); „CT orbitar si encefalic"→„…și encefalic" (NR 1002); „IRM  cerebral"
   (spațiu dublu)→„IRM cerebral" (NR 984).
