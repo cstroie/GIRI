@@ -1668,6 +1668,43 @@ _NR 1093–1147_
 - **MUTAT —** 7 rânduri intervenționale relocate la RI: vertebroplastie / biopsie /
   infiltrație → Aparat locomotor; embolizări spinale → Sistem nervos.
 
+### REVIZUIT — review complet al capitolului (2026-07-10, la cerere)
+
+Capitolul a trecut de la 55 la 48 de rânduri (−7, prin comasarea duplicatelor evidente).
+Găurile NR.CRT rezultate (1067, 1072–1074, 1086–1088) rămân — renumerotare amânată (regula 3).
+
+- **CORECTAT — diacritice și typo-uri** (unde forma corectă e neambiguă): `si→și`, `in→în`,
+  `fara→fără`, `cand→când`, `dupa→după`, `daca→dacă`, `insotita→însoțită`, `exista→există`,
+  `coada→coadă` (cuvinte de sine stătătoare, la limită de cuvânt); `condulitei→conduitei`
+  (typo, „Bilanț fractură vertebrală spontană"); `VIH→HIV` („Lombalgie în context particular",
+  aliniat la celălalt rând al aceleiași situații).
+- **NORMALIZAT — denumiri examene / spații:** subcapitolul **„Coloană toracală" → „Coloană
+  toracică"** (7 rânduri) și examenul „Radiografia coloanei toracale → toracice", aliniate la
+  convenția dominantă pe tot fișierul (`toracică/toracice` 131 vs `toracală/toracale` 18).
+  Denumirea „Scintigrafie osoasă … WB **si** \n SPECT-CT" normalizată la forma cu diacritică
+  și fără spații/newline parazite (`WB și SPECT-CT`). Spații finale eliminate (ex. examen
+  „IRM ", „Radiografie coloană vertebrală ").
+- **ELIMINAT / COMASAT — duplicat intra-situație:** „Sindrom medular (în afara traumatismelor…)"
+  avea **două rânduri IRM** identice (același Tip/Examen/Indicație/Grad); păstrat cel cu
+  comentariul mai bogat, eliminat celălalt.
+- **ELIMINAT / COMASAT — două situații scrise diferit, examene identice:**
+  - **„Cervicalgie" ≡ „Cervicalgii comune"** (Coloană cervicală) — ambele G/M/T cu aceleași
+    grade; comasate sub eticheta „Cervicalgii comune", păstrând pe fiecare modalitate rândul
+    cu comentariul mai bogat (G de la fosta „Cervicalgie", M/T de la „Cervicalgii comune").
+  - **„Lombalgie acuta; Lombo-radiculalgie mecanica" ≡ „Lombalgie acută: lombalgie radiculară
+    mecanică"** (Coloană lombară) — ambele G/M/T cu aceleași grade; păstrată varianta cu
+    diacritice și comentarii mai bogate, eliminată cea fără diacritice.
+- **MUTAT — consolidare „Sacro-ileită" într-un singur loc:** rândul de scintigrafie osoasă
+  („Sacro-ileita", scintigrafie N) din **Coloană lombară** relocat la subcapitolul **Sacru**
+  (lângă G/M/T existente) — articulațiile sacro-iliace aparțin anatomic de Sacru. Eticheta
+  normalizată `Sacro-ileita → Sacro-ileită` pe toate cele 4 rânduri.
+
+> **Neatins (flag editorial — vezi `EDITORIAL-decisions.md` §30):** cele două perechi de situații
+> cronice/context-particular din Coloană lombară cu **seturi de examene diferite** (candidate la
+> comasare, dar implică decizii clinice); rândul-breadcrumb „Afecțiuni congenitale – vezi
+> capitolul Pediatrie" (Tip Z); denumirile „IRM/CT coloana lombara" vs „IRM/CT"; ordonarea pe
+> flux clinic a situațiilor din Coloană lombară. Niciun grad/doză/cod Tip modificat.
+
 ## 13. Aparat locomotor
 _NR 1148–1221_
 

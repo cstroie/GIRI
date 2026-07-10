@@ -1432,3 +1432,61 @@ nu le schimb singur (pot fi intenționale în sursă), le las editorilor.
 
 > Status: **niciun grad, doză sau cod Tip modificat** la aceste puncte. Restul reviewului
 > (corecturi mecanice + repartizare col. 9/10 + reordonare pe flux) a fost aplicat.
+
+---
+
+## 30. Coloană vertebrală — chestiuni ridicate la review (2026-07-10)
+
+Review complet al capitolului. Corecturile mecanice (diacritice, spații, denumiri examene,
+`toracală→toracică`) și comasările **evidente** (duplicate cu examene identice) au fost
+aplicate — vezi `CHANGELOG.md §12`. Cele de mai jos rămân **de decis de editori** (comasări
+care implică seturi de examene diferite → alegeri clinice pe ce grade/comentarii se păstrează;
+sau ștergeri de rânduri-punte).
+
+### 30.A ⏳ „Lombalgie cronică" — două situații cvasi-duplicate, seturi de examene diferite
+
+Coloană lombară conține două situații cu același sens clinic (lombalgie cronică fără semne de
+infecție/tumoră), scrise diferit și cu **liste de examene care nu coincid**:
+
+- **„Durere lombară cronică fără semne de infecție sau tumoră: lombalgie comună"** — M, N
+  (scintigrafie), T, G.
+- **„Lombalgie cronică fără semne de infecție sau tumoră"** — N (PET-CT), N (scintigrafie),
+  M, T, G. (adaugă PET-CT față de prima)
+
+Ambele au grade preponderent „Doar în cazuri particulare"/C. **Nu le-am comasat** — o fuziune
+ar trebui să decidă: (a) eticheta unică păstrată; (b) dacă PET-CT (F18-FDG) rămâne la lombalgia
+cronică *necomplicată* sau doar la cea cu semne de gravitate; (c) ce comentarii se păstrează pe
+fiecare modalitate. De asemenea, denumirile „**IRM coloana lombara**"/„**CT coloana lombara**"
+(la a doua situație) ar trebui normalizate la „IRM"/„CT" (convenția dominantă) la comasare.
+
+### 30.B ⏳ „Lombalgie în context particular / semne de gravitate" — pereche cvasi-duplicată
+
+Tot în Coloană lombară, două situații cu același sens (red flags: debut <20/>55 ani, sdr. de
+coadă de cal, deficit neurologic, cancer, HIV etc.), seturi de examene parțial suprapuse:
+
+- **„Lombalgie în context particular sau însoțită de semne de gravitate: …"** — M (IRM coloana
+  lombara), N (PET-CT F18-FDG sau F18-NaF), N (scintigrafie). Toate „Indicat".
+- **„Lombalgie într-un context particular sau eventual însoțită de semne de gravitate ca și: …"**
+  — N (scintigrafie), M (IRM). Toate „Indicat".
+
+**Nu le-am comasat** (M și N-scintigrafie apar în ambele → fuziunea ar crea duplicate intra-
+situație de rezolvat). De decis eticheta unică, dacă se păstrează PET-CT, și normalizarea
+„IRM coloana lombara → IRM".
+
+### 30.C ⏳ Rând-breadcrumb „Afecțiuni congenitale – vezi capitolul Pediatrie" (Tip `Z`)
+
+Subcapitolul „Coloană" conține un rând-punte Tip `Z` fără examen concret („Vezi Detalii Ghid!",
+comentariu „Vezi capitolul Pediatrie") a cărui unică funcție e navigarea către Pediatrie.
+Conform regulii „un singur home / fără breadcrumb-uri", este **candidat la eliminare** (afecțiunile
+congenitale ale coloanei au home-ul în Pediatrie). **Nu l-am șters** — confirmă editorii dacă se
+elimină rândul sau se păstrează ca semnalizare.
+
+### 30.D ⏳ Ordonarea pe flux clinic a situațiilor din Coloană lombară
+
+După comasări, ordinea situațiilor din Coloană lombară nu urmează strict fluxul
+urgență/acut → cronic → screening (checklist §7). Reordonare fizică **neaplicată** în acest
+review (pentru a păstra diff-ul concentrat pe corecturi + de-duplicare); de făcut la o trecere
+ulterioară dedicată, împreună cu deciziile 30.A/30.B.
+
+> Status: **niciun grad, doză sau cod Tip modificat** în acest capitol. Comasările aplicate au
+> vizat exclusiv duplicate cu examene + grade **identice**.
