@@ -15,7 +15,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 | # | Coloană | Descriere |
 |---|---|---|
-| 1 | `NR.CRT` | ID de rând. Ultima renumerotare integrală: 2026-07-10 (1..1413, după reviewul Aparat locomotor); de atunci, reviewul capitolului Cap și deduplicarea capitolului Radiologie intervențională au lăsat găuri (max curent 1412). **Doar identificator**, fără semnificație clinică. Renumerotare doar la cerere explicită. |
+| 1 | `NR.CRT` | ID de rând, secvențial **1..1339** (renumerotat 2026-07-10, după deduplicarea capitolului Radiologie intervențională). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
 | 2 | `Capitol` | Unul din cele 14 capitole (vezi mai jos). |
 | 3 | `Subcapitol` | Grupare în cadrul capitolului. |
 | 4 | `Situația Clinică` | Scenariul clinic pentru care se recomandă (sau nu) investigația. |
@@ -66,17 +66,17 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | 1 | Pediatrie | 1–196 | 196 |
 | 2 | Traumatisme | 197–317 | 121 |
 | 3 | Cancer | 318–577 | 260 |
-| 4 | Aparat cardiovascular | 578–665 | 88 |
-| 5 | Torace | 666–729 | 64 |
-| 6 | Aparat digestiv | 730–797 | 68 |
-| 7 | Aparat uro-genital și glande suprarenale | 798–865 | 68 |
-| 8 | Obstetrică și ginecologie | 866–891 | 26 |
-| 9 | Sân | 892–947 | 56 |
-| 10 | Cap | 948–1026 | 79 |
+| 4 | Aparat cardiovascular | 578–664 | 87 |
+| 5 | Torace | 665–728 | 64 |
+| 6 | Aparat digestiv | 729–796 | 68 |
+| 7 | Aparat uro-genital și glande suprarenale | 797–864 | 68 |
+| 8 | Obstetrică și ginecologie | 865–890 | 26 |
+| 9 | Sân | 891–946 | 56 |
+| 10 | Cap | 947–1026 | 80 |
 | 11 | Gât (părți moi) | 1027–1059 | 33 |
 | 12 | Coloană vertebrală | 1060–1098 | 39 |
 | 13 | Aparat locomotor | 1099–1163 | 65 |
-| 14 | Radiologie intervențională | 1164–1412 | 176 |
+| 14 | Radiologie intervențională | 1164–1339 | 176 |
 
 ## Documentație și review
 
