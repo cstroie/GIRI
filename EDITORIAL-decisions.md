@@ -1901,3 +1901,46 @@ are un comentariu corect, psihiatric: contraindicații IRM / excluderea unei tum
 **De decis:** conținutul clinic corect al comentariului IRM pentru „Probleme psihiatrice" (ce
 rol are IRM-ul cerebral în bilanțul unei tulburări psihiatrice — ex. excluderea unei cauze
 organice, primă intenție vs. la nevoie). **Nu s-a modificat** — e conținut clinic, nu typo.
+
+---
+
+## 38. Cap — structura pe subcapitole (Neuro / ORL) și granularitatea (2026-07-10)
+
+Ridicat de editor: e corectă împărțirea Neuro/ORL? S-ar putea sparge Neuro în subcapitole
+independente (pe boală)?
+
+**Situație actuală:** `Cap` are 2 subcapitole — **Neuro** (23 situații, 56 rânduri) și
+**ORL** (10 situații, 23 rânduri).
+
+**Analiză (stilul casei).** Cele 95 de subcapitole ale ghidului se împart **anatomic
+(organ/regiune)**, niciodată pe boală. Subcapitolele mono-sistem mari sunt ținute **întregi**:
+`Torace › Pulmon` (27 situații), `Aparat cardiovascular › Cord` (21). `Cap › Neuro` (23) e în
+aceeași ligă — un sistem (SNC: encefal + măduvă + vase cerebrale + nervi cranieni) ținut întreg.
+Unde ghidul sparge fin (Coloană, Aparat locomotor, Aparat digestiv), axa e **regională**, nu pe
+boală.
+
+**Ghiduri de referință.** ACR Appropriateness Criteria are două panel-uri separate —
+**„Neurologic Imaging"** (stroke, headache, head trauma, neuroendocrin/hipofiză, demență…) și
+**„Head and Neck Imaging"** (ORL) — și pune **direct condiția clinică** sub panel, fără nivel
+intermediar de „grup de boli". Maparea `panel → topic` e identică cu `Neuro/ORL → situație`.
+RCR iRefer e organizat regional (Head cuprinde neuro; ORL ca „Head and neck").
+
+**Recomandare (de confirmat de editori):**
+
+1. **Se păstrează împărțirea Neuro / ORL** — se suprapune peste panel-urile ACR și e o graniță
+   anatomică/de specialitate reală.
+2. **NU se sparge Neuro în subcapitole pe boală** — ar fi singurul caz de subcapitolizare pe
+   boală într-un capitol anatomic, inconsecvent cu Cord/Pulmon (ținute întregi) și cu structura
+   ACR (condiții direct sub panel).
+3. **Alternativa pentru navigabilitate:** reordonarea **situațiilor** pe flux clinic în interiorul
+   Neuro (checklist pasul 7) — grupare fizică a blocurilor (AVC / cefalee / epilepsie /
+   neurodegenerativ-cognitiv / neuroinflamator-infecțios / tumoral-selar / hidrocefalie / medular /
+   neuro-oftalmologic / bază craniu-nervi cranieni), `ALTĂ` ultima. Dă gruparea fără axă nouă.
+   **De decis dacă se aplică** (reordonare fizică, NR.CRT neschimbate).
+4. **Minor / cosmetic:** „Neuro" și „ORL" sunt singurele etichete de tip jargon de specialitate
+   din ghid (restul subcapitolelor sunt anatomice). Opțional, redenumire consecventă
+   („Sistem nervos" / „Sferă ORL" sau „Ureche, nas, sinusuri").
+
+**Note de încadrare conexe:** ATM (articulație, azi în ORL) — vezi §1 (posibil Aparat locomotor);
+„Sindroame medulare" (măduvă, azi în Neuro) — de confirmat dacă rămâne în Cap sau se raportează
+la Coloană vertebrală.
