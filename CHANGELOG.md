@@ -1112,6 +1112,15 @@ Punctele 1, 3 și 4 din `EDITORIAL-decisions.md` §27 rezolvate; punctul 2 răm�
   excluderea unei patologii semnificative Menometroragii" (două situații lipite) — de discutat
   cu ceilalți editori. **Nemodificată.**
 
+### MODIFICAT — verificare finală, corecturi reziduale (2026-07-10)
+
+Recitire integrală a capitolului; doar corecturi mecanice neambigue în `Comentarii`:
+- **Diacritice:** NR 873 „congestie pelvina" → „congestie pelvină".
+- **Normalizare (convenția dominantă pe fișier):** NR 890 „endo-vaginală" → „endovaginală"
+  (consecvent cu restul capitolului); NR 875 „dopplerul" → „Dopplerul" și NR 887 „ecografia
+  doppler" → „ecografia Doppler" (Doppler capitalizat = 30 vs 5 în fișier).
+- **Punctuație:** NR 866 — punct final adăugat (consecvent cu restul comentariilor).
+
 Capitol: 27 → 26 rânduri (−1: „Infertilitate masculină" mutată la capitolul 7).
 
 ### ANALIZĂ — goluri de conținut față de ghidurile de referință (2026-07-10)
