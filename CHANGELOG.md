@@ -2085,10 +2085,64 @@ discordante de la RI › Sistem nervos). Rezolvă `EDITORIAL-decisions.md` §1. 
 
 - **RESTRUCTURAT —** capitolul primește cele 243 rânduri mutate din restul ghidului,
   grupate pe cele 9 subcapitole de organ. După comasarea a 160 duplicate exacte (mutare)
-  + 7 cvasi-duplicate rezolvate ulterior, totalul RI = **250 rânduri**.
-- Subcapitole (rânduri): Traumatisme 19 · Oncologie 30 · Ap. cardiovascular 57 ·
-  Ap. respirator 13 · Ap. digestiv 53 · Ap. urogenital 23 · Sistem nervos 28 ·
-  Ap. endocrin 7 · Ap. locomotor 20.
+  + 7 cvasi-duplicate rezolvate ulterior, totalul RI = **250 rânduri**. (Ulterior redus la
+  247 de scoaterea artrografiei ATM, mai sus, apoi la 176 de deduplicarea de mai jos.)
+
+### ELIMINAT / COMASAT — deduplicare masivă (2026-07-10, la cerere; vezi `DUPLICATE-review.md` §E)
+
+Reviewul complet a scos la iveală că fiecare subcapitol conținea **două „valuri" de import
+suprapuse**: rândul-placeholder „ALTĂ SITUAȚIE CLINICĂ" era sistematic **la mijlocul**
+subcapitolului (nu la final, cum cere regula deja decisă) — semnul granulei dintre un prim
+val cu texte adesea **fără diacritice** și un al doilea val cu texte corecte diacritic dar
+frecvent **fără codul intern „RI - PCx"**. Plus duplicate izolate **între** subcapitole
+(conținut identic mutat de două ori din capitole-sursă diferite ale ghidului pre-RI).
+**71 de rânduri eliminate, 247 → 176.** Niciun grad/indicație schimbat unilateral — conflictele
+reale au fost lăsate neatinse și semnalate (vezi mai jos). (Artrografia ATM — a treia duplicare
+descoperită pe acest tipar — fusese deja rezolvată separat, mai sus, înainte de acest pas.)
+
+- **COMASAT — 60 de perechi intra-subcapitol** (val 1 + val 2 al aceleiași situații+examen,
+  aceeași Indicație/Grad/Terapeutic, doar formulare/diacritice diferite). Păstrat rândul cu
+  diacritice corecte; unde perechea eliminată avea cod „RI - PCx" absent din rândul păstrat,
+  codul a fost copiat; unde avea o referință bibliografică nouă (ghiduri ESMO pentru
+  hepatocarcinom/colangiocarcinom, ghidul CHC Journal of Hepatology), referința a fost
+  adăugată la „Alte informații". Typo-uri corectate cu ocazia comasării: `Arterografie→
+  Arteriografie` (lipsă „i", NR 1168), `opacfierea→opacifierea` (NR 1299),
+  `conventionala→convențională` (NR 1183), `Sangerare→Sângerare` (NR 1304).
+- **ELIMINAT — 7 rânduri de traumatism abdominal rătăcite în Aparat digestiv** (NR fostele
+  1325–1331: hepatic/renal/splenic × hemodinamic instabil/stabil, „…embolizare în urgență"),
+  conținut deja acoperit de rândurile canonice din subcapitolul Traumatisme (NR 1164–1169) —
+  trauma stă în Traumatisme, nu împrăștiată pe organe (regula de aur §4).
+- **MUTAT + COMASAT — „Traumatism al aortei toracice"** (NR 1254, fost în Aparat
+  cardiovascular cu `Tip=A` corect) relocat în subcapitolul **Traumatisme**; duplicatul din
+  Traumatisme însuși (fostul NR 1182, `Tip=I` — eroare de concordanță Tip/Examen pentru o
+  angiografie strict diagnostică) a fost eliminat.
+- **COMASAT — „Neoplasm bronhopulmonar – diagnostic – suspiciune clinică"** dus la
+  subcapitolul **Aparat respirator** (NR 1281, alături de restul biopsiilor pulmonare
+  NR 1270–1274); duplicatul din Oncologie eliminat.
+- **COMASAT — conținut hepatobiliar oncologic** (chemoembolizare HCC, radioembolizare/drenaj
+  biliar/biopsie pentru colangiocarcinom) dus la **Aparat digestiv** (NR 1287, 1289,
+  1291–1293), consecvent cu precedentul „Cancer de sân rămâne în Sân"; duplicatele identice
+  din Oncologie eliminate. O pereche cu grad diferit (NR 1192, Oncologie) **lăsată neatinsă**
+  — vezi `EDITORIAL-decisions.md` §42.
+- **COMASAT — sindrom Conn (hiperaldosteronism primar)**, triplicat între Aparat urogenital
+  (2 copii, greșit încadrate) și Aparat endocrin; păstrat la **Aparat endocrin** (NR 1387).
+- **COMASAT — embolie pulmonară și malformație arterio-venoasă pulmonară**, fiecare duplicată
+  identic între Aparat cardiovascular și Aparat respirator; embolia pulmonară păstrată la
+  **Aparat cardiovascular** (NR 1219, lângă filtrul de VCI), MAV pulmonară păstrată la
+  **Aparat respirator** (NR 1276).
+- **CORECTAT — eroare de concordanță Tip/Examen**: NR 1384 (Sistem nervos, „Arterografie
+  cervico-encefalică", examen strict diagnostic, `Terapeutic=Nu`) avea `Tip=I` → corectat la
+  `Tip=A`. (Rândul rămâne parte a suprapunerii carotidă cardiovascular/sistem nervos deja
+  semnalate în `EDITORIAL-decisions.md` §40 — neatinsă altfel.)
+- **RESTRUCTURAT — repoziționarea „ALTĂ SITUAȚIE CLINICĂ"** la finalul fiecărui subcapitol
+  (9 rânduri), conform regulii deja decise (era la mijloc, marcaj al celor două valuri).
+- **PĂSTRATE — 6 conflicte de grad/indicație** (NR 1166/1176, 1236/1264, 1338/1356,
+  1359/1379, 1388/1393, 1192/1289) — nerezolvate unilateral, semnalate în
+  `EDITORIAL-decisions.md` §42.
+
+Subcapitole după deduplicare (176 rânduri): Traumatisme 13 · Oncologie 17 ·
+Ap. cardiovascular 42 · Ap. respirator 10 · Ap. digestiv 29 · Ap. urogenital 19 ·
+Sistem nervos 23 · Ap. endocrin 7 · Ap. locomotor 16.
 
 ---
 
@@ -2096,11 +2150,11 @@ discordante de la RI › Sistem nervos). Rezolvă `EDITORIAL-decisions.md` §1. 
 
 - **ERCP rămas în origine (decizie luată).** ERCP (Tip D) **nu** se mută la RI, rămâne
   în capitolele de origine; în coloana „Terapeutic" e marcat **Da**. Vezi `EDITORIAL-decisions.md`.
-- **Artrografia ATM — decizie editorială deschisă.** Rândurile de artrografie temporo-
-  mandibulară (NR 1451, 1452 în RI›Sistem nervos; NR 1349 în RI›Aparat digestiv) au
-  încadrarea de subcapitol discutabilă (ATM = articulație → probabil Aparat locomotor)
-  și sunt marcate **Neindicat** (înlocuite de IRM). **Lăsate neatinse** — încadrarea și
-  păstrarea lor se decid în echipă. Vezi `EDITORIAL-decisions.md`.
+- **Artrografia ATM — mutată la Cap›ORL (rezolvat), grad rămas de reconfirmat.** Vezi
+  `EDITORIAL-decisions.md` §1.
 - **Cvasi-duplicate păstrate** (2 perechi de studiat): NR 880/881 (masă pelvină) și
   NR 1446/1447 (rahialgie). Vezi `DUPLICATE-review.md`.
+- **RI — 6 conflicte de grad/indicație + granițe de subcapitol nerezolvate** (deduplicarea
+  2026-07-10). Vezi `EDITORIAL-decisions.md` §42 și `DUPLICATE-review.md` §E; suprapunerea
+  carotidă cardiovascular/sistem nervos e deja tratată în `EDITORIAL-decisions.md` §40.
 - **Plasările pe muchie** din Gât și Coloană (vezi maparea) — de validat clinic.

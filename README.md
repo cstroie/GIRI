@@ -7,7 +7,7 @@ de modificări versionat. Acest repo conține **doar datele** — aplicația de 
 
 ## Fișierul principal
 
-**`GHID.csv`** — 1413 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
+**`GHID.csv`** — 1339 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
 corecte (ș/ț cu virgulă, **nu** cedilă). Delimitator virgulă, câmpuri cu text între
 ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
@@ -15,7 +15,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 | # | Coloană | Descriere |
 |---|---|---|
-| 1 | `NR.CRT` | ID de rând, secvențial **1..1413** (renumerotat 2026-07-10, după reviewul complet al capitolului Aparat locomotor). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
+| 1 | `NR.CRT` | ID de rând. Ultima renumerotare integrală: 2026-07-10 (1..1413, după reviewul Aparat locomotor); de atunci, reviewul capitolului Cap și deduplicarea capitolului Radiologie intervențională au lăsat găuri (max curent 1412). **Doar identificator**, fără semnificație clinică. Renumerotare doar la cerere explicită. |
 | 2 | `Capitol` | Unul din cele 14 capitole (vezi mai jos). |
 | 3 | `Subcapitol` | Grupare în cadrul capitolului. |
 | 4 | `Situația Clinică` | Scenariul clinic pentru care se recomandă (sau nu) investigația. |
@@ -59,7 +59,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | `C` | Consens / dovezi limitate |
 | `?` | Neprecizat |
 
-## Structura pe capitole (1413 rânduri)
+## Structura pe capitole (1339 rânduri)
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
@@ -76,7 +76,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | 11 | Gât (părți moi) | 1027–1059 | 33 |
 | 12 | Coloană vertebrală | 1060–1098 | 39 |
 | 13 | Aparat locomotor | 1099–1163 | 65 |
-| 14 | Radiologie intervențională | 1164–1413 | 250 |
+| 14 | Radiologie intervențională | 1164–1412 | 176 |
 
 ## Documentație și review
 

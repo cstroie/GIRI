@@ -2175,3 +2175,78 @@ Home: **Cap › ORL**.
 Encefalitele/meningitele → „Patologie neuroinfecțioasă" ✓; demența → „Probleme cognitive" ✓;
 sindroamele parkinsoniene → „Mișcări anormale" ✓; mielopatia → „Sindroame medulare" ✓; scleroza
 multiplă → „Scleroza în plăci…" ✓; patologia hipofizară → „Procese expansive hipofizare…" ✓.
+
+---
+
+## 42. Radiologie intervențională — conflicte de grad/indicație descoperite la deduplicare (2026-07-10)
+
+Reviewul capitolului RI (247 → 176 rânduri — cifra de pornire e după scoaterea artrografiei
+ATM, §1 — vezi `CHANGELOG.md` §14 și `DUPLICATE-review.md` §E) a găsit capitolul construit
+din **două „valuri" de import suprapuse** pe fiecare subcapitol (rândul-placeholder „ALTĂ
+SITUAȚIE CLINICĂ" ajunsese sistematic la mijlocul fiecărui subcapitol, nu la final — semnul
+granulei celor două valuri) plus duplicate izolate între subcapitole. Marea majoritate a
+perechilor identificate aveau **Indicație + Grad + Terapeutic identice** (doar diacritice/
+formulare diferite) și au fost comasate mecanic. **Următoarele perechi au conflicte reale de
+conținut clinic și au fost lăsate NEATINSE (ambele rânduri păstrate)** — de tranșat de editori:
+
+- **NR 1166 vs 1176** · Traumatisme · „…traumatisme renale hemodinamic instabile" · Arteriografie
+  cu embolizare, grad B ambele · **Indicație diferă**: „Doar în cazuri particulare" (1166) vs
+  „Neindicat" (1176), pentru practic aceeași descriere clinică (fără extravazare CT la pacient
+  stabil/responsiv).
+- **NR 1236 vs 1264** · Aparat cardiovascular · „Arteriopatii periferice simptomatice" ·
+  Angiografie directă/invazivă, grad A ambele · **Indicație diferă**: „Doar cu aviz specializat"
+  (1236) vs „Indicat" (1264).
+- **NR 1338 vs 1356** · Aparat urogenital · „Avorturi spontane multiple" · HSG, „Doar cu aviz
+  specializat" ambele · **Grad diferă**: C (1338) vs B (1356).
+- **NR 1359 vs 1379** · Sistem nervos · „Accident vascular cerebral constituit (AVC)" ·
+  Angiografie, „Doar cu aviz specializat" ambele · **Grad diferă**: B (1359) vs A (1379).
+- **NR 1388 vs 1393** · Aparat endocrin · „Nodul tiroidian palpabil…" · PCAFGE · **Indicație
+  diferă**: „Indicat"/A (1388) vs „Doar cu aviz specializat"/B (1393).
+- **NR 1192 vs 1289** · Oncologie vs Aparat digestiv · Carcinom hepatocelular · Chemoembolizare
+  (variantă convențională + drug-eluting beads, grad B, NR 1192) vs Chemoembolizare
+  intraarterială generică (grad A, NR 1289) — descriu practic aceeași procedură la **grade
+  diferite** și în **subcapitole diferite** (vezi și §43 mai jos pentru chestiunea de graniță
+  Oncologie/organ).
+
+**Regula de aur „gradele nu se modifică de mine" a fost respectată** — niciuna dintre aceste
+perechi nu a fost alterată; doar semnalate.
+
+## 43. Radiologie intervențională — granițe de subcapitol de confirmat (2026-07-10)
+
+Descoperite la deduplicare — conținut identic sau aproape identic există în **două subcapitole
+diferite** ale RI, fără un criteriu clar care să decidă „home"-ul unic. Pentru cazurile cu
+conținut *strict identic* am consolidat pe un subcapitol (motivat mai jos, dar **reversibil** —
+nu e o decizie clinică, doar de organizare) și am șters duplicatul; principiul general de graniță
+rămâne **de confirmat**. (Suprapunerea **carotidă** cardiovascular/sistem nervos e deja tratată
+pe larg în §40 — nu se repetă aici; NR 1384 a primit doar corecția obiectivă `Tip I→A`, vezi
+`CHANGELOG.md` §14.)
+
+- **Biopsie/patologie pulmonară oncologică — Oncologie vs Aparat respirator.** „Neoplasm
+  bronhopulmonar – diagnostic – suspiciune clinică" exista identic în ambele (NR 1187 Oncologie ==
+  NR 1281 Aparat respirator) — **comasat, păstrat NR 1281** (Aparat respirator, unde există deja
+  grupul de biopsii pulmonare NR 1270–1274, 1280, 1282). Rămân însă în **Oncologie** alte rânduri
+  înrudite (NR 1188 nodul în contact cu peretele, NR 1189 tumoră pulmonară, NR 1193 HCC-adiacent
+  radioembolizare+RT) care s-ar putea la fel de bine muta la Aparat respirator — **de decis** dacă
+  Oncologie ar trebui să rămână doar pentru proceduri fără organ unic (adenopatii, mase de părți
+  moi) sau să găzduiască tot ce ține de stadializare/tratament oncologic indiferent de organ.
+- **Hepatocarcinom / colangiocarcinom — Oncologie vs Aparat digestiv.** Tot conținutul terapeutic
+  hepatobiliar (chemoembolizare, radioembolizare, drenaj biliar, biopsie) exista **duplicat
+  integral** între Oncologie (NR 1194–1197) și Aparat digestiv (NR 1289, 1291–1293). **Comasat,
+  păstrate variantele din Aparat digestiv** (motivație: precedent „Cancer de sân rămâne în Sân" —
+  patologia hepatobiliară oncologică e indisolubil legată de restul conținutului hepatobiliar).
+  NR 1192 (Oncologie, variantă cu grad diferit) **lăsat neatins** — vezi conflictul din §42.
+  Rămâne în Oncologie NR 1193 (radioembolizare + radioterapie externă HCC, fără pereche în
+  Aparat digestiv). **De confirmat**: principiul „malignitate cu organ unic → subcapitolul de
+  organ, nu Oncologie" ca regulă generală pentru RI (analog excepției Sân de la nivelul
+  capitolelor) — același principiu care ar putea răspunde și la întrebarea de mai sus.
+- **Embolie pulmonară / malformație arterio-venoasă pulmonară — Aparat cardiovascular vs Aparat
+  respirator.** Ambele existau duplicate (NR 1219 cardio == NR 1278 respirator pentru embolie
+  pulmonară; NR 1243 cardio == NR 1276 respirator pentru MAV pulmonară). **Comasate inconsecvent**
+  (embolia pulmonară păstrată la Cardiovascular lângă filtrul de VCI NR 1220; MAV pulmonară
+  păstrată la Respirator lângă restul patologiei vasculare pulmonare NR 1274) — **de confirmat**
+  dacă merită aliniate pe același criteriu.
+- **Sindrom Conn (hiperaldosteronism primar) — Aparat urogenital vs Aparat endocrin.** Exista
+  **triplicat** (NR 1354, 1355 în Aparat urogenital + NR 1387 în Aparat endocrin, conținut
+  identic). **Comasat la Aparat endocrin** (NR 1387 — glanda suprarenală e conținut endocrin,
+  plasarea în urogenital era clar eronată). Nu e o chestiune de graniță reală, doar o eroare de
+  încadrare corectată.

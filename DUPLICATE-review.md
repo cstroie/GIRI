@@ -123,3 +123,41 @@ editor (costinstroie@gmail.com) și **rezolvate 2026-07-08**:
   justificare ca IRM). Fosta versiune Cap (NR 1055) avea „Doar în cazuri particulare,
   grad A", cu text specific CT (rol complementar/contraindicație IRM, structuri osoase,
   leziuni meningeale). **DECIS: adoptată categoria + gradul + textul din Cap.**
+
+## E. Radiologie intervențională — deduplicare masivă (2026-07-10)
+
+Capitolul RI s-a dovedit construit din **două „valuri" de import suprapuse** pe fiecare din
+cele 9 subcapitole: rândul-placeholder „ALTĂ SITUAȚIE CLINICĂ" era sistematic la mijlocul
+subcapitolului (nu la final, cum cere regula deja decisă), marcând granița dintre un prim val
+cu texte adesea **fără diacritice** și un al doilea val cu texte corecte diacritic dar deseori
+**fără codul intern „RI - PCx"**. Plus duplicate izolate **între** subcapitole (conținut
+identic mutat de două ori din capitole-sursă diferite) — tipar deja întâlnit separat la
+artrografia ATM (rezolvată anterior, §1 din `EDITORIAL-decisions.md`, triplicată RI›Sistem
+nervos ×2 + RI›Aparat digestiv ×1, mutată integral la Cap›ORL).
+
+**REZOLVAT — 60 perechi/grupuri comasate (71 rânduri eliminate, 247 → 176):**
+
+- Consolidare intra-subcapitol (ambele valuri): păstrat rândul cu diacritice corecte,
+  completat cu codul „RI - PCx" din perechea eliminată (sau, unde perechea eliminată avea o
+  referință bibliografică nouă — ex. ghiduri ESMO pentru HCC/colangiocarcinom — aceasta a
+  fost adăugată la „Alte informații").
+- Consolidare cross-subcapitol: „Traumatism al aortei toracice" dus la Traumatisme (era și
+  în Aparat cardiovascular, cu o eroare de cod `Tip` corectată la aplicare); 7 rânduri de
+  traumatism abdominal (hepatic/renal/splenic) rătăcite în Aparat digestiv, deja acoperite
+  în Traumatisme, eliminate; „Neoplasm bronhopulmonar" dus la Aparat respirator (era și în
+  Oncologie); conținut hepatobiliar oncologic (HCC, colangiocarcinom) consolidat la Aparat
+  digestiv (era duplicat integral în Oncologie); sindrom Conn consolidat la Aparat endocrin
+  (triplicat, cu 2 copii greșit încadrate la Aparat urogenital); embolie pulmonară și MAV
+  pulmonară — fiecare avea o copie identică în Aparat cardiovascular și Aparat respirator.
+- Typo-uri corectate în cadrul comasării: `Arterografie→Arteriografie` (lipsă „i"),
+  `opacfierea→opacifierea`, `conventionala→convențională`, `Sangerare→Sângerare`.
+- Rândurile-placeholder „ALTĂ SITUAȚIE CLINICĂ" repoziționate fizic la finalul fiecărui
+  subcapitol (erau la mijloc, marcaj al celor două valuri — vezi mai sus).
+
+**PĂSTRATE ca duplicate/suprapuneri — 6 conflicte de grad/indicație + câteva chestiuni de
+graniță de subcapitol** — necomasate, semnalate editorilor în `EDITORIAL-decisions.md`
+§42–43 (nu se schimbă grade unilateral). Suprapunerea carotidă (cardiovascular vs sistem
+nervos), găsită și ea la acest review, se suprapune cu chestiunea deja deschisă la §40 —
+nu s-a mai dublat, doar corectat un cod `Tip` greșit (NR 1384).
+
+Detalii complete, rând cu rând, în `CHANGELOG.md` § 14 Radiologie intervențională.
