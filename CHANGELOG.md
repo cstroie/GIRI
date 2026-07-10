@@ -107,6 +107,17 @@ indicații radioimagistice.
 
 ## Modificări globale (cross-capitol)
 
+### RENUMEROTAT — a șaptea renumerotare NR.CRT → contiguu 1..1421 (2026-07-10, la cerere)
+
+După reviewul complet al capitolului **Coloană vertebrală** (55 → 38 rânduri: comasări de
+cvasi-duplicate, eliminarea unui rând-breadcrumb, reordonări), NR.CRT rămăsese necontiguu
+(14 găuri în capitol). La cerere explicită, renumerotare pe ordinea fizică → **NR.CRT 1..1421**.
+Modificare pur mecanică (doar col. 1), niciun conținut atins; `validate.py` verde. Doar
+capitolele **Coloană vertebrală, Aparat locomotor și Radiologie intervențională** își schimbă
+intervalele de ID (Coloană 1060–1097; Aparat locomotor 1098–1171; RI 1172–1421 — vezi tabelul de
+structură din `README.md`). Total fișier: **1438 → 1421** (−17, din review-ul Coloană, nu din
+renumerotare în sine).
+
 ### RENUMEROTAT — a șasea renumerotare NR.CRT → contiguu 1..1439 (2026-07-09, la cerere)
 
 După reviewul complet al capitolului Aparat uro-genital și glande suprarenale — eliminarea

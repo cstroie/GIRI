@@ -7,7 +7,7 @@ de modificări versionat. Acest repo conține **doar datele** — aplicația de 
 
 ## Fișierul principal
 
-**`GHID.csv`** — 1438 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
+**`GHID.csv`** — 1421 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
 corecte (ș/ț cu virgulă, **nu** cedilă). Delimitator virgulă, câmpuri cu text între
 ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
@@ -15,7 +15,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 | # | Coloană | Descriere |
 |---|---|---|
-| 1 | `NR.CRT` | ID de rând, secvențial **1..1438** (renumerotat 2026-07-10). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
+| 1 | `NR.CRT` | ID de rând, secvențial **1..1421** (renumerotat 2026-07-10, după reviewul capitolului Coloană vertebrală). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
 | 2 | `Capitol` | Unul din cele 14 capitole (vezi mai jos). |
 | 3 | `Subcapitol` | Grupare în cadrul capitolului. |
 | 4 | `Situația Clinică` | Scenariul clinic pentru care se recomandă (sau nu) investigația. |
@@ -59,7 +59,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | `C` | Consens / dovezi limitate |
 | `?` | Neprecizat |
 
-## Structura pe capitole (1438 rânduri)
+## Structura pe capitole (1421 rânduri)
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
@@ -74,9 +74,9 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | 9 | Sân | 892–947 | 56 |
 | 10 | Cap | 948–1026 | 79 |
 | 11 | Gât (părți moi) | 1027–1059 | 33 |
-| 12 | Coloană vertebrală | 1060–1114 | 55 |
-| 13 | Aparat locomotor | 1115–1188 | 74 |
-| 14 | Radiologie intervențională | 1189–1438 | 250 |
+| 12 | Coloană vertebrală | 1060–1097 | 38 |
+| 13 | Aparat locomotor | 1098–1171 | 74 |
+| 14 | Radiologie intervențională | 1172–1421 | 250 |
 
 ## Documentație și review
 
