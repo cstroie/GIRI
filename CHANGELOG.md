@@ -463,6 +463,14 @@ _NR 1–196_
 ## 2. Traumatisme
 _NR 197–317_
 
+### VERIFICAT (ordine) — reordonare pe flux (2026-07-10, la cerere) — fără schimbare
+
+Capitolul e **integral de urgență/acut**, deci axa „urgență → cronic → screening" din regula 7
+nu produce reordonare. Verificat că `ALTĂ SITUAȚIE CLINICĂ` e ultima în toate subcapitolele
+(este). Ordinea internă a subcapitolelor multi-situație (coloană cervicală, coloană toraco-
+lombară, față și orbite, membre) este pe **severitate/regiune anatomică**, nu pe acuitate — se
+păstrează. **Niciun rând mutat.**
+
 - **ELIMINAT — breadcrumb adult → Pediatrie.** Situația „Traumatism cranio-cerebral
   (pentru copii – vezi capitolul Pediatrie)" → „Traumatism cranio-cerebral" (subcapitol
   Cap, 4 rânduri). Trauma cranio-cerebrală pediatrică are propriul subcapitol în Pediatrie;
@@ -675,6 +683,21 @@ Fără schimbări de grad sau indicație în date.
 ## 4. Aparat cardiovascular
 _NR 575–661_
 
+### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
+
+Ambele subcapitole erau în ordine **alfabetică** → reordonate pe fluxul **urgență/acut →
+cronic → screening/populații speciale**, cu `ALTĂ SITUAȚIE CLINICĂ` ultima (regula 7).
+Reordonare **fizică** a grupurilor de situații; ordinea examenelor în interiorul fiecărei
+situații neatinsă; **NR.CRT neschimbate** (devin necontigue până la o eventuală renumerotare).
+
+- **Cord:** acut întâi (sindrom coronarian acut → sindrom aortic acut → pericardită simplă →
+  tromboză intracardiacă → cardiomiopatie/miocardită → IMA în antecedente cu agravare), apoi
+  boala ischemică cronică (coronariană cronică, ischemie, viabilitate), cardiomiopatii/
+  valvulopatii/HTA, pericardite cronice, iar la final masă cardiacă și cardiopatii congenitale.
+- **Sistem vascular:** acut întâi (anevrism aortă abdominală simptomatic, tromboze venoase),
+  apoi anevrisme/arteriopatii, malformații, apoi asimptomatice/screening (anevrism abdominal
+  asimptomatic, suflu carotidian asimptomatic) și fistula de hemodializă (populație specială).
+
 - **MUTAT —** 54 rânduri intervenționale (embolizări, angioplastii, protezări,
   angiografie invazivă) relocate la RI › Aparat cardiovascular. Capitolul se reduce
   substanțial (rămân investigațiile diagnostice).
@@ -761,6 +784,21 @@ vascular"**, între „Malformații vasculare" și „Tromboză venoasă membre 
 ## 5. Torace
 _NR 664–727_
 
+### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
+
+Subcapitolele erau în ordine **alfabetică** → reordonate pe flux (urgență → cronic →
+screening/populații speciale), `ALTĂ SITUAȚIE CLINICĂ` ultima. Reordonare fizică a grupurilor;
+ordinea examenelor în situație neatinsă; NR.CRT neschimbate.
+
+- **Pleură:** pneumotorax spontan (acut) înaintea epanșamentului pleural.
+- **Pulmon:** acut întâi (embolie pulmonară, hemoptizie, pneumonie diagnostic, bronșită acută,
+  infecție de căi aeriene superioare, pacienți din terapie intensivă), apoi bolile cronice și
+  supravegherea lor (astm, BPOC, bronhoree/tuse cronică, maladii sistemice, pneumopatie
+  infiltrativă difuză, pneumoconioze), nodulul pulmonar (diagnostic + urmărire), iar la final
+  screening/populații speciale (contacți TBC, control la angajare, preoperator, HIV, aplazie
+  medulară, transplant medular/de organe, terapie imunosupresoare).
+- **Torace (durere toracică izolată):** o singură situație — neschimbat.
+
 - **MUTAT —** 11 rânduri intervenționale relocate la RI › Aparat respirator.
 
 ### ⛔ BREAKING — „Neoplasm bronhopulmonar" mutat la Cancer (2026-07-08)
@@ -821,6 +859,21 @@ indicație sau ordine a examenelor. Validare verde, 0 cedile.
 
 ## 6. Aparat digestiv
 _NR 737–806_
+
+### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
+
+Completare a reviewului din 2026-07-09 (care subcapitolizase, dar lăsase unele situații în
+ordine ne-fluxată). Reordonare fizică a grupurilor pe flux (urgență → cronic), `ALTĂ` ultima;
+ordinea examenelor neatinsă; NR.CRT neschimbate.
+
+- **Esofag:** acut întâi — suspiciune de perforație esofagiană → fistulă postoperatorie →
+  apoi cronice (disfagie, reflux gastroesofagian / hernie hiatală).
+- **Ficat, colecist și pancreas:** pancreatită acută întâi, apoi icter, patologie biliară
+  litiazică, fistulă biliară postoperatorie, pancreatită cronică, iar leziunea hepatică
+  focală incidentală la final (descoperire întâmplătoare).
+- Neschimbate (deja pe flux): **Abdomen acut și hemoragii digestive** (durere acută →
+  ocluziv → sângerare acută → hemoragie ocultă), **Intestin subțire și colon** (screening/
+  polip ultimul), **Stomac și duoden** (ambele cronice).
 
 - **RESTRUCTURAT — subcapitolizare pe organ + coș transversal** (2026-07-09). Coșul unic
   „Tub digestiv" (eterogen: esofag → colon + urgențe) a fost spart pe **5 subcapitole**,
@@ -1138,6 +1191,18 @@ Capitol: 27 → 26 rânduri (−1: „Infertilitate masculină" mutată la capit
 ## 9. Sân
 _NR 903–958_
 
+### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
+
+- **Paciente cu simptome și semne sugestive de cancer:** situația de diagnostic principală
+  („Diagnosticul cancerului de sân: nodul mamar, retracție…") adusă prima, apoi adenopatia
+  axilară suspectă, iar subgrupul special „Suspiciune de cancer la paciente cu augmentare
+  (implante)" la final (populație specială), înaintea `ALTĂ SITUAȚIE CLINICĂ`. Reordonare
+  fizică; ordinea examenelor neatinsă; NR.CRT neschimbate.
+- Neschimbate: **Paciente cu simptome nesugestive** (inflamație acută → nodularitate → implant
+  — deja pe flux), **Cancer de sân** (stadializare/urmărire — fără gradient de acuitate) și
+  **Paciente asimptomatice** (subcapitol integral de screening — axa e risc/vârstă, nu acuitate;
+  ordinea internă a grupelor de vârstă rămâne o chestiune editorială separată).
+
 - **MUTAT —** 4 rânduri intervenționale relocate la RI › Oncologie.
 - **MODIFICAT (date) —** spații finale parazite pe „…cancer  " eliminate (12 rânduri).
 - **REVIZUIT — trecere completă (2026-07-08),** aceeași metodă ca la Cancer:
@@ -1203,6 +1268,15 @@ _NR 950–1065 (23 găuri)_
 
 ## 11. Gât (părți moi)
 _NR 1075–1092_
+
+### VERIFICAT (ordine) — reordonare pe flux (2026-07-10, la cerere) — fără schimbare
+
+- **Mase cervicale:** deja pe flux (abces / infecție profundă → corp străin faringian/
+  esofagian → masă cervicală cu punct de plecare necunoscut → `ALTĂ`). Neschimbat.
+- **Tiroidă, paratiroide:** deja reordonat clinic (decizie 2026-07-09 — succesiune de
+  workflow, patologie tiroidiană necronică/electivă). Nu se reia. Neschimbat.
+- **Glande salivare:** ambele situații reale sunt subacute (masă vs obstrucție/sialadenită);
+  fără gradient clar de acuitate → păstrat, `ALTĂ` ultima. **Niciun rând mutat.**
 
 - **MUTAT —** 8 rânduri intervenționale (PCAFGE) relocate la RI: tiroidă/paratiroidă
   → Aparat endocrin; „Masă cervicală" → Oncologie.
