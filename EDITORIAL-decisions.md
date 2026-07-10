@@ -86,6 +86,81 @@ Criteria, RCR iRefer). **Schițe — de validat clinic de editori** înainte de 
   „Adenopatii cervicale". Ecografie = *Indicat, grad A* primă intenție; IRM/CT cu
   contrast = *Doar cu aviz specializat* (bilanț preoperator).
 
+### 3.6 Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
+
+Coloane fixe pentru toate: `Capitol = Pediatrie`, `Terapeutic = Nu`; `NR.CRT` = ID nou, atribuit
+la inserare (la finalul secvenței). `Alte informații` = referința indicată sub fiecare situație.
+Gradele/dozele sunt orientative; ordinea examenelor = de la prima intenție în jos. **Referințe
+confirmate real (2026-07-10):** ACR AC *Hematuria-Child*, *Osteomyelitis or Septic Arthritis-Child
+(Excluding Axial Skeleton)* (2022), *Acutely Limping Child Up To Age 5*; AAP *Bronchiolitis* CPG
+(2014); EULAR-PReS imaging in JIA (Colebatch-Bourn, Ann Rheum Dis 2015).
+
+#### (1) `Pediatrie › Aparat digestiv` — **Boală inflamatorie intestinală (Crohn) – bilanț și monitorizare**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Crohn Disease (considerații pediatrice); ESPGHAN/ESPR."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | Entero-IRM | Indicat | B | 0/0 | Metoda de referință la copil (neiradiantă): extindere, activitate inflamatorie, complicații (stenoze, fistule, abcese). De preferat pentru monitorizarea repetată. |
+| E | Ecografie de anse intestinale | Indicat | B | 0/0 | Primă intenție și monitorizare: îngroșare parietală, hiperemie Doppler, complicații. Accesibilă, fără sedare/iradiere. |
+| T | Entero-CT | Doar în cazuri particulare | B | 2/3 | Rezervat contextului acut/ocluziv sau când IRM nu e disponibil (iradiere — de evitat la monitorizarea repetată la copil). |
+
+> **Hernie inghinală / patologie de canal** — diagnostic clinic; **nu se drafteză rând propriu**
+> (acoperire imagistică marginală). Dacă editorii doresc totuși o linie pentru cazuri echivoce:
+> Ecografie = *Doar în cazuri particulare, grad C*.
+
+#### (2) `Pediatrie › Aparat locomotor` — **Artrită septică / osteomielită acută**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Osteomyelitis or Septic Arthritis-Child (Excluding Axial Skeleton); Acutely Limping Child Up To Age 5."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie | Indicat | B | 0/0 | Primă intenție articulară: revărsat, ghidarea puncției/artrocentezei (cheia diagnosticului de artrită septică). |
+| M | IRM | Indicat | A | 0/0 | Examen de referință: edem osos precoce, abces subperiostal/de părți moi, extensie; cu substanță de contrast când e disponibilă. |
+| G | Radiografie | Indicat | C | 1/1 | Inițial adesea normală (modificările osoase apar tardiv); utilă pentru excluderea altor cauze (fractură, tumoră osoasă). |
+| N | Scintigrafie osoasă | Doar cu aviz specializat | B | 2/3 | Când sediul nu poate fi localizat clinic sau la suspiciune de focare multiple; IRM preferată dacă e disponibilă. |
+
+#### (3) `Pediatrie › Aparat locomotor` — **Artrită idiopatică juvenilă (AIJ) – bilanț articular**
+`Alte informații =` „Cf. EULAR-PReS – imaging in juvenile idiopathic arthritis (Colebatch-Bourn 2015)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | IRM cu substanță de contrast | Indicat | B | 0/0 | Sinovită, edem osos, eroziuni precoce; util mai ales la articulații profunde (șold, ATM, sacro-iliace). Gadolinium pentru evaluarea activității sinoviale. |
+| E | Ecografie (Doppler) | Indicat | B | 0/0 | Sinovită, revărsat, hiperemie Doppler; monitorizarea articulațiilor superficiale, ghidarea infiltrațiilor. Neiradiantă, fără sedare. |
+
+#### (4) `Pediatrie › Torace, pulmon, cord` — **Bronșiolită acută (sugar)**
+`Alte informații =` „Cf. AAP Clinical Practice Guideline – Bronchiolitis (2014)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| G | Radiografie toracică | Neindicat | B | 1/1 | Diagnostic clinic; radiografia de rutină NU e indicată în forma tipică (crește riscul de supradiagnostic de pneumonie și de antibioterapie inutilă). Doar în forme severe/atipice, agravare sau necesar de terapie intensivă. |
+
+#### (5) `Pediatrie › Torace, pulmon, cord` — **Malformații pulmonare congenitale (CPAM / sechestrare pulmonară) – bilanț postnatal**
+`Alte informații =` „Literatura de specialitate (bilanț imagistic postnatal CPAM/sechestrare) — *de confirmat sursa citabilă*."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | Angio-CT toracic cu substanță de contrast | Indicat | B | 2/3 | Caracterizare postnatală: definește leziunea (CPAM vs sechestrare) și identifică **pediculul arterial sistemic** (de obicei aortic) al sechestrării — esențial pre-chirurgical. |
+| G | Radiografie toracică | Indicat | C | 1/1 | Evaluare inițială postnatală; o radiografie normală NU exclude leziunea (bilanțul se completează prin CT). |
+
+> Notă: editorialul propunea „CT toracic cu contrast"; rafinat la **angio-CT**, fiindcă maparea
+> aportului arterial sistemic (diagnosticul de sechestrare) e obiectivul-cheie. Sursa citabilă
+> rămâne de fixat de editori.
+
+#### (6) `Pediatrie › Uro-nefrologie` — **Hematurie (macroscopică / microscopică)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Hematuria-Child."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie reno-vezicală | Indicat | B | 0/0 | Primă intenție: parenchim renal, dilatația căilor, litiază, mase; neiradiantă. Explorările ulterioare doar în funcție de rezultat/context clinic. |
+
+#### (7) `Pediatrie › Uro-nefrologie` — **Litiază renală (colică / suspiciune)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Hematuria-Child (varianta durere / urolitiază)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie reno-vezicală | Indicat | A | 0/0 | Primă intenție la copil pentru litiază: detectează calculii și hidronefroza, fără iradiere. |
+| T | CT low-dose fără substanță de contrast | Doar cu aviz specializat | B | 2/2 | Când ecografia e neconcludentă și persistă suspiciunea clinică; protocol low-dose (minimizarea iradierii la copil). |
+
+#### (8) `Pediatrie › Gât și coloană vertebrală` — **Mase cervicale congenitale (chist tireoglos, chist branhial)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Neck Mass/Adenopathy (considerații pediatrice)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie | Indicat | A | 0/0 | Primă intenție: localizare, caracter chistic/solid, raport cu osul hioid (tireoglos) / marginea sternocleidomastoidianului (branhial); **confirmă țesut tiroidian normal** înainte de excizia unui chist tireoglos. |
+| M | IRM cu substanță de contrast | Doar cu aviz specializat | B | 0/0 | Bilanț preoperator pentru leziuni profunde/complicate (extensie, raporturi); alternativă neiradiantă la CT. |
+| T | CT cu substanță de contrast | Doar cu aviz specializat | B | 2/3 | Bilanț preoperator când IRM nu e disponibil sau la suprainfecție (definește colecția). |
+
 ---
 
 ## 4. Pediatrie — chestiuni editoriale de stil
@@ -378,6 +453,60 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 - ⏳ **Evaluare structurală pre-TAVI/TAVR** — există doar în comentarii (NR 593, 633), nu ca
   situație dedicată. De decis dacă merită rând propriu (angio-CT „de la aortă la femurale").
 
+### 13.D Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
+
+Coloane fixe: `Capitol = Aparat cardiovascular`, `Terapeutic = Nu`; `NR.CRT` = ID nou la inserare.
+`Alte informații` = referința de sub fiecare situație. **Referințe confirmate real (2026-07-10):**
+ESC 2024 *Chronic Coronary Syndromes* (CCTA primă linie la probabilitate 5–50%, Clasă I); ESC 2023
+*Management of Endocarditis* (rol FDG-PET/CT pe valvă protetică/dispozitive); ESC 2024 *Atrial
+Fibrillation*; HRS 2014 *Expert Consensus – Cardiac Sarcoidosis*; NICE CG95. Gradele/dozele orientative.
+
+#### (1) `Cord` — **Durere toracică cronică / suspiciune de boală coronariană stabilă – evaluare inițială**
+`Alte informații =` „Cf. ESC 2024 Chronic Coronary Syndromes; NICE CG95; ACR Appropriateness Criteria."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | Coronaro-CT | Indicat | A | 2/3 | Primă linie la probabilitate pre-test joasă–intermediară (>5–50%): exclude/confirmă boala coronariană obstructivă și estimează riscul de evenimente (ESC 2024, Clasă I; NICE CG95). |
+| T | Scor de calciu coronarian (CT) | Indicat | B | 1/1 | Stratificare de risc la pacienți selectați; NU înlocuiește coronaro-CT pentru boala obstructivă. |
+
+> Testele funcționale de stress (ecografie / IRM / SPECT de perfuzie) sunt **deja parțial acoperite**
+> de situația „Explorarea non-invazivă a ischemiei miocardice" → **uniformizare**, nu rânduri noi.
+> De corelat cele două situații la decizia editorilor.
+
+#### (2) `Cord` — **Endocardită infecțioasă**
+`Alte informații =` „Cf. ESC 2023 Guidelines – Management of Endocarditis."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecocardiografie transtoracică (ETT) | Indicat | A | 0/0 | Primă intenție la suspiciune de endocardită: vegetații, regurgitări, abcese. |
+| E | Ecocardiografie transesofagiană (ETE) | Indicat | A | 0/0 | Sensibilitate superioară; indicată la ETT neconcludentă, valve protetice, dispozitive intracardiace, suspiciune de complicații (abces, vegetații mici). |
+| N | PET-CT cu 18F-FDG | Doar în cazuri particulare | B | 4/4 | Criteriu major ESC 2023 pentru endocardita pe **valvă protetică / dispozitive intracardiace**; detecția emboliilor oculte și a focarelor extracardiace. Fals-negativ posibil în primele ~3 luni postoperator. |
+| T | CT cardiac (angio-CT) | Indicat | B | 2/3 | Abcese/pseudoanevrisme, dehiscență protetică, planificare chirurgicală; angio-CT pentru emboliile sistemice. |
+
+#### (3) `Cord` — **Fibrilație atrială – evaluare pre-procedurală / sursă cardioembolică**
+`Alte informații =` „Cf. ESC 2024 Guidelines – Atrial Fibrillation."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecocardiografie transesofagiană (ETE) | Indicat | A | 0/0 | Excluderea trombului din auriculul stâng înainte de cardioversie/ablație; bilanț de sursă embolică după AVC. |
+| T | CT cardiac (atriu stâng + vene pulmonare) | Indicat | B | 2/3 | Cartografiere pre-ablație / pre-închidere de auricul stâng (LAA); anatomia venelor pulmonare. |
+
+#### (4) `Cord` — **Sarcoidoză cardiacă** (prioritate medie)
+`Alte informații =` „Cf. HRS 2014 Expert Consensus – Cardiac Sarcoidosis."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | IRM cardiac cu substanță de contrast | Indicat | B | 0/0 | Edem/inflamație (T2, mapare) și fibroză (captare tardivă de gadolinium, tipic mediomiocardică/subepicardică). |
+| N | PET-CT cu 18F-FDG (protocol dedicat) | Indicat | B | 4/4 | Inflamație activă; necesită pregătire dietetică (supresia captării miocardice fiziologice). Util și pentru monitorizarea răspunsului la tratament. |
+
+> Poate fi încadrată și ca sub-caz la „Suspiciune de cardiomiopatie sau miocardită" (decizie de încadrare).
+
+#### (5) `Cord` — **Evaluare structurală pre-TAVI/TAVR** (din §13.C)
+`Alte informații =` „Cf. ESC/EACTS – Valvular Heart Disease; ACR Appropriateness Criteria."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | Angio-CT „de la aortă la arterele femurale" | Indicat | B | 2/3 | Măsurarea inelului aortic (annulus sizing), anatomia rădăcinii aortice și a coronarelor, evaluarea căilor de acces ilio-femural. Standard pre-TAVI. |
+
+> **§13.B rămâne NON-insertion-ready** — fiecare punct (boală carotidiană, ischemie mezenterică,
+> cardio-oncologie, vasculite de vase mari, urmărire post-EVAR) e blocat pe o **decizie de home**
+> cross-capitol; nu se poate drafta un rând complet până nu se fixează capitolul-gazdă. Nedraftat intenționat.
+
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (ESC/ACR/RCR) și se consemnează în CHANGELOG.
 
@@ -417,6 +546,72 @@ Capitolul e orientat aproape exclusiv pe traumă închisă (blunt). De adăugat:
 ### 14.5 Minore
 - **Traumatism cranian la vârstnic / anticoagulat** — prag mai jos de CT; mai degrabă o notă
   în situația „Traumatism cranio-cerebral" existentă, nu un subcapitol nou.
+
+### 14.6 Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
+
+Coloane fixe: `Capitol = Traumatisme`, `Terapeutic = Nu`; `NR.CRT` = ID nou la inserare.
+`Alte informații` = referința de sub fiecare situație. **Referințe confirmate real (2026-07-10):**
+ACR AC *Penetrating Neck Injury* (2017), *Penetrating Torso Trauma* (2024, acoperă abdomenul
+și leziunea diafragmatică). Gradele orientative (capitolul folosește mult „Indicat" fără grad
+explicit — propus grad B unde ghidul dă recomandare fermă). Ordinea examenelor = prima intenție în jos.
+
+> ⚠️ **Încadrare (14.1):** rândurile (1a–1c) presupun crearea unui **subcapitol nou `Gât`** în
+> Traumatisme (anticipat de `CLAUDE.md`, `[gât]` în lista de regiuni). Decizia de a crea subcapitolul
+> precede inserarea.
+
+#### (1a) `Gât` — **Traumatism cervical penetrant (plagă înjunghiată / împușcată; zonele I/II/III)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Penetrating Neck Injury."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | Angio-CT cervico-toracic | Indicat | B | 2/3 | Screening vascular + aerodigestiv la pacientul fără indicație chirurgicală imediată (semne „soft" sau „hard" fără instabilitate): evaluează vasele, laringo-traheea și faringo-esofagul într-o singură achiziție. |
+
+#### (1b) `Gât` — **Leziune laringo-traheală (traumatism cervical închis)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Penetrating Neck Injury (leziuni aerodigestive)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT cervical (cu reconstrucții) | Indicat | B | 2/3 | Fracturi de cartilaj laringian, emfizem, leziuni traheale; completează endoscopia. |
+
+#### (1c) `Gât` — **Leziune faringo-esofagiană**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Penetrating Neck Injury (leziuni aerodigestive)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT cervico-toracic cu substanță de contrast | Indicat | B | 2/3 | Emfizem cervical/mediastinal, colecții periesofagiene; suspiciune de perforație. |
+| X | Esofagografie cu contrast hidrosolubil | Indicat | B | 2/2 | Confirmă extravazarea; **contrast hidrosolubil, nu bariu** (risc de mediastinită chimică la perforație). |
+
+#### (2) `Abdomen` — **Traumatism abdominal penetrant (armă albă / armă de foc)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Penetrating Torso Trauma (2024)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT abdomino-pelvin cu substanță de contrast | Indicat | B | 2/3 | Pacient stabil hemodinamic: violare peritoneală, leziuni de organ, traiectul plăgii. **Distinct de „Traumatism abdominal major"** (mecanism contuziv). La pacientul instabil, FAST triază spre laparotomie. |
+
+#### (3a) `Torace` — **Leziune diafragmatică traumatică**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Penetrating Torso Trauma (2024)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT torace cu reconstrucții coronale/sagitale | Indicat | B | 2/3 | Entitate frecvent ratată: hernierea viscerelor abdominale, „collar sign", discontinuitatea diafragmatică. Reconstrucțiile multiplanare sunt esențiale. |
+
+#### (3b) `Torace` — **Fractură de stern**
+`Alte informații =` „Cf. RCR iRefer; ACR Appropriateness Criteria (trauma toracică)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| G | Radiografie de stern (incidență de profil) | Indicat | B | 1/2 | Primă intenție; incidență laterală/oblică. |
+| T | CT torace | Doar în cazuri particulare | B | 2/3 | Fracturi complexe sau suspiciune de contuzie cardiacă / leziuni mediastinale asociate. |
+
+#### (4) `Membru superior` **și** `Membru inferior` — **Traumatism de membru – suspiciune de fractură (adult)**
+`Alte informații =` „Cf. RCR iRefer; ACR Appropriateness Criteria (trauma de extremitate)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| G | Radiografie standard (min. 2 incidențe ortogonale) | Indicat | B | 1/1 | Primă intenție la suspiciune de fractură (claviculă, mână/degete, femur diafizar, gambă etc.). |
+| T | CT | Doar în cazuri particulare | B | 2/3 | Fracturi complexe/intraarticulare, planificare chirurgicală, radiografie neconcludentă cu suspiciune persistentă. |
+| M | IRM | Doar în cazuri particulare | B | 0/0 | Fracturi oculte (ex. scafoid) și leziuni de părți moi/ligamentare asociate. |
+
+> **Încadrare (14.4):** setul de fațete Traumatisme e **regional**, fără bucket generic „Membre" →
+> situația de mai sus se inserează **identic în ambele** subcapitole (`Membru superior`, `Membru
+> inferior`), sau se lasă ca situație generică — decizie de încadrare pentru editori.
+
+> **14.5 nu produce rând nou** — traumatismul cranian la vârstnic/anticoagulat = **completare de
+> comentariu** pe situația existentă „Traumatism cranio-cerebral" (prag mai jos de CT la
+> anticoagulați/vârstnici), nu subcapitol/situație nouă.
 
 > Status: **inventariat, neatins.** De validat/adăugat de editori. Nu confunda cu §10
 > (trauma care EXISTĂ deja în alte capitole și se aduce în Traumatisme — vezi CHANGELOG).
