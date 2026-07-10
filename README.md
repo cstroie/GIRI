@@ -7,7 +7,7 @@ de modificări versionat. Acest repo conține **doar datele** — aplicația de 
 
 ## Fișierul principal
 
-**`GHID.csv`** — 1462 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
+**`GHID.csv`** — 1438 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
 corecte (ș/ț cu virgulă, **nu** cedilă). Delimitator virgulă, câmpuri cu text între
 ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
@@ -15,7 +15,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 | # | Coloană | Descriere |
 |---|---|---|
-| 1 | `NR.CRT` | ID de rând, secvențial **1..1462** (renumerotat 2026-07-09). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
+| 1 | `NR.CRT` | ID de rând, secvențial **1..1438** (renumerotat 2026-07-10). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
 | 2 | `Capitol` | Unul din cele 14 capitole (vezi mai jos). |
 | 3 | `Subcapitol` | Grupare în cadrul capitolului. |
 | 4 | `Situația Clinică` | Scenariul clinic pentru care se recomandă (sau nu) investigația. |
@@ -59,24 +59,24 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | `C` | Consens / dovezi limitate |
 | `?` | Neprecizat |
 
-## Structura pe capitole (1462 rânduri)
+## Structura pe capitole (1438 rânduri)
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
 | 1 | Pediatrie | 1–196 | 196 |
 | 2 | Traumatisme | 197–317 | 121 |
-| 3 | Cancer | 318–576 | 259 |
-| 4 | Aparat cardiovascular | 577–663 | 87 |
-| 5 | Torace | 664–727 | 64 |
-| 6 | Aparat digestiv | 728–797 | 70 |
-| 7 | Aparat uro-genital și glande suprarenale | 798–866 | 69 |
-| 8 | Obstetrică și ginecologie | 867–893 | 27 |
-| 9 | Sân | 894–949 | 56 |
-| 10 | Cap | 950–1065 | 116 |
-| 11 | Gât (părți moi) | 1066–1083 | 18 |
-| 12 | Coloană vertebrală | 1084–1138 | 55 |
-| 13 | Aparat locomotor | 1139–1212 | 74 |
-| 14 | Radiologie intervențională | 1213–1462 | 250 |
+| 3 | Cancer | 318–577 | 260 |
+| 4 | Aparat cardiovascular | 578–665 | 88 |
+| 5 | Torace | 666–729 | 64 |
+| 6 | Aparat digestiv | 730–797 | 68 |
+| 7 | Aparat uro-genital și glande suprarenale | 798–865 | 68 |
+| 8 | Obstetrică și ginecologie | 866–891 | 26 |
+| 9 | Sân | 892–947 | 56 |
+| 10 | Cap | 948–1026 | 79 |
+| 11 | Gât (părți moi) | 1027–1059 | 33 |
+| 12 | Coloană vertebrală | 1060–1114 | 55 |
+| 13 | Aparat locomotor | 1115–1188 | 74 |
+| 14 | Radiologie intervențională | 1189–1438 | 250 |
 
 ## Documentație și review
 

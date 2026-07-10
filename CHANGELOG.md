@@ -68,15 +68,19 @@ indicații radioimagistice.
 > poziția fizică → **1..1439**. **Referințele NR.CRT din intrările de mai jos (inclusiv
 > secțiunea Aparat uro-genital) reflectă starea de la momentul modificării** — folosește
 > Capitol + Situație clinică, nu NR.CRT.
+>
+> ⚠️ **A șaptea renumerotare integrală, 1..1438** (la cerere, 2026-07-10, după reviewurile
+> Obstetrică-ginecologie și Pediatrie + reordonările pe flux din 6 capitole). Baza de dinainte
+> avea o gaură tolerată (802, după eliminarea unui placeholder) și numeroase reordonări fizice
+> care făcuseră NR.CRT necontiguu (ex. 870 mutat fizic în capitolul 7). Renumerotare pe poziția
+> fizică → **1..1438** (865 ID-uri schimbate). **Referințele NR.CRT din intrările de mai jos
+> reflectă starea de la momentul modificării** — folosește Capitol + Situație clinică, nu NR.CRT.
 
 ---
 
 ## Structura ghidului (după modificări — 14 capitole, 1438 rânduri, 13 coloane)
 
-> **1438 rânduri.** A șasea renumerotare (2026-07-09) făcuse fișierul contiguu 1..1439; de
-> atunci reviewul Obstetrică-ginecologie (2026-07-10) a eliminat 1 placeholder (**gaură la
-> NR.CRT 802**) și a mutat „Infertilitate masculină" (NR 870) din capitolul 8 în capitolul 7
-> — deci **NR.CRT nu mai e contiguu** (870 e fizic în capitolul 7). Pe viitor **nu se
+> **1438 rânduri, contiguu 1..1438** după a șaptea renumerotare (2026-07-10). Pe viitor **nu se
 > renumerotează automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc
 > ID-uri la finalul secvenței, până la o nouă renumerotare cerută explicit. ⚠️ **Referințele
 > NR.CRT din intrările per-capitol de mai jos reflectă starea de la momentul modificării**
@@ -90,14 +94,14 @@ indicații radioimagistice.
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 578–665 | 88 |
 | 5 | [Torace](#5-torace) | 666–729 | 64 |
 | 6 | [Aparat digestiv](#6-aparat-digestiv) | 730–797 | 68 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–865, 870 | 68 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 866–892 (fără 802, 870) | 26 |
-| 9 | [Sân](#9-sân) | 893–948 | 56 |
-| 10 | [Cap](#10-cap) | 949–1027 | 79 |
-| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1028–1060 | 33 |
-| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1061–1115 | 55 |
-| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1116–1189 | 74 |
-| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1190–1439 | 250 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–865 | 68 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 866–891 | 26 |
+| 9 | [Sân](#9-sân) | 892–947 | 56 |
+| 10 | [Cap](#10-cap) | 948–1026 | 79 |
+| 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1027–1059 | 33 |
+| 12 | [Coloană vertebrală](#12-coloană-vertebrală) | 1060–1114 | 55 |
+| 13 | [Aparat locomotor](#13-aparat-locomotor) | 1115–1188 | 74 |
+| 14 | [Radiologie intervențională](#14-radiologie-intervențională) | 1189–1438 | 250 |
 
 ---
 
