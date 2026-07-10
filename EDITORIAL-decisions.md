@@ -1502,3 +1502,79 @@ ulterioară dedicată, împreună cu deciziile 30.A/30.B.
 > păstrate au fost alese dintre cele existente (cel mai bogat/canonic per modalitate), fără
 > compunere de text clinic nou. Singura completare de etichetă (30.B) a adăugat red-flag-uri deja
 > prezente în perechea eliminată.
+
+---
+
+## 31. Coloană vertebrală — goluri de conținut față de ghidurile de referință (2026-07-10)
+
+Comparație a capitolului (38 rânduri, 10 situații) cu topicele de coloană din **ACR
+Appropriateness Criteria®** — *Low Back Pain* (2021 Update), *Suspected Spine Infection* (2021),
+*Myelopathy*, *Management of Vertebral Compression Fractures* — cu **RCR iRefer** (secțiunea
+musculo-scheletală / coloană) și cu criteriile **ASAS** pentru spondilartrita axială.
+
+**Acoperit azi:** durere axială (cervicalgie / dorsalgie / lombalgie cronică), durere radiculară
+(nevralgie cervico-brahială, lombo-radiculalgie acută), lombalgie cu semne de gravitate,
+instabilitate atlanto-axoidiană non-traumatică, sindrom medular (mielopatie) netraumatic, bilanț
+de fractură vertebrală spontană, sacroileită. **Lipsesc câteva topice majore din ghiduri.**
+
+**NU am adăugat rânduri în `GHID.csv`** — adăugarea de situații/grade e decizie clinică-editorială
+(regula 6). Mai jos sunt **propuneri**, cu modalitatea de primă intenție conform ghidurilor; gradul
+final îl fixează editorii. Încadrarea urmează ierarhia din `CLAUDE.md`.
+
+### 31.A Goluri clare cu home = Coloană vertebrală (propuneri de adăugat)
+
+1. 🔴 **Suspiciune de infecție spinală / spondilodiscită (± abces epidural / paravertebral).**
+   Absent complet — deși e o urgență diagnostică majoră. **IRM cu contrast (gadolinium)** =
+   examenul de elecție (edem disco-vertebral, colecții epidurale); radiografia/CT pot fi normale
+   în faza precoce (CT util pentru distrucția osoasă / ghidarea biopsiei); **scintigrafie cu
+   leucocite marcate / PET-CT (FDG)** în cazuri selectate sau contraindicație IRM. Context de risc:
+   diabet, consum de droguri i.v., cancer, HIV, dializă, imunosupresie, febră + VSH/CRP crescute.
+   Home = subcapitolul general **„Coloană"** (poate afecta orice segment). Sursă: ACR *Suspected
+   Spine Infection* (2021).
+2. 🔴 **Sindrom de coadă de cal (cauda equina).** Azi „topit" ca red-flag în eticheta „Lombalgie
+   cu semne de gravitate…" și în comentarii. ACR îl tratează ca **variantă distinctă, urgentă**.
+   **IRM lombară de urgență** = gold standard; CT/mielo-CT dacă IRM e contraindicat. Fiind o urgență
+   neurochirurgicală, merită **situație proprie** (vizibilitate). Home = **Coloană lombară**.
+   De decis: situație separată vs. păstrare ca red-flag.
+3. 🟠 **Coloană (lombară) operată — recidivă de hernie / „failed back surgery".** Azi doar
+   menționat în comentarii („recidivele dureroase postoperatorii necesită IRM"). ACR are variantă
+   dedicată (*LBP with prior lumbar surgery*). **IRM cu ȘI fără contrast** = tehnica de elecție —
+   gadoliniul distinge **fibroza/cicatricea epidurală** (captează) de **hernia recidivată** (nu
+   captează central); CT pentru evaluarea instrumentației/fuziunii. Home = **Coloană lombară**.
+4. 🟠 **Suspiciune de spondilartrită axială / durere lombară de tip inflamator.** Avem „Sacro-
+   ileită" centrată pe **radiografie**, dar abordarea modernă (ASAS) pornește de la **IRM articulații
+   sacro-iliace** (edem osos subcondral pe STIR = sacroiliită activă precoce, radiografie încă
+   normală), ± IRM coloană. De decis: situație dedicată **„Spondilartrită axială (durere de tip
+   inflamator)"** cu IRM SI + coloană ca primă intenție, sau **îmbogățirea „Sacro-ileită"** cu IRM
+   ca primă intenție la suspiciune clinică (radiografia rămânând pentru leziunile structurale
+   tardive). Home = **Sacru** (sau nou subcapitol). Sursă: criteriile ASAS.
+
+### 31.B Goluri cu home în alt capitol (nu se adaugă aici)
+
+- **Suspiciune de tumoră spinală / metastaze vertebrale / compresie medulară malignă** →
+  **Cancer** (ierarhie: malignitate cunoscută/suspectată). IRM cu contrast = primă intenție;
+  „Sindrom medular netraumatic" din capitolul nostru acoperă compresia *non-tumorală*. De
+  verificat completitudinea la **Cancer** (stadializare osoasă / metastaze vertebrale).
+- **Anomalii congenitale ale coloanei / disrafism spinal / măduvă ancorată / scolioză la copil**
+  → **Pediatrie** (aici exista un rând-breadcrumb „Afecțiuni congenitale", eliminat în runda 2).
+- **Malformații vasculare spinale (MAV, fistulă durală arterio-venoasă) / ischemie medulară** →
+  **Sistem nervos** (diagnostic: IRM + angio-IRM) și **RI** (angiografie/embolizare).
+- **Vertebroplastie / cifoplastie, biopsie vertebrală percutană, infiltrații / blocaje** → deja la
+  **RI › Aparat locomotor** (Tip `I`).
+
+### 31.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
+
+- **Fractură vertebrală: diferențierea benign (osteoporotic) vs. malign (patologic).** „Bilanț
+  fractură vertebrală spontană" o acoperă parțial; rolul **IRM** (secvențe de difuzie / chemical-
+  shift pentru infiltrarea măduvei) în această diferențiere merită explicitat în comentariu (azi
+  menționat sumar). Sursă: ACR *Management of Vertebral Compression Fractures*.
+- **Mielopatie cervicală spondilotică.** „Sindrom medular netraumatic" o include, dar ar putea fi
+  menționată explicit (cea mai frecventă cauză de mielopatie non-traumatică la adult; IRM cervical).
+- **Osteoporoză — VFA (vertebral fracture assessment) prin DXA lateral** ca și complement al
+  osteodensitometriei, pentru fracturi vertebrale morfometrice asimptomatice.
+
+> Status: **analiză, fără modificare de date.** Propunerile așteaptă decizia editorilor (ce se
+> adaugă, cu ce grad/doză, unde se încadrează). Priorități: 🔴 = gol major (infecție spinală,
+> cauda equina). Surse: ACR Appropriateness Criteria® (*Low Back Pain* 2021, *Suspected Spine
+> Infection* 2021, *Myelopathy*, *Vertebral Compression Fractures*), RCR iRefer (ed. 8), criteriile
+> ASAS pentru spondilartrita axială.
