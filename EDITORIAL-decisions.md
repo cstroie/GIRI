@@ -1633,7 +1633,15 @@ Review complet al capitolului (74 de rânduri). Corecturile mecanice (diacritice
 denumiri de examene) au fost **aplicate** — vezi `CHANGELOG.md §13 › REVIZUIT`. Punctele de
 mai jos sunt **de încadrare / conținut** și rămân deschise (fără modificare de date).
 
-### 32.A ⏳ „Nevralgie cervico-brahială" încadrată la subcapitolul „Umăr"
+### 32.A ✅ „Nevralgie cervico-brahială" încadrată la subcapitolul „Umăr"
+
+> ✅ **REZOLVAT (2026-07-10, la cerere) — mutat la Coloană cervicală, cu reconciliere.** La mutare
+> s-a descoperit că **Coloană vertebrală › Coloană cervicală conținea deja o situație omonimă**
+> „Nevralgie cervico-brahială" (CT, IRM, Radiografie standard), cu **grade identice** pe cele 3
+> modalități suprapuse. Deci nu s-a făcut mutare oarbă, ci **comasare**: rândurile CT/IRM/G din
+> Aparat locomotor au fost eliminate (duplicau existentul canonic), iar singurul conținut nou —
+> **Mielo-CT** — a fost relocat în grupul cervical. Niciun grad schimbat. Vezi `CHANGELOG.md
+> §13 › MUTAT/COMASAT` și `§12 › ADĂUGAT`. Găuri NR.CRT: 1154, 1156, 1157.
 
 Situația **„Nevralgie cervico-brahială"** (NR 1154–1157) stă în subcapitolul **Umăr**, dar
 toate examenele ei vizează **coloana cervicală** (CT coloană cervicală, Mielo-CT, IRM coloană
@@ -1646,7 +1654,12 @@ la Coloană vertebrală › Coloană cervicală (unde există deja „Cervicalgi
 cervico-brahială" ar fi vecina firească). Recomandare slabă: (b) — situația e integral
 cervico-vertebrală. **Lăsată neatinsă.**
 
-### 32.B ⏳ „Fasceita plantară" în „Diverse" vs. subcapitolul „Picior"
+### 32.B ✅ „Fasceita plantară" în „Diverse" vs. subcapitolul „Picior"
+
+> ✅ **REZOLVAT (2026-07-10, la cerere) — mutat la „Picior".** Cele 4 rânduri „Fasceita plantară"
+> relocate din „Diverse" în subcapitolul „Picior" (lângă „Halux valgus"), ordinea examenelor
+> păstrată, NR.CRT neschimbate. „Diverse" păstrează doar condițiile sistemice/cross-regiune.
+> Vezi `CHANGELOG.md §13 › MUTAT/COMASAT`.
 
 Subcapitolul **Picior** conține o singură situație reală (**„Halux valgus"**, NR 1140) + rândul
 placeholder Tip `Z`. În același timp, **„Fasceita plantară"** (NR 1106–1109) — patologie strict
