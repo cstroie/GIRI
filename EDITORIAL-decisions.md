@@ -1624,3 +1624,48 @@ inserare.** Coloane fixe pentru toate: `Capitol = Coloană vertebrală`, `Terape
 > 🔴 = gol major (infecție spinală, cauda equina). Surse: ACR Appropriateness Criteria®
 > (*Low Back Pain* 2021, *Suspected Spine Infection* 2021, *Myelopathy*, *Vertebral Compression
 > Fractures*), RCR iRefer (ed. 8), criteriile ASAS pentru spondilartrita axială.
+
+---
+
+## 32. Aparat locomotor — chestiuni ridicate la review (2026-07-10)
+
+Review complet al capitolului (74 de rânduri). Corecturile mecanice (diacritice, spații,
+denumiri de examene) au fost **aplicate** — vezi `CHANGELOG.md §13 › REVIZUIT`. Punctele de
+mai jos sunt **de încadrare / conținut** și rămân deschise (fără modificare de date).
+
+### 32.A ⏳ „Nevralgie cervico-brahială" încadrată la subcapitolul „Umăr"
+
+Situația **„Nevralgie cervico-brahială"** (NR 1154–1157) stă în subcapitolul **Umăr**, dar
+toate examenele ei vizează **coloana cervicală** (CT coloană cervicală, Mielo-CT, IRM coloană
+cervicală, Radiografie coloană cervicală) — patologie de **radiculopatie cervicală**, nu de
+umăr. Per ierarhia de capitole, home-ul „anatomic" ar fi **Coloană vertebrală › Coloană
+cervicală**. Motivul plasării actuale e clinic (nevralgia cervico-brahială e un **diagnostic
+diferențial al umărului dureros**), dar datele nu poartă breadcrumb-uri (regula „un singur
+home"). **De decis:** (a) rămâne la Umăr ca fațetă de diagnostic diferențial, sau (b) se mută
+la Coloană vertebrală › Coloană cervicală (unde există deja „Cervicalgii comune", „Nevralgie
+cervico-brahială" ar fi vecina firească). Recomandare slabă: (b) — situația e integral
+cervico-vertebrală. **Lăsată neatinsă.**
+
+### 32.B ⏳ „Fasceita plantară" în „Diverse" vs. subcapitolul „Picior"
+
+Subcapitolul **Picior** conține o singură situație reală (**„Halux valgus"**, NR 1140) + rândul
+placeholder Tip `Z`. În același timp, **„Fasceita plantară"** (NR 1106–1109) — patologie strict
+a piciorului — stă în subcapitolul-coș **„Diverse"**. **De decis:** consolidarea patologiei de
+picior sub „Picior" (mutarea „Fasceita plantară" din „Diverse" la „Picior"). Nu s-a mutat
+unilateral — „Diverse" grupează și alte enteziopatii, iar granița „coș sistemic vs. subcapitol
+de regiune" e o alegere editorială. (Restul din „Diverse" — artropatie inflamatorie, osteomalacie,
+osteomielită, sindrom dureros post-protezare — sunt condiții **sistemice / cross-regiune**, deci
+„Diverse" pare un coș legitim pentru ele.)
+
+### 32.C ⏳ Acoperire subțire a capitolului (posibil audit de conținut viitor)
+
+Capitolul are subcapitole doar pentru **Genunchi, Șold, Umăr, Picior** (+ „Diverse"). Lipsesc
+regiuni MSK frecvent indicate în ghiduri (ACR AC / RCR iRefer): **pumn / mână** (sindrom de tunel
+carpian, suspiciune de scafoid), **cot**, **gleznă / picior** (entorsă, reguli Ottawa),
+**tumori de părți moi** (masă palpabilă — parțial mutate la Cancer). Nu e o eroare de date, ci un
+**gol de conținut** — de evaluat într-un audit dedicat față de ghidurile de referință (analog
+secțiunilor de „goluri de conținut" ale altor capitole), dacă editorii doresc extinderea
+capitolului. **Nesemnalat ca sarcină acum** — doar consemnat.
+
+> Status: **analiză, fără modificare de date.** Sursele pentru un eventual audit: ACR
+> Appropriateness Criteria® (musculoskeletal), RCR iRefer (ed. 8).

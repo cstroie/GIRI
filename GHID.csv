@@ -1145,96 +1145,91 @@ SPECT-CT",Doar în cazuri particulare,C,"Indicația unui CT, IRM sau scintigrafi
 SPECT-CT",Doar cu aviz specializat,B,Permite evaluarea întregului schelet; indicata uneori când există contraindicatii pentru examinarea IRM.,,3,3,Nu
 1097,Coloană vertebrală,Sacru,ALTĂ SITUAȚIE CLINICĂ,Z,Situație clinică neîncadrabilă,Este necesară justificare detaliată,,,,,,
 1098,Aparat locomotor,Diverse,Artropatie inflamatorie – bilanț inițial,N,"Scintigrafie osoasă
-(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB si 
-SPECT-CT",Doar cu aviz specializat,B,"Scintigrafia osoasa permite un bilant al modificarilor inflamatorii si al enteziopatiilor, respectiv distributia acestora la nivelul întregului corp.",,2,2,Nu
-1099,Aparat locomotor,Diverse,Artropatie inflamatorie – bilanț inițial,E,Ecografie,Doar în cazuri particulare,B,"Ecografia  Doppler poate confirma modificările de sinovită acută și poate aprecia caracterul inflamator . Privind suspiciunea de PR , studiu ecografic  ar trebui să vizeze cel puțin articulația radio-carpiană și articulațiile MCP si MTP.",,0,0,Nu
-1100,Aparat locomotor,Diverse,Artropatie inflamatorie – bilanț inițial,G,Radiografie,Doar cu aviz specializat,C,"Determinarea etiologiei caracterului inflamator - eroziuni osoase, plaje de osteoscleroza.Pentru pacienții cu suspiciune de artrită reumatoida este indicată o radiografie antepicior ( față si 3/4) pentru a detecta eroziunile osoase.
-Radiografiile de bazin și coloană vertebrală toraco-lombara sunt indicate  în cazul în care istoricul pacientului este de dureri toraco-lombare inflamatorii specifice pentru incadrarea in SPA. Aspectul normal al radiografiilor 
-nu exclude diagnosticul de SPA.
-
-",,1,2,Nu
-1101,Aparat locomotor,Diverse,Artropatie inflamatorie – bilanț inițial,M,IRM,Doar cu aviz specializat,B,"Permite stabilirea diagnosticului de  sinovită acută , chiar și la nivelul articulațiilor la care examenul ecografic nu este suficient. Permite analiza cartilajului articular, al eroziunilor osoase incipiente, respectiv al edemului osos.",,0,0,Nu
+(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și
+SPECT-CT",Doar cu aviz specializat,B,"Scintigrafia osoasă permite un bilanț al modificărilor inflamatorii și al enteziopatiilor, respectiv distribuția acestora la nivelul întregului corp.",,2,2,Nu
+1099,Aparat locomotor,Diverse,Artropatie inflamatorie – bilanț inițial,E,Ecografie,Doar în cazuri particulare,B,"Ecografia Doppler poate confirma modificările de sinovită acută și poate aprecia caracterul inflamator. Privind suspiciunea de PR, studiu ecografic ar trebui să vizeze cel puțin articulația radio-carpiană și articulațiile MCP și MTP.",,0,0,Nu
+1100,Aparat locomotor,Diverse,Artropatie inflamatorie – bilanț inițial,G,Radiografie,Doar cu aviz specializat,C,"Determinarea etiologiei caracterului inflamator - eroziuni osoase, plaje de osteoscleroză.Pentru pacienții cu suspiciune de artrită reumatoidă este indicată o radiografie antepicior ( față și 3/4) pentru a detecta eroziunile osoase.
+Radiografiile de bazin și coloană vertebrală toraco-lombară sunt indicate în cazul în care istoricul pacientului este de dureri toraco-lombare inflamatorii specifice pentru încadrarea în SPA. Aspectul normal al radiografiilor 
+nu exclude diagnosticul de SPA.",,1,2,Nu
+1101,Aparat locomotor,Diverse,Artropatie inflamatorie – bilanț inițial,M,IRM,Doar cu aviz specializat,B,"Permite stabilirea diagnosticului de sinovită acută, chiar și la nivelul articulațiilor la care examenul ecografic nu este suficient. Permite analiza cartilajului articular, al eroziunilor osoase incipiente, respectiv al edemului osos.",,0,0,Nu
 1102,Aparat locomotor,Diverse,Artropatie inflamatorie – bilanț inițial,T,CT,Doar cu aviz specializat,B,Detectarea eroziunilor osoase și a microcalcificărilor.,,1,2,Nu
-1103,Aparat locomotor,Diverse,Artropatie inflamatorie – monitorizare,G,Radiografia,Doar în cazuri particulare,C,"Poate fi indicată în cazul modificarii simptomatologiei sau pentru introducerea de noi scheme terapeutice in cazul artritei reumatoide. Radiografii ale mâinilor si picioarelor, ale radio-carpului sau ale altor articulații sunt indicate la fiecare 6 luni în primul an, apoi cel puțin anual pentru 3 până la 5 ani .
-",,1,1,Nu
-1104,Aparat locomotor,Diverse,Artropatie inflamatorie – monitorizare,E,Ecografia,Doar cu aviz specializat,B,Ecografia Doppler este indicată pentru a evalua activitatea modificărilor inflamatorii și răspunsul acestora la tratament.,,0,0,Nu
-1105,Aparat locomotor,Diverse,Artropatie inflamatorie – monitorizare,M,IRM,Doar cu aviz specializat,B,"IRM (evaluarea sinovitei, edemului osos ) poate fi indicat pentru a evalua activitatea modificărilor inflamatorii și raspunsul terapeutic al leziunilor inflamatorii.",,0,0,Nu
+1103,Aparat locomotor,Diverse,Artropatie inflamatorie – monitorizare,G,Radiografie,Doar în cazuri particulare,C,"Poate fi indicată în cazul modificării simptomatologiei sau pentru introducerea de noi scheme terapeutice în cazul artritei reumatoide. Radiografii ale mâinilor și picioarelor, ale radio-carpului sau ale altor articulații sunt indicate la fiecare 6 luni în primul an, apoi cel puțin anual pentru 3 până la 5 ani.",,1,1,Nu
+1104,Aparat locomotor,Diverse,Artropatie inflamatorie – monitorizare,E,Ecografie,Doar cu aviz specializat,B,Ecografia Doppler este indicată pentru a evalua activitatea modificărilor inflamatorii și răspunsul acestora la tratament.,,0,0,Nu
+1105,Aparat locomotor,Diverse,Artropatie inflamatorie – monitorizare,M,IRM,Doar cu aviz specializat,B,"IRM (evaluarea sinovitei, edemului osos) poate fi indicat pentru a evalua activitatea modificărilor inflamatorii și răspunsul terapeutic al leziunilor inflamatorii.",,0,0,Nu
 1106,Aparat locomotor,Diverse,Fasceita plantară,N,"Scintigrafie osoasă
-(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB si 
-SPECT-CT",Doar în cazuri particulare,B,Indicata in cazul în care suspiciunea clinica nu este de  durere tipica pentru fasceita plantara. Stabilirea unui bilant  al enteziopatiilor in cadrul unei  spondiloartrite.,,2,2,Nu
-1107,Aparat locomotor,Diverse,Fasceita plantară,E,Ecografie ,Indicat,C,"Examinarea ecografică este adesea suficientă pentru diagnosticul fasceitei plantare , deși nu este necesară ca primă intenție  în cazul în care tabloul clinic este tipic pentru fasceita plantar post stress mecanic. În cazul în care aspectul este tipic pentru sindromul Ledderhose, examenul ecografic este suficient pentru stabilirea diagnosticului .",,0,0,Nu
-1108,Aparat locomotor,Diverse,Fasceita plantară,M,IRM,Doar în cazuri particulare,B,"Examinarea IRM poate fi indicată în cazul unui examen ecografic neconcludent sau în cazul suspiciunii clinice de fibromatoză plantară, faceita post artrită inflamatorie , fractură de stress calcaneu.",,0,0,Nu
-1109,Aparat locomotor,Diverse,Fasceita plantară,G,Radiografie,Neindicat în primă intenție,B,"În cazul în care tabloul clinic este tipic de fasceita plantara post stress mecanic, în special determinata de osteofitoză, radiografiile nu sunt indicate ca prima examinare. Sunt necesare, în cazul unei evoluții clinice anormale sau atipice . Radiografiile pun in evidență osteofitele calcaneene și posibile fracturi de stres calcaneene.",,1,1,Nu
-1110,Aparat locomotor,Diverse,Osteomalacie,G,Radiografie,Indicat,A,Utilă in diagnosticul unei dureri localizate.,,1,1,Nu
+(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și
+SPECT-CT",Doar în cazuri particulare,B,Indicată în cazul în care suspiciunea clinică nu este de durere tipică pentru fasceita plantară. Stabilirea unui bilanț al enteziopatiilor în cadrul unei spondiloartrite.,,2,2,Nu
+1107,Aparat locomotor,Diverse,Fasceita plantară,E,Ecografie,Indicat,C,"Examinarea ecografică este adesea suficientă pentru diagnosticul fasceitei plantare, deși nu este necesară ca primă intenție în cazul în care tabloul clinic este tipic pentru fasceita plantară post stress mecanic. În cazul în care aspectul este tipic pentru sindromul Ledderhose, examenul ecografic este suficient pentru stabilirea diagnosticului.",,0,0,Nu
+1108,Aparat locomotor,Diverse,Fasceita plantară,M,IRM,Doar în cazuri particulare,B,"Examinarea IRM poate fi indicată în cazul unui examen ecografic neconcludent sau în cazul suspiciunii clinice de fibromatoză plantară, fasceita post artrită inflamatorie, fractură de stress calcaneu.",,0,0,Nu
+1109,Aparat locomotor,Diverse,Fasceita plantară,G,Radiografie,Neindicat în primă intenție,B,"În cazul în care tabloul clinic este tipic de fasceita plantară post stress mecanic, în special determinată de osteofitoză, radiografiile nu sunt indicate ca prima examinare. Sunt necesare, în cazul unei evoluții clinice anormale sau atipice. Radiografiile pun în evidență osteofitele calcaneene și posibile fracturi de stres calcaneene.",,1,1,Nu
+1110,Aparat locomotor,Diverse,Osteomalacie,G,Radiografie,Indicat,A,Utilă în diagnosticul unei dureri localizate.,,1,1,Nu
 1111,Aparat locomotor,Diverse,Osteomalacie,N,"Scintigrafie osoasă
-(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB si 
-SPECT-CT
-",Indicat,C,"In caz de pacient cu osteomalacie cunoscuta , scintigrafia evidentiaza zone de hiperfixare ce reprezinta focare de fractura. In cazul in care boala nu e cunoscuta, scintigrafia evidentiaza o imagine de superscan.",,2,2,Nu
+(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și
+SPECT-CT",Indicat,C,"În caz de pacient cu osteomalacie cunoscută, scintigrafia evidențiază zone de hiperfixare ce reprezintă focare de fractură. În cazul în care boala nu e cunoscută, scintigrafia evidențiază o imagine de superscan.",,2,2,Nu
 1112,Aparat locomotor,Diverse,Osteomalacie,D,Osteodensitometrie,Doar în cazuri particulare,C,Utilă pentru diagnosticul unei osteomalacii prin deficit de vitamina D.,,1,1,Nu
-1113,Aparat locomotor,Diverse,Osteomalacie,N,PET-CT (F18-FDG),Doar cu aviz specializat,B,Poate pune in evidenta o leziune responsabila de osteomalacie paraneoplazica.,,4,4,Nu
-1114,Aparat locomotor,Diverse,Osteomalacie,N,Scintigrafia cu analogi ai receptorilor de somatostatina radiomarcati,Doar cu aviz specializat,B,Poate pune in evidenta o leziune responsabila de osteomalacie paraneoplazica.,,4,4,Nu
-1115,Aparat locomotor,Diverse,Osteomielita – suspiciune,G,Radiografie,Indicat,B,De primă intentie.,,1,1,Nu
-1116,Aparat locomotor,Diverse,Osteomielita – suspiciune,M,IRM,Indicat,B,Diagnostic precoce și extensia procesului infecțios la nivel osos și în părțile moi.,,0,0,Nu
-1117,Aparat locomotor,Diverse,Osteomielita – suspiciune,N,PET-CT (F18-FDG),Doar în cazuri particulare,B,Osteomielitei osoase periferice (non-postoperatorie la piciorul diabetic si non-diabetic).,,3,4,Nu
-1118,Aparat locomotor,Diverse,Osteomielita – suspiciune,N,"Scintigrafie osoasă
-(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB si 
-SPECT-CT, Scintigrafie cu leucocite marcate",Doar în cazuri particulare,B,"Permite diagnosticul formelor multifocale. Diagnosticul leziunilor infectioase, cum ar fi osteomielita si spondilodiscita (completate cu tehnici imagistice specifice infectiei) Permite diagnosticul formelor multifocale",,2,2,Nu
-1119,Aparat locomotor,Diverse,Osteomielita – suspiciune,T,CT,Doar în cazuri particulare,B,"Sensibil în detectarea osteolizei. În cazurile acute, CT-ul e mai puțin sensibil comparativ cu IRM. În caz de osteomielită cronică permite diagnosticul sechestrelor osoase.",,1,2,Nu
-1120,Aparat locomotor,Diverse,Osteomielita – suspiciune,E,Ecografie,Doar cu aviz specializat,B,"Poate evidenția epanșament articular, hipervascularizație Doppler, abces subperiostal, eroziuni corticale și permite ghidajul puncțiilor diagnostice.",,0,0,Nu
-1121,Aparat locomotor,Diverse,Sindrom dureros post protezare,G,Radiografie,Indicat,B,"Apreciaza poziționarea și uzura protezei, integritatea osoasa.",,1,1,Nu
+1113,Aparat locomotor,Diverse,Osteomalacie,N,PET-CT (F18-FDG),Doar cu aviz specializat,B,Poate pune în evidență o leziune responsabilă de osteomalacie paraneoplazică.,,4,4,Nu
+1114,Aparat locomotor,Diverse,Osteomalacie,N,Scintigrafia cu analogi ai receptorilor de somatostatină radiomarcați,Doar cu aviz specializat,B,Poate pune în evidență o leziune responsabilă de osteomalacie paraneoplazică.,,4,4,Nu
+1115,Aparat locomotor,Diverse,Osteomielită – suspiciune,G,Radiografie,Indicat,B,De primă intenție.,,1,1,Nu
+1116,Aparat locomotor,Diverse,Osteomielită – suspiciune,M,IRM,Indicat,B,Diagnostic precoce și extensia procesului infecțios la nivel osos și în părțile moi.,,0,0,Nu
+1117,Aparat locomotor,Diverse,Osteomielită – suspiciune,N,PET-CT (F18-FDG),Doar în cazuri particulare,B,Osteomielitei osoase periferice (non-postoperatorie la piciorul diabetic și non-diabetic).,,3,4,Nu
+1118,Aparat locomotor,Diverse,Osteomielită – suspiciune,N,"Scintigrafie osoasă
+(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și
+SPECT-CT, Scintigrafie cu leucocite marcate",Doar în cazuri particulare,B,"Permite diagnosticul formelor multifocale. Diagnosticul leziunilor infecțioase, cum ar fi osteomielită și spondilodiscită (completate cu tehnici imagistice specifice infecției) Permite diagnosticul formelor multifocale",,2,2,Nu
+1119,Aparat locomotor,Diverse,Osteomielită – suspiciune,T,CT,Doar în cazuri particulare,B,"Sensibil în detectarea osteolizei. În cazurile acute, CT-ul e mai puțin sensibil comparativ cu IRM. În caz de osteomielită cronică permite diagnosticul sechestrelor osoase.",,1,2,Nu
+1120,Aparat locomotor,Diverse,Osteomielită – suspiciune,E,Ecografie,Doar cu aviz specializat,B,"Poate evidenția epanșament articular, hipervascularizație Doppler, abces subperiostal, eroziuni corticale și permite ghidajul puncțiilor diagnostice.",,0,0,Nu
+1121,Aparat locomotor,Diverse,Sindrom dureros post protezare,G,Radiografie,Indicat,B,"Apreciază poziționarea și uzura protezei, integritatea osoasă.",,1,1,Nu
 1122,Aparat locomotor,Diverse,Sindrom dureros post protezare,E,Ecografie,Doar cu aviz specializat,C,Foarte performant în evidențierea epanșamentelor și colecțiilor periprotetice.,,0,0,Nu
-1123,Aparat locomotor,Diverse,Sindrom dureros post protezare,N,PET-CT (F18-FDG),Doar cu aviz specializat,B,Infectii ale protezelor osteo-articulare.,,4,4,Nu
+1123,Aparat locomotor,Diverse,Sindrom dureros post protezare,N,PET-CT (F18-FDG),Doar cu aviz specializat,B,Infecții ale protezelor osteo-articulare.,,4,4,Nu
 1124,Aparat locomotor,Diverse,Sindrom dureros post protezare,N,"Scintigrafie osoasă
-(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB si 
-SPECT-CT",Doar cu aviz specializat,B,Diagnosticul complicatiilor postprotezare.,,2,2,Nu
+(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și
+SPECT-CT",Doar cu aviz specializat,B,Diagnosticul complicațiilor postprotezare.,,2,2,Nu
 1125,Aparat locomotor,Diverse,Sindrom dureros post protezare,T,CT,Doar cu aviz specializat,B,Anomalii periprotetice nevizualizabile radiografic.,,1,2,Nu
 1126,Aparat locomotor,Diverse,ALTĂ SITUAȚIE CLINICĂ,Z,Situație clinică neîncadrabilă,Este necesară justificare detaliată,,,,,,
-1127,Aparat locomotor,Genunchi,Gonalgie (simptomatologie clinică de gonartroză ),G,Radiografie,Indicat,B,"Indicată pentru confirmarea diagnosticului de gonartroză, pentru stadializarea artrozei femuro-tibiale și femuro-patelare, precum și a posibililor factori favorizanti.",,1,1,Nu
-1128,Aparat locomotor,Genunchi,Gonalgie (simptomatologie clinică de gonartroză ),E,Ecografia,Doar în cazuri particulare,C,"Detectarea chistelor popliteale și a patologiei tendinoase, a bursitelor și chistelor periarticulare.",,0,0,Nu
-1129,Aparat locomotor,Genunchi,Gonalgie (simptomatologie clinică de gonartroză ),M,IRM,Neindicat în primă intenție,B,"Examinare indicată cand cauza sindromului dureros nu este detectată radiografic, în cazul patologiei periarticulare și preoperator.",,0,0,Nu
-1130,Aparat locomotor,Genunchi,"Gonalgie (simptomatologie clinică meniscală, condropatie sau prezența de corp străin)",G,Radiografie,Indicat,B,Vizualizarea de corpi straini intraarticulari,,1,1,Nu
+1127,Aparat locomotor,Genunchi,Gonalgie (simptomatologie clinică de gonartroză),G,Radiografie,Indicat,B,"Indicată pentru confirmarea diagnosticului de gonartroză, pentru stadializarea artrozei femuro-tibiale și femuro-patelare, precum și a posibililor factori favorizanți.",,1,1,Nu
+1128,Aparat locomotor,Genunchi,Gonalgie (simptomatologie clinică de gonartroză),E,Ecografie,Doar în cazuri particulare,C,"Detectarea chistelor popliteale și a patologiei tendinoase, a bursitelor și chistelor periarticulare.",,0,0,Nu
+1129,Aparat locomotor,Genunchi,Gonalgie (simptomatologie clinică de gonartroză),M,IRM,Neindicat în primă intenție,B,"Examinare indicată când cauza sindromului dureros nu este detectată radiografic, în cazul patologiei periarticulare și preoperator.",,0,0,Nu
+1130,Aparat locomotor,Genunchi,"Gonalgie (simptomatologie clinică meniscală, condropatie sau prezența de corp străin)",G,Radiografie,Indicat,B,Vizualizarea de corpi străini intraarticulari,,1,1,Nu
 1131,Aparat locomotor,Genunchi,"Gonalgie (simptomatologie clinică meniscală, condropatie sau prezența de corp străin)",M,IRM,Indicat,B,"Examinarea de elecție pentru evidențierea leziunilor meniscale, ligamentare sau osteocondrale.",,0,0,Nu
-1132,Aparat locomotor,Genunchi,"Gonalgie (simptomatologie clinică meniscală, condropatie sau prezența de corp străin)",M,Artro IRM,Doar în cazuri particulare,C,"Examinare indicata de obicei postoperator. Evaluarea meniscului operat și a cartilajului articular, precum și prezența de corpi străini intraarticulari.",,0,0,Nu
-1133,Aparat locomotor,Genunchi,"Gonalgie (simptomatologie clinică meniscală, condropatie sau prezența de corp străin)",T,Artro CT ,Doar în cazuri particulare,C,"Examinare indicată de obicei când examinarea IRM este contraindicată sau artefactată de materiale de osteosinteza postoperator. Evaluarea meniscului operat și a cartilajului articular, precum și prezența de corpi străini intraarticulari.",,1,1,Nu
+1132,Aparat locomotor,Genunchi,"Gonalgie (simptomatologie clinică meniscală, condropatie sau prezența de corp străin)",M,Artro IRM,Doar în cazuri particulare,C,"Examinare indicată de obicei postoperator. Evaluarea meniscului operat și a cartilajului articular, precum și prezența de corpi străini intraarticulari.",,0,0,Nu
+1133,Aparat locomotor,Genunchi,"Gonalgie (simptomatologie clinică meniscală, condropatie sau prezența de corp străin)",T,Artro CT,Doar în cazuri particulare,C,"Examinare indicată de obicei când examinarea IRM este contraindicată sau artefactată de materiale de osteosinteză postoperator. Evaluarea meniscului operat și a cartilajului articular, precum și prezența de corpi străini intraarticulari.",,1,1,Nu
 1134,Aparat locomotor,Genunchi,Gonalgie determinată de leziuni femuro-patelare,G,Radiografie,Indicat,B,Permite studierea morfologiei femuro-patelare precum și poziția și diametrele patelei.,,1,1,Nu
-1135,Aparat locomotor,Genunchi,Gonalgie determinată de leziuni femuro-patelare,M,IRM,Indicat,B,"Examinare importantă pentru diagnosticul și evaluarea luxațiilor patelare traumatice. Stabilește bilanțul cert al leziunilor intraarticulare și periarticulare. Determinarea certă a leziunilor cartilaginoase, a localizarii acestora. Examen utilizat în monitorizare  post terapeutică.",,0,0,Nu
-1136,Aparat locomotor,Genunchi,Gonalgie determinată de leziuni femuro-patelare,T,CT,Indicat,C,Masurarea raporturilor trohlee femuro-patelară.,,1,1,Nu
+1135,Aparat locomotor,Genunchi,Gonalgie determinată de leziuni femuro-patelare,M,IRM,Indicat,B,"Examinare importantă pentru diagnosticul și evaluarea luxațiilor patelare traumatice. Stabilește bilanțul cert al leziunilor intraarticulare și periarticulare. Determinarea certă a leziunilor cartilaginoase, a localizării acestora. Examen utilizat în monitorizare post terapeutică.",,0,0,Nu
+1136,Aparat locomotor,Genunchi,Gonalgie determinată de leziuni femuro-patelare,T,CT,Indicat,C,Măsurarea raporturilor trohlee femuro-patelară.,,1,1,Nu
 1137,Aparat locomotor,Genunchi,Gonalgie determinată de leziuni femuro-patelare,T,Artro CT,Doar cu aviz specializat,C,"Examen pentru analiza cartilajului femuro-patelar, rar efectuată.",,1,1,Nu
-1138,Aparat locomotor,Genunchi,Gonalgie determinată de leziuni femuro-patelare,E,Ecografie ,Neindicat,C,Nu permite masurători certe.,,0,0,Nu
+1138,Aparat locomotor,Genunchi,Gonalgie determinată de leziuni femuro-patelare,E,Ecografie,Neindicat,C,Nu permite masurători certe.,,0,0,Nu
 1139,Aparat locomotor,Genunchi,ALTĂ SITUAȚIE CLINICĂ,Z,Situație clinică neîncadrabilă,Este necesară justificare detaliată,,,,,,
 1140,Aparat locomotor,Picior,Halux valgus,G,Radiografie,Indicat,C,"Radiografie într-o singură incidență, efectuată preoperator.",,1,1,Nu
 1141,Aparat locomotor,Picior,ALTĂ SITUAȚIE CLINICĂ,Z,Situație clinică neîncadrabilă,Este necesară justificare detaliată,,,,,,
 1142,Aparat locomotor,Șold,Coxalgie,G,Radiografie,Indicat,C,Radiografiile sunt necesare și suficiente pentru diagnosticul coxartrozei și permit cuantificarea unei displazii de șold.,,2,2,Nu
-1143,Aparat locomotor,Șold,Coxalgie,N,PET-CT (F18-FDG),Indicat,C,Alegerea modalitatii imagistice nucleare se face de catre medicul de medicina nucleara.,,3,3,Nu
-1144,Aparat locomotor,Șold,Coxalgie,M,Artro-IRM ,Doar cu aviz specializat,C,Condropatii incipiente și leziuni ale labrumului.,,0,0,Nu
+1143,Aparat locomotor,Șold,Coxalgie,N,PET-CT (F18-FDG),Indicat,C,Alegerea modalității imagistice nucleare se face de către medicul de medicină nucleară.,,3,3,Nu
+1144,Aparat locomotor,Șold,Coxalgie,M,Artro IRM,Doar cu aviz specializat,C,Condropatii incipiente și leziuni ale labrumului.,,0,0,Nu
 1145,Aparat locomotor,Șold,Coxalgie,N,"Scintigrafie osoasă
-(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB si 
-SPECT-CT",Doar cu aviz specializat,B,Utila in caz de radiografie negative sau in caz de suspiciune asupra unei fracturi prin insuficienta osoasa.,,2,2,Nu
-1146,Aparat locomotor,Șold,Coxalgie,T,Artro-CT,Doar cu aviz specializat,C,Condropatii incipiente și leziuni ale labrumului.,,2,3,Nu
+(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și
+SPECT-CT",Doar cu aviz specializat,B,Utilă în caz de radiografie negativă sau în caz de suspiciune asupra unei fracturi prin insuficiență osoasă.,,2,2,Nu
+1146,Aparat locomotor,Șold,Coxalgie,T,Artro CT,Doar cu aviz specializat,C,Condropatii incipiente și leziuni ale labrumului.,,2,3,Nu
 1147,Aparat locomotor,Șold,Coxalgie,E,Ecografie,Neindicat în primă intenție,C,"Poate evidenția un epanșament intraarticular, o sinovită sau o patologie periarticulară",,0,0,Nu
-1148,Aparat locomotor,Șold,Coxalgie,M,IRM pelvin,Neindicat în primă intenție,B,"Modificări osoase (algodistrofie, fractură de stress, osteonecroza), sinoviale și periarticulare.",,0,0,Nu
-1149,Aparat locomotor,Șold,Necroza aseptică de cap femural,N,PET-CT (F18-FDG),Doar cu aviz specializat,B,Permite diagnosticul in stadii incipiente a focarelor latente.,,4,4,Nu
+1148,Aparat locomotor,Șold,Coxalgie,M,IRM pelvin,Neindicat în primă intenție,B,"Modificări osoase (algodistrofie, fractură de stress, osteonecroză), sinoviale și periarticulare.",,0,0,Nu
+1149,Aparat locomotor,Șold,Necroza aseptică de cap femural,N,PET-CT (F18-FDG),Doar cu aviz specializat,B,Permite diagnosticul în stadii incipiente a focarelor latente.,,4,4,Nu
 1150,Aparat locomotor,Șold,Necroza aseptică de cap femural,N,"Scintigrafie osoasă
-(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB si 
-SPECT-CT",Doar cu aviz specializat,B,Permite diagnosticul in stadii incipiente a focarelor latente.,,2,2,Nu
-1151,Aparat locomotor,Șold,Necroza aseptică de cap femural,G,Radiografie coxo-femurala,Indicat,B,Modificările radiografice sunt evidente din stadiul II de boală.,,1,2,Nu
+(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și
+SPECT-CT",Doar cu aviz specializat,B,Permite diagnosticul în stadii incipiente a focarelor latente.,,2,2,Nu
+1151,Aparat locomotor,Șold,Necroza aseptică de cap femural,G,Radiografie coxo-femurală,Indicat,B,Modificările radiografice sunt evidente din stadiul II de boală.,,1,2,Nu
 1152,Aparat locomotor,Șold,Necroza aseptică de cap femural,M,IRM bazin osos,Indicat,B,Confirmă diagnosticul și poate evalua impactul necrozei osoase. Vizualizează și capul femural controlateral.,,0,0,Nu
 1153,Aparat locomotor,Șold,ALTĂ SITUAȚIE CLINICĂ,Z,Situație clinică neîncadrabilă,Este necesară justificare detaliată,,,,,,
-1154,Aparat locomotor,Umăr,Nevralgie cervico-brahiala,T,CT coloana cervicala,Doar în cazuri particulare,B,"În caz de contraindicație pentru examenul IRM, examinarea CT este indicată.",,1,2,Nu
-1155,Aparat locomotor,Umăr,Nevralgie cervico-brahiala,T,Mielo-CT,Doar în cazuri particulare,B,"În caz de simptome și semne ce sunt țn discordanță cu examinarea IRM sau în caz de contraindicație IRM, se poate opta pentru Mielo-CT.",,1,2,Nu
-1156,Aparat locomotor,Umăr,Nevralgie cervico-brahiala,M,IRM coloana cervicala,Doar cu aviz specializat,B,"În caz de evoluție nefavorabilă a tratamentului medical și în cazul în care se impune o intervenție invazivă, examinările complementare sunt necesare , IRM-ul fiind de primă intenție.",,0,0,Nu
-1157,Aparat locomotor,Umăr,Nevralgie cervico-brahiala,G,Radiografie coloană cervicală,Neindicat în primă intenție,B,Tratamentul nevralgiei cervico-brahiale  de origine artrozică sau herniară e în primul rand medical. In caz de prim puseu  tratamentul simptomatic trebuie sa preceadă orice investigație imagistică.,,1,1,Nu
-1158,Aparat locomotor,Umăr,Patologia umărului,E,Ecografie,Indicat,C,In caz de suspiciune de patologie a coafei rotatorilor.,,0,0,Nu
-1159,Aparat locomotor,Umăr,Patologia umărului,G,Radiografie,Indicat,C,Doar in caz de absența răspunsului terapeutic după 4 saptamâni sau în caz de umăr hiperalgic.,,1,1,Nu
-1160,Aparat locomotor,Umăr,Patologia umărului,M,Artro-IRM,Doar cu aviz specializat,B,În caz de condropatie infraradiologică sau preoperator.,,0,0,Nu
-1161,Aparat locomotor,Umăr,Patologia umărului,T,Artro-CT,Doar cu aviz specializat,B,În caz de condropatie infraradiologică sau preoperator.,,1,2,Nu
+1154,Aparat locomotor,Umăr,Nevralgie cervico-brahială,T,CT coloană cervicală,Doar în cazuri particulare,B,"În caz de contraindicație pentru examenul IRM, examinarea CT este indicată.",,1,2,Nu
+1155,Aparat locomotor,Umăr,Nevralgie cervico-brahială,T,Mielo-CT,Doar în cazuri particulare,B,"În caz de simptome și semne ce sunt țn discordanță cu examinarea IRM sau în caz de contraindicație IRM, se poate opta pentru Mielo-CT.",,1,2,Nu
+1156,Aparat locomotor,Umăr,Nevralgie cervico-brahială,M,IRM coloană cervicală,Doar cu aviz specializat,B,"În caz de evoluție nefavorabilă a tratamentului medical și în cazul în care se impune o intervenție invazivă, examinările complementare sunt necesare, IRM-ul fiind de primă intenție.",,0,0,Nu
+1157,Aparat locomotor,Umăr,Nevralgie cervico-brahială,G,Radiografie coloană cervicală,Neindicat în primă intenție,B,Tratamentul nevralgiei cervico-brahiale de origine artrozică sau herniară e în primul rând medical. În caz de prim puseu tratamentul simptomatic trebuie să preceadă orice investigație imagistică.,,1,1,Nu
+1158,Aparat locomotor,Umăr,Patologia umărului,E,Ecografie,Indicat,C,În caz de suspiciune de patologie a coafei rotatorilor.,,0,0,Nu
+1159,Aparat locomotor,Umăr,Patologia umărului,G,Radiografie,Indicat,C,Doar în caz de absența răspunsului terapeutic după 4 saptamâni sau în caz de umăr hiperalgic.,,1,1,Nu
+1160,Aparat locomotor,Umăr,Patologia umărului,M,Artro IRM,Doar cu aviz specializat,B,În caz de condropatie infraradiologică sau preoperator.,,0,0,Nu
+1161,Aparat locomotor,Umăr,Patologia umărului,T,Artro CT,Doar cu aviz specializat,B,În caz de condropatie infraradiologică sau preoperator.,,1,2,Nu
 1162,Aparat locomotor,Umăr,Patologia umărului,M,IRM,Neindicat în primă intenție,C,În caz de condropatie infraradiologică sau preoperator.,,0,0,Nu
-1163,Aparat locomotor,Umăr,Umăr dureros,E,Ecografia,Indicat,C,Ecografia este indicata în cazul în care radiografiile inițiale sunt normale sau nu sunt  suficiente pentru a stabili diagnosticul.,,0,0,Nu
-1164,Aparat locomotor,Umăr,Umăr dureros,G,Radiografie,Indicat,C,"Examenul radiografic este indicat dacă nu există răspuns la tratament dupa patru saptămâni. Acesta  poate fi suficient pentru a confirma diagnosticul în caz de ruptură coafă rotatori sau tendinopatii calcificate. În cazul diagnosticului de  boală profesională, radiografiile sunt indicate pentru a evalua absența tendinopatiilor calcifiante sau a periartritei scapulo-humerale.
-",,1,1,Nu
+1163,Aparat locomotor,Umăr,Umăr dureros,E,Ecografie,Indicat,C,Ecografia este indicată în cazul în care radiografiile inițiale sunt normale sau nu sunt suficiente pentru a stabili diagnosticul.,,0,0,Nu
+1164,Aparat locomotor,Umăr,Umăr dureros,G,Radiografie,Indicat,C,"Examenul radiografic este indicat dacă nu există răspuns la tratament dupa patru saptămâni. Acesta poate fi suficient pentru a confirma diagnosticul în caz de ruptură coafă rotatori sau tendinopatii calcificate. În cazul diagnosticului de boală profesională, radiografiile sunt indicate pentru a evalua absența tendinopatiilor calcifiante sau a periartritei scapulo-humerale.",,1,1,Nu
 1165,Aparat locomotor,Umăr,Umăr dureros,M,Artro IRM,Neindicat în primă intenție,C,Examinare efectuată când radiografiile +/- examenul ecografic nu pot stabili diagnosticul; pentru evaluarea condropatiilor sau pentru a cuantifica leziunile înaintea unei intervenții chirurgicale.,,0,0,Nu
-1166,Aparat locomotor,Umăr,Umăr dureros,M,IRM ,Neindicat în primă intenție,C,Examinarea IRM este efectuată când radiografiile +/- examenul ecografic nu pot stabili diagnosticul; pentru evaluarea condropatiilor sau pentru a cuantifica leziunile înaintea unei intervenții chirurgicale.,,0,0,Nu
-1167,Aparat locomotor,Umăr,Umăr dureros,T,Artro CT,Neindicat în primă intenție,C,"În cazul diagnosticului de boală profesională, este recomandată  efectuarea IRM sau artro CT în cazul in care examinarea IRM este contraindicată.",,2,2,Nu
+1166,Aparat locomotor,Umăr,Umăr dureros,M,IRM,Neindicat în primă intenție,C,Examinarea IRM este efectuată când radiografiile +/- examenul ecografic nu pot stabili diagnosticul; pentru evaluarea condropatiilor sau pentru a cuantifica leziunile înaintea unei intervenții chirurgicale.,,0,0,Nu
+1167,Aparat locomotor,Umăr,Umăr dureros,T,Artro CT,Neindicat în primă intenție,C,"În cazul diagnosticului de boală profesională, este recomandată efectuarea IRM sau artro CT în cazul în care examinarea IRM este contraindicată.",,2,2,Nu
 1168,Aparat locomotor,Umăr,Umăr dureros instabil,G,Radiografie,Indicat,B,"Efectuarea de incidențe speciale permite detectarea leziunilor osoase recente/degenerative, a luxației scapulo-humerale sau a unei eventuale displazii a gleznei.",,1,1,Nu
 1169,Aparat locomotor,Umăr,Umăr dureros instabil,M,Artro IRM,Doar cu aviz specializat,B,"Injectarea intraarticulară a produșilor de contrast permite un bilanț preoperator al leziunilor labrumului, structurilor capsulo-ligamentare și ale coafei rotatorilor, precum și evaluarea leziunilor cartilaginoase.",,1,1,Nu
 1170,Aparat locomotor,Umăr,Umăr dureros instabil,T,Artro CT,Doar cu aviz specializat,B,"Injectarea intraarticulară a produșilor de contrast permite un bilanț preoperator al leziunilor labrumului, structurilor capsulo-ligamentare și ale coafei rotatorilor, precum și evaluarea leziunilor cartilaginoase.",,2,2,Nu

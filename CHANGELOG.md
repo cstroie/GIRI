@@ -1803,6 +1803,35 @@ _NR 1148–1221_
   bilanț de extensie, os și părți moi separat) mutate în Cancer, înlocuind cele 10
   rânduri generice vechi. (−13 rânduri)
 
+### REVIZUIT — review complet al capitolului (2026-07-10, la cerere)
+
+Pas ortografic + normalizare, **fără mutări, comasări, ștergeri sau schimbări de grad/indicație**
+(capitolul rămâne la 74 de rânduri, NR.CRT neschimbate). 74 de câmpuri atinse.
+
+- **CORECTAT — diacritice și typo-uri** (doar unde forma corectă e neambiguă): `si→și`,
+  `in/In→în/În`, `bilant→bilanț`, `distributia→distribuția`, `modificarilor/-arii→modificărilor/-ării`,
+  `osoasa→osoasă`, `Apreciaza→Apreciază`, `evidentiaza→evidențiază`, `reprezinta→reprezintă`,
+  `indicata→indicată`, `cunoscuta→cunoscută`, `paraneoplazica→paraneoplazică`,
+  `responsabila→responsabilă`, `reumatoida→reumatoidă`, `osteoscleroza/osteonecroza/osteosinteza→
+  -ză`, `somatostatina→somatostatină`, `radiomarcati→radiomarcați`, `infectioase/infectiei/Infectii→
+  infecțioase/infecției/Infecții`, `intentie→intenție`, `nucleara→nucleară`, `catre→către`,
+  `Masurarea→Măsurarea`, `straini→străini`, `spondilodiscita→spondilodiscită`, `raspunsul→răspunsul`,
+  `Utila→Utilă`, `evidenta→evidență`, `fractura→fractură`, `rand→rând`, `cand→când`, `clinica→clinică`
+  (cuvinte de sine stătătoare, la limită de cuvânt). Typo-uri punctuale: `faceita→fasceita`
+  („Fasceita plantară", NR 1108), `fasceita plantar→plantară` (NR 1107), `radiografie negative→
+  negativă` (NR 1145). Eticheta situației `Osteomielita – suspiciune → Osteomielită – suspiciune`
+  (6 rânduri) și `Nevralgie cervico-brahiala → cervico-brahială` (4 rânduri).
+- **NORMALIZAT — denumiri examene / spații:** `Ecografia→Ecografie` (NR 1104, 1128) și
+  `Radiografia→Radiografie` (NR 1103), aliniate la convenția dominantă pe tot fișierul
+  (`Ecografie` 120 vs `Ecografia` 4; `Radiografie` bare vs `Radiografia`). Hifenarea `Artro`
+  unificată la forma dominantă cu spațiu: `Artro-IRM→Artro IRM`, `Artro-CT→Artro CT`
+  (Genunchi/Șold/Umăr). `Radiografie coxo-femurala → coxo-femurală`, `CT/IRM coloana cervicala →
+  coloană cervicală`. „Scintigrafie osoasă … WB **si** \n SPECT-CT" normalizată la forma canonică
+  cu diacritică și fără spații/newline parazite (`WB și\nSPECT-CT`, 7 rânduri). Spații finale/duble
+  eliminate (ex. examene „Ecografie ", „Artro CT ", „Artro-IRM "; spații înainte de punctuație și
+  duble în comentarii). Spațiu-lipsă `osoase.Pentru → osoase. Pentru` (NR 1100). Eticheta
+  `Gonalgie (… gonartroză ) → gonartroză)` (spațiu parazit, 3 rânduri).
+
 ## 14. Radiologie intervențională
 _NR 1222–1471_
 
