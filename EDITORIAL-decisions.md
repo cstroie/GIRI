@@ -6,7 +6,15 @@ NR = NR.CRT curent. (Numerotarea veche nu se mai păstrează.)
 
 ## 1. Artrografia articulației temporo-mandibulare (ATM) — încadrare capitol
 
-**Rânduri:**
+✅ **Decizie luată (2026-07-10):** artrografia ATM se **mută la Cap › ORL**, în situația
+„Disfuncții ale articulației temporo-mandibulare", la finalul examenelor. Reclasificată
+**Tip `I` → `X`** (exam diagnostic cu contrast, nu intervențional). Cele 3 rânduri din RI
+consolidate în **unul** (grad `B`, versiunea codată; eliminate dublura de la RI › Aparat
+digestiv și varianta grad „?"). Cod `RI - PC8` scos. Vezi `CHANGELOG.md` §10 și §14.
+_Rămas de reconfirmat de editori:_ alegerea gradului `B` (vs. „?") și dacă rândul „Neindicat"
+se păstrează pe termen lung sau se elimină.
+
+**Context (istoric):**
 
 - **NR 1451** · RI › Sistem nervos · „Disfuncții ale articulației temporo-mandibulare" ·
   Tip I · „Artrografie articulații temporo-mandibulare" · **Neindicat** · grad „?" ·
@@ -1993,3 +2001,41 @@ unilateral).
 
 Comparativ, celelalte „Neindicat" din capitol au o notă (ex. NR 1017, 1021). **De decis:** dacă
 se adaugă o justificare scurtă (conținut → editorii).
+
+---
+
+## 40. Stenoza carotidiană asimptomatică — încadrare + duplicate cross-capitol (2026-07-10)
+
+Ridicat de editor („stenoza carotidiană n-ar trebui să meargă la cardiovascular?"). Analiza
+arată că topicul e **fragmentat pe 4 locuri**, cu duplicate:
+
+**Diagnostic:**
+- **Cap › Neuro** — „Stenoza carotidiană asimptomatică (suflu) – diagnostic" (NR 998–1000):
+  Eco-Doppler (grad A), Angio-IRM (B), Angio-CT (B). *Cea mai completă versiune.*
+- **Aparat cardiovascular › Sistem vascular** — „Suflu carotidian asimptomatic" (NR 663):
+  Eco-Doppler (grad B). *Un singur rând — duplicat parțial al celui de mai sus.*
+
+**Intervențional (RI):**
+- **RI › Aparat cardiovascular** — „Stenoză carotidiană asimptomatică" (NR 1226 arterografie,
+  1227 angioplastie) + „…simptomatică" (NR 1228 angioplastie).
+- **RI › Sistem nervos** — „…(suflu) – tratament" (NR 1383 angioplastie cu stent) + „…(suflu)
+  – diagnostic" (NR 1384 arterografie).
+
+**Probleme:**
+1. **Duplicat diagnostic** Neuro (NR 998–1000) ≡ Cardiovascular (NR 663) — același topic, două
+   home-uri. Încalcă „un singur home per rând".
+2. **Fragmentare intervențională** — carotida apare și la RI › Aparat cardiovascular, și la
+   RI › Sistem nervos (NR 1227 ≈ 1383 angioplastie; NR 1226 ≈ 1384 arterografie) — duplicate
+   interne RI.
+
+**Recomandare (de confirmat):** un **singur home** pentru carotidă. Două opțiuni:
+- **(A) Neuro/cerebrovascular** *(recomandarea mea)* — restul workup-ului de trunchiuri
+  supraaortice / vascularizație cerebrală e deja în Cap › Neuro (AVC extracranian NR 950–952,
+  AVCT trunchiuri NR 959–961). Stenoza carotidiană asimptomatică e capătul de screening al
+  aceluiași continuum de prevenție a AVC; ACR o clasează la „Cerebrovascular Disease". → se
+  **elimină/comasează** stub-ul NR 663 din Cardiovascular în versiunea Neuro (mai bogată).
+- **(B) Cardiovascular › Sistem vascular** — carotida = arteră sistemică; subcapitolul găzduiește
+  deja topicul. → se mută NR 998–1000 din Neuro aici, comasat cu NR 663.
+
+În ambele cazuri: aliniat și **RI** (carotida intervențională într-un singur subcapitol — cardio
+sau neuro — nu ambele). Nedecis unilateral (încadrare cross-capitol + comasare de duplicate).
