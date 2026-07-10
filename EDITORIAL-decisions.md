@@ -1957,6 +1957,14 @@ la Coloană vertebrală.
 
 ## 39. Cap — chestiuni ridicate la reviewul de conținut, pasul 2 (2026-07-10)
 
+✅ **Rezolvat (2026-07-10, la cerere) — toate cele 3 loturi aplicate** (vezi `CHANGELOG.md` §10,
+„Review Cap, pasul 3"): (a) notele de nivel-situație propagate pe investigațiile-soră (ATM,
+sinuzită acută, olfactiv, ureche medie); (b) etichetele „IRM regiune cervicală" corectate
+anatomic (NR 1022 → conduct auditiv intern/unghi ponto-cerebelos; NR 1010 → sinusuri și fose
+nazale); (c) justificări adăugate pe „Neindicat" (NR 1009, 1020). _Rămân de verificat de
+editori:_ formulările nou-scrise la (b) și (c) (corecții/justificări standard, dar autorate în
+review, nu preluate din sursă). Detaliile inițiale mai jos.
+
 Ridicate la a doua trecere pe Neuro + ORL (după mutarea notelor clinice din col. 10 în col. 9).
 
 ### (a) Propagarea notelor de nivel-situație pe toate investigațiile

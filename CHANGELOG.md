@@ -1379,6 +1379,32 @@ _NR 903–958_
 ## 10. Cap
 _NR 948–1026_
 
+### MODIFICAT — Review Cap, pasul 3: propagare note, etichete examen, justificări (2026-07-10, la cerere)
+
+Rezolvarea celor 3 loturi din `EDITORIAL-decisions.md` §39. Validare verde.
+
+- **(a) Propagat — note de nivel-situație pe toate investigațiile situației** (regula
+  „informația de nivel-situație se copiază pe toate investigațiile"):
+  - ATM: „Analiza simptomatologiei și examenul clinic și dentar trebuie să preceadă imagistica.
+    Examenul imagistic trebuie să aibă indicație…" → adăugat pe IRM (1007), CT (1008),
+    Radiografie (1009) și Artrografie (1386); era doar pe Ortopantomografie (1006).
+  - Sinuzită acută: „Diagnosticul este clinic… Imagistica indicată doar în cazuri atipice,
+    complicații sau eșec terapeutic." → adăugat pe IRM (1015) și, parțial (partea lipsă), pe
+    Radiografie (1017); era doar pe CT (1016).
+  - Tulburări olfactiv: „Indicația imagisticii este doar după examen clinic ORL detaliat." →
+    adăugat pe IRM (1024); era doar pe CT (1025).
+  - Ureche medie: „Tumorile urechii medii… necesită IRM și CT în egală măsură." → adăugat pe
+    CT (1013); era doar pe IRM (1014).
+- **(b) CORECTAT (Examen) — etichete cu nepotrivire anatomică** (artefact din sursă):
+  „IRM regiune cervicală" → **„IRM conduct auditiv intern și unghi ponto-cerebelos"** la
+  „Surditatea neurosenzorială" (NR 1022); → **„IRM sinusuri și fose nazale"** la „Leziuni
+  tumorale… ale foselor nazale și sinusurilor" (NR 1010). _(Corecție de date; de verificat de
+  editori.)_
+- **(c) ADĂUGAT — justificare pe rândurile „Neindicat" fără comentariu** (formulări standard,
+  de verificat de editori): Radiografie ATM (NR 1009: „nu vizualizează discul articular și
+  părțile moi; înlocuită de IRM/CT"); Ortopantomografie la sinuzită cronică (NR 1020: „nu
+  evaluează sinusurile paranazale; examenul de referință e CT nativ").
+
 ### MUTAT — Artrografia ATM din Radiologie intervențională → Cap › ORL (2026-07-10, la cerere)
 
 Rezolvarea `EDITORIAL-decisions.md` §1. Artrografia articulației temporo-mandibulare (exam
