@@ -1736,6 +1736,37 @@ vs „Neindicat în primă intenție") s-a păstrat varianta nuanțată, susțin
 > Ordinea *examenelor* în interiorul fiecărei situații a rămas neatinsă. Niciun grad/doză/cod Tip
 > modificat.
 
+### REVIZUIT — titluri, normalizare, de-duplicare, reordonare pe tot capitolul (2026-07-10, la cerere)
+
+Runda a treia, pe întreg capitolul. 41 → **38 rânduri**.
+
+- **REVIZUIT (titluri) — mutare date clinice în `Comentarii`:**
+  - „Lombalgie în context particular sau însoțită de semne de gravitate: debut <20 ani…
+    [listă lungă de red-flags]" → titlu concis **„Lombalgie cu semne de gravitate sau context
+    particular"**; enumerarea red-flag-urilor mutată în `Comentarii` (pe toate cele 3 rânduri
+    ale situației, ca informație de nivel-situație — fiecare rând rămâne auto-suficient).
+  - „Sindrom medular (în afara traumatismelor coloanei vertebrale)" → **„Sindrom medular
+    netraumatic"** (parantetic de disambiguare eliminat; formă concisă, aliniată precedentului
+    „Torticolis netraumatic" din Pediatrie).
+- **NORMALIZAT — titluri:** „Cervicalgii comune" → **„Cervicalgie comună"** și „Dorsalgia comună"
+  → **„Dorsalgie comună"** (formă unică singular „-algie comună", ca la Lombalgie); „Posibilitate
+  de subluxație atlanto-axoidiană" → **„Suspiciune de subluxație atlanto-axoidiană"** (convenția
+  dominantă pe fișier: „Suspiciune de" 88 vs „Posibilitate de" 2).
+- **NORMALIZAT — denumiri examene:** „CT coloană vertebrală" → „CT"; „Radiografie coloană
+  vertebrală"/„Radiografia coloanei toracice"/„Radiografie" → **„Radiografie standard"** (formă
+  dominantă pentru radiografia convențională a coloanei); „Radiografia" (Sacru, incidență
+  specială — detaliul rămâne în comentariu) → „Radiografie".
+- **ELIMINAT / COMASAT — „Toracalgie" ≡ „Dorsalgie comună"** (Coloană toracică): aceeași situație
+  (durere comună a coloanei toracale), același set G/M/N, aceleași grade („Doar în cazuri
+  particulare" B). Comasate sub „Dorsalgie comună"; pe G păstrat comentariul mai complet (de la
+  „Toracalgie": debut ≥50 ani, semne neurologice, metastaze/infecții), cu typo reparat
+  („se recomanda în urgenta → se recomandă în urgență"). (−3 rânduri)
+- **RESTRUCTURAT (ordine) — subcapitolul „Coloană" pe flux clinic:** „Sindrom medular netraumatic"
+  (urgență neurologică — IRM de urgență) mutat înaintea „Bilanț fractură vertebrală spontană".
+
+> Capitolul: **55 → 38 rânduri** cumulat pe cele trei runde. Niciun grad/doză/cod Tip modificat.
+> Găurile NR.CRT rămân (renumerotare la cerere).
+
 ## 13. Aparat locomotor
 _NR 1148–1221_
 
