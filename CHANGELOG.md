@@ -71,10 +71,12 @@ indicații radioimagistice.
 
 ---
 
-## Structura ghidului (după modificări — 14 capitole, 1439 rânduri, 13 coloane)
+## Structura ghidului (după modificări — 14 capitole, 1438 rânduri, 13 coloane)
 
-> **1439 rânduri, contiguu 1..1439** după a șasea renumerotare (2026-07-09, la cerere, după
-> reviewul complet al capitolului Aparat uro-genital și glande suprarenale). Pe viitor **nu se
+> **1438 rânduri.** A șasea renumerotare (2026-07-09) făcuse fișierul contiguu 1..1439; de
+> atunci reviewul Obstetrică-ginecologie (2026-07-10) a eliminat 1 placeholder (**gaură la
+> NR.CRT 802**) și a mutat „Infertilitate masculină" (NR 870) din capitolul 8 în capitolul 7
+> — deci **NR.CRT nu mai e contiguu** (870 e fizic în capitolul 7). Pe viitor **nu se
 > renumerotează automat** (vezi `CLAUDE.md`): ștergerile lasă găuri, iar inserțiile primesc
 > ID-uri la finalul secvenței, până la o nouă renumerotare cerută explicit. ⚠️ **Referințele
 > NR.CRT din intrările per-capitol de mai jos reflectă starea de la momentul modificării**
@@ -88,8 +90,8 @@ indicații radioimagistice.
 | 4 | [Aparat cardiovascular](#4-aparat-cardiovascular) | 578–665 | 88 |
 | 5 | [Torace](#5-torace) | 666–729 | 64 |
 | 6 | [Aparat digestiv](#6-aparat-digestiv) | 730–797 | 68 |
-| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–865 | 68 |
-| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 866–892 | 27 |
+| 7 | [Aparat uro-genital și glande suprarenale](#7-aparat-uro-genital-și-glande-suprarenale) | 798–865, 870 | 68 |
+| 8 | [Obstetrică și ginecologie](#8-obstetrică-și-ginecologie) | 866–892 (fără 802, 870) | 26 |
 | 9 | [Sân](#9-sân) | 893–948 | 56 |
 | 10 | [Cap](#10-cap) | 949–1027 | 79 |
 | 11 | [Gât (părți moi)](#11-gât-părți-moi) | 1028–1060 | 33 |
@@ -1043,8 +1045,20 @@ neambigue în `Comentarii`; niciun grad/doză/examen atins.
 
 Capitol: 68 rânduri (neschimbat). NR.CRT neschimbate.
 
+### MODIFICAT — Primire „Infertilitate masculină" din Obstetrică-ginecologie (2026-07-10, la cerere)
+
+- **ADĂUGAT (mutat din capitolul 8) —** situația „**Infertilitate masculină**" (Ecografie
+  Doppler scrotală, *Doar cu aviz specializat*, grad B) relocată din Obstetrică-ginecologie ›
+  Fertilitate în subcap. „Aparat genital masculin" (înaintea „ALTĂ SITUAȚIE CLINICĂ").
+  Încadrare confirmată de editor: workup-ul genital masculin ține de Aparat uro-genital.
+- **ELIMINAT — placeholder-breadcrumb Tip `Z`** „Infertilitate – vezi capitolul
+  Obstetrică-Ginecologie" (fost NR 802) pe care noul rând îl înlocuiește (breadcrumb scos,
+  conținut real adus). NR.CRT 870 păstrat (necontiguu aici — găură la 802, tolerată).
+
+Capitol: 68 → 68 rânduri (+1 primit, −1 placeholder eliminat).
+
 ## 8. Obstetrică și ginecologie
-_NR 866–892_
+_NR 866–892 (renumerotare amânată; găuri tolerate)_
 
 - **MUTAT —** 3 rânduri intervenționale relocate la RI › Aparat urogenital.
 - **MODIFICAT (date) —** subcapitol „Sarcina"/„Sarcină" unificat la „Sarcină" (majoritar).
@@ -1077,6 +1091,28 @@ _NR 866–892_
     truncată pe rândul CT (posibilă situație spartă); etichetă concatenată „…semnificative
     Menometroragii"; încadrarea „Infertilitate masculină" în capitol; ordinea situațiilor
     în subcap. „Sarcină" (urgență → cronic). Niciun grad/doză/ordine de examene atins.
+
+### RESTRUCTURAT — rezolvarea punctelor semnalate (2026-07-10, la cererea editorului)
+
+Punctele 1, 3 și 4 din `EDITORIAL-decisions.md` §27 rezolvate; punctul 2 rămâne deschis.
+
+- **MODIFICAT (etichetă) — „Dureri pelvine" unificată.** Rândul CT a primit sufixul „**și de
+  endometrioză**" (etichetă identică cu Ecografie + IRM) → cele 3 modalități formează acum o
+  singură situație. Ordinea examenelor neatinsă (CT rămâne întâi, cum era fizic).
+- **MUTAT — „Infertilitate masculină" → Aparat uro-genital › Aparat genital masculin.**
+  Rândul (Ecografie Doppler scrotală) relocat din subcap. „Fertilitate"; a înlocuit
+  placeholder-ul-breadcrumb Tip `Z` de acolo. Vezi capitolul 7 (2026-07-10). (Subcap.
+  „Fertilitate" rămâne cu Avorturi spontane multiple + Infertilitate feminină + ALTĂ.)
+- **RESTRUCTURAT — reordonare fizică situații subcap. „Sarcină"** (flux urgență → monitorizare
+  → ALTĂ): Suspiciune de sarcină extrauterină → Posibilitate de sarcină non-viabilă →
+  Suspiciune de sarcină la o femeie asimptomatică → Ecografie de control în timpul sarcinii →
+  …Evaluare a restricției de creștere fetală → ALTĂ SITUAȚIE CLINICĂ. **NR.CRT neschimbate**
+  (rămân atașate rândurilor, deci necontigue până la o eventuală renumerotare la cerere).
+- **DESCHIS (punctul 2, la cererea editorului) —** etichetă „Metroragii postmenopauzale:
+  excluderea unei patologii semnificative Menometroragii" (două situații lipite) — de discutat
+  cu ceilalți editori. **Nemodificată.**
+
+Capitol: 27 → 26 rânduri (−1: „Infertilitate masculină" mutată la capitolul 7).
 
 ## 9. Sân
 _NR 903–958_

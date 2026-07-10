@@ -1291,37 +1291,33 @@ examenelor → NU le modific singur** (reguli de aur); le consemnez pentru edito
 ## 27. Obstetrică și ginecologie — chestiuni ridicate la review (2026-07-10)
 
 Observații de la trecerea completă prin capitol. Corecturile mecanice (diacritice, spații,
-breadcrumb, repartizare col. 9/10) au fost aplicate; cele de mai jos ating încadrarea,
-etichetele de situație sau ordinea → **nu le decid singur**, le las editorilor.
+breadcrumb, repartizare col. 9/10) au fost aplicate. Punctele 1, 3 și 4 de mai jos au fost
+**rezolvate ulterior la cererea editorului (2026-07-10)**; rămâne deschis doar punctul 2.
 
-- ⏳ **„Dureri pelvine" — etichetă truncată pe rândul CT (posibilă situație spartă).** Cele
-  3 rânduri sunt: CT (Ginecologie, „*Dureri pelvine, în special suspiciune de inflamație
-  pelvină*"), Ecografie și IRM („*…inflamație pelvină **și de endometrioză**"*). Sufixul
-  „și de endometrioză" lipsește doar pe rândul CT, deși comentariul CT discută explicit
-  endometrioza („Nu furnizează date pertinente despre leziuni de tip endometrioză"). Foarte
-  probabil e **aceeași situație clinică** (workup durere pelvină) cu 3 modalități, ruptă în
-  două de o etichetă incompletă — la afișare, CT-ul apare ca situație separată cu un singur
-  rând. **De decis:** unificarea etichetei CT la forma completă (le grupează). Consecință:
-  ordinea ar deveni CT → Eco → IRM, deși Ecografia e prima intenție (grad A); dacă se
-  unifică, de reconfirmat dacă Ecografia trebuie promovată prima (ordinea examenelor e
-  intangibilă fără decizie explicită → de aceea nu am atins-o).
-- ⏳ **„Metroragii postmenopauzale…" — etichetă concatenată fără separator.** Eticheta e
-  „*Metroragii postmenopauzale: excluderea unei patologii semnificative Menometroragii*" —
-  două entități lipite („…semnificative" + „Menometroragii"). Pare o notă/al doilea scenariu
-  alipit fără punctuație. **De decis** forma corectă: fie „…semnificative; menometroragii",
-  fie separarea în două situații, fie mutarea „menometroragii" ca notă în Comentarii. Nu am
-  rescris eticheta unilateral (poate schimba sensul/gruparea).
-- ⏳ **Infertilitate masculină în capitolul Obstetrică-ginecologie (subcap. Fertilitate).**
-  Rândul (Ecografie Doppler scrotală) este workup de fertilitate masculină — după ierarhia
-  anatomică pură ar sta la Aparat uro-genital, dar contextual aparține evaluării de cuplu
-  (Fertilitate). Impact practic mic; **de confirmat** dacă rămâne aici (context fertilitate)
-  sau migrează la uro-genital.
-- ⏳ **Ordinea situațiilor în subcap. „Sarcină" (flux urgență → cronic).** Ordinea fizică
-  actuală pune întâi controlul ecografic de rutină, apoi RCF, apoi sarcina non-viabilă /
-  extrauterină / asimptomatică. „Suspiciune de sarcină extrauterină" este scenariul acut/de
-  urgență și, pe fluxul urgență→cronic→screening (checklist pas 7), ar veni mai devreme. Nu
-  am reordonat (chapter mic, beneficiu discutabil, reordonarea rupe contiguitatea NR.CRT) —
-  **de decis** dacă merită reordonarea situațiilor.
+- ✅ **REZOLVAT — „Dureri pelvine": etichetă unificată.** Rândul CT (fostă etichetă „*Dureri
+  pelvine, în special suspiciune de inflamație pelvină*") a primit sufixul „**și de
+  endometrioză**", identic cu rândurile Ecografie și IRM → cele 3 modalități formează acum o
+  singură situație (CT → Eco → IRM). **Ordinea examenelor NU a fost atinsă** (rămâne CT întâi,
+  cum era fizic); dacă editorii vor promovarea Ecografiei — prima intenție, grad A — pe prima
+  poziție, e o decizie separată de ordine-examene (intangibilă fără cerere explicită).
+- ⏳ **DESCHIS — „Metroragii postmenopauzale…": etichetă concatenată fără separator.** Eticheta
+  e „*Metroragii postmenopauzale: excluderea unei patologii semnificative Menometroragii*" —
+  două entități lipite („…semnificative" + „Menometroragii"). Editorul a confirmat că **sunt
+  două situații**, dar a cerut **să rămână nerezolvată** deocamdată (de discutat cu ceilalți
+  editori: separare în două situații vs. reformulare cu separator). **Nemodificată.**
+- ✅ **REZOLVAT — „Infertilitate masculină" mutată la Uro-genital › Aparat genital masculin.**
+  Rândul (Ecografie Doppler scrotală) a fost relocat din Obstetrică-ginecologie › Fertilitate
+  în capitolul Aparat uro-genital, subcap. „Aparat genital masculin", situația „Infertilitate
+  masculină" (înaintea „ALTĂ SITUAȚIE CLINICĂ"). A **înlocuit placeholder-ul-breadcrumb** Tip
+  `Z` care exista deja acolo („Infertilitate – vezi capitolul Obstetrică-Ginecologie") →
+  breadcrumb eliminat, conținut real adus. NR.CRT 870 păstrat (necontiguu în uro-genital).
+- ✅ **REZOLVAT — reordonare situații subcap. „Sarcină" (flux urgență → cronic → ALTĂ).**
+  Ordine nouă: „Suspiciune de sarcină extrauterină" (urgență) → „Posibilitate de sarcină
+  non-viabilă" (acut) → „Suspiciune de sarcină la o femeie asimptomatică" (detecție/particular)
+  → „Ecografie de control în timpul sarcinii" (monitorizare de rutină) → „…Evaluare a
+  restricției de creștere fetală" (monitorizare specializată) → „ALTĂ SITUAȚIE CLINICĂ".
+  Reordonare **fizică** (NR.CRT rămân atașate rândurilor, deci necontigue până la o eventuală
+  renumerotare la cerere). Ordinea examenelor din interiorul fiecărei situații — neatinsă.
 
-> Status: **niciun grad, doză sau ordine de examene modificat.** Doar corecturi mecanice
-> aplicate; punctele de mai sus sunt pentru decizia editorilor.
+> Status: **niciun grad, doză sau ordine de examene modificat.** Rămâne deschis punctul 2
+> (etichetă „Metroragii/Menometroragii"), la cererea editorului.
