@@ -1788,3 +1788,64 @@ diagnostic și de estimare a riscului de fractură (clinician's guide NOF/BHOF; 
 > musculo-scheletală; clinician's guide to prevention and treatment of osteoporosis (BHOF/NOF) și
 > ISCD pentru DXA. **Nimic adăugat în `GHID.csv`** — se decid în echipă situațiile păstrate,
 > gradele, dozele și încadrarea (subcapitole noi: Pumn și mână, Cot, Gleznă).
+
+---
+
+## 35. Aparat locomotor — topicuri prezente, de îmbogățit față de ghiduri (2026-07-10)
+
+Complementar §34 (topicuri absente): audit al situațiilor **deja prezente**, comparând setul de
+modalități cu ACR AC / RCR iRefer, pentru a găsi ce le lipsește. Concluzie generală: majoritatea
+situațiilor sunt **bine acoperite**; un singur gol clar + două minore.
+
+> Status: **analiză, fără modificare de date.** Rândurile-schiță = propuneri; gradele/dozele se
+> confirmă de editori.
+
+### 35.A 🟠 „Sindrom dureros post protezare" — lipsește IRM (cu reducerea artefactelor metalice)
+
+Situația are Rg, Ecografie, PET-CT, scintigrafie osoasă, CT — dar **nu IRM**. ACR *Imaging After
+Total Hip/Knee Arthroplasty* clasează **IRM nativ** ca „usually appropriate" pentru: mobilizare/
+osteoliză periprotetică, **reacție adversă la debriuri metalice** (proteze metal-on-metal) și
+infecție periprotetică. Necesită secvențe de **reducere a artefactelor metalice (MARS/MAVRIC)**.
+Propunere (consecvent cu celelalte modalități avansate din situație, toate B/„Doar cu aviz"):
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| M | IRM (cu reducerea artefactelor metalice) | Doar cu aviz specializat | B | 0/0 | Osteoliză/mobilizare periprotetică, reacție adversă la debriuri metalice (metal-on-metal), infecție. Secvențe MARS/MAVRIC. |
+
+> (Puncția articulară ghidată imagistic pentru infecție = **procedură intervențională** → home la
+> RI › Aparat locomotor, nu aici.)
+
+### 35.B 🟢 „Necroza aseptică de cap femural" — CT ca alternativă la IRM contraindicat
+
+Are IRM (etalon), Radiografie, PET-CT, scintigrafie. ACR *Osteonecrosis*: când **IRM e
+contraindicat**, **CT** sau scintigrafia osoasă cu SPECT sunt alternative (CT util și pentru
+evaluarea fracturii subcondrale / colapsului articular pre-operator). Lipsește CT:
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| T | CT | Doar în cazuri particulare | C | 2/3 | Alternativă la IRM contraindicat; evaluarea fracturii subcondrale / colapsului capului femural. |
+
+### 35.C 🟢 „Osteomielită – suspiciune" — notă de graniță: piciorul diabetic
+
+Situația e bine acoperită (Rg, IRM, PET-CT, scintigrafie ± leucocite marcate, CT, Eco). ACR tratează
+**osteomielita piciorului diabetic** ca scenariu distinct (IRM = etalon; complicații particulare).
+De decis dacă se adaugă o situație separată „Osteomielita piciorului diabetic" sau rămâne acoperită
+generic. **Nedecis** — flag.
+
+### 35.D ✅ Situații verificate — acoperire bună (fără modificare propusă)
+
+- **Coxalgie** — Rg primă intenție + IRM/Eco second-line + Artro-IRM (labrum/FAI). Conform ACR
+  *Chronic Hip Pain* (IRM/US „usually appropriate" ca pas următor după Rg negativă).
+- **Gonalgii (gonartroză / meniscală / femuro-patelară)** — Rg (de preferat cu încărcare) + IRM
+  pentru OCD/corpi liberi/menisc + CT (măsurători femuro-patelare). Conform ACR *Chronic Knee Pain*.
+- **Umăr dureros / instabil** — Rg + Ecografie + IRM + Artro-IRM/Artro-CT. Conform ACR *Shoulder Pain*
+  (Eco și IRM ambele adecvate pentru coafa rotatorilor).
+- **Artropatie inflamatorie (bilanț / monitorizare)** — Rg + Eco (Doppler) + IRM (sinovită/edem osos)
+  + CT + scintigrafie. Conform ACR *Chronic Extremity Joint Pain – Suspected Inflammatory Arthritis*.
+- **Osteomalacie** — Rg + scintigrafie + DXA + PET-CT + scintigrafie cu analogi de somatostatină
+  (osteomalacie oncogenă). Acoperire completă.
+- **Fasceita plantară** — Ecografie (primă intenție) + IRM + Rg + scintigrafie. Conform ACR *Chronic
+  Foot Pain*.
+
+> Surse: ACR Appropriateness Criteria® — *Imaging After Total Hip Arthroplasty* (2023), *Imaging
+> After Total Knee Arthroplasty* (2023), *Osteonecrosis of the Hip*, *Chronic Hip Pain* (2022),
+> *Chronic Knee Pain*, *Chronic Extremity Joint Pain – Suspected Inflammatory Arthritis*, *Suspected
+> Osteomyelitis, Septic Arthritis…*; RCR iRefer (ed. 8). **Nimic adăugat în `GHID.csv`.**
