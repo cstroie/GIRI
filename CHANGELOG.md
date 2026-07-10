@@ -1767,6 +1767,21 @@ Runda a treia, pe întreg capitolul. 41 → **38 rânduri**.
 > Capitolul: **55 → 38 rânduri** cumulat pe cele trei runde. Niciun grad/doză/cod Tip modificat.
 > Găurile NR.CRT rămân (renumerotare la cerere).
 
+### RESTRUCTURAT (ordine subcapitole) + refactor titlu (2026-07-10, la cerere)
+
+- **RESTRUCTURAT — ordinea subcapitolelor pe axă cranio-caudală:** era `Coloană cervicală →
+  Coloană lombară → Coloană toracică`; corectată la **`Coloană cervicală → Coloană toracică →
+  Coloană lombară`** (toracica e între cervicală și lombară). Subcapitolul general **„Coloană"**
+  (situații whole-spine: Sindrom medular, Bilanț fractură spontană) rămâne primul, iar **Sacru**
+  ultimul. (Bucketul general omonim cu capitolul are precedent în fișier: `Torace › Torace`.)
+- **REVIZUIT (titlu) — eliminare redundanță:** „Lombalgie acută: lombalgie radiculară mecanică"
+  (repeta „lombalgie") → **„Lombalgie acută / lombo-radiculalgie mecanică"**.
+
+> Restul titlurilor lungi (51–54 caractere) sunt descriptive și contrastează util
+> („Lombalgie **cu** semne de gravitate…" ↔ „Lombalgie cronică **fără** semne de infecție sau
+> tumoră") — păstrate intenționat. Ordinea situațiilor și a examenelor în interiorul
+> subcapitolelor nemodificată.
+
 ## 13. Aparat locomotor
 _NR 1148–1221_
 
