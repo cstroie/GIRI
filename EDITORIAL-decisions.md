@@ -1876,3 +1876,28 @@ marcaje de listă consecvente, fără spații parazite înainte de `\n`), nu șt
 
 > Status: **doar consemnat** — nicio modificare acum. De executat ca pas global, după terminarea
 > reviewului pe capitole (înainte de/împreună cu o eventuală renumerotare finală).
+
+---
+
+## 37. Cap › Neuro — comentariu mis-asignat la „Probleme psihiatrice" (2026-07-10)
+
+Ridicat la reviewul capitolului Cap.
+
+**Rând:** NR 989 · Cap › Neuro · „Probleme psihiatrice" · Tip M · „IRM cerebral" · Indicat ·
+grad C.
+
+**Problema.** Comentariul de la NR 989 este, cuvânt cu cuvânt, textul de la NR 993 („Scleroza
+în plăci și alte leziuni ale substanței albe"):
+
+> _„De prima intenție pentru diagnosticul pozitiv, pentru monitorizarea afecțiunii de substanță
+> albă și pentru diagnosticul diferențial. Poate fi completat cu IRM medular dacă nu sunt
+> completate criteriile de diagnostic sau pentru diagnosticul diferențial."_
+
+Textul descrie monitorizarea substanței albe și completarea cu IRM medular (criterii de tip
+McDonald) — specific sclerozei multiple, **fără legătură cu explorarea IRM în tulburările
+psihiatrice**. Aproape sigur un copy-paste din rândul-soră NR 993. (Rândul-pereche CT, NR 990,
+are un comentariu corect, psihiatric: contraindicații IRM / excluderea unei tumori frontale.)
+
+**De decis:** conținutul clinic corect al comentariului IRM pentru „Probleme psihiatrice" (ce
+rol are IRM-ul cerebral în bilanțul unei tulburări psihiatrice — ex. excluderea unei cauze
+organice, primă intenție vs. la nevoie). **Nu s-a modificat** — e conținut clinic, nu typo.

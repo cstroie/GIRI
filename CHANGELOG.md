@@ -1329,7 +1329,54 @@ _NR 903–958_
     consecventă în rest), dar merită o a doua opinie a editorului.
 
 ## 10. Cap
-_NR 950–1065 (23 găuri)_
+_NR 948–1026_
+
+### MODIFICAT — Review capitol Cap (2026-07-10)
+
+Review complet al capitolului (checklist din `CLAUDE.md` › „Plan de lucru"), pe cele două
+subcapitole **Neuro** (NR 948–1003) și **ORL** (NR 1004–1026). **~45 editări mecanice** pe
+34 de rânduri, toate în capitol; **fără** schimbări de grad, doză, indicație sau ordine a
+examenelor. Validare verde, 0 cedile.
+
+- **MODIFICAT (Comentarii) — diacritice și typo-uri**, doar unde forma corectă e neambiguă:
+  „intârziere"→„întârziere" și „secvente"→„secvențe" (NR 948); „exista"→„există" (NR 949);
+  „placilor"→„plăcilor" (NR 951); „simptomatologie"→„simptomatologiei" (NR 955);
+  „participa la calculul"→„participă la calculul" (NR 956); „examinîrii"→„examinării"
+  (NR 957); „si cuplat", „ofera informatii", „in evaluarea" → „și cuplat", „oferă
+  informații", „în evaluarea" (NR 958); „de înalta rezoluție"→„de înaltă rezoluție"
+  (NR 960); „efectăarii"→„efectuării" (NR 961); „angiografieCT"→„angiografie CT" (NR 965,
+  966); „Daca"→„Dacă" (NR 969); „cautată"→„căutată" (NR 970, 971); „perisistent"→
+  „persistent" și „neplazie"→„neoplazie" (NR 972); „adauga"→„adăuga" (NR 974); „intercritice
+  si"→„intercritice și" (NR 975); „functionalității"→„funcționalității" (NR 977);
+  „sepcifice"→„specifice" și „trunchi si nucleele"→„trunchi și nucleele" (NR 981); curățare
+  de diacritice pe blocul de scintigrafie/PET („si non-degenerative", „perfuzie si PET-CT",
+  „utile in diagnosticul diferential", „tulburari cognitive, dupa aviz") (NR 983); „daca",
+  „bacteriană ,", „recebte" → „dacă", „bacteriană,", „recente" (NR 984); „intre",
+  „si Dementa", „corpi Levy" → „între", „și Demența", „corpi Lewy" (eponim corect Lewy)
+  (NR 987); „împreuna"→„împreună" (NR 999, 1000); „daca"→„dacă" și „diferential"→
+  „diferențial" (NR 993, 994); „rinosinusala"→„rinosinusală" (NR 1025).
+- **MODIFICAT (Examen) — diacritice / spații parazite.** „reconstrucție in fereastră"→
+  „…în fereastră" (NR 992); „CT orbitar si encefalic"→„…și encefalic" (NR 1002); „IRM  cerebral"
+  (spațiu dublu)→„IRM cerebral" (NR 984).
+- **MODIFICAT (normalizare) — spații parazite.** Spații finale (NR 949, 950, 991), spații
+  duble interne (NR 950, 953, 992, 1007-`Alte informații`) și punctuație lipită („confirmare) ."
+  →„confirmare)." NR 950; „distală.  " NR 953) — curățate.
+- **MODIFICAT (punctuație) — paranteză orfană.** „patologia în cauză)." → „patologia în cauză."
+  (paranteză de închidere fără pereche) (NR 1013).
+- **VERIFICAT (Tip ↔ Examen) — conform.** Toate cele 79 de rânduri: codul modalității se
+  potrivește denumirii (M=IRM/AngioRM, T=CT/Angio-CT/CBCT, E=Eco-Doppler, N=Scintigrafie/
+  PET-CT, G=Radiografie/Ortopantomografie); 0 coduri inversate.
+- **VERIFICAT (de-duplicare) — fără duplicate exacte în capitol.** Comentariile identice pe
+  rânduri-soră din aceeași situație (NR 965 == 966 „Cefalee acute brutale"; NR 970 == 971
+  „Cefalee progresive"; NR 999 == 1000 „Stenoza carotidiană") — păstrate (regula
+  „comentariile identice se păstrează").
+- **NENORMALIZAT (intenționat).** Cratimarea „Angio-CT/AngioCT" și „Eco-Doppler/Eco Doppler"
+  este **împărțită pe tot fișierul** (fără dominant clar) → chestiune de normalizare la nivel
+  de fișier, nu de capitol; lăsată neatinsă pentru a nu introduce inconsecvență locală.
+- **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §24:** comentariul de la NR 989
+  („Neuro › Probleme psihiatrice", IRM) este textul **copiat de la NR 993** („Scleroza în
+  plăci") — descrie monitorizarea substanței albe / IRM medular / criterii de diagnostic,
+  fără legătură cu psihiatria. Conținut clinic → nu se rescrie unilateral. Lăsat neschimbat.
 
 - **MUTAT —** 25 rânduri intervenționale (neurovasculare) relocate la RI › Sistem nervos.
 - **MUTAT / ELIMINAT — consolidare oncologie → Cancer** (vezi „Modificări globale"):
