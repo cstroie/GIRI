@@ -15,7 +15,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 | # | Coloană | Descriere |
 |---|---|---|
-| 1 | `NR.CRT` | ID de rând, renumerotat **1..1421** (2026-07-10, după reviewul capitolului Coloană vertebrală); ulterior necontiguu (8 găuri: 1154, 1156–1162, după comasarea „Nevralgie cervico-brahială" și „Patologia umărului"). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
+| 1 | `NR.CRT` | ID de rând, secvențial **1..1413** (renumerotat 2026-07-10, după reviewul complet al capitolului Aparat locomotor). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
 | 2 | `Capitol` | Unul din cele 14 capitole (vezi mai jos). |
 | 3 | `Subcapitol` | Grupare în cadrul capitolului. |
 | 4 | `Situația Clinică` | Scenariul clinic pentru care se recomandă (sau nu) investigația. |
@@ -74,9 +74,9 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | 9 | Sân | 892–947 | 56 |
 | 10 | Cap | 948–1026 | 79 |
 | 11 | Gât (părți moi) | 1027–1059 | 33 |
-| 12 | Coloană vertebrală | 1060–1097, 1155 | 39 |
-| 13 | Aparat locomotor | 1098–1171 (fără 1154–1162) | 65 |
-| 14 | Radiologie intervențională | 1172–1421 | 250 |
+| 12 | Coloană vertebrală | 1060–1098 | 39 |
+| 13 | Aparat locomotor | 1099–1163 | 65 |
+| 14 | Radiologie intervențională | 1164–1413 | 250 |
 
 ## Documentație și review
 

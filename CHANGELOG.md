@@ -75,6 +75,14 @@ indicații radioimagistice.
 > care făcuseră NR.CRT necontiguu (ex. 870 mutat fizic în capitolul 7). Renumerotare pe poziția
 > fizică → **1..1438** (865 ID-uri schimbate). **Referințele NR.CRT din intrările de mai jos
 > reflectă starea de la momentul modificării** — folosește Capitol + Situație clinică, nu NR.CRT.
+>
+> ⚠️ **A opta renumerotare integrală, 1..1413** (la cerere, 2026-07-10, după reviewul complet al
+> capitolului Aparat locomotor — normalizări, mutări de încadrare Fasceita→Picior și Nevralgie
+> cervico-brahială→Coloană cervicală, comasarea „Patologia umărului" ≡ „Umăr dureros"). Baza de
+> dinainte (contiguă 1..1421) ajunsese la 1413 rânduri cu 8 găuri tolerate (1154, 1156–1162) și un
+> gap-jumper (1155 în Coloană cervicală). Renumerotare pe poziția fizică → **1..1413**. **Referințele
+> NR.CRT din intrările de mai jos reflectă starea de la momentul modificării** — folosește Capitol +
+> Situație clinică, nu NR.CRT.
 
 ---
 
