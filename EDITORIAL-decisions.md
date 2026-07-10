@@ -1849,3 +1849,30 @@ generic. **Nedecis** — flag.
 > After Total Knee Arthroplasty* (2023), *Osteonecrosis of the Hip*, *Chronic Hip Pain* (2022),
 > *Chronic Knee Pain*, *Chronic Extremity Joint Pain – Suspected Inflammatory Arthritis*, *Suspected
 > Osteomyelitis, Septic Arthritis…*; RCR iRefer (ed. 8). **Nimic adăugat în `GHID.csv`.**
+
+---
+
+## 36. GLOBAL — textele multi-linie (de decis/uniformizat la final, pe tot fișierul)
+
+Sarcină **cross-capitol**, de rulat **la sfârșit** (nu pe un capitol anume). În `GHID.csv` există
+câmpuri cu newline interne (`\n`), de două feluri, cu tratament diferit:
+
+**(a) Denumiri de examene (col. Examen) — newline PARAZIT, de aplatizat.** 17 rânduri, toate
+aceeași denumire de scintigrafie osoasă spartă pe 3 linii:
+`Scintigrafie osoasă\n(99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și\nSPECT-CT`. Newline-urile nu poartă
+informație — sunt un artefact de formatare din sursă. **Propunere:** aplatizare la o singură linie
+(`Scintigrafie osoasă (99mTc- HDP, 99mTc-HMDP, 99mTc-MDP) WB și SPECT-CT`) pe tot fișierul. Tot
+atunci: normalizarea celor **2 rânduri rămase cu `WB si`** (fără diacritică, în alte capitole) →
+`WB și`, și varianta cu sufix „, Scintigrafie cu leucocite marcate" (Aparat locomotor › Picior).
+Impact: uniformizează denumirea + reduce diff-ul viitor. (Nu s-a făcut acum ca să nu ating rânduri
+din alte capitole în cadrul reviewului Aparat locomotor.)
+
+**(b) Comentarii structurate (col. Comentarii) — newline SEMNIFICATIV, de păstrat.** 11 rânduri cu
+note clinice pe mai multe paragrafe/liste (ex. PECARN traumatism cranian pediatric; urmărirea
+nodulilor pulmonari; criterii de trombectomie mecanică; criterii endovascular/clipare anevrism;
+tratamentul vasospasmului). Aici newline-ul structurează liste și criterii — **NU se aplatizează**
+(aplatizarea ar face textul ilizibil). **De decis la final:** o convenție unică de formatare (ex.
+marcaje de listă consecvente, fără spații parazite înainte de `\n`), nu ștergerea structurii.
+
+> Status: **doar consemnat** — nicio modificare acum. De executat ca pas global, după terminarea
+> reviewului pe capitole (înainte de/împreună cu o eventuală renumerotare finală).
