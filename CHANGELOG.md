@@ -1044,10 +1044,39 @@ neambigue în `Comentarii`; niciun grad/doză/examen atins.
 Capitol: 68 rânduri (neschimbat). NR.CRT neschimbate.
 
 ## 8. Obstetrică și ginecologie
-_NR 876–902_
+_NR 866–892_
 
 - **MUTAT —** 3 rânduri intervenționale relocate la RI › Aparat urogenital.
 - **MODIFICAT (date) —** subcapitol „Sarcina"/„Sarcină" unificat la „Sarcină" (majoritar).
+- **REVIZUIT — trecere completă (2026-07-10),** aceeași metodă ca la capitolele anterioare:
+  - **MODIFICAT (date) — corectură ortografică / diacritice** pe 6 rânduri:
+    - NR 872 (CT, dureri pelvine): „abesului"→„abcesului", „furnizeaza"→„furnizează",
+      „endometrioza"→„endometrioză"; spațiu final parazit.
+    - NR 874 (IRM, dureri pelvine): „instialre"→„instilare", „necesara"→„necesară",
+      „si"→„și" (×2); spații duble; spațiere liniuță „endometriozei -".
+    - NR 876 (Ecografie Doppler, metroragii): comentariu complet fără diacritice, restaurat
+      („evalueaza"→„evaluează", „vascularizatia"→„vascularizația", „tisulara"→„tisulară" etc.).
+    - NR 880 (Ecografie, masă pelvină): „dilatatiilor"→„dilatațiilor", „In caz"→„În caz";
+      spațiu dublu.
+    - NR 887 (etichetă situație): „control in timpul"→„control în timpul".
+    - NR 888 (Ecografie, RCF): etichetă și comentariu masiv fără diacritice, restaurate
+      integral („morbilitatii"→„morbidității", „crestre"→„creștere", „fetusurilor"→„fetușilor",
+      „parametrii"→„parametri", „evaluarior"→„evaluărilor" etc.); spații duble.
+  - **MODIFICAT (date) — gramatical (neambiguu):** NR 870 „morfologice a aparatului"→
+    „morfologice ale aparatului" + punct final lipsă; NR 879 „Asocierea … sunt frecvent
+    necesare"→„… este frecvent necesară" (acord subiect singular).
+  - **MODIFICAT (date) — repartizare pe coloane:** NR 888 — nota clinică despre scorul PBUG,
+    aflată greșit în „Alte informații" (col. 10), mutată în „Comentarii" (col. 9); col. 10
+    golită (regula: note clinice = col. 9, coduri/referințe = col. 10).
+  - **ELIMINAT — breadcrumb:** NR 879 „(v. și capitolul Cancer)" scos din comentariu
+    (regula „un singur home / fără breadcrumb-uri").
+  - **NORMALIZAT — denumiri examene / spații:** NR 876 „Ecografie endovaginala  si Doppler "
+    → „Ecografie endovaginală și Doppler"; NR 880 „Ecografie " (spațiu final) → „Ecografie";
+    NR 883 „Radio- pelvimetrie" → „Radio-pelvimetrie" (consecvent cu propriul comentariu).
+  - **Semnalat, nemodificat** (în `EDITORIAL-decisions.md` §27): etichetă „Dureri pelvine"
+    truncată pe rândul CT (posibilă situație spartă); etichetă concatenată „…semnificative
+    Menometroragii"; încadrarea „Infertilitate masculină" în capitol; ordinea situațiilor
+    în subcap. „Sarcină" (urgență → cronic). Niciun grad/doză/ordine de examene atins.
 
 ## 9. Sân
 _NR 903–958_
