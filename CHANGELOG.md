@@ -1855,6 +1855,19 @@ Pas ortografic + normalizare, **fără mutări, comasări, ștergeri sau schimb�
   comasate); subcapitolul Umăr rămâne intact (Patologia umărului, Umăr dureros, Umăr dureros
   instabil). Găuri NR.CRT rezultate: 1154, 1156, 1157 (renumerotare amânată — regula 3).
 
+### ELIMINAT / COMASAT — consolidare situații umăr (2026-07-10, la cerere)
+
+- **COMASAT — „Patologia umărului" ≡ „Umăr dureros"** (subcapitolul Umăr). Aceeași situație
+  clinică (umăr dureros / patologia coafei rotatorilor), cu **aceleași 5 modalități** (Ecografie,
+  Radiografie, Artro-IRM, Artro-CT, IRM). Comasate sub eticheta **„Umăr dureros"** (comentariile
+  mai bogate). Pe 3 modalități (E, G, IRM) gradele erau **identice**; conflictul de grad de la
+  **Artro-IRM / Artro-CT** — „Doar cu aviz specializat"/B (Patologia umărului) vs „Neindicat în
+  primă intenție"/C (Umăr dureros) — a fost **decis editorial (la cerere)** în favoarea
+  **„Doar cu aviz specializat"/B**, consecvent cu restul subcapitolului Umăr (și „Umăr dureros
+  instabil" are artrografia la B). Comentariul radiografiei îmbogățit cu indicația „umăr
+  hiperalgic" (portată din fostul rând G al „Patologia umărului"). (−5 rânduri; găuri 1158–1162.)
+  „Umăr dureros instabil" **rămâne distinctă** (instabilitate → labrum/capsulo-ligamentar).
+
 ## 14. Radiologie intervențională
 _NR 1222–1471_
 

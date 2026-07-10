@@ -1682,3 +1682,28 @@ capitolului. **Nesemnalat ca sarcină acum** — doar consemnat.
 
 > Status: **analiză, fără modificare de date.** Sursele pentru un eventual audit: ACR
 > Appropriateness Criteria® (musculoskeletal), RCR iRefer (ed. 8).
+
+---
+
+## 33. Aparat locomotor — consolidare situații (2026-07-10, la cerere)
+
+Analiză de deduplicare/consolidare pe tot capitolul (inclusiv cross-subcapitol). Concluzie:
+capitolul e în mare curat — cele 3 gonalgii (gonartroză / meniscală / femuro-patelară), cele 2
+afecțiuni de șold (coxalgie / necroză aseptică) și condițiile din „Diverse" (artropatie
+inflamatorie, osteomalacie, osteomielită, sindrom post-protezare) sunt **clinic distincte**, nu
+dubluri. Un singur duplicat real:
+
+### 33.A ✅ „Patologia umărului" ≡ „Umăr dureros" — COMASAT (decizie de grad luată la cerere)
+
+Aceeași situație (umăr dureros / coafa rotatorilor), aceleași 5 modalități. Gradele coincideau pe
+Ecografie/Radiografie/IRM; difereau doar la **Artro-IRM/Artro-CT**: „Doar cu aviz specializat"/B
+(Patologia umărului) vs „Neindicat în primă intenție"/C (Umăr dureros). **Decizie (la cerere):**
+comasare sub „Umăr dureros" cu artrografia la **„Doar cu aviz specializat"/B** — consecvent cu
+restul subcapitolului Umăr (și „Umăr dureros instabil" o are la B; artrografia de umăr e o
+procedură invazivă, specialist-directed). Comentariile mai bogate păstrate; nota „umăr hiperalgic"
+portată pe rândul radiografiei. „Umăr dureros instabil" rămâne distinctă. Vezi `CHANGELOG.md §13 ›
+ELIMINAT/COMASAT — consolidare situații umăr`. (−5 rânduri.)
+
+> Nota de trasabilitate pe grade: nu s-a „inventat" un grad — s-a **ales între cele două grade
+> deja existente** pe aceeași modalitate, aliniat la convenția dominantă a subcapitolului. Restul
+> gradelor rămân neatinse.
