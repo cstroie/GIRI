@@ -1354,6 +1354,40 @@ _NR 903–958_
 ## 10. Cap
 _NR 948–1026_
 
+### MODIFICAT — Review capitol Cap, pasul 2: coloane, breadcrumb-uri, reformulări (2026-07-10)
+
+A doua trecere critică pe Neuro + ORL. Validare verde, 0 cedile.
+
+- **MUTAT (coloană) — conținut clinic din `Alte informații` (col. 10) → `Comentarii` (col. 9).**
+  Constatare majoră: **toate cele 10 rânduri din ORL** cu text în col. 10 conțineau **note
+  clinice**, nu coduri/referințe — încălcare sistematică a schemei (`Comentarii` = note clinice;
+  `Alte informații` = coduri interne „RI - PCx" / referințe; vezi decizia din `CLAUDE.md`).
+  Notele au fost concatenate la `Comentarii` pe rândul propriu (NR 1004, 1006, 1007, 1011, 1014,
+  1015, 1016, 1018, 1023, 1025). **Col. 10 în capitolul Cap e acum goală** (nu existau coduri).
+  Fără schimbare de conținut clinic — doar relocare între coloane.
+- **ELIMINAT — breadcrumb-uri din etichete de situație.** Scos „ (v. și capitolul Pediatrie)"
+  din 4 situații (8 rânduri): „Cefalee cronice atipice" (NR 968–969), „Crize comițiale"
+  (NR 972–973), „Hidrocefalie" (NR 977–978), „Hidrocefalie – funcționarea cateterului…"
+  (NR 979–980). Regula „un singur home / fără breadcrumb-uri în date" (navigarea încrucișată e
+  treaba aplicației de consultare).
+- **RESTRUCTURAT (etichetă) — reformulare.** „Hidrocefalie Funcționarea cateterului de derivație"
+  (două concepte lipite, fără separator) → „Hidrocefalie – funcționarea cateterului de derivație"
+  (NR 979–980).
+- **MODIFICAT (Comentarii/Examen) — typo & diacritice**, doar unde forma corectă e neambiguă:
+  „Secventa"→„Secvența" (NR 955); „de înalta rezoluție"→„de înaltă rezoluție" + punct terminal
+  (NR 961); „examinari"→„examinări" (NR 995); „coloana vertebrală"→„coloană vertebrală" în Examen
+  (NR 996); „CTul"→„CT-ul" (NR 997); „singura metoda de investigatie… chirurgicala"→„singură
+  metodă de investigație… chirurgicală" (NR 998); „densitați"→„densități" (NR 1004);
+  „favorizați"→„favorizanți" (termen standard „factori favorizanți", NR 1018); „nazo-sinusala"→
+  „nazo-sinusală" (NR 1021).
+- **MODIFICAT (normalizare) — spațiu în denumire.** „Eco-Doppler al vaselor cervico- craniene"→
+  „…cervico-craniene" (NR 959).
+- **DE DECIS (editorial) — vezi `EDITORIAL-decisions.md` §39:** (a) propagarea notelor de
+  nivel-situație pe toate investigațiile situației (candidate: NR 1006, 1014, 1016, 1025);
+  (b) etichete de examen cu nepotrivire anatomică („IRM regiune cervicală" pentru surditate
+  neurosenzorială / tumori nazo-sinusale — NR 1010, 1022); (c) rânduri „Neindicat" fără
+  justificare în `Comentarii` (NR 1009, 1020). Neschimbate (conținut clinic).
+
 ### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
 
 Reordonare **fizică** a situațiilor pe flux clinic (**urgență/acut → cronic → screening**,

@@ -1944,3 +1944,52 @@ RCR iRefer e organizat regional (Head cuprinde neuro; ORL ca „Head and neck").
 **Note de încadrare conexe:** ATM (articulație, azi în ORL) — vezi §1 (posibil Aparat locomotor);
 „Sindroame medulare" (măduvă, azi în Neuro) — de confirmat dacă rămâne în Cap sau se raportează
 la Coloană vertebrală.
+
+---
+
+## 39. Cap — chestiuni ridicate la reviewul de conținut, pasul 2 (2026-07-10)
+
+Ridicate la a doua trecere pe Neuro + ORL (după mutarea notelor clinice din col. 10 în col. 9).
+
+### (a) Propagarea notelor de nivel-situație pe toate investigațiile
+
+Per regula „informația clinică de nivel-situație se copiază pe toate investigațiile situației"
+(`CLAUDE.md` › Decizii), câteva note mutate din `Alte informații` descriu **situația în general**
+(nu o modalitate anume) și, în prezent, stau doar pe un rând. Candidate de propagat pe toate
+rândurile situației:
+
+- **Disfuncții ATM** (NR 1006–1009): „Analiza simptomatologiei și examenul clinic și dentar
+  trebuie să preceadă imagistica. Examenul imagistic trebuie să aibă indicație…" (acum doar pe
+  NR 1006, Ortopantomografie).
+- **Sinuzită acută** (NR 1015–1017): „Diagnosticul este clinic, uneori confirmat prin endoscopie.
+  Imagistica este indicată doar în cazuri atipice, cu complicații sau în caz de eșec terapeutic."
+  (acum doar pe NR 1016, CT).
+- **Tulburări ale simțului olfactiv** (NR 1024–1025): „Indicația imagisticii este doar după
+  realizarea unui examen clinic ORL detaliat." (acum doar pe NR 1025, CT).
+- **Simptomatologia urechii medii** (NR 1013–1014): „Tumorile urechii medii… necesită examinare
+  IRM și CT în egală măsură." (acum doar pe NR 1014, IRM) — de decis dacă e nivel-situație.
+
+**De decis:** care sunt strict nivel-situație (se propagă) vs. specifice modalității (rămân). Nu
+s-a propagat automat (dublează text; decizie de conținut).
+
+### (b) Etichete de examen cu nepotrivire anatomică
+
+- **NR 1022** — „Surditatea neurosenzorială la adult" → Examen „**IRM regiune cervicală**".
+  Surditatea neurosenzorială se explorează prin IRM de conduct auditiv intern / unghi
+  ponto-cerebelos, nu „regiune cervicală". Probabil artefact din sursă.
+- **NR 1010** — „Leziuni tumorale… ale foselor nazale și sinusurilor" → „**IRM regiune
+  cervicală**" (ar fi de așteptat „IRM masiv facial / sinusuri").
+- Minor: rândurile de ureche (NR 1004, 1005, 1012, 1013, 1014) au Examen generic „IRM"/„CT"
+  fără regiune, spre deosebire de restul capitolului („CT sinusuri", „IRM sinusuri").
+
+**De decis:** corectarea denumirii examenului (schimbă ținta descrisă → conținut, nu se face
+unilateral).
+
+### (c) Rânduri „Neindicat" fără justificare
+
+- **NR 1009** — Radiografie articulații temporo-mandibulare, „Neindicat", grad „?", `Comentarii`
+  gol.
+- **NR 1020** — Ortopantomografie la „Sinuzită cronică", „Neindicat", grad „?", `Comentarii` gol.
+
+Comparativ, celelalte „Neindicat" din capitol au o notă (ex. NR 1017, 1021). **De decis:** dacă
+se adaugă o justificare scurtă (conținut → editorii).
