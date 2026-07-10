@@ -1707,3 +1707,84 @@ ELIMINAT/COMASAT — consolidare situații umăr`. (−5 rânduri.)
 > Nota de trasabilitate pe grade: nu s-a „inventat" un grad — s-a **ales între cele două grade
 > deja existente** pe aceeași modalitate, aliniat la convenția dominantă a subcapitolului. Restul
 > gradelor rămân neatinse.
+
+---
+
+## 34. Aparat locomotor — goluri de conținut față de ghidurile de referință (2026-07-10)
+
+Audit al capitolului față de **ACR Appropriateness Criteria®** (panel Musculoskeletal) și **RCR
+iRefer (ed. 8)**, căutând situații **non-traumatice** care ar trebui neapărat prezente și lipsesc.
+Filtre de încadrare (ierarhia GIRI): leziunile **acut-traumatice** (entorsă acută de gleznă,
+fractură de scafoid, genunchi acut — reguli Ottawa/NEXUS) merg la **Traumatisme**, nu aici;
+**tumorile osoase / masele de părți moi / metastazele** merg la **Cancer** (mutate deja); deci
+NU sunt goluri ale acestui capitol. Propunerile de mai jos sunt **non-traumatice, non-tumorale**.
+
+> Status: **analiză, fără modificare de date.** Rândurile-schiță (modalități, indicație, grad,
+> doză, comentariu) sunt **propuneri** — gradele/dozele se confirmă de editori. Priorități:
+> 🔴 = gol major (topic ACR/RCR dedicat, regiune întreagă absentă); 🟠 = recomandat; 🟢 = opțional.
+
+### 34.A 🔴 Regiuni MSK absente complet (topicuri ACR AC dedicate)
+
+Capitolul are subcapitole doar pentru Genunchi, Șold, Umăr, Picior (+ „Diverse"). Lipsesc trei
+regiuni cu topic ACR AC propriu (*Chronic Wrist Pain*, *Chronic Elbow Pain*, *Chronic Ankle Pain*):
+
+#### (1) Subcapitol nou **„Pumn și mână"** — *Durere cronică de pumn / mână*
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| G | Radiografie | Indicat | B | 1/1 | Primă intenție: artroză, condrocalcinoză, aliniament, sechele. |
+| M | IRM | Doar cu aviz specializat | B | 0/0 | Leziuni TFCC, ligament scafo-lunar, necroză (Kienböck/scafoid), sinovită. |
+| M | Artro-IRM | Doar cu aviz specializat | C | 0/0 | Leziuni ligamentare intrinseci / TFCC când IRM nativ e neconcludent. |
+| E | Ecografie | Doar în cazuri particulare | C | 0/0 | Tenosinovite, ganglioni, **sindrom de tunel carpian** (nerv median). |
+| T | CT | Doar în cazuri particulare | C | 1/1 | Pseudartroză de scafoid, aliniament osos, corpi liberi. |
+
+#### (2) Subcapitol nou **„Cot"** — *Durere cronică de cot / epicondilită*
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| G | Radiografie | Indicat | B | 1/1 | Primă intenție: artroză, corpi liberi, osteocondrită disecantă. |
+| E | Ecografie | Indicat | C | 0/0 | Epicondilită, patologie tendinoasă, colecții, nerv ulnar. |
+| M | IRM | Doar cu aviz specializat | B | 0/0 | Tendinopatii, leziuni ligamentare/osteocondrale, neuropatie ulnară. |
+
+#### (3) Subcapitol nou **„Gleznă"** — *Durere cronică de gleznă / instabilitate*
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| G | Radiografie (cu încărcare) | Indicat | B | 1/1 | Primă intenție: artroză, aliniament, sechele post-traumatice. |
+| M | IRM | Doar cu aviz specializat | B | 0/0 | Leziuni osteocondrale, tendinoase (ahilian/peronieri), ligamentare, impingement. |
+| E | Ecografie | Doar în cazuri particulare | C | 0/0 | Patologie tendinoasă, sinovită, ghidaj infiltrații. |
+| T | CT | Doar în cazuri particulare | C | 1/2 | Coaliție tarsală, leziuni osoase/osteocondrale, aliniament. |
+
+### 34.B 🔴 Osteoporoză — evaluarea densității minerale osoase (DXA)
+
+Cea mai frecventă indicație imagistică MSK metabolică **lipsește ca situație** (osteodensitometria
+apare doar incidental sub „Osteomalacie"). DXA centrală (coloană + șold) e metoda standard de
+diagnostic și de estimare a riscului de fractură (clinician's guide NOF/BHOF; ISCD). Home propus:
+**„Diverse"** (sistemic).
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| D | Osteodensitometrie (DXA coloană + șold) | Indicat | A | 1/1 | Diagnostic (T-scor ≤ −2,5) și estimarea riscului de fractură; monitorizare la 1–2 ani. |
+| G | Radiografie coloană toraco-lombară (morfometrie / VFA) | Doar în cazuri particulare | B | 1/1 | Detectarea fracturilor vertebrale de fragilitate. |
+| T | CT (QCT) | Doar cu aviz specializat | B | 2/3 | În cazuri selectate; iradiere mai mare decât DXA. |
+
+### 34.C 🟠 Situații recomandate (topic dedicat, dar de prioritate a doua)
+
+- **Artrită septică** (home „Diverse") — distinctă de osteomielită (ACR: *Suspected Osteomyelitis,
+  Septic Arthritis…*). Rg + **Ecografie** (epanșament, ghidaj puncție articulară — cheia
+  diagnosticului) + IRM (extensie osoasă/părți moi).
+- **Fractură de stres / insuficiență** (home „Diverse" sau pe regiune) — suprasolicitare, **non-acut
+  traumatică** (topic ACR *Stress (fatigue/insufficiency) fracture*). Rg (adesea normală precoce) +
+  **IRM** (cea mai sensibilă) + scintigrafie osoasă (alternativă).
+- **Durere cronică de picior extinsă** (în „Picior", pe lângă Halux/Fasceită) — nevrom Morton,
+  metatarsalgie, disfuncție de tendon tibial posterior: **Ecografie / IRM**.
+
+### 34.D 🟢 Opțional (de completat dacă se dorește acoperire exhaustivă)
+
+- **Sindrom dureros de trohanter mare** / bursită trohanteriană (în „Șold") — Eco / IRM.
+- **Boala Paget osoasă** (în „Diverse") — Radiografie + scintigrafie osoasă.
+- **Artropatie microcristalină / gută** (extindere a „Artropatie inflamatorie") — **DECT** (CT
+  dual-energy) pentru depozitele de urat.
+
+> Surse: ACR Appropriateness Criteria® — *Chronic Wrist Pain*, *Chronic Elbow Pain*, *Chronic
+> Ankle Pain*, *Chronic Foot Pain*, *Osteonecrosis*, *Stress (fatigue/insufficiency) fracture*,
+> *Suspected Osteomyelitis, Septic Arthritis, or Soft Tissue Infection*; RCR iRefer (ed. 8), secțiunea
+> musculo-scheletală; clinician's guide to prevention and treatment of osteoporosis (BHOF/NOF) și
+> ISCD pentru DXA. **Nimic adăugat în `GHID.csv`** — se decid în echipă situațiile păstrate,
+> gradele, dozele și încadrarea (subcapitole noi: Pumn și mână, Cot, Gleznă).
