@@ -1321,3 +1321,93 @@ breadcrumb, repartizare col. 9/10) au fost aplicate. Punctele 1, 3 și 4 de mai 
 
 > Status: **niciun grad, doză sau ordine de examene modificat.** Rămâne deschis punctul 2
 > (etichetă „Metroragii/Menometroragii"), la cererea editorului.
+
+---
+
+## 28. Obstetrică și ginecologie — goluri de conținut față de ghidurile de referință (2026-07-10)
+
+Comparație a capitolului (26 rânduri, ~13 situații) cu topicele **ACR Appropriateness
+Criteria® — Women's Imaging** (2023–2024), **RCR iRefer** și ghidul CAR OB/GYN (2023).
+Capitolul actual e **subțire**: acoperă infertilitate (parțial), durere pelvină cronică/
+inflamație/endometrioză (comasate), metroragii postmenopauzale, DIU, masă pelvină,
+disproporție cefalo-pelvină și 5 scenarii de sarcină. Lipsesc mai multe topice majore.
+
+**NU am adăugat rânduri în `GHID.csv`** — adăugarea de situații/grade e decizie clinică-
+editorială (regula 6). Mai jos sunt **propuneri**, cu modalitatea de primă intenție conform
+ghidurilor; gradul final îl fixează editorii. Încadrarea urmează ierarhia din `CLAUDE.md`.
+
+### 28.A Goluri clare cu home = Obstetrică-ginecologie (propuneri de adăugat)
+
+**Ginecologie:**
+
+1. 🔴 **Durere pelvină acută (femeie de vârstă reproductivă, non-gravidă)** — topic ACR
+   distinct de „dureri pelvine cronice/endometrioză" pe care le avem. Acoperă **torsiune
+   anexială/ovariană, chist hemoragic sau rupt, abces tubo-ovarian**. Eco transvaginală +
+   transabdominală **cu Doppler** = primă intenție (grad A); **CT abdomen-pelvis** când se
+   suspectează etiologie non-ginecologică (ex. apendicită) sau Eco echivocă. Torsiunea
+   ovariană e o urgență — merită vizibilitate proprie (azi complet absentă).
+2. 🔴 **Sângerare uterină anormală — premenopauzală / vârstă reproductivă (AUB).** Avem doar
+   metroragiile *postmenopauzale*. Eco TV+TA cu Doppler = primă intenție (A);
+   **sonohisterografie (SIS/histerosonografie)** pentru polipi/miom submucos/patologie
+   endometrială; IRM a doua intenție. ACR „Abnormal Uterine Bleeding".
+3. 🟠 **Leiomioame uterine (fibroame) — caracterizare / cartografiere.** Absente ca situație.
+   Eco = primă intenție; **IRM** pentru cartografiere pre-miomectomie/pre-embolizare și când
+   Eco e neconcludentă. (Embolizarea de arteră uterină = capitolul RI — vezi 28.B.)
+4. 🟠 **Endometrioză — situație dedicată** (azi comasată în „Dureri pelvine…"). ACR are topic
+   separat: Eco TV (primă intenție, inclusiv endometrioză profundă) + **IRM cu protocol
+   dedicat** (opacifiere vaginală/rectală — deja descris în comentariul nostru IRM). De decis
+   dacă se separă „Endometrioză (suspiciune / bilanț de extensie)" de durerea pelvină generică.
+5. 🟡 **Anomalii congenitale uterine (malformații mülleriene).** Azi doar menționate în
+   comentariile de la infertilitate/avorturi. Eco 3D + **IRM** pentru clasificare (uter
+   septat vs bicorn etc.) — relevant pentru infertilitate și avort recurent.
+
+**Obstetrică / Sarcină:**
+
+6. 🔴 **Sângerare de trimestru II/III (placenta previa, dezlipire de placentă).** Absentă.
+   Eco = primă intenție (localizarea placentei, previa, vasa previa); IRM adjuvant în cazuri
+   selectate. ACR „Second and Third Trimester Bleeding".
+7. 🔴 **Spectru placenta accreta (placentă aderentă morbid).** Absentă, dar clinic majoră
+   (risc hemoragic peripartum). **Eco cu Doppler** (lacune placentare, hipervascularizație la
+   nivelul cicatricei de cezariană) = primă intenție; **IRM** pentru profunzimea invaziei,
+   placentă posterioară și planificare chirurgicală multidisciplinară.
+8. 🟠 **Hemoragie postpartum / retenție de produse de concepție.** Absentă. Eco (retenție,
+   cheaguri) primă intenție; CT/angiografie la sângerare activă. (Embolizarea de arteră
+   uterină = RI — vezi 28.B.) ACR „Postpartum Hemorrhage".
+9. 🟡 **Evaluarea colului gravid / insuficiență cervicală (col scurt).** Absentă. **Eco TV**
+   a lungimii cervicale. ACR „Assessment of the Gravid Cervix".
+10. 🟠 **Suspiciune de anomalie fetală — completarea ecografiei (IRM fetal).** Avem doar
+    „ecografie de control". **IRM fetal** e adjuvant recunoscut pentru anomalii SNC (și altele)
+    când ecografia e neconcludentă/insuficientă. De adăugat ca situație/rând (IRM, fără iradiere).
+
+### 28.B Goluri cu home probabil în alt capitol (nu se adaugă aici)
+
+- **Embolizări** (fibrom/UAE, hemoragie postpartum, sindrom de congestie pelvină / varice
+  pelvine): Tip `I`/`A` → **RI › Aparat urogenital**. (Congestia pelvină e deja semnalată la
+  §23/§24 uro-genital.) Partea *diagnostică* a fiecăreia rămâne aici.
+- **Disfuncție de planșeu pelvin / prolaps de organe pelvine** — IRM dinamic / **defecografie
+  IRM** (ACR „Pelvic Floor Dysfunction in Females"). **De decis home:** Obstetrică-ginecologie
+  vs Aparat uro-genital (ACR îl încadrează la Women's Imaging; la noi funcția vezicală/
+  urinară e la uro-genital). Flag de încadrare.
+- **Durere abdomino-pelvină non-obstetricală la gravidă** (apendicită, colică renală): Eco
+  primă intenție, **IRM fără contrast** a doua intenție (evită iradierea) — scenariu de graniță
+  cu Aparat digestiv / uro-genital; de decis dacă merită un rând „la gravidă".
+- **Tromboembolism venos în sarcină (TVP / embolie pulmonară)** → Cardiovascular / Torace.
+- **Screening / stadializare cancer ovarian, endometrial, de col** → **Cancer** (de verificat
+  completitudinea acolo — cf. §16 pentru col/corp uterin/ovar).
+
+### 28.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
+
+- **Infertilitate feminină — lipsesc examenele-cheie de permeabilitate tubară.**
+  **Histerosalpingografia (HSG, Tip `X`)** și **HyCoSy / histerosonografia** sunt menționate
+  doar în comentarii, dar nu există ca rânduri de examen. ACR „Female Infertility" le listează
+  explicit. Propunere: adăugarea lor ca investigații la situația „Infertilitate feminină".
+- **Masă anexială — caracterizare (fără simptome acute).** Situația „Suspiciune de masă
+  pelvină" acoperă scenariul, dar se poate îmbogăți cu **clasificarea O-RADS** (US/MRI) și
+  rolul IRM pentru leziuni indeterminate. ACR „Clinically Suspected Adnexal Mass".
+- **Sarcină de prim trimestru — „sarcină cu localizare necunoscută (PUL)".** Avem
+  extrauterina și non-viabila; scenariul PUL (Eco TV + β-hCG seriat) ar completa logic grupul.
+
+> Status: **analiză, fără modificare de date.** Propunerile de mai sus așteaptă decizia
+> editorilor (ce se adaugă, cu ce grad, unde se încadrează cazurile de graniță din 28.B).
+> Surse: ACR Appropriateness Criteria® (Women's Imaging, 2023–2024), RCR iRefer (ed. 8),
+> CAR OB/GYN Referral Guideline (2023).
