@@ -1699,11 +1699,42 @@ Găurile NR.CRT rezultate (1067, 1072–1074, 1086–1088) rămân — renumerot
   (lângă G/M/T existente) — articulațiile sacro-iliace aparțin anatomic de Sacru. Eticheta
   normalizată `Sacro-ileita → Sacro-ileită` pe toate cele 4 rânduri.
 
-> **Neatins (flag editorial — vezi `EDITORIAL-decisions.md` §30):** cele două perechi de situații
-> cronice/context-particular din Coloană lombară cu **seturi de examene diferite** (candidate la
-> comasare, dar implică decizii clinice); rândul-breadcrumb „Afecțiuni congenitale – vezi
-> capitolul Pediatrie" (Tip Z); denumirile „IRM/CT coloana lombara" vs „IRM/CT"; ordonarea pe
-> flux clinic a situațiilor din Coloană lombară. Niciun grad/doză/cod Tip modificat.
+### RESTRUCTURAT — consolidare completă Coloană lombară (2026-07-10, la cerere)
+
+Runda a doua: comasarea perechilor cvasi-duplicate cu **seturi de examene diferite** din
+Coloană lombară (fostele puncte deschise §30.A–D, acum rezolvate). Capitolul: 48 → **41 rânduri**.
+În ambele perechi, una dintre situații era **superset de modalități** al celeilalte → fuziunea a
+păstrat situația-superset, portând pe fiecare modalitate comentariul mai bogat/canonic din cealaltă.
+**Niciun grad/indicație schimbat prin decizie unilaterală** — s-au păstrat gradele existente (identice
+pe modalitățile comune); acolo unde difereau doar ca formulare (G la lombalgia cronică: „Neindicat"
+vs „Neindicat în primă intenție") s-a păstrat varianta nuanțată, susținută de comentariul propriu
+(radiografia utilă la tineri <20 / >55 ani).
+
+- **ELIMINAT / COMASAT — „Lombalgie cronică" (2 situații → 1).** „Durere lombară cronică fără semne
+  de infecție sau tumoră: lombalgie comună" (G/M/T/scintigrafie) era subset al „Lombalgie cronică
+  fără semne de infecție sau tumoră" (+ PET-CT F18-FDG). Păstrată a doua; comentariile canonice
+  („examen precedat de radiografie standard, fără mielografie/mieloCT, fără repetare în anul următor";
+  nota despre radiografie la tineri/vârstnici) portate pe M/T/scintigrafie/radiografie. Normalizat
+  `IRM/CT coloana lombara → IRM/CT`. (−4 rânduri)
+- **ELIMINAT / COMASAT — „Lombalgie în context particular / semne de gravitate" (2 situații → 1).**
+  Varianta cu 3 modalități (IRM + PET-CT F18-FDG/F18-NaF + scintigrafie) a absorbit varianta cu 2
+  (IRM + scintigrafie). Eticheta unificată **completată cu red-flag-urile prezente doar în cealaltă**
+  („scădere în greutate", „dureri de tip inflamator" — corectă clinic, a înlocuit „antiinflamatorii");
+  comentariul situație-nivel mai bogat (urgență, clișee fals-negative, IRM cel mai eficace) portat pe
+  IRM; normalizat `IRM coloana lombara → IRM`. (−2 rânduri)
+- **ELIMINAT — rând-breadcrumb Tip `Z`** „Afecțiuni congenitale – vezi capitolul Pediatrie" (fără
+  examen concret; home-ul afecțiunilor congenitale ale coloanei e în Pediatrie — regula „un singur
+  home / fără breadcrumb-uri"). (−1 rând)
+- **RESTRUCTURAT (ordine) — situațiile din Coloană lombară pe flux clinic:** context particular /
+  semne de gravitate (urgent) → lombalgie acută radiculară → lombalgie cronică → `ALTĂ SITUAȚIE`
+  ultima. Reordonare fizică (NR.CRT rămân atașate rândului → necontigue până la o renumerotare cerută).
+- **CORECTAT — typo pe rânduri păstrate:** „poate fii utilizata → poate fi utilizată" (scintigrafie
+  context particular), „lombalgie cronica → cronică" (PET-CT), „în urgenta . → în urgență." (IRM
+  context particular).
+
+> Găurile NR.CRT rezultate (14 în total în capitol) rămân — renumerotare amânată (regula 3).
+> Ordinea *examenelor* în interiorul fiecărei situații a rămas neatinsă. Niciun grad/doză/cod Tip
+> modificat.
 
 ## 13. Aparat locomotor
 _NR 1148–1221_

@@ -1437,11 +1437,20 @@ nu le schimb singur (pot fi intenționale în sursă), le las editorilor.
 
 ## 30. Coloană vertebrală — chestiuni ridicate la review (2026-07-10)
 
+> ✅ **REZOLVAT (2026-07-10, la cerere — „consolidare completă").** Toate punctele 30.A–D de mai
+> jos au fost aplicate; vezi `CHANGELOG.md §12 › RESTRUCTURAT — consolidare completă Coloană lombară`.
+> Rezumat al raționamentului pe grade/indicații (păstrat pentru trasabilitate): în ambele perechi o
+> situație era **superset de modalități** al celeilalte, deci fuziunea a păstrat situația-superset și
+> gradele ei (identice pe modalitățile comune cu cealaltă). Singura diferență de formulare — G la
+> lombalgia cronică, „Neindicat" vs „Neindicat în primă intenție" — s-a rezolvat în favoarea variantei
+> nuanțate, **susținută de comentariul propriu** (radiografia e utilă la tineri <20 / >55 ani pentru
+> spondilolisteză / spondilită anchilozantă), nu printr-o schimbare arbitrară de grad. Textul de mai
+> jos se păstrează ca justificare a deciziei.
+
 Review complet al capitolului. Corecturile mecanice (diacritice, spații, denumiri examene,
 `toracală→toracică`) și comasările **evidente** (duplicate cu examene identice) au fost
-aplicate — vezi `CHANGELOG.md §12`. Cele de mai jos rămân **de decis de editori** (comasări
-care implică seturi de examene diferite → alegeri clinice pe ce grade/comentarii se păstrează;
-sau ștergeri de rânduri-punte).
+aplicate — vezi `CHANGELOG.md §12`. Punctele de mai jos (comasări cu seturi de examene diferite
++ ștergerea rândului-punte + reordonarea) au fost **aplicate în runda a doua**.
 
 ### 30.A ⏳ „Lombalgie cronică" — două situații cvasi-duplicate, seturi de examene diferite
 
@@ -1489,4 +1498,7 @@ review (pentru a păstra diff-ul concentrat pe corecturi + de-duplicare); de fă
 ulterioară dedicată, împreună cu deciziile 30.A/30.B.
 
 > Status: **niciun grad, doză sau cod Tip modificat** în acest capitol. Comasările aplicate au
-> vizat exclusiv duplicate cu examene + grade **identice**.
+> vizat exclusiv duplicate cu examene + grade **identice** pe modalitățile comune; comentariile
+> păstrate au fost alese dintre cele existente (cel mai bogat/canonic per modalitate), fără
+> compunere de text clinic nou. Singura completare de etichetă (30.B) a adăugat red-flag-uri deja
+> prezente în perechea eliminată.
