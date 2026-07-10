@@ -358,6 +358,39 @@ rânduri — doar textul situației. Exemple:
 ## 1. Pediatrie
 _NR 1–196_
 
+### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
+
+Cele **7 subcapitole pe aparate/sisteme** erau în ordine **alfabetică** → reordonate pe fluxul
+**urgență/acut → cronic → screening/populații speciale (inclusiv nou-născut/congenital)**, cu
+`ALTĂ SITUAȚIE CLINICĂ` ultima (regula 7). Reordonare **fizică** a grupurilor de situații;
+ordinea examenelor în interiorul fiecărei situații neatinsă; **NR.CRT neschimbate**.
+
+- **Aparat digestiv:** urgențe (invaginație, apendicită, corp străin, vărsături acute, melenă,
+  rectoragie) → urgențe neonatale/de sugar (absența meconiului, malformație anorectală,
+  vărsături în jet nou-născut/primele luni, icter colestatic) → cronice (vărsături recurente,
+  durere abdominală cu examen normal, constipație).
+- **Aparat locomotor:** șold dureros / defect de mers și durere osoasă focalizată (acute/
+  subacute) → Osgood-Schlatter, scolioză → displazie congenitală de șold, talie mică (screening).
+- **Gât și coloană vertebrală:** durere vertebrală, adenopatii, torticolis netraumatic →
+  rinofaringite recidivante → torticolis neonatal, hipotiroidie congenitală, markeri cutanați /
+  spina bifida ocultă (congenital/screening).
+- **Sistem nervos central:** disfuncție de șunt / hidrocefalie și convulsii febrile (acute) →
+  cefalee, sinuzită, anomalii de perimetru cranian → epilepsie, boli congenitale, IMC,
+  surditate infantilă (cronice/screening).
+- **Torace, pulmon, cord:** stridor acut, corp străin, infecție respiratorie acută joasă,
+  pleurezie, dispnee/astm → tuse cronică, suflu cardiac.
+- **Uro-nefrologie:** scrot tumefiat/dureros (torsiune) și infecție urinară (acute) → funcție
+  renală, RVU, pierderi urinare, enurezis → dilatații neonatale/incidentale, criptorhidie
+  (screening/congenital).
+
+Neschimbate (axă diferită, ca la capitolele-mamă): **Oncologie** (pe tip/sediu tumoral, ca la
+Cancer) și **Traumatisme** (integral acut; ordine pe regiune/severitate, ca la Traumatisme
+adult). `ALTĂ` verificată ultimă în toate subcapitolele.
+
+> Notă (semnalat, neatins): eticheta „Hidrocefalie / Disfuncție de șunt" conține încă un
+> breadcrumb „(v. și capitolul Cap – …)" — de scos la un review de conținut al Pediatriei
+> (regula „fără breadcrumb-uri"), separat de această reordonare.
+
 ### Rafinări `Pediatrie › Traumatisme`
 - **ADĂUGAT — „Traumatism de coloană toraco-lombară la copil"** (3 rânduri, NR 1528–1530):
   Radiografie (*Indicat, B* — atenție la fracturile Chance / centură de siguranță), CT
