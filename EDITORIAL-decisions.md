@@ -1411,3 +1411,24 @@ ghidurilor; gradul final îl fixează editorii. Încadrarea urmează ierarhia di
 > editorilor (ce se adaugă, cu ce grad, unde se încadrează cazurile de graniță din 28.B).
 > Surse: ACR Appropriateness Criteria® (Women's Imaging, 2023–2024), RCR iRefer (ed. 8),
 > CAR OB/GYN Referral Guideline (2023).
+
+---
+
+## 29. Pediatrie — chestiuni ridicate la reviewul de conținut (2026-07-10)
+
+Al doilea review complet al capitolului (primul fusese la începutul proiectului, înainte de
+consolidarea regulilor). Corecturile mecanice (diacritice, spații, breadcrumb-uri, denumiri
+examene, repartizarea col. 9/10) au fost aplicate. Cele de mai jos ating **coduri Tip** →
+nu le schimb singur (pot fi intenționale în sursă), le las editorilor.
+
+- ⏳ **„Cistosonografie" (RVU, NR 192) — Tip `X` (contrast/fluoroscopie) vs `E` (ecografie).**
+  Cistosonografia micțională cu contrast (ceVUS) este **ecografică** (comentariul o descrie ca
+  „neimplicând iradiere", preferabilă cistografiei). Codul `X` pare incorect (ar trebui `E`).
+  Nu l-am schimbat — de confirmat editorii (unele ghiduri o grupează cu cistografia micțională).
+- ⏳ **„RRVS, UIV" (NR 175 „Dilatație de căi urinare", NR 186 „Infecție urinară") — Tip `G`
+  pe un examen combinat.** RRVS (radiografie renală simplă) = `G`, dar UIV (urografie i.v.) e
+  contrast/fluoroscopie = `X`. Rândul reunește două examene sub un singur cod. De decis:
+  separare în două rânduri (fiecare cu Tip-ul propriu) sau păstrare combinată; nu am atins-o.
+
+> Status: **niciun grad, doză sau cod Tip modificat** la aceste puncte. Restul reviewului
+> (corecturi mecanice + repartizare col. 9/10 + reordonare pe flux) a fost aplicat.

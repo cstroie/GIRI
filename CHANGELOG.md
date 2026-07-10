@@ -358,6 +358,48 @@ rânduri — doar textul situației. Exemple:
 ## 1. Pediatrie
 _NR 1–196_
 
+### REVIZUIT — al doilea review complet de conținut (2026-07-10, la cerere)
+
+Primul review al Pediatriei fusese la începutul proiectului, înainte de consolidarea regulilor
+(schema col. 9/10, fără breadcrumb-uri, normalizări). Trecere completă cu metoda standard;
+fără schimbare de grad/doză/ordine a examenelor în situație.
+
+- **MODIFICAT (normalizare) — whitespace:** 48 câmpuri cu spații parazite (inițiale/finale/
+  duble) curățate.
+- **MODIFICAT (ortografie/diacritice) — 76 corecturi** țintite pe ~40 de rânduri:
+  „pneumatizarii"→„pneumatizării", „pozitia"→„poziția", „tiroidiana"→„tiroidiană",
+  „radiomarcati"→„radiomarcați", „malfomativ"→„malformativ", „asimtomatic"→„asimptomatic",
+  „epifzară"→„epifizară", „declansată"→„declanșată", „doua luni"→„două luni",
+  „cutanata situata inalt"→„cutanată situată înalt", „oricarei"→„oricărei", „pentu"→„pentru",
+  „varsta/viata"→„vârsta/viață", „Explorari"→„Explorări", „GSC"→„GCS", plus puncte finale și
+  paranteze lipsă. „si"→„și" în mai multe rânduri.
+- **MODIFICAT (normalizare denumiri examene):** aliniate la convenția dominantă —
+  „Ecografia"→„Ecografie", „Radiografia abdominala simplă"→„Radiografie abdominală simplă",
+  „Tranzit eso- gastro- duodenal"→„Tranzit eso-gastro-duodenal", „Uro-RM"→„Uro-IRM",
+  „Ecografie abdominala si perineala"→„Ecografie abdominală și perineală", „Radiografie
+  coloana cervicala"→„…coloană cervicală", „Ecografie reno-vezicala"→„…reno-vezicală",
+  „Clismă salina…baritata"→„…salină…baritată", „lombo- sacrate"→„lombo-sacrate", ș.a.
+- **MODIFICAT (normalizare „rg." → „radiografie"):** eliminate ultimele „rg." din comentarii
+  (NR 47, 126) — convenția dominantă pe fișier (semnalate anterior ca rămase, `CHANGELOG` §7).
+- **ELIMINAT — breadcrumb-uri:** „(v. și capitolul Cap – subcapitolul Neuro)" din eticheta
+  „Hidrocefalie / Disfuncție de șunt" (4 rânduri) și „(vezi și Capitolul: Cancer - Adenopatii
+  cervicale)" din comentariul „Adenopatii cervicale" (regula „un singur home / fără breadcrumb").
+- **RESTRUCTURAT (etichete) — separator adăugat la etichetele concatenate** (două entități
+  lipite fără punctuație): „Șold dureros Defect de mers"→„Șold dureros / Defect de mers",
+  „Aspect anormal al craniului Anomalii de perimetru cranian"→„… / …", „Retard mental
+  Infirmitate motrică cerebrală"→„… / …", „Hidrocefalie Disfuncție de șunt"→„Hidrocefalie /
+  Disfuncție de șunt". (Consecvent cu regula: fără a comasa/desface situații.)
+- **RESTRUCTURAT (repartizare pe coloane) — ⚠️ schimbare sistematică:** notele clinice aflate
+  greșit în col. 10 („Alte informații") au fost mutate în col. 9 („Comentarii") pe **43 de
+  rânduri**; col. 10 golită. Capitolul folosea col. 10 ca a doua coloană de comentarii
+  (diagnostic diferențial, alternative, avertismente) — contrar schemei (col. 9 = note clinice,
+  col. 10 = coduri/referințe). Regulă consolidată **după** primul review al Pediatriei.
+- **Semnalat, nemodificat** (în `EDITORIAL-decisions.md` §29): coduri Tip pe muchie —
+  „Cistosonografie" (NR 192) cu Tip `X` deși e ecografică (probabil `E`); „RRVS, UIV" (NR 175,
+  186) examen combinat cu Tip `G` deși UIV e contrast. Niciun cod Tip/grad/doză schimbat.
+
+Capitol: 196 rânduri (neschimbat ca număr). NR.CRT neschimbate (necontigue după reordonare).
+
 ### RESTRUCTURAT (ordine) — reordonare situații pe flux clinic (2026-07-10, la cerere)
 
 Cele **7 subcapitole pe aparate/sisteme** erau în ordine **alfabetică** → reordonate pe fluxul
