@@ -161,6 +161,15 @@ pe tot fișierul. **59 de modificări** pe rânduri din 8 capitole. Validare ver
 - **Reversal:** anulează nota „NENORMALIZAT (intenționat)" din reviewul capitolului Cap
   (§10) — decizia a fost luată ulterior de editor.
 
+### RENUMEROTAT — a opta renumerotare NR.CRT → contiguu 1..1340 (2026-07-10, la cerere)
+
+După readucerea intervenționalului mamar în Sân (NR 1178/1192 din RI, +2/−2) și adăugarea
+rândului PET-CT 68Ga-DOTATATE la feocromocitom (+1), NR.CRT rămăsese necontiguu. La cerere
+explicită, renumerotare pe ordinea fizică → **NR.CRT 1..1340**. Modificare pur mecanică (doar
+col. 1), niciun conținut atins; `validate.py` verde; `GHID.html` regenerat. Intervalele de ID
+per capitol redevin contigue — vezi tabelul de structură din `README.md` (ex. Aparat uro-genital
+797–865, Sân 892–949, RI 1167–1340).
+
 ### RENUMEROTAT — a șaptea renumerotare NR.CRT → contiguu 1..1421 (2026-07-10, la cerere)
 
 După reviewul complet al capitolului **Coloană vertebrală** (55 → 38 rânduri: comasări de
