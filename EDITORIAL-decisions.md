@@ -1462,15 +1462,12 @@ Disease*; Tokyo Guidelines TG18; ESGAR. Gradele orientative. **HIDA/colescintigr
 |---|---|---|---|---|---|
 | X | Tranzit baritat esofagian cronometrat (timed barium esophagogram) | Indicat | B | 2/2 | Golire esofagiană, aspect „cioc de pasăre"; completează manometria. |
 
-#### (13) **Defecografie / disfuncție de planșeu pelvin posterior** — rafinare 20.3, **home NEDECIS**
-`Alte informații =` „Cf. ACR Appropriateness Criteria – Pelvic Floor Dysfunction."
-| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
-|---|---|---|---|---|---|
-| M | MR-defecografie | Indicat | B | 0/0 | Constipație de evacuare, prolaps, intususcepție rectală. |
-| X | Defecografie fluoroscopică | Doar în cazuri particulare | B | 2/3 | Alternativă dinamică. |
-
-> **(13) rămâne NON-insertion-ready** — home nedecis: `Intestin subțire și colon` vs.
-> `Obstetrică și ginecologie` (planșeu pelvin). Vezi și §28.B.
+#### (13) **Defecografie / disfuncție de planșeu pelvin posterior** — rafinare 20.3
+> ✅ **REZOLVAT (2026-07-10) — home decis: `Obstetrică și ginecologie › Ginecologie`** (Women's
+> Imaging). Defecografia (planșeu posterior) NU rămâne la digestiv — decizie editor: **toată
+> disfuncția de planșeu pelvin** (anterior/urinar + mijlociu + posterior) stă unitar la
+> Obstetrică-ginecologie. Rândurile (IRM dinamic/defeco-IRM + defecografie fluoroscopică) sunt
+> consolidate în **§28.D (G9)** „Disfuncție de planșeu pelvin / prolaps de organe pelvine".
 
 > Status: **13 propuneri deschise** (2026-07-09) — 4 lacune majore, 5 parțial acoperite, 4 rafinări.
 > Gradele/indicațiile propuse sunt orientative (aliniate ACR AC / RCR iRefer / ESGAR) și rămân
@@ -1718,15 +1715,11 @@ de mai sus, verificate live). Gradele orientative.
 |---|---|---|---|---|---|
 | E | Eco-Doppler penian | Doar în cazuri particulare | B | 0/0 | Când diagnosticul clinic ischemic/non-ischemic e neconcludent: flux absent + velocități <50 cm/s + revers diastolic = **ischemic** (urgență); flux crescut, velocități >50 cm/s = non-ischemic. Gazometria din corpii cavernoși rămâne primul test (non-imagistic). |
 
-#### (2) `Aparat urogenital` — **Incontinență urinară / disfuncție de planșeu pelvin (femeie)** (§24.A)
-`Alte informații =` „Cf. ACR Appropriateness Criteria – Pelvic Floor Dysfunction in Females."
-| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
-|---|---|---|---|---|---|
-| E | Ecografie (transperineală/introitală, reziduu postmicțional) | Indicat | B | 0/0 | Evaluare inițială: reziduu postmicțional, mobilitatea colului vezical/uretrei. |
-| M | IRM dinamic de planșeu pelvin | Doar cu aviz specializat | B | 0/0 | Cazuri complexe/preoperator, disfuncție combinată (compartiment anterior + posterior). |
-
-> Home recomandat: `Aparat urogenital` (simetrie cu LUTS masculin deja prezent); alternativă
-> `Obstetrică și ginecologie › Ginecologie` — decizie de home (vezi și §28.B).
+#### (2) **Incontinență urinară / disfuncție de planșeu pelvin (femeie)** (§24.A)
+> ✅ **REZOLVAT (2026-07-10) — home MUTAT la `Obstetrică și ginecologie › Ginecologie`** (nu
+> Aparat urogenital, cum recomandasem inițial). Decizie editor: **disfuncția de planșeu pelvin
+> stă unitar la Obstetrică-ginecologie** (Women's Imaging), împreună cu compartimentul posterior
+> (defecografie, fost §20) și IRM dinamic (fost §28.B). Rândurile consolidate în **§28.D (G9)**.
 
 #### (3) `Glande suprarenale › Tumori medulosuprarenaliene (feocromocitom)` — adăugare rând PET-CT (§24.B)
 `Alte informații =` „Cf. studii comparative ⁶⁸Ga-DOTATATE PET/CT vs. ¹³¹I-MIBG (PMC4463879)."
@@ -1972,10 +1965,11 @@ ghidurilor; gradul final îl fixează editorii. Încadrarea urmează ierarhia di
 - **Embolizări** (fibrom/UAE, hemoragie postpartum, sindrom de congestie pelvină / varice
   pelvine): Tip `I`/`A` → **RI › Aparat urogenital**. (Congestia pelvină e deja semnalată la
   §23/§24 uro-genital.) Partea *diagnostică* a fiecăreia rămâne aici.
-- **Disfuncție de planșeu pelvin / prolaps de organe pelvine** — IRM dinamic / **defecografie
-  IRM** (ACR „Pelvic Floor Dysfunction in Females"). **De decis home:** Obstetrică-ginecologie
-  vs Aparat uro-genital (ACR îl încadrează la Women's Imaging; la noi funcția vezicală/
-  urinară e la uro-genital). Flag de încadrare.
+- ✅ **Disfuncție de planșeu pelvin / prolaps de organe pelvine** — **REZOLVAT (2026-07-10): home
+  `Obstetrică și ginecologie › Ginecologie`** (Women's Imaging, ACR „Pelvic Floor Dysfunction in
+  Females"). Decizie editor: toate compartimentele (anterior/urinar + mijlociu + posterior/
+  defecografie) stau unitar aici, NU la uro-genital/digestiv. Draftat consolidat la **§28.D (G9)**
+  (împreună cu incontinența din §24.A și defecografia din §20).
 - **Durere abdomino-pelvină non-obstetricală la gravidă** (apendicită, colică renală): Eco
   primă intenție, **IRM fără contrast** a doua intenție (evită iradierea) — scenariu de graniță
   cu Aparat digestiv / uro-genital; de decis dacă merită un rând „la gravidă".
@@ -2066,6 +2060,18 @@ ghidurilor; gradul final îl fixează editorii. Încadrarea urmează ierarhia di
 | E | Ecografie transvaginală + Doppler | Doar în cazuri particulare | C | 0/0 | Primă linie, dar sensibilitate/specificitate limitate. |
 | M | IRM (± angio-IRM) | Doar cu aviz specializat | B | 0/0 | Extensia varicelor, exclude diferențiale (ex. endometrioză), planificare pre-embolizare (embolizarea = RI). |
 
+#### (G9) **Disfuncție de planșeu pelvin / prolaps de organe pelvine (femeie)** — CONSOLIDAT §20(13) + §24.A + §28.B, home decis: **Obstetrică-ginecologie**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Pelvic Floor Dysfunction in Females."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie (transperineală / introitală, reziduu postmicțional) | Indicat | B | 0/0 | Evaluare inițială: incontinență / planșeu anterior, reziduu postmicțional, mobilitatea colului vezical/uretrei. |
+| M | IRM dinamic de planșeu pelvin (defeco-IRM) | Doar cu aviz specializat | B | 0/0 | Evaluare multi-compartiment (anterior + mijlociu + posterior): prolaps de organe pelvine, intususcepție/prolaps rectal, disinergie; cazuri complexe/preoperator. |
+| X | Defecografie fluoroscopică | Doar în cazuri particulare | B | 2/3 | Compartimentul posterior (evacuare): constipație de evacuare, intususcepție/prolaps rectal, rectocel — când IRM dinamic nu e disponibil. |
+
+> **Consolidează** cele 3 fragmente într-un singur home (`Obstetrică și ginecologie › Ginecologie`,
+> Women's Imaging), ca să nu se fragmenteze pe uro-genital/digestiv: incontinența/planșeu anterior
+> (fost §24.A), defecografia/planșeu posterior (fost §20 rafinare (13)) și IRM dinamic (fost §28.B).
+
 **B. `Sarcină`** (patologia obstetricală se inserează aici, lângă conținutul de sarcină existent)
 
 #### (S1) **Sângerare de trimestru II/III (placenta previa, dezlipire de placentă)** — §28.A.6
@@ -2119,9 +2125,10 @@ ghidurilor; gradul final îl fixează editorii. Încadrarea urmează ierarhia di
 >   (clasificare O-RADS + rol IRM pentru leziuni indeterminate) — completare, nu rând nou.
 > - **Malformații/fistule arterio-venoase pelvine (§25.A.5):** sursă insuficientă (caz-serie) →
 >   **fără grad citabil**, nedraftat.
-> - **§28.B** (embolizări → RI; disfuncție de planșeu pelvin — home nedecis; durere la gravidă;
->   TEV în sarcină → Cardiovascular/Torace; screening/stadializare cancere → Cancer) rămâne blocat
->   pe decizii de home cross-capitol.
+> - **§28.B:** disfuncția de planșeu pelvin — ✅ **REZOLVAT** (home `Obstetrică-ginecologie`,
+>   draftat la G9 mai sus). Rămân blocate pe decizii de home cross-capitol: embolizări → RI;
+>   durere la gravidă (digestiv/uro-genital); TEV în sarcină → Cardiovascular/Torace;
+>   screening/stadializare cancere → Cancer.
 > - **Notă structurală:** subcapitolele `Obstetrică` (doar disproporție) și `Sarcină` coexistă —
 >   de reconciliat dacă patologia obstetricală nouă merge la `Sarcină` (recomandat) sau motivează
 >   fuziunea celor două subcapitole. Decizie separată.
