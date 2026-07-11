@@ -1805,10 +1805,12 @@ decizie de embolizare.
     dar sensibilitate/specificitate limitate.
   - IRM (± angio-IRM) = *Doar cu aviz specializat, grad B* — extensia varicelor, exclude
     diagnostice diferențiale (ex. endometrioză), planificare pre-embolizare.
-- ⏳ **Malformații/fistule arterio-venoase pelvine.** Absente ca diagnostic; patologie rară,
-  de obicei surprinsă incidental sau prin extensia investigării altei situații (hemoragie,
-  masă pelvină). Prioritate scăzută — **de cercetat mai atent** înainte de a propune
-  grade (sursele găsite sunt de nivel caz-serie, insuficiente pentru un grad citabil).
+- ❌ **Malformații/fistule arterio-venoase pelvine — ELIMINAT (2026-07-10, decizie editor).**
+  Căutare dedicată (2026-07-10): **niciun topic ACR AC pelvin** (există doar *Vascular Malformation
+  of the Extremities* și *Pulmonary AVM*) și nicio recomandare de societate; literatura e exclusiv
+  **caz-serie / review-uri narative** — fără nivel de evidență gradabil. Per regula „dacă nu găsim
+  sursă citabilă, o eliminăm", propunerea a fost **retrasă** (nu se draftează). Rămâne acoperită
+  implicit prin investigarea altei situații (hemoragie genitală, masă pelvină).
 
 ### 25.B Propuneri — `Obstetrică-ginecologie › Obstetrică`
 
@@ -1842,7 +1844,7 @@ decizie de embolizare.
 > 9 din 12 situații ale fostului „Uter și anexe" nu au diagnostic nicăieri în ghid; 3 au deja
 > (§ intro). Propuneri gata de validat/inserat la `Obstetrică-ginecologie` (nu la Aparat
 > uro-genital) când se decide — ar completa și capitolul 8, nu doar 7. „Malformații/fistule
-> arterio-venoase pelvine" rămâne fără propunere de grad (sursă insuficientă).
+> arterio-venoase pelvine" a fost **ELIMINATĂ** (2026-07-10) — fără sursă citabilă (vezi §25.A).
 
 ---
 
@@ -2128,8 +2130,8 @@ ghidurilor; gradul final îl fixează editorii. Încadrarea urmează ierarhia di
 > **NON-insertion-ready / note:**
 > - **Masă anexială (§28.C):** situația „Suspiciune de masă pelvină" existentă se **îmbogățește**
 >   (clasificare O-RADS + rol IRM pentru leziuni indeterminate) — completare, nu rând nou.
-> - **Malformații/fistule arterio-venoase pelvine (§25.A.5):** sursă insuficientă (caz-serie) →
->   **fără grad citabil**, nedraftat.
+> - **Malformații/fistule arterio-venoase pelvine (§25.A.5):** ❌ **ELIMINAT** (2026-07-10) — căutare
+>   dedicată fără sursă citabilă (doar caz-serie); propunere retrasă.
 > - **§28.B:** disfuncția de planșeu pelvin — ✅ **REZOLVAT** (home `Obstetrică-ginecologie`,
 >   draftat la G9 mai sus). Rămân blocate pe decizii de home cross-capitol: embolizări → RI;
 >   durere la gravidă (digestiv/uro-genital); TEV în sarcină → Cardiovascular/Torace;
