@@ -1809,8 +1809,10 @@ decizie de embolizare.
   Căutare dedicată (2026-07-10): **niciun topic ACR AC pelvin** (există doar *Vascular Malformation
   of the Extremities* și *Pulmonary AVM*) și nicio recomandare de societate; literatura e exclusiv
   **caz-serie / review-uri narative** — fără nivel de evidență gradabil. Per regula „dacă nu găsim
-  sursă citabilă, o eliminăm", propunerea a fost **retrasă** (nu se draftează). Rămâne acoperită
-  implicit prin investigarea altei situații (hemoragie genitală, masă pelvină).
+  sursă citabilă, o eliminăm", propunerea a fost **retrasă** (nu se draftează). **Tratamentul**
+  (embolizarea) există deja în `RI › Aparat urogenital` („Malformatiile / Fistulele arterio-venoase
+  pelvine"); diagnosticul rămâne acoperit implicit prin investigarea altei situații (hemoragie
+  genitală, masă pelvină). Eliminarea nu lasă un gol real în ghid.
 
 ### 25.B Propuneri — `Obstetrică-ginecologie › Obstetrică`
 
@@ -2132,10 +2134,18 @@ ghidurilor; gradul final îl fixează editorii. Încadrarea urmează ierarhia di
 >   (clasificare O-RADS + rol IRM pentru leziuni indeterminate) — completare, nu rând nou.
 > - **Malformații/fistule arterio-venoase pelvine (§25.A.5):** ❌ **ELIMINAT** (2026-07-10) — căutare
 >   dedicată fără sursă citabilă (doar caz-serie); propunere retrasă.
-> - **§28.B:** disfuncția de planșeu pelvin — ✅ **REZOLVAT** (home `Obstetrică-ginecologie`,
->   draftat la G9 mai sus). Rămân blocate pe decizii de home cross-capitol: embolizări → RI;
->   durere la gravidă (digestiv/uro-genital); TEV în sarcină → Cardiovascular/Torace;
->   screening/stadializare cancere → Cancer.
+> - **§28.B — triat complet (2026-07-10):**
+>   - disfuncția de planșeu pelvin — ✅ **REZOLVAT** (home `Obstetrică-ginecologie`, draftat la G9).
+>   - **embolizări → RI** — ✅ **confirmat acoperit**: `RI › Aparat urogenital` conține deja toate
+>     situațiile (leiomiom uterin, adenomioză, hemoragii genitale acute/cronice = postpartum, varice
+>     periuterine = congestie pelvină, malformații/fistule AV pelvine). Nicio acțiune.
+>     Partea *diagnostică* a fiecăreia e draftată la §28.D (G3–G8).
+>   - **screening/stadializare cancere ginecologice → Cancer** — acoperit (§16; vulvă/vagin la §16.31-5).
+>   - **TEV în sarcină (TVP/EP) → Cardiovascular/Torace** — pointer cross-capitol (se verifică la
+>     auditul acelor capitole; nu e draft de Obstetrică).
+>   - **durere abdomino-pelvină la gravidă** (apendicită/colică renală) — rafinare **opțională** de
+>     prioritate scăzută (imagistica de bază e deja acoperită: apendicita cu „IRM la gravide" §20.4-2);
+>     de decis dacă merită un rând dedicat „la gravidă". Nu blochează nimic.
 > - **Notă structurală:** subcapitolele `Obstetrică` (doar disproporție) și `Sarcină` coexistă —
 >   de reconciliat dacă patologia obstetricală nouă merge la `Sarcină` (recomandat) sau motivează
 >   fuziunea celor două subcapitole. Decizie separată.
