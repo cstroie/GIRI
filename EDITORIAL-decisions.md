@@ -1,6 +1,12 @@
 # Decizii editoriale — de discutat cu ceilalți editori
 
-NR = NR.CRT curent. (Numerotarea veche nu se mai păstrează.)
+NR = NR.CRT. **Ancorarea fiabilă a unui rând se face prin Capitol + Situație clinică** (CLAUDE.md
+regula 3), fiindcă ghidul a fost renumerotat de mai multe ori.
+- În **secțiunile deschise (⏳)** — recomandări către rânduri curente — referințele NR au fost
+  **re-sincronizate cu `GHID.csv`** (ultima verificare 2026-07-10).
+- În **secțiunile închise (✅ / istorice)** — decizii deja aplicate — NR.CRT reflectă **starea de la
+  momentul scrierii** (point-in-time) și **nu** se rescriu (ar falsifica înregistrarea; unele numere
+  nici nu mai există după renumerotări).
 
 ---
 
@@ -173,7 +179,7 @@ confirmate real (2026-07-10):** ACR AC *Hematuria-Child*, *Osteomyelitis or Sept
 3. **Gradele nu se modifică** (vezi CLAUDE.md). Cazuri care par evident greșite, de
    verificat de editori (listă deschisă):
    - ⏳ _(niciunul confirmat încă)_ — ex. semnalat la analiză: Ecografie „Masă abdominală
-     sau pelvină palpabilă" NR 22 = grad B, în timp ce ecografia e grad A în situații
+     sau pelvină palpabilă" NR 74 = grad B, în timp ce ecografia e grad A în situații
      similare. Probabil intențional (context clinic diferit); de reconfirmat.
 
 ---
@@ -420,7 +426,7 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
   - CT cardiac = *Indicat, grad B* — abcese/pseudoanevrisme, dehiscență protetică, planificare
     chirurgicală; angio-CT pentru embolii sistemice. (SPECT cu leucocite marcate = alternativă.)
 - ⏳ **Fibrilație atrială — evaluare pre-procedurală / sursă cardioembolică.** **Absentă** (doar
-  o mențiune în comentariul NR 622). 
+  o mențiune tangențială în comentarii (ex. NR 587, tromboză/trombi atriali). 
   - ETE = *Indicat, grad A* — excluderea trombului din auriculul stâng înainte de
     cardioversie/ablație; bilanț de sursă embolică după AVC.
   - CT cardiac (atriu stâng + vene pulmonare) = *Indicat, grad B* — cartografiere pre-ablație /
@@ -437,7 +443,7 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 - ✅ **Boală carotidiană / stenoză carotidiană (AVC/AIT)** — home **Cap › Neuro** (decis §40);
   nu se adaugă la Cardiovascular (doar check de completitudine la parsarea Cap).
 - ✅ **Ischemie mezenterică (diagnostic)** — home **Aparat digestiv › Intestin subțire și colon**;
-  draftată la **§20.4 (4)** (forma cronică terapeutică e deja la RI, NR 1293).
+  draftată la **§20.4 (4)** (forma cronică terapeutică e deja la RI, NR 1218).
 - ✅ **Cardio-oncologie / cardiotoxicitate** — home **Cardiovascular › Cord** (decis editor,
   2026-07-10); draftată la **§13.D (6)**. Ref.: 2022 ESC Cardio-oncology.
 - ✅ **Vasculite de vase mari** (Takayasu, arterită cu celule gigante) — home **Cardiovascular ›
@@ -447,7 +453,7 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
 
 ### 13.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
 
-- ⏳ **Evaluare structurală pre-TAVI/TAVR** — există doar în comentarii (NR 593, 633), nu ca
+- ⏳ **Evaluare structurală pre-TAVI/TAVR** — există doar în comentarii (NR 621, 640), nu ca
   situație dedicată. De decis dacă merită rând propriu (angio-CT „de la aortă la femurale").
 
 ### 13.D Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
@@ -683,7 +689,7 @@ de confirmat pe documentul-sursă înainte de a fixa gradele definitive.
     *Doar în cazuri particulare* în lactație (alăptarea poate continua, excreție minimă
     în lapte).
 - ⏳ **Algoritmul de urmărire BI-RADS 3 („probabil benign").** Piatră de temelie a practicii
-  (NCCN), absentă ca traseu explicit — BI-RADS apare o singură dată, în comentariul NR 990.
+  (NCCN), absentă ca traseu explicit — BI-RADS apare doar punctual în comentarii (ex. NR 940).
   Propunere — situație nouă „Leziune probabil benignă (BI-RADS 3) — urmărire":
   - Mamografie și/sau Ecografie (metoda care a detectat leziunea) = *Indicat, grad B* —
     control la 6 luni, apoi la 12 și 24 luni dacă rămâne stabilă.
@@ -702,7 +708,7 @@ de confirmat pe documentul-sursă înainte de a fixa gradele definitive.
   Nu apare nicăieri în tot ghidul (verificat) — de confirmat dacă lipsește real din RI sau
   e considerată implicită în alt rând.
 - ⏳ **Drenajul percutan al abcesului mamar** — menționat doar în comentariul „Inflamație
-  mamară" (NR 976, „drenajul ghidat percutan"), fără rând propriu de procedură. Tip I,
+  mamară" (NR 930, „drenajul ghidat percutan"), fără rând propriu de procedură. Tip I,
   home = **RI › Oncologie**. De verificat dacă există deja acolo.
 
 ### 15.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
@@ -786,10 +792,12 @@ pentru traseul BI-RADS 3. Gradele orientative.
 >
 > ✅ **Consecință asupra datelor — APLICAT (2026-07-10):** intervenționalul mamar existent din
 > `RI › Oncologie` a fost **mutat înapoi în Sân**:
-> - **NR 1192** „Diagnosticul cancerului de sân… – Biopsie percutanată" (Tip I) → `Sân › Paciente cu
->   simptome și semne sugestive de cancer` (lângă rândurile diagnostice-soră; cod `RI - PC6` scos).
-> - **NR 1178** „Adenopatie axilară suspectă – Biopsie ganglionară" (Tip I) → `Sân › Paciente cu
->   simptome și semne sugestive de cancer` (idem; cod `RI - PC6` scos).
+> - **NR 942** „Diagnosticul cancerului de sân… – Biopsie percutanată" (Tip I) — mutată din
+>   `RI › Oncologie` (fostă NR 1192) în `Sân › Paciente cu simptome și semne sugestive de cancer`
+>   (lângă rândurile diagnostice-soră; cod `RI - PC6` scos).
+> - **NR 946** „Adenopatie axilară suspectă – Biopsie ganglionară" (Tip I) — mutată din
+>   `RI › Oncologie` (fostă NR 1178) în `Sân › Paciente cu simptome și semne sugestive de cancer`
+>   (idem; cod `RI - PC6` scos).
 > - **`CLAUDE.md` actualizat** (regula de aur 4, ierarhia regula 2, invariantul Tip I/A, „Decizii
 >   deja luate", maparea) + **`validate.py`** acceptă Tip `I`/`A` și în Sân. NR.CRT păstrate
 >   (necontigue în Sân — tolerat). RI: 176→174 rânduri.
@@ -1677,10 +1685,10 @@ NU aplicate — decizie editori)
 ### 24.C Minore — de îmbogățit, nu neapărat situație nouă
 
 - ⏳ **Varicocel — fără linie diagnostică proprie în Aparat genital masculin.** Apare doar
-  implicit, în comentariul „Infertilitate masculină" (Obstetrică-ginecologie › Fertilitate,
-  NR 871: „ecografia Doppler scrotală… pentru depistarea… varicocelelor infraclinice") și ca
+  implicit, în comentariul „Infertilitate masculină" (Aparat uro-genital › Aparat genital masculin,
+  NR 801: „ecografia Doppler scrotală… pentru depistarea… varicocelelor infraclinice") și ca
   tratament la RI (`Radiologie intervențională › Aparat cardiovascular › Varicocel ›
-  Embolizare`, NR 1280 — încadrare RI discutabilă, ar aparține mai degrabă „Aparat
+  Embolizare`, NR 1235 — încadrare RI discutabilă, ar aparține mai degrabă „Aparat
   urogenital" ca restul procedurilor urologice, de verificat la parsarea RI). Diagnosticul
   propriu-zis (Eco-Doppler scrotal) nu are rând dedicat în capitolul de diagnostic. Prioritate
   scăzută — acoperire implicită suficientă pentru scopul ghidului.
@@ -1765,7 +1773,7 @@ umbrelă în capitolul anatomic.
 
 **Verificare acoperire existentă** (căutare în tot `GHID.csv`): din cele 12 situații clinice
 ale fostului subcapitol, **3 au deja diagnostic în altă parte** (Sarcină ectopică →
-Obstetrică-ginecologie › Sarcină, NR 891; Avorturi spontane multiple + Infertilitate
+Obstetrică-ginecologie › Sarcină, NR 887; Avorturi spontane multiple + Infertilitate
 feminină → Fertilitate, NR 867–870; Metroragii postmenopauzale → Ginecologie, NR 876–877).
 **9 nu au nicio linie de diagnostic nicăieri.**
 
@@ -1872,9 +1880,9 @@ examenelor → NU le modific singur** (reguli de aur); le consemnez pentru edito
   Posibilă inversiune de prioritate moștenită din sursă. **De decis editori:** promovarea
   CT-ului pe prima poziție și/sau ridicarea gradului. (Nu am reordonat — ordinea examenelor e
   intangibilă fără decizie explicită.)
-- ⏳ **sdr. Cushing — două rânduri CT (grad A + grad B) sub aceeași situație.** NR 859 (CT,
+- ⏳ **sdr. Cushing — două rânduri CT (grad A + grad B) sub aceeași situație.** NR 858 (CT,
   grad A, „de primă intenție când ACTH plasmatic e scăzut" = Cushing ACTH-independent,
-  suprarenalian) și NR 860 (CT, grad B, comentariu identic cu IRM-ul NR 858, scenariul
+  suprarenalian) și NR 859 (CT, grad B, comentariu identic cu IRM-ul NR 857, scenariul
   „ACTH nu e diminuat" → IRM hipofizar/CT toracic = Cushing ACTH-dependent). **Nu e duplicat
   greșit** — sunt două sub-scenarii etiologice reale colapsate sub o etichetă unică. De decis
   dacă merită **etichete de situație separate** („Cushing ACTH-independent" vs „ACTH-dependent")
@@ -2171,11 +2179,11 @@ consolidarea regulilor). Corecturile mecanice (diacritice, spații, breadcrumb-u
 examene, repartizarea col. 9/10) au fost aplicate. Cele de mai jos ating **coduri Tip** →
 nu le schimb singur (pot fi intenționale în sursă), le las editorilor.
 
-- ⏳ **„Cistosonografie" (RVU, NR 192) — Tip `X` (contrast/fluoroscopie) vs `E` (ecografie).**
+- ⏳ **„Cistosonografie" (RVU, NR 175) — Tip `X` (contrast/fluoroscopie) vs `E` (ecografie).**
   Cistosonografia micțională cu contrast (ceVUS) este **ecografică** (comentariul o descrie ca
   „neimplicând iradiere", preferabilă cistografiei). Codul `X` pare incorect (ar trebui `E`).
   Nu l-am schimbat — de confirmat editorii (unele ghiduri o grupează cu cistografia micțională).
-- ⏳ **„RRVS, UIV" (NR 175 „Dilatație de căi urinare", NR 186 „Infecție urinară") — Tip `G`
+- ⏳ **„RRVS, UIV" (NR 193 „Dilatație de căi urinare", NR 173 „Infecție urinară") — Tip `G`
   pe un examen combinat.** RRVS (radiografie renală simplă) = `G`, dar UIV (urografie i.v.) e
   contrast/fluoroscopie = `X`. Rândul reunește două examene sub un singur cod. De decis:
   separare în două rânduri (fiecare cu Tip-ul propriu) sau păstrare combinată; nu am atins-o.
@@ -2653,10 +2661,10 @@ marcaje de listă consecvente, fără spații parazite înainte de `\n`), nu șt
 
 Ridicat la reviewul capitolului Cap.
 
-**Rând:** NR 989 · Cap › Neuro · „Probleme psihiatrice" · Tip M · „IRM cerebral" · Indicat ·
+**Rând:** NR 1001 · Cap › Neuro · „Probleme psihiatrice" · Tip M · „IRM cerebral" · Indicat ·
 grad C.
 
-**Problema.** Comentariul de la NR 989 este, cuvânt cu cuvânt, textul de la NR 993 („Scleroza
+**Problema.** Comentariul de la NR 1001 este, cuvânt cu cuvânt, textul de la NR 980 („Scleroza
 în plăci și alte leziuni ale substanței albe"):
 
 > _„De prima intenție pentru diagnosticul pozitiv, pentru monitorizarea afecțiunii de substanță
@@ -2665,7 +2673,7 @@ grad C.
 
 Textul descrie monitorizarea substanței albe și completarea cu IRM medular (criterii de tip
 McDonald) — specific sclerozei multiple, **fără legătură cu explorarea IRM în tulburările
-psihiatrice**. Aproape sigur un copy-paste din rândul-soră NR 993. (Rândul-pereche CT, NR 990,
+psihiatrice**. Aproape sigur un copy-paste din rândul-soră NR 980. (Rândul-pereche CT, NR 1002,
 are un comentariu corect, psihiatric: contraindicații IRM / excluderea unei tumori frontale.)
 
 **De decis:** conținutul clinic corect al comentariului IRM pentru „Probleme psihiatrice" (ce
