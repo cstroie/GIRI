@@ -704,7 +704,7 @@ de confirmat pe documentul-sursă înainte de a fixa gradele definitive.
 ### 15.B Goluri cu home probabil în alt capitol (nu se adaugă în Sân)
 
 - ⏳ **Localizarea preoperatorie ghidată imagistic a leziunilor nepalpabile** (harpon,
-  sămânță radioactivă/magnetică) — procedură (Tip I), home = **RI › Oncologie**, nu Sân.
+  reper radioactiv/magnetic) — procedură (Tip I), home = **RI › Oncologie**, nu Sân.
   Nu apare nicăieri în tot ghidul (verificat) — de confirmat dacă lipsește real din RI sau
   e considerată implicită în alt rând.
 - ⏳ **Drenajul percutan al abcesului mamar** — menționat doar în comentariul „Inflamație
@@ -776,7 +776,7 @@ pentru traseul BI-RADS 3. Gradele orientative.
 `Alte informații =` „Cf. ACR Practice Parameter – Breast Localization; NCCN."
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Terapeutic | Comentarii |
 |---|---|---|---|---|---|---|
-| I | Localizare preoperatorie ghidată imagistic (harpon / sămânță radioactivă/magnetică) | Indicat | B | 1/2 | Nu | Marcarea leziunii nepalpabile înainte de excizia chirurgicală; ghidaj ecografic, stereotaxic sau IRM, după vizibilitatea leziunii. |
+| I | Localizare preoperatorie ghidată imagistic (harpon / reper radioactiv/magnetic) | Indicat | B | 1/2 | Nu | Marcarea leziunii nepalpabile înainte de excizia chirurgicală; ghidaj ecografic, stereotaxic sau IRM, după vizibilitatea leziunii. |
 
 #### (7) `Paciente cu simptome și semne nesugestive de cancer › Inflamație mamară` — **Drenaj percutan al abcesului mamar** — din §15.B, home decis: **Sân**
 `Alte informații =` „Cf. management standard al abcesului mamar (drenaj ghidat percutan)."
