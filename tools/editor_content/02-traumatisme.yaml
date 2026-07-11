@@ -20,17 +20,17 @@ discutii:
       - "Rămâne situație generică unică"
 
 propuneri:
-  - subcapitol: "Gât"
+  - subcapitol: "Gât (subcapitol nou)"
     situatie: "Traumatism cervical penetrant (plagă înjunghiată / împușcată; zonele I/II/III)"
     referinta: "Cf. ACR Appropriateness Criteria – Penetrating Neck Injury (2017)."
     indicatii:
       - {tip: T, examen: "Angio-CT cervico-toracic", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Screening vascular + aerodigestiv într-o singură achiziție, la pacientul fără indicație chirurgicală imediată."}
-  - subcapitol: "Gât"
+  - subcapitol: "Gât (subcapitol nou)"
     situatie: "Leziune laringo-traheală (traumatism cervical închis)"
     referinta: "Cf. ACR Appropriateness Criteria – Penetrating Neck Injury (leziuni aerodigestive)."
     indicatii:
       - {tip: T, examen: "CT cervical (cu reconstrucții)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Fracturi de cartilaj laringian, emfizem, leziuni traheale; completează endoscopia."}
-  - subcapitol: "Gât"
+  - subcapitol: "Gât (subcapitol nou)"
     situatie: "Leziune faringo-esofagiană"
     referinta: "Cf. ACR Appropriateness Criteria – Penetrating Neck Injury (leziuni aerodigestive)."
     indicatii:
