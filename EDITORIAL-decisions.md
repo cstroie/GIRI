@@ -2810,7 +2810,15 @@ _ACR AC „Cranial Neuropathy"._ Completează „Afectarea bazei craniului și n
 #### (N6) 🟠 Fistulă de LCR (rinoree / otoree de LCR)
 _Ref. **corectată (2026-07-10):** NU există topic ACR AC standalone „Cerebrospinal Fluid Leak";
 imagistica fistulei de LCR (rinoree) e acoperită de **ACR AC „Sinonasal Disease: 2021 Update"**._
-Interfață cu ORL, dar defectul e al **bazei craniului**. Home propus: **Cap › Neuro**.
+Home = **caz de graniță Neuro/ORL** (analog ATM, §1):
+- pro **ORL**: prezentare rinoree/otoree, CT de localizare de sinusuri / stâncă temporală, reparație
+  endoscopică endonazală / otologică; sursa corectată (*Sinonasal Disease*) e topic al panelului
+  ACR **Head and Neck** → per logica §38 (panel ACR → subcapitol), **Cap › ORL**.
+- pro **Neuro**: defect dural / bază de craniu, cisterno-IRM, meningo-/encefalocel, risc de meningită.
+
+**Recomandare revizuită (2026-07-10): `Cap › ORL`** — sursa corectată (panel Head and Neck) și
+prezentarea/reparația înclină balanța dinspre Neuro spre ORL. Dacă se acceptă, N6 se **mută din
+41.A Neuro în 41.B ORL**. De confirmat de editori.
 `Alte informații =` „Cf. ACR Appropriateness Criteria – Sinonasal Disease (2021)."
 | Tip | Examen | Indicație | Grad | Doză | Comentariu |
 |---|---|---|---|---|---|
