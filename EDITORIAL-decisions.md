@@ -2757,10 +2757,11 @@ moi)**; stenoza carotidiană → deja acoperită (Neuro, §40).
 > ✅ **Verificare referințe (2026-07-10):** confirmate reale — ACR AC *Altered Mental Status, Coma,
 > Delirium, and Psychosis: 2024 Update* (N3), *Cerebrovascular Diseases – Aneurysm, Vascular
 > Malformation, and Subarachnoid Hemorrhage* (N1), *Ataxia* (N4), *Cranial Neuropathy* (N5),
-> *Tinnitus* (O1), *Orbits, Vision, and Visual Loss* (O3). ⚠️ **Corecție (N6):** NU există topic
-> ACR AC „Cerebrospinal Fluid Leak" — imagistica fistulei de LCR e la **ACR AC *Sinonasal Disease:
-> 2021 Update*** (corectat în N6 mai jos). **Recomandare:** referința în `Alte informații` (col. 10)
-> la inserare (col. 10 nu se lasă goală).
+> *Tinnitus* (O1), *Orbits, Vision, and Visual Loss* (O3). ⚠️ **Corecție + reîncadrare:** NU există
+> topic ACR AC „Cerebrospinal Fluid Leak" — imagistica fistulei de LCR e la **ACR AC *Sinonasal
+> Disease: 2021 Update*** (panel Head and Neck); pe cale de consecință, fistula de LCR a fost
+> **mutată din Neuro (fost N6) la ORL (O5)**, decis de editor. **Recomandare:** referința în
+> `Alte informații` (col. 10) la inserare (col. 10 nu se lasă goală).
 
 ### 41.A Neuro
 
@@ -2807,25 +2808,6 @@ _ACR AC „Cranial Neuropathy"._ Completează „Afectarea bazei craniului și n
 | M | IRM cerebral + conduct auditiv intern + stâncă temporală, cu contrast | Doar în cazuri particulare | B | 0/0 | Paralizie facială **atipică, recurentă, progresivă sau fără recuperare la 2–4 luni**. Paralizia Bell tipică NU se imagistică de rutină. Traiect CN VII (trunchi cerebral → parotidă). |
 | T | CT stâncă temporală și bază de craniu | Doar în cazuri particulare | C | 2/3 | Context traumatic/otologic (canal facial, dehiscențe, eroziuni). |
 
-#### (N6) 🟠 Fistulă de LCR (rinoree / otoree de LCR)
-_Ref. **corectată (2026-07-10):** NU există topic ACR AC standalone „Cerebrospinal Fluid Leak";
-imagistica fistulei de LCR (rinoree) e acoperită de **ACR AC „Sinonasal Disease: 2021 Update"**._
-Home = **caz de graniță Neuro/ORL** (analog ATM, §1):
-- pro **ORL**: prezentare rinoree/otoree, CT de localizare de sinusuri / stâncă temporală, reparație
-  endoscopică endonazală / otologică; sursa corectată (*Sinonasal Disease*) e topic al panelului
-  ACR **Head and Neck** → per logica §38 (panel ACR → subcapitol), **Cap › ORL**.
-- pro **Neuro**: defect dural / bază de craniu, cisterno-IRM, meningo-/encefalocel, risc de meningită.
-
-**Recomandare revizuită (2026-07-10): `Cap › ORL`** — sursa corectată (panel Head and Neck) și
-prezentarea/reparația înclină balanța dinspre Neuro spre ORL. Dacă se acceptă, N6 se **mută din
-41.A Neuro în 41.B ORL**. De confirmat de editori.
-`Alte informații =` „Cf. ACR Appropriateness Criteria – Sinonasal Disease (2021)."
-| Tip | Examen | Indicație | Grad | Doză | Comentariu |
-|---|---|---|---|---|---|
-| T | CT în strat subțire al bazei craniului / sinusurilor (înaltă rezoluție) | Indicat | B | 2/3 | Localizarea defectului osos. |
-| M | Cisterno-IRM (T2 înaltă rezoluție) | Indicat | B | 0/0 | Confirmarea traiectului fistulos, meningo-/encefalocel; neiradiant. |
-| X | Cisternografie CT cu contrast intratecal | Doar cu aviz specializat | C | 3/4 | Cazuri neconcludente / fistulă intermitentă (procedură invazivă). |
-
 ### 41.B ORL
 
 #### (O1) 🔴 Tinitus pulsatil
@@ -2858,6 +2840,18 @@ Home: **Cap › ORL**.
 | T | CT stâncă temporală și bază de craniu, cu contrast | Indicat | B | 2/3 | Eroziune osoasă, extensie (diabetic / imunodeprimat). |
 | M | IRM bază de craniu, cu contrast | Indicat | B | 0/0 | Extensie părți moi profunde / intracraniană, spații parafaringiene. |
 | N | Scintigrafie osoasă / cu leucocite marcate / PET-CT | Doar cu aviz specializat | C | 2/4 | Confirmarea activității, urmărirea răspunsului terapeutic. |
+
+#### (O5) 🟠 Fistulă de LCR (rinoree / otoree de LCR) — *mutată din Neuro (fost N6), 2026-07-10*
+_NU există topic ACR AC standalone „Cerebrospinal Fluid Leak"; imagistica fistulei de LCR e acoperită
+de **ACR AC „Sinonasal Disease: 2021 Update"** (panel Head and Neck)._ **Home = `Cap › ORL`** (decis
+de editor): prezentare rinoree/otoree, CT de sinusuri / stâncă temporală, reparație endoscopică
+endonazală/otologică. Defectul e al bazei craniului, dar workup-ul și reparația sunt ORL.
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Sinonasal Disease (2021)."
+| Tip | Examen | Indicație | Grad | Doză | Comentariu |
+|---|---|---|---|---|---|
+| T | CT în strat subțire al bazei craniului / sinusurilor (înaltă rezoluție) | Indicat | B | 2/3 | Localizarea defectului osos. |
+| M | Cisterno-IRM (T2 înaltă rezoluție) | Indicat | B | 0/0 | Confirmarea traiectului fistulos, meningo-/encefalocel; neiradiant. |
+| X | Cisternografie CT cu contrast intratecal | Doar cu aviz specializat | C | 3/4 | Cazuri neconcludente / fistulă intermitentă (procedură invazivă). |
 
 ### 41.C 🟢 Opțional (acoperire exhaustivă)
 
