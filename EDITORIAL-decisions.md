@@ -1304,6 +1304,123 @@ alt capitol): screening HCC în ciroză și stadializările → **Cancer**; trau
   intususcepție rectală) — MR-defecografie / defecografie fluoroscopică. **Încadrare de decis:**
   `Tub digestiv` vs. `Obstetrică și ginecologie` (planșeu pelvin).
 
+### 20.4 Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
+
+> ⚠️ **Actualizare de încadrare (2026-07-10):** subcapitolul „**Tub digestiv**" la care se referă
+> §20 **nu mai există** — capitolul a fost restructurat în: `Esofag`, `Stomac și duoden`, `Intestin
+> subțire și colon`, `Ficat, colecist și pancreas`, `Abdomen acut și hemoragii digestive`. Mapare
+> aplicată mai jos: colecistită/steatoză/HTP/abces hepatic/chist hidatic/colangită → **Ficat,
+> colecist și pancreas**; apendicită/diverticulită/ischemie mezenterică/fistulă perianală →
+> **Intestin subțire și colon**; perforație/pneumoperitoneu → **Abdomen acut și hemoragii digestive**;
+> achalazie → **Esofag**.
+
+Coloane fixe: `Capitol = Aparat digestiv`, `Terapeutic = Nu`; `NR.CRT` = ID nou la inserare.
+`Alte informații` = referința de sub fiecare situație. **Referințe confirmate real (2026-07-10):**
+ACR AC *Right Upper Quadrant Pain*, *Right Lower Quadrant Pain – Suspected Appendicitis* (2022),
+*Left Lower Quadrant Pain – Suspected Diverticulitis*, *Imaging of Mesenteric Ischemia*, *Crohn
+Disease*; Tokyo Guidelines TG18; ESGAR. Gradele orientative. **HIDA/colescintigrafie = Tip `N`**
+(medicină nucleară) — absentă azi din capitol.
+
+#### (1) `Ficat, colecist și pancreas` — **Colecistită acută (durere în hipocondrul drept)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Right Upper Quadrant Pain; Tokyo Guidelines TG18."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie abdominală | Indicat | B | 0/0 | Prima intenție: perete îngroșat, lichid pericolecistic, semn Murphy ecografic, calcul inclavat în infundibul. |
+| N | Scintigrafie biliară (colescintigrafie / HIDA) | Doar în cazuri particulare | B | 2/3 | Când ecografia e echivocă (non-umplerea colecistului = obstrucție cistică); sensibilitate/specificitate superioare. **Modalitate absentă din capitol.** |
+| T | CT abdominal cu substanță de contrast | Doar în cazuri particulare | B | 2/3 | Complicații (gangrenoasă, emfizematoasă, perforată), diagnostic alternativ. |
+| M | IRM + colangio-IRM | Doar în cazuri particulare | B | 0/0 | Echivoc, gravide, coledocolitiază asociată. |
+
+#### (2) `Intestin subțire și colon` — **Apendicită acută (adult, durere în fosa iliacă dreaptă)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Right Lower Quadrant Pain – Suspected Appendicitis (2022)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT abdomen și pelvis cu substanță de contrast | Indicat | A | 2/3 | Adult, prima intenție (sensibilitate/specificitate superioare ecografiei). |
+| E | Ecografie | Doar în cazuri particulare | B | 0/0 | Pacient slab; **Indicat la gravide** (copiii → Pediatrie). |
+| M | IRM fără substanță de contrast | Doar în cazuri particulare | B | 0/0 | La gravide, după ecografie neconcludentă. |
+
+#### (3) `Intestin subțire și colon` — **Diverticulită acută (durere în fosa iliacă stângă)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Left Lower Quadrant Pain – Suspected Diverticulitis."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | CT abdomen și pelvis cu substanță de contrast | Indicat | A | 2/3 | Prima intenție; stadializare Hinchey, complicații (abces, perforație, fistulă). |
+| E | Ecografie | Doar în cazuri particulare | B | 0/0 | Alternativă la CT în cazuri selectate. |
+
+#### (4) `Intestin subțire și colon` — **Ischemie mezenterică (acută / cronică)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Imaging of Mesenteric Ischemia."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | Angio-CT abdomen și pelvis | Indicat | A | 2/3 | Prima intenție, acut și cronic. O radiografie negativă NU exclude ischemia. |
+| M | Angio-IRM abdomen și pelvis | Doar în cazuri particulare | B | 0/0 | Formă cronică; insuficiență renală. |
+| E | Eco-Doppler | Doar în cazuri particulare | B | 0/0 | Screening / formă cronică (originea arterelor celiacă/mezenterice). |
+
+#### (5) `Ficat, colecist și pancreas` — **Boală hepatică cronică difuză (steatoză / fibroză, NAFLD-MASLD)**
+`Alte informații =` „Ghiduri hepatologice (EASL/AASLD) — *de confirmat sursa citabilă*."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie ± elastografie (shear-wave) | Indicat | B | 0/0 | Screening steatoză, stadializarea fibrozei. |
+| M | IRM (PDFF / elastografie-RM) | Doar cu aviz specializat | B | 0/0 | Cuantificarea grăsimii/fierului, stadializarea fibrozei. |
+
+> Screeningul HCC în ciroză rămâne la `Cancer › Tumori maligne primare hepatice` (non-oncologicul aici).
+
+#### (6) `Ficat, colecist și pancreas` — **Hipertensiune portală / tromboză de venă portă / evaluare vasculară hepatică**
+`Alte informații =` „Ghiduri hepatologice (Baveno) — *de confirmat sursa citabilă*."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Eco-Doppler abdominal | Indicat | B | 0/0 | Prima intenție: flux/permeabilitate portală, colaterale, Budd-Chiari. |
+| T | CT cu substanță de contrast (fază venoasă/portală) | Indicat | B | 2/3 | Cartografiere, tromboză tumorală vs blandă, evaluare pre-TIPS (procedura = RI). |
+| M | IRM cu substanță de contrast | Doar în cazuri particulare | B | 0/0 | Alternativă la CT; caracterizare. |
+
+#### (7) `Ficat, colecist și pancreas` — **Abces hepatic / colecție intraabdominală (non-postoperator)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria (durere abdominală / colecții)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie | Indicat | B | 0/0 | Prima intenție. |
+| T | CT abdomen cu substanță de contrast | Indicat | B | 2/3 | Caracterizare, extindere (drenajul = RI). |
+
+#### (8) `Intestin subțire și colon` — **Fistulă perianală / boală perianală (inclusiv Crohn perianal)**
+`Alte informații =` „Cf. ESGAR; ACR Appropriateness Criteria – Crohn Disease."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | IRM pelvin (protocol fistulă) | Indicat | A | 0/0 | Standard de aur: clasificarea traiectelor, abcese. |
+| E | Ecografie endoanală | Doar cu aviz specializat | B | 0/0 | Alternativă/complement în mâini experte. |
+
+#### (9) `Ficat, colecist și pancreas` — **Chist hidatic hepatic / echinococoză**
+`Alte informații =` „Cf. WHO-IWGE (clasificare chist hidatic)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie | Indicat | B | 0/0 | Clasificarea WHO-IWGE / Gharbi. |
+| T | CT | Doar în cazuri particulare | B | 2/3 | Localizări dificile, complicații biliare, planificare terapeutică. |
+| M | IRM (colangio-IRM) | Doar în cazuri particulare | B | 0/0 | Raporturi biliare, complicații. |
+
+#### (10) `Abdomen acut și hemoragii digestive` — **Perforație de organ cavitar / pneumoperitoneu (non-esofagian)** — rafinare 20.3
+`Alte informații =` „Cf. ACR Appropriateness Criteria (durere abdominală acută)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| G | Radiografie abdominală în ortostatism (+ toracică) | Indicat | B | 2/2 | Pneumoperitoneu (aer liber sub diafragm). |
+| T | CT abdomen cu contrast oral/i.v. | Indicat | B | 2/3 | Localizarea perforației, cauza, complicații. |
+
+#### (11) `Ficat, colecist și pancreas` — **Colangită sclerozantă primitivă / evaluarea căilor biliare** — rafinare 20.3
+`Alte informații =` „Cf. ghiduri hepato-biliare (EASL PSC)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | Colangio-IRM (MRCP) | Indicat | A | 0/0 | Examen de referință (stenoze/dilatații „în mărgele"). |
+
+#### (12) `Esofag` — **Achalazie / tulburări de motilitate esofagiană** — rafinare 20.3
+`Alte informații =` „Cf. Chicago Classification; ghiduri de motilitate esofagiană."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| X | Tranzit baritat esofagian cronometrat (timed barium esophagogram) | Indicat | B | 2/2 | Golire esofagiană, aspect „cioc de pasăre"; completează manometria. |
+
+#### (13) **Defecografie / disfuncție de planșeu pelvin posterior** — rafinare 20.3, **home NEDECIS**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Pelvic Floor Dysfunction."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | MR-defecografie | Indicat | B | 0/0 | Constipație de evacuare, prolaps, intususcepție rectală. |
+| X | Defecografie fluoroscopică | Doar în cazuri particulare | B | 2/3 | Alternativă dinamică. |
+
+> **(13) rămâne NON-insertion-ready** — home nedecis: `Intestin subțire și colon` vs.
+> `Obstetrică și ginecologie` (planșeu pelvin). Vezi și §28.B.
+
 > Status: **13 propuneri deschise** (2026-07-09) — 4 lacune majore, 5 parțial acoperite, 4 rafinări.
 > Gradele/indicațiile propuse sunt orientative (aliniate ACR AC / RCR iRefer / ESGAR) și rămân
 > de validat de editori înainte de inserarea în `GHID.csv`. Nicio modificare de date până la decizie.
@@ -1538,6 +1655,39 @@ NU aplicate — decizie editori)
   scintigraphy)](https://academic.oup.com/jcem/article/101/5/1889/2804729)
 - [ACR AC — Newly Diagnosed Palpable Scrotal Abnormality](https://acsearch.acr.org/docs/3158184/Narrative/)
 
+### 24.D Rânduri-schiță pentru inserare (draft insertion-ready, de validat de editori)
+
+Coloane fixe: `Capitol = Aparat uro-genital și glande suprarenale`, `Terapeutic = Nu`; `NR.CRT` = ID
+nou la inserare. `Alte informații` = referința de sub fiecare situație (URL-uri în „Surse consultate"
+de mai sus, verificate live). Gradele orientative.
+
+#### (1) `Aparat genital masculin` — **Priapism** (§24.A)
+`Alte informații =` „Cf. AUA/SMSNA – Acute Ischemic Priapism Guideline (2022)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Eco-Doppler penian | Doar în cazuri particulare | B | 0/0 | Când diagnosticul clinic ischemic/non-ischemic e neconcludent: flux absent + velocități <50 cm/s + revers diastolic = **ischemic** (urgență); flux crescut, velocități >50 cm/s = non-ischemic. Gazometria din corpii cavernoși rămâne primul test (non-imagistic). |
+
+#### (2) `Aparat urogenital` — **Incontinență urinară / disfuncție de planșeu pelvin (femeie)** (§24.A)
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Pelvic Floor Dysfunction in Females."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie (transperineală/introitală, reziduu postmicțional) | Indicat | B | 0/0 | Evaluare inițială: reziduu postmicțional, mobilitatea colului vezical/uretrei. |
+| M | IRM dinamic de planșeu pelvin | Doar cu aviz specializat | B | 0/0 | Cazuri complexe/preoperator, disfuncție combinată (compartiment anterior + posterior). |
+
+> Home recomandat: `Aparat urogenital` (simetrie cu LUTS masculin deja prezent); alternativă
+> `Obstetrică și ginecologie › Ginecologie` — decizie de home (vezi și §28.B).
+
+#### (3) `Glande suprarenale › Tumori medulosuprarenaliene (feocromocitom)` — adăugare rând PET-CT (§24.B)
+`Alte informații =` „Cf. studii comparative ⁶⁸Ga-DOTATATE PET/CT vs. ¹³¹I-MIBG (PMC4463879)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| N | PET-CT (⁶⁸Ga-DOTATATE) | Indicat | B | 4/4 | Sensibilitate net superioară scintigrafiei MIBG (~93% vs ~47% per-pacient), inclusiv pentru boala metastatică/extra-adrenală. mIBG rămâne util adjuvant (planificarea terapiei cu ¹³¹I-MIBG). |
+
+> **§24.B rămâne parțial NON-insertion-ready:** coborârea gradului scintigrafiei **mIBG**
+> (feocromocitom) și a scintigrafiei **I131-Norcolesterol** (sdr. Conn / Cushing) = **regradare** a
+> unor rânduri existente → decizie de editori (nu se modifică grad singur). Nu produc rânduri noi.
+> **§24.C** (varicocel, separarea „durere/masă scrotală") = rafinări informative, fără draft de rând.
+
 > Status: **niciun rând nou inserat, niciun grad modificat** în `GHID.csv`. Se așteaptă
 > decizia editorilor pentru 24.A (situații noi) și 24.B (reconsiderare grad scintigrafie
 > suprarenaliană / adăugare DOTATATE); apoi se adaugă/ajustează cu grade validate pe sursă
@@ -1634,6 +1784,10 @@ decizie de embolizare.
 - [Pelvic Congestion Syndrome — StatPearls](https://www.ncbi.nlm.nih.gov/books/NBK560790/)
 - [Endovascular management of pelvic congestion syndrome — SFICV/FRI/CERF/SIFEM expert
   consensus (2024/2025)](https://www.sciencedirect.com/science/article/pii/S2211568425000750)
+
+> 📌 **Rândurile-schiță insertion-ready pentru §25.A/B se află CONSOLIDATE în §28.D** (împreună cu
+> §28.A, ca să nu fie draftate de două ori — sunt aceleași situații: fibrom (G4), adenomioză (G5),
+> sângerare genitală acută (G3), congestie pelvină (G8), placenta accreta (S2)).
 
 > Status: **niciun rând inserat** în `GHID.csv` (la cererea utilizatorului — doar draft).
 > 9 din 12 situații ale fostului „Uter și anexe" nu au diagnostic nicăieri în ghid; 3 au deja
@@ -1789,6 +1943,137 @@ ghidurilor; gradul final îl fixează editorii. Încadrarea urmează ierarhia di
   rolul IRM pentru leziuni indeterminate. ACR „Clinically Suspected Adnexal Mass".
 - **Sarcină de prim trimestru — „sarcină cu localizare necunoscută (PUL)".** Avem
   extrauterina și non-viabila; scenariul PUL (Eco TV + β-hCG seriat) ar completa logic grupul.
+
+### 28.D Rânduri-schiță pentru inserare — CONSOLIDAT §25 + §28 (draft insertion-ready)
+
+> **Consolidare:** §25 (fostul „Uter și anexe" — diagnostic lipsă) și §28 (omisiuni
+> Obstetrică-ginecologie) propun **aceleași** situații (fibrom, adenomioză, AUB, placenta accreta,
+> congestie pelvină). Pentru a nu drafta de două ori, tot setul e mai jos, o singură dată; §25.A/B
+> trimite aici. Coloane fixe: `Capitol = Obstetrică și ginecologie`, `Terapeutic = Nu`; `NR.CRT` =
+> ID nou la inserare. `Alte informații` = referința de sub fiecare situație. **Referințe (URL-uri în
+> „Surse consultate" §25/§28, verificate live):** ACR AC *Acute Pelvic Pain in the Reproductive Age
+> Group*, *Abnormal Uterine Bleeding*, *Fibroids* (2022), *Clinically Suspected Adnexal Mass*,
+> *Female Infertility*, *Second and Third Trimester Vaginal Bleeding*, *Placenta Accreta Spectrum
+> Disorder*, *Postpartum Hemorrhage*, *Assessment of the Gravid Cervix*; RCR iRefer (ed. 8). Gradele orientative.
+
+**A. `Ginecologie`**
+
+#### (G1) **Durere pelvină acută (femeie de vârstă reproductivă, non-gravidă)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Acute Pelvic Pain in the Reproductive Age Group."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie transvaginală + transabdominală cu Doppler | Indicat | A | 0/0 | Primă intenție: torsiune anexială/ovariană (urgență), chist hemoragic sau rupt, abces tubo-ovarian. |
+| T | CT abdomen și pelvis cu substanță de contrast | Doar în cazuri particulare | B | 2/3 | Când se suspectează etiologie non-ginecologică (ex. apendicită) sau ecografia e echivocă. |
+
+#### (G2) **Sângerare uterină anormală – premenopauzală / vârstă reproductivă (AUB)**
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Abnormal Uterine Bleeding."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie transvaginală + transabdominală cu Doppler | Indicat | A | 0/0 | Primă intenție. |
+| E | Sonohisterografie (histerosonografie / SIS) | Indicat | B | 0/0 | Polipi / miom submucos / patologie endometrială focală. |
+| M | IRM | Doar în cazuri particulare | B | 0/0 | A doua intenție (cartografiere, caz neconcludent). |
+
+#### (G3) **Sângerare genitală acută/severă (refractară la tratament medical)** — din §25.A.3
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Abnormal Uterine Bleeding."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie (± Doppler) | Indicat | B | 0/0 | Identifică patologia subiacentă (fibrom, resturi placentare, tumoră, cauză vasculară). |
+| T | AngioCT | Doar în cazuri particulare | C | 2/3 | Pacientă instabilă hemodinamic — localizarea sursei active înaintea embolizării emergente (embolizarea = RI). |
+
+#### (G4) **Leiomiom uterin (fibrom, unic sau multiplu) – caracterizare / cartografiere** — §25.A.1 + §28.A.3
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Fibroids (2022)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie (transvaginală ± transabdominală, ± Doppler) | Indicat | A | 0/0 | Primă intenție pentru diagnosticul inițial. |
+| M | IRM cu substanță de contrast | Doar cu aviz specializat | B | 0/0 | Cartografiere (număr, dimensiune, perfuzie, poziție) pre-embolizare/miomectomie; exclude leiomiosarcomul la cazuri atipice. |
+
+#### (G5) **Adenomioză uterină** — din §25.A.2
+`Alte informații =` „Cf. literatura de acuratețe diagnostică (IRM adenomioză, PMC9140978)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie (transvaginală) | Indicat | B | 0/0 | Primă intenție. |
+| M | IRM | Doar cu aviz specializat | B | 0/0 | Caz echivoc ecografic sau înainte de embolizare/tratament conservator. |
+
+#### (G6) **Endometrioză (suspiciune / bilanț de extensie)** — §28.A.4 (dacă se separă de „Dureri pelvine…")
+`Alte informații =` „Cf. ACR Appropriateness Criteria (endometrioză) / ESUR."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie transvaginală | Indicat | A | 0/0 | Primă intenție, inclusiv endometrioză profundă. |
+| M | IRM cu protocol dedicat | Doar cu aviz specializat | B | 0/0 | Opacifiere vaginală/rectală; bilanț de extensie (deja descris în comentariul IRM existent). |
+
+#### (G7) **Anomalii congenitale uterine (malformații mülleriene)** — §28.A.5
+`Alte informații =` „Cf. ESUR / ASRM (clasificare mülleriană)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie 3D | Indicat | B | 0/0 | Clasificare (uter septat vs bicorn etc.). |
+| M | IRM | Doar cu aviz specializat | B | 0/0 | Clasificare definitivă; relevant pentru infertilitate și avort recurent. |
+
+#### (G8) **Varice periuterine (sindrom de congestie pelvină)** — din §25.A.4
+`Alte informații =` „Cf. consens SFICV/FRI/CERF/SIFEM (2024); StatPearls – Pelvic Congestion Syndrome."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie transvaginală + Doppler | Doar în cazuri particulare | C | 0/0 | Primă linie, dar sensibilitate/specificitate limitate. |
+| M | IRM (± angio-IRM) | Doar cu aviz specializat | B | 0/0 | Extensia varicelor, exclude diferențiale (ex. endometrioză), planificare pre-embolizare (embolizarea = RI). |
+
+**B. `Sarcină`** (patologia obstetricală se inserează aici, lângă conținutul de sarcină existent)
+
+#### (S1) **Sângerare de trimestru II/III (placenta previa, dezlipire de placentă)** — §28.A.6
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Second and Third Trimester Vaginal Bleeding."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie | Indicat | A | 0/0 | Primă intenție: localizarea placentei, previa, vasa previa, dezlipire. |
+| M | IRM | Doar în cazuri particulare | B | 0/0 | Adjuvant în cazuri selectate. |
+
+#### (S2) **Spectru placenta accreta (placentă aderentă morbid)** — §25.B + §28.A.7
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Placenta Accreta Spectrum Disorder."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie cu Doppler | Indicat | A | 0/0 | Screening/diagnostic la risc (placenta praevia + cezariană/chirurgie uterină în antecedente): lacune placentare, subțiere miometrială (markeri EW-AIP). |
+| M | IRM | Doar cu aviz specializat | B | 0/0 | Profunzimea invaziei, placentă posterioară, planificare chirurgicală multidisciplinară. |
+
+#### (S3) **Hemoragie postpartum / retenție de produse de concepție** — §28.A.8
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Postpartum Hemorrhage."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie | Indicat | A | 0/0 | Retenție, cheaguri. |
+| T | CT / angio-CT | Doar în cazuri particulare | C | 2/3 | Sângerare activă, localizarea sursei pre-embolizare (embolizarea = RI). |
+
+#### (S4) **Evaluarea colului gravid / insuficiență cervicală (col scurt)** — §28.A.9
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Assessment of the Gravid Cervix."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie transvaginală | Indicat | A | 0/0 | Măsurarea lungimii cervicale. |
+
+#### (S5) **Suspiciune de anomalie fetală – completarea ecografiei (IRM fetal)** — §28.A.10
+`Alte informații =` „Cf. RCR iRefer; ISUOG (IRM fetal)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| M | IRM fetal | Doar cu aviz specializat | B | 0/0 | Adjuvant recunoscut pentru anomalii SNC (și altele) când ecografia e neconcludentă/insuficientă; fără iradiere. |
+
+#### (S6) **Sarcină cu localizare necunoscută (PUL)** — §28.C
+`Alte informații =` „Cf. ghiduri de sarcină incipientă (NICE / ESHRE)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecografie transvaginală | Indicat | A | 0/0 | Cu β-hCG seriat; completează grupul „extrauterină / non-viabilă". |
+
+**C. `Fertilitate` — îmbogățirea situației „Infertilitate feminină"** (§28.C)
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Female Infertility."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| X | Histerosalpingografie (HSG) | Indicat | B | 2/2 | Permeabilitate tubară (azi doar în comentarii). |
+| E | HyCoSy / histerosonografie | Indicat | B | 0/0 | Alternativă ecografică pentru permeabilitatea tubară. |
+
+> **NON-insertion-ready / note:**
+> - **Masă anexială (§28.C):** situația „Suspiciune de masă pelvină" existentă se **îmbogățește**
+>   (clasificare O-RADS + rol IRM pentru leziuni indeterminate) — completare, nu rând nou.
+> - **Malformații/fistule arterio-venoase pelvine (§25.A.5):** sursă insuficientă (caz-serie) →
+>   **fără grad citabil**, nedraftat.
+> - **§28.B** (embolizări → RI; disfuncție de planșeu pelvin — home nedecis; durere la gravidă;
+>   TEV în sarcină → Cardiovascular/Torace; screening/stadializare cancere → Cancer) rămâne blocat
+>   pe decizii de home cross-capitol.
+> - **Notă structurală:** subcapitolele `Obstetrică` (doar disproporție) și `Sarcină` coexistă —
+>   de reconciliat dacă patologia obstetricală nouă merge la `Sarcină` (recomandat) sau motivează
+>   fuziunea celor două subcapitole. Decizie separată.
 
 > Status: **analiză, fără modificare de date.** Propunerile de mai sus așteaptă decizia
 > editorilor (ce se adaugă, cu ce grad, unde se încadrează cazurile de graniță din 28.B).
