@@ -2246,8 +2246,15 @@ final îl fixează editorii. Încadrarea urmează ierarhia din `CLAUDE.md`.
 Draft concret al situațiilor din 31.A, gata de studiat. **Gradele și dozele sunt orientative** —
 deduse din rândurile analoge din capitol (IRM 0/0; CT 2/3; radiografie 1–2; scintigrafie 2/3;
 PET-CT 4/4) + logica de primă intenție din ghiduri. **Se validează de editori înainte de orice
-inserare.** Coloane fixe pentru toate: `Capitol = Coloană vertebrală`, `Terapeutic = Nu`,
-`Alte informații =` (gol). Ordinea examenelor în fiecare situație = de la prima intenție în jos.
+inserare.** Coloane fixe pentru toate: `Capitol = Coloană vertebrală`, `Terapeutic = Nu`.
+Ordinea examenelor în fiecare situație = de la prima intenție în jos.
+
+> ✅ **Verificare referințe (2026-07-10):** ACR AC *Suspected Spine Infection* (2021), *Low Back
+> Pain* (2021 Update), *Management of Vertebral Compression Fractures*, *Myelopathy* și criteriile
+> **ASAS** (spondilartrită axială) sunt **titluri reale, confirmate**. **Recomandare de consecvență:**
+> la inserare, referința se pune în `Alte informații` (col. 10) pe fiecare rând — ex. „Cf. ACR
+> Appropriateness Criteria – Suspected Spine Infection." — la fel ca rândurile existente din
+> Traumatisme și ca schițele din §3–§28 (nu se lasă col. 10 goală).
 
 #### (1) Subcapitol „Coloană" — **Suspiciune de infecție spinală (spondilodiscită, abces epidural)** 🔴
 
@@ -2391,6 +2398,13 @@ NU sunt goluri ale acestui capitol. Propunerile de mai jos sunt **non-traumatice
 > doză, comentariu) sunt **propuneri** — gradele/dozele se confirmă de editori. Priorități:
 > 🔴 = gol major (topic ACR/RCR dedicat, regiune întreagă absentă); 🟠 = recomandat; 🟢 = opțional.
 
+> ✅ **Verificare referințe (2026-07-10):** ACR AC *Chronic Wrist Pain*, *Chronic Elbow Pain*,
+> *Chronic Ankle Pain*, *Chronic Foot Pain*, *Osteonecrosis*, *Stress (fatigue/insufficiency)
+> Fracture*, *Suspected Osteomyelitis, Septic Arthritis, or Soft Tissue Infection* — **titluri
+> reale, confirmate**; DXA: BHOF/NOF clinician's guide + ISCD (reale). Tabelele au deja toate
+> coloanele (Tip/Examen/Indicație/Grad/Doză/Comentariu). **Recomandare:** la inserare, referința în
+> `Alte informații` (col. 10), ex. „Cf. ACR Appropriateness Criteria – Chronic Wrist Pain."
+
 ### 34.A 🔴 Regiuni MSK absente complet (topicuri ACR AC dedicate)
 
 Capitolul are subcapitole doar pentru Genunchi, Șold, Umăr, Picior (+ „Diverse"). Lipsesc trei
@@ -2467,6 +2481,12 @@ situațiilor sunt **bine acoperite**; un singur gol clar + două minore.
 
 > Status: **analiză, fără modificare de date.** Rândurile-schiță = propuneri; gradele/dozele se
 > confirmă de editori.
+
+> ✅ **Verificare referințe (2026-07-10):** ACR AC *Imaging After Total Knee Arthroplasty: 2023
+> Update* și *Imaging After Total Hip Arthroplasty* (2023), *Osteonecrosis of the Hip*, *Chronic
+> Hip Pain*, *Chronic Knee Pain*, *Shoulder Pain*, *Chronic Extremity Joint Pain – Suspected
+> Inflammatory Arthritis*, *Chronic Foot Pain* — **titluri reale, confirmate**. **Recomandare:**
+> referința în `Alte informații` (col. 10) la inserare.
 
 ### 35.A 🟠 „Sindrom dureros post protezare" — lipsește IRM (cu reducerea artefactelor metalice)
 
@@ -2734,6 +2754,14 @@ moi)**; stenoza carotidiană → deja acoperită (Neuro, §40).
 > Priorități: 🔴 = gol major (topic ACR/RCR dedicat, entitate întreagă absentă); 🟠 = recomandat;
 > 🟢 = opțional.
 
+> ✅ **Verificare referințe (2026-07-10):** confirmate reale — ACR AC *Altered Mental Status, Coma,
+> Delirium, and Psychosis: 2024 Update* (N3), *Cerebrovascular Diseases – Aneurysm, Vascular
+> Malformation, and Subarachnoid Hemorrhage* (N1), *Ataxia* (N4), *Cranial Neuropathy* (N5),
+> *Tinnitus* (O1), *Orbits, Vision, and Visual Loss* (O3). ⚠️ **Corecție (N6):** NU există topic
+> ACR AC „Cerebrospinal Fluid Leak" — imagistica fistulei de LCR e la **ACR AC *Sinonasal Disease:
+> 2021 Update*** (corectat în N6 mai jos). **Recomandare:** referința în `Alte informații` (col. 10)
+> la inserare (col. 10 nu se lasă goală).
+
 ### 41.A Neuro
 
 #### (N1) 🔴 Anevrism intracranian nerupt / malformație vasculară (MAV, fistulă durală) — depistare & urmărire
@@ -2780,8 +2808,10 @@ _ACR AC „Cranial Neuropathy"._ Completează „Afectarea bazei craniului și n
 | T | CT stâncă temporală și bază de craniu | Doar în cazuri particulare | C | 2/3 | Context traumatic/otologic (canal facial, dehiscențe, eroziuni). |
 
 #### (N6) 🟠 Fistulă de LCR (rinoree / otoree de LCR)
-_ACR AC „Cerebrospinal Fluid Leak"._ Interfață cu ORL, dar defectul e al **bazei craniului**.
-Home propus: **Cap › Neuro**.
+_Ref. **corectată (2026-07-10):** NU există topic ACR AC standalone „Cerebrospinal Fluid Leak";
+imagistica fistulei de LCR (rinoree) e acoperită de **ACR AC „Sinonasal Disease: 2021 Update"**._
+Interfață cu ORL, dar defectul e al **bazei craniului**. Home propus: **Cap › Neuro**.
+`Alte informații =` „Cf. ACR Appropriateness Criteria – Sinonasal Disease (2021)."
 | Tip | Examen | Indicație | Grad | Doză | Comentariu |
 |---|---|---|---|---|---|
 | T | CT în strat subțire al bazei craniului / sinusurilor (înaltă rezoluție) | Indicat | B | 2/3 | Localizarea defectului osos. |
