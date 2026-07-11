@@ -221,6 +221,11 @@ comasez comentarii identice legitime; nu decid singur cazuri clinice/editoriale 
 - Cardiovascular (§12): ordinea examenelor la „Anevrisme vase periferice" după
   de-duplicare (Eco întâi?), nota clinică din eticheta „Arteriopatii periferice
   simptomatice", și gradul scintigrafiei osoase la amiloidoza transtiretină (NR 589).
+- **MACRO — restructurarea capitolelor (§44):** întrebare de board, post-review. Propunere
+  concretă de reparare a fragmentărilor transversale (fuziune `Cap›Neuro`+`Coloană` →
+  „Sistem nervos"; `Cap›ORL`+`Gât` → „Cap și gât"; 14→13 capitole). NU se decide/începe
+  înainte de aplicarea deciziilor editoriale pe conținut — ar fi ⛔ BREAKING și ar invalida
+  maparea pachetelor. Vezi `EDITORIAL-decisions.md` §44.
 
 ## Maparea capitol origine → subcapitol RI (pentru mutări viitoare de intervențional)
 

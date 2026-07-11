@@ -3032,3 +3032,89 @@ pe larg în §40 — nu se repetă aici; NR 1384 a primit doar corecția obiecti
   identic). **Comasat la Aparat endocrin** (NR 1387 — glanda suprarenală e conținut endocrin,
   plasarea în urogenital era clar eronată). Nu e o chestiune de graniță reală, doar o eroare de
   încadrare corectată.
+
+---
+
+## 44. MACRO — restructurarea capitolelor (întrebare de board, post-review, 2026-07-11)
+
+Ridicată strategic după finalizarea pachetelor de review. **Nu se decide acum** — e o decizie de
+board întreg (nu de un specialist per capitol), **succede** review-ul actual (nu-l blochează), și
+ar fi un ⛔ BREAKING major. Consemnată aici ca propunere concretă pentru ședința de board.
+
+### 44.A Ce NU se schimbă (evaluare)
+
+**Macro-modelul „context întâi, apoi anatomie" rămâne.** Se potrivește cu cititorul (clinicianul/
+rezidentul intră cu un context: „e copil?", „e traumă?", „are cancer?"), e modelul ACR
+Appropriateness Criteria (panels), iar alternativele mari sunt mai proaste:
+- **pur anatomic/pe organ** — adună tot despre un organ la un loc, dar distruge navigarea clinică
+  (pediatrul ar vâna prin 13 capitole; trauma e multi-regiune; oncologia urmează logică oncologică);
+- **pur pe prezentare/simptom** — duplică workup-ul în zeci de prezentări, se bate cu „un singur acasă".
+
+Rămân neatinse: cele 4 capitole de context, Sânul ca specialitate, excepțiile principiale (ERCP,
+senologie), și axa de subcapitol per-capitol (intențional diferită).
+
+### 44.B Problema reală — fragmentarea sistemelor transversale
+
+Singura incoerență structurală de fond: câteva sisteme care traversează granițele anatomice sunt
+smulse în bucăți, generând repetat duplicate și dispute de graniță:
+
+| Sistem | Fragmentat azi în | Simptom |
+|---|---|---|
+| Neuro-ax (encefal + măduvă + coloană) | `Cap › Neuro` + `Coloană vertebrală` | SNC tăiat în două; măduva lângă os, nu lângă creier |
+| Cap-gât / ORL | `Cap › ORL` + `Gât (părți moi)` | mutări repetate Cap↔Gât (§22); corp străin nerezolvat (§8/§10) |
+| Vascular | Cardiovascular + `Cap › Neuro` (carotidă) + RI | disputa carotidei (§40); fragmentarea RI cardio/neuro (§43) |
+| Endocrin | tiroidă→Gât, suprarenale→uro-genital, hipofiză→Cap | numele-mărturisire „Aparat uro-genital **și glande suprarenale**" |
+
+### 44.C Structura-țintă propusă (13 capitole, de la 14)
+
+**Capitole de context (fațete transversale) — 4, neschimbate:**
+1. Pediatrie · 2. Traumatisme · 3. Cancer · 4. Radiologie intervențională
+
+**Capitole anatomice / de sistem — 9, reorganizate:**
+
+5. **Sistem nervos** ⟵ *fuziune `Cap › Neuro` + `Coloană vertebrală`*
+   - Encefal (AVC, cefalee, epilepsie, neurodegenerativ, neuroinflamator, tumoral-selar, hidrocefalie)
+   - Măduvă și **coloană vertebrală** (mielopatie, radiculopatie, infecție spinală, degenerativ/inflamator)
+   - Cerebrovascular (anevrisme, MAV, tromboză venoasă; carotida — vezi punct deschis)
+   - Nervi cranieni, neuro-oftalmologie
+6. **Cap și gât** ⟵ *fuziune `Cap › ORL` + `Gât (părți moi)`*
+   - Ureche, nas, sinusuri, orbită
+   - Glande salivare, faringe, laringe
+   - Tiroidă / paratiroide (vezi punct deschis)
+   - Mase cervicale, spații cervicale profunde
+7. **Aparat cardiovascular** — cord + sistem vascular (aortă, periferic, visceral; carotida — vezi punct deschis)
+8. **Torace** — plămân, căi aeriene, mediastin, pleură, perete toracic
+9. **Aparat digestiv** — esofag; stomac-duoden; intestin subțire și colon; ficat-colecist-pancreas; abdomen acut
+10. **Aparat uro-genital (și suprarenale)** — rinichi și căi urinare; aparat genital masculin; suprarenale (vezi punct deschis)
+11. **Obstetrică și ginecologie**
+12. **Sân**
+13. **Aparat locomotor** — membre, articulații, os (fără coloană, mutată la Sistem nervos)
+
+**Ce se schimbă, pe scurt:** `Cap` dispare (Neuro→Sistem nervos, ORL→Cap și gât); `Gât (părți moi)`
+absorbit în Cap și gât; `Coloană vertebrală` devine subcapitol al Sistem nervos. Net: **14 → 13**.
+
+### 44.D Cinci puncte deschise pentru board
+
+1. **Coloana: Neuro vs Locomotor.** Propusă la Neuro (convenția neuroradiologică: IRM/mielopatie/
+   radiculopatie domină). Contra: osteoporoză, spondilartrită, fractură vertebrală sunt MSK.
+   Alternative: rămâne capitol propriu (status quo) sau merge la Locomotor.
+2. **Carotida / cerebrovascular: Neuro vs Cardiovascular** (disputa §40). Un singur acasă, oricare.
+3. **Tiroidă/paratiroide: Cap și gât vs capitol Endocrin dedicat.**
+4. **Suprarenale: Uro-genital (proximitate) vs Endocrin.**
+5. **Capitol „Sistem endocrin" dedicat?** (tiroidă + paratiroide + suprarenale + hipofiză +
+   neuroendocrin). **Recomandare: NU** — imagistica endocrină e dominant anatomică, ACR n-are panel
+   endocrin. Dar e o opțiune reală dacă board-ul o preferă.
+
+### 44.E Pârghia complementară — navigarea în aplicație
+
+O bună parte din durerea „tot despre rinichi e împrăștiat" **nu se rezolvă restructurând datele**, ci
+prin **navigare fațetată în aplicația de consultare (IRIS)** peste un singur acasă canonic (deja
+filozofia din `CLAUDE.md`). Cât timp IRIS nu regenerează din ghid, documentul acesta E produsul citit
+→ înclină spre „merită structura bine". Dacă IRIS va oferi indexuri (pe organ / simptom / context),
+structura capitolelor devine doar un index printre mai multe. **Separă**: „cum stocăm" vs „cum
+navighează cititorul".
+
+> Status: **propunere, fără nicio modificare de date sau structură.** Se discută la board după
+> încheierea review-ului pe capitole. Dacă se adoptă, e o restructurare de luni de zile (⛔ BREAKING),
+> care invalidează maparea actuală a pachetelor — deci NU se începe înainte ca deciziile editoriale
+> pe conținut să fie primite și aplicate.

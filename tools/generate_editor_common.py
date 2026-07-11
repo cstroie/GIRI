@@ -55,6 +55,16 @@ DECIZII = [
      "(acut → cronic → screening), nu alfabetic."),
 ]
 
+FRAGMENTARI = [
+    "Axul neuro e tăiat între „Cap › Neuro” și „Coloană vertebrală” — encefalul, "
+    "separat de măduvă și coloană.",
+    "Sfera ORL e tăiată între „Cap › ORL” și „Gât (părți moi)”.",
+    "Patologia vasculară e împrăștiată (cord la Cardiovascular, carotidă la Neuro, "
+    "periferic la Radiologie intervențională).",
+    "Patologia endocrină e împrăștiată (tiroidă la Gât, suprarenale la Uro-genital, "
+    "hipofiză la Cap).",
+]
+
 
 def add_heading(doc, text, level=1):
     h = doc.add_heading(text, level=level)
@@ -76,6 +86,20 @@ def main():
     for titlu, text in DECIZII:
         add_heading(doc, titlu, level=2)
         doc.add_paragraph(text)
+
+    add_heading(doc, "Întrebare de board (după acest review) — structura de capitole", level=2)
+    doc.add_paragraph(
+        "Structura actuală (context întâi, apoi anatomie) rămâne. Punem însă pe masă, "
+        "pentru o discuție separată de board după acest review, dacă merită reparate "
+        "câteva fragmentări transversale. Nu afectează pachetul de față."
+    )
+    for frag in FRAGMENTARI:
+        doc.add_paragraph(frag, style="List Bullet")
+    doc.add_paragraph(
+        "Direcția propusă, de detaliat la board: un capitol „Sistem nervos” (encefal + "
+        "măduvă + coloană vertebrală) și un capitol „Cap și gât” (ORL + tiroidă + mase "
+        "cervicale). Nimic din toate acestea nu se decide acum."
+    )
 
     closing = doc.add_paragraph()
     closing.add_run(
