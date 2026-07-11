@@ -66,7 +66,7 @@ propuneri:
     situatie: "Localizare preoperatorie ghidată imagistic a leziunilor nepalpabile"
     referinta: "Cf. ACR Practice Parameter – Breast Localization; NCCN. (Intervențional mamar — rămâne în Sân.)"
     indicatii:
-      - {tip: I, examen: "Localizare preoperatorie ghidată imagistic (harpon / reper radioactiv/magnetic)", indicatie: "Indicat", grad: B, doza: "1–2", comentarii: "Marcarea leziunii nepalpabile înainte de excizia chirurgicală; ghidaj ecografic, stereotaxic sau IRM, după vizibilitatea leziunii. Terapeutic = Nu."}
+      - {tip: I, examen: "Localizare preoperatorie ghidată imagistic (reper metalic / radioactiv / magnetic)", indicatie: "Indicat", grad: B, doza: "1–2", comentarii: "Marcarea leziunii nepalpabile înainte de excizia chirurgicală; ghidaj ecografic, stereotaxic sau IRM, după vizibilitatea leziunii. Terapeutic = Nu."}
   - subcapitol: "Paciente cu simptome și semne nesugestive de cancer"
     situatie: "Inflamație mamară – drenaj de abces"
     referinta: "Management standard al abcesului mamar (drenaj ghidat percutan). (Intervențional mamar — rămâne în Sân.)"

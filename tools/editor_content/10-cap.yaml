@@ -30,6 +30,11 @@ discutii:
       - "Consolidare la RI › Sistem nervos"
       - "Consolidare la RI › Aparat cardiovascular"
       - "Rămâne fragmentat"
+  - titlu: "Topicuri ORL opționale — de adăugat dacă se dorește acoperire exhaustivă?"
+    descriere: "Boala Menière / hidrops endolimfatic (IRM cu gadolinium tardiv); malformații/displazii ale urechii interne (bilanț pre-implant cohlear); nevralgie de trigemen (IRM cu secvențe de conflict neuro-vascular)."
+    optiuni:
+      - "Se adaugă"
+      - "Nu se adaugă"
 
 propuneri:
   - subcapitol: "Neuro"

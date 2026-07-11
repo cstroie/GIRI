@@ -16,6 +16,11 @@ discutii:
     optiuni:
       - "Situație proprie"
       - "Rămâne acoperită generic"
+  - titlu: "Topicuri opționale — de adăugat dacă se dorește acoperire exhaustivă?"
+    descriere: "Sindrom dureros de trohanter mare / bursită trohanteriană (Șold); boala Paget osoasă (Diverse); artropatie microcristalină / gută cu DECT (extindere a „Artropatie inflamatorie”)."
+    optiuni:
+      - "Se adaugă"
+      - "Nu se adaugă"
 
 propuneri:
   - subcapitol: "Pumn și mână (subcapitol nou)"
@@ -58,5 +63,25 @@ propuneri:
     referinta: "Cf. ACR Appropriateness Criteria – Osteonecrosis."
     indicatii:
       - {tip: T, examen: "CT", indicatie: "Doar în cazuri particulare", grad: C, doza: "2–3", comentarii: "Alternativă la IRM contraindicat; evaluarea fracturii subcondrale / colapsului capului femural."}
+  - subcapitol: "Diverse"
+    situatie: "Artrită septică"
+    referinta: "Cf. ACR Appropriateness Criteria – Suspected Osteomyelitis, Septic Arthritis, or Soft Tissue Infection."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Epanșament articular, ghidajul puncției articulare (cheia diagnosticului)."}
+      - {tip: M, examen: "IRM", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Extensie osoasă / de părți moi, osteomielită asociată."}
+      - {tip: G, examen: "Radiografie", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Inițial adesea normală; exclude alte cauze."}
+  - subcapitol: "Diverse"
+    situatie: "Fractură de stres / insuficiență (suprasolicitare, non-traumatică)"
+    referinta: "Cf. ACR Appropriateness Criteria – Stress (fatigue/insufficiency) Fracture."
+    indicatii:
+      - {tip: G, examen: "Radiografie", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Adesea normală precoce."}
+      - {tip: M, examen: "IRM", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Cea mai sensibilă (edem osos precoce)."}
+      - {tip: N, examen: "Scintigrafie osoasă", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Alternativă când IRM nu e disponibil."}
+  - subcapitol: "Picior"
+    situatie: "Durere cronică de picior (nevrom Morton, metatarsalgie, disfuncție de tendon tibial posterior)"
+    referinta: "Cf. ACR Appropriateness Criteria – Chronic Foot Pain."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Nevrom Morton, tendinopatii, ghidaj infiltrații."}
+      - {tip: M, examen: "IRM", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Nevrom, disfuncție de tendon tibial posterior, leziuni osteocondrale."}
 
 duplicate: []
