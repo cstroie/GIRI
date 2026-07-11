@@ -21,6 +21,13 @@ OUT_PATH = os.path.join(OUT_DIR, "Decizii-structurale-comune.docx")
 ACCENT = RGBColor(0x1C, 0x5D, 0x8C)
 
 DECIZII = [
+    ("Ierarhia capitolelor — de ce a plecat conținut din capitolul dvs.",
+     "Un rând stă într-un singur capitol, ales după context, în această ordine: "
+     "(1) pacient pediatric → Pediatrie; (2) procedură intervențională → Radiologie "
+     "intervențională; (3) malignitate cunoscută/suspectată → Cancer; (4) traumă "
+     "acută → Traumatisme; (5) altfel → capitolul anatomic. De asta conținutul "
+     "pediatric, oncologic, traumatic sau intervențional din capitolul dvs. anatomic "
+     "s-a mutat — nu a fost șters."),
     ("Radiologie intervențională — capitol unic pentru proceduri",
      "Tot ce e intervențional (biopsii, embolizări, drenaje, angiografii terapeutice) "
      "e consolidat în capitolul „Radiologie intervențională”, pe aparate/sisteme."),
@@ -40,10 +47,13 @@ DECIZII = [
     ("Un rând = un singur „acasă”",
      "Fiecare situație clinică apare într-un singur capitol/subcapitol; fără "
      "trimiteri încrucișate de tipul „vezi și capitolul X”."),
-    ("Ordinea examenelor și a situațiilor clinice",
-     "Ordinea investigațiilor într-o situație e intenționată, neschimbată. "
-     "Situațiile clinice sunt ordonate după flux clinic (acut → cronic → "
-     "screening), nu alfabetic."),
+    ("Ce nu s-a schimbat",
+     "Gradele de indicație, dozele și ordinea examenelor în cadrul unei situații "
+     "nu au fost modificate unilateral. Unde ceva pare greșit, e semnalat ca "
+     "discuție deschisă în pachetul de capitol — nu corectat de noi."),
+    ("Ordinea situațiilor clinice",
+     "Situațiile clinice dintr-un subcapitol sunt ordonate după flux clinic "
+     "(acut → cronic → screening), nu alfabetic."),
 ]
 
 
@@ -59,7 +69,10 @@ def main():
     add_heading(doc, "Decizii structurale comune — toate capitolele", level=1)
     intro = doc.add_paragraph()
     intro.add_run(
-        "Decizii organizatorice comune tuturor capitolelor. Doar de citit."
+        "Prima revizuire a ghidului de la aprobarea din 2021. Runda aceasta: "
+        "curățare structurală, deduplicare și completarea golurilor de conținut — "
+        "nu o rescriere clinică. Decizii organizatorice comune tuturor capitolelor, "
+        "de citit înainte de pachetul dvs. de capitol."
     ).italic = True
 
     for titlu, text in DECIZII:
