@@ -1727,15 +1727,20 @@ de mai sus, verificate live). Gradele orientative.
 |---|---|---|---|---|---|
 | N | PET-CT (⁶⁸Ga-DOTATATE) | Indicat | B | 4/4 | Sensibilitate net superioară scintigrafiei MIBG (~93% vs ~47% per-pacient), inclusiv pentru boala metastatică/extra-adrenală. mIBG rămâne util adjuvant (planificarea terapiei cu ¹³¹I-MIBG). |
 
-> **§24.B rămâne parțial NON-insertion-ready:** coborârea gradului scintigrafiei **mIBG**
-> (feocromocitom) și a scintigrafiei **I131-Norcolesterol** (sdr. Conn / Cushing) = **regradare** a
-> unor rânduri existente → decizie de editori (nu se modifică grad singur). Nu produc rânduri noi.
-> **§24.C** (varicocel, separarea „durere/masă scrotală") = rafinări informative, fără draft de rând.
+> ✅ **§24.B REZOLVAT și APLICAT în `GHID.csv` (2026-07-10, decizie editor):**
+> - **NR 862** Scintigrafie **mIBG** (feocromocitom): Indicație **„Indicat" → „Doar în cazuri
+>   particulare"** (grad B neschimbat); comentariu completat (DOTATATE = primă linie funcțională,
+>   mIBG adjuvant pentru terapia cu 131I-MIBG).
+> - **NR 1340** (nou) Scintigrafie/**PET-CT (68Ga-DOTATATE)**, feocromocitom: **„Indicat", grad B**,
+>   inserat (rândul (3) draftat aici, cu titlul corect al modalității).
+> - **NR 855** Scintigrafie **I131-Norcolesterol** (sdr. Conn): Indicație **„Indicat" → „Doar în
+>   cazuri particulare"** (grad B neschimbat); comentariu completat (rol ancilar; CT + AVS = centrale).
+> - **NR 860** (Norcolesterol la sdr. Cushing) — neschimbat (era deja „Doar cu aviz specializat", rol
+>   diferit ectopic/bilateral). **§24.C** (varicocel, „durere/masă scrotală") = rafinări informative.
 
-> Status: **niciun rând nou inserat, niciun grad modificat** în `GHID.csv`. Se așteaptă
-> decizia editorilor pentru 24.A (situații noi) și 24.B (reconsiderare grad scintigrafie
-> suprarenaliană / adăugare DOTATATE); apoi se adaugă/ajustează cu grade validate pe sursă
-> citabilă și se consemnează în `CHANGELOG.md`. 24.C rămas informativ, prioritate scăzută.
+> Status: **§24.B aplicat** (2 coborâri de indicație + 1 rând DOTATATE nou); grad (nivel de evidență)
+> neschimbat peste tot. §24.A (situații noi) rămâne draft (§24.D 1–2) până la decizie. Consemnat în
+> `CHANGELOG.md` §7.
 
 ---
 

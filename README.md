@@ -7,7 +7,7 @@ de modificări versionat. Acest repo conține **doar datele** — aplicația de 
 
 ## Fișierul principal
 
-**`GHID.csv`** — 1339 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
+**`GHID.csv`** — 1340 rânduri (fără antet) × 13 coloane, UTF-8, cu diacritice românești
 corecte (ș/ț cu virgulă, **nu** cedilă). Delimitator virgulă, câmpuri cu text între
 ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
@@ -59,7 +59,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | `C` | Consens / dovezi limitate |
 | `?` | Neprecizat |
 
-## Structura pe capitole (1339 rânduri)
+## Structura pe capitole (1340 rânduri)
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
@@ -69,14 +69,14 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | 4 | Aparat cardiovascular | 578–664 | 87 |
 | 5 | Torace | 665–728 | 64 |
 | 6 | Aparat digestiv | 729–796 | 68 |
-| 7 | Aparat uro-genital și glande suprarenale | 797–864 | 68 |
+| 7 | Aparat uro-genital și glande suprarenale | 797–864, 1340 | 69 |
 | 8 | Obstetrică și ginecologie | 865–890 | 26 |
-| 9 | Sân | 891–946 | 56 |
+| 9 | Sân | 891–946, 1178, 1192 | 58 |
 | 10 | Cap | 947–1026 | 80 |
 | 11 | Gât (părți moi) | 1027–1059 | 33 |
 | 12 | Coloană vertebrală | 1060–1098 | 39 |
 | 13 | Aparat locomotor | 1099–1163 | 65 |
-| 14 | Radiologie intervențională | 1164–1339 | 176 |
+| 14 | Radiologie intervențională | 1164–1339 (fără 1178, 1192) | 174 |
 
 ## Documentație și review
 

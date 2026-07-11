@@ -1134,6 +1134,26 @@ Capitol: **70 → 65 rânduri** (1 mutat la Cancer, 4 comasate). NR.CRT rămân 
 ## 7. Aparat uro-genital și glande suprarenale
 _NR 807–875_
 
+### MODIFICAT + ADĂUGAT — Glande suprarenale: modernizarea scintigrafiilor (2026-07-10, decizie editor)
+
+Aliniere la practica curentă (EANM/SNMMI pentru feocromocitom; Endocrine Society pentru sdr. Conn).
+**Grad (nivel de evidență) neschimbat (B) peste tot — s-a modificat doar puterea Indicației**, ca la
+precedentele ATTR (§4) și scintigrafia osoasă (§3):
+
+- **NR 862** — Scintigrafie **mIBG** (feocromocitom): Indicație **„Indicat" → „Doar în cazuri
+  particulare"**; comentariu completat (68Ga-DOTATATE = testul funcțional de primă linie, mIBG
+  adjuvant pentru planificarea terapiei cu 131I-MIBG).
+- **NR 1340 (nou)** — **PET-CT (68Ga-DOTATATE)** la feocromocitom, **„Indicat", grad B**, Doze 4/4,
+  Terapeutic Nu; inserat lângă mIBG (sensibilitate ~93% vs ~47% per-pacient, inclusiv boală
+  metastatică/extra-adrenală). Ref. col. 10: studii comparative 68Ga-DOTATATE vs 131I-MIBG (EANM/SNMMI).
+- **NR 855** — Scintigrafie **I131-Norcolesterol** (hiperaldosteronism primar / sdr. Conn):
+  Indicație **„Indicat" → „Doar în cazuri particulare"**; comentariu completat (rol ancilar — CT
+  suprarenalian + cateterism venos suprarenalian/AVS sunt centrale; scintigrafia doar când AVS eșuează).
+- **NR 860** (Norcolesterol la sdr. Cushing) — neatins (era deja „Doar cu aviz specializat", rol
+  ectopic/bilateral diferit).
+
+Total ghid 1339→1340 rânduri. Vezi `EDITORIAL-decisions.md` §24.B. `GHID.html` regenerat.
+
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Aparat urogenital.
 
 ### MODIFICAT — Review capitol Aparat uro-genital și glande suprarenale (2026-07-09)
