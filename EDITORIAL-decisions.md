@@ -434,19 +434,16 @@ limitată (WebSearch a atins limita de sesiune); recomandările vin din cunoașt
   2026-07-09): acoperire confirmată la situația „Hipertensiune arterială (la adult tânăr sau
   unde pacientul nu răspunde la tratamentul medical)" (Eco-Doppler, Scintigrafie renală,
   AngioRM, AngioCT). Fără gol de conținut.
-- ⏳ **Boală carotidiană / stenoză carotidiană (AVC/AIT)** — deja parțial în **Cap** (NR 969, AVC
-  tranzitor) și Traumatisme; de verificat completitudinea la parsarea capitolului Cap, nu se
-  adaugă la Cardiovascular.
-- ⏳ **Ischemie mezenterică (diagnostic)** — home **Aparat digestiv** (forma cronică e deja la
-  RI, NR 1293); de verificat.
-- ⏳ **Cardio-oncologie / cardiotoxicitate** (monitorizarea FEVS sub terapie oncologică: eco cu
-  strain/GLS, IRM cardiac, ventriculografie izotopică) — **absentă complet** (ESC 2022
-  cardio-oncologie). **Decizie de home:** Cancer vs Cardiovascular.
-- ⏳ **Vasculite de vase mari** (arterită Takayasu, arterită cu celule gigante) — eco („halo sign"),
-  angio-IRM/CT de aortă, FDG-PET (recomandările EULAR). Sistemic apare doar pulmonar în **Torace**
-  (NR 692–694); afectarea aortică/vase mari nu e acoperită vascular. Decizie de home.
-- ⏳ **Urmărire post-EVAR/TEVAR aortic (endoleak)** — CT de supraveghere a protezelor aortice.
-  Absentă. Home: Cardiovascular (diagnostic) vs RI (urmărire de procedură).
+- ✅ **Boală carotidiană / stenoză carotidiană (AVC/AIT)** — home **Cap › Neuro** (decis §40);
+  nu se adaugă la Cardiovascular (doar check de completitudine la parsarea Cap).
+- ✅ **Ischemie mezenterică (diagnostic)** — home **Aparat digestiv › Intestin subțire și colon**;
+  draftată la **§20.4 (4)** (forma cronică terapeutică e deja la RI, NR 1293).
+- ✅ **Cardio-oncologie / cardiotoxicitate** — home **Cardiovascular › Cord** (decis editor,
+  2026-07-10); draftată la **§13.D (6)**. Ref.: 2022 ESC Cardio-oncology.
+- ✅ **Vasculite de vase mari** (Takayasu, arterită cu celule gigante) — home **Cardiovascular ›
+  Sistem vascular** (decis editor); draftată la **§13.D (7)**. Ref.: EULAR 2023 imaging in LVV.
+- ✅ **Urmărire post-EVAR/TEVAR aortic (endoleak)** — home **Cardiovascular › Sistem vascular**
+  (decis editor; supravegherea CT = diagnostic → capitol anatomic); draftată la **§13.D (8)**.
 
 ### 13.C Parțial acoperite — de îmbogățit (nu neapărat situație nouă)
 
@@ -503,9 +500,37 @@ Fibrillation*; HRS 2014 *Expert Consensus – Cardiac Sarcoidosis*; NICE CG95. G
 |---|---|---|---|---|---|
 | T | Angio-CT „de la aortă la arterele femurale" | Indicat | B | 2/3 | Măsurarea inelului aortic (annulus sizing), anatomia rădăcinii aortice și a coronarelor, evaluarea căilor de acces ilio-femural. Standard pre-TAVI. |
 
-> **§13.B rămâne NON-insertion-ready** — fiecare punct (boală carotidiană, ischemie mezenterică,
-> cardio-oncologie, vasculite de vase mari, urmărire post-EVAR) e blocat pe o **decizie de home**
-> cross-capitol; nu se poate drafta un rând complet până nu se fixează capitolul-gazdă. Nedraftat intenționat.
+#### (6) `Cord` — **Cardiotoxicitate sub terapie oncologică (monitorizarea funcției cardiace)** — din §13.B, home decis: Cardiovascular
+`Alte informații =` „Cf. 2022 ESC Guidelines on Cardio-oncology."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Ecocardiografie (cu strain / GLS) | Indicat | A | 0/0 | Monitorizarea FEVS și a deformării longitudinale globale (GLS) înainte/în timpul/după terapia cardiotoxică (antracicline, anti-HER2, inhibitori de checkpoint). Scăderea relativă a GLS >15% față de bazal = disfuncție cardiacă indusă de tratament (CTRCD). |
+| M | IRM cardiac | Doar în cazuri particulare | B | 0/0 | Când ecocardiografia e neconcludentă/discordantă: FEVS de referință, edem/fibroză (miocardită la imunoterapie). |
+| N | Angioscintigrafie cardiacă (ventriculografie izotopică, MUGA) | Doar în cazuri particulare | B | 3/3 | Alternativă pentru FEVS când eco/IRM nu sunt disponibile sau concludente. |
+
+#### (7) `Sistem vascular` — **Vasculită de vase mari (arterită Takayasu / arterită cu celule gigante)** — din §13.B, home decis: Cardiovascular
+`Alte informații =` „Cf. EULAR – Imaging in Large Vessel Vasculitis: 2023 Update."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| E | Eco-Doppler artere temporale și axilare | Indicat | A | 0/0 | Primă intenție în arterita cu celule gigante: semnul „haloului" (perete îngroșat hipoecogen); includerea arterelor axilare crește detecția (EULAR 2023). |
+| M | Angio-IRM aortă și ramuri | Indicat | B | 0/0 | Modalitatea preferată în arterita Takayasu: îngroșare parietală, edem, stenoze; monitorizare fără iradiere. |
+| T | Angio-CT aortă și ramuri | Doar în cazuri particulare | B | 2/3 | Alternativă la IRM: îngroșare parietală, stenoze/anevrisme. |
+| N | PET-CT (F18-FDG) | Doar cu aviz specializat | B | 4/4 | Captarea parietală = activitate inflamatorie; util la diagnostic incert și la evaluarea activității/recidivei. |
+
+#### (8) `Sistem vascular` — **Urmărire post-EVAR/TEVAR aortic (endoleak)** — din §13.B, home decis: Cardiovascular
+`Alte informații =` „Cf. ESVS 2019 – Management of Abdominal Aorto-iliac Artery Aneurysms."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
+|---|---|---|---|---|---|
+| T | Angio-CT aortic (faze arterială și tardivă) | Indicat | B | 2/3 | Standard de supraveghere a endoprotezei: detecția/clasificarea endoleak-urilor (tip I–V), creșterea sacului anevrismal, migrarea protezei. Achiziție bifazică. |
+| E | Eco-Doppler cu substanță de contrast (CEUS) | Doar în cazuri particulare | B | 0/0 | Alternativă fără iradiere/contrast iodat pentru supravegherea de rutină; sensibilă pentru endoleak tip II. |
+| M | Angio-IRM | Doar în cazuri particulare | B | 0/0 | Alternativă la CT la insuficiență renală / alergie la contrast iodat (proteze compatibile IRM). |
+
+> ✅ **§13.B REZOLVAT (2026-07-10, decizii de home confirmate de editor):**
+> - **Boală/stenoză carotidiană** → deja la **Cap › Neuro** (§40) — nu se adaugă la Cardiovascular (doar check de completitudine la Cap).
+> - **Ischemie mezenterică (diagnostic)** → deja draftată la **§20.4 (4)**, `Aparat digestiv › Intestin subțire și colon`.
+> - **Cardio-oncologie** → `Cardiovascular › Cord` — draftată la **(6)** mai sus.
+> - **Vasculite de vase mari** → `Cardiovascular › Sistem vascular` — draftată la **(7)**.
+> - **Urmărire post-EVAR** → `Cardiovascular › Sistem vascular` — draftată la **(8)**.
 
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (ESC/ACR/RCR) și se consemnează în CHANGELOG.
