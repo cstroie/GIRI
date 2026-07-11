@@ -1727,20 +1727,27 @@ de mai sus, verificate live). Gradele orientative.
 |---|---|---|---|---|---|
 | N | PET-CT (⁶⁸Ga-DOTATATE) | Indicat | B | 4/4 | Sensibilitate net superioară scintigrafiei MIBG (~93% vs ~47% per-pacient), inclusiv pentru boala metastatică/extra-adrenală. mIBG rămâne util adjuvant (planificarea terapiei cu ¹³¹I-MIBG). |
 
-> ✅ **§24.B REZOLVAT și APLICAT în `GHID.csv` (2026-07-10, decizie editor):**
+> ✅ **§24.B REZOLVAT și APLICAT în `GHID.csv` (2026-07-10, decizie editor; rafinat pe EANM/SNMMI 2019):**
 > - **NR 862** Scintigrafie **mIBG** (feocromocitom): Indicație **„Indicat" → „Doar în cazuri
->   particulare"** (grad B neschimbat); comentariu completat (DOTATATE = primă linie funcțională,
->   mIBG adjuvant pentru terapia cu 131I-MIBG).
-> - **NR 1340** (nou) Scintigrafie/**PET-CT (68Ga-DOTATATE)**, feocromocitom: **„Indicat", grad B**,
->   inserat (rândul (3) draftat aici, cu titlul corect al modalității).
+>   particulare"** (grad B neschimbat); comentariu **corectat** — imagistica funcțională PET
+>   preferată (FDOPA la feo adrenal sporadic; DOTATATE la paragangliom/metastatic/ereditar), mIBG
+>   rezervat teranosticului (131I-MIBG).
+> - **NR 863** (nou) **PET-CT (68Ga-DOTATATE)**: **„Indicat", grad B** — de elecție pentru
+>   paragangliom/metastatic/ereditar (SDHx) și selecție PRRT.
+> - **NR 864** (nou) **PET-CT (18F-FDOPA)**: **„Indicat", grad B** — trasorul **preferat de ghid**
+>   pentru feocromocitomul adrenal sporadic (disponibilitate redusă în RO; DOTATATE = alternativă).
 > - **NR 855** Scintigrafie **I131-Norcolesterol** (sdr. Conn): Indicație **„Indicat" → „Doar în
 >   cazuri particulare"** (grad B neschimbat); comentariu completat (rol ancilar; CT + AVS = centrale).
-> - **NR 860** (Norcolesterol la sdr. Cushing) — neschimbat (era deja „Doar cu aviz specializat", rol
->   diferit ectopic/bilateral). **§24.C** (varicocel, „durere/masă scrotală") = rafinări informative.
+> - **NR 860** (Norcolesterol la sdr. Cushing) — neschimbat. **§24.C** = rafinări informative.
+>
+> ⚠️ **Nota de trasabilitate / autocorecție:** formularea inițială „DOTATATE = testul funcțional de
+> primă linie" era **inexactă** pentru feocromocitomul adrenal sporadic (EANM/SNMMI 2019 preferă
+> **18F-FDOPA**; DOTATATE excelează la paragangliom/metastatic/ereditar). Corectat + adăugat FDOPA.
+> Coborârea Norcolesterolului (Conn) e confirmată de Endocrine Society (CT + AVS centrale) — corectă.
 
-> Status: **§24.B aplicat** (2 coborâri de indicație + 1 rând DOTATATE nou); grad (nivel de evidență)
-> neschimbat peste tot. §24.A (situații noi) rămâne draft (§24.D 1–2) până la decizie. Consemnat în
-> `CHANGELOG.md` §7.
+> Status: **§24.B aplicat** (2 coborâri de indicație + **2 rânduri PET noi**: DOTATATE 863, FDOPA 864);
+> grad (nivel de evidență) B neschimbat peste tot. §24.A (situații noi) rămâne draft (§24.D 1–2).
+> Consemnat în `CHANGELOG.md` §7. Ghid 1339→**1341** rânduri (renumerotat).
 
 ---
 

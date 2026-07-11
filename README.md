@@ -15,7 +15,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 | # | Coloană | Descriere |
 |---|---|---|
-| 1 | `NR.CRT` | ID de rând, secvențial **1..1340** (renumerotat 2026-07-10, după readucerea intervenționalului mamar în Sân și adăugarea PET-CT DOTATATE). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
+| 1 | `NR.CRT` | ID de rând, secvențial **1..1341** (renumerotat 2026-07-10, după readucerea intervenționalului mamar în Sân și adăugarea PET-CT DOTATATE + FDOPA la feocromocitom). **Doar identificator**, fără semnificație clinică. Între renumerotări poate deveni necontiguu (găuri după ștergeri; ID-uri noi la finalul secvenței); renumerotare doar la cerere explicită. |
 | 2 | `Capitol` | Unul din cele 14 capitole (vezi mai jos). |
 | 3 | `Subcapitol` | Grupare în cadrul capitolului. |
 | 4 | `Situația Clinică` | Scenariul clinic pentru care se recomandă (sau nu) investigația. |
@@ -59,7 +59,7 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | `C` | Consens / dovezi limitate |
 | `?` | Neprecizat |
 
-## Structura pe capitole (1340 rânduri)
+## Structura pe capitole (1341 rânduri)
 
 | # | Capitol | NR.CRT | Rânduri |
 |---|---|---|---|
@@ -69,14 +69,14 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 | 4 | Aparat cardiovascular | 578–664 | 87 |
 | 5 | Torace | 665–728 | 64 |
 | 6 | Aparat digestiv | 729–796 | 68 |
-| 7 | Aparat uro-genital și glande suprarenale | 797–865 | 69 |
-| 8 | Obstetrică și ginecologie | 866–891 | 26 |
-| 9 | Sân | 892–949 | 58 |
-| 10 | Cap | 950–1029 | 80 |
-| 11 | Gât (părți moi) | 1030–1062 | 33 |
-| 12 | Coloană vertebrală | 1063–1101 | 39 |
-| 13 | Aparat locomotor | 1102–1166 | 65 |
-| 14 | Radiologie intervențională | 1167–1340 | 174 |
+| 7 | Aparat uro-genital și glande suprarenale | 797–866 | 70 |
+| 8 | Obstetrică și ginecologie | 867–892 | 26 |
+| 9 | Sân | 893–950 | 58 |
+| 10 | Cap | 951–1030 | 80 |
+| 11 | Gât (părți moi) | 1031–1063 | 33 |
+| 12 | Coloană vertebrală | 1064–1102 | 39 |
+| 13 | Aparat locomotor | 1103–1167 | 65 |
+| 14 | Radiologie intervențională | 1168–1341 | 174 |
 
 ## Documentație și review
 

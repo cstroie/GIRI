@@ -161,14 +161,14 @@ pe tot fișierul. **59 de modificări** pe rânduri din 8 capitole. Validare ver
 - **Reversal:** anulează nota „NENORMALIZAT (intenționat)" din reviewul capitolului Cap
   (§10) — decizia a fost luată ulterior de editor.
 
-### RENUMEROTAT — a opta renumerotare NR.CRT → contiguu 1..1340 (2026-07-10, la cerere)
+### RENUMEROTAT — a opta renumerotare NR.CRT → contiguu 1..1341 (2026-07-10, la cerere)
 
-După readucerea intervenționalului mamar în Sân (NR 1178/1192 din RI, +2/−2) și adăugarea
-rândului PET-CT 68Ga-DOTATATE la feocromocitom (+1), NR.CRT rămăsese necontiguu. La cerere
-explicită, renumerotare pe ordinea fizică → **NR.CRT 1..1340**. Modificare pur mecanică (doar
-col. 1), niciun conținut atins; `validate.py` verde; `GHID.html` regenerat. Intervalele de ID
-per capitol redevin contigue — vezi tabelul de structură din `README.md` (ex. Aparat uro-genital
-797–865, Sân 892–949, RI 1167–1340).
+După readucerea intervenționalului mamar în Sân (NR 1178/1192 din RI, +2/−2) și adăugarea a
+**3 rânduri PET la feocromocitom** (68Ga-DOTATATE + 18F-FDOPA; +1 net față de renumerotarea
+anterioară), NR.CRT rămăsese necontiguu. Renumerotare pe ordinea fizică → **NR.CRT 1..1341**.
+Modificare pur mecanică (doar col. 1), niciun conținut atins; `validate.py` verde; `GHID.html`
+regenerat. Intervalele de ID per capitol redevin contigue — vezi tabelul din `README.md`
+(ex. Aparat uro-genital 797–866, Sân 893–950, RI 1168–1341).
 
 ### RENUMEROTAT — a șaptea renumerotare NR.CRT → contiguu 1..1421 (2026-07-10, la cerere)
 
@@ -1150,18 +1150,27 @@ Aliniere la practica curentă (EANM/SNMMI pentru feocromocitom; Endocrine Societ
 precedentele ATTR (§4) și scintigrafia osoasă (§3):
 
 - **NR 862** — Scintigrafie **mIBG** (feocromocitom): Indicație **„Indicat" → „Doar în cazuri
-  particulare"**; comentariu completat (68Ga-DOTATATE = testul funcțional de primă linie, mIBG
-  adjuvant pentru planificarea terapiei cu 131I-MIBG).
-- **NR 1340 (nou)** — **PET-CT (68Ga-DOTATATE)** la feocromocitom, **„Indicat", grad B**, Doze 4/4,
-  Terapeutic Nu; inserat lângă mIBG (sensibilitate ~93% vs ~47% per-pacient, inclusiv boală
-  metastatică/extra-adrenală). Ref. col. 10: studii comparative 68Ga-DOTATATE vs 131I-MIBG (EANM/SNMMI).
+  particulare"**; comentariu corectat conform **EANM/SNMMI 2019** — imagistica funcțională PET
+  (18F-FDOPA preferat pentru feocromocitomul adrenal sporadic; 68Ga-DOTATATE pentru paragangliom/
+  metastatic/ereditar) a devenit metoda preferată, mIBG rezervat cuplajului teranostic (131I-MIBG).
+- **NR 863 (nou)** — **PET-CT (68Ga-DOTATATE)**, feocromocitom, **„Indicat", grad B**, Doze 4/4,
+  Terapeutic Nu; de elecție pentru paragangliom / boală metastatică / ereditară (SDHx) și selecția
+  pentru PRRT. Ref. col. 10: EANM/SNMMI 2019.
+- **NR 864 (nou)** — **PET-CT (18F-FDOPA)**, feocromocitom, **„Indicat", grad B**, Doze 4/4,
+  Terapeutic Nu; trasorul PET **preferat de ghid** pentru feocromocitomul adrenal sporadic
+  (disponibilitate redusă în RO — DOTATATE = alternativa mai accesibilă). Ref. col. 10: EANM/SNMMI 2019.
 - **NR 855** — Scintigrafie **I131-Norcolesterol** (hiperaldosteronism primar / sdr. Conn):
   Indicație **„Indicat" → „Doar în cazuri particulare"**; comentariu completat (rol ancilar — CT
   suprarenalian + cateterism venos suprarenalian/AVS sunt centrale; scintigrafia doar când AVS eșuează).
 - **NR 860** (Norcolesterol la sdr. Cushing) — neatins (era deja „Doar cu aviz specializat", rol
   ectopic/bilateral diferit).
 
-Total ghid 1339→1340 rânduri. Vezi `EDITORIAL-decisions.md` §24.B. `GHID.html` regenerat.
+_Corecție (2026-07-10): la re-verificare pe EANM/SNMMI 2019, formularea inițială „DOTATATE = primă
+linie" a fost rafinată — pentru feocromocitomul adrenal sporadic ghidul preferă 18F-FDOPA; DOTATATE
+excelează la paragangliom/metastatic/ereditar. Adăugat rândul FDOPA._
+
+Total ghid 1339→**1341** rânduri (2 coborâri de indicație + 2 rânduri PET noi). Vezi
+`EDITORIAL-decisions.md` §24.B. `GHID.html` regenerat.
 
 - **MUTAT —** 19 rânduri intervenționale relocate la RI › Aparat urogenital.
 
