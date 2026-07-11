@@ -151,7 +151,7 @@ confirmate real (2026-07-10):** ACR AC *Hematuria-Child*, *Osteomyelitis or Sept
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
 |---|---|---|---|---|---|
 | E | Ecografie reno-vezicală | Indicat | A | 0/0 | Primă intenție la copil pentru litiază: detectează calculii și hidronefroza, fără iradiere. |
-| T | CT low-dose fără substanță de contrast | Doar cu aviz specializat | B | 2/2 | Când ecografia e neconcludentă și persistă suspiciunea clinică; protocol low-dose (minimizarea iradierii la copil). |
+| T | CT fără substanță de contrast, cu doză redusă | Doar cu aviz specializat | B | 2/2 | Când ecografia e neconcludentă și persistă suspiciunea clinică; protocol cu doză redusă (minimizarea iradierii la copil). |
 
 #### (8) `Pediatrie › Gât și coloană vertebrală` — **Mase cervicale congenitale (chist tireoglos, chist branhial)**
 `Alte informații =` „Cf. ACR Appropriateness Criteria – Neck Mass/Adenopathy (considerații pediatrice)."
@@ -588,7 +588,7 @@ explicit — propus grad B unde ghidul dă recomandare fermă). Ordinea examenel
 `Alte informații =` „Cf. ACR Appropriateness Criteria – Penetrating Torso Trauma (2024)."
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
 |---|---|---|---|---|---|
-| T | CT torace cu reconstrucții coronale/sagitale | Indicat | B | 2/3 | Entitate frecvent ratată: hernierea viscerelor abdominale, „collar sign", discontinuitatea diafragmatică. Reconstrucțiile multiplanare sunt esențiale. |
+| T | CT torace cu reconstrucții coronale/sagitale | Indicat | B | 2/3 | Entitate frecvent ratată: hernierea viscerelor abdominale, semnul gulerului („collar sign"), discontinuitatea diafragmatică. Reconstrucțiile multiplanare sunt esențiale. |
 
 #### (3b) `Torace` — **Fractură de stern**
 `Alte informații =` „Cf. RCR iRefer; ACR Appropriateness Criteria (trauma toracică)."
@@ -926,15 +926,15 @@ jos rămân **schițe** până la decizia explicită de completare.
 *Situația „Diagnostic":*
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
 |---|---|---|---|---|---|
-| T | CT whole-body low-dose | Indicat | A | 2/3 | Primă linie pentru boala osoasă litică (mai sensibil decât radiografia convențională / bilanțul osos clasic). |
-| M | IRM (coloană / whole-body) | Indicat | B | 0/0 | La CT neconcludent sau fără leziuni definitorii; superior pentru afectarea medulară difuză și pentru leziunile focale („>1 leziune focală" = criteriu de boală). |
+| T | CT de corp întreg cu doză redusă | Indicat | A | 2/3 | Primă linie pentru boala osoasă litică (mai sensibil decât radiografia convențională / bilanțul osos clasic). |
+| M | IRM (coloană / de corp întreg) | Indicat | B | 0/0 | La CT neconcludent sau fără leziuni definitorii; superior pentru afectarea medulară difuză și pentru leziunile focale („>1 leziune focală" = criteriu de boală). |
 | N | PET-CT (F18-FDG) | Indicat | B | 4/4 | Evaluare funcțională inițială, boală extramedulară; bază pentru evaluarea ulterioară a răspunsului. |
 
 *Situația „Monitorizare":*
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
 |---|---|---|---|---|---|
 | N | PET-CT (F18-FDG) | Indicat | B | 4/4 | Standard pentru evaluarea răspunsului la tratament (metabolic) și a bolii reziduale imagistice. |
-| M | IRM (whole-body) | Doar în cazuri particulare | B | 0/0 | Monitorizarea leziunilor medulare/difuze la caz selectat. |
+| M | IRM (de corp întreg) | Doar în cazuri particulare | B | 0/0 | Monitorizarea leziunilor medulare/difuze la caz selectat. |
 
 #### (4) `Tumori ale aparatului locomotor` — fază **Monitorizare** lipsă (§16.26)
 `Alte informații =` „Cf. NCCN Bone Cancer / Soft Tissue Sarcoma; ACR Appropriateness Criteria."
@@ -1089,7 +1089,7 @@ Respiratory Illness* / *Dyspnea*; RCR iRefer. Gradele orientative.
 `Alte informații =` „Cf. ACR Appropriateness Criteria – Lung Cancer Screening (2022); USPSTF 2021."
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
 |---|---|---|---|---|---|
-| T | CT torace low-dose fără substanță de contrast | Indicat | A | 2/2 | Screening anual la 50–80 ani cu ≥20 pachete-an, fumători activi sau opriți de <15 ani. Nodulii se gestionează pe protocolul din „Nodul pulmonar solitar urmărire". |
+| T | CT torace fără substanță de contrast, cu doză redusă | Indicat | A | 2/2 | Screening anual la 50–80 ani cu ≥20 pachete-an, fumători activi sau opriți de <15 ani. Nodulii se gestionează pe protocolul din „Nodul pulmonar solitar urmărire". |
 | G | Radiografie toracică | Neindicat | A | 1/1 | Insensibilă ca test de screening — mesaj util (NU înlocuiește LDCT). |
 
 #### (2) `Mediastin` (subcapitol nou) — **Masă / lărgire mediastinală**
@@ -1123,7 +1123,7 @@ Respiratory Illness* / *Dyspnea*; RCR iRefer. Gradele orientative.
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
 |---|---|---|---|---|---|
 | E | Ecografie toracică | Indicat | B | 0/0 | Cloazonări, ghidajul drenajului. |
-| T | CT torace cu substanță de contrast | Indicat | B | 2/3 | Colecție organizată, „split pleura sign", ghidajul drenajului. |
+| T | CT torace cu substanță de contrast | Indicat | B | 2/3 | Colecție organizată, semnul pleurei divizate („split pleura sign"), ghidajul drenajului. |
 
 > De decis: situație proprie vs. notă în „Epanșament pleural".
 
@@ -1131,7 +1131,7 @@ Respiratory Illness* / *Dyspnea*; RCR iRefer. Gradele orientative.
 `Alte informații =` „Cf. RCR iRefer; ACR Appropriateness Criteria."
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
 |---|---|---|---|---|---|
-| T | HRCT torace fără substanță de contrast | Indicat | A | 2/3 | Examen de referință. |
+| T | CT torace de înaltă rezoluție (HRCT), fără substanță de contrast | Indicat | A | 2/3 | Examen de referință. |
 | G | Radiografie toracică | Doar în cazuri particulare | B | 1/1 | Insensibilă. |
 
 > De decis: se separă de „Bronhoree cronică" (care menționează deja „dilatații bronșice") sau rămâne acolo.
