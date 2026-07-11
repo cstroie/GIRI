@@ -2,8 +2,8 @@
 """Generează pachetele .docx de trimis editorilor, câte unul per capitol.
 
 Fiecare pachet conține: modificări deja aplicate (informativ), discuții
-deschise, propuneri de rânduri noi și duplicate de rezolvat — preluate
-dintr-un fișier YAML de conținut distilat, unul per capitol, în
+deschise, propuneri noi și duplicate de rezolvat — preluate dintr-un
+fișier YAML de conținut distilat, unul per capitol, în
 tools/editor_content/<NN-capitol>.yaml. Conținutul curent al capitolului NU
 e reprodus în docx (vine din GHID.csv, copiat separat înainte de trimitere).
 
@@ -148,9 +148,9 @@ def add_open_questions(doc, items):
 
 
 def add_draft_rows(doc, groups):
-    add_heading(doc, "3. Rânduri noi propuse", level=2)
+    add_heading(doc, "3. Propuneri noi", level=2)
     if not groups:
-        doc.add_paragraph("(nicio propunere de rând nou în acest capitol)")
+        doc.add_paragraph("(nicio propunere nouă în acest capitol)")
         return
     doc.add_paragraph("Grade și doze orientative — de validat clinic.")
     for group in groups:

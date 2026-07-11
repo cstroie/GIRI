@@ -22,35 +22,34 @@ ACCENT = RGBColor(0x1C, 0x5D, 0x8C)
 
 DECIZII = [
     ("Ierarhia capitolelor — de ce a plecat conținut din capitolul dvs.",
-     "Un rând stă într-un singur capitol, ales după context, în această ordine: "
-     "(1) pacient pediatric → Pediatrie; (2) procedură intervențională → Radiologie "
+     "O situație clinică stă într-un singur capitol. Logica: ghidul urmează cum "
+     "gândește clinicianul — sau rezidentul/studentul, cui i se adresează ghidul — "
+     "în fața unui caz: mai întâi contextul, apoi anatomia. Ordinea: (1) pacient "
+     "pediatric → Pediatrie; (2) procedură intervențională → Radiologie "
      "intervențională; (3) malignitate cunoscută/suspectată → Cancer; (4) traumă "
      "acută → Traumatisme; (5) altfel → capitolul anatomic. De asta conținutul "
      "pediatric, oncologic, traumatic sau intervențional din capitolul dvs. anatomic "
-     "s-a mutat — nu a fost șters."),
+     "s-a mutat — nu a fost șters. Senologia, ca și pediatria, e considerată separat: "
+     "tot ce ține de sân (inclusiv intervențional și cancer de sân) rămâne în "
+     "capitolul „Sân”, indiferent de regulile de mai sus."),
     ("Radiologie intervențională — capitol unic pentru proceduri",
      "Tot ce e intervențional (biopsii, embolizări, drenaje, angiografii terapeutice) "
      "e consolidat în capitolul „Radiologie intervențională”, pe aparate/sisteme."),
-    ("Excepție — senologie",
-     "Intervenționalul mamar (biopsie percutanată, biopsie ganglionară axilară, "
-     "localizare preoperatorie, drenaj de abces) rămâne în capitolul „Sân”."),
     ("Excepție — ERCP",
      "ERCP rămâne în capitolul de origine, marcat „Terapeutic = Da”."),
-    ("Cancerul de sân rămâne în „Sân”",
-     "Nu e mutat la capitolul „Cancer” — rămâne în „Sân”, subcapitolul „Cancer de sân”."),
     ("Coloană nouă „Terapeutic” (Da/Nu)",
      "Da = rol terapeutic, chiar dacă e și diagnostic (ex. embolizare, ablație, "
      "drenaj = Da; biopsie, angiografie diagnostică = Nu)."),
     ("NR.CRT nu are semnificație clinică",
-     "Identificator secvențial de rând, renumerotat pe parcursul revizuirii. "
-     "Referiți-vă la rânduri prin „Capitol + Situație clinică”, nu prin număr."),
-    ("Un rând = un singur „acasă”",
+     "Identificator secvențial, renumerotat pe parcursul revizuirii. Referiți-vă "
+     "la situații prin „Capitol + Situație clinică”, nu prin număr."),
+    ("O situație clinică = un singur „acasă”",
      "Fiecare situație clinică apare într-un singur capitol/subcapitol; fără "
      "trimiteri încrucișate de tipul „vezi și capitolul X”."),
     ("Ce nu s-a schimbat",
      "Gradele de indicație, dozele și ordinea examenelor în cadrul unei situații "
      "nu au fost modificate unilateral. Unde ceva pare greșit, e semnalat ca "
-     "discuție deschisă în pachetul de capitol — nu corectat de noi."),
+     "discuție deschisă în pachetul de capitol."),
     ("Ordinea situațiilor clinice",
      "Situațiile clinice dintr-un subcapitol sunt ordonate după flux clinic "
      "(acut → cronic → screening), nu alfabetic."),
@@ -69,15 +68,19 @@ def main():
     add_heading(doc, "Decizii structurale comune — toate capitolele", level=1)
     intro = doc.add_paragraph()
     intro.add_run(
-        "Prima revizuire a ghidului de la aprobarea din 2021. Runda aceasta: "
-        "curățare structurală, deduplicare și completarea golurilor de conținut — "
-        "nu o rescriere clinică. Decizii organizatorice comune tuturor capitolelor, "
+        "Revizie a ghidului aprobat în 2021: curățare structurală, deduplicare, "
+        "completarea golurilor de conținut. Decizii comune tuturor capitolelor — "
         "de citit înainte de pachetul dvs. de capitol."
     ).italic = True
 
     for titlu, text in DECIZII:
         add_heading(doc, titlu, level=2)
         doc.add_paragraph(text)
+
+    closing = doc.add_paragraph()
+    closing.add_run(
+        "Orice altă propunere de schimbare este binevenită și va fi discutată."
+    ).italic = True
 
     os.makedirs(OUT_DIR, exist_ok=True)
     doc.save(OUT_PATH)
