@@ -68,12 +68,14 @@ def main():
             f"renumerotare amânată; rulează renumerotarea doar la cerere explicită."
         )
 
-    # 4) intervențional (Tip I/A) doar în RI
+    # 4) intervențional (Tip I/A) doar în RI — excepție: senologia (Sân) își
+    #    păstrează intervenționalul mamar (vezi CLAUDE.md, „Decizii deja luate")
+    INTERVENTIONAL_HOMES = (RI, "Sân")
     for r in data:
         if len(r) < 5:
             continue
-        if r[4].strip() in ("I", "A") and r[1] != RI:
-            errors.append(f"NR {r[0]}: Tip {r[4].strip()} în afara RI ({r[1]})")
+        if r[4].strip() in ("I", "A") and r[1] not in INTERVENTIONAL_HOMES:
+            errors.append(f"NR {r[0]}: Tip {r[4].strip()} în afara RI/Sân ({r[1]})")
 
     # 5) diacritice cu cedilă
     cedilla = "şŞţŢ"

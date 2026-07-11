@@ -784,14 +784,18 @@ pentru traseul BI-RADS 3. Gradele orientative.
 > „Cancerul de sân rămâne în Sân", regula 3; și ERCP, regula 2). Cele două proceduri din §15.B sunt
 > draftate mai sus, la (6)/(7). **§15.C** (tomosinteză) = rafinare de Tip/Examen, nu rând nou.
 >
-> ⚠️ **Consecință asupra datelor (`GHID.csv`) — de aplicat separat (întrebare deschisă):** excepția
-> implică **mutarea înapoi în Sân** a intervenționalului mamar existent aflat azi la `RI › Oncologie`:
+> ✅ **Consecință asupra datelor — APLICAT (2026-07-10):** intervenționalul mamar existent din
+> `RI › Oncologie` a fost **mutat înapoi în Sân**:
 > - **NR 1192** „Diagnosticul cancerului de sân… – Biopsie percutanată" (Tip I) → `Sân › Paciente cu
->   simptome și semne sugestive de cancer` (eticheta situației există deja identic acolo).
+>   simptome și semne sugestive de cancer` (lângă rândurile diagnostice-soră; cod `RI - PC6` scos).
 > - **NR 1178** „Adenopatie axilară suspectă – Biopsie ganglionară" (Tip I) → `Sân › Paciente cu
->   simptome și semne sugestive de cancer` (idem; *borderline* — ganglion axilar, dar context mamar).
-> - Plus **actualizarea `CLAUDE.md`** (regula de aur 4 / ierarhia regula 2 + maparea „Sân→Oncologie")
->   cu noua excepție de senologie.
+>   simptome și semne sugestive de cancer` (idem; cod `RI - PC6` scos).
+> - **`CLAUDE.md` actualizat** (regula de aur 4, ierarhia regula 2, invariantul Tip I/A, „Decizii
+>   deja luate", maparea) + **`validate.py`** acceptă Tip `I`/`A` și în Sân. NR.CRT păstrate
+>   (necontigue în Sân — tolerat). RI: 176→174 rânduri.
+>
+> _Cele două proceduri **noi** din §15.B (localizare preop (6), drenaj abces (7)) rămân **doar
+> drafturi** — se inserează la decizia editorilor pe grade, ca restul propunerilor._
 
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (ACR AC/NCCN) și se consemnează în

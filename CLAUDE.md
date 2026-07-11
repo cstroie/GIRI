@@ -25,6 +25,9 @@ consultare („IRIS") e separată și **nu** se regenerează din acest ghid acum
    intervențională".** Nu trebuie să reapară intervențional împrăștiat în capitolele
    diagnostice — procedurile terapeutice nu sunt opțiuni de diagnostic.
    (Caz particular al **ierarhiei de încadrare** — vezi secțiunea dedicată mai jos.)
+   **Excepție — senologia (Sân):** intervenționalul mamar (Tip `I`/`A`) rămâne în
+   capitolul **Sân**, în situația de origine (senologia e specialitate proprie — analog
+   excepției „cancerul de sân rămâne în Sân"). Vezi „Decizii deja luate".
 5. **Documentează fiecare modificare în `CHANGELOG.md`**, la capitolul corespunzător.
    Marchează ⛔ BREAKING ce e incompatibil cu versiunea aprobată.
 6. **Nu decide singur chestiunile clinice ambigue.** Încadrări de capitol discutabile,
@@ -43,8 +46,10 @@ care se potrivește câștigă**:
 1. **Pacient pediatric** (indicațiile diferă pentru că e copil) → **Pediatrie**
    (inclusiv procedurile intervenționale pediatrice — ex. reducerea invaginației prin clismă).
 2. **Procedură intervențională / terapeutică** (Tip `I` sau `A`), non-pediatrică →
-   **Radiologie intervențională** (subcapitol de organ). Excepție: **ERCP** (Tip `D`)
-   rămâne în capitolul de origine.
+   **Radiologie intervențională** (subcapitol de organ). Excepții: **ERCP** (Tip `D`)
+   rămâne în capitolul de origine; **intervenționalul mamar** (biopsie percutanată,
+   biopsie ganglionară axilară, localizare preoperatorie, drenaj abces) rămâne în
+   capitolul **Sân** (senologie = specialitate proprie, analog cancerului de sân — regula 3).
 3. **Determinată de malignitate** cunoscută/suspectată (stadializare, urmărire oncologică)
    → **Cancer**. Excepție: **cancerul de sân** rămâne în capitolul **Sân** (subcapitol
    „Cancer de sân") — Sânul e un capitol de specialitate (senologie), nu doar un aparat
@@ -95,7 +100,9 @@ Rulează `python3 tools/validate.py` și verifică:
   sesiuni (găurile de după ștergeri sunt tolerate — vezi regula 3); `validate.py` o
   raportează ca avertisment. Se reface contiguitatea doar la o renumerotare cerută explicit.
 - Fiecare rând are exact **13 coloane**.
-- **0** rânduri cu Tip `I`/`A` în afara capitolului „Radiologie intervențională".
+- **0** rânduri cu Tip `I`/`A` în afara capitolului „Radiologie intervențională" **sau**
+  „Sân" (excepția de senologie — intervenționalul mamar rămâne în Sân; `validate.py` acceptă
+  ambele capitole-gazdă pentru Tip `I`/`A`).
 - **0** caractere cedilă (ş/Ş/ţ/Ţ).
 - **0** duplicate exacte pe coloanele 2–12 (excluzând NR.CRT), cu excepția perechilor
   păstrate intenționat (vezi mai jos).
@@ -167,6 +174,14 @@ comasez comentarii identice legitime; nu decid singur cazuri clinice/editoriale 
 
 - **ERCP (Tip `D`) rămâne în capitolele de origine** (nu se mută la RI), deși e
   intervențional. Marcat `Terapeutic = Da`.
+- **Intervenționalul mamar rămâne în capitolul Sân** (nu se mută la RI), deși e Tip `I`/`A`.
+  Senologia e specialitate proprie — procedurile mamare (biopsie percutanată, biopsie
+  ganglionară axilară, localizare preoperatorie a leziunilor nepalpabile, drenaj de abces)
+  stau în situația de origine din **Sân**, lângă restul workup-ului senologic (analog
+  excepției „cancerul de sân rămâne în Sân"). Aplicat 2026-07-10: NR 1178 („Adenopatie
+  axilară suspectă") și NR 1192 („Diagnosticul cancerului de sân…") mutate din `RI ›
+  Oncologie` în `Sân › Paciente cu simptome și semne sugestive de cancer` (cod `RI - PC6`
+  scos). `validate.py` acceptă Tip `I`/`A` și în Sân. Vezi `EDITORIAL-decisions.md` §15.B.
 - **Cancerul de sân rămâne în capitolul Sân** (subcapitol „Cancer de sân"), nu se mută
   la Cancer, deși e determinat de malignitate. Excepție analogă ERCP — vezi ierarhia
   capitolelor, regula 3.
@@ -211,6 +226,7 @@ comasez comentarii identice legitime; nu decid singur cazuri clinice/editoriale 
 
 Traumatisme→Traumatisme · Cancer→Oncologie · Aparat cardiovascular→Aparat cardiovascular ·
 Torace→Aparat respirator · Aparat digestiv→Aparat digestiv · Aparat uro-genital→Aparat urogenital ·
-Obstetrică-ginecologie→Aparat urogenital · Sân→Oncologie · Cap→Sistem nervos ·
+Obstetrică-ginecologie→Aparat urogenital · **Sân→rămâne în Sân** (excepție de senologie —
+NU se mută la RI; vezi „Decizii deja luate") · Cap→Sistem nervos ·
 Gât→Aparat endocrin (dar „Masă cervicală"→Oncologie) · Coloană→Aparat locomotor (dar
 embolizări spinale→Sistem nervos) · Aparat locomotor→Aparat locomotor.
