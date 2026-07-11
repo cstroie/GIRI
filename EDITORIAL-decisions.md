@@ -766,10 +766,32 @@ pentru traseul BI-RADS 3. Gradele orientative.
 | E | Ecografie | Doar în cazuri particulare | B | 0/0 | Adjuvant la mamografia normală la sânul dens; crește detecția, dar și rata de rechemări. |
 | M | IRM | Doar cu aviz specializat | B | 0/0 | La risc suplimentar asociat densității; cea mai sensibilă metodă adjuvantă. |
 
-> **§15.B rămâne NON-insertion-ready** — localizarea preoperatorie (harpon/sămânță) și drenajul
-> percutan al abcesului mamar sunt **proceduri (Tip `I`)** cu home la **RI › Oncologie**, nu Sân;
-> de verificat întâi dacă există deja acolo (nedraftate aici, intenționat). **§15.C** (tomosinteză)
-> = rafinare de Tip/Examen, nu rând nou.
+#### (6) `Paciente cu simptome și semne sugestive de cancer › Diagnosticul cancerului de sân…` — **Localizare preoperatorie ghidată imagistic a leziunilor nepalpabile** — din §15.B, home decis: **Sân**
+`Alte informații =` „Cf. ACR Practice Parameter – Breast Localization; NCCN."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Terapeutic | Comentarii |
+|---|---|---|---|---|---|---|
+| I | Localizare preoperatorie ghidată imagistic (harpon / sămânță radioactivă/magnetică) | Indicat | B | 1/2 | Nu | Marcarea leziunii nepalpabile înainte de excizia chirurgicală; ghidaj ecografic, stereotaxic sau IRM, după vizibilitatea leziunii. |
+
+#### (7) `Paciente cu simptome și semne nesugestive de cancer › Inflamație mamară` — **Drenaj percutan al abcesului mamar** — din §15.B, home decis: **Sân**
+`Alte informații =` „Cf. management standard al abcesului mamar (drenaj ghidat percutan)."
+| Tip | Examen | Indicație | Grad | Doză Min/Max | Terapeutic | Comentarii |
+|---|---|---|---|---|---|---|
+| I | Drenaj percutan ghidat ecografic | Indicat | B | 0/0 | Da | Evacuarea abcesului mamar ghidată ecografic (aspirație cu ac / cateter), ± lavaj; alternativă la incizia chirurgicală. |
+
+> ✅ **§15.B REZOLVAT (2026-07-10) — EXCEPȚIE NOUĂ: intervenționalul mamar rămâne în capitolul Sân.**
+> Decizie editor: **senologia e specialitate proprie** — procedurile intervenționale mamare (Tip `I`)
+> **NU se mută la RI**, ci stau în capitolul **Sân**, în situația clinică de origine (precedent:
+> „Cancerul de sân rămâne în Sân", regula 3; și ERCP, regula 2). Cele două proceduri din §15.B sunt
+> draftate mai sus, la (6)/(7). **§15.C** (tomosinteză) = rafinare de Tip/Examen, nu rând nou.
+>
+> ⚠️ **Consecință asupra datelor (`GHID.csv`) — de aplicat separat (întrebare deschisă):** excepția
+> implică **mutarea înapoi în Sân** a intervenționalului mamar existent aflat azi la `RI › Oncologie`:
+> - **NR 1192** „Diagnosticul cancerului de sân… – Biopsie percutanată" (Tip I) → `Sân › Paciente cu
+>   simptome și semne sugestive de cancer` (eticheta situației există deja identic acolo).
+> - **NR 1178** „Adenopatie axilară suspectă – Biopsie ganglionară" (Tip I) → `Sân › Paciente cu
+>   simptome și semne sugestive de cancer` (idem; *borderline* — ganglion axilar, dar context mamar).
+> - Plus **actualizarea `CLAUDE.md`** (regula de aur 4 / ierarhia regula 2 + maparea „Sân→Oncologie")
+>   cu noua excepție de senologie.
 
 > Status: **niciun rând nou inserat** în `GHID.csv`. Se așteaptă decizia editorilor; apoi
 > se adaugă cu grade/doze validate pe sursă citabilă (ACR AC/NCCN) și se consemnează în
