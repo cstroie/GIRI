@@ -2849,7 +2849,7 @@ endonazală/otologică. Defectul e al bazei craniului, dar workup-ul și repara�
 `Alte informații =` „Cf. ACR Appropriateness Criteria – Sinonasal Disease (2021)."
 | Tip | Examen | Indicație | Grad | Doză | Comentariu |
 |---|---|---|---|---|---|
-| T | CT în strat subțire al bazei craniului / sinusurilor (înaltă rezoluție) | Indicat | B | 2/3 | Localizarea defectului osos. |
+| T | CT cu secțiuni fine al bazei craniului / sinusurilor (înaltă rezoluție) | Indicat | B | 2/3 | Localizarea defectului osos. |
 | M | Cisterno-IRM (T2 înaltă rezoluție) | Indicat | B | 0/0 | Confirmarea traiectului fistulos, meningo-/encefalocel; neiradiant. |
 | X | Cisternografie CT cu contrast intratecal | Doar cu aviz specializat | C | 3/4 | Cazuri neconcludente / fistulă intermitentă (procedură invazivă). |
 
