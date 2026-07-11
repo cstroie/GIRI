@@ -1,25 +1,24 @@
 # Conținut distilat pentru pachetul de review — Aparat cardiovascular
-# Sursă: EDITORIAL-decisions.md §12, §13 (rescris pentru cititor extern,
-# fără jargon intern / referințe la CHANGELOG / istoricul renumerotărilor).
+# Sursă: EDITORIAL-decisions.md §12, §13.
 
 fyi:
-  - "Am reordonat examenele la „Anevrisme vase periferice”: Eco Doppler → Angio-CT → Angio-IRM (decizie editor; Eco Doppler pe prima poziție, consecvent cu situația-soră „Arteriopatii periferice simptomatice”)."
-  - "Am scos avertismentul despre arteriopatiile asimptomatice din eticheta situației „Arteriopatii periferice simptomatice” și l-am mutat ca notă în Comentarii, pe toate cele 3 investigații ale situației."
-  - "Am aliniat indicația scintigrafiei osoase la amiloidoza cardiacă cu transtiretină (ATTR) de la „Doar în cazuri particulare” la „Indicat” (decizie editor, aliniată la ESC 2021); gradul de evidență B a rămas neschimbat."
-  - "Stenoza de arteră renală / HTA renovasculară: acoperirea existentă a fost confirmată suficientă — nu era un gol de conținut."
-  - "Boala carotidiană / stenoza carotidiană rămâne la capitolul Cap (Neuro); nu se adaugă și la Cardiovascular."
-  - "Ischemia mezenterică (diagnostic) rămâne la capitolul Aparat digestiv; nu se adaugă și la Cardiovascular."
+  - "Anevrisme vase periferice: ordine reordonată — Eco Doppler, Angio-CT, Angio-IRM."
+  - "Arteriopatii periferice simptomatice: avertismentul despre formele asimptomatice mutat din etichetă în Comentarii."
+  - "Amiloidoză cardiacă ATTR: scintigrafie osoasă „Doar în cazuri particulare” → „Indicat” (grad B neschimbat)."
+  - "Stenoză arteră renală / HTA renovasculară: acoperire confirmată, fără completare necesară."
+  - "Boală carotidiană: rămâne la capitolul Cap (Neuro)."
+  - "Ischemie mezenterică (diagnostic): rămâne la Aparat digestiv."
 
 chestiuni:
-  - titlu: "Coronaro-CT propus la durerea toracică cronică — de corelat cu situația existentă „Explorarea non-invazivă a ischemiei miocardice”"
-    descriere: "Propunerea de mai jos (coronaro-CT ca primă linie la probabilitate pre-test joasă-intermediară) se suprapune parțial cu testele funcționale de stres deja acoperite de situația existentă. De decis dacă rămân două situații distincte sau se unifică formularea."
+  - titlu: "Coronaro-CT propus la durere toracică cronică — se suprapune cu „Explorarea non-invazivă a ischemiei miocardice”"
+    descriere: "Testele funcționale de stres sunt deja acoperite parțial de situația existentă."
     optiuni:
-      - "Situație nouă, distinctă, pentru coronaro-CT"
-      - "Se integrează în situația existentă „Explorarea non-invazivă a ischemiei miocardice”"
-  - titlu: "Sarcoidoza cardiacă — situație proprie sau sub-caz?"
-    descriere: "Propunerea de mai jos (IRM cardiac + PET-CT dedicat) ar putea fi și încadrată ca sub-caz la situația existentă „Suspiciune de cardiomiopatie sau miocardită”, în loc de situație de sine stătătoare."
+      - "Situație nouă, distinctă"
+      - "Integrare în situația existentă"
+  - titlu: "Sarcoidoză cardiacă — situație proprie sau sub-caz?"
+    descriere: "Poate fi încadrată la „Suspiciune de cardiomiopatie sau miocardită”."
     optiuni:
-      - "Situație proprie „Sarcoidoză cardiacă”"
+      - "Situație proprie"
       - "Sub-caz la „Suspiciune de cardiomiopatie sau miocardită”"
 
 randuri_noi:
@@ -27,54 +26,54 @@ randuri_noi:
     situatie: "Durere toracică cronică / suspiciune de boală coronariană stabilă – evaluare inițială"
     referinta: "Cf. ESC 2024 Chronic Coronary Syndromes; NICE CG95; ACR Appropriateness Criteria."
     randuri:
-      - {tip: T, examen: "Coronaro-CT", indicatie: "Indicat", grad: A, doza: "2–3", comentarii: "Primă linie la probabilitate pre-test joasă–intermediară (>5–50%): exclude/confirmă boala coronariană obstructivă și estimează riscul de evenimente (ESC 2024, Clasă I; NICE CG95)."}
-      - {tip: T, examen: "Scor de calciu coronarian (CT)", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Stratificare de risc la pacienți selectați; NU înlocuiește coronaro-CT pentru boala obstructivă."}
+      - {tip: T, examen: "Coronaro-CT", indicatie: "Indicat", grad: A, doza: "2–3", comentarii: "Primă linie la probabilitate pre-test joasă–intermediară."}
+      - {tip: T, examen: "Scor de calciu coronarian (CT)", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Stratificare de risc la pacienți selectați."}
   - subcapitol: "Cord"
     situatie: "Endocardită infecțioasă"
     referinta: "Cf. ESC 2023 Guidelines – Management of Endocarditis."
     randuri:
-      - {tip: E, examen: "Ecocardiografie transtoracică (ETT)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție la suspiciune de endocardită: vegetații, regurgitări, abcese."}
-      - {tip: E, examen: "Ecocardiografie transesofagiană (ETE)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Sensibilitate superioară; indicată la ETT neconcludentă, valve protetice, dispozitive intracardiace, suspiciune de complicații (abces, vegetații mici)."}
-      - {tip: N, examen: "PET-CT cu 18F-FDG", indicatie: "Doar în cazuri particulare", grad: B, doza: "4", comentarii: "Criteriu major ESC 2023 pentru endocardita pe valvă protetică / dispozitive intracardiace; detecția emboliilor oculte și a focarelor extracardiace. Fals-negativ posibil în primele ~3 luni postoperator."}
-      - {tip: T, examen: "CT cardiac (angio-CT)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Abcese/pseudoanevrisme, dehiscență protetică, planificare chirurgicală; angio-CT pentru embolii sistemice."}
+      - {tip: E, examen: "Ecocardiografie transtoracică (ETT)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție: vegetații, regurgitări, abcese."}
+      - {tip: E, examen: "Ecocardiografie transesofagiană (ETE)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "ETT neconcludentă, valve protetice, dispozitive."}
+      - {tip: N, examen: "PET-CT cu 18F-FDG", indicatie: "Doar în cazuri particulare", grad: B, doza: "4", comentarii: "Criteriu major pe valvă protetică/dispozitive; embolii oculte."}
+      - {tip: T, examen: "CT cardiac (angio-CT)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Abcese/pseudoanevrisme, planificare chirurgicală."}
   - subcapitol: "Cord"
     situatie: "Fibrilație atrială – evaluare pre-procedurală / sursă cardioembolică"
     referinta: "Cf. ESC 2024 Guidelines – Atrial Fibrillation."
     randuri:
-      - {tip: E, examen: "Ecocardiografie transesofagiană (ETE)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Excluderea trombului din auriculul stâng înainte de cardioversie/ablație; bilanț de sursă embolică după AVC."}
-      - {tip: T, examen: "CT cardiac (atriu stâng + vene pulmonare)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Cartografiere pre-ablație / pre-închidere de auricul stâng (LAA); anatomia venelor pulmonare."}
+      - {tip: E, examen: "Ecocardiografie transesofagiană (ETE)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Excludere tromb auricul stâng pre-cardioversie/ablație."}
+      - {tip: T, examen: "CT cardiac (atriu stâng + vene pulmonare)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Cartografiere pre-ablație/pre-închidere LAA."}
   - subcapitol: "Cord"
     situatie: "Sarcoidoză cardiacă (prioritate medie)"
     referinta: "Cf. HRS 2014 Expert Consensus – Cardiac Sarcoidosis."
     randuri:
-      - {tip: M, examen: "IRM cardiac cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Edem/inflamație (T2, mapare) și fibroză (captare tardivă de gadolinium, tipic mediomiocardică/subepicardică)."}
-      - {tip: N, examen: "PET-CT cu 18F-FDG (protocol dedicat)", indicatie: "Indicat", grad: B, doza: "4", comentarii: "Inflamație activă; necesită pregătire dietetică (supresia captării miocardice fiziologice). Util și pentru monitorizarea răspunsului la tratament."}
+      - {tip: M, examen: "IRM cardiac cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Edem/inflamație și fibroză (captare tardivă de gadolinium)."}
+      - {tip: N, examen: "PET-CT cu 18F-FDG (protocol dedicat)", indicatie: "Indicat", grad: B, doza: "4", comentarii: "Inflamație activă; necesită pregătire dietetică."}
   - subcapitol: "Cord"
     situatie: "Evaluare structurală pre-TAVI/TAVR"
     referinta: "Cf. ESC/EACTS – Valvular Heart Disease; ACR Appropriateness Criteria."
     randuri:
-      - {tip: T, examen: "Angio-CT „de la aortă la arterele femurale”", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Măsurarea inelului aortic (annulus sizing), anatomia rădăcinii aortice și a coronarelor, evaluarea căilor de acces ilio-femural. Standard pre-TAVI."}
+      - {tip: T, examen: "Angio-CT „de la aortă la arterele femurale”", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Annulus sizing, rădăcină aortică, căi de acces ilio-femural."}
   - subcapitol: "Cord"
     situatie: "Cardiotoxicitate sub terapie oncologică (monitorizarea funcției cardiace)"
     referinta: "Cf. 2022 ESC Guidelines on Cardio-oncology."
     randuri:
-      - {tip: E, examen: "Ecocardiografie (cu strain / GLS)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Monitorizarea FEVS și a deformării longitudinale globale (GLS) înainte/în timpul/după terapia cardiotoxică. Scăderea relativă a GLS >15% față de bazal = disfuncție cardiacă indusă de tratament (CTRCD)."}
-      - {tip: M, examen: "IRM cardiac", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Când ecocardiografia e neconcludentă/discordantă: FEVS de referință, edem/fibroză (miocardită la imunoterapie)."}
-      - {tip: N, examen: "Angioscintigrafie cardiacă (ventriculografie izotopică, MUGA)", indicatie: "Doar în cazuri particulare", grad: B, doza: "3", comentarii: "Alternativă pentru FEVS când eco/IRM nu sunt disponibile sau concludente."}
+      - {tip: E, examen: "Ecocardiografie (cu strain / GLS)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Monitorizare FEVS/GLS pre/intra/post terapie cardiotoxică."}
+      - {tip: M, examen: "IRM cardiac", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Ecocardiografie neconcludentă/discordantă."}
+      - {tip: N, examen: "Angioscintigrafie cardiacă (MUGA)", indicatie: "Doar în cazuri particulare", grad: B, doza: "3", comentarii: "Alternativă pentru FEVS."}
   - subcapitol: "Sistem vascular"
     situatie: "Vasculită de vase mari (arterită Takayasu / arterită cu celule gigante)"
     referinta: "Cf. EULAR – Imaging in Large Vessel Vasculitis: 2023 Update."
     randuri:
-      - {tip: E, examen: "Eco-Doppler artere temporale și axilare", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție în arterita cu celule gigante: semnul „haloului” (perete îngroșat hipoecogen); includerea arterelor axilare crește detecția."}
-      - {tip: M, examen: "Angio-IRM aortă și ramuri", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Modalitatea preferată în arterita Takayasu: îngroșare parietală, edem, stenoze; monitorizare fără iradiere."}
-      - {tip: T, examen: "Angio-CT aortă și ramuri", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Alternativă la IRM: îngroșare parietală, stenoze/anevrisme."}
-      - {tip: N, examen: "PET-CT (F18-FDG)", indicatie: "Doar cu aviz specializat", grad: B, doza: "4", comentarii: "Captarea parietală = activitate inflamatorie; util la diagnostic incert și la evaluarea activității/recidivei."}
+      - {tip: E, examen: "Eco-Doppler artere temporale și axilare", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție în arterita cu celule gigante: semnul „haloului”."}
+      - {tip: M, examen: "Angio-IRM aortă și ramuri", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Modalitate preferată în Takayasu; fără iradiere."}
+      - {tip: T, examen: "Angio-CT aortă și ramuri", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Alternativă la IRM."}
+      - {tip: N, examen: "PET-CT (F18-FDG)", indicatie: "Doar cu aviz specializat", grad: B, doza: "4", comentarii: "Diagnostic incert; evaluarea activității/recidivei."}
   - subcapitol: "Sistem vascular"
     situatie: "Urmărire post-EVAR/TEVAR aortic (endoleak)"
     referinta: "Cf. ESVS 2019 – Management of Abdominal Aorto-iliac Artery Aneurysms."
     randuri:
-      - {tip: T, examen: "Angio-CT aortic (faze arterială și tardivă)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Standard de supraveghere a endoprotezei: detecția/clasificarea endoleak-urilor (tip I–V), creșterea sacului anevrismal, migrarea protezei. Achiziție bifazică."}
-      - {tip: E, examen: "Eco-Doppler cu substanță de contrast (CEUS)", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Alternativă fără iradiere/contrast iodat pentru supravegherea de rutină; sensibilă pentru endoleak tip II."}
-      - {tip: M, examen: "Angio-IRM", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Alternativă la CT la insuficiență renală / alergie la contrast iodat (proteze compatibile IRM)."}
+      - {tip: T, examen: "Angio-CT aortic (faze arterială și tardivă)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Standard de supraveghere: endoleak, sac anevrismal, migrare proteză."}
+      - {tip: E, examen: "Eco-Doppler cu substanță de contrast (CEUS)", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Fără iradiere/contrast iodat; sensibil pentru endoleak tip II."}
+      - {tip: M, examen: "Angio-IRM", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Insuficiență renală / alergie la contrast iodat."}
 
 duplicate: []

@@ -1,83 +1,82 @@
 # Conținut distilat pentru pachetul de review — Pediatrie
-# Sursă: EDITORIAL-decisions.md §3, §4, §6, §29 (rescris pentru cititor extern,
-# fără jargon intern / referințe la CHANGELOG / istoricul renumerotărilor).
+# Sursă: EDITORIAL-decisions.md §3, §4, §6, §29.
 
 fyi:
-  - "Am creat un subcapitol nou „Traumatisme” (în Pediatrie), cu situații pentru traumatism cranio-cerebral, maltratare (NAI), traumatism abdominal minor și major, coloană cervicală, torace, membru și politraumatism — inclusiv perechea „minor / major”, acum completă și simetrică."
-  - "Am creat un subcapitol nou „Oncologie” (în Pediatrie), cu 7 situații noi: tumori cerebrale/medulare, retinoblastom, neuroblastom (stadializare), limfom, tumori osoase, rabdomiosarcom/sarcom de părți moi, histiocitoză Langerhans. „Masă abdominală palpabilă” a fost mutată aici și îmbogățită cu diagnostic diferențial."
+  - "Traumatisme (subcapitol nou): cranio-cerebral, maltratare (NAI), abdominal minor/major, coloană cervicală, torace, membru, politraumatism."
+  - "Oncologie (subcapitol nou): tumori cerebrale/medulare, retinoblastom, neuroblastom, limfom, tumori osoase, rabdomiosarcom, histiocitoză Langerhans. „Masă abdominală palpabilă” mutată aici."
 
 chestiuni:
-  - titlu: "Ecografia la „Masă abdominală sau pelvină palpabilă” — gradul B pare inconsecvent"
-    descriere: "În situații similare din alte subcapitole, ecografia e cotată grad A. Poate fi intenționat (context clinic diferit), dar nu am schimbat gradul fără confirmarea dumneavoastră — regula noastră de lucru e să nu modificăm gradele de indicație unilateral."
+  - titlu: "Ecografie la „Masă abdominală sau pelvină palpabilă” — grad B, posibil inconsecvent"
+    descriere: "Grad B; ecografia e cotată A în situații similare."
     optiuni:
-      - "Se păstrează gradul B (context clinic diferit, justificat)"
-      - "Se ridică la grad A (aliniat la situațiile similare)"
-  - titlu: "Cistosonografia micțională (reflux vezico-ureteral) — codificată Tip X, dar e o tehnică ecografică"
-    descriere: "Cistosonografia cu substanță de contrast ecografic (ceVUS) e o tehnică ecografică — comentariul existent chiar o descrie ca neiradiantă — dar codul de Tip folosit e „X” (contrast/fluoroscopie), nu „E” (ecografie). Nu am schimbat codul fără confirmare: unele ghiduri o grupează totuși alături de cistografia micțională clasică."
+      - "Păstrare grad B"
+      - "Ridicare la grad A"
+  - titlu: "Cistosonografie micțională (RVU) — Tip X, dar e tehnică ecografică"
+    descriere: "Tehnică ecografică, neiradiantă, codificată Tip X (contrast/fluoroscopie)."
     optiuni:
-      - "Se schimbă codul Tip din X în E"
-      - "Se păstrează Tip X (convenție specifică pentru acest examen)"
-  - titlu: "Radiografie renală simplă + urografie i.v. combinate într-un singur rând, cu un singur cod Tip"
-    descriere: "Rândul de la „Dilatație de căi urinare” / „Infecție urinară” reunește radiografia renală simplă (Tip G) și urografia intravenoasă (Tip X) sub un singur cod Tip. De decis dacă rămân combinate ca până acum sau se separă în două rânduri, fiecare cu Tip-ul propriu."
+      - "Schimbare Tip X → E"
+      - "Păstrare Tip X"
+  - titlu: "RRVS + UIV combinate într-un rând, un singur cod Tip"
+    descriere: "RRVS (Tip G) și UIV (Tip X) apar pe același rând."
     optiuni:
-      - "Se separă în două rânduri distincte (RRVS / UIV)"
-      - "Se păstrează combinat, ca până acum"
-  - titlu: "Hernie inghinală / patologie de canal la copil — merită un rând propriu?"
-    descriere: "E de obicei diagnostic clinic, cu acoperire imagistică marginală; nu am adăugat un rând implicit. Dacă doriți totuși o linie pentru cazurile echivoce, propunerea ar fi: Ecografie, „Doar în cazuri particulare”, grad C."
+      - "Separare în două rânduri"
+      - "Păstrare combinat"
+  - titlu: "Hernie inghinală la copil — rând propriu?"
+    descriere: "Diagnostic clinic, acoperire imagistică marginală."
     optiuni:
-      - "Nu se adaugă (rămâne diagnostic clinic)"
-      - "Se adaugă linia de ecografie propusă, pentru cazuri echivoce"
+      - "Nu se adaugă"
+      - "Se adaugă: Ecografie, doar cazuri particulare, grad C"
 
 randuri_noi:
   - subcapitol: "Aparat digestiv"
     situatie: "Boală inflamatorie intestinală (Crohn) – bilanț și monitorizare"
     referinta: "Cf. ACR Appropriateness Criteria – Crohn Disease (considerații pediatrice); ESPGHAN/ESPR."
     randuri:
-      - {tip: M, examen: "Entero-IRM", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Metoda de referință la copil (neiradiantă): extindere, activitate inflamatorie, complicații (stenoze, fistule, abcese). De preferat pentru monitorizarea repetată."}
-      - {tip: E, examen: "Ecografie de anse intestinale", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție și monitorizare: îngroșare parietală, hiperemie Doppler, complicații. Accesibilă, fără sedare/iradiere."}
-      - {tip: T, examen: "Entero-CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Rezervat contextului acut/ocluziv sau când IRM nu e disponibil (iradiere — de evitat la monitorizarea repetată la copil)."}
+      - {tip: M, examen: "Entero-IRM", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Referință la copil, neiradiantă: extindere, activitate, complicații."}
+      - {tip: E, examen: "Ecografie de anse intestinale", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție și monitorizare: îngroșare parietală, Doppler."}
+      - {tip: T, examen: "Entero-CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Doar context acut/ocluziv sau IRM indisponibil."}
   - subcapitol: "Aparat locomotor"
     situatie: "Artrită septică / osteomielită acută"
     referinta: "Cf. ACR Appropriateness Criteria – Osteomyelitis or Septic Arthritis-Child; Acutely Limping Child Up To Age 5."
     randuri:
-      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție articulară: revărsat, ghidarea puncției/artrocentezei (cheia diagnosticului de artrită septică)."}
-      - {tip: M, examen: "IRM", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Examen de referință: edem osos precoce, abces subperiostal/de părți moi, extensie; cu substanță de contrast când e disponibilă."}
-      - {tip: G, examen: "Radiografie", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Inițial adesea normală (modificările osoase apar tardiv); utilă pentru excluderea altor cauze (fractură, tumoră osoasă)."}
-      - {tip: N, examen: "Scintigrafie osoasă", indicatie: "Doar cu aviz specializat", grad: B, doza: "2–3", comentarii: "Când sediul nu poate fi localizat clinic sau la suspiciune de focare multiple; IRM preferată dacă e disponibilă."}
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Revărsat, ghidaj puncție — cheie diagnostică."}
+      - {tip: M, examen: "IRM", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Referință: edem osos precoce, abces."}
+      - {tip: G, examen: "Radiografie", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Inițial adesea normală; exclude alte cauze."}
+      - {tip: N, examen: "Scintigrafie osoasă", indicatie: "Doar cu aviz specializat", grad: B, doza: "2–3", comentarii: "Sediu neclar clinic sau focare multiple."}
   - subcapitol: "Aparat locomotor"
     situatie: "Artrită idiopatică juvenilă (AIJ) – bilanț articular"
     referinta: "Cf. EULAR-PReS – imaging in juvenile idiopathic arthritis (Colebatch-Bourn 2015)."
     randuri:
-      - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Sinovită, edem osos, eroziuni precoce; util mai ales la articulații profunde (șold, ATM, sacro-iliace). Gadolinium pentru evaluarea activității sinoviale."}
-      - {tip: E, examen: "Ecografie (Doppler)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Sinovită, revărsat, hiperemie Doppler; monitorizarea articulațiilor superficiale, ghidarea infiltrațiilor. Neiradiantă, fără sedare."}
+      - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Sinovită, eroziuni precoce; articulații profunde (șold, ATM, sacro-iliace)."}
+      - {tip: E, examen: "Ecografie (Doppler)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Sinovită, revărsat; monitorizare, ghidaj infiltrații."}
   - subcapitol: "Torace, pulmon, cord"
     situatie: "Bronșiolită acută (sugar)"
     referinta: "Cf. AAP Clinical Practice Guideline – Bronchiolitis (2014)."
     randuri:
-      - {tip: G, examen: "Radiografie toracică", indicatie: "Neindicat", grad: B, doza: "1", comentarii: "Diagnostic clinic; radiografia de rutină NU e indicată în forma tipică (crește riscul de supradiagnostic de pneumonie și de antibioterapie inutilă). Doar în forme severe/atipice, agravare sau necesar de terapie intensivă."}
+      - {tip: G, examen: "Radiografie toracică", indicatie: "Neindicat", grad: B, doza: "1", comentarii: "Neindicat de rutină în forma tipică; doar forme severe/atipice."}
   - subcapitol: "Torace, pulmon, cord"
     situatie: "Malformații pulmonare congenitale (CPAM / sechestrare pulmonară) – bilanț postnatal"
-    referinta: "Literatură de specialitate (bilanț imagistic postnatal CPAM/sechestrare) — sursă citabilă de confirmat."
+    referinta: "Literatură de specialitate — sursă citabilă de confirmat."
     randuri:
-      - {tip: T, examen: "Angio-CT toracic cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Caracterizare postnatală: definește leziunea (CPAM vs sechestrare) și identifică pediculul arterial sistemic (de obicei aortic) al sechestrării — esențial pre-chirurgical."}
-      - {tip: G, examen: "Radiografie toracică", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Evaluare inițială postnatală; o radiografie normală NU exclude leziunea (bilanțul se completează prin CT)."}
+      - {tip: T, examen: "Angio-CT toracic cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Caracterizare + pedicul arterial sistemic — esențial pre-chirurgical."}
+      - {tip: G, examen: "Radiografie toracică", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Evaluare inițială; normală nu exclude leziunea."}
   - subcapitol: "Uro-nefrologie"
     situatie: "Hematurie (macroscopică / microscopică)"
     referinta: "Cf. ACR Appropriateness Criteria – Hematuria-Child."
     randuri:
-      - {tip: E, examen: "Ecografie reno-vezicală", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție: parenchim renal, dilatația căilor, litiază, mase; neiradiantă. Explorările ulterioare doar în funcție de rezultat/context clinic."}
+      - {tip: E, examen: "Ecografie reno-vezicală", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție: parenchim, dilatație, litiază, mase."}
   - subcapitol: "Uro-nefrologie"
     situatie: "Litiază renală (colică / suspiciune)"
     referinta: "Cf. ACR Appropriateness Criteria – Hematuria-Child (varianta durere/urolitiază)."
     randuri:
-      - {tip: E, examen: "Ecografie reno-vezicală", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție la copil pentru litiază: detectează calculii și hidronefroza, fără iradiere."}
-      - {tip: T, examen: "CT fără substanță de contrast, cu doză redusă", indicatie: "Doar cu aviz specializat", grad: B, doza: "2", comentarii: "Când ecografia e neconcludentă și persistă suspiciunea clinică; protocol cu doză redusă (minimizarea iradierii la copil)."}
+      - {tip: E, examen: "Ecografie reno-vezicală", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție: calculi, hidronefroză, fără iradiere."}
+      - {tip: T, examen: "CT fără substanță de contrast, cu doză redusă", indicatie: "Doar cu aviz specializat", grad: B, doza: "2", comentarii: "Ecografie neconcludentă, suspiciune persistentă."}
   - subcapitol: "Gât și coloană vertebrală"
     situatie: "Mase cervicale congenitale (chist tireoglos, chist branhial)"
     referinta: "Cf. ACR Appropriateness Criteria – Neck Mass/Adenopathy (considerații pediatrice)."
     randuri:
-      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție: localizare, caracter chistic/solid, raport cu osul hioid (tireoglos) / marginea sternocleidomastoidianului (branhial); confirmă țesut tiroidian normal înainte de excizia unui chist tireoglos."}
-      - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Bilanț preoperator pentru leziuni profunde/complicate (extensie, raporturi); alternativă neiradiantă la CT."}
-      - {tip: T, examen: "CT cu substanță de contrast", indicatie: "Doar cu aviz specializat", grad: B, doza: "2–3", comentarii: "Bilanț preoperator când IRM nu e disponibil sau la suprainfecție (definește colecția)."}
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Localizare, chistic/solid; confirmă țesut tiroidian normal."}
+      - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Bilanț preoperator, leziuni profunde/complicate."}
+      - {tip: T, examen: "CT cu substanță de contrast", indicatie: "Doar cu aviz specializat", grad: B, doza: "2–3", comentarii: "IRM indisponibil sau suprainfecție."}
 
 duplicate: []

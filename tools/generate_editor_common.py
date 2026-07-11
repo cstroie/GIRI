@@ -21,43 +21,28 @@ OUT_PATH = os.path.join(OUT_DIR, "Decizii-structurale-comune.docx")
 ACCENT = RGBColor(0x1C, 0x5D, 0x8C)
 
 DECIZII = [
-    ("Radiologie intervențională — un singur capitol pentru proceduri",
-     "Tot ce e intervențional (biopsii, embolizări, drenaje, angiografii "
-     "terapeutice) a fost adunat într-un singur capitol nou, „Radiologie "
-     "intervențională”, organizat pe aparate/sisteme. Nu mai apare împrăștiat "
-     "prin capitolele diagnostice."),
+    ("Radiologie intervențională — capitol unic pentru proceduri",
+     "Tot ce e intervențional (biopsii, embolizări, drenaje, angiografii terapeutice) "
+     "e consolidat în capitolul „Radiologie intervențională”, pe aparate/sisteme."),
     ("Excepție — senologie",
-     "Intervenționalul mamar (biopsie percutanată, biopsie ganglionară "
-     "axilară, localizare preoperatorie, drenaj de abces) rămâne în capitolul "
-     "„Sân”, lângă restul workup-ului senologic — nu s-a mutat la Radiologie "
-     "intervențională. Senologia e tratată ca specialitate proprie."),
+     "Intervenționalul mamar (biopsie percutanată, biopsie ganglionară axilară, "
+     "localizare preoperatorie, drenaj de abces) rămâne în capitolul „Sân”."),
     ("Excepție — ERCP",
-     "ERCP rămâne în capitolul de origine (nu la Radiologie intervențională), "
-     "deși are și rol terapeutic (sfincterotomie, extragere de calculi, "
-     "stentare) — marcat „Terapeutic = Da”."),
+     "ERCP rămâne în capitolul de origine, marcat „Terapeutic = Da”."),
     ("Cancerul de sân rămâne în „Sân”",
-     "Deși e determinat de malignitate, cancerul de sân (diagnostic, "
-     "stadializare, urmărire) nu a fost mutat la capitolul „Cancer” — rămâne "
-     "în „Sân”, subcapitolul „Cancer de sân”, analog excepției ERCP."),
+     "Nu e mutat la capitolul „Cancer” — rămâne în „Sân”, subcapitolul „Cancer de sân”."),
     ("Coloană nouă „Terapeutic” (Da/Nu)",
-     "Marchează dacă o investigație/procedură are și rol terapeutic, chiar "
-     "dacă e și diagnostică (ex. embolizare, ablație, drenaj = Da; biopsie, "
-     "angiografie diagnostică = Nu). Gol doar la rândurile-placeholder."),
-    ("Numerotarea rândurilor (NR.CRT) nu are semnificație clinică",
-     "E doar un identificator secvențial de rând; a fost renumerotat de mai "
-     "multe ori în timpul revizuirii și poate diferi de numerele din ediția "
-     "pe care o cunoașteți. Vă rugăm să vă referiți la rânduri prin „Capitol "
-     "+ Situație clinică”, nu prin numărul curent."),
-    ("Un rând = un singur „acasă” (fără trimiteri încrucișate)",
-     "Fiecare situație clinică apare într-un singur capitol/subcapitol, ales "
-     "după o ierarhie fixă (context special — pediatric, traumă, oncologic, "
-     "intervențional — înaintea anatomiei). Nu mai există trimiteri de tipul "
-     "„vezi și capitolul X” în date."),
+     "Da = rol terapeutic, chiar dacă e și diagnostic (ex. embolizare, ablație, "
+     "drenaj = Da; biopsie, angiografie diagnostică = Nu)."),
+    ("NR.CRT nu are semnificație clinică",
+     "Identificator secvențial de rând, renumerotat pe parcursul revizuirii. "
+     "Referiți-vă la rânduri prin „Capitol + Situație clinică”, nu prin număr."),
+    ("Un rând = un singur „acasă”",
+     "Fiecare situație clinică apare într-un singur capitol/subcapitol; fără "
+     "trimiteri încrucișate de tipul „vezi și capitolul X”."),
     ("Ordinea examenelor și a situațiilor clinice",
-     "Ordinea investigațiilor în cadrul unei situații clinice este "
-     "intenționată (reflectă prioritatea clinică) și nu a fost reordonată. "
-     "Situațiile clinice din cadrul unui subcapitol au fost, unde a fost "
-     "cazul, reordonate după fluxul clinic (urgență/acut → cronic → "
+     "Ordinea investigațiilor într-o situație e intenționată, neschimbată. "
+     "Situațiile clinice sunt ordonate după flux clinic (acut → cronic → "
      "screening), nu alfabetic."),
 ]
 
@@ -74,9 +59,7 @@ def main():
     add_heading(doc, "Decizii structurale comune — toate capitolele", level=1)
     intro = doc.add_paragraph()
     intro.add_run(
-        "Acest memo însoțește pachetele de review pe capitol. Conține doar "
-        "deciziile structurale/organizatorice care traversează capitolele — "
-        "nu conținut clinic specific. Doar de citit, nu necesită completare."
+        "Decizii organizatorice comune tuturor capitolelor. Doar de citit."
     ).italic = True
 
     for titlu, text in DECIZII:
