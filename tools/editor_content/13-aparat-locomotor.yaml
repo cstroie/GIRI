@@ -1,0 +1,62 @@
+# Conținut distilat pentru pachetul de review — Aparat locomotor
+# Sursă: EDITORIAL-decisions.md §32, §33, §34, §35.
+
+fyi:
+  - "„Fasceita plantară” mutată la subcapitolul „Picior” (din „Diverse”)."
+  - "„Patologia umărului” comasată cu „Umăr dureros” (artrografia adusă la „Doar cu aviz specializat”/B, consecvent cu restul subcapitolului)."
+
+discutii:
+  - titlu: "„Nevralgie cervico-brahială” (subcapitol Umăr) — rămâne acolo sau se mută la Coloană cervicală?"
+    descriere: "Toate examenele vizează coloana cervicală (radiculopatie), nu umărul; motivul actual e diagnosticul diferențial al umărului dureros. Coloană vertebrală › Coloană cervicală are deja o situație omonimă."
+    optiuni:
+      - "Rămâne la Umăr (fațetă de diagnostic diferențial)"
+      - "Se mută la Coloană vertebrală › Coloană cervicală"
+  - titlu: "Osteomielita piciorului diabetic — situație separată de „Osteomielită – suspiciune”?"
+    descriere: "ACR o tratează ca scenariu distinct (complicații particulare)."
+    optiuni:
+      - "Situație proprie"
+      - "Rămâne acoperită generic"
+
+propuneri:
+  - subcapitol: "Pumn și mână (subcapitol nou)"
+    situatie: "Durere cronică de pumn / mână"
+    referinta: "Cf. ACR Appropriateness Criteria – Chronic Wrist Pain."
+    indicatii:
+      - {tip: G, examen: "Radiografie", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Primă intenție: artroză, condrocalcinoză, aliniament, sechele."}
+      - {tip: M, examen: "IRM", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Leziuni TFCC, ligament scafo-lunar, necroză (Kienböck/scafoid), sinovită."}
+      - {tip: E, examen: "Ecografie", indicatie: "Doar în cazuri particulare", grad: C, doza: "0", comentarii: "Tenosinovite, ganglioni, sindrom de tunel carpian."}
+      - {tip: T, examen: "CT", indicatie: "Doar în cazuri particulare", grad: C, doza: "1", comentarii: "Pseudartroză de scafoid, aliniament osos, corpi liberi."}
+  - subcapitol: "Cot (subcapitol nou)"
+    situatie: "Durere cronică de cot / epicondilită"
+    referinta: "Cf. ACR Appropriateness Criteria – Chronic Elbow Pain."
+    indicatii:
+      - {tip: G, examen: "Radiografie", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Primă intenție: artroză, corpi liberi, osteocondrită disecantă."}
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: C, doza: "0", comentarii: "Epicondilită, patologie tendinoasă, colecții, nerv ulnar."}
+      - {tip: M, examen: "IRM", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Tendinopatii, leziuni ligamentare/osteocondrale, neuropatie ulnară."}
+  - subcapitol: "Gleznă (subcapitol nou)"
+    situatie: "Durere cronică de gleznă / instabilitate"
+    referinta: "Cf. ACR Appropriateness Criteria – Chronic Ankle Pain."
+    indicatii:
+      - {tip: G, examen: "Radiografie (cu încărcare)", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Primă intenție: artroză, aliniament, sechele post-traumatice."}
+      - {tip: M, examen: "IRM", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Leziuni osteocondrale, tendinoase, ligamentare, impingement."}
+      - {tip: E, examen: "Ecografie", indicatie: "Doar în cazuri particulare", grad: C, doza: "0", comentarii: "Patologie tendinoasă, sinovită, ghidaj infiltrații."}
+      - {tip: T, examen: "CT", indicatie: "Doar în cazuri particulare", grad: C, doza: "1–2", comentarii: "Coaliție tarsală, leziuni osoase/osteocondrale, aliniament."}
+  - subcapitol: "Diverse"
+    situatie: "Osteoporoză — evaluarea densității minerale osoase (DXA)"
+    referinta: "Clinician's guide BHOF/NOF; ISCD."
+    indicatii:
+      - {tip: D, examen: "Osteodensitometrie (DXA coloană + șold)", indicatie: "Indicat", grad: A, doza: "1", comentarii: "Diagnostic (T-scor ≤ −2,5) și estimarea riscului de fractură; monitorizare la 1–2 ani."}
+      - {tip: G, examen: "Radiografie coloană toraco-lombară (morfometrie / VFA)", indicatie: "Doar în cazuri particulare", grad: B, doza: "1", comentarii: "Detectarea fracturilor vertebrale de fragilitate."}
+      - {tip: T, examen: "CT (QCT)", indicatie: "Doar cu aviz specializat", grad: B, doza: "2–3", comentarii: "Cazuri selectate; iradiere mai mare decât DXA."}
+  - subcapitol: "Diverse"
+    situatie: "Sindrom dureros post-protezare — completare (fără IRM azi)"
+    referinta: "Cf. ACR Appropriateness Criteria – Imaging After Total Hip/Knee Arthroplasty (2023)."
+    indicatii:
+      - {tip: M, examen: "IRM (cu reducerea artefactelor metalice)", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Osteoliză/mobilizare periprotetică, reacție adversă la debriuri metalice, infecție. Secvențe MARS/MAVRIC."}
+  - subcapitol: "Șold"
+    situatie: "Necroza aseptică de cap femural — completare (fără CT azi)"
+    referinta: "Cf. ACR Appropriateness Criteria – Osteonecrosis."
+    indicatii:
+      - {tip: T, examen: "CT", indicatie: "Doar în cazuri particulare", grad: C, doza: "2–3", comentarii: "Alternativă la IRM contraindicat; evaluarea fracturii subcondrale / colapsului capului femural."}
+
+duplicate: []

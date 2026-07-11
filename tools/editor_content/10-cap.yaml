@@ -1,0 +1,98 @@
+# Conținut distilat pentru pachetul de review — Cap
+# Sursă: EDITORIAL-decisions.md §1, §37, §38, §39, §40, §41.
+
+fyi:
+  - "Artrografia ATM mutată la Cap › ORL (Tip I → X, reclasificată exam diagnostic cu contrast); 3 rânduri din RI consolidate în unul."
+  - "Notele de nivel-situație propagate pe toate investigațiile (ATM, sinuzită acută, olfactiv, ureche medie); etichete de examen corectate anatomic (ex. „IRM regiune cervicală” → conduct auditiv intern / sinusuri, după caz)."
+  - "Stenoza carotidiană asimptomatică: partea diagnostică rămâne în Cap › Neuro (stub-ul din Cardiovascular a fost comasat aici, grad A păstrat)."
+  - "Fistula de LCR mutată la Cap › ORL (workup-ul e ORL, nu neurologic, deși defectul e al bazei craniului)."
+
+discutii:
+  - titlu: "Artrografia ATM — se păstrează pe termen lung sau se elimină?"
+    descriere: "Ambele rânduri sunt „Neindicat”, cu nota că artrografia ATM e înlocuită de IRM."
+    optiuni:
+      - "Se păstrează (indicație istorică/negativă)"
+      - "Se elimină"
+  - titlu: "Structura Neuro/ORL — se păstrează sau se sparge Neuro pe grupuri de boală?"
+    descriere: "Recomandare: se păstrează (analog Cord/Pulmon, ținute întregi în alte capitole); NU se sparge Neuro pe boală — ar fi singurul astfel de caz din tot ghidul."
+    optiuni:
+      - "Se păstrează Neuro/ORL"
+      - "Se sparge Neuro pe grupuri de boală"
+      - "Se redenumesc (ex. „Sistem nervos” / „Sferă ORL”)"
+  - titlu: "Comentariul IRM la „Probleme psihiatrice” (NR 1001) descrie de fapt scleroza multiplă"
+    descriere: "Aproape sigur copy-paste din rândul-soră NR 980; de rescris cu conținutul corect (rolul IRM în bilanțul unei tulburări psihiatrice)."
+    optiuni:
+      - "Rescriere de conținut"
+      - "Rămâne nemodificat"
+  - titlu: "Stenoza carotidiană — consolidarea intervenționalului RI (Aparat cardiovascular vs Sistem nervos)"
+    descriere: "Amânată la cererea dvs.; partea diagnostică e deja rezolvată (rămâne în Neuro)."
+    optiuni:
+      - "Consolidare la RI › Sistem nervos"
+      - "Consolidare la RI › Aparat cardiovascular"
+      - "Rămâne fragmentat"
+
+propuneri:
+  - subcapitol: "Neuro"
+    situatie: "Anevrism intracranian nerupt / malformație vasculară (MAV, fistulă durală) — depistare și urmărire"
+    referinta: "Cf. ACR Appropriateness Criteria – Cerebrovascular Diseases (Aneurysm, Vascular Malformation, and Subarachnoid Hemorrhage)."
+    indicatii:
+      - {tip: M, examen: "Angio-IRM (TOF) cap", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Depistare/urmărire anevrism nerupt; screening la risc înalt. Neiradiant, fără contrast."}
+      - {tip: T, examen: "Angio-CT poligon Willis", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Caracterizare pre-terapeutică; sensibil pentru anevrisme ≥3 mm și MAV/fistulă."}
+      - {tip: M, examen: "Angio-IRM cu contrast + secvențe vasculare", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "MAV / fistulă arterio-venoasă durală: angioarhitectură, drenaj venos."}
+  - subcapitol: "Neuro"
+    situatie: "Tromboză venoasă cerebrală (TVC)"
+    referinta: "Cf. ACR Appropriateness Criteria (stroke-related)."
+    indicatii:
+      - {tip: M, examen: "IRM cerebral + veno-IRM", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Suspiciune TVC: cefalee progresivă, hipertensiune intracraniană, context protrombotic/postpartum."}
+      - {tip: T, examen: "Veno-CT (angio-CT în timp venos)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Alternativă în urgență / IRM indisponibil."}
+  - subcapitol: "Neuro"
+    situatie: "Alterarea acută a stării de conștiență / comă / delir"
+    referinta: "Cf. ACR Appropriateness Criteria – Altered Mental Status, Coma, Delirium, and Psychosis (2024)."
+    indicatii:
+      - {tip: T, examen: "CT cerebral fără contrast", indicatie: "Indicat", grad: B, doza: "2", comentarii: "Primă intenție în urgență: exclude hemoragie, efect de masă, hidrocefalie, infarct extins."}
+      - {tip: M, examen: "IRM cerebral", indicatie: "Indicat", grad: B, doza: "0", comentarii: "CT neconcludent / suspiciune encefalită sau encefalopatie."}
+  - subcapitol: "Neuro"
+    situatie: "Ataxie / sindrom cerebelos"
+    referinta: "Cf. ACR Appropriateness Criteria – Ataxia."
+    indicatii:
+      - {tip: M, examen: "IRM cerebral (accent fosă posterioară)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Examen de elecție: atrofie cerebeloasă, leziune structurală/demielinizantă, malformație Chiari."}
+      - {tip: T, examen: "CT cerebral", indicatie: "Doar în cazuri particulare", grad: C, doza: "2", comentarii: "Doar dacă IRM contraindicat/indisponibil; sensibilitate limitată în fosa posterioară."}
+  - subcapitol: "Neuro"
+    situatie: "Paralizie facială periferică / neuropatie craniană izolată"
+    referinta: "Cf. ACR Appropriateness Criteria – Cranial Neuropathy."
+    indicatii:
+      - {tip: M, examen: "IRM cerebral + conduct auditiv intern + stâncă temporală, cu contrast", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Paralizie facială atipică, recurentă, progresivă sau fără recuperare la 2–4 luni; paralizia Bell tipică NU se imagistică de rutină."}
+      - {tip: T, examen: "CT stâncă temporală și bază de craniu", indicatie: "Doar în cazuri particulare", grad: C, doza: "2–3", comentarii: "Context traumatic/otologic."}
+  - subcapitol: "ORL"
+    situatie: "Tinitus pulsatil"
+    referinta: "Cf. ACR Appropriateness Criteria – Tinnitus."
+    indicatii:
+      - {tip: T, examen: "Angio-CT cap și gât + CT stâncă temporală", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Cauză vasculară: tumoră glomică, dehiscență de golf jugular, fistulă durală, stenoză."}
+      - {tip: M, examen: "IRM + Angio-IRM cap, cu și fără contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Alternativă neinvazivă: paragangliom, schwannom, cauze vasculare."}
+  - subcapitol: "ORL"
+    situatie: "Surditate brusc instalată (neurosenzorială)"
+    referinta: "ACR Appropriateness Criteria (surditate — urgență ORL)."
+    indicatii:
+      - {tip: M, examen: "IRM conduct auditiv intern și unghi ponto-cerebelos, cu contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Excludere schwannom vestibular / leziune retrocohleară; urgență ORL."}
+  - subcapitol: "ORL"
+    situatie: "Patologie orbitară (exoftalmie, masă orbitară, oftalmopatie tiroidiană, celulită orbitară)"
+    referinta: "Cf. ACR Appropriateness Criteria – Orbits, Vision, and Visual Loss."
+    indicatii:
+      - {tip: M, examen: "IRM orbite, cu și fără contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Masă orbitară, nevrită optică, oftalmopatie tiroidiană."}
+      - {tip: T, examen: "CT orbite", indicatie: "Indicat", grad: B, doza: "2", comentarii: "Exoftalmie / celulită orbitară (os, colecții, corp străin); urgență în celulita cu complicații."}
+  - subcapitol: "ORL"
+    situatie: "Otită externă malignă (necrozantă) / osteomielita bazei craniului"
+    referinta: "ACR Appropriateness Criteria (osteomielită bază craniu)."
+    indicatii:
+      - {tip: T, examen: "CT stâncă temporală și bază de craniu, cu contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Eroziune osoasă, extensie (diabetic/imunodeprimat)."}
+      - {tip: M, examen: "IRM bază de craniu, cu contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Extensie părți moi profunde / intracraniană."}
+      - {tip: N, examen: "Scintigrafie osoasă / cu leucocite marcate / PET-CT", indicatie: "Doar cu aviz specializat", grad: C, doza: "2–4", comentarii: "Confirmarea activității, urmărirea răspunsului terapeutic."}
+  - subcapitol: "ORL"
+    situatie: "Fistulă de LCR (rinoree / otoree de LCR)"
+    referinta: "Cf. ACR Appropriateness Criteria – Sinonasal Disease (2021)."
+    indicatii:
+      - {tip: T, examen: "CT cu secțiuni fine al bazei craniului / sinusurilor", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Localizarea defectului osos."}
+      - {tip: M, examen: "Cisterno-IRM (T2 înaltă rezoluție)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Confirmarea traiectului fistulos, meningo-/encefalocel; neiradiant."}
+      - {tip: X, examen: "Cisternografie CT cu contrast intratecal", indicatie: "Doar cu aviz specializat", grad: C, doza: "3–4", comentarii: "Cazuri neconcludente / fistulă intermitentă."}
+
+duplicate: []

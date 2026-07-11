@@ -1,0 +1,52 @@
+# Conținut distilat pentru pachetul de review — Radiologie intervențională
+# Sursă: EDITORIAL-decisions.md §42, §43.
+# Notă: capitolul RI a rezultat dintr-o deduplicare masivă (247 → 176 rânduri); ce urmează
+# sunt exclusiv conflicte/granițe rămase deschise — nicio propunere de conținut nou.
+
+fyi: []
+
+discutii:
+  - titlu: "Traumatisme renale hemodinamic instabile — arteriografie cu embolizare: „Doar în cazuri particulare” vs „Neindicat”"
+    descriere: "Grad B în ambele rânduri, dar indicația diferă pentru practic aceeași descriere clinică (fără extravazare CT la pacient stabil/responsiv)."
+    optiuni:
+      - "„Doar în cazuri particulare”"
+      - "„Neindicat”"
+      - "Comasare cu formulare unică"
+  - titlu: "Arteriopatii periferice simptomatice — angiografie invazivă: „Doar cu aviz specializat” vs „Indicat”"
+    descriere: "Grad A în ambele rânduri, indicația diferă."
+    optiuni:
+      - "„Doar cu aviz specializat”"
+      - "„Indicat”"
+  - titlu: "Avorturi spontane multiple (HSG) — grad C vs grad B"
+    descriere: "Aceeași indicație („Doar cu aviz specializat”), grade diferite."
+    optiuni:
+      - "Grad C"
+      - "Grad B"
+  - titlu: "AVC constituit (angiografie) — grad B vs grad A"
+    descriere: "Aceeași indicație („Doar cu aviz specializat”), grade diferite."
+    optiuni:
+      - "Grad B"
+      - "Grad A"
+  - titlu: "Nodul tiroidian palpabil (PCAFGE) — „Indicat”/A vs „Doar cu aviz specializat”/B"
+    optiuni:
+      - "„Indicat”/A"
+      - "„Doar cu aviz specializat”/B"
+  - titlu: "Chemoembolizare HCC — grade diferite în Oncologie vs Aparat digestiv, în subcapitole diferite"
+    descriere: "Aceeași procedură (chemoembolizare) descrisă la grade diferite (A vs B), fiecare într-un subcapitol propriu."
+    optiuni:
+      - "Se aliniază la varianta din Aparat digestiv"
+      - "Se aliniază la varianta din Oncologie"
+  - titlu: "Biopsie/patologie pulmonară oncologică — principiu general: „malignitate cu organ unic → subcapitolul de organ, nu Oncologie”?"
+    descriere: "Câteva rânduri înrudite (nodul în contact cu peretele, tumoră pulmonară, HCC-adiacent) ar putea la fel de bine sta la subcapitolul de organ (Aparat respirator, Aparat digestiv) în loc de Oncologie."
+    optiuni:
+      - "Da — principiu general pentru tot capitolul RI"
+      - "Nu — se decide per caz"
+  - titlu: "Embolie pulmonară / MAV pulmonară — Aparat cardiovascular vs Aparat respirator (comasate inconsecvent)"
+    descriere: "Embolia pulmonară a rămas la Cardiovascular, MAV pulmonară la Respirator — fără un criteriu comun aplicat."
+    optiuni:
+      - "Aliniere pe același criteriu (ambele la un singur subcapitol)"
+      - "Rămân cum sunt (context diferit per situație)"
+
+propuneri: []
+
+duplicate: []

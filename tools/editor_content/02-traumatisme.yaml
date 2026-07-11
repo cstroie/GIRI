@@ -1,0 +1,63 @@
+# Conținut distilat pentru pachetul de review — Traumatisme
+# Sursă: EDITORIAL-decisions.md §7, §8, §10, §14.
+
+fyi:
+  - "„Traumatism abdominal major” și „Traumatism izolat de bazin” rămân situații distincte (nu comasate): CT abdomino-pelvin unic pentru forma combinată, workup separat pentru fractura izolată de bazin."
+  - "Sub-axa capitolului: regiune anatomică + 4 fațete cross-region închise (Sistem vascular, Politraumatism, Corp străin, Aparat urogenital)."
+  - "Traumele cranio-faciale duplicate din capitolul Cap au fost eliminate — păstrate versiunile canonice din Traumatisme."
+
+discutii:
+  - titlu: "Corp străin ingerat (faringian/esofagian înalt) — rămâne în Traumatisme?"
+    descriere: "E mai degrabă patologie digestivă/ORL decât traumă; există un cvasi-duplicat cu Gât (părți moi) › Diverse (etichete diferite, conținut aproape identic)."
+    optiuni:
+      - "Rămâne în Traumatisme"
+      - "Se mută la Aparat digestiv / ORL"
+      - "Se păstrează distinct în ambele (context diferit: urgență vs bilanț)"
+  - titlu: "Traumatism de membru — situație generică, unde se inserează?"
+    descriere: "Sub-axa Traumatisme e regională, fără bucket generic „Membre”."
+    optiuni:
+      - "Se inserează identic în Membru superior și Membru inferior"
+      - "Rămâne situație generică unică"
+
+propuneri:
+  - subcapitol: "Gât"
+    situatie: "Traumatism cervical penetrant (plagă înjunghiată / împușcată; zonele I/II/III)"
+    referinta: "Cf. ACR Appropriateness Criteria – Penetrating Neck Injury (2017)."
+    indicatii:
+      - {tip: T, examen: "Angio-CT cervico-toracic", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Screening vascular + aerodigestiv într-o singură achiziție, la pacientul fără indicație chirurgicală imediată."}
+  - subcapitol: "Gât"
+    situatie: "Leziune laringo-traheală (traumatism cervical închis)"
+    referinta: "Cf. ACR Appropriateness Criteria – Penetrating Neck Injury (leziuni aerodigestive)."
+    indicatii:
+      - {tip: T, examen: "CT cervical (cu reconstrucții)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Fracturi de cartilaj laringian, emfizem, leziuni traheale; completează endoscopia."}
+  - subcapitol: "Gât"
+    situatie: "Leziune faringo-esofagiană"
+    referinta: "Cf. ACR Appropriateness Criteria – Penetrating Neck Injury (leziuni aerodigestive)."
+    indicatii:
+      - {tip: T, examen: "CT cervico-toracic cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Emfizem cervical/mediastinal, colecții periesofagiene; suspiciune de perforație."}
+      - {tip: X, examen: "Esofagografie cu contrast hidrosolubil", indicatie: "Indicat", grad: B, doza: "2", comentarii: "Confirmă extravazarea; contrast hidrosolubil, NU bariu (risc de mediastinită la perforație)."}
+  - subcapitol: "Abdomen"
+    situatie: "Traumatism abdominal penetrant (armă albă / armă de foc)"
+    referinta: "Cf. ACR Appropriateness Criteria – Penetrating Torso Trauma (2024)."
+    indicatii:
+      - {tip: T, examen: "CT abdomino-pelvin cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Pacient stabil: violare peritoneală, leziuni de organ, traiectul plăgii. Distinct de „Traumatism abdominal major” (mecanism contuziv)."}
+  - subcapitol: "Torace"
+    situatie: "Leziune diafragmatică traumatică"
+    referinta: "Cf. ACR Appropriateness Criteria – Penetrating Torso Trauma (2024)."
+    indicatii:
+      - {tip: T, examen: "CT torace cu reconstrucții coronale/sagitale", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Entitate frecvent ratată: hernierea viscerelor, semnul gulerului, discontinuitatea diafragmatică."}
+  - subcapitol: "Torace"
+    situatie: "Fractură de stern"
+    referinta: "Cf. RCR iRefer; ACR Appropriateness Criteria (trauma toracică)."
+    indicatii:
+      - {tip: G, examen: "Radiografie de stern (profil)", indicatie: "Indicat", grad: B, doza: "1–2", comentarii: "Primă intenție; incidență laterală/oblică."}
+      - {tip: T, examen: "CT torace", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Fracturi complexe sau suspiciune de contuzie cardiacă/leziuni mediastinale asociate."}
+  - subcapitol: "Membru superior și Membru inferior"
+    situatie: "Traumatism de membru – suspiciune de fractură (adult)"
+    referinta: "Cf. RCR iRefer; ACR Appropriateness Criteria (trauma de extremitate)."
+    indicatii:
+      - {tip: G, examen: "Radiografie standard (min. 2 incidențe)", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Primă intenție (claviculă, mână/degete, femur diafizar, gambă etc.)."}
+      - {tip: T, examen: "CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Fracturi complexe/intraarticulare, planificare chirurgicală."}
+      - {tip: M, examen: "IRM", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Fracturi oculte (ex. scafoid), leziuni de părți moi/ligamentare."}
+
+duplicate: []

@@ -1,0 +1,65 @@
+# Conținut distilat pentru pachetul de review — Cancer
+# Sursă: EDITORIAL-decisions.md §11, §16.
+# Notă: la cererea dvs., capitolul Cancer nu a fost atins în GHID.csv — tot ce urmează e schiță.
+
+fyi:
+  - "Screeningul LDCT și urmărirea nodulului pulmonar incidental au home confirmat în Torace, nu Cancer (fără duplicare)."
+  - "Cancer bronho-pulmonar: nodul pulmonar solitar rămâne diagnostic în Torace — nodul indeterminat ≠ malignitate confirmată."
+
+discutii:
+  - titlu: "9 subcapitole fără fază „Monitorizare” — omisiune sau intenționat?"
+    descriere: "Corp uterin, esofagian, gastric, pancreatic, prostatic, vezical, parotidian, CHC, metastaze hepatice secundare nu au urmărire post-terapeutică. Unele par intenționate (urmărire non-imagistică — prostatic, vezical), altele par omisiuni reale (esofagian, gastric, pancreatic, CHC, parotidian)."
+    optiuni:
+      - "Se completează monitorizarea unde e omisiune reală"
+      - "Rămân neschimbate (urmărire non-imagistică)"
+  - titlu: "Cancer renal — faza Diagnostic aproape duplicată cu Aparat uro-genital › Masă renală"
+    descriere: "Caracterizarea unei mase renale indeterminate ar trebui să stea în capitolul anatomic, Cancer păstrând doar Stadializare + Monitorizare. Neschimbat la cererea dvs. explicită."
+    optiuni:
+      - "Se elimină faza Diagnostic din Cancer"
+      - "Rămâne neschimbat"
+  - titlu: "IRM multiparametrică (cancer prostatic) — încadrată ca linia a doua, dar practica actuală o pune înaintea biopsiei"
+    descriere: "Ghidul o listează doar „după biopsie ecoghidată negativă”; NCCN/EAU recomandă mpRMN înainte de biopsie (protocol PI-RADS), ca instrument de selecție."
+    optiuni:
+      - "Reformulare: mpRMN înaintea biopsiei"
+      - "Păstrare formulare actuală"
+
+propuneri:
+  - subcapitol: "Cancer de col uterin"
+    situatie: "Stadializare — adăugare PET-CT"
+    referinta: "Cf. NCCN Cervical Cancer."
+    indicatii:
+      - {tip: N, examen: "PET-CT (F18-FDG)", indicatie: "Indicat", grad: B, doza: "4", comentarii: "Stadiul IB2 și mai avansat: evaluare ganglionară para-aortică / planificarea radioterapiei."}
+  - subcapitol: "Cancer prostatic"
+    situatie: "Stadializare — adăugare PSMA PET-CT"
+    referinta: "Cf. EAU/ESMO/NCCN; ghid comun EANM/SNMMI PSMA PET 2.0."
+    indicatii:
+      - {tip: N, examen: "PSMA PET-CT", indicatie: "Indicat", grad: B, doza: "4", comentarii: "Risc intermediar-înalt la diagnostic (stadializare ganglionară/osoasă) sau recidivă biochimică post-tratament."}
+  - subcapitol: "Mielom multiplu (subcapitol nou)"
+    situatie: "Diagnostic"
+    referinta: "Cf. IMWG – imaging in monoclonal plasma cell disorders (Hillengass, Lancet Oncol 2019)."
+    indicatii:
+      - {tip: T, examen: "CT de corp întreg cu doză redusă", indicatie: "Indicat", grad: A, doza: "2–3", comentarii: "Primă linie pentru boala osoasă litică — mai sensibil decât radiografia convențională."}
+      - {tip: M, examen: "IRM (coloană / corp întreg)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "La CT neconcludent sau fără leziuni definitorii; superior pentru afectarea medulară difuză."}
+      - {tip: N, examen: "PET-CT (F18-FDG)", indicatie: "Indicat", grad: B, doza: "4", comentarii: "Evaluare funcțională inițială, boală extramedulară."}
+  - subcapitol: "Mielom multiplu (subcapitol nou)"
+    situatie: "Monitorizare"
+    referinta: "Cf. IMWG – imaging in monoclonal plasma cell disorders (Hillengass, Lancet Oncol 2019)."
+    indicatii:
+      - {tip: N, examen: "PET-CT (F18-FDG)", indicatie: "Indicat", grad: B, doza: "4", comentarii: "Standard pentru evaluarea răspunsului la tratament și a bolii reziduale."}
+      - {tip: M, examen: "IRM (corp întreg)", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Monitorizarea leziunilor medulare/difuze la caz selectat."}
+  - subcapitol: "Tumori ale aparatului locomotor"
+    situatie: "Monitorizare (fază lipsă)"
+    referinta: "Cf. NCCN Bone Cancer / Soft Tissue Sarcoma; ACR Appropriateness Criteria."
+    indicatii:
+      - {tip: T, examen: "CT toracic", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Supravegherea metastazelor pulmonare (sarcoame osoase și de părți moi)."}
+      - {tip: M, examen: "IRM loco-regională", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Supravegherea recidivei locale la patul tumoral."}
+      - {tip: G, examen: "Radiografie standard", indicatie: "Doar în cazuri particulare", grad: C, doza: "1", comentarii: "Supraveghere de rutină când accesul la CT/IRM e limitat."}
+  - subcapitol: "Cancer de vulvă / cancer vaginal (subcapitol nou)"
+    situatie: "Stadializare"
+    referinta: "Cf. NCCN Vulvar/Vaginal Cancer; ESMO."
+    indicatii:
+      - {tip: M, examen: "IRM pelvină", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Stadializare loco-regională (extensie locală, ganglioni pelvini), similar cancerului de col uterin."}
+      - {tip: N, examen: "PET-CT (F18-FDG)", indicatie: "Doar în cazuri particulare", grad: B, doza: "4", comentarii: "Evaluare ganglionară (inghino-femurală/pelvină) și la distanță în boala avansată."}
+      - {tip: T, examen: "CT toraco-abdomino-pelvin", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Metastaze la distanță în boala avansată."}
+
+duplicate: []

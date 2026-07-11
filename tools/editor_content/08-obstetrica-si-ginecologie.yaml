@@ -1,0 +1,119 @@
+# Conținut distilat pentru pachetul de review — Obstetrică și ginecologie
+# Sursă: EDITORIAL-decisions.md §25 (parte), §27, §28.
+
+fyi:
+  - "Etichetă „Dureri pelvine” unificată: CT + Ecografie + IRM formează acum o singură situație."
+  - "„Infertilitate masculină” mutată la Aparat uro-genital (înlocuiește un breadcrumb)."
+  - "Situațiile din subcapitolul „Sarcină” reordonate pe flux clinic (urgență → cronic → monitorizare)."
+
+discutii:
+  - titlu: "Etichetă „Metroragii postmenopauzale…Menometroragii” — două entități lipite fără separator"
+    descriere: "Confirmat: sunt două situații distincte, dar rămâne nerezolvată la cererea dvs., pentru discuție cu ceilalți editori."
+    optiuni:
+      - "Separare în două situații"
+      - "Reformulare cu separator"
+      - "Rămâne nemodificată"
+  - titlu: "Subcapitolele „Obstetrică” (doar disproporție cefalo-pelvină) și „Sarcină” — se fuzionează?"
+    descriere: "Patologia obstetricală nouă propusă mai jos ar intra la „Sarcină”; de decis dacă cele două subcapitole se unifică."
+    optiuni:
+      - "Rămân separate, conținutul nou la „Sarcină”"
+      - "Se fuzionează"
+
+propuneri:
+  - subcapitol: "Ginecologie"
+    situatie: "Durere pelvină acută (femeie de vârstă reproductivă, non-gravidă)"
+    referinta: "Cf. ACR Appropriateness Criteria – Acute Pelvic Pain in the Reproductive Age Group."
+    indicatii:
+      - {tip: E, examen: "Ecografie transvaginală + transabdominală cu Doppler", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție: torsiune anexială (urgență), chist hemoragic/rupt, abces tubo-ovarian."}
+      - {tip: T, examen: "CT abdomen și pelvis cu substanță de contrast", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Suspiciune de etiologie non-ginecologică sau ecografie echivocă."}
+  - subcapitol: "Ginecologie"
+    situatie: "Sângerare uterină anormală – premenopauzală / vârstă reproductivă (AUB)"
+    referinta: "Cf. ACR Appropriateness Criteria – Abnormal Uterine Bleeding."
+    indicatii:
+      - {tip: E, examen: "Ecografie transvaginală + transabdominală cu Doppler", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție."}
+      - {tip: E, examen: "Sonohisterografie (histerosonografie / SIS)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Polipi / miom submucos / patologie endometrială focală."}
+      - {tip: M, examen: "IRM", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "A doua intenție (cartografiere, caz neconcludent)."}
+  - subcapitol: "Ginecologie"
+    situatie: "Sângerare genitală acută/severă (refractară la tratament medical)"
+    referinta: "Cf. ACR Appropriateness Criteria – Abnormal Uterine Bleeding."
+    indicatii:
+      - {tip: E, examen: "Ecografie (± Doppler)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Identifică patologia subiacentă (fibrom, resturi placentare, tumoră, cauză vasculară)."}
+      - {tip: T, examen: "AngioCT", indicatie: "Doar în cazuri particulare", grad: C, doza: "2–3", comentarii: "Pacientă instabilă hemodinamic — localizarea sursei înaintea embolizării emergente (embolizarea = RI)."}
+  - subcapitol: "Ginecologie"
+    situatie: "Leiomiom uterin (fibrom, unic sau multiplu) – caracterizare / cartografiere"
+    referinta: "Cf. ACR Appropriateness Criteria – Fibroids (2022)."
+    indicatii:
+      - {tip: E, examen: "Ecografie (transvaginală ± transabdominală, ± Doppler)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție pentru diagnosticul inițial."}
+      - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Cartografiere pre-embolizare/miomectomie; exclude leiomiosarcomul la cazuri atipice."}
+  - subcapitol: "Ginecologie"
+    situatie: "Adenomioză uterină"
+    referinta: "Literatura de acuratețe diagnostică (IRM adenomioză)."
+    indicatii:
+      - {tip: E, examen: "Ecografie (transvaginală)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție."}
+      - {tip: M, examen: "IRM", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Caz echivoc ecografic sau înainte de embolizare/tratament conservator."}
+  - subcapitol: "Ginecologie"
+    situatie: "Endometrioză (suspiciune / bilanț de extensie)"
+    referinta: "Cf. ACR Appropriateness Criteria / ESUR."
+    indicatii:
+      - {tip: E, examen: "Ecografie transvaginală", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție, inclusiv endometrioză profundă."}
+      - {tip: M, examen: "IRM cu protocol dedicat", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Opacifiere vaginală/rectală; bilanț de extensie."}
+  - subcapitol: "Ginecologie"
+    situatie: "Anomalii congenitale uterine (malformații mülleriene)"
+    referinta: "Cf. ESUR / ASRM (clasificare mülleriană)."
+    indicatii:
+      - {tip: E, examen: "Ecografie 3D", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Clasificare (uter septat vs bicorn etc.)."}
+      - {tip: M, examen: "IRM", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Clasificare definitivă; relevant pentru infertilitate și avort recurent."}
+  - subcapitol: "Ginecologie"
+    situatie: "Varice periuterine (sindrom de congestie pelvină)"
+    referinta: "Consens SFICV/FRI/CERF/SIFEM (2024)."
+    indicatii:
+      - {tip: E, examen: "Ecografie transvaginală + Doppler", indicatie: "Doar în cazuri particulare", grad: C, doza: "0", comentarii: "Primă linie, dar sensibilitate/specificitate limitate."}
+      - {tip: M, examen: "IRM (± angio-IRM)", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Extensia varicelor, planificare pre-embolizare (embolizarea = RI)."}
+  - subcapitol: "Ginecologie"
+    situatie: "Disfuncție de planșeu pelvin / prolaps de organe pelvine"
+    referinta: "Cf. ACR Appropriateness Criteria – Pelvic Floor Dysfunction in Females."
+    indicatii:
+      - {tip: E, examen: "Ecografie (transperineală / introitală)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Evaluare inițială: incontinență / planșeu anterior, reziduu postmicțional."}
+      - {tip: M, examen: "IRM dinamic de planșeu pelvin (defeco-IRM)", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Evaluare multi-compartiment; cazuri complexe/preoperator."}
+      - {tip: X, examen: "Defecografie fluoroscopică", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Compartimentul posterior, când IRM dinamic nu e disponibil."}
+  - subcapitol: "Sarcină"
+    situatie: "Sângerare de trimestru II/III (placenta previa, dezlipire de placentă)"
+    referinta: "Cf. ACR Appropriateness Criteria – Second and Third Trimester Vaginal Bleeding."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție: localizarea placentei, previa, vasa previa, dezlipire."}
+      - {tip: M, examen: "IRM", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Adjuvant în cazuri selectate."}
+  - subcapitol: "Sarcină"
+    situatie: "Spectru placenta accreta (placentă aderentă morbid)"
+    referinta: "Cf. ACR Appropriateness Criteria – Placenta Accreta Spectrum Disorder."
+    indicatii:
+      - {tip: E, examen: "Ecografie cu Doppler", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Screening/diagnostic la risc (placenta praevia + cezariană în antecedente)."}
+      - {tip: M, examen: "IRM", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Profunzimea invaziei, placentă posterioară, planificare chirurgicală."}
+  - subcapitol: "Sarcină"
+    situatie: "Hemoragie postpartum / retenție de produse de concepție"
+    referinta: "Cf. ACR Appropriateness Criteria – Postpartum Hemorrhage."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Retenție, cheaguri."}
+      - {tip: T, examen: "CT / angio-CT", indicatie: "Doar în cazuri particulare", grad: C, doza: "2–3", comentarii: "Sângerare activă, localizarea sursei pre-embolizare (embolizarea = RI)."}
+  - subcapitol: "Sarcină"
+    situatie: "Evaluarea colului gravid / insuficiență cervicală (col scurt)"
+    referinta: "Cf. ACR Appropriateness Criteria – Assessment of the Gravid Cervix."
+    indicatii:
+      - {tip: E, examen: "Ecografie transvaginală", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Măsurarea lungimii cervicale."}
+  - subcapitol: "Sarcină"
+    situatie: "Suspiciune de anomalie fetală – completarea ecografiei (IRM fetal)"
+    referinta: "Cf. RCR iRefer; ISUOG (IRM fetal)."
+    indicatii:
+      - {tip: M, examen: "IRM fetal", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Adjuvant pentru anomalii SNC (și altele) când ecografia e neconcludentă; fără iradiere."}
+  - subcapitol: "Sarcină"
+    situatie: "Sarcină cu localizare necunoscută (PUL)"
+    referinta: "Ghiduri de sarcină incipientă (NICE / ESHRE)."
+    indicatii:
+      - {tip: E, examen: "Ecografie transvaginală", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Cu β-hCG seriat; completează grupul „extrauterină / non-viabilă”."}
+  - subcapitol: "Fertilitate"
+    situatie: "Infertilitate feminină — completare (permeabilitate tubară)"
+    referinta: "Cf. ACR Appropriateness Criteria – Female Infertility."
+    indicatii:
+      - {tip: X, examen: "Histerosalpingografie (HSG)", indicatie: "Indicat", grad: B, doza: "2", comentarii: "Permeabilitate tubară (azi doar în comentarii)."}
+      - {tip: E, examen: "HyCoSy / histerosonografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Alternativă ecografică pentru permeabilitatea tubară."}
+
+duplicate: []

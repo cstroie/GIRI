@@ -1,0 +1,68 @@
+# Conținut distilat pentru pachetul de review — Torace
+# Sursă: EDITORIAL-decisions.md §17, §18.
+
+fyi:
+  - "Neoplasmul bronhopulmonar a fost mutat la Cancer › Cancer bronho-pulmonar (fuzionat); Nodulul pulmonar solitar rămâne diagnostic în Torace."
+  - "Conflictele de grad la mutare au fost rezolvate în favoarea gradului din Cancer (fără schimbare de grad Cancer); referințele au fost adăugate în Alte informații."
+  - "Scintigrafia osoasă (stadializare bronho-pulmonară) coborâtă la „Doar în cazuri particulare” — PET-CT a preluat rolul principal pentru metastaze osoase."
+  - "Etichetele „Nodul pulmonar” unificate la „Nodul pulmonar solitar” (CT reordonat înaintea PET-CT)."
+
+discutii:
+  - titlu: "Empiem / pleurezie parapneumonică — situație proprie sau notă în „Epanșament pleural”?"
+    descriere: "Azi parțial acoperit sub „Epanșament pleural”."
+    optiuni:
+      - "Situație proprie (subcapitol Pleură)"
+      - "Notă în situația existentă"
+  - titlu: "Bronșiectazii — se separă de „Bronhoree cronică” sau rămân acoperite acolo?"
+    descriere: "„Bronhoree cronică” menționează deja „dilatații bronșice”."
+    optiuni:
+      - "Situație proprie"
+      - "Rămân sub „Bronhoree cronică”"
+  - titlu: "Dispnee acută — se suprapune cu situațiile deja existente (embolie, pneumonie)?"
+    descriere: "De verificat suprapunerea înainte de inserare."
+    optiuni:
+      - "Situație proprie"
+      - "Nu se adaugă (acoperire suficientă)"
+
+propuneri:
+  - subcapitol: "Pulmon"
+    situatie: "Screening cancer pulmonar (CT low-dose la persoane cu risc)"
+    referinta: "Cf. ACR Appropriateness Criteria – Lung Cancer Screening (2022); USPSTF 2021."
+    indicatii:
+      - {tip: T, examen: "CT torace fără substanță de contrast, doză redusă", indicatie: "Indicat", grad: A, doza: "2", comentarii: "Screening anual, 50–80 ani, ≥20 pachete-an, fumători activi sau opriți de <15 ani."}
+      - {tip: G, examen: "Radiografie toracică", indicatie: "Neindicat", grad: A, doza: "1", comentarii: "Insensibilă ca test de screening — NU înlocuiește LDCT."}
+  - subcapitol: "Mediastin (subcapitol nou)"
+    situatie: "Masă / lărgire mediastinală"
+    referinta: "Cf. ACR Appropriateness Criteria – Imaging of Mediastinal Masses (2021)."
+    indicatii:
+      - {tip: T, examen: "CT torace cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Primă linie: localizare, caracterizare, raporturi vasculare."}
+      - {tip: G, examen: "Radiografie toracică", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Adesea descoperire incidentală inițială."}
+      - {tip: M, examen: "IRM torace/mediastin", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Caracterizare tisulară (chistic vs solid), invazie; intoleranță la contrast iodat."}
+      - {tip: N, examen: "PET-CT (F18-FDG)", indicatie: "Doar cu aviz specializat", grad: B, doza: "4", comentarii: "Suspiciune de malignitate / limfom."}
+  - subcapitol: "Pulmon"
+    situatie: "Dispnee acută / insuficiență respiratorie acută"
+    referinta: "Cf. ACR Appropriateness Criteria – Acute Respiratory Illness / Dyspnea."
+    indicatii:
+      - {tip: G, examen: "Radiografie toracică", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Primă linie."}
+      - {tip: T, examen: "CT torace ± angio-CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Radiografie neconcludentă, suspiciune de embolie/patologie parenchimatoasă."}
+      - {tip: E, examen: "Ecografie toracică (pulmonară + cardiacă)", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "La patul bolnavului."}
+  - subcapitol: "Pulmon"
+    situatie: "Tuberculoză pulmonară activă (suspiciune / diagnostic)"
+    referinta: "Cf. RCR iRefer; ACR Appropriateness Criteria."
+    indicatii:
+      - {tip: G, examen: "Radiografie toracică", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Primă linie: infiltrate, cavitații, adenopatii."}
+      - {tip: T, examen: "CT torace", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Radiografie echivocă, forme complicate/miliare, evaluarea activității."}
+  - subcapitol: "Pleură"
+    situatie: "Empiem / pleurezie parapneumonică"
+    referinta: "Cf. ACR Appropriateness Criteria (patologie pleurală)."
+    indicatii:
+      - {tip: E, examen: "Ecografie toracică", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Cloazonări, ghidajul drenajului."}
+      - {tip: T, examen: "CT torace cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Colecție organizată, „split pleura sign”, ghidajul drenajului."}
+  - subcapitol: "Pulmon"
+    situatie: "Bronșiectazii"
+    referinta: "Cf. RCR iRefer; ACR Appropriateness Criteria."
+    indicatii:
+      - {tip: T, examen: "CT de înaltă rezoluție (HRCT), fără contrast", indicatie: "Indicat", grad: A, doza: "2–3", comentarii: "Examen de referință."}
+      - {tip: G, examen: "Radiografie toracică", indicatie: "Doar în cazuri particulare", grad: B, doza: "1", comentarii: "Insensibilă."}
+
+duplicate: []

@@ -1,0 +1,35 @@
+# Conținut distilat pentru pachetul de review — Aparat uro-genital și glande suprarenale
+# Sursă: EDITORIAL-decisions.md §23, §24, §25, §26.
+
+fyi:
+  - "Feocromocitom/paragangliom: scintigrafia MIBG coborâtă la „Doar în cazuri particulare”; adăugate PET-CT DOTATATE și PET-CT FDOPA ca examene de elecție (aplicat, EANM/SNMMI 2019)."
+  - "Sindrom Conn: scintigrafia I131-Norcolesterol coborâtă la „Doar în cazuri particulare” (rol ancilar față de CT + cateterism venos suprarenalian)."
+  - "Infertilitatea masculină mutată la acest capitol (Aparat genital masculin), înlocuind un breadcrumb spre Obstetrică-ginecologie."
+  - "Incontinența urinară feminină și disfuncția de planșeu pelvin au home confirmat la Obstetrică-ginecologie (workup unitar), nu aici."
+
+discutii:
+  - titlu: "„Impotență” — Ecografie „Neindicat”, dar comentariul sugerează un rol în forma secundară posttraumatică"
+    descriere: "Verdictul pare să contrazică propria notă. Posibil rezultat al unei trunchieri de conținut în sursă."
+    optiuni:
+      - "Se schimbă la „Doar în cazuri particulare”"
+      - "Se completează doar comentariul"
+      - "Rămâne „Neindicat”"
+  - titlu: "Incidentalom suprarenalian — CT non-contrast subevaluat ca poziție și grad"
+    descriere: "Comentariul propriu al situației spune că CT cu măsurarea densității e testul-cheie, dar e listat ultimul, grad C, sub IRM și scintigrafie."
+    optiuni:
+      - "Se promovează CT-ul pe prima poziție / grad mai mare"
+      - "Rămâne neschimbat"
+  - titlu: "Sindrom Cushing — două rânduri CT (grad A + grad B) sub aceeași etichetă"
+    descriere: "Reprezintă de fapt două sub-scenarii etiologice (Cushing ACTH-dependent vs independent), nu un duplicat greșit."
+    optiuni:
+      - "Etichete de situație separate"
+      - "Rămân comasate"
+
+propuneri:
+  - subcapitol: "Aparat genital masculin"
+    situatie: "Priapism"
+    referinta: "Cf. AUA/SMSNA – Acute Ischemic Priapism Guideline (2022)."
+    indicatii:
+      - {tip: E, examen: "Eco-Doppler penian", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Când diagnosticul clinic ischemic/non-ischemic e neconcludent (gazometria din corpii cavernoși rămâne primul test)."}
+
+duplicate: []

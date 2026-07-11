@@ -1,0 +1,65 @@
+# Conținut distilat pentru pachetul de review — Coloană vertebrală
+# Sursă: EDITORIAL-decisions.md §9, §30, §31.
+
+fyi:
+  - "Consolidare completă a Coloanei lombare aplicată (comasări de duplicate cu grade identice pe modalitățile comune)."
+
+discutii:
+  - titlu: "Coloană cervicală — trecere la „CT-întâi” ca screening primar la pacientul care necesită imagistică?"
+    descriere: "Practica modernă (ACR AC, EAST, NICE NG41) recomandă CT ca test de screening primar; ghidul actual păstrează radiografie-întâi la risc scăzut, cu argument explicit în comentariu."
+    optiuni:
+      - "Trecere la CT-întâi"
+      - "Păstrare radiografie-întâi"
+  - titlu: "„Lombalgie cronică” — două situații cvasi-duplicate, cu liste de examene diferite"
+    descriere: "„Lombalgie comună” vs „Lombalgie cronică fără semne de infecție sau tumoră” — a doua adaugă PET-CT."
+    optiuni:
+      - "Comasare, PET-CT păstrat"
+      - "Comasare, PET-CT eliminat"
+      - "Rămân distincte"
+  - titlu: "„Lombalgie cu semne de gravitate” — pereche cvasi-duplicată similară"
+    descriere: "Două formulări aproape identice (red flags), seturi de examene parțial suprapuse."
+    optiuni:
+      - "Comasare cu etichetă unică"
+      - "Rămân distincte"
+  - titlu: "Rând-breadcrumb „Afecțiuni congenitale – vezi capitolul Pediatrie” — se elimină?"
+    descriere: "Candidat la eliminare per regula „fără breadcrumb-uri” (home real e în Pediatrie)."
+    optiuni:
+      - "Se elimină"
+      - "Se păstrează ca semnalizare"
+  - titlu: "Spondilartrită axială — situație nouă sau îmbogățirea „Sacro-ileită”?"
+    descriere: "Abordarea modernă (criterii ASAS) pornește de la IRM sacro-iliace, nu radiografie."
+    optiuni:
+      - "Situație nouă distinctă"
+      - "Îmbogățirea „Sacro-ileită” (recomandat, evită suprapunerea)"
+
+propuneri:
+  - subcapitol: "Coloană"
+    situatie: "Suspiciune de infecție spinală (spondilodiscită, abces epidural)"
+    referinta: "Cf. ACR Appropriateness Criteria – Suspected Spine Infection (2021)."
+    indicatii:
+      - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Examen de elecție. De realizat în urgență la deficit neurologic sau suspiciune de abces epidural."}
+      - {tip: G, examen: "Radiografie standard", indicatie: "Doar în cazuri particulare", grad: B, doza: "2", comentarii: "Poate fi normală în faza precoce."}
+      - {tip: T, examen: "CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Distrucția osoasă, ghidarea puncției-biopsii."}
+      - {tip: N, examen: "Scintigrafie cu leucocite radiomarcate", indicatie: "Doar cu aviz specializat", grad: B, doza: "2–3", comentarii: "Când IRM e contraindicat/neconcludent."}
+      - {tip: N, examen: "PET-CT (F18-FDG)", indicatie: "Doar cu aviz specializat", grad: B, doza: "4", comentarii: "Infecție cronică sau de material protetic."}
+  - subcapitol: "Coloană lombară"
+    situatie: "Sindrom de coadă de cal (cauda equina)"
+    referinta: "Cf. ACR Appropriateness Criteria – Low Back Pain (2021 Update)."
+    indicatii:
+      - {tip: M, examen: "IRM", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Urgență neurochirurgicală — IRM lombo-sacrată de urgență, gold standard. De realizat imediat."}
+      - {tip: T, examen: "CT / mielo-CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Când IRM e contraindicat sau indisponibil."}
+  - subcapitol: "Coloană lombară"
+    situatie: "Rahialgie/radiculalgie după chirurgie lombară (recidivă de hernie vs. fibroză)"
+    referinta: "Cf. ACR Appropriateness Criteria – Low Back Pain with Prior Lumbar Surgery."
+    indicatii:
+      - {tip: M, examen: "IRM cu și fără gadolinium", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Fibroza/cicatricea epidurală captează contrastul; hernia recidivată nu captează central."}
+      - {tip: T, examen: "CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Evaluarea instrumentației/fuziunii și a complicațiilor osoase."}
+  - subcapitol: "Sacru"
+    situatie: "Suspiciune de spondilartrită axială (durere lombară de tip inflamator)"
+    referinta: "Criteriile ASAS pentru spondilartrita axială."
+    indicatii:
+      - {tip: M, examen: "IRM articulații sacro-iliace (± coloană)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție la suspiciune clinică: edem osos subcondral pe STIR = sacroiliită activă precoce, când radiografia e încă normală."}
+      - {tip: G, examen: "Radiografie de bazin / sacro-iliace", indicatie: "Doar în cazuri particulare", grad: B, doza: "1–2", comentarii: "Pentru sacroiliita structurală tardivă; normală în faza precoce."}
+      - {tip: T, examen: "CT sacro-iliace", indicatie: "Doar cu aviz specializat", grad: B, doza: "2–3", comentarii: "Leziuni structurale echivoce pe radiografie; iradiere mai mare."}
+
+duplicate: []

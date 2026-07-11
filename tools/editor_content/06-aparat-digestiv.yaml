@@ -1,0 +1,101 @@
+# Conținut distilat pentru pachetul de review — Aparat digestiv
+# Sursă: EDITORIAL-decisions.md §19, §20.
+
+fyi:
+  - "Cancerul de stomac (PET-CT stadializare) mutat la Cancer › Cancer gastric (era determinat de malignitate)."
+  - "„Suspiciune de fistulă biliară” comasată sub Ficat, colecist și pancreas (elimină duplicatul din fostul „Tub digestiv”)."
+  - "Scintigrafia cu hematii marcate comasată sub „Hemoragie gastro-intestinală ocultă” (elimină o etichetă greșită de „sângerare acută”, care descria de fapt sângerarea ocultă)."
+  - "Reflux gastroesofagian / hernie hiatală rămâne în Aparat digestiv — entitatea e esofagiană, nu Torace; titlul reformulat, fără mutare."
+  - "Defecografia / disfuncția de planșeu pelvin posterior mutată la Obstetrică-ginecologie (workup unitar cu restul planșeului pelvin)."
+
+discutii:
+  - titlu: "Perforație de organ cavitar (non-esofagian) — merită situație proprie?"
+    descriere: "Azi acoperită doar în comentarii („Durerea abdominală acută”, „Sindrom ocluziv”)."
+    optiuni:
+      - "Situație proprie"
+      - "Rămâne acoperită în comentarii"
+  - titlu: "Colangită sclerozantă primitivă — situație proprie?"
+    descriere: "Azi doar mențiune în „Icter” și „Patologie biliară”."
+    optiuni:
+      - "Situație proprie (colangio-IRM)"
+      - "Rămâne mențiune în situațiile existente"
+
+propuneri:
+  - subcapitol: "Ficat, colecist și pancreas"
+    situatie: "Colecistită acută (durere în hipocondrul drept)"
+    referinta: "Cf. ACR Appropriateness Criteria – Right Upper Quadrant Pain; Tokyo Guidelines TG18."
+    indicatii:
+      - {tip: E, examen: "Ecografie abdominală", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție: perete îngroșat, lichid pericolecistic, semn Murphy ecografic."}
+      - {tip: N, examen: "Scintigrafie biliară (HIDA)", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Ecografie echivocă; modalitate absentă azi din capitol."}
+      - {tip: T, examen: "CT abdominal cu substanță de contrast", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Complicații (gangrenoasă, emfizematoasă, perforată)."}
+      - {tip: M, examen: "IRM + colangio-IRM", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Echivoc, gravide, coledocolitiază asociată."}
+  - subcapitol: "Intestin subțire și colon"
+    situatie: "Apendicită acută (adult, durere în fosa iliacă dreaptă)"
+    referinta: "Cf. ACR Appropriateness Criteria – Right Lower Quadrant Pain (2022)."
+    indicatii:
+      - {tip: T, examen: "CT abdomen și pelvis cu substanță de contrast", indicatie: "Indicat", grad: A, doza: "2–3", comentarii: "Adult, prima intenție."}
+      - {tip: E, examen: "Ecografie", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Pacient slab; Indicat la gravide (copiii → Pediatrie)."}
+      - {tip: M, examen: "IRM fără substanță de contrast", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "La gravide, după ecografie neconcludentă."}
+  - subcapitol: "Intestin subțire și colon"
+    situatie: "Diverticulită acută (durere în fosa iliacă stângă)"
+    referinta: "Cf. ACR Appropriateness Criteria – Left Lower Quadrant Pain."
+    indicatii:
+      - {tip: T, examen: "CT abdomen și pelvis cu substanță de contrast", indicatie: "Indicat", grad: A, doza: "2–3", comentarii: "Prima intenție; stadializare Hinchey, complicații."}
+      - {tip: E, examen: "Ecografie", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Alternativă la CT în cazuri selectate."}
+  - subcapitol: "Intestin subțire și colon"
+    situatie: "Ischemie mezenterică (acută / cronică)"
+    referinta: "Cf. ACR Appropriateness Criteria – Imaging of Mesenteric Ischemia."
+    indicatii:
+      - {tip: T, examen: "Angio-CT abdomen și pelvis", indicatie: "Indicat", grad: A, doza: "2–3", comentarii: "Prima intenție, acut și cronic."}
+      - {tip: M, examen: "Angio-IRM abdomen și pelvis", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Formă cronică; insuficiență renală."}
+      - {tip: E, examen: "Eco-Doppler", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Screening / formă cronică."}
+  - subcapitol: "Ficat, colecist și pancreas"
+    situatie: "Boală hepatică cronică difuză (steatoză / fibroză, NAFLD-MASLD)"
+    referinta: "Ghiduri hepatologice (EASL/AASLD)."
+    indicatii:
+      - {tip: E, examen: "Ecografie ± elastografie (shear-wave)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Screening steatoză, stadializarea fibrozei."}
+      - {tip: M, examen: "IRM (PDFF / elastografie-RM)", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Cuantificarea grăsimii/fierului, stadializarea fibrozei."}
+  - subcapitol: "Ficat, colecist și pancreas"
+    situatie: "Hipertensiune portală / tromboză de venă portă"
+    referinta: "Ghiduri hepatologice (Baveno)."
+    indicatii:
+      - {tip: E, examen: "Eco-Doppler abdominal", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție: flux/permeabilitate portală, colaterale, Budd-Chiari."}
+      - {tip: T, examen: "CT cu substanță de contrast (fază portală)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Cartografiere, tromboză tumorală vs blandă."}
+      - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Alternativă la CT."}
+  - subcapitol: "Ficat, colecist și pancreas"
+    situatie: "Abces hepatic / colecție intraabdominală (non-postoperator)"
+    referinta: "Cf. ACR Appropriateness Criteria (durere abdominală/colecții)."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Prima intenție."}
+      - {tip: T, examen: "CT abdomen cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Caracterizare, extindere (drenajul = RI)."}
+  - subcapitol: "Intestin subțire și colon"
+    situatie: "Fistulă perianală / boală perianală (inclusiv Crohn perianal)"
+    referinta: "Cf. ESGAR; ACR Appropriateness Criteria – Crohn Disease."
+    indicatii:
+      - {tip: M, examen: "IRM pelvin (protocol fistulă)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Standard de aur: clasificarea traiectelor, abcese."}
+      - {tip: E, examen: "Ecografie endoanală", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Alternativă/complement în mâini experte."}
+  - subcapitol: "Ficat, colecist și pancreas"
+    situatie: "Chist hidatic hepatic / echinococoză"
+    referinta: "Cf. WHO-IWGE (clasificare chist hidatic)."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Clasificarea WHO-IWGE / Gharbi."}
+      - {tip: T, examen: "CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Localizări dificile, complicații biliare."}
+      - {tip: M, examen: "IRM (colangio-IRM)", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Raporturi biliare, complicații."}
+  - subcapitol: "Abdomen acut și hemoragii digestive"
+    situatie: "Perforație de organ cavitar / pneumoperitoneu (non-esofagian)"
+    referinta: "Cf. ACR Appropriateness Criteria (durere abdominală acută)."
+    indicatii:
+      - {tip: G, examen: "Radiografie abdominală în ortostatism (+ toracică)", indicatie: "Indicat", grad: B, doza: "2", comentarii: "Pneumoperitoneu (aer liber sub diafragm)."}
+      - {tip: T, examen: "CT abdomen cu contrast oral/i.v.", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Localizarea perforației, cauza, complicații."}
+  - subcapitol: "Ficat, colecist și pancreas"
+    situatie: "Colangită sclerozantă primitivă / evaluarea căilor biliare"
+    referinta: "Ghiduri hepato-biliare (EASL PSC)."
+    indicatii:
+      - {tip: M, examen: "Colangio-IRM (MRCP)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Examen de referință (stenoze/dilatații „în mărgele”)."}
+  - subcapitol: "Esofag"
+    situatie: "Achalazie / tulburări de motilitate esofagiană"
+    referinta: "Cf. Chicago Classification; ghiduri de motilitate esofagiană."
+    indicatii:
+      - {tip: X, examen: "Tranzit baritat esofagian cronometrat", indicatie: "Indicat", grad: B, doza: "2", comentarii: "Golire esofagiană, aspect „cioc de pasăre”; completează manometria."}
+
+duplicate: []

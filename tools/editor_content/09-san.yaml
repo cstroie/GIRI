@@ -1,0 +1,66 @@
+# Conținut distilat pentru pachetul de review — Sân
+# Sursă: EDITORIAL-decisions.md §15.
+
+fyi:
+  - "Intervenționalul mamar (biopsie percutanată, biopsie ganglionară axilară) confirmat: rămâne în Sân, nu se mută la RI (excepție de senologie)."
+  - "Localizarea preoperatorie ghidată imagistic și drenajul percutan al abcesului mamar au home confirmat: Sân, nu RI."
+
+discutii:
+  - titlu: "Tomosinteza (mamografia 3D) — merită distincție proprie de Tip/Examen sau rămâne implicită în „Mamografie”?"
+    optiuni:
+      - "Distincție proprie"
+      - "Rămâne implicită"
+  - titlu: "Patologie mamară la bărbat — subcapitol nou sau situații în „Paciente cu simptome…”?"
+    descriere: "Cele 4 situații propuse mai jos presupun un subcapitol nou (subcapitolele actuale sunt toate „Paciente…”)."
+    optiuni:
+      - "Subcapitol nou „Patologie mamară la bărbat”"
+      - "Intră la „Paciente cu simptome…”"
+
+propuneri:
+  - subcapitol: "Cancer de sân"
+    situatie: "Evaluarea răspunsului la chimioterapia neoadjuvantă"
+    referinta: "Cf. ACR Appropriateness Criteria – Monitoring Response to Neoadjuvant Systemic Therapy for Breast Cancer."
+    indicatii:
+      - {tip: M, examen: "IRM mamar", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Metoda cea mai performantă pentru evaluarea răspunsului și planificarea chirurgicală."}
+      - {tip: E, examen: "Ecografie", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Evaluare interimară, mai accesibilă."}
+      - {tip: G, examen: "Mamografie / tomosinteză", indicatie: "Doar în cazuri particulare", grad: B, doza: "1", comentarii: "Utilitate limitată de modificările induse de tratament."}
+  - subcapitol: "Patologie mamară la bărbat (subcapitol nou)"
+    situatie: "Ginecomastie / pseudoginecomastie cu aspect clinic tipic"
+    referinta: "Cf. ACR Appropriateness Criteria – Evaluation of the Symptomatic Male Breast (2018)."
+    indicatii:
+      - {tip: G, examen: "Mamografie", indicatie: "Neindicat", grad: B, doza: "1", comentarii: "Diagnostic clinic; fără imagistică de rutină."}
+  - subcapitol: "Patologie mamară la bărbat (subcapitol nou)"
+    situatie: "Masă mamară nedeterminată, bărbat sub 25 de ani"
+    referinta: "Cf. ACR Appropriateness Criteria – Evaluation of the Symptomatic Male Breast (2018)."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție la tânăr (probabilitate mică de malignitate)."}
+  - subcapitol: "Patologie mamară la bărbat (subcapitol nou)"
+    situatie: "Masă mamară nedeterminată, bărbat peste 25 de ani"
+    referinta: "Cf. ACR Appropriateness Criteria – Evaluation of the Symptomatic Male Breast (2018)."
+    indicatii:
+      - {tip: G, examen: "Mamografie / tomosinteză", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Primă intenție; ecografia = complementar."}
+  - subcapitol: "Patologie mamară la bărbat (subcapitol nou)"
+    situatie: "Suspiciune clinică de cancer mamar, indiferent de vârstă"
+    referinta: "Cf. ACR Appropriateness Criteria – Evaluation of the Symptomatic Male Breast (2018)."
+    indicatii:
+      - {tip: G, examen: "Mamografie / tomosinteză", indicatie: "Indicat", grad: A, doza: "1", comentarii: "± ecografie complementară pentru caracterizare și evaluare ganglionară."}
+  - subcapitol: "Paciente cu simptome și semne nesugestive de cancer"
+    situatie: "Imagistica sânului în sarcină și lactație"
+    referinta: "Cf. ACR Appropriateness Criteria – Breast Imaging of Pregnant and Lactating Women."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă linie, fără iradiere/contrast."}
+      - {tip: G, examen: "Mamografie cu protecție abdominală", indicatie: "Doar în cazuri particulare", grad: B, doza: "1", comentarii: "Dacă ecografia e neconcludentă sau leziune suspectă; iradiere fetală neglijabilă cu ecranare."}
+      - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Neindicat", grad: B, doza: "0", comentarii: "Neindicat în sarcină (gadoliniul traversează placenta); Doar în cazuri particulare în lactație."}
+  - subcapitol: "Paciente cu simptome și semne nesugestive de cancer"
+    situatie: "Leziune probabil benignă (BI-RADS 3) – urmărire"
+    referinta: "Cf. ACR BI-RADS Atlas; NCCN Breast Cancer Screening and Diagnosis."
+    indicatii:
+      - {tip: G, examen: "Mamografie și/sau Ecografie (metoda care a detectat leziunea)", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Control la 6 luni, apoi la 12 și 24 luni dacă rămâne stabilă."}
+  - subcapitol: "Paciente asimptomatice"
+    situatie: "Screening suplimentar la sân dens (categorie BI-RADS C/D)"
+    referinta: "Cf. ACR Appropriateness Criteria – Supplemental Breast Cancer Screening Based on Breast Density (2024)."
+    indicatii:
+      - {tip: E, examen: "Ecografie", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Adjuvant la mamografia normală la sânul dens."}
+      - {tip: M, examen: "IRM", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "La risc suplimentar asociat densității."}
+
+duplicate: []
