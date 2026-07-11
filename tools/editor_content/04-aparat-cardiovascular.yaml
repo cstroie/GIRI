@@ -9,7 +9,7 @@ fyi:
   - "Boală carotidiană: rămâne la capitolul Cap (Neuro)."
   - "Ischemie mezenterică (diagnostic): rămâne la Aparat digestiv."
 
-chestiuni:
+discutii:
   - titlu: "Coronaro-CT propus la durere toracică cronică — se suprapune cu „Explorarea non-invazivă a ischemiei miocardice”"
     descriere: "Testele funcționale de stres sunt deja acoperite parțial de situația existentă."
     optiuni:
@@ -21,17 +21,17 @@ chestiuni:
       - "Situație proprie"
       - "Sub-caz la „Suspiciune de cardiomiopatie sau miocardită”"
 
-randuri_noi:
+propuneri:
   - subcapitol: "Cord"
     situatie: "Durere toracică cronică / suspiciune de boală coronariană stabilă – evaluare inițială"
     referinta: "Cf. ESC 2024 Chronic Coronary Syndromes; NICE CG95; ACR Appropriateness Criteria."
-    randuri:
+    indicatii:
       - {tip: T, examen: "Coronaro-CT", indicatie: "Indicat", grad: A, doza: "2–3", comentarii: "Primă linie la probabilitate pre-test joasă–intermediară."}
       - {tip: T, examen: "Scor de calciu coronarian (CT)", indicatie: "Indicat", grad: B, doza: "1", comentarii: "Stratificare de risc la pacienți selectați."}
   - subcapitol: "Cord"
     situatie: "Endocardită infecțioasă"
     referinta: "Cf. ESC 2023 Guidelines – Management of Endocarditis."
-    randuri:
+    indicatii:
       - {tip: E, examen: "Ecocardiografie transtoracică (ETT)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție: vegetații, regurgitări, abcese."}
       - {tip: E, examen: "Ecocardiografie transesofagiană (ETE)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "ETT neconcludentă, valve protetice, dispozitive."}
       - {tip: N, examen: "PET-CT cu 18F-FDG", indicatie: "Doar în cazuri particulare", grad: B, doza: "4", comentarii: "Criteriu major pe valvă protetică/dispozitive; embolii oculte."}
@@ -39,31 +39,31 @@ randuri_noi:
   - subcapitol: "Cord"
     situatie: "Fibrilație atrială – evaluare pre-procedurală / sursă cardioembolică"
     referinta: "Cf. ESC 2024 Guidelines – Atrial Fibrillation."
-    randuri:
+    indicatii:
       - {tip: E, examen: "Ecocardiografie transesofagiană (ETE)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Excludere tromb auricul stâng pre-cardioversie/ablație."}
       - {tip: T, examen: "CT cardiac (atriu stâng + vene pulmonare)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Cartografiere pre-ablație/pre-închidere LAA."}
   - subcapitol: "Cord"
     situatie: "Sarcoidoză cardiacă (prioritate medie)"
     referinta: "Cf. HRS 2014 Expert Consensus – Cardiac Sarcoidosis."
-    randuri:
+    indicatii:
       - {tip: M, examen: "IRM cardiac cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Edem/inflamație și fibroză (captare tardivă de gadolinium)."}
       - {tip: N, examen: "PET-CT cu 18F-FDG (protocol dedicat)", indicatie: "Indicat", grad: B, doza: "4", comentarii: "Inflamație activă; necesită pregătire dietetică."}
   - subcapitol: "Cord"
     situatie: "Evaluare structurală pre-TAVI/TAVR"
     referinta: "Cf. ESC/EACTS – Valvular Heart Disease; ACR Appropriateness Criteria."
-    randuri:
+    indicatii:
       - {tip: T, examen: "Angio-CT „de la aortă la arterele femurale”", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Annulus sizing, rădăcină aortică, căi de acces ilio-femural."}
   - subcapitol: "Cord"
     situatie: "Cardiotoxicitate sub terapie oncologică (monitorizarea funcției cardiace)"
     referinta: "Cf. 2022 ESC Guidelines on Cardio-oncology."
-    randuri:
+    indicatii:
       - {tip: E, examen: "Ecocardiografie (cu strain / GLS)", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Monitorizare FEVS/GLS pre/intra/post terapie cardiotoxică."}
       - {tip: M, examen: "IRM cardiac", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Ecocardiografie neconcludentă/discordantă."}
       - {tip: N, examen: "Angioscintigrafie cardiacă (MUGA)", indicatie: "Doar în cazuri particulare", grad: B, doza: "3", comentarii: "Alternativă pentru FEVS."}
   - subcapitol: "Sistem vascular"
     situatie: "Vasculită de vase mari (arterită Takayasu / arterită cu celule gigante)"
     referinta: "Cf. EULAR – Imaging in Large Vessel Vasculitis: 2023 Update."
-    randuri:
+    indicatii:
       - {tip: E, examen: "Eco-Doppler artere temporale și axilare", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție în arterita cu celule gigante: semnul „haloului”."}
       - {tip: M, examen: "Angio-IRM aortă și ramuri", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Modalitate preferată în Takayasu; fără iradiere."}
       - {tip: T, examen: "Angio-CT aortă și ramuri", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Alternativă la IRM."}
@@ -71,7 +71,7 @@ randuri_noi:
   - subcapitol: "Sistem vascular"
     situatie: "Urmărire post-EVAR/TEVAR aortic (endoleak)"
     referinta: "Cf. ESVS 2019 – Management of Abdominal Aorto-iliac Artery Aneurysms."
-    randuri:
+    indicatii:
       - {tip: T, examen: "Angio-CT aortic (faze arterială și tardivă)", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Standard de supraveghere: endoleak, sac anevrismal, migrare proteză."}
       - {tip: E, examen: "Eco-Doppler cu substanță de contrast (CEUS)", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Fără iradiere/contrast iodat; sensibil pentru endoleak tip II."}
       - {tip: M, examen: "Angio-IRM", indicatie: "Doar în cazuri particulare", grad: B, doza: "0", comentarii: "Insuficiență renală / alergie la contrast iodat."}

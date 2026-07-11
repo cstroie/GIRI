@@ -1,22 +1,21 @@
 #!/usr/bin/env python3
 """Generează pachetele .docx de trimis editorilor, câte unul per capitol.
 
-Fiecare pachet conține: modificări deja aplicate (informativ), chestiuni de
-decis, rânduri noi propuse și duplicate de rezolvat — preluate dintr-un
-fișier YAML de conținut distilat, unul per capitol, în tools/editor_content/.
-Conținutul curent al capitolului NU e reprodus în docx — fiecare pachet
-include o copie a GHID.csv complet (editorul are contextul acolo).
+Fiecare pachet conține: modificări deja aplicate (informativ), discuții
+deschise, propuneri de rânduri noi și duplicate de rezolvat — preluate
+dintr-un fișier YAML de conținut distilat, unul per capitol, în
+tools/editor_content/<NN-capitol>.yaml. Conținutul curent al capitolului NU
+e reprodus în docx (vine din GHID.csv, copiat separat înainte de trimitere).
 
 Rulează:
     python3 tools/generate_editor_docx.py pediatrie cardiovascular
     python3 tools/generate_editor_docx.py --all
 
-Scrie în pentru-editori/<NN-capitol>/<Capitol>.docx + GHID.csv — artefacte
-generate, nu se editează manual (se editează YAML-ul sursă + acest script).
+Scrie în pentru-editori/<NN-capitol>/<NN-capitol>.docx — artefact generat,
+nu se editează manual (se editează YAML-ul sursă + acest script).
 """
 import argparse
 import os
-import shutil
 import sys
 
 import yaml
@@ -25,7 +24,6 @@ from docx.shared import Pt, RGBColor
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.join(HERE, "..")
-CSV_PATH = os.path.join(REPO_ROOT, "GHID.csv")
 CONTENT_DIR = os.path.join(HERE, "editor_content")
 OUTPUT_ROOT = os.path.join(REPO_ROOT, "pentru-editori")
 
@@ -69,8 +67,8 @@ CONTENT_KEY_TO_SLUG = {
 ACCENT = RGBColor(0x1C, 0x5D, 0x8C)
 
 
-def load_content(content_key):
-    path = os.path.join(CONTENT_DIR, f"{content_key}.yaml")
+def load_content(slug):
+    path = os.path.join(CONTENT_DIR, f"{slug}.yaml")
     if not os.path.exists(path):
         return {}
     with open(path, encoding="utf-8") as f:
@@ -165,7 +163,7 @@ def add_draft_rows(doc, groups):
         headers = ["Tip", "Examen", "Indicație", "Grad", "Doză", "Comentarii", "Decizie", "Comentariu editor"]
         for cell, text in zip(table.rows[0].cells, headers):
             set_cell_text(cell, text, bold=True)
-        for row in group["randuri"]:
+        for row in group["indicatii"]:
             cells = table.add_row().cells
             set_cell_text(cells[0], row.get("tip", ""))
             set_cell_text(cells[1], row.get("examen", ""))
@@ -197,22 +195,20 @@ def add_duplicates(doc, items):
 
 
 def generate_chapter(slug):
-    capitol, fname = SLUG_TO_CHAPTER[slug]
-    content_key = next(k for k, s in CONTENT_KEY_TO_SLUG.items() if s == slug)
-    content = load_content(content_key)
+    _, display_name = SLUG_TO_CHAPTER[slug]
+    content = load_content(slug)
 
     doc = Document()
-    add_intro(doc, fname)
+    add_intro(doc, display_name)
     add_fyi(doc, content.get("fyi", []))
-    add_open_questions(doc, content.get("chestiuni", []))
-    add_draft_rows(doc, content.get("randuri_noi", []))
+    add_open_questions(doc, content.get("discutii", []))
+    add_draft_rows(doc, content.get("propuneri", []))
     add_duplicates(doc, content.get("duplicate", []))
 
     out_dir = os.path.join(OUTPUT_ROOT, slug)
     os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, f"{fname}.docx")
+    out_path = os.path.join(out_dir, f"{slug}.docx")
     doc.save(out_path)
-    shutil.copy(CSV_PATH, os.path.join(out_dir, "GHID.csv"))
     return out_path
 
 

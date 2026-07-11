@@ -5,7 +5,7 @@ fyi:
   - "Traumatisme (subcapitol nou): cranio-cerebral, maltratare (NAI), abdominal minor/major, coloană cervicală, torace, membru, politraumatism."
   - "Oncologie (subcapitol nou): tumori cerebrale/medulare, retinoblastom, neuroblastom, limfom, tumori osoase, rabdomiosarcom, histiocitoză Langerhans. „Masă abdominală palpabilă” mutată aici."
 
-chestiuni:
+discutii:
   - titlu: "Ecografie la „Masă abdominală sau pelvină palpabilă” — grad B, posibil inconsecvent"
     descriere: "Grad B; ecografia e cotată A în situații similare."
     optiuni:
@@ -27,18 +27,18 @@ chestiuni:
       - "Nu se adaugă"
       - "Se adaugă: Ecografie, doar cazuri particulare, grad C"
 
-randuri_noi:
+propuneri:
   - subcapitol: "Aparat digestiv"
     situatie: "Boală inflamatorie intestinală (Crohn) – bilanț și monitorizare"
     referinta: "Cf. ACR Appropriateness Criteria – Crohn Disease (considerații pediatrice); ESPGHAN/ESPR."
-    randuri:
+    indicatii:
       - {tip: M, examen: "Entero-IRM", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Referință la copil, neiradiantă: extindere, activitate, complicații."}
       - {tip: E, examen: "Ecografie de anse intestinale", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție și monitorizare: îngroșare parietală, Doppler."}
       - {tip: T, examen: "Entero-CT", indicatie: "Doar în cazuri particulare", grad: B, doza: "2–3", comentarii: "Doar context acut/ocluziv sau IRM indisponibil."}
   - subcapitol: "Aparat locomotor"
     situatie: "Artrită septică / osteomielită acută"
     referinta: "Cf. ACR Appropriateness Criteria – Osteomyelitis or Septic Arthritis-Child; Acutely Limping Child Up To Age 5."
-    randuri:
+    indicatii:
       - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Revărsat, ghidaj puncție — cheie diagnostică."}
       - {tip: M, examen: "IRM", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Referință: edem osos precoce, abces."}
       - {tip: G, examen: "Radiografie", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Inițial adesea normală; exclude alte cauze."}
@@ -46,35 +46,35 @@ randuri_noi:
   - subcapitol: "Aparat locomotor"
     situatie: "Artrită idiopatică juvenilă (AIJ) – bilanț articular"
     referinta: "Cf. EULAR-PReS – imaging in juvenile idiopathic arthritis (Colebatch-Bourn 2015)."
-    randuri:
+    indicatii:
       - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Sinovită, eroziuni precoce; articulații profunde (șold, ATM, sacro-iliace)."}
       - {tip: E, examen: "Ecografie (Doppler)", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Sinovită, revărsat; monitorizare, ghidaj infiltrații."}
   - subcapitol: "Torace, pulmon, cord"
     situatie: "Bronșiolită acută (sugar)"
     referinta: "Cf. AAP Clinical Practice Guideline – Bronchiolitis (2014)."
-    randuri:
+    indicatii:
       - {tip: G, examen: "Radiografie toracică", indicatie: "Neindicat", grad: B, doza: "1", comentarii: "Neindicat de rutină în forma tipică; doar forme severe/atipice."}
   - subcapitol: "Torace, pulmon, cord"
     situatie: "Malformații pulmonare congenitale (CPAM / sechestrare pulmonară) – bilanț postnatal"
     referinta: "Literatură de specialitate — sursă citabilă de confirmat."
-    randuri:
+    indicatii:
       - {tip: T, examen: "Angio-CT toracic cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Caracterizare + pedicul arterial sistemic — esențial pre-chirurgical."}
       - {tip: G, examen: "Radiografie toracică", indicatie: "Indicat", grad: C, doza: "1", comentarii: "Evaluare inițială; normală nu exclude leziunea."}
   - subcapitol: "Uro-nefrologie"
     situatie: "Hematurie (macroscopică / microscopică)"
     referinta: "Cf. ACR Appropriateness Criteria – Hematuria-Child."
-    randuri:
+    indicatii:
       - {tip: E, examen: "Ecografie reno-vezicală", indicatie: "Indicat", grad: B, doza: "0", comentarii: "Primă intenție: parenchim, dilatație, litiază, mase."}
   - subcapitol: "Uro-nefrologie"
     situatie: "Litiază renală (colică / suspiciune)"
     referinta: "Cf. ACR Appropriateness Criteria – Hematuria-Child (varianta durere/urolitiază)."
-    randuri:
+    indicatii:
       - {tip: E, examen: "Ecografie reno-vezicală", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Primă intenție: calculi, hidronefroză, fără iradiere."}
       - {tip: T, examen: "CT fără substanță de contrast, cu doză redusă", indicatie: "Doar cu aviz specializat", grad: B, doza: "2", comentarii: "Ecografie neconcludentă, suspiciune persistentă."}
   - subcapitol: "Gât și coloană vertebrală"
     situatie: "Mase cervicale congenitale (chist tireoglos, chist branhial)"
     referinta: "Cf. ACR Appropriateness Criteria – Neck Mass/Adenopathy (considerații pediatrice)."
-    randuri:
+    indicatii:
       - {tip: E, examen: "Ecografie", indicatie: "Indicat", grad: A, doza: "0", comentarii: "Localizare, chistic/solid; confirmă țesut tiroidian normal."}
       - {tip: M, examen: "IRM cu substanță de contrast", indicatie: "Doar cu aviz specializat", grad: B, doza: "0", comentarii: "Bilanț preoperator, leziuni profunde/complicate."}
       - {tip: T, examen: "CT cu substanță de contrast", indicatie: "Doar cu aviz specializat", grad: B, doza: "2–3", comentarii: "IRM indisponibil sau suprainfecție."}
