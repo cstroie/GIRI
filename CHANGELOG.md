@@ -20,6 +20,21 @@ indicații radioimagistice.
 
 ---
 
+## 🔒 FEATURE FREEZE — 2026-07-11
+
+Punct de referință înainte de a trimite editorilor modificările și sugestiile
+acumulate (vezi `EDITORIAL-decisions.md`). **Se revine la acest punct** (commit
+`79cd9c5`) când vin răspunsurile editorilor — orice lucru ulterior pornește de aici
+sau se rebazează peste deciziile primite.
+
+- **Commit:** `79cd9c5a8ece2377724210eaec5210c8532ee97b`
+- **Stare `GHID.csv`:** 1341 rânduri de date, NR.CRT contiguu 1..1341 (după a opta
+  renumerotare, urmată de sincronizarea referințelor NR din documentele însoțitoare).
+- **Chestiuni deschise pentru editori:** vezi `EDITORIAL-decisions.md` (ATM,
+  Cardiovascular §12, ordinea Cancer vs Traumatisme la ierarhia capitolelor).
+
+---
+
 ## Legendă
 
 - **ADĂUGAT** — situație / examen / rând nou.
