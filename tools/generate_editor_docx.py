@@ -20,7 +20,8 @@ import sys
 
 import yaml
 from docx import Document
-from docx.shared import Pt, RGBColor
+from docx.enum.section import WD_ORIENT
+from docx.shared import Cm, Pt, RGBColor
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.join(HERE, "..")
@@ -101,6 +102,16 @@ def style_header_row(table):
                 run.bold = True
 
 
+def set_col_widths(table, widths):
+    """Fixează lățimile coloanelor (în Pt). python-docx onorează lățimile doar
+    dacă autofit e dezactivat și lățimea e setată pe FIECARE celulă."""
+    table.autofit = False
+    table.allow_autofit = False
+    for row in table.rows:
+        for cell, w in zip(row.cells, widths):
+            cell.width = Pt(w)
+
+
 # --- secțiuni --------------------------------------------------------
 
 def add_intro(doc, chapter_name):
@@ -108,8 +119,13 @@ def add_intro(doc, chapter_name):
     p = doc.add_paragraph()
     run = p.add_run(
         "Vă rugăm să completați coloanele „Decizie” și „Comentariu” direct în tabele "
-        "(Aprobat / Respins / Amânat), fără să modificați structura lor. Alăturat: "
-        "GHID.csv, conținutul integral al ghidului."
+        "(Aprobat / Respins / Amânat), fără să modificați structura lor."
+    )
+    run.italic = True
+    p2 = doc.add_paragraph()
+    run = p2.add_run(
+        "Alăturat: GHID.csv, conținutul integral al ghidului, și „Decizii "
+        "structurale comune”."
     )
     run.italic = True
 
@@ -124,16 +140,15 @@ def add_fyi(doc, items):
 
 
 def add_open_questions(doc, items):
-    add_heading(doc, "2. Chestiuni de decis", level=2)
+    add_heading(doc, "2. Probleme de decis", level=2)
     if not items:
-        doc.add_paragraph("(nicio chestiune deschisă în acest capitol)")
+        doc.add_paragraph("(nicio problemă deschisă în acest capitol)")
         return
     table = doc.add_table(rows=1, cols=3)
     table.style = "Light Grid Accent 1"
-    headers = ["Chestiune", "Decizie", "Comentariu"]
+    headers = ["Problemă", "Decizie", "Comentariu"]
     for cell, text in zip(table.rows[0].cells, headers):
         set_cell_text(cell, text, bold=True)
-    table.columns[0].width = Pt(320)
     for item in items:
         cells = table.add_row().cells
         cell = cells[0]
@@ -145,6 +160,7 @@ def add_open_questions(doc, items):
             cell.add_paragraph(f"• {opt}")
         set_cell_text(cells[1], "")
         set_cell_text(cells[2], "")
+    set_col_widths(table, [420, 135, 135])
 
 
 def add_draft_rows(doc, groups):
@@ -173,6 +189,7 @@ def add_draft_rows(doc, groups):
             set_cell_text(cells[5], row.get("comentarii", ""))
             set_cell_text(cells[6], "")
             set_cell_text(cells[7], "")
+        set_col_widths(table, [40, 90, 150, 45, 55, 150, 75, 90])
         doc.add_paragraph()
 
 
@@ -186,12 +203,12 @@ def add_duplicates(doc, items):
     headers = ["Descriere", "Decizie", "Comentariu"]
     for cell, text in zip(table.rows[0].cells, headers):
         set_cell_text(cell, text, bold=True)
-    table.columns[0].width = Pt(320)
     for item in items:
         cells = table.add_row().cells
         set_cell_text(cells[0], item)
         set_cell_text(cells[1], "")
         set_cell_text(cells[2], "")
+    set_col_widths(table, [420, 135, 135])
 
 
 def generate_chapter(slug):
@@ -199,6 +216,10 @@ def generate_chapter(slug):
     content = load_content(slug)
 
     doc = Document()
+    section = doc.sections[0]
+    section.orientation = WD_ORIENT.LANDSCAPE
+    section.page_width, section.page_height = section.page_height, section.page_width
+    section.left_margin = section.right_margin = Cm(1.5)
     add_intro(doc, display_name)
     add_fyi(doc, content.get("fyi", []))
     add_open_questions(doc, content.get("discutii", []))
