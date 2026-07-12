@@ -182,6 +182,8 @@ CSS = """
   --particular: #9a6a00; --particular-bg: #fbf1dc;
   --detalii: #5b3fa0; --detalii-bg: #efe9f9;
   --terapeutic: #0b6e6e; --terapeutic-bg: #e2f4f4;
+  --grad: #4a5a7a; --grad-bg: #eef1f7;
+  --doza: #7a5a86; --doza-bg: #f2ecf6;
 }
 * { box-sizing: border-box; }
 body {
@@ -245,8 +247,8 @@ article.situatie h3 { font-size: 1rem; margin: 0 0 .4rem; }
   border-radius: 999px; border: 1px solid transparent; white-space: nowrap;
 }
 .badge.tip { background: var(--accent-bg); color: var(--accent); border-color: var(--accent); font-weight: 700; }
-.badge.grad { background: var(--bg); color: var(--muted); border-color: var(--border); }
-.badge.doza { background: var(--bg); color: var(--muted); border-color: var(--border); }
+.badge.grad { background: var(--grad-bg); color: var(--grad); }
+.badge.doza { background: var(--doza-bg); color: var(--doza); }
 .badge.terapeutic { background: var(--terapeutic-bg); color: var(--terapeutic); }
 .indic-indicat { background: var(--indicat-bg); color: var(--indicat); }
 .indic-particular { background: var(--particular-bg); color: var(--particular); }
