@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<meta name="theme-color" content="#0b0d10">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="IRIS">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="mobile-web-app-capable" content="yes">
+<title>IRIS</title>
+<script src="./support.js"></script>
+<script>
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){
+    navigator.serviceWorker.register('sw.js').then(function(reg){
+      reg.addEventListener('updatefound', function(){
+        var nw = reg.installing;
+        if(!nw) return;
+        nw.addEventListener('statechange', function(){
+          if(nw.state==='installed' && navigator.serviceWorker.controller){
+            window.dispatchEvent(new CustomEvent('iris-update-ready'));
+          }
+        });
+      });
+    }).catch(function(){});
+  });
+}
+</script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="iris-data.js"></script>
+<link rel="stylesheet" href="styles.css">
+</helmet>
+
+<template id="__bundler_thumbnail"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" fill="#0b0d10"/><circle cx="50" cy="50" r="20" fill="none" stroke="#b6f000" stroke-width="4"/><circle cx="50" cy="50" r="6" fill="#b6f000"/></svg></template>
+<div data-theme="dark" ref="{{ rootRef }}" class="app-root">
+  <div class="app-shell">
+
+    <!-- ===== HEADER ===== -->
+    <header data-noprint class="app-header">
+      <div role="button" onClick="{{ goHome }}" class="brand">
+        <div class="brand-mark"><span class="brand-dot"></span></div>
+        <div class="brand-text"><span class="brand-name">IRIS</span><span class="brand-sub">Indicații RadioImagistice Structurate</span></div>
+      </div>
+      <div class="header-actions">
+        <button onClick="{{ openLegend }}" title="Legendă" aria-label="Deschide legenda" class="icon-btn">ⓘ</button>
+        <button onClick="{{ toggleTheme }}" title="Temă" aria-label="Comută tema deschis/întunecat" class="icon-btn">{{ themeIcon }}</button>
+      </div>
+    </header>
+
+    <main class="app-main">
+
+      <!-- ============ HOME ============ -->
+      <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+      <div>
+        <div class="hero">
+          <h1 class="hero-title">{{ heroTitle }}</h1>
+          <p class="hero-sub">Ghid de indicații radioimagistice — {{ countSituations }} situații clinice, {{ countRecs }} recomandări. Caută un simptom sau răsfoiește pe capitole.</p>
+        </div>
+        <div role="button" onClick="{{ goSearch }}" class="search-trigger">
+          <span class="accent-icon">⌕</span>
+          <span class="search-trigger-text">Caută simptom, examen sau fragment de cuvânt…</span>
+          <span class="kbd">/</span>
+        </div>
+        <div class="try-label">ÎNCEARCĂ</div>
+        <div class="chip-row">
+          <sc-for list="{{ exampleChips }}" as="c" hint-placeholder-count="5">
+            <button onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.label }}</button>
+          </sc-for>
+        </div>
+
+        <sc-if value="{{ hasRecent }}">
+          <div class="recent-head">
+            <span class="eyebrow">VIZUALIZATE RECENT</span>
+            <button onClick="{{ clearRecent }}" class="link-btn">ȘTERGE</button>
+          </div>
+          <div class="recent-rail">
+            <sc-for list="{{ recentVM }}" as="q" hint-placeholder-count="3">
+              <div role="button" onClick="{{ q.onOpen }}" class="recent-card">
+                <div class="recent-crumb">{{ q.crumb }}</div>
+                <div class="recent-name">{{ q.name }}</div>
+                <div class="mt10"><span style="{{ q.bestStyle }}">{{ q.bestIcon }} {{ q.bestExam }}</span></div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+        <div class="browse-head">
+          <span class="eyebrow">RĂSFOIEȘTE · {{ countChapters }} CAPITOLE</span>
+        </div>
+        <div class="chapters-grid">
+          <sc-for list="{{ chaptersVM }}" as="ch" hint-placeholder-count="8">
+            <div role="button" onClick="{{ ch.onOpen }}" style="background:{{ ch.cardBg }};border:1px solid {{ ch.cardBorder }};border-radius:16px;padding:15px 15px 14px;cursor:pointer;display:flex;flex-direction:column;min-height:104px;transition:transform .12s" style-hover="transform:translateY(-2px)">
+              <span style="font:700 16px/1.15 'Space Grotesk',sans-serif;color:{{ ch.nameColor }}">{{ ch.name }}</span>
+              <div class="dots-row">
+                <sc-for list="{{ ch.dots }}" as="d" hint-placeholder-count="3"><span style="{{ d.style }}"></span></sc-for>
+              </div>
+              <span style="font:500 10.5px 'IBM Plex Mono',monospace;color:{{ ch.metaColor }};margin-top:auto;padding-top:10px">{{ ch.meta }}</span>
+            </div>
+          </sc-for>
+        </div>
+
+        <footer class="home-footer">
+          <div class="source-head">
+            <span class="eyebrow">SURSĂ & INFORMAȚII</span>
+          </div>
+          <p class="source-note">Conținut adaptat după <span class="txt-muted">Ghidul de utilizare a investigațiilor radiologice și imagistice medicale</span> — Ministerul Sănătății. Instrument de suport decizional; nu înlocuiește judecata clinică.</p>
+          <div class="center-row"><button onClick="{{ openAbout }}" class="pill-btn">Despre IRIS și sursa oficială</button></div>
+        </footer>
+      </div>
+      </sc-if>
+      <sc-if value="{{ isSearch }}">
+      <div class="view-pad">
+        <div class="searchbar">
+          <span class="accent-icon">⌕</span>
+          <input ref="{{ inputRef }}" value="{{ query }}" onInput="{{ onInput }}" placeholder="Caută simptom, examen sau fragment de cuvânt…" class="search-input" />
+          <sc-if value="{{ hasQuery }}"><button onClick="{{ clearQuery }}" aria-label="Șterge căutarea" class="clear-btn">✕</button></sc-if>
+        </div>
+
+        <sc-if value="{{ aiAvailable }}">
+        <div class="ai-row">
+          <button onClick="{{ onAI }}" style="{{ aiBtnStyle }}"><span style="{{ aiSpinStyle }}"></span>✨ Interpretează cu AI</button>
+          <span class="mono-faint-11">{{ aiHint }}</span>
+        </div>
+        </sc-if>
+        <sc-if value="{{ aiNote }}">
+          <div class="ai-note">✨ {{ aiNote }}</div>
+        </sc-if>
+
+        <!-- empty state -->
+        <sc-if value="{{ showSearchIntro }}">
+          <div class="mt26">
+            <div class="try-label-intro">ÎNCEARCĂ</div>
+            <div class="chip-row">
+              <sc-for list="{{ exampleChips }}" as="c" hint-placeholder-count="6"><button onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.label }}</button></sc-for>
+            </div>
+            <p class="intro-note">Poți căuta liber — în română, engleză sau termeni uzuali. Este suficient un fragment de cuvânt: IRIS găsește potriviri parțiale, înțelege sinonime și corectează greșeli de tastare. Caută și în comentarii și în denumirile examenelor.</p>
+          </div>
+        </sc-if>
+
+        <!-- results -->
+        <sc-if value="{{ hasResults }}">
+          <div class="results-label">{{ resultLabel }}</div>
+          <div class="list-col">
+            <sc-for list="{{ resultsVM }}" as="r" hint-placeholder-count="5">
+              <div role="button" onClick="{{ r.onOpen }}" class="card">
+                <div class="card-crumb">{{ r.crumb }}</div>
+                <div class="result-name"><sc-for list="{{ r.nameParts }}" as="p" hint-placeholder-count="1"><sc-if value="{{ p.hl }}"><mark class="hl">{{ p.text }}</mark></sc-if><sc-if value="{{ p.plain }}">{{ p.text }}</sc-if></sc-for></div>
+                <div class="meta-row">
+                  <span style="{{ r.bestStyle }}">{{ r.bestIcon }} {{ r.bestExam }}</span>
+                  <span class="mono-faint-11">{{ r.recMeta }}</span>
+                  <span class="dots-trail"><sc-for list="{{ r.dots }}" as="d" hint-placeholder-count="3"><span style="{{ d.style }}"></span></sc-for></span>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+        <sc-if value="{{ noResults }}">
+          <div class="empty">
+            <div class="empty-icon">⌕</div>
+            <div class="empty-title">Niciun rezultat pentru „{{ query }}"</div>
+            <p class="empty-sub">Încearcă alți termeni<sc-if value="{{ aiAvailable }}">, sau apasă „Interpretează cu AI"</sc-if>.</p>
+          </div>
+        </sc-if>
+      </div>
+      </sc-if>
+
+      <!-- ============ CHAPTER ============ -->
+      <sc-if value="{{ isChapter }}">
+      <div>
+        <div data-noprint class="crumbbar-9"><button onClick="{{ goHome }}" aria-label="Înapoi la Acasă" class="back-btn">‹</button><span role="button" onClick="{{ goHome }}" class="crumb-link">ACASĂ</span></div>
+        <h2 class="title-ch">{{ curChapterName }}</h2>
+        <div class="view-meta">{{ curChapterMeta }}</div>
+        <div class="list-col-9">
+          <sc-for list="{{ subsVM }}" as="s" hint-placeholder-count="6">
+            <div role="button" onClick="{{ s.onOpen }}" class="row-card">
+              <span class="row-num">{{ s.num }}</span>
+              <span class="row-name">{{ s.name }}</span>
+              <span class="mono-faint-11">{{ s.count }}</span>
+              <span class="chev">›</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+      </sc-if>
+
+      <!-- ============ SUBCHAPTER ============ -->
+      <sc-if value="{{ isSub }}">
+      <div>
+        <div data-noprint class="crumbbar"><button onClick="{{ backToChapter }}" aria-label="Înapoi la capitol" class="back-btn">‹</button><div class="crumb-wrap"><sc-for list="{{ subCrumbs }}" as="cr" hint-placeholder-count="1"><sc-if value="{{ cr.sep }}"><span class="crumb-sep">/</span></sc-if><span role="button" onClick="{{ cr.onClick }}" class="crumb-link">{{ cr.label }}</span></sc-for></div></div>
+        <h2 class="title-sub">{{ curSubName }}</h2>
+        <div class="view-meta">{{ curSubMeta }}</div>
+        <div class="list-col">
+          <sc-for list="{{ sitsVM }}" as="q" hint-placeholder-count="8">
+            <div role="button" onClick="{{ q.onOpen }}" class="card">
+              <div class="sit-name">{{ q.name }}</div>
+              <div class="meta-row">
+                <span style="{{ q.bestStyle }}">{{ q.bestIcon }} {{ q.bestExam }}</span>
+                <span class="mono-faint-11">{{ q.recMeta }}</span>
+                <span class="dots-trail"><sc-for list="{{ q.dots }}" as="d" hint-placeholder-count="3"><span style="{{ d.style }}"></span></sc-for></span>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+      </sc-if>
+
+      <!-- ============ SITUATION DETAIL ============ -->
+      <sc-if value="{{ isSit }}">
+      <div>
+        <div data-printonly class="print-head">
+          <div class="print-brand-row"><span class="print-brand">IRIS</span><span class="print-sub">Indicații RadioImagistice Structurate</span></div>
+        </div>
+        <div data-noprint class="crumbbar"><button onClick="{{ backToSub }}" aria-label="Înapoi la subcapitol" class="back-btn">‹</button><div class="crumb-wrap"><sc-for list="{{ sitCrumbs }}" as="cr" hint-placeholder-count="2"><sc-if value="{{ cr.sep }}"><span class="crumb-sep">/</span></sc-if><span role="button" onClick="{{ cr.onClick }}" class="crumb-link">{{ cr.label }}</span></sc-for></div></div>
+        <div data-printonly class="print-eyebrow">{{ sitPrintCrumb }}</div>
+        <h2 class="title-sit">{{ curSitName }}</h2>
+        <div data-noprint class="action-row">
+          <button onClick="{{ toggleFav }}" style="{{ favBtnStyle }}">{{ favIcon }} {{ favLabel }}</button>
+          <button onClick="{{ doShare }}" class="action-btn">⤴ Distribuie</button>
+          <button onClick="{{ doPrint }}" class="action-btn">⎙ Printează</button>
+        </div>
+        <sc-if value="{{ showFreeNudge }}">
+          <div data-noprint class="nudge-banner">
+            <span class="nudge-icon">◇</span>
+            <span class="nudge-text">Există o alternativă fără iradiere: <strong class="b600">{{ freeNudgeExam }}</strong></span>
+          </div>
+        </sc-if>
+        <div class="list-col-13">
+          <sc-for list="{{ recsVM }}" as="r" hint-placeholder-count="3">
+            <div data-rec class="rec-card">
+              <div style="position:absolute;left:0;top:16px;bottom:16px;width:3px;border-radius:3px;background:{{ r.barColor }}"></div>
+              <div class="rec-head">
+                <div class="rec-title-group"><span style="{{ r.chipStyle }}">{{ r.tipShort }}</span><span class="rec-exam">{{ r.exam }}</span></div>
+                <sc-if value="{{ r.hasGrade }}"><span class="grade-chip" title="{{ r.gradeTitle }}">GRAD {{ r.grade }}</span></sc-if>
+              </div>
+              <div style="display:inline-flex;align-items:center;gap:7px;margin-top:12px;{{ r.badgeStyle }}">{{ r.indIcon }} {{ r.indication }}</div>
+                            <sc-if value="{{ r.hasComments }}"><p class="rec-comments">{{ r.comments }}</p></sc-if>
+              <sc-if value="{{ r.hasOther }}"><div class="rec-other"><div class="rec-other-label">ALTE INFORMAȚII</div><p class="rec-other-text">{{ r.otherInfo }}</p></div></sc-if>
+              <sc-if value="{{ r.hasDose }}">
+              <div class="dose-row">
+                <div class="dose-segs"><sc-for list="{{ r.doseSegs }}" as="s" hint-placeholder-count="5"><span style="{{ s.style }}"></span></sc-for></div>
+                <span style="font:600 10.5px 'IBM Plex Mono',monospace;letter-spacing:.03em;white-space:nowrap;color:{{ r.doseColor }}">{{ r.doseLabel }}</span>
+              </div>
+              </sc-if>
+            </div>
+          </sc-for>
+        </div>
+        <div data-printonly class="print-foot">IRIS — Indicații RadioImagistice Structurate, adaptat după Ghidul de utilizare a investigațiilor radiologice și imagistice medicale (Ministerul Sănătății). Instrument de suport decizional — nu înlocuiește judecata clinică sau consultul de specialitate.</div>
+      </div>
+      </sc-if>
+
+      <!-- ============ FAVORITES ============ -->
+      <sc-if value="{{ isFavs }}">
+      <div>
+        <div class="favs-head-pad"><span class="eyebrow-sm">SALVATE</span></div>
+        <h2 class="title-favs">Situații salvate</h2>
+        <sc-if value="{{ hasFavs }}">
+          <div class="list-col">
+            <sc-for list="{{ favsVM }}" as="q" hint-placeholder-count="3">
+              <div role="button" onClick="{{ q.onOpen }}" class="card">
+                <div class="fav-crumb">{{ q.crumb }}</div>
+                <div class="sit-name">{{ q.name }}</div>
+                <div class="fav-meta-row"><span style="{{ q.bestStyle }}">{{ q.bestIcon }} {{ q.bestExam }}</span><span class="mono-faint-11">{{ q.recMeta }}</span></div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+        <sc-if value="{{ noFavs }}">
+          <div class="empty-2"><div class="empty-icon-2">★</div><div class="empty-title">Nicio situație salvată</div><p class="empty-sub">Apasă ★ pe o situație clinică pentru a o salva aici.</p></div>
+        </sc-if>
+      </div>
+      </sc-if>
+
+    </main>
+
+    <!-- ===== BOTTOM NAV ===== -->
+    <nav data-noprint class="app-nav">
+      <button onClick="{{ goHome }}" style="{{ navHomeStyle }}"><span class="nav-icon-17">⌂</span><span class="nav-label">ACASĂ</span></button>
+      <button onClick="{{ goSearch }}" style="{{ navSearchStyle }}"><span class="nav-icon-17">⌕</span><span class="nav-label">CAUTĂ</span></button>
+      <button onClick="{{ goFavs }}" style="{{ navFavStyle }}"><span class="nav-icon-15">★</span><span class="nav-label">SALVATE{{ favBadge }}</span></button>
+    </nav>
+
+    <!-- ===== TOAST ===== -->
+    <sc-if value="{{ toast }}">
+      <div data-noprint class="toast">{{ toast }}</div>
+    </sc-if>
+
+    <!-- ===== INSTALL PROMPT (Android/Chrome) ===== -->
+    <sc-if value="{{ updateReady }}">
+      <div data-noprint class="update-card">
+        <div class="snack-icon">↻</div>
+        <div class="snack-body"><div class="snack-title-135">Actualizare disponibilă</div><div class="snack-sub-faint">O versiune nouă a aplicației e pregătită.</div></div>
+        <button onClick="{{ applyUpdate }}" class="btn-accent-sm">Reîncarcă</button>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ installReady }}">
+      <div data-noprint class="install-card">
+        <div class="snack-icon">⤓</div>
+        <div class="snack-body"><div class="snack-title-14">Instalează IRIS</div><div class="snack-sub-muted">Acces rapid, offline, ecran complet</div></div>
+        <button onClick="{{ dismissInstall }}" class="snack-dismiss">Nu acum</button>
+        <button onClick="{{ doInstall }}" class="btn-accent">Instalează</button>
+      </div>
+    </sc-if>
+
+    <!-- ===== INSTALL HINT (iOS Safari) ===== -->
+    <sc-if value="{{ iosInstall }}">
+      <div data-noprint class="install-card">
+        <div class="snack-icon">⎋</div>
+        <div class="snack-body"><div class="snack-title-14">Adaugă IRIS pe ecranul principal</div><div class="snack-sub-muted">Apasă <b class="txt-strong">Partajează ⎋</b> apoi <b class="txt-strong">Adaugă la ecranul principal</b></div></div>
+        <button onClick="{{ dismissInstall }}" aria-label="Închide" class="snack-close">✕</button>
+      </div>
+    </sc-if>
+
+    <!-- ===== LEGEND OVERLAY ===== -->
+    <sc-if value="{{ legendOpen }}">
+      <div data-noprint onClick="{{ closeLegend }}" class="overlay">
+        <div onClick="{{ stop }}" class="modal">
+          <div class="modal-head"><h3 class="modal-title">Legendă</h3><button onClick="{{ closeLegend }}" aria-label="Închide legenda" class="modal-close">✕</button></div>
+          <div class="modal-body">
+
+          <div class="legend-label ll-first">RECOMANDARE</div>
+          <div class="legend-list">
+            <sc-for list="{{ legendInd }}" as="l" hint-placeholder-count="5"><div class="legend-ind-row"><span style="{{ l.badgeStyle }}">{{ l.icon }} {{ l.name }}</span><span class="legend-desc">{{ l.desc }}</span></div></sc-for>
+          </div>
+
+          <div class="legend-label">DOZĂ DE IRADIERE</div>
+          <div class="legend-list">
+            <sc-for list="{{ legendDose }}" as="d" hint-placeholder-count="5"><div class="legend-dose-row"><div class="legend-dose-segs">{{ d.segsEl }}</div><span style="font:600 12px 'Space Grotesk',sans-serif;color:{{ d.color }};flex:0 0 auto">{{ d.band }}</span><span class="legend-est">{{ d.est }}</span></div></sc-for>
+          </div>
+
+          <div class="legend-label">TIP INVESTIGAȚIE</div>
+          <div class="legend-mod-grid">
+            <sc-for list="{{ legendMod }}" as="m" hint-placeholder-count="10"><div class="legend-mod-row"><span style="{{ m.chipStyle }}">{{ m.short }}</span><span class="legend-mod-name">{{ m.name }}</span></div></sc-for>
+          </div>
+          <div class="legend-label ll-grad">GRAD RECOMANDARE</div>
+          <div class="legend-grad-text">A — dovezi solide · B — dovezi moderate · C — consens / dovezi limitate</div>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+
+    <!-- ===== ABOUT / SOURCE OVERLAY ===== -->
+    <sc-if value="{{ aboutOpen }}">
+      <div data-noprint onClick="{{ closeAbout }}" class="overlay">
+        <div onClick="{{ stop }}" class="modal">
+          <div class="modal-head"><h3 class="modal-title">Despre IRIS</h3><button onClick="{{ closeAbout }}" aria-label="Închide" class="modal-close">✕</button></div>
+          <div class="modal-body-2">
+
+          <div class="legend-label al-first">DESPRE GHIDUL OFICIAL</div>
+          <p class="about-p">IRIS transpune indicațiile din ghidul oficial de utilizare a investigațiilor radiologice și imagistice medicale într-un format digital ușor de utilizat. Ne ghidează două principii: alegerea investigației potrivite pentru fiecare situație clinică, la momentul potrivit, și preferința, pe cât posibil, a tehnicilor neiradiante.</p>
+          <p class="about-p">Scopul final: cea mai bună investigație pentru pacient, cu cea mai mică doză de radiații posibilă și fără a suprasolicita echipamentele și timpul echipei medicale.</p>
+
+          <div class="legend-label al-8">CUI SE ADRESEAZĂ</div>
+          <p class="about-p">Destinat profesioniștilor din sănătate ca instrument de suport decizional. Recomandările sunt orientative, nu reguli intangibile, și nu acoperă supraspecializările; ele trebuie corelate cu dotarea tehnică locală, experiența disponibilă și statusul pacientului. Decizia finală asupra examinării revine medicului radiolog / de medicină nucleară.</p>
+
+          <div class="legend-label">SURSĂ</div>
+          <a href="{{ sourceUrl }}" target="_blank" rel="noopener" class="link-card">
+            <span class="link-icon">⎋</span>
+            <span class="flex1"><span class="link-title">Ghid de utilizare a investigațiilor radiologice și imagistice medicale</span><span class="link-meta">Ministerul Sănătății · PDF · document extern</span></span>
+            <span class="chev">›</span>
+          </a>
+
+          <div class="legend-label al-20">APLICAȚIE</div>
+          <div class="about-rows">
+            <div class="about-row"><span class="about-key">Mentenanță</span><span>Dr. Costin Stroie</span></div>
+            <div class="about-row"><span class="about-key">Contact</span><a href="mailto:iris@eridu.eu.org" class="link-accent">iris@eridu.eu.org</a></div>
+            <div class="about-row"><span class="about-key">Licență</span><span>GPL-3.0</span></div>
+          </div>
+          <a href="{{ repoUrl }}" target="_blank" rel="noopener" class="link-card">
+            <span class="link-icon">⌥</span>
+            <span class="flex1"><span class="link-title">Cod sursă pe GitHub</span><span class="link-meta">github.com/cstroie/iris</span></span>
+            <span class="chev">›</span>
+          </a>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:420,&quot;height&quot;:880},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Aspect&quot;,&quot;options&quot;:[&quot;oklch(0.86 0.2 128)&quot;,&quot;oklch(0.78 0.16 200)&quot;,&quot;oklch(0.8 0.17 85)&quot;,&quot;oklch(0.72 0.17 25)&quot;]},&quot;defaultTheme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;dark&quot;,&quot;options&quot;:[&quot;dark&quot;,&quot;light&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Aspect&quot;}}">
+class Component extends DCLogic {
+  state = { view:'home', theme:'dark', chapterId:null, subId:null, sitId:null, query:'', results:[], favs:[], recent:[], access:{}, toast:'', legendOpen:false, aboutOpen:false, aiBusy:false, aiNote:'', updateReady:false };
+
+  // ---------- lifecycle ----------
+  componentDidMount(){ this._tries=0; this.initData(); this.initInstall(); this.initHistory(); this.initUpdate(); this.initSwipe(); }
+  initSwipe(){
+    this._ts=null;
+    this._touchStart=(e)=>{ const t=e.touches[0]; this._ts={x:t.clientX,y:t.clientY,time:Date.now()}; };
+    this._touchEnd=(e)=>{
+      if(!this._ts) return;
+      const t=e.changedTouches[0];
+      const dx=t.clientX-this._ts.x, dy=t.clientY-this._ts.y, dt=Date.now()-this._ts.time;
+      const canGoBack = this.state.legendOpen || this.state.aboutOpen || this.state.view!=='home';
+      if(this._ts.x<50 && dx>70 && Math.abs(dy)<60 && dt<600 && canGoBack){
+        try{ history.back(); }catch(e){}
+      }
+      this._ts=null;
+    };
+    document.addEventListener('touchstart', this._touchStart, {passive:true});
+    document.addEventListener('touchend', this._touchEnd, {passive:true});
+  }
+  initUpdate(){
+    this._upd=()=>this.setState({updateReady:true});
+    window.addEventListener('iris-update-ready', this._upd);
+  }
+  applyUpdate=()=>{ try{ location.reload(); }catch(e){} };
+  initInstall(){
+    // already installed (standalone display) → never prompt
+    const standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone===true;
+    let dismissed=false; try{ dismissed = localStorage.getItem('iris.installDismissed')==='1'; }catch(e){}
+    if(standalone || dismissed) return;
+    // Android/Chrome: capture the native prompt
+    this._bip=(e)=>{ e.preventDefault(); this._deferred=e; this.setState({installReady:true}); };
+    window.addEventListener('beforeinstallprompt', this._bip);
+    this._installed=()=>{ this._deferred=null; this.setState({installReady:false, iosInstall:false}); };
+    window.addEventListener('appinstalled', this._installed);
+    // iOS Safari: no API — show manual hint
+    const ua=navigator.userAgent||'';
+    const isIOS=/iPad|iPhone|iPod/.test(ua) || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
+    const isSafari=/^((?!chrome|android|crios|fxios|edgios).)*safari/i.test(ua);
+    if(isIOS && isSafari) this.setState({iosInstall:true});
+  }
+  doInstall=async ()=>{
+    if(!this._deferred) return;
+    this._deferred.prompt();
+    try{ await this._deferred.userChoice; }catch(e){}
+    this._deferred=null; this.setState({installReady:false});
+  };
+  dismissInstall=()=>{ try{ localStorage.setItem('iris.installDismissed','1'); }catch(e){} this.setState({installReady:false, iosInstall:false}); };
+  initData(){
+    if(!window.IRIS || !window.IRIS.chapters || !window.IRIS.chapters.length){
+      if(this._tries++ < 60){ setTimeout(()=>this.initData(), 50); return; }
+    }
+    const D = window.IRIS || {chapters:[],subchapters:[],situations:[],recommendations:[],legend:{},synonyms:[]};
+    this.D = D;
+    this.chById = new Map(D.chapters.map(c=>[c.id,c]));
+    this.subById = new Map(D.subchapters.map(s=>[s.id,s]));
+    this.sitById = new Map(D.situations.map(s=>[s.id,s]));
+    this.subsByChap = new Map(); D.subchapters.forEach(s=>{(this.subsByChap.get(s.chapterId)||this.subsByChap.set(s.chapterId,[]).get(s.chapterId)).push(s);});
+    this.sitsBySub = new Map(); D.situations.forEach(s=>{ if(s.placeholder) return; (this.sitsBySub.get(s.subchapterId)||this.sitsBySub.set(s.subchapterId,[]).get(s.subchapterId)).push(s);});
+    this.recsBySit = new Map(); D.recommendations.forEach(r=>{(this.recsBySit.get(r.situationId)||this.recsBySit.set(r.situationId,[]).get(r.situationId)).push(r);});
+    // search index
+    this.index = D.situations.filter(s=>!s.placeholder).map(s=>{
+      const ch=this.chById.get(s.chapterId), sub=this.subById.get(s.subchapterId);
+      const recs=this.recsBySit.get(s.id)||[];
+      const nameHay=this.norm([s.name,sub&&sub.name,ch&&ch.name].filter(Boolean).join(' '));
+      const bodyHay=this.norm(recs.map(r=>r.exam+' '+r.comments+' '+r.otherInfo).join(' '));
+      return {sit:s, chName:ch?ch.name:'', subName:sub?sub.name:'', name:nameHay, nameWords:nameHay.split(/\s+/), body:bodyHay};
+    });
+    // restore prefs
+    try{ const t=localStorage.getItem('iris.theme'); if(t) this.state.theme=t; }catch(e){}
+    try{ const f=JSON.parse(localStorage.getItem('iris.favs')||'[]'); if(Array.isArray(f)) this.state.favs=f; }catch(e){}
+    try{ const r=JSON.parse(localStorage.getItem('iris.recent')||'[]'); if(Array.isArray(r)) this.state.recent=r; }catch(e){}
+    try{ const a=JSON.parse(localStorage.getItem('iris.access')||'{}'); if(a&&typeof a==='object') this.state.access=a; }catch(e){}
+    if(this.props.defaultTheme && !localStorage.getItem('iris.theme')) this.state.theme=this.props.defaultTheme;
+    this.applyRoot();
+    this.forceUpdate();
+    // keyboard: "/" focuses search
+    this._key=(e)=>{ if(e.key==='/' && !/input|textarea/i.test(e.target.tagName)){ e.preventDefault(); this.goSearch(); } };
+    window.addEventListener('keydown',this._key);
+  }
+  componentWillUnmount(){ window.removeEventListener('keydown',this._key); if(this._bip)window.removeEventListener('beforeinstallprompt',this._bip); if(this._installed)window.removeEventListener('appinstalled',this._installed); if(this._pop)window.removeEventListener('popstate',this._pop); if(this._upd)window.removeEventListener('iris-update-ready',this._upd); if(this._touchStart)document.removeEventListener('touchstart',this._touchStart); if(this._touchEnd)document.removeEventListener('touchend',this._touchEnd); }
+  componentDidUpdate(){ this.applyRoot(); }
+  applyRoot(){ if(this.root){ this.root.setAttribute('data-theme', this.state.theme); const a=this.props.accent; if(a) this.root.style.setProperty('--accent', a); } }
+
+  // ---------- helpers ----------
+  norm(s){ return (s||'').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim(); }
+  get light(){ return this.state.theme==='light'; }
+  HUE={G:220,E:180,T:260,M:300,N:340,X:60,A:20,I:140,D:100,Z:null};
+  HERO=['Investigația potrivită, la momentul potrivit.','Examenul imagistic potrivit, de fiecare dată.','Ce investigație cauți?','De la situația clinică, la investigația potrivită.','Pornește de la simptom. Găsește investigația.','Indicația imagistică. Clarificată.','Mai puține investigații inutile. Mai puțină iradiere.','Găsește investigația imagistică adecvată.'];
+  BANDS=['Fără iradiere','Foarte redusă','Redusă','Medie','Ridicată'];
+  GRADE={A:'dovezi solide',B:'dovezi moderate',C:'consens / dovezi limitate'};
+  chipStyle(tip){
+    const H=this.HUE[tip], base='font:700 10px \'IBM Plex Mono\',monospace;padding:5px 8px;border-radius:7px;white-space:nowrap;letter-spacing:.02em;';
+    if(H==null) return base+(this.light?'background:#e7e9e3;color:#4b5563':'background:#1b1f26;color:#8b93a2');
+    return base+(this.light?`background:oklch(0.95 0.05 ${H});border:1px solid oklch(0.85 0.08 ${H});color:oklch(0.4 0.16 ${H})`:`background:oklch(0.28 0.07 ${H});color:oklch(0.84 0.14 ${H})`);
+  }
+  tipShort(tip){ const m=this.D.legend.modality; return (m&&m.values[tip])?m.values[tip].short:tip; }
+  tipName(tip){ const m=this.D.legend.modality; return (m&&m.values[tip])?m.values[tip].name:tip; }
+  dot(tip){ const H=this.HUE[tip]; const c=H==null?(this.light?'#b6bcc4':'#4a515c'):`oklch(0.68 0.19 ${H})`; return `width:7px;height:7px;border-radius:50%;background:${c};flex:0 0 auto`; }
+  dotOnAccent(tip){ const H=this.HUE[tip]; const c=H==null?'var(--accent-ink)':`oklch(0.4 0.19 ${H})`; return `width:7px;height:7px;border-radius:50%;background:${c};opacity:.8;flex:0 0 auto`; }
+  IND={
+    'Indicat':{h:150,icon:'●'},
+    'Doar în cazuri particulare':{h:88,icon:'◕'},
+    'Doar cu aviz specializat':{h:45,icon:'◑'},
+    'Este necesară justificare detaliată':{h:305,icon:'✎'},
+    'Neindicat în primă intenție':{h:35,icon:'◔'},
+    'Neindicat':{h:20,icon:'⊘'},
+    'Vezi Detalii Ghid!':{h:245,icon:'ⓘ'}
+  };
+  indMeta(ind){ return this.IND[ind]||{h:245,icon:'ⓘ'}; }
+  indIcon(ind){ return this.indMeta(ind).icon; }
+  badgeStyle(ind,size){
+    const H=this.indMeta(ind).h; const pad=size==='sm'?'4px 9px':'6px 11px'; const fs=size==='sm'?'11px':'12.5px';
+    const c=this.light?`background:oklch(0.95 0.05 ${H});border:1px solid oklch(0.8 0.1 ${H});color:oklch(0.4 0.17 ${H})`
+                      :`background:oklch(0.25 0.06 ${H});border:1px solid oklch(0.38 0.09 ${H});color:oklch(0.84 0.15 ${H})`;
+    return `${c};padding:${pad};border-radius:9px;font:600 ${fs} 'Space Grotesk',sans-serif;white-space:nowrap`;
+  }
+  badgeBar(ind){ const H=this.indMeta(ind).h; return this.light?`oklch(0.58 0.17 ${H})`:`oklch(0.72 0.16 ${H})`; }
+  doseFill(level){ const H={0:150,1:128,2:78,3:45,4:26}[level]; return this.light?`oklch(0.58 0.17 ${H})`:`oklch(0.76 0.17 ${H})`; }
+  doseTextColor(level){ const H={0:150,1:128,2:78,3:45,4:26}[level]; return this.light?`oklch(0.46 0.16 ${H})`:`oklch(0.8 0.15 ${H})`; }
+  doseSegs(level){ const fill=this.doseFill(level); const arr=[]; for(let i=0;i<5;i++){ const on=i<level; arr.push({style:`width:17px;height:7px;border-radius:2px;background:${on?fill:'var(--dose-empty)'}`}); } return arr; }
+  doseInfo(r){
+    if(r.doseMin==null && r.doseMax==null) return {hasDose:false};
+    const lvl = r.doseMax!=null?r.doseMax:r.doseMin;
+    const mn = r.doseMin!=null?r.doseMin:lvl;
+    const band=this.BANDS[lvl]||'';
+    let label;
+    if(lvl===0) label='FĂRĂ IRADIERE';
+    else if(mn!==lvl && this.BANDS[mn]) label=`IRADIERE ${this.BANDS[mn].toUpperCase()}–${band.toUpperCase()}`;
+    else label=`IRADIERE ${band.toUpperCase()}`;
+    return {hasDose:true, level:lvl, segs:this.doseSegs(lvl), color:this.doseTextColor(lvl), label};
+  }
+  DIAC={a:'[aăâ]',i:'[iî]',s:'[sșş]',t:'[tțţ]'};
+  highlightRegex(q){
+    const raw=(q||'').trim(); if(raw.length<2) return null;
+    const esc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    const tokens=raw.split(/\s+/).filter(t=>t.length>1);
+    if(!tokens.length) return null;
+    const parts=tokens.map(t=>t.toLowerCase().split('').map(ch=>this.DIAC[ch]||esc(ch)).join(''));
+    try{ return new RegExp('('+parts.join('|')+')','gi'); }catch(e){ return null; }
+  }
+  highlightParts(text, re){
+    if(!re) return [{text, hl:false, plain:true}];
+    const segs=text.split(re);
+    if(segs.length<=1) return [{text, hl:false, plain:true}];
+    return segs.filter(s=>s!=='').map(s=>{ re.lastIndex=0; const isMatch=re.test(s) && s.length && new RegExp('^(?:'+re.source+')$','i').test(s); return {text:s, hl:isMatch, plain:!isMatch}; });
+  }
+  bestRec(recs){ // most-indicated (lowest tier)
+    const tier=r=>{const v=this.D.legend.indication&&this.D.legend.indication.values[r.indication]; return v?(v.tier||9):9;};
+    return recs.slice().sort((a,b)=>tier(a)-tier(b))[0];
+  }
+  dotsFor(recs){ const seen=[]; recs.forEach(r=>{ if(!seen.includes(r.tip)) seen.push(r.tip); }); return seen.slice(0,4).map(t=>({style:this.dot(t)})); }
+  sitCard(sit, onOpen, withCrumb){
+    const recs=this.recsBySit.get(sit.id)||[]; const best=this.bestRec(recs);
+    const bestInd=best?best.indication:'';
+    const ch=this.chById.get(sit.chapterId), sub=this.subById.get(sit.subchapterId);
+    return {
+      name:sit.name, onOpen,
+      crumb: withCrumb?`${ch?ch.name:''} › ${sub?sub.name:''}`:'',
+      bestExam: best?best.exam:'—', bestIcon:this.indIcon(bestInd),
+      bestStyle: this.badgeStyle(bestInd,'sm'),
+      recMeta: recs.length+(recs.length===1?' recomandare':' recomandări'),
+      dots: this.dotsFor(recs)
+    };
+  }
+
+  // ---------- navigation ----------
+  scrollTop(){ requestAnimationFrame(()=>{ try{window.scrollTo(0,0);}catch(e){} }); }
+  SNAP=['view','chapterId','subId','sitId','query','legendOpen','aboutOpen'];
+  snapshot(patch){ const s={}; this.SNAP.forEach(k=>{ s[k]=(patch&&k in patch)?patch[k]:this.state[k]; }); return s; }
+  navTo(patch,opts){ try{ history.pushState(this.snapshot(patch),''); }catch(e){} this.setState(patch); if(!(opts&&opts.noScroll)) this.scrollTop(); }
+  initHistory(){
+    this._pop=(e)=>{ const s=e.state; if(!s){ this.setState({view:'home',legendOpen:false,aboutOpen:false}); this.scrollTop(); return; }
+      const patch={}; this.SNAP.forEach(k=>{ if(k in s) patch[k]=s[k]; });
+      this.setState(patch);
+      if(patch.view==='search' && patch.query) this.runSearch(patch.query);
+      this.scrollTop();
+    };
+    window.addEventListener('popstate', this._pop);
+    try{ history.replaceState(this.snapshot(),''); }catch(e){}
+  }
+  goHome=()=>{ this.navTo({view:'home',legendOpen:false,aboutOpen:false}); };
+  goSearch=()=>{ this.navTo({view:'search',legendOpen:false,aboutOpen:false}); setTimeout(()=>{ if(this.input) this.input.focus(); },60); };
+  goFavs=()=>{ this.navTo({view:'favs',legendOpen:false,aboutOpen:false}); };
+  openChapter=(id)=>{ this.navTo({view:'chapter',chapterId:id,legendOpen:false}); };
+  openSub=(id)=>{ const s=this.subById.get(id); this.navTo({view:'sub',subId:id,chapterId:s?s.chapterId:this.state.chapterId,legendOpen:false}); };
+  openSit=(id)=>{ const s=this.sitById.get(id); const recent=[id,...(this.state.recent||[]).filter(x=>x!==id)].slice(0,10); const access={...(this.state.access||{})}; if(s) access[s.chapterId]=(access[s.chapterId]||0)+1; try{localStorage.setItem('iris.recent',JSON.stringify(recent));localStorage.setItem('iris.access',JSON.stringify(access));}catch(e){} this.navTo({view:'sit',sitId:id,subId:s?s.subchapterId:this.state.subId,chapterId:s?s.chapterId:this.state.chapterId,legendOpen:false,recent,access}); };
+  clearRecent=()=>{ try{localStorage.removeItem('iris.recent');}catch(e){} this.setState({recent:[]}); };
+  backToChapter=()=>{ this.navTo({view:'chapter'}); };
+  backToSub=()=>{ this.navTo({view:'sub'}); };
+  toggleTheme=()=>{ const t=this.light?'dark':'light'; this.setState({theme:t}); try{localStorage.setItem('iris.theme',t);}catch(e){} };
+  openLegend=()=>this.navTo({legendOpen:true},{noScroll:true});
+  closeLegend=()=>{ if(this.state.legendOpen && history.state && history.state.legendOpen){ history.back(); } else this.setState({legendOpen:false}); };
+  openAbout=()=>this.navTo({aboutOpen:true},{noScroll:true});
+  closeAbout=()=>{ if(this.state.aboutOpen && history.state && history.state.aboutOpen){ history.back(); } else this.setState({aboutOpen:false}); };
+  stop=(e)=>{ e.stopPropagation(); };
+
+  // ---------- search ----------
+  onInput=(e)=>{ const q=e.target.value; this.setState({query:q, aiNote:''}); this.runSearch(q); };
+  setQuery=(q)=>{ this.navTo({view:'search',query:q,aiNote:''}); this.runSearch(q); setTimeout(()=>{ if(this.input) this.input.focus(); },60); };
+  clearQuery=()=>{ this.setState({query:'',results:[],aiNote:''}); if(this.input) this.input.focus(); };
+  lev(a,b){ const m=a.length,n=b.length; if(Math.abs(m-n)>1) return 2; const d=[]; for(let i=0;i<=m;i++)d[i]=[i]; for(let j=0;j<=n;j++)d[0][j]=j; for(let i=1;i<=m;i++)for(let j=1;j<=n;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1)); return d[m][n]; }
+  expand(raw, tokens){
+    const set=new Set(tokens);
+    (this.D.synonyms||[]).forEach(g=>{
+      const hit=g.terms.some(t=>{ const nt=this.norm(t); return raw.includes(nt)||nt.includes(raw)||nt.split(/\s+/).some(w=>tokens.includes(w)); });
+      if(hit) g.expand.forEach(e=>this.norm(e).split(/\s+/).forEach(w=>{ if(w.length>1) set.add(w); }));
+    });
+    return [...set];
+  }
+  runSearch(q){
+    const raw=this.norm(q); if(raw.length<2){ this.setState({results:[]}); return; }
+    const tokens=raw.split(/\s+/).filter(t=>t.length>1);
+    const terms=this.expand(raw,tokens);
+    const orig=new Set(tokens);
+    const out=[];
+    for(const it of this.index){
+      let sc=0;
+      for(const t of terms){
+        const w=orig.has(t)?1:0.6;
+        if(it.name.includes(t)) sc+=4*w;
+        else if(it.body.includes(t)) sc+=1.4*w;
+        else if(t.length>=4 && it.nameWords.some(x=>Math.abs(x.length-t.length)<=1 && this.lev(x,t)<=1)) sc+=2.4*w;
+      }
+      if(sc>0) out.push({it,sc});
+    }
+    out.sort((a,b)=>b.sc-a.sc);
+    this.setState({results: out.slice(0,60).map(o=>o.it.sit)});
+  }
+  onAI=async ()=>{
+    if(this.state.aiBusy) return;
+    const q=this.state.query.trim(); if(!q){ if(this.input)this.input.focus(); return; }
+    this.setState({aiBusy:true, aiNote:''});
+    try{
+      const prompt=`Ești asistent pentru un ghid de indicații radioimagistice în limba română. Utilizatorul caută liber: "${q}". Returnează STRICT un array JSON de 3-7 termeni clinici în limba română (situații clinice, simptome, regiuni anatomice sau denumiri de examinări) care ar apărea într-un astfel de ghid și corespund intenției. Doar JSON, fără explicații. Exemplu format: ["perimetru cranian","macrocranie","hidrocefalie"]`;
+      const resp=await window.claude.complete(prompt);
+      let terms=[]; const m=resp&&resp.match(/\[[\s\S]*\]/); if(m){ try{ terms=JSON.parse(m[0]); }catch(e){} }
+      terms=(terms||[]).filter(t=>typeof t==='string').slice(0,7);
+      if(terms.length){
+        const norm=terms.map(t=>this.norm(t)).filter(Boolean);
+        const words=new Set(); norm.forEach(t=>t.split(/\s+/).forEach(w=>{if(w.length>1)words.add(w);}));
+        const arr=[...words]; const out=[];
+        for(const it of this.index){ let sc=0; for(const t of arr){ if(it.name.includes(t))sc+=4; else if(it.body.includes(t))sc+=1.4; } if(sc>0)out.push({it,sc}); }
+        out.sort((a,b)=>b.sc-a.sc);
+        this.setState({results:out.slice(0,60).map(o=>o.it.sit), aiNote:`Interpretat ca: ${terms.join(', ')}`, aiBusy:false});
+      } else { this.setState({aiBusy:false, aiNote:'Nu am putut interpreta. Încearcă alți termeni.'}); }
+    }catch(e){ this.setState({aiBusy:false, aiNote:'Interpretarea AI nu este disponibilă acum (offline?). Se folosește căutarea locală.'}); }
+  }
+
+  // ---------- favorites / share / print ----------
+  toggleFav=()=>{ const id=this.state.sitId; const favs=this.state.favs.includes(id)?this.state.favs.filter(x=>x!==id):[...this.state.favs,id]; this.setState({favs, toast: this.state.favs.includes(id)?'Eliminat din salvate':'Salvat ★'}); try{localStorage.setItem('iris.favs',JSON.stringify(favs));}catch(e){} clearTimeout(this._t); this._t=setTimeout(()=>this.setState({toast:''}),1800); };
+  doPrint=()=>{ const prev=this.state.theme; const run=()=>{ try{window.print();}catch(e){} if(this.state.theme!==prev) this.setState({theme:prev}); }; if(prev!=='light'){ this.setState({theme:'light'}); setTimeout(run,140); } else { run(); } };
+  doShare=async ()=>{
+    const s=this.sitById.get(this.state.sitId); if(!s) return;
+    const recs=this.recsBySit.get(s.id)||[];
+    const text=`${s.name}\n\n`+recs.map(r=>`• ${r.exam} — ${r.indication}${r.grade?` (grad ${r.grade})`:''}`).join('\n')+`\n\n— IRIS · Indicații RadioImagistice Structurate`;
+    try{ if(navigator.share){ await navigator.share({title:'IRIS — '+s.name, text}); return; } }catch(e){ if(e&&e.name==='AbortError') return; }
+    try{ await navigator.clipboard.writeText(text); this.setState({toast:'Copiat în clipboard'}); }catch(e){ this.setState({toast:'Nu s-a putut copia'}); }
+    clearTimeout(this._t); this._t=setTimeout(()=>this.setState({toast:''}),1800);
+  }
+
+  // ---------- render ----------
+  renderVals(){
+    const D=this.D||{chapters:[],legend:{}}; const v=this.state.view;
+    const navStyle=(active)=>`flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px 0;border:0;background:transparent;cursor:pointer;color:${active?'var(--accent)':'var(--faint)'}`;
+    const chipS=`font:500 11.5px 'IBM Plex Mono',monospace;background:var(--surface-2);border:1px solid var(--border);color:var(--muted);padding:7px 12px;border-radius:20px;cursor:pointer;white-space:nowrap`;
+    const chipAccent=`font:500 11.5px 'IBM Plex Mono',monospace;background:var(--accent-dim);border:1px solid var(--accent-border);color:var(--accent);padding:7px 12px;border-radius:20px;cursor:pointer;white-space:nowrap`;
+    const examples=[
+      {label:'dispnee →', q:'dispnee', accent:true},
+      {label:'AVC', q:'accident vascular cerebral'},
+      {label:'lombalgie', q:'durere lombara'},
+      {label:'apendicită', q:'apendicita'},
+      {label:'colică renală', q:'colica renala'},
+      {label:'nodul tiroidian', q:'tiroida nodul'}
+    ].map(c=>({label:c.label, style:c.accent?chipAccent:chipS, onClick:()=>this.setQuery(c.q)}));
+
+    const vals={
+      rootRef:(el)=>{ this.root=el; if(el){ el.setAttribute('data-theme',this.state.theme); if(this.props.accent) el.style.setProperty('--accent',this.props.accent);} },
+      themeIcon:this.light?'☀':'☾',
+      isHome:v==='home', isSearch:v==='search', isChapter:v==='chapter', isSub:v==='sub', isSit:v==='sit', isFavs:v==='favs',
+      goHome:this.goHome, goSearch:this.goSearch, goFavs:this.goFavs, toggleTheme:this.toggleTheme,
+      openLegend:this.openLegend, closeLegend:this.closeLegend, stop:this.stop, legendOpen:this.state.legendOpen,
+      aboutOpen:this.state.aboutOpen, openAbout:this.openAbout, closeAbout:this.closeAbout,
+      sourceUrl:'https://ms.ro/media/documents/Ghid-de-utilizare-a-investiga%C8%9Biilor-radiologice-%C5%9Fi-imagistice-medicale.pdf',
+      repoUrl:'https://github.com/cstroie/iris',
+      toast:this.state.toast,
+      installReady:this.state.installReady, iosInstall:this.state.iosInstall, doInstall:this.doInstall, dismissInstall:this.dismissInstall,
+      updateReady:this.state.updateReady, applyUpdate:this.applyUpdate,
+      navHomeStyle:navStyle(v==='home'), navSearchStyle:navStyle(v==='search'), navFavStyle:navStyle(v==='favs'),
+      favBadge: this.state.favs.length?` ·${this.state.favs.length}`:'',
+      countSituations:(D.meta&&D.meta.counts.situations)||this.index?this.index.length:0,
+      countRecs:(D.meta&&D.meta.counts.recommendations)||0,
+      countChapters:D.chapters.length,
+      exampleChips:examples
+    };
+
+    // HOME chapters
+    if(v==='home'){
+      if(!this._heroTitle){ const H=this.HERO; this._heroTitle=H[Math.floor(Math.random()*H.length)]; }
+      vals.heroTitle=this._heroTitle;
+      const recent=(this.state.recent||[]).map(id=>this.sitById.get(id)).filter(Boolean);
+      vals.hasRecent=recent.length>0; vals.clearRecent=this.clearRecent;
+      const acc=this.state.access||{}; const featuredSet=new Set(Object.keys(acc).filter(k=>acc[k]>0).sort((a,b)=>acc[b]-acc[a]).slice(0,3));
+      vals.recentVM=recent.slice(0,8).map(q=>{ const card=this.sitCard(q, ()=>this.openSit(q.id), true); card.crumb=card.crumb.toUpperCase(); return card; });
+      vals.chaptersVM=D.chapters.map((c,i)=>{
+        const recs=(this.sitsBySub.get?0:0);
+        const subs=this.subsByChap.get(c.id)||[];
+        const featured=featuredSet.has(c.id);
+        const dots=[]; const tipset=[];
+        subs.forEach(s=>{ (this.sitsBySub.get(s.id)||[]).forEach(q=>{ (this.recsBySit.get(q.id)||[]).forEach(r=>{ if(!tipset.includes(r.tip))tipset.push(r.tip); }); }); });
+        return {
+          name:c.name, onOpen:()=>this.openChapter(c.id),
+          cardBg: 'var(--surface)',
+          cardBorder: featured?'var(--accent-border)':'var(--border)',
+          nameColor: 'var(--text)',
+          metaColor: 'var(--faint)',
+          meta:`${subs.length} ${subs.length===1?'subcapitol':'subcapitole'} · ${c.count} situații`,
+          dots: tipset.slice(0,3).map(t=>({style:this.dot(t)}))
+        };
+      });
+    }
+
+    // SEARCH
+    if(v==='search'){
+      const hasQ=this.state.query.trim().length>0;
+      const res=this.state.results||[];
+      vals.query=this.state.query; vals.hasQuery=hasQ;
+      vals.inputRef=(el)=>{ this.input=el; };
+      vals.onInput=this.onInput; vals.clearQuery=this.clearQuery;
+      vals.aiAvailable = typeof window!=='undefined' && window.claude && typeof window.claude.complete==='function';
+      vals.aiBusy=this.state.aiBusy; vals.aiNote=this.state.aiNote;
+      vals.aiHint = this.state.aiBusy?'Se interpretează…':'căutare non-specifică';
+      vals.aiBtnStyle=`display:inline-flex;align-items:center;gap:8px;border:1px solid var(--accent-border);background:var(--accent-dim);color:var(--accent);border-radius:11px;padding:9px 14px;font:600 12.5px 'Space Grotesk',sans-serif;cursor:${this.state.aiBusy?'default':'pointer'};opacity:${this.state.aiBusy?.6:1}`;
+      vals.aiSpinStyle = this.state.aiBusy?`width:12px;height:12px;border:2px solid var(--accent);border-right-color:transparent;border-radius:50%;display:inline-block;animation:irisspin .7s linear infinite`:'display:none';
+      vals.aiSpin=this.state.aiBusy; vals.onAI=this.onAI;
+      vals.showSearchIntro = !hasQ;
+      vals.hasResults = hasQ && res.length>0;
+      vals.noResults = hasQ && this.norm(this.state.query).length>=2 && res.length===0;
+      vals.resultLabel = `${res.length} ${res.length===1?'REZULTAT':'REZULTATE'}`;
+      const hlRe=this.highlightRegex(this.state.query);
+      vals.resultsVM = res.map(sit=>this.sitCard(sit, ()=>this.openSit(sit.id), true)).map((c,i)=>({...c,
+        crumb:c.crumb.toUpperCase(),
+        nameParts:this.highlightParts(c.name, hlRe)
+      }));
+    }
+
+    // CHAPTER
+    if(v==='chapter'){
+      const c=this.chById.get(this.state.chapterId);
+      vals.curChapterName=c?c.name:''; vals.curChapterMeta=c?`${(this.subsByChap.get(c.id)||[]).length} subcapitole · ${c.count} situații`:'';
+      vals.subsVM=(this.subsByChap.get(this.state.chapterId)||[]).map((s,i)=>({
+        name:s.name, count:s.count+'', num:String(i+1).padStart(2,'0'), onOpen:()=>this.openSub(s.id)
+      }));
+    }
+
+    // SUB
+    if(v==='sub'){
+      const s=this.subById.get(this.state.subId), c=this.chById.get(this.state.chapterId);
+      vals.curSubName=s?s.name:'';
+      vals.subCrumbs=[{label:'ACASĂ', onClick:this.goHome, sep:false},{label:(c?c.name:'').toUpperCase(), onClick:()=>this.openChapter(this.state.chapterId), sep:true}];
+      vals.curSubMeta=s?`${(this.sitsBySub.get(s.id)||[]).length} situații clinice`:'';
+      vals.backToChapter=this.backToChapter;
+      vals.sitsVM=(this.sitsBySub.get(this.state.subId)||[]).map(q=>this.sitCard(q, ()=>this.openSit(q.id), false));
+    }
+
+    // SIT
+    if(v==='sit'){
+      const s=this.sitById.get(this.state.sitId), c=this.chById.get(this.state.chapterId), sub=this.subById.get(this.state.subId);
+      vals.curSitName=s?s.name:'';
+      vals.sitPrintCrumb=[(c?c.name:''),(sub?sub.name:'')].filter(Boolean).join('  /  ');
+      vals.sitCrumbs=[{label:'ACASĂ', onClick:this.goHome, sep:false},{label:(c?c.name:'').toUpperCase(), onClick:()=>this.openChapter(this.state.chapterId), sep:true},{label:(sub?sub.name:'').toUpperCase(), onClick:()=>this.openSub(this.state.subId), sep:true}];
+      vals.backToSub=this.backToSub;
+      const fav=this.state.favs.includes(this.state.sitId);
+      vals.favActive=fav; vals.favIcon=fav?'★':'☆'; vals.favLabel=fav?'Salvat':'Salvează';
+      vals.favBtnStyle=`display:inline-flex;align-items:center;gap:7px;border:1px solid ${fav?'var(--accent-border)':'var(--border)'};background:${fav?'var(--accent-dim)':'var(--surface)'};color:${fav?'var(--accent)':'var(--muted)'};border-radius:11px;padding:9px 14px;font:600 13px 'Space Grotesk',sans-serif;cursor:pointer`;
+      vals.toggleFav=this.toggleFav; vals.doShare=this.doShare; vals.doPrint=this.doPrint;
+      const recs=this.recsBySit.get(this.state.sitId)||[];
+      // radiation-free nudge: best is irradiating, but a well-indicated non-irradiating option exists
+      const tierOf=r=>{const v=this.D.legend.indication&&this.D.legend.indication.values[r.indication]; return v?(v.tier||9):9;};
+      const best=this.bestRec(recs);
+      const bestDose=best?this.doseInfo(best):{hasDose:false};
+      const altFree=recs.find(r=>r!==best && tierOf(r)<=2 && this.doseInfo(r).level===0);
+      vals.showFreeNudge = !!(best && bestDose.hasDose && bestDose.level>0 && altFree);
+      vals.freeNudgeExam = altFree?altFree.exam:'';
+      vals.recsVM=recs.map(r=>{
+        const dose=this.doseInfo(r);
+        return {
+          tipShort:this.tipShort(r.tip), chipStyle:this.chipStyle(r.tip),
+          exam:r.exam, indication:r.indication||'—', indIcon:this.indIcon(r.indication),
+          badgeStyle:this.badgeStyle(r.indication), barColor:this.badgeBar(r.indication),
+          hasGrade:!!r.grade, grade:r.grade, gradeTitle: r.grade?`Grad ${r.grade} — ${this.GRADE[r.grade]||''}`:'',
+          hasComments:!!r.comments, comments:r.comments,
+          hasOther:!!r.otherInfo, otherInfo:r.otherInfo,
+          hasDose:dose.hasDose, doseSegs:dose.segs||[], doseColor:dose.color||'var(--muted)', doseLabel:dose.label||''
+        };
+      });
+    }
+
+    // FAVS
+    if(v==='favs'){
+      const favSits=this.state.favs.map(id=>this.sitById.get(id)).filter(Boolean);
+      vals.hasFavs=favSits.length>0; vals.noFavs=favSits.length===0;
+      vals.favsVM=favSits.map(q=>{ const card=this.sitCard(q, ()=>this.openSit(q.id), true); card.crumb=card.crumb.toUpperCase(); return card; });
+    }
+
+    // LEGEND
+    if(this.state.legendOpen){
+      const ind=D.legend.indication?D.legend.indication.values:{};
+      vals.legendInd=Object.keys(ind).map(k=>({name:k, desc:ind[k].desc, icon:this.indIcon(k), badgeStyle:this.badgeStyle(k,'sm')}));
+      const scale=(D.legend.dose&&D.legend.dose.scale)||[];
+      vals.legendDose=scale.map(d=>({ band:d.band, est:d.est, color:this.doseTextColor(d.level),
+        segsEl: React.createElement('span',{style:{display:'flex',gap:'3px'}}, this.doseSegs(d.level).map((s,i)=>React.createElement('span',{key:i,style:this.parseStyle(s.style)}))) }));
+      const mod=D.legend.modality?D.legend.modality.values:{};
+      vals.legendMod=Object.keys(mod).map(k=>({short:mod[k].short, name:mod[k].name, chipStyle:this.chipStyle(k)}));
+    }
+
+    return vals;
+  }
+  badgeBar2_removed(){}
+  parseStyle(str){ const o={}; str.split(';').forEach(p=>{ const i=p.indexOf(':'); if(i>0){ const k=p.slice(0,i).trim().replace(/-([a-z])/g,(m,c)=>c.toUpperCase()); o[k]=p.slice(i+1).trim(); } }); return o; }
+}
+</script>
+</body>
+</html>
