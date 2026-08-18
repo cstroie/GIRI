@@ -80,12 +80,25 @@ ghilimele duble (`"`), ghilimele interne dublate (`""`).
 
 ## Documentație și review
 
-- **`CHANGELOG.md`** — jurnalul tuturor modificărilor, **organizat pe capitole**, ca
-  fiecare capitol să poată fi trimis independent la review. Marchează modificările
-  ⛔ BREAKING (incompatibile cu versiunea aprobată).
-- **`DUPLICATE-review.md`** — evidența cvasi-duplicatelor (rezolvate + rămase de studiat).
-- **`THERAPEUTIC-review.md`** — cazurile duale/pe muchie pentru coloana „Terapeutic".
-- **`EDITORIAL-decisions.md`** — chestiuni deschise pentru decizia comună a editorilor.
+- **[`CHANGELOG.md`](CHANGELOG.md)** — jurnalul tuturor modificărilor, **organizat pe
+  capitole**, ca fiecare capitol să poată fi trimis independent la review. Marchează
+  modificările ⛔ BREAKING (incompatibile cu versiunea aprobată).
+- **[`DUPLICATE-review.md`](DUPLICATE-review.md)** — evidența cvasi-duplicatelor
+  (rezolvate + rămase de studiat).
+- **[`THERAPEUTIC-review.md`](THERAPEUTIC-review.md)** — cazurile duale/pe muchie pentru
+  coloana „Terapeutic".
+- **[`EDITORIAL-decisions.md`](EDITORIAL-decisions.md)** — chestiuni deschise pentru
+  decizia comună a editorilor.
+- **[`CLAUDE.md`](CLAUDE.md)** — context de lucru pentru Claude Code (reguli de aur,
+  ierarhia capitolelor, checklist de review).
+
+## Sursa originală
+
+`original/Ghid indicatii radioimagistice.csv` este fișierul CSV brut, dinaintea
+curățării/restructurării din acest repo (1655 rânduri, 12 coloane — schemă diferită de
+`GHID.csv`). Schema lui e documentată în
+[`original/SCHEMA.md`](original/SCHEMA.md) (mapare coloane CSV → câmpuri JSON, model
+relațional, convenții ID, curățările aplicate la conversie).
 
 ## Baseline
 
