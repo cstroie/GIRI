@@ -77,7 +77,7 @@ Criteria, RCR iRefer). **Schițe — de validat clinic de editori** înainte de 
 - **Bronșiolită acută (sugar).** Lipsă. Mesaj util (evită iradiere): Radiografie
   toracică = *Neindicat, grad B* de rutină în forma tipică; doar în forme severe/atipice
   sau agravare.
-- **Malformații pulmonare congenitale (CPAM/sechestrare)** — bilanț postnatal.
+- **Malformații pulmonare congenitale (CPAM/sechestru pulmonar)** — bilanț postnatal.
   CT toracic cu contrast = *Indicat, grad B*; Radiografie = *Indicat, grad C*.
 
 ### 3.4 Uro-nefrologie
@@ -135,15 +135,15 @@ confirmate real (2026-07-10):** ACR AC *Hematuria-Child*, *Osteomyelitis or Sept
 |---|---|---|---|---|---|
 | G | Radiografie toracică | Neindicat | B | 1/1 | Diagnostic clinic; radiografia de rutină NU e indicată în forma tipică (crește riscul de supradiagnostic de pneumonie și de antibioterapie inutilă). Doar în forme severe/atipice, agravare sau necesar de terapie intensivă. |
 
-#### (5) `Pediatrie › Torace, pulmon, cord` — **Malformații pulmonare congenitale (CPAM / sechestrare pulmonară) – bilanț postnatal**
-`Alte informații =` „Literatura de specialitate (bilanț imagistic postnatal CPAM/sechestrare) — *de confirmat sursa citabilă*."
+#### (5) `Pediatrie › Torace, pulmon, cord` — **Malformații pulmonare congenitale (CPAM / sechestru pulmonar) – bilanț postnatal**
+`Alte informații =` „Literatura de specialitate (bilanț imagistic postnatal CPAM/sechestru pulmonar) — *de confirmat sursa citabilă*."
 | Tip | Examen | Indicație | Grad | Doză Min/Max | Comentarii |
 |---|---|---|---|---|---|
-| T | Angio-CT toracic cu substanță de contrast | Indicat | B | 2/3 | Caracterizare postnatală: definește leziunea (CPAM vs sechestrare) și identifică **pediculul arterial sistemic** (de obicei aortic) al sechestrării — esențial pre-chirurgical. |
+| T | Angio-CT toracic cu substanță de contrast | Indicat | B | 2/3 | Caracterizare postnatală: definește leziunea (CPAM vs sechestru) și identifică **pediculul arterial sistemic** (de obicei aortic) al sechestrului — esențial pre-chirurgical. |
 | G | Radiografie toracică | Indicat | C | 1/1 | Evaluare inițială postnatală; o radiografie normală NU exclude leziunea (bilanțul se completează prin CT). |
 
 > Notă: editorialul propunea „CT toracic cu contrast"; rafinat la **angio-CT**, fiindcă maparea
-> aportului arterial sistemic (diagnosticul de sechestrare) e obiectivul-cheie. Sursa citabilă
+> aportului arterial sistemic (diagnosticul de sechestru) e obiectivul-cheie. Sursa citabilă
 > rămâne de fixat de editori.
 
 #### (6) `Pediatrie › Uro-nefrologie` — **Hematurie (macroscopică / microscopică)**

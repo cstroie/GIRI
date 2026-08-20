@@ -55,7 +55,7 @@ propuneri:
     indicatii:
       - {tip: G, examen: "Radiografie toracică", indicatie: "Neindicat", grad: B, doza: "1", comentarii: "Neindicat de rutină în forma tipică; doar forme severe/atipice."}
   - subcapitol: "Torace, pulmon, cord"
-    situatie: "Malformații pulmonare congenitale (CPAM / sechestrare pulmonară) – bilanț postnatal"
+    situatie: "Malformații pulmonare congenitale (CPAM / sechestru pulmonar) – bilanț postnatal"
     referinta: "Literatură de specialitate — sursă citabilă de confirmat."
     indicatii:
       - {tip: T, examen: "Angio-CT toracic cu substanță de contrast", indicatie: "Indicat", grad: B, doza: "2–3", comentarii: "Caracterizare + pedicul arterial sistemic — esențial pre-chirurgical."}
