@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generează pentru-editori/Decizii-structurale-comune.docx.
+"""Generează pentru-editori/decizii-structurale-comune.docx.
 
 Memo scurt, doar de citit (nu se completează), cu deciziile structurale care
 traversează capitolele — distilat din CLAUDE.md („Decizii deja luate” și
@@ -22,7 +22,7 @@ from docx.shared import Cm, Pt, RGBColor
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.join(HERE, "..")
 OUT_DIR = os.path.join(REPO_ROOT, "pentru-editori")
-OUT_PATH = os.path.join(OUT_DIR, "Decizii-structurale-comune.docx")
+OUT_PATH = os.path.join(OUT_DIR, "decizii-structurale-comune.docx")
 
 TITLU = "Decizii structurale comune — toate capitolele"
 SUBTITLU = ("Revizia ghidului de indicații radioimagistice aprobat în 2021 · "
