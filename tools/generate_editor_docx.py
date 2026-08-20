@@ -207,6 +207,9 @@ def set_cell_text(cell, text, bold=False, italic=False, size=9.5):
     cell.text = ""
     cell.vertical_alignment = WD_ALIGN_VERTICAL.TOP
     p = cell.paragraphs[0]
+    # `cell.text = ""` lasă un run gol; îl scoatem ca p.runs[0] să fie textul.
+    for r in list(p.runs):
+        r._r.getparent().remove(r._r)
     p.paragraph_format.space_after = Pt(2)
     p.paragraph_format.line_spacing = 1.0
     run = p.add_run(text or "")
@@ -299,8 +302,8 @@ def add_intro(doc, chapter_name):
         "Documentul cuprinde, pentru capitolul dumneavoastră: modificările deja "
         "aplicate (informativ), problemele rămase de decis, propunerile de "
         "conținut nou și duplicatele de rezolvat. Conținutul actual al "
-        "capitolului nu este reprodus aici — vine din fișierul GHID.csv, "
-        "transmis alături."
+        "capitolului nu este reprodus aici — vine din fișierele GHID.csv și "
+        "GHID.html, atașate."
     )
     doc.add_paragraph(
         "Vă rugăm să completați coloanele „Decizie” (Aprobat / Respins / Amânat) "
@@ -310,7 +313,7 @@ def add_intro(doc, chapter_name):
     )
     add_note(
         doc,
-        "Transmise alături: GHID.csv — conținutul integral al ghidului — și "
+        "Atașate: GHID.csv și GHID.html — conținutul integral al ghidului — și "
         "memoul „Decizii structurale comune”, de citit înaintea acestui pachet.",
     )
 
@@ -353,8 +356,8 @@ def add_draft_rows(doc, groups):
         add_note(doc, "Nicio propunere nouă în acest capitol.")
         return
     doc.add_paragraph(
-        "Gradele și dozele sunt orientative — se validează clinic. Fiecare rând "
-        "se aprobă, se respinge sau se amână separat."
+        "Gradele și dozele sunt orientative — necesită validare. Fiecare rând, "
+        "separat, se aprobă, se respinge sau se amână."
     )
     for group in groups:
         add_heading(doc, f"{group['subcapitol']} — {group['situatie']}", level=3)
