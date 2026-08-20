@@ -11,7 +11,7 @@ Rulează:
     python3 tools/generate_editor_docx.py pediatrie cardiovascular
     python3 tools/generate_editor_docx.py --all
 
-Scrie în pentru-editori/<NN-capitol>/<NN-capitol>.docx — artefact generat,
+Scrie în pentru-editori/<NN-capitol>.docx — artefact generat,
 nu se editează manual (se editează YAML-ul sursă + acest script).
 """
 import argparse
@@ -410,9 +410,8 @@ def generate_chapter(slug):
     add_draft_rows(doc, content.get("propuneri", []))
     add_duplicates(doc, content.get("duplicate", []))
 
-    out_dir = os.path.join(OUTPUT_ROOT, slug)
-    os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, f"{slug}.docx")
+    os.makedirs(OUTPUT_ROOT, exist_ok=True)
+    out_path = os.path.join(OUTPUT_ROOT, f"{slug}.docx")
     doc.save(out_path)
     return out_path
 
